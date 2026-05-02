@@ -1,0 +1,2983 @@
+{
+  "file name" : "13.pdf",
+  "number of pages" : 15,
+  "author" : "Agussalim Syamsuddin",
+  "title" : "Predictive maintenance based on anomaly detection in photovoltaic system using SCADA data and machine learning",
+  "creation date" : "D:20241216022202Z",
+  "modification date" : "D:20241216073003Z",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 1,
+    "bounding box" : [ 231.65, 748.518, 362.873, 760.251 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.04706, 0.46275, 0.62353]",
+    "content" : "Results in Engineering 24 (2024) 103589"
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 1,
+    "bounding box" : [ 228.416, 721.373, 369.068, 734.41 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Contents lists available at ScienceDirect"
+  }, {
+    "type" : "image",
+    "id" : 96,
+    "page number" : 1,
+    "bounding box" : [ 36.794, 666.539, 96.378, 731.736 ],
+    "source" : "13_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 98,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 229.096, 690.854, 368.423, 713.668 ],
+    "heading level" : 1,
+    "font" : "CharisSIL",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "Results in Engineering"
+  }, {
+    "type" : "paragraph",
+    "id" : 99,
+    "page number" : 1,
+    "bounding box" : [ 159.817, 667.711, 437.74, 674.884 ],
+    "font" : "Univers",
+    "font size" : 7.97,
+    "text color" : "[0.13, 0.59, 0.82]",
+    "content" : "journal homepage: www.sciencedirect.com/journal/results-in-engineering"
+  }, {
+    "type" : "image",
+    "id" : 100,
+    "page number" : 1,
+    "bounding box" : [ 501.052, 666.709, 557.745, 738.256 ],
+    "source" : "13_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "id" : 80,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.587, 593.504, 483.936, 632.738 ],
+    "heading level" : 2,
+    "font" : "CharisSIL",
+    "font size" : 13.45,
+    "text color" : "[0.0]",
+    "content" : "Predictive maintenance based on anomaly detection in photovoltaic system using SCADA data and machine learning"
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 1,
+    "bounding box" : [ 37.587, 556.847, 462.963, 587.539 ],
+    "font" : "CharisSIL",
+    "font size" : 10.56,
+    "text color" : "[0.0]",
+    "content" : "Agussalim Syamsuddina, Andrew Cahyo Adhia, Amie Kusumawardhanib, Toni Prahastoc, Achmad Widodoc,*"
+  }, {
+    "type" : "list",
+    "id" : 82,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 37.587, 525.066, 290.181, 553.216 ],
+    "numbering style" : "english letters",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 37.587, 542.244, 269.602, 553.216 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "a PT. PLN (Persero) Research Institute, Jl. Duren Tiga 102, Jakarta 12760, Indonesia",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 37.587, 533.683, 261.381, 544.656 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "b Department of Management, Universitas Diponegoro, Semarang 50275, Indonesia",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 37.587, 525.066, 290.181, 536.038 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "c Department of Mechanical Engineering, Universitas Diponegoro, Semarang 50275, Indonesia",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 104,
+    "page number" : 1,
+    "bounding box" : [ 500.902, 616.902, 529.402, 645.01 ],
+    "source" : "13_images/imageFile3.png"
+  }, {
+    "type" : "heading",
+    "id" : 83,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.587, 491.864, 115.689, 503.272 ],
+    "heading level" : 4,
+    "font" : "CharisSIL",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "A R T I C L E I N F O"
+  }, {
+    "type" : "paragraph",
+    "id" : 85,
+    "page number" : 1,
+    "bounding box" : [ 201.997, 491.864, 258.714, 503.272 ],
+    "font" : "CharisSIL",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "A B S T R A C T"
+  }, {
+    "type" : "paragraph",
+    "id" : 84,
+    "page number" : 1,
+    "bounding box" : [ 37.587, 430.729, 104.219, 484.017 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Keywords: Photovoltaic Predictive maintenance Anomaly detection Fault diagnosis Machine learning"
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 1,
+    "bounding box" : [ 201.997, 347.892, 557.685, 483.951 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Efforts to reduce the increase in average global warming by utilizing renewable energy continue to increase. One of the efforts is to build a solar power plant that is able to generate electricity by converting solar energy into electricity through a photovoltaic (PV) system. The existence of abundant, free, and year-round solar energy makes solar power plant promising in replacing fossil fuels used in thermal power plant. This paper aims to propose a predictive maintenance approach for PV systems using anomaly detection and fault diagnosis. In this study, the daily patterns of irradiance and corresponding AC output from a newly completed solar PV farm are investigated. Given the unlabelled nature of the data, traditional supervised learning methods are unsuitable for anomaly detection in this context. To address this, a long short-term memory autoencoder (LSTM-AE) model is employed to detect anomalies in the time series data. The LSTM-AE model is trained to reconstruct normal operation patterns, and deviations from these reconstructions are flagged as potential anomalies. This approach enables us to identify irregularities in the plant’s performance that could indicate system faults or inefficiencies, ultimately providing valuable insights into the maintenance and optimization of solar PV operations. The results show that the anomaly prediction can achieve reasonable accuracy with minimum test errors MSE, RMSE, and MAE of 10.95, 3.30, and 2.76, respectively, and can be applied to the PV system."
+  }, {
+    "type" : "heading",
+    "id" : 87,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.587, 305.815, 97.837, 318.852 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 88,
+    "page number" : 1,
+    "bounding box" : [ 37.587, 148.89, 288.693, 297.876 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The trend in using sustainable and renewable energy is increasing as well as raising energy demand both in industrial or housing sectors [1]. The emerging global issue of green energy is also pushing the government of many countries to create the policy that fosters the using of renewable energy. Solar energy is one of potential renewable energy resources that abundant and free to be utilized in year along. Solar energy can be used directly as in solar hot water collectors [2] or used to generate electricity with photovoltaic technology. Even hybrid technology is also being developed by combining photovoltaic technology to convert photon energy into electricity while the waste heat is used as a thermal water collector. This technology is known as the solar photovoltaic thermal water collector system [3]. The investment needed to solar energy harvesting is installation of PV system that convert the photon energy in the solar become electricity and store this in battery"
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "page number" : 1,
+    "bounding box" : [ 306.593, 245.891, 557.684, 332.174 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "storage system. In large capacity this system is called solar power plant system. However, with the growth of electricity production by PV system, some challenges also arise, for example, things related to performance of efficiency and suitable functioning of energy system. The such challenges must be considered in solar PV industry pertains to the program of replacing fossil fuels in thermal power plant and integration with other renewable electricity power resources such as wind and hydro power plant."
+  }, {
+    "type" : "paragraph",
+    "id" : 90,
+    "page number" : 1,
+    "bounding box" : [ 306.593, 151.782, 557.684, 248.497 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Along with the increasing use of PV system, the concern of maintenance for PV system also gains attention from researchers and expert. Although the quality of PV technology is now showing less demanding of maintenance since the manufacturer can guarantee of 20 years or even more operating time. However, the defects in PV system could be from climate or weather conditions [4–5], inherent substances in the air that trigger surface defects [6] and deficiency problem during manufacturing process that can escalate the failure’s probability in PV system [7]. According to [8], there are four groups of common causes in PV"
+  }, {
+    "type" : "paragraph",
+    "id" : 92,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 42.633, 122.479, 534.719, 134.212 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "* Corresponding author: Department of Mechanical Engineering, Universitas Diponegoro, Jl. Prof. Soedarto, SH., Tembalang Semarang 50275 Indonesia."
+  }, {
+    "type" : "paragraph",
+    "id" : 93,
+    "page number" : 1,
+    "bounding box" : [ 37.588, 103.317, 557.624, 124.631 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+    "content" : "E-mail addresses: agussalim.s@pln.co.id (A. Syamsuddin), andrew.cahyo@pln.co.id (A.C. Adhi), amiekusumawardhani@lecturer.undip.ac.id (A. Kusumawardhani), toniprahasto@lecturer.undip.ac.id (T. Prahasto), achmadwidodo@lecturer.undip.ac.id (A. Widodo)."
+  }, {
+    "type" : "paragraph",
+    "id" : 101,
+    "page number" : 1,
+    "bounding box" : [ 37.587, 76.785, 353.076, 98.042 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "https://doi.org/10.1016/j.rineng.2024.103589 Received 10 July 2024; Received in revised form 3 November 2024; Accepted 30 November 2024"
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 1,
+    "bounding box" : [ 37.52, 49.608, 557.572, 79.001 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Available online 1 December 2024 2590-1230/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license (http://creativecommons.org/licenses/bync/4.0/)."
+  }, {
+    "type" : "header",
+    "id" : 107,
+    "page number" : 2,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 43,
+      "page number" : 2,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 119,
+    "page number" : 2,
+    "bounding box" : [ 37.613, 565.144, 288.671, 738.259 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 1,
+      "level" : "Subtitle",
+      "page number" : 2,
+      "bounding box" : [ 48.076, 718.652, 105.277, 731.689 ],
+      "heading level" : 3,
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Nomenclatures"
+    }, {
+      "type" : "paragraph",
+      "id" : 2,
+      "page number" : 2,
+      "bounding box" : [ 48.076, 634.833, 195.381, 710.769 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "b: Bias Ct 1: Memory previous block ft: Forget gate calculation process Ht 1: Output of previous block i: Input gate calculation process I: Irradiance Ot: Output gate calculation process"
+    }, {
+      "type" : "list",
+      "id" : 3,
+      "level" : "1",
+      "page number" : 2,
+      "bounding box" : [ 48.076, 572.074, 159.637, 637.523 ],
+      "numbering style" : "english letters",
+      "number of list items" : 2,
+      "list items" : [ {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 48.076, 624.486, 130.732, 637.523 ],
+        "font" : "CharisSIL-Italic",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "P: Active power",
+        "kids" : [ ]
+      }, {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 48.076, 572.074, 159.637, 627.091 ],
+        "font" : "CharisSIL-Italic",
+        "font size" : 8.528,
+        "text color" : "[0.0]",
+        "content" : "Q: Percentile Sig,σ: Sigmoid function T: Ambient temperature W: Weighting function Xt: Input vector",
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 108,
+    "page number" : 2,
+    "bounding box" : [ 37.587, 501.148, 288.679, 545.963 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "malfunction: design, installation, operation and maintenance-related problems. Each cause can affect the performance of PV related to electricity production. That means, if there is something may go wrong so it will cause PV system out of the expected performance [9–10]."
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 2,
+    "bounding box" : [ 37.587, 386.489, 288.693, 504.124 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In PV system, modules are constructed and connected to form a series-parallel topology where several cells are connected in series to form a string to gain optimal voltage. If the strings are mismatch, it will decrease the overall system performances. The such string is then connected to another string in parallel to form array of PV system. Furthermore, PV array is linked to the inverter which converts electricity from DC to AC. Selection of proper inverter is also important to avoid low conversion efficiency. To reach maximum electricity generation, PV panels and other component must work together in its best performance. If anomalous or faults go undetected, this will lead to loss maximum electricity generation."
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 2,
+    "bounding box" : [ 37.587, 198.157, 288.701, 389.038 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Therefore, in response to the issue of faults or degradation in PV system, it is suggested to select and utilize suitable maintenance strategy which is capable for monitoring and detecting faults at early stage. Predictive maintenance (PdM) strategy is one of solutions that can perform condition monitoring, fault diagnosis dan prognosis of PV system. Usually, PdM requires many sensors to fulfill functionality in condition monitoring and provide information of actual conditions. Although PdM seems powerful as appropriate method for solar plant maintenance, however there is still gaps in the implementations, i.e., the cost for collecting the desired input data PV is expensive [11]. In addition, the architecture of PdM applied to solar power generation is complicated and requires a large amount of data for training and testing process. The variability of data input from sensor also high towards electricity output which tends to be fluctuated [12]. In case of generalization, PdM models usually tends be location-specific, this means it could not be applied for PV system with different location due to the difference of characteristics of data input when PdM models is built [13]."
+  }, {
+    "type" : "paragraph",
+    "id" : 111,
+    "page number" : 2,
+    "bounding box" : [ 37.587, 83.128, 288.695, 200.763 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "PdM models for PV system is generally developed by utilizing solar irradiance and ambient temperature data as training data and predict the active power as target data under normal operating conditions. Since the normal operating conditions are basis data used to develop the models, anomaly detection can be carried out by evaluating deviation of actual data from the baseline normal conditions. When an anomaly is detected, fault diagnosis can be conducted by applying diagnosis rules for fault justification at the system. In addition, PdM models is beneficial and can be constructed to optimize the scheduling of maintenance on a cost-effective basis before component of the system bereave their integrity during operation [14]."
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 2,
+    "bounding box" : [ 37.587, 51.721, 288.693, 85.677 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "This paper deals with the development of predictive maintenance for PV System that equipped by features for anomaly detection, diagnosis and prognosis. Data used to develop the proposed method is real data"
+  }, {
+    "type" : "paragraph",
+    "id" : 113,
+    "page number" : 2,
+    "bounding box" : [ 306.593, 656.118, 557.686, 742.402 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "acquired from PV System by using SCADA system. Sensor parameters involved in system development is ambient temperature, humidity, solar irradiance, wind direction and wind speed while the formulated parameter used is active power AC. Historical data of such parameters are utilized to train LSTM-AE for generating model prediction. The trained LSTM-AE is then used to estimate the active power AC produced by inverter. Residual analysis module is conducted to analyze the performance of active power estimation and anomaly detection."
+  }, {
+    "type" : "paragraph",
+    "id" : 114,
+    "page number" : 2,
+    "bounding box" : [ 306.593, 530.601, 557.679, 658.724 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In the proposed system, LSTM-AE excels in capturing temporal dependencies and complex patterns in PV system data, enabling effective system dynamics modeling and anomaly identification through reconstruction of normal data patterns. Its ability to learn meaningful data representations reduces the need for manual feature engineering. In addition, LSTM-AE for anomaly detection in PV system faces challenges in terms of computational cost, requires substantial high-quality data, and is susceptible to overfitting and noise, while accurately defining anomalies remains complex. Daily irradiance variations significantly impact LSTM-AE anomaly detection for photovoltaic panels, offering potential benefits in feature richness and anomaly differentiation while increasing model complexity, risk of overfitting, and false positive rate."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 2,
+    "bounding box" : [ 306.593, 446.923, 557.682, 533.207 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The rest of this paper is organized as follow: Section 2 describes overview of solar power plant; Section 3 present the structure of the proposed method including data acquisition process and presentation of LSTM-AE. Section 4 illustrates the model development process including data pre-processing through exploratory data analysis, training dan testing LSTM-AE. Finally, this paper ends with Section 5 that consists of conclusions of this study and giving some perspectives issues which relates to solar power plant."
+  }, {
+    "type" : "heading",
+    "id" : 116,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 306.593, 425.38, 371.257, 438.417 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "2. Related study"
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 2,
+    "bounding box" : [ 306.593, 132.451, 557.687, 417.498 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The related work of anomaly detection and predictive maintenance of PV system was carried out in [15] with the application of deep learning techniques [16]. They worked on investigation based on prediction of anomaly that occurs in PV system. Artificial neural network (ANN) was employed to develop model prediction by training process of solar irradiance and temperature data. Similar research of PV yields prediction was conducted in [17] which worked on irradiance and temperature data forecasting for prediction the active power in PV system. Lee in [18] performed research of a solar power forecasting technique by utilizing convolutional neural networks (CNN) and long–short-term memory (LSTM) networks. They empirically confirmed that their method can predict the solar power well with roughly estimated weather data obtained from national weather centers. Another research related to power forecasting in PV system that employs sky images information and tailored ANN techniques for predicting the weather and solar irradiation was investigated in [19]. Highly detailed energy yield forecasts were produced in their research for time horizons up to 15 min and resolution of one second. Al-Dahidi et al. in [20] proposed an ensemble approach of an optimized ANN for solar photovoltaics power prediction for 24 h horizon. Their proposed system was applied to 231 kWac capacity located on the rooftop of building and was claimed successful for power prediction with high confidence level up to 80 %. Moreover, the use of deep learning thru CNN and LSTM in photovoltaics power forecasting was reported in [21]. Their works used CNN model to discover nonlinear features and invariant structures exhibited in the historian power data and applied LSTM to model the temporal changes in the latest data PV and to estimate the power for the next future."
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 2,
+    "bounding box" : [ 306.593, 48.773, 557.667, 135.057 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The application of forecasting method using machine learning (ML) to support predictive maintenance has been reported in [22]. They presented a study of the state-of-the-art comparing the technique to forecast solar irradiance and ambient temperature and their relations with predictive maintenance models. This review included evaluation of the suitability of the model for PV system taking on their forecasting horizon, computational cost and improvement opportunities for future work in PV industry."
+  }, {
+    "type" : "footer",
+    "id" : 120,
+    "page number" : 2,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 2,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 121,
+    "page number" : 3,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 44,
+      "page number" : 3,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 128,
+    "page number" : 3,
+    "bounding box" : [ 81.638, 409.096, 513.638, 738.28 ],
+    "source" : "13_images/imageFile4.png"
+  }, {
+    "type" : "caption",
+    "id" : 129,
+    "page number" : 3,
+    "bounding box" : [ 228.586, 390.807, 366.677, 402.54 ],
+    "linked content id" : 128,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 1. Flowchart of the proposed method."
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 3,
+    "bounding box" : [ 37.588, 54.158, 288.7, 381.044 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Recently, research conducted in [23] explored three AI techniques – random forest (RF), deep neural networks (DNN) and LSTM for the task of prediction of short-term PV output power. The models were trained by weather and output data collected from PV farm. The performance of prediction achieved by two selected methods indicate that RF and DNN were able to produce accurate solar forecasts and were able to handle sudden changes and shifts in PV power output data. Fault detection of PV system that utilizes irradiance and temperature data was investigated in [24]. Their proposed method employed machine learning through logistic regression with cross-validation. The proposed method was aimed to detect and identify the faults in PV system. They claimed that their works reached satisfactory and could detect the majority faults that occurs in DC side of PV system. However, their works was based on simulated model not large-scale real PV system. In case of large-scale PV system, Xu et al. (2023) proposed a method for fault detection of PV system based on real-time data of maximum power point estimation (MPPE) by using curve fitting technique [25]. This technique was claimed as a simple but was able to fulfill the requirement of fault detection without additional hardware and measurement supports. Research on large-scale PV plant diagnosis scheme based on real-time system state identification was reported in [26]. It was similar to previous works in [25] which claimed the proposed method was very simple for doing fault diagnosis of PV system with no additional hardware for measurement. The analysis included both short- and long-term characteristics of the power generation system to mitigate disturbances and improve the robustness. The effectiveness of the proposed scheme was validated by simulations and experiments under a wide range of test conditions. A published paper that shows researchers who works in the area of fault diagnosis in PV system was summarized in [27]. According to this review, more than 650 papers have been published since 2010 based on AI methods for PV system fault detection. Interested readers"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 3,
+    "bounding box" : [ 306.592, 273.841, 557.68, 381.044 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "should read this paper for detailed information regarding the methods and results of each study report. This review was an innovative approach performed using statistical method namely bibliometric and an expert qualitative content analysis. Another report discussing model-based fault diagnostics in PV systems is available in [28]. This review discusses various performance modeling approaches, including empirical, analytical, and numerical models, highlighting the importance of model validation and calibration. This review presents a comprehensive analysis of model-based fault detection techniques that are useful for improving system management and maintenance."
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 3,
+    "bounding box" : [ 306.592, 137.892, 557.687, 276.446 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In this study, LSTM-AE is used because it excels in capturing temporal dependencies and complex patterns in PV system data, enabling effective system dynamics modeling and anomaly identification through reconstruction of normal data patterns. The proposed method deals with the development of a predictive maintenance model based on anomaly detection applied to PV systems with minimal computational complexity but beneficial in real application perspective. The expected outcome is a predictive maintenance model capable of providing hourly predictive alerts to alert operators and support them in the maintenance decisionmaking process. The model will be built using SCADA data acquired from PV power generation systems with one-minute interval acquisition and learning through a ML method called LSTM-AE to estimate the inverter model."
+  }, {
+    "type" : "heading",
+    "id" : 125,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 306.592, 116.916, 368.578, 129.954 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "3. Methodology"
+  }, {
+    "type" : "paragraph",
+    "id" : 126,
+    "page number" : 3,
+    "bounding box" : [ 306.592, 95.997, 425.15, 109.034 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "3.1. Proposed model’s architecture"
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 3,
+    "bounding box" : [ 306.592, 54.158, 557.673, 88.114 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The proposed method aims to predict an impending failure in PV system when the system still operation. Failure should be predicted when it appears at early stage by means of the proposed method before"
+  }, {
+    "type" : "footer",
+    "id" : 130,
+    "page number" : 3,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 3,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 131,
+    "page number" : 4,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 45,
+      "page number" : 4,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 141,
+    "page number" : 4,
+    "bounding box" : [ 45.638, 394.98, 549.638, 738.276 ],
+    "source" : "13_images/imageFile5.png"
+  }, {
+    "type" : "caption",
+    "id" : 142,
+    "page number" : 4,
+    "bounding box" : [ 234.935, 376.69, 360.332, 388.423 ],
+    "linked content id" : 141,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 2. Nusa penida solar power plant."
+  }, {
+    "type" : "paragraph",
+    "id" : 132,
+    "page number" : 4,
+    "bounding box" : [ 37.587, 270.212, 288.695, 366.927 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "they cause severe damages. Solar power plant operates a certain number of PV cells/modules and several modules will be connected to form string. PV array is composed of several string in parallel configuration and connected to DC/AC inverters. Usually, solar power plant is equipped with a sophisticated data acquisition module (SCADA system) that possible to suitable data collection, acquiring and storing the data of ambient temperature, solar irradiance, wind speed and direction, and generated AC power. The sampling interval also can be set up e.g., in one minute for obtaining adequate data."
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 4,
+    "bounding box" : [ 37.587, 102.856, 288.695, 272.761 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fig. 1 shows the flowchart of the proposed method to predict anomalies and generate predictive alarms in solar power generation systems. The description of the flowchart is as follows: the model of PV system/inverters is developed based on history data of the system to be monitored. A batch data of ambient temperature, solar irradiance and active power AC recorded from past operation power plant are trained to LSTM-AE in order to build knowledge of system. Once the model of PV system is successfully created, it can be used to estimate the condition of PV system through analysis of new online data from power plant. The results of analysis are including anomaly detection and fault diagnosis. The use of LSTM-AE is addressed to predict active power AC as output of inverters. This output is regarded under normal condition since the model is built based on normal condition operation. This output is then used to generate residuals between model output and actual online data from the power plant. Residual values that exceed operational threshold will result warnings."
+  }, {
+    "type" : "paragraph",
+    "id" : 134,
+    "page number" : 4,
+    "bounding box" : [ 37.587, 50.529, 288.675, 105.405 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In addition, this method employs autocorrelation function to highlight intrinsic periodicity of peaks carried in the residuals (for example daily residuals). The longest periodicity is used as parameter to determine triangular moving average (TMA). Using TMA, the trend of residuals can be highlighted in order to show a long-term of the residuals"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 4,
+    "bounding box" : [ 306.593, 322.483, 557.683, 366.927 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "trend which represent the area of degradation that can be identified through its derivative function. Finally, predictive alerts then can be generated from those warnings that appears in correspondence of positive value of trend derivative."
+  }, {
+    "type" : "paragraph",
+    "id" : 136,
+    "page number" : 4,
+    "bounding box" : [ 306.593, 299.805, 379.549, 312.842 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "3.2. Data acquisition"
+  }, {
+    "type" : "paragraph",
+    "id" : 137,
+    "page number" : 4,
+    "bounding box" : [ 306.593, 195.208, 557.677, 291.923 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The data used in this research was acquired from 3.5 MWp PV System that consists of 7778 PV modules. The such power plant is located in Nusa Penida Bali as shown by the geographical location in Fig. 2. SCADA system in Fig. 3 provides one-minute operational data acquired from environmental sensors: ambient temperature, solar irradiance (pyranometer) and wind speed and direction. Fig. 4 shows solar irradiance sensor (pyranometer) and wind speed and direction sensors installed at the power plant. The configuration of the PV system is depicted in Fig. 5 and is summarized as follow:"
+  }, {
+    "type" : "list",
+    "id" : 138,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 307.669, 142.564, 405.575, 187.325 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 307.669, 173.917, 394.178, 187.325 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "■ Inverter: #1- #9 (F1)",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 78,
+        "level" : "4",
+        "page number" : 4,
+        "bounding box" : [ 318.614, 153.367, 395.209, 176.892 ],
+        "numbering style" : "unordered",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 4,
+          "bounding box" : [ 318.614, 163.855, 390.56, 176.892 ],
+          "font" : "STIX-Regular",
+          "font size" : 7.97,
+          "text color" : "[0.0]",
+          "content" : "○ Zone B: 13 Strings",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 4,
+          "bounding box" : [ 318.614, 153.367, 395.209, 166.404 ],
+          "font" : "STIX-Regular",
+          "font size" : 7.97,
+          "text color" : "[0.0]",
+          "content" : "○ Zone C: 149 Strings",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 307.673, 142.564, 405.575, 155.972 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "■ Inverter: #10 - #18 (F2)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 139,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 318.614, 111.528, 395.606, 145.485 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 318.614, 132.448, 395.606, 145.485 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "○ Zone A: 111 Strings",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 318.614, 122.016, 390.56, 135.053 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "○ Zone B: 46 Strings",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 318.614, 111.528, 386.252, 124.565 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "○ Zone C: 4 Strings",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 4,
+    "bounding box" : [ 306.595, 48.769, 557.676, 103.645 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The data used for validation the proposed method was collected from 1 December 2022 to 30 September 2023 with data number 437,759 points. Table 1 shows the preliminary statistics of raw data sets of solar irradiance (W/m2) and ambient temperature ( ◦C) used in this study. The statistical properties included in the Table 1 are mean, minimum value"
+  }, {
+    "type" : "footer",
+    "id" : 143,
+    "page number" : 4,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 4,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 144,
+    "page number" : 5,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 46,
+      "page number" : 5,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 150,
+    "page number" : 5,
+    "bounding box" : [ 117.638, 174.784, 477.638, 738.256 ],
+    "source" : "13_images/imageFile6.png"
+  }, {
+    "type" : "caption",
+    "id" : 151,
+    "page number" : 5,
+    "bounding box" : [ 230.4, 156.495, 364.898, 168.228 ],
+    "linked content id" : 150,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 3. SCADA SySTEM IN POWER Plant."
+  }, {
+    "type" : "paragraph",
+    "id" : 145,
+    "page number" : 5,
+    "bounding box" : [ 37.587, 112.775, 288.685, 146.732 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(Min), quartiles (Q1, Q2, and Q3), maximum value (Max) and standard deviation (Std_Dev). Some of historical data will be used to build the LSTM-AE model and partly to test the model."
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 5,
+    "bounding box" : [ 37.587, 50.017, 288.693, 115.381 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The presentation of daily AC output power calculated in the inverter is shown in Fig. 6. In addition, hourly irradiance data and daily ambient temperature are shown in Figs. 7 and 8, respectively. All of these data sets are presented before preprocessing and still contain outliers. The presence of outliers in a data set is sometimes unavoidable and tends to degrade the performance of machine learning. Therefore, outliers in the"
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 5,
+    "bounding box" : [ 306.593, 133.695, 540.562, 146.732 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "data set should be removed to improve the quality of the data set."
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "page number" : 5,
+    "bounding box" : [ 306.593, 112.775, 557.648, 136.3 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Here, the preprocessing steps for the original dataset are performed as follows:"
+  }, {
+    "type" : "list",
+    "id" : 149,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 308.179, 50.017, 557.658, 104.893 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 308.179, 91.856, 459.014, 104.893 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. Remove duplicate and unreadable data.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 308.179, 81.424, 410.516, 94.461 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. Adjust column data types.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 308.179, 60.505, 557.658, 83.973 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Fill missing values using the backfill method (insert missing value with the previous value).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 308.179, 50.017, 406.762, 63.054 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. Remove outliers data by:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 152,
+    "page number" : 5,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 5,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 153,
+    "page number" : 6,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 47,
+      "page number" : 6,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 168,
+    "page number" : 6,
+    "bounding box" : [ 81.638, 455.017, 513.638, 738.265 ],
+    "source" : "13_images/imageFile7.png"
+  }, {
+    "type" : "caption",
+    "id" : 169,
+    "page number" : 6,
+    "bounding box" : [ 224.674, 436.728, 370.574, 448.461 ],
+    "linked content id" : 168,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 4. Pyranometer and wind speed sensors."
+  }, {
+    "type" : "list",
+    "id" : 154,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 49.607, 382.577, 288.698, 426.965 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 50.003, 403.496, 288.657, 426.965 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "a. Remove data with active power near zero (< 1) and irradiance slightly greater than zero (< 1).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 49.607, 382.577, 288.698, 406.045 ],
+      "font" : "CharisSIL",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "b. Remove data recorded during very low sunlight, approximately at times earlier than 5:30AM or later than 6:45PM.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 39.232, 372.089, 233.892, 385.126 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "5. Resample data into 1-hour intervals with averaging."
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 6,
+    "bounding box" : [ 37.588, 340.311, 288.652, 364.206 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The condition of the data sets before and after preprocessing is shown in Figs. 6–8."
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 6,
+    "bounding box" : [ 37.588, 315.309, 230.832, 328.717 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "3.3. Long short-term memory– auto encoder (LSTM–AE)"
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 6,
+    "bounding box" : [ 37.588, 242.49, 288.696, 307.797 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "LSTM can be considered as an extension of recurrent neural networks (RNN) introduced in 1997 by Hochreiter and Schmidhuber (1997) which design to prevent the long-term dependencies issue [29]. LSTM can memorize and retain data for long periods, unlike RNN, the architecture of LSTM is more complex and it consists of four hidden layers as presented in Fig. 9."
+  }, {
+    "type" : "list",
+    "id" : 159,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 38.665, 48.769, 288.689, 234.608 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 38.665, 169.241, 288.672, 234.608 ],
+      "font" : "STIX-Regular",
+      "font size" : 8.528,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "■ Fig. 10a shows a forget gate layer that consists of single layer neural network. This layer has four kinds of input namely input vector from current block (Xt), output of previous block (Ht-1), memory from previous block (Ct-1) and bias (b). W is weighting function and a sigmoid function (Sig = σ) is used for activation in the neural network and the output vector is forget gate which will applied to the",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 74,
+        "page number" : 6,
+        "bounding box" : [ 49.494, 148.321, 288.658, 171.79 ],
+        "font" : "CharisSIL",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "old memory from previous block (Ct-1) by element-wise multiplication. The calculation process in forget gate layer using:"
+      }, {
+        "type" : "paragraph",
+        "id" : 75,
+        "page number" : 6,
+        "bounding box" : [ 49.495, 131.711, 127.073, 144.804 ],
+        "font" : "CharisSIL-Italic",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "ft = σ Wf[Ht 1,Xt]+bf"
+      }, {
+        "type" : "paragraph",
+        "id" : 76,
+        "page number" : 6,
+        "bounding box" : [ 128.069, 140.297, 131.719, 147.47 ],
+        "font" : "TeX_CM_Maths_Extension",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : ")"
+      }, {
+        "type" : "paragraph",
+        "id" : 77,
+        "level" : "4",
+        "page number" : 6,
+        "bounding box" : [ 278.19, 131.767, 288.671, 144.804 ],
+        "font" : "CharisSIL",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "(1)"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 38.665, 48.769, 288.689, 114.133 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "■ An input/update layer in LSTM network is depicted in Fig. 10b. This layer also a single neural network that utilizes inputs same as forget gate layer. This gate will adjust how much the new memory will influence the old memory. However, the new memory is generated by another neural network where is also a single layer network, but it uses tanh as activation function. This layer will deliver output",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 160,
+    "page number" : 6,
+    "bounding box" : [ 318.499, 393.005, 557.674, 426.961 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "element-wise multiple the new memory and add to the old memory from the new memory. The formula used in input/update layer is as follow"
+  }, {
+    "type" : "paragraph",
+    "id" : 161,
+    "page number" : 6,
+    "bounding box" : [ 318.499, 377.134, 557.678, 390.228 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "it = σ(Wi[Ht 1,Xt]+bi) (2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 6,
+    "bounding box" : [ 318.501, 355.704, 557.679, 368.798 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "C̃t = tanh(W[Ht 1, Xt]+bc) (3)"
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 307.674, 263.012, 557.689, 338.807 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "■ The final gate is called output gate as presented in Fig. 10c. This gate is controlled by input of new memory, previous output (Ht-1), current input (Xt) and bias (b) vectors. The output is generated by executing a sigmoid function that decides which part of the cell LSTM is going to be output. Then, the result is passed through a tanh layer to output only the information that is decided to pass to the next neuron. It is formulated as"
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 6,
+    "bounding box" : [ 318.502, 247.194, 557.679, 260.232 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Ot = σ(Wo[Ht 1,Xt]+bo) (4)"
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 6,
+    "bounding box" : [ 318.503, 227.522, 557.681, 240.559 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "ht = Ot ∗ tanh Ct (5)"
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 6,
+    "bounding box" : [ 306.598, 155.749, 557.685, 200.137 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Moreover, the main element of LSTM is the cell state. To add or remove information from the cell state, LSTM uses sigmoid function (one means allows the modification, while a value of zero means denies the modification), and the gates are used to protect it."
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 6,
+    "bounding box" : [ 306.598, 50.724, 557.693, 158.298 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Autoencoder (AE) network basically consists of two modules namely encoder and decoder. The input data would be sent to the encoder and it would learn the underlying features of data. The features are usually in dimensionality reduced form and on the other hand the decoder would recreate the original data from such underlying features. The output from decoder would have reduce in noise and dimension. One of the advantages of AE is easy in training process and does not require computational complexity, therefore, it is popular enough in anomaly detection method due to its ability to handle large-scale data as well as conducting feature selection [30–32]."
+  }, {
+    "type" : "footer",
+    "id" : 170,
+    "page number" : 6,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 6,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 171,
+    "page number" : 7,
+    "bounding box" : [ 37.589, 749.618, 558.28, 760.049 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 48,
+      "page number" : 7,
+      "bounding box" : [ 37.589, 749.618, 558.28, 760.049 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 176,
+    "page number" : 7,
+    "bounding box" : [ 45.638, 287.546, 549.638, 738.266 ],
+    "source" : "13_images/imageFile8.png"
+  }, {
+    "type" : "caption",
+    "id" : 177,
+    "page number" : 7,
+    "bounding box" : [ 240.208, 269.257, 355.109, 280.99 ],
+    "linked content id" : 176,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 5. Configuration of PV system."
+  }, {
+    "type" : "list",
+    "id" : 179,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 37.587, 230.65, 158.747, 251.964 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 249,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.587, 230.65, 158.747, 251.964 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 1 Preliminary statistics of raw data sets.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 7,
+    "bounding box" : [ 43.597, 217.847, 551.662, 228.276 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Data parameter Mean Min Q1 Q2 Q3 Max Std_Dev"
+  }, {
+    "type" : "list",
+    "id" : 181,
+    "level" : "7",
+    "page number" : 7,
+    "bounding box" : [ 43.597, 204.694, 549.241, 215.667 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 43.597, 204.694, 549.241, 215.667 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "Solar Irradiance Pyrano 1 (W/m2) 233.21 0.00 0.49 3.05 414.63 3272.60 340.30",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 67,
+        "level" : "8",
+        "page number" : 7,
+        "bounding box" : [ 43.598, 179.012, 545.651, 206.563 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 7,
+          "bounding box" : [ 43.598, 196.133, 545.651, 206.563 ],
+          "font" : "CharisSIL",
+          "font size" : 6.376,
+          "text color" : "[0.0]",
+          "content" : "Ambient Temperature Pyrano 1 (◦C) 31.08 21.51 25.08 26.38 29.58 3272.63 88.12",
+          "kids" : [ {
+            "type" : "paragraph",
+            "id" : 66,
+            "page number" : 7,
+            "bounding box" : [ 43.599, 187.573, 549.241, 198.545 ],
+            "font" : "CharisSIL",
+            "font size" : 6.376,
+            "text color" : "[0.0]",
+            "content" : "Solar Irradiance Pyrano 2 (W/m2) 237.40 0.00 0.49 3.19 427.40 3272.60 341.76"
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 7,
+          "bounding box" : [ 43.598, 179.012, 545.651, 189.442 ],
+          "font" : "CharisSIL",
+          "font size" : 6.376,
+          "text color" : "[0.0]",
+          "content" : "Ambient Temperature Pyrano 2 (◦C) 30.84 21.10 24.96 26.27 29.15 3272.63 88.12",
+          "kids" : [ ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 7,
+    "bounding box" : [ 37.588, 109.431, 288.692, 164.307 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "LSTM–AE is a hybrid method that combine both LSTM and AE methods to effectively conduct feature selection based on information importance to fulfil classification task. In this work, LSTM-AE is applied to anomaly detection as expected output [33]. The architecture of LSTM-AE is shown in Fig. 11."
+  }, {
+    "type" : "heading",
+    "id" : 173,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 306.592, 151.27, 394.357, 164.307 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "4. Model development"
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 7,
+    "bounding box" : [ 306.592, 130.35, 499.463, 143.387 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "4.1. Pre-processing and exploratory data analysis (EDA)"
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 7,
+    "bounding box" : [ 306.592, 57.104, 557.65, 122.468 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Data pre-processing is performed to the original data in order to remove the outliers from the data due to noise or other disturbances which is inherent in real system data. Sometime missing values of specific parameter also exists in real data system due to possibility of malfunction in sensor readings but still streams the data because the SCADA system deals with other sensors. Imputation is one method for"
+  }, {
+    "type" : "footer",
+    "id" : 182,
+    "page number" : 7,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 7,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 183,
+    "page number" : 8,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 49,
+      "page number" : 8,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 194,
+    "page number" : 8,
+    "bounding box" : [ 81.638, 348.321, 513.638, 738.273 ],
+    "source" : "13_images/imageFile9.png"
+  }, {
+    "type" : "caption",
+    "id" : 195,
+    "page number" : 8,
+    "bounding box" : [ 201.713, 330.032, 393.525, 341.765 ],
+    "linked content id" : 194,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 6. Data daily yield power AC calculated from inverter."
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 8,
+    "bounding box" : [ 37.587, 265.022, 288.673, 320.269 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "handling missing values in dataset where a suitable function of the variables is used to fill in the missing values. This method ensures the completeness in data set prior to statistical analysis. Imputation can be performed using some methods including mean, median, regression, nearest neighbor as mentioned in many literatures [34–35]."
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 8,
+    "bounding box" : [ 37.587, 223.553, 288.693, 267.942 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In addition, the outliers in the dataset are removed by using a simple popular method namely inter quartile range (IQR) [36]. Any values lie outside Thu is recognized as outliers and will be discarded. The Thuis given by"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 8,
+    "bounding box" : [ 37.588, 73.146, 288.695, 220.774 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Thu = Q3 + 1.5 IQR (6) where IQR is defined as 75th percentile – 25th percentile [37]. Fig. 12 shows presentation of dataset before and after outliers removal. Fig. 12a presents data on solar irradiation and ambient temperature collected over nearly 24 h, highlighting some extreme values. The pyranometer readings indicate solar irradiation levels reaching up to 3000 W/m², which appear excessively high and likely do not reflect true conditions. To address this, we must apply Eq. (6) to identify and exclude these outliers. Additionally, some solar irradiation data show consistent readings of 1000 W/m², which may also be suspect. Similarly, ambient temperature values reaching 3000◦ are implausible and likely stem from errors in the temperature sensor readings; typically, maximum ambient temperatures range from 30 ◦C to 40 ◦C."
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 8,
+    "bounding box" : [ 37.589, 52.227, 288.663, 75.752 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fig. 13 shows hourly active power AC recorded day long for F1 and F2. Maximum power is achieved at daylight form 11.00AM to 1.00PM,"
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 8,
+    "bounding box" : [ 306.594, 275.821, 557.652, 320.266 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "however, there are data points that represent active power is very low at such time. These points show that some anomalous was possible occurred and need to be removed from the dataset when baseline or normal condition model will be built based on the dataset."
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 8,
+    "bounding box" : [ 306.594, 192.143, 557.683, 278.427 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As mentioned in previous section, the measurement parameters using SCADA with one minute sampling time interval of acquisition resulted data size of 437,759 points. This dataset seems to have a high variance. However, not all data points are used to build and validate the model because those tend to be burden, irrelative and not represent normal behavior of physical parameters. Therefore, the steps described in Section 3.2 are executed to reduce data size while extracting meaningful information from the data parameters."
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 8,
+    "bounding box" : [ 306.594, 150.304, 557.645, 194.749 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Resampling of one hour averaging will lessen the variability in data set and can improve the accuracy of the built model. Applying the above procedure to the data will reduce the data size become 3520 points of hourly measurement."
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 8,
+    "bounding box" : [ 306.594, 125.927, 391.811, 138.964 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "4.2. Training and testing"
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 8,
+    "bounding box" : [ 306.594, 94.576, 557.643, 118.044 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The PV system is modeled by a generic equation that relates between generated active power and solar irradiance as given by Eq. (7)"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 8,
+    "bounding box" : [ 306.594, 48.768, 557.676, 91.796 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "P = f(I, T) (7) where P, I and T are active power in kW, irradiance in W/m2 and ambient temperature in ◦C, respectively. Observing the dataset, the"
+  }, {
+    "type" : "footer",
+    "id" : 196,
+    "page number" : 8,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 8,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 197,
+    "page number" : 9,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 50,
+      "page number" : 9,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 207,
+    "page number" : 9,
+    "bounding box" : [ 55.162, 430.98, 271.162, 738.276 ],
+    "source" : "13_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "id" : 208,
+    "level" : "9",
+    "page number" : 9,
+    "bounding box" : [ 106.412, 154.681, 219.857, 424.423 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 113.159, 412.69, 213.142, 424.423 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 7. Hourly irradiance data.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 65,
+        "page number" : 9,
+        "bounding box" : [ 43.143, 173.027, 283.191, 389.603 ],
+        "source" : "13_images/imageFile11.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 106.412, 154.681, 219.857, 166.414 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 8. Daily ambient temperature.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 9,
+    "bounding box" : [ 37.587, 58.69, 288.693, 144.974 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "relationship between active power and irradiance is shown in Fig. 14. It is difficult to determine an exact relationship of active power and irradiance using specific equations. One of approaches is using black box model that utilizes data-driven model to determine characteristics and relation among the data. A black box model employs learning strategy using methods such as AI and ML to learn the nature of the data, to generate relationship between parameters in dataset based on historical experience of system and to estimate the behavior of data parameter for"
+  }, {
+    "type" : "image",
+    "id" : 209,
+    "page number" : 9,
+    "bounding box" : [ 312.094, 515.225, 552.142, 738.281 ],
+    "source" : "13_images/imageFile12.png"
+  }, {
+    "type" : "caption",
+    "id" : 210,
+    "page number" : 9,
+    "bounding box" : [ 361.984, 496.879, 502.267, 508.612 ],
+    "linked content id" : 209,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 9. The architecture of LSTM networks."
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 9,
+    "bounding box" : [ 306.593, 442.724, 557.681, 487.168 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "the next step ahead time interval. For this reason, this study employs LSTM-AE method to learn the nature of dataset and use the knowledge after learning for prediction the status of PV system whether the system is suffering faults or still in healthy condition during its operation."
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 9,
+    "bounding box" : [ 306.593, 327.695, 557.678, 445.329 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Training for LSTM-AE was performed by 2816 faults-free data points of parameters that were selected and conditioned in order to build model with normal conditions. The remain of data points will be used as testing data for the trained LSTM-AE. The process of training can be shown in Fig. 15 that records error of loss function towards epoch number. During the training process, hyperparameters are selected and optimized from various possible values as shown in Table 2. The results of hyperparameter selection are described in Table 3. The training process is also carried out using other methods, namely recurrent neural network autoencoder (RNN-AE), neural network autoencoder (NN-AE) and traditional LSTM for the purpose of algorithm comparison."
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 9,
+    "bounding box" : [ 306.593, 243.96, 557.675, 330.244 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fig. 16 shows the actual and predicted active power for power meter F1. Residuals also presented in Fig. 16 to highlight deviation between actual and predicted active power. The prediction seems good so far that can include some missing points laid on the data. The quality of prediction is depicted in Fig. 17 that shows distribution of root mean square error (RMSE) generated from training process. High density of RMSE training falls on relatively small RMSE means that training is success and can be model for anomaly detection and diagnosis."
+  }, {
+    "type" : "heading",
+    "id" : 202,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 306.593, 223.041, 401.701, 236.078 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "5. Result and discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 9,
+    "bounding box" : [ 306.593, 202.121, 387.352, 215.158 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "5.1. Anomaly detection"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 9,
+    "bounding box" : [ 306.593, 139.363, 557.687, 194.239 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Anomaly detection is performed by feeding new data into the trained LSTM-AE model, which calculates the reconstruction error for each input sequence. If this error exceeds a predefined threshold, an anomaly is flagged, triggering an alert indicating potential system deviations from normal operating conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 9,
+    "bounding box" : [ 306.593, 86.783, 557.681, 141.97 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Observing residual as depicted in Fig. 18, the loss of RMSE can be derived for determining the threshold that used to anomaly detection. RMSE can represents the standard deviation of normal operation condition of PV system, therefore, the determination for anomaly detection can be performed on the basis of such standard deviation (σh)."
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 9,
+    "bounding box" : [ 306.598, 55.686, 557.657, 89.642 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "PV system which operates in normal condition produces behavior of the plant with not much differ from the predicted parameters. This behavior can be reflected from residuals with low values. In case of"
+  }, {
+    "type" : "footer",
+    "id" : 211,
+    "page number" : 9,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 9,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 212,
+    "page number" : 10,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 51,
+      "page number" : 10,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 221,
+    "page number" : 10,
+    "bounding box" : [ 55.162, 211.521, 271.162, 738.273 ],
+    "source" : "13_images/imageFile13.png"
+  }, {
+    "type" : "caption",
+    "id" : 222,
+    "page number" : 10,
+    "bounding box" : [ 117.638, 193.232, 208.638, 204.965 ],
+    "linked content id" : 221,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 10. The gates in LSTM."
+  }, {
+    "type" : "image",
+    "id" : 223,
+    "page number" : 10,
+    "bounding box" : [ 43.143, 78.52, 283.191, 170.392 ],
+    "source" : "13_images/imageFile14.png"
+  }, {
+    "type" : "caption",
+    "id" : 224,
+    "page number" : 10,
+    "bounding box" : [ 85.776, 60.23, 240.491, 71.964 ],
+    "linked content id" : 223,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 11. The architecture of LSTM autoencoder."
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 10,
+    "bounding box" : [ 306.595, 708.447, 557.669, 742.404 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "hourly dataset, the thresholds for anomaly detection can be set up based on σh as hourly lower limit (HLL) and hourly upper limit (HUL) and given by"
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 10,
+    "bounding box" : [ 306.596, 672.958, 557.681, 705.668 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "HLL = 3σh (8) HUL = 5σh (9)"
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 10,
+    "bounding box" : [ 306.596, 562.973, 557.686, 670.178 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Regarding this thresholds, new data that surpass HLL however still lower than HUL indicates abnormalities behavior occur in the system, while new data that exceed HUL indicates strong anomaly has been laid on the system. This simple method is adopted from [15] which referred to [38] which observed that when data is featuring a normal distribution where about 99.7 % of the points lied within 3σhand while about 99.9 % of data points lie within 5σh. Moreover, if the dataset is not featured a normal distribution, at least 88.9 % of the data points fall within 3σh. Based on this reason, the justification of HLL and HUL with values of 3σhand 5σh, respectively, are reasonable."
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 10,
+    "bounding box" : [ 306.595, 427.026, 557.688, 565.579 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "In addition, in order to increase the accuracy of recognition of abnormalities in data samples, minimizing the probability of false positive in warnings must be considered. It needs further processing in earlier step of anomaly detection. For example, how to create trend that does not content many peaks in residuals but have information of abnormalities. Many peaks are resulted from high frequency in dataset but this will tend to produce false positive in warnings. Therefore, filtering is needed in this step to extract and highlight the trend in residuals. Moving averaging using triangular function can be selected as filtering method and window size must be specified for computation in averaging process. Window size can be determined using autocorrelation function that highlights the periodicity in residuals. The followings are explanations of process for determining window size:"
+  }, {
+    "type" : "list",
+    "id" : 217,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 307.673, 311.94, 557.679, 419.143 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 307.673, 395.618, 557.664, 419.143 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "■ peaks finding is performed to the output of autocorrelation function and these points are corresponded to short-time period (Fig. 19);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 307.673, 374.698, 557.679, 398.167 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "■ short-time period is averaged based on related time values and shorttime period average (SPA) is calculated;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 307.673, 332.859, 557.672, 377.247 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "■ long-time period is determined by featuring all peaks of autocorrelation that have values greater than 0.2. The points, x-picked in Fig. 19, show the selection of time difference which is larger than SPA;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 307.673, 311.94, 557.671, 335.408 ],
+      "font" : "STIX-Regular",
+      "font size" : 7.97,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "■ those selected time difference are then averaged to determine longtime period average (LPA) and the size for windowing is set to 2LPA.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 10,
+    "bounding box" : [ 306.595, 259.613, 557.668, 304.057 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The calculation of SPA and LPA from the dataset gives value of 24 h and 48 h, respectively. This means the window size of triangular moving averaging is set to 48 h. Moreover, the normalized residual trend is computed with triangular moving averaging is depicted in Fig. 20."
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 10,
+    "bounding box" : [ 306.595, 207.343, 557.661, 262.219 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fig. 21 shows the active AC power anomalies detected in inverters F1 and F2. The proposed method is proven to be able to recognize and capture anomalies generated in the inverters during operation. When the power drops to a very low value, the proposed method will flag and alert the operator to take necessary maintenance actions."
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 10,
+    "bounding box" : [ 306.595, 50.418, 557.682, 209.891 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In summary, the description of how the proposed LSTM-AE method is used for anomaly detection is as follows: the LSTM-AE model is trained on historical data from a PV system, including sensor readings such as active power, solar irradiance, and ambient temperature. The model consists of two main components: an encoder that compresses the data and a decoder that reconstructs it. Through training on data that represents normal operation, LSTM-AE learns to accurately recreate typical system behavior. When the reconstructed data deviates significantly from the actual data, it signals a potential anomaly, indicating a possible fault in the system. To identify these anomalies, the residuals—the difference between the actual and predicted data—are assessed and thresholds (HLL and HUL) derived from the Loss RMSE distribution are applied to determine whether the anomaly is significant. To reduce the possibility of false positives, an autocorrelation function is used. If the autocorrelation function shows a consistent pattern similar to the"
+  }, {
+    "type" : "footer",
+    "id" : 225,
+    "page number" : 10,
+    "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 10,
+      "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 226,
+    "page number" : 11,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 52,
+      "page number" : 11,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 234,
+    "page number" : 11,
+    "bounding box" : [ 81.638, 225.921, 513.638, 738.273 ],
+    "source" : "13_images/imageFile15.png"
+  }, {
+    "type" : "caption",
+    "id" : 235,
+    "page number" : 11,
+    "bounding box" : [ 231.704, 207.632, 363.522, 219.365 ],
+    "linked content id" : 234,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 12. Dataset for model development."
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 11,
+    "bounding box" : [ 37.587, 184.832, 272.953, 197.869 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "normal data, the flagged anomaly may actually be a false positive."
+  }, {
+    "type" : "list",
+    "id" : 228,
+    "level" : "7",
+    "page number" : 11,
+    "bounding box" : [ 37.587, 163.856, 108.979, 176.893 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 37.587, 163.856, 108.979, 176.893 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "5.2. Predictive alerts",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 11,
+    "bounding box" : [ 37.587, 101.098, 288.701, 155.973 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Predictive alerts are created to give warnings to the operator of PV system that some anomalous are possible happened for the next days or hours before failure occurs. These warnings are beneficial to power plant manager who has responsibility to schedule maintenance activity addressed at avoiding failures and possible loss of power production."
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 11,
+    "bounding box" : [ 37.587, 48.77, 288.695, 103.646 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Predictive alerts are created by finding the trend of degradation related to the inverters condition by means of calculating derivative of the residual trend. If the derivative of such trend falls into positive number means that the new samples relate to degradation phenomena in the inverter. The residual trend tends to approach the upper value"
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 11,
+    "bounding box" : [ 306.593, 163.912, 557.681, 197.869 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "threshold and the system is suffering anomaly. While if the derivative of residual trend is negative values, then the system tends to normal condition."
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 11,
+    "bounding box" : [ 306.593, 111.585, 557.681, 166.462 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The trained model is then evaluated using testing dataset that never included in training for performance evaluation. There are 704 points related to data of August to September 2023 are fed to the trained model and the results of prediction is depicted in Fig. 22 with RMSE is 10.95 and 31.55 for inverter F1 and F2, respectively."
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 11,
+    "bounding box" : [ 306.593, 48.827, 557.681, 114.191 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In addition, in this study, the performance of the LSTM-AE model is also compared with the performance of the RNN-AE, NN-AE and LSTM methods during testing. Table 4 shows the results of prediction performance testing using LSTM-AE, RNN-AE, NN-AE and LSTM. LSTM-AE outperforms the other three methods with lower error testing measures using MSE, RMSE and MAE. Furthermore, based on the test results"
+  }, {
+    "type" : "footer",
+    "id" : 236,
+    "page number" : 11,
+    "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 11,
+      "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 237,
+    "page number" : 12,
+    "bounding box" : [ 37.588, 749.618, 558.28, 760.049 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 53,
+      "page number" : 12,
+      "bounding box" : [ 37.588, 749.618, 558.28, 760.049 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 242,
+    "page number" : 12,
+    "bounding box" : [ 81.638, 594.142, 513.638, 738.286 ],
+    "source" : "13_images/imageFile16.png"
+  }, {
+    "type" : "caption",
+    "id" : 243,
+    "page number" : 12,
+    "bounding box" : [ 243.326, 575.796, 351.95, 587.529 ],
+    "linked content id" : 242,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 13. Hourly active power AC."
+  }, {
+    "type" : "image",
+    "id" : 244,
+    "page number" : 12,
+    "bounding box" : [ 81.638, 289.871, 513.638, 555.983 ],
+    "source" : "13_images/imageFile17.png"
+  }, {
+    "type" : "caption",
+    "id" : 245,
+    "page number" : 12,
+    "bounding box" : [ 201.43, 271.525, 393.838, 283.258 ],
+    "linked content id" : 244,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 14. Relationship between active power and irradiance."
+  }, {
+    "type" : "image",
+    "id" : 246,
+    "page number" : 12,
+    "bounding box" : [ 73.134, 187.483, 253.134, 250.123 ],
+    "source" : "13_images/imageFile18.png"
+  }, {
+    "type" : "caption",
+    "id" : 247,
+    "page number" : 12,
+    "bounding box" : [ 54.935, 169.138, 271.368, 180.871 ],
+    "linked content id" : 246,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 15. Error of loss function during training process of LSTM-AE."
+  }, {
+    "type" : "list",
+    "id" : 249,
+    "level" : "6",
+    "page number" : 12,
+    "bounding box" : [ 37.587, 127.072, 151.521, 148.386 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 179,
+    "next list id" : 257,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 37.587, 127.072, 151.521, 148.386 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 2 Possible values of hyperparameters.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 12,
+    "bounding box" : [ 43.597, 101.117, 177.283, 124.698 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Hyperparameter Options Number of layers 1, 2"
+  }, {
+    "type" : "list",
+    "id" : 251,
+    "level" : "7",
+    "page number" : 12,
+    "bounding box" : [ 43.597, 66.874, 282.686, 102.985 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 43.597, 92.556, 282.686, 102.985 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "Number of unit 1 min. value = 16; max. value = 128; step = 8",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 43.597, 66.874, 275.486, 94.425 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "Number of unit 2 min. value = 4; max. value = 64; step = 4 Activation function tanh, relu, leaky_relu Learning rate 0.1, 0.01, 0.001, 0.005, 0.0001, 0.0005",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 12,
+    "bounding box" : [ 306.595, 238.293, 557.638, 261.762 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "above, the LSTM-AE model is used as a prediction model to detect anomalies that occur in the PV system."
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 12,
+    "bounding box" : [ 306.595, 165.047, 557.691, 240.842 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "To assess the robustness of the method, we perform tests by applying the proposed method to various levels of synthetic noise, including Gaussian noise with zero mean and standard deviation corresponding to each sensor reading, and impulse noise featuring multiple peak values within the dataset. The findings from this robustness evaluation are detailed in Table 5, which shows that LSTM-AE outperforms traditional LSTM in terms of performance."
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 12,
+    "bounding box" : [ 306.595, 81.369, 557.687, 167.652 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "After testing the method, the model is run on all data set from December 2022 to September 2023. The result of prediction including residual analysis give residual warnings as shown in Fig. 23. Many warnings have been generated by the model, but it needs further process for avoiding false positive. The calculation of derivative of the samples will produce residual warnings then the alerts for predictive maintenance are raised only for those residual warnings occur according to the positive values of trend derivative."
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 12,
+    "bounding box" : [ 306.595, 49.961, 557.665, 83.918 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fig. 23 shows the predictive maintenance alerts that has objective to warn the operators in order to realize that something of abnormalities will occur in PV system. Data analysis developed in the proposed method"
+  }, {
+    "type" : "footer",
+    "id" : 252,
+    "page number" : 12,
+    "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 12,
+      "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 253,
+    "page number" : 13,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 54,
+      "page number" : 13,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 257,
+    "level" : "6",
+    "page number" : 13,
+    "bounding box" : [ 37.587, 719.853, 121.588, 741.167 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 249,
+    "next list id" : 289,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 37.587, 719.853, 121.588, 741.167 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 3 Selected hyperparameters.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 13,
+    "bounding box" : [ 43.597, 693.955, 551.704, 717.479 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Results Inverter F1 Inverter F2 LSTM NN-AE RNN-AE LSTM-AE LSTM NN-AE RNN-AE LSTM-AE"
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 13,
+    "bounding box" : [ 43.597, 646.503, 545.271, 691.231 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Number of layers 1 1 1 1 1 2 2 1 Unit 1, Unit 2 104 40 80 56 96 88,52 64,56 48 Activation function leaky_relu leaky_relu leaky_relu relu relu tanh leaky_relu tanh Learning rate 0.001 0.0005 0.0001 0.001 0.001 0.0001 0.0001 0.001 RMSE 131.4820 7.3123 4.5629 3.3092 143.5451 10.4042 8.6724 5.6174"
+  }, {
+    "type" : "image",
+    "id" : 260,
+    "page number" : 13,
+    "bounding box" : [ 43.143, 524.239, 283.191, 618.703 ],
+    "source" : "13_images/imageFile19.png"
+  }, {
+    "type" : "caption",
+    "id" : 261,
+    "page number" : 13,
+    "bounding box" : [ 112.365, 505.95, 213.94, 517.683 ],
+    "linked content id" : 260,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 16. Training for LSTM-AE."
+  }, {
+    "type" : "image",
+    "id" : 262,
+    "page number" : 13,
+    "bounding box" : [ 73.134, 304.214, 253.134, 484.214 ],
+    "source" : "13_images/imageFile20.png"
+  }, {
+    "type" : "caption",
+    "id" : 263,
+    "page number" : 13,
+    "bounding box" : [ 83.792, 285.925, 242.456, 297.658 ],
+    "linked content id" : 262,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 17. Distribution of RMSE training LSTM-AE."
+  }, {
+    "type" : "image",
+    "id" : 264,
+    "page number" : 13,
+    "bounding box" : [ 43.143, 170.589, 283.191, 265.053 ],
+    "source" : "13_images/imageFile21.png"
+  }, {
+    "type" : "caption",
+    "id" : 265,
+    "page number" : 13,
+    "bounding box" : [ 96.265, 152.3, 230.018, 164.033 ],
+    "linked content id" : 264,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 18. Loss RMSE for a basis threshold."
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 13,
+    "bounding box" : [ 37.587, 56.252, 288.693, 142.536 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "also aimed to identify degradation performance that could led to imminent failure and even impending failure. However, nobody can guarantee that the presence of alerts then will automatically indicate that failure will occur. The predictive maintenance alerts will inform that when the warning lamps is on, this means PV system have conditions which are slightly different from normal condition. However, it depends on the operators themselves to take responsibility whether to decide maintenance actions on the power plant or not."
+  }, {
+    "type" : "image",
+    "id" : 266,
+    "page number" : 13,
+    "bounding box" : [ 342.142, 541.417, 522.142, 618.745 ],
+    "source" : "13_images/imageFile22.png"
+  }, {
+    "type" : "caption",
+    "id" : 267,
+    "page number" : 13,
+    "bounding box" : [ 361.701, 523.072, 502.577, 534.805 ],
+    "linked content id" : 266,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 19. Autocorrelation of hourly residual."
+  }, {
+    "type" : "image",
+    "id" : 268,
+    "page number" : 13,
+    "bounding box" : [ 312.094, 409.663, 552.142, 499.231 ],
+    "source" : "13_images/imageFile23.png"
+  }, {
+    "type" : "caption",
+    "id" : 269,
+    "page number" : 13,
+    "bounding box" : [ 374.627, 391.317, 489.656, 403.05 ],
+    "linked content id" : 268,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 20. Normalized residual trend."
+  }, {
+    "type" : "image",
+    "id" : 270,
+    "page number" : 13,
+    "bounding box" : [ 312.094, 163.446, 552.142, 369.654 ],
+    "source" : "13_images/imageFile24.png"
+  }, {
+    "type" : "caption",
+    "id" : 271,
+    "page number" : 13,
+    "bounding box" : [ 347.301, 145.157, 516.93, 156.89 ],
+    "linked content id" : 270,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 21. Detected anomalous in inverters F1 and F2."
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 13,
+    "bounding box" : [ 306.593, 49.109, 557.691, 135.393 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "In addition, predictive alerts enable maintenance teams to detect early signs of system degradation, allowing for proactive intervention and optimized maintenance scheduling. By prioritizing maintenance activities based on the frequency and severity of alerts, teams can efficiently allocate resources and manage spare parts inventory, ultimately reducing unplanned downtime and improving overall system reliability. Therefore, the proposed method is only an aid intended as additional support for maintenance decision making."
+  }, {
+    "type" : "footer",
+    "id" : 272,
+    "page number" : 13,
+    "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 13,
+      "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 273,
+    "page number" : 14,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 55,
+      "page number" : 14,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 286,
+    "page number" : 14,
+    "bounding box" : [ 43.143, 644.088, 283.191, 738.264 ],
+    "source" : "13_images/imageFile25.png"
+  }, {
+    "type" : "caption",
+    "id" : 287,
+    "page number" : 14,
+    "bounding box" : [ 104.145, 625.799, 222.16, 637.532 ],
+    "linked content id" : 286,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 22. Testing results of LSTM-AE."
+  }, {
+    "type" : "list",
+    "id" : 289,
+    "level" : "6",
+    "page number" : 14,
+    "bounding box" : [ 37.587, 455.834, 182.305, 606.691 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 257,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 37.587, 585.377, 122.808, 606.691 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 4 Performance of prediction.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 68,
+        "page number" : 14,
+        "bounding box" : [ 43.597, 559.422, 282.695, 583.003 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.0]",
+        "content" : "Algorithm Inverter data MSE Test RMSE Test MAE Test LSTM F1 17,287.53 131.48 99.25"
+      }, {
+        "type" : "paragraph",
+        "id" : 69,
+        "page number" : 14,
+        "bounding box" : [ 43.597, 542.301, 275.246, 561.29 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.0]",
+        "content" : "F2 20,605.20 143.54 105.33 NN-AE F1 53.46 7.31 5.26"
+      }, {
+        "type" : "paragraph",
+        "id" : 70,
+        "page number" : 14,
+        "bounding box" : [ 43.597, 525.123, 268.067, 544.17 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.0]",
+        "content" : "F2 108.25 10.40 8.52 RNN-AE F1 20.82 4.56 3.98"
+      }, {
+        "type" : "paragraph",
+        "id" : 71,
+        "page number" : 14,
+        "bounding box" : [ 43.597, 508.002, 268.067, 526.992 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.0]",
+        "content" : "F2 75.21 8.67 6.69 LSTM-AE F1 10.95 3.30 2.76"
+      }, {
+        "type" : "paragraph",
+        "id" : 72,
+        "page number" : 14,
+        "bounding box" : [ 94.166, 499.441, 268.067, 509.871 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.0]",
+        "content" : "F2 31.55 5.62 4.88"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 37.587, 455.834, 182.305, 477.148 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 5 Performance of prediction of data with noise.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 14,
+    "bounding box" : [ 43.597, 429.879, 282.695, 453.46 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Algorithm Inverter data with noise MSE Test RMSE Test MAE Test LSTM F1 247,053.24 497.04 382.41"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 14,
+    "bounding box" : [ 43.597, 412.758, 275.246, 431.747 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "F2 334,967.69 578.76 430.87 LSTM-AE F1 477.91 21.86 11.13"
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 14,
+    "bounding box" : [ 85.435, 404.197, 271.656, 414.627 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "F2 1170.81 34.21 14.99"
+  }, {
+    "type" : "image",
+    "id" : 293,
+    "page number" : 14,
+    "bounding box" : [ 43.143, 288.907, 283.191, 379.627 ],
+    "source" : "13_images/imageFile26.png"
+  }, {
+    "type" : "caption",
+    "id" : 294,
+    "page number" : 14,
+    "bounding box" : [ 100.12, 270.561, 226.161, 282.294 ],
+    "linked content id" : 293,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 23. Predictive maintenance alerts."
+  }, {
+    "type" : "heading",
+    "id" : 274,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 37.587, 247.818, 160.513, 260.855 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "6. Conclusions and future work"
+  }, {
+    "type" : "paragraph",
+    "id" : 275,
+    "page number" : 14,
+    "bounding box" : [ 37.587, 111.813, 288.689, 239.935 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The aim of this study is to develop predictive maintenance model based on anomaly detection applied to PV system with minimal complexity of computation but beneficial in real application perspective. The resulting predictive maintenance model is capable of providing hourly predictive alerts to warn operators and support them in the maintenance decision-making process. The developed model is built using SCADA data obtained from the PV power generation system with one-minute interval acquisition and learning through ML method called LSTM-AE to estimate the inverter model. The results show that the anomaly prediction can achieve reasonable accuracy with minimum test errors MSE, RMSE, and MAE of 10.95, 3.30, and 2.76, respectively, and can be applied to the PV system."
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 14,
+    "bounding box" : [ 37.587, 49.054, 288.701, 114.418 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The results suggest that accuracy of prediction and anomaly detection models still need to be improved in order to produce financial impacts for the solar power plant. This is a future work as a continuation of the research. Furthermore, the improvement of prediction seems to play a more crucial role for the financial performance of the solar power plant. We are investigating the viability of a hybrid model of ARIMA and"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 14,
+    "bounding box" : [ 306.593, 677.035, 557.656, 742.399 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "machine learning for predicting the power output of the solar power plant. ARIMA’s strength to capture the linear trend can be combined with the machine learning model for the residuals. In addition to the development of the hybrid models, data enrichment to include meteorological data from satellites seems to offer further opportunities for improving the accuracy of solar power plant output predictions."
+  }, {
+    "type" : "heading",
+    "id" : 278,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 306.593, 655.322, 468.531, 668.359 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "CRediT authorship contribution statement"
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 14,
+    "bounding box" : [ 306.593, 571.644, 557.686, 647.439 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Agussalim Syamsuddin: Conceptualization, Methodology, Formal analysis, Writing – original draft. Andrew Cahyo Adhi: Formal analysis, Data curation. Amie Kusumawardhani: Conceptualization, Supervision, Writing – review & editing. Toni Prahasto: Conceptualization, Supervision, Software, Writing – review & editing. Achmad Widodo: Conceptualization, Methodology, Software, Writing – review & editing, Supervision."
+  }, {
+    "type" : "heading",
+    "id" : 280,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 306.593, 547.437, 435.179, 560.474 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Declaration of competing interest"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 14,
+    "bounding box" : [ 306.593, 505.541, 557.676, 539.497 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper"
+  }, {
+    "type" : "heading",
+    "id" : 282,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 306.593, 483.884, 372.673, 496.921 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Acknowledgment"
+  }, {
+    "type" : "paragraph",
+    "id" : 283,
+    "page number" : 14,
+    "bounding box" : [ 306.593, 431.557, 557.656, 475.945 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Authors would like to thank to PT PLN Indonesia Power for supporting this study through permission in using real PV system operating data. Thank also goes to Yasir Abdur Rahman and Ghiffari Awliya for computer programming assistance."
+  }, {
+    "type" : "heading",
+    "id" : 284,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 306.593, 409.844, 347.806, 422.881 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 285,
+    "level" : "7",
+    "page number" : 14,
+    "bounding box" : [ 306.596, 49.176, 555.692, 402.606 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 15,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 375.95, 555.648, 402.606 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "[1] G.E. Dura ́n-Castillo, T. Weis, A. Leach, B.A. Fleck, Revenue-optimized photovoltaic orientation in a northern competitive electricity market with carbon offsets, Energy Reports 10 (2023) 3133–3145.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 344.089, 555.662, 378.683 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[2] M. Sridharan, Performance augmentation study on a solar flat plate water collector system with modified absorber flow design and its performance prediction using the XGBoost algorithm: a machine learning approach, Iran J. Sci. Techn. Trans. Mech. Engineering 48 (2024) 133–144.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 328.455, 555.68, 346.822 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[3] M. Sridharan, B. Prakash, Predicting the performance of solar photovoltaic thermal Water Collectors using hybrid fuzzy logic expert system, Int. J. Ambient Energy 43",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 63,
+        "level" : "4",
+        "page number" : 14,
+        "bounding box" : [ 322.979, 320.165, 388.474, 330.891 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(1) (2022) 8098–8112."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 296.537, 553.938, 322.897 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[4] J.S. Balseca, J.L. Pineiros, A.P. Foguet, Influence of environmental factors on the power produced by photovoltaic panels artificially weathered, Renew. Sustain. Energy Rev. 188 (2023) 113831.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 272.613, 555.685, 299.03 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[5] B. Aboagye, S. Gyamfi, E.A. Ofosu, S. Djordjevic, Characterisation of visual defects on installed solar photovoltaic (PV) modules in different climatic zones in Ghana, Sci. Afr. 20 (2023) e01682.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 256.386, 555.676, 275.106 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[6] P.M. Paulescu, H. Acikgoz, D. Korkmaz, U. Budak, Short-term forecasting of solar irradiance, Renew. Energy 143 (2019) 985–994.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 232.815, 555.641, 259.175 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[7] H. Acikgoz, D. Korkmaz, U. Budak, Photovoltaic cell defect classification based on integration of residual-inception network and spatial pyramid pooling in electroluminescence images, Expert Syst. Appl.. 229 (2023) 120546. Part A.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 208.594, 549.717, 235.251 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[8] S.R. Madeti, S.N. Singh, A comprehensive study on different types of faults and detection techniques for solar photovoltaic system, Solar Energy 158 (2017) 161–185.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 309.997, 192.664, 553.619, 211.327 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[9] W. Otieno, L. Bosman, Solar PV selection decision tool: the case of USA midwest region, J. Civ. Eng. Environ. Technol 1 (2014) 114–120.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 306.596, 169.037, 555.692, 195.397 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[10] F. Ancuta, C. Cepisca, Fault analysis possibilities for PV panels, in: Proceedings of the 2011 3rd International youth conference on energetics (IYCE), 2011. Leiria, Portugal.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 306.596, 145.112, 555.662, 171.472 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[11] M.L. Lopez, L.E. Olcese, G.G. Palancar, B.M. Toselli, Accurate total solar irradiance estimates under irradiance measurements scarcity scenarios, Environ. Monit. Assess 191 (9) (2019).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 306.596, 120.891, 555.669, 147.605 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[12] M. Caldas, R. Alonso-Suarez, Very short-term solar irradiance forecast using all- sky imaging and real-time irradiance measurements, Renew. Energy 143 (2019) 1643–1658.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 306.596, 97.321, 555.679, 123.681 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[13] M.Q. Rene, N. Mithulananthan, J.M. Li, K.Y. Lee, H.B. Gooi, An ensemble framework for day-ahead forecast of PV output power in smart grids, IEEE Trans. Ind. Inf. 15 (8) (2019) 2019.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 306.596, 81.333, 551.613, 99.756 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[14] C.Y. Lin, Y.M. Hsieh, F.T. Cheng, H.C. Huang, M. Adnan, Time series prediction algorithm for intelligent predictive maintenance, IEEe Robot. Autom. Lett. 4 (3)",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 64,
+        "level" : "4",
+        "page number" : 14,
+        "bounding box" : [ 323.149, 73.1, 385.269, 83.826 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(2019) 2807–2814, a."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 306.596, 49.176, 555.134, 75.832 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[15] M. De Benedetti, F. Leonardi, F. Messina, C. Santoro, A. Vasilakos, Anomaly detection and predictive maintenance for photovoltaic systems, Neurocomputing. 310 (2018) 59–68.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 295,
+    "page number" : 14,
+    "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 41,
+      "page number" : 14,
+      "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 296,
+    "page number" : 15,
+    "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 56,
+      "page number" : 15,
+      "bounding box" : [ 37.587, 749.618, 558.28, 760.055 ],
+      "heading level" : 5,
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Syamsuddin et al. Results in Engineering 24 (2024) 103589"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 297,
+    "level" : "7",
+    "page number" : 15,
+    "bounding box" : [ 37.587, 483.782, 286.691, 741.573 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 11,
+    "next list id" : 298,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 723.151, 286.656, 741.573 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "[16] M. Jalal, I.U. Khalil, A. ul Haq, Deep learning approaches for visual faults diagnosis of photovoltaic systems: state-of-the-Art review, Results. Eng. 3 (2024) 102622.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 698.986, 286.661, 725.643 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[17] S.P. Durrani, S. Balluff, L. Wurzer, S. Krauter, Photovoltaic yield prediction using an irradiance forecast model based on multiple neural networks, J. Modern Power Syst. Clean Energy 6 (2018) 255–267.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 675.063, 286.075, 701.719 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[18] W. Lee, K. Kim, J. Park, J. Kim, Y. Kim, Forecasting solar power using long-short term memory and convolutional neural networks, IEEe Access. 6 (2018) 73068–73080.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 651.138, 277.771, 677.795 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[19] D. Anagnostos, T. Schmidt, S. Cavadias, D. Soudris, J. Poortmans, F. Catthoor, A method for detailed short-term energy yield forecasting of photovoltaic installations, Renew. Energy 130 (2019) 122–129.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 635.504, 281.609, 653.871 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[20] S. Al-Dahidi, O. Ayadi, M. Alrbai, J. Adeeb, Ensemble approach of optimized artificial neural networks for solar photovoltaic power prediction, EEE Access 7",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 61,
+        "level" : "4",
+        "page number" : 15,
+        "bounding box" : [ 54.141, 627.214, 116.327, 637.94 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(2019) 81741–81758."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 611.283, 285.233, 630.003 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[21] G. Li, S. Xie, B. Wang, J. Xin, Y. Li, S. Du, Photovoltaic power forecasting with a hybrid deep learning approach, IEEe Access. 8 (2020) 175871–175880.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 595.65, 283.876, 614.073 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[22] J.R. Vergara, L.B. Bosman, E. Wollega, W.D. Leon-Salas, Review of forecasting methods to support photovoltaic predictive maintenance, Clean. Eng. Technol. 8",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 62,
+        "level" : "4",
+        "page number" : 15,
+        "bounding box" : [ 54.141, 587.656, 98.781, 598.086 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(2022) 100460."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 555.499, 286.691, 590.148 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[23] D. Rangelov, M. Boerger, N. Tcholtchev, P. Lammel,¨ M. Hauswirth, Design and development of a short-term photovoltaic power output forecasting method based on random forest, deep neural network and LSTM using readily available weather features, IEEe Access. 11 (2023) 41578–41595.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 531.574, 282.053, 558.231 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[24] S. Voutsinas, D. Karolidis, I. Voyiatzis, M. Samarakou, Development of a multioutput feed-forward neural network for fault detection in Photovoltaic Systems, Energy Reports 8 (9) (2022) 33–42.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 508.004, 286.654, 534.364 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[25] Q. Xu, X. Li, X. Yin, C. Feng, A real-time fault detection technique based on MPPE in photovoltaic systems, in: 2023 IEEE 14th international symposium on power electronics for distributed generation systems (PEDG), 2023. Shanghai, China.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 37.587, 483.782, 286.67, 510.439 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[26] X. Jiao, X. Li, T. Yang, W. Xiao, A Novel Fault Diagnosis Scheme for PV Plant Based on Real-Time System State Identification, IEEe J. Photovolt. 13 (4) (2023) 571–579.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 298,
+    "level" : "7",
+    "page number" : 15,
+    "bounding box" : [ 306.592, 468.149, 555.696, 741.573 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 12,
+    "previous list id" : 297,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 715.214, 555.682, 741.573 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[27] E.H. Sepúlveda-Oviedo, L. Trav´e-Massuy`es, A. Subias, M. Pavlov, C. Alonso, Fault diagnosis of photovoltaic systems using artificial intelligence: a bibliometric approach, Heliyon. 9 (11) (2023) e21491.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 691.29, 551.041, 717.65 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[28] B. Taghezouit, F. Harrou, Y. Sun, W. Merrouche, Model-based fault detection in photovoltaic systems: a comprehensive review and avenues for enhancement, Results. Eng. 21 (2024) 101835.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 683.296, 548.945, 693.725 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[29] S. Hochreiter, J. Schmidhuber, Long short-term memory, Neural Comput. 9 (8)",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 57,
+        "level" : "4",
+        "page number" : 15,
+        "bounding box" : [ 323.146, 675.063, 378.096, 685.789 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(1997) 1735–1780."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 651.435, 552.751, 677.795 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[30] O.I. Provotar, Y.M. Linder, M.M. Veres, Unsupervised anomaly detection in time series using LSTM-based autoencoders, in: IEEE international conference on advanced trends in information theory (ATIT), 2019. Kyiv, Ukraine.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 627.511, 553.015, 653.871 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[31] Z. Que, Y. Liu, C. Guo, X. Niu, Y. Zhu, W. Luk, Real-time anomaly detection for flight testing using autoencoder and LSTM, in: International conference on fieldprogrammable technology (ICFPT), 2019. Tianjin, China.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 603.347, 555.696, 630.003 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[32] M.S. Elsayed, N.A. Le-Khac, S. Dev, A.D. Jurcut, Network anomaly detection using LSTM based autoencoder, in: Proceedings of the 16th ACM Symposium on QoS and security for wireless and mobile networks (Q2SWinet ’20), 2020. New York, USA.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 579.719, 542.083, 606.079 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[33] S. Maleki, N.R. Jennings, Unsupervised anomaly detection with LSTM autoencoders using statistical data- filtering, Appl. Soft. Comput. 108 (2021) 107443.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 555.499, 555.657, 582.155 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[34] G.N. Singh, A.K. Pandey, A.K. Sharma, Some improved and alternative imputation methods for finite population mean in presence of missing information, Commun. Stat.Theory Methods 50 (19) (2020) 4401–4427.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 539.865, 555.692, 558.231 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[35] A.K. Pandey, G.N. Singh, N. Sayed-Ahmed, H. Abu-Zinadah, Improved estimators for mean estimation in presence of missing information, Alexandria Eng. J. 60 (6)",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 58,
+        "level" : "4",
+        "page number" : 15,
+        "bounding box" : [ 323.146, 531.574, 378.096, 542.3 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(2021) 5977–5990."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 515.94, 548.119, 534.364 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[36] C.S.K. Dash, A.K. Behera, S. Dehuri, A. Ghosh, An outliers detection and elimination framework in classification task of data mining, Decis. Analyt. J. 6",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 59,
+        "level" : "4",
+        "page number" : 15,
+        "bounding box" : [ 323.146, 508.004, 367.729, 518.433 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(2023) 100164."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 492.016, 546.475, 510.439 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[37] M. Seyedan, F. Mafakheri, C. Wang, Cluster-based demand forecasting using Bayesian model averaging: an ensemble learning approach, Decis. Analyt. J. 3",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 60,
+        "level" : "4",
+        "page number" : 15,
+        "bounding box" : [ 323.146, 484.079, 367.729, 494.509 ],
+        "font" : "CharisSIL",
+        "font size" : 6.376,
+        "text color" : "[0.13000686466693878, 0.5900053381919861, 0.8200045824050903]",
+        "content" : "(2022) 100033."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 306.592, 468.149, 550.777, 486.515 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "[38] D.C. Montgomery, G.C. Runger, Applied statistics and probability for engineers, John Wiley & Sons, 2010.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 299,
+    "page number" : 15,
+    "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 42,
+      "page number" : 15,
+      "bounding box" : [ 294.42, 28.818, 301.599, 39.248 ],
+      "heading level" : 5,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15"
+    } ]
+  } ]
+}

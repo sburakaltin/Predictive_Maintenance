@@ -1,0 +1,3777 @@
+{
+  "file name" : "7.pdf",
+  "number of pages" : 22,
+  "author" : "Mustafa Abdallah, Byung-Gun Joung, Wo Jae Lee, Charilaos Mousoulis, Nithin Raghunathan, Ali Shakouri, John W. Sutherland and Saurabh Bagchi",
+  "title" : "Anomaly Detection and Inter-Sensor Transfer Learning on Smart Manufacturing Datasets",
+  "creation date" : "D:20230105160512+08'00'",
+  "modification date" : "D:20230105090908+01'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 127,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.319, 558.498, 785.795 ],
+    "source" : "7_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 128,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.319, 558.498, 785.795 ],
+    "source" : "7_images/imageFile2.png"
+  }, {
+    "type" : "image",
+    "id" : 129,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.319, 558.498, 785.795 ],
+    "source" : "7_images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 130,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.319, 558.498, 785.795 ],
+    "source" : "7_images/imageFile4.png"
+  }, {
+    "type" : "heading",
+    "id" : 125,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 74.753, 767.99, 151.757, 784.066 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 25.198,
+    "text color" : "[0.857422, 0.439453, 0.548828, 0.00665283]",
+    "content" : "sensors"
+  }, {
+    "type" : "paragraph",
+    "id" : 132,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 725.609, 63.213, 738.023 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 133,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.017, 685.592, 511.886, 726.586 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "Anomaly Detection and Inter-Sensor Transfer Learning on Smart Manufacturing Datasets"
+  }, {
+    "type" : "heading",
+    "id" : 134,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.328, 648.825, 527.251, 675.072 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Mustafa Abdallah 1,* , Byung-Gun Joung 2, Wo Jae Lee 3,† , Charilaos Mousoulis 2, Nithin Raghunathan 2, Ali Shakouri 2, John W. Sutherland 3 and Saurabh Bagchi 2"
+  }, {
+    "type" : "list",
+    "id" : 138,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 584.611, 511.248, 627.676 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 606.131, 504.553, 627.676 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 Computer and Information Technology, Indiana University-Purdue University Indianapolis, Indianapolis, IN 46202, USA",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 595.371, 491.155, 606.157 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47907, USA",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 584.611, 511.248, 595.397 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3 Environmental and Ecological Engineering, Purdue University, West Lafayette, IN 47907, USA",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 139,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 563.092, 360.772, 583.623 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: mabdall@iu.edu † Current address: Amazon, Seattle, WA 98108, USA."
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 270.532, 149.249, 362.559 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Citation: Abdallah, M.; Joung, B.-G.; Lee, W.J.; Mousoulis, C.; Raghunathan, N.; Shakouri, A.; Sutherland, J.W.; Bagchi, S. Anomaly Detection and Inter-Sensor Transfer Learning on Smart Manufacturing Datasets. Sensors 2023, 23, 486. https://doi.org/10.3390/s23010486"
+  }, {
+    "type" : "paragraph",
+    "id" : 121,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 252.629, 137.84, 261.179 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editor: Chunhua Yang"
+  }, {
+    "type" : "caption",
+    "id" : 122,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 197.954, 124.067, 242.28 ],
+    "linked content id" : 123,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 8 December 2022 Revised: 27 December 2022 Accepted: 30 December 2022 Published: 2 January 2023"
+  }, {
+    "type" : "image",
+    "id" : 123,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 165.167, 92.409, 185.009 ],
+    "source" : "7_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 67.79, 153.204, 159.818 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Copyright: © 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/)."
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 1,
+    "bounding box" : [ 166.044, 368.459, 559.279, 548.079 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Abstract: Smart manufacturing systems are considered the next generation of manufacturing applications. One important goal of the smart manufacturing system is to rapidly detect and anticipate failures to reduce maintenance cost and minimize machine downtime. This often boils down to detecting anomalies within the sensor data acquired from the system which has different characteristics with respect to the operating point of the environment or machines, such as, the RPM of the motor. In this paper, we analyze four datasets from sensors deployed in manufacturing testbeds. We detect the level of defect for each sensor data leveraging deep learning techniques. We also evaluate the performance of several traditional and ML-based forecasting models for predicting the time series of sensor data. We show that careful selection of training data by aggregating multiple predictive RPM values is beneﬁcial. Then, considering the sparse data from one kind of sensor, we perform transfer learning from a high data rate sensor to perform defect type classiﬁcation. We release our manufacturing database corpus (4 datasets) and codes for anomaly detection and defect type classiﬁcation for the community to build on it. Taken together, we show that predictive failure classiﬁcation can be achieved, paving the way for predictive maintenance."
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 330.561, 560.396, 354.525 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Keywords: smart manufacturing; predictive maintenance; transfer learning; vibration sensors; manufacturing dataset; defect classiﬁcation; piezoelectric sensor; mems sensor; rpm; autoencoder"
+  }, {
+    "type" : "heading",
+    "id" : 143,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 279.999, 234.508, 292.313 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 144,
+    "page number" : 1,
+    "bounding box" : [ 165.975, 76.343, 560.521, 276.852 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The smart manufacturing application domain poses certain salient technical challenges for the use of ML-based models for anomaly detection. First, in the smart manufacturing domain, there are multiple types of sensors concurrently generating data about the same (or overlapping) events. These sensors are of varying capabilities and costs. Second, the sensor data characteristics change with the operating point of the machines, such as, the RPM of the motor. The inference and the anomaly detection processes therefore have to be calibrated for the operating point. Thus, we need case studies of anomaly detection deployments on such systems — the need for such deployments and resultant analyses have been made for smart manufacturing systems [1,2] (see also the survey [3] on the usage and challenges of deep learning in smart manufacturing systems). Most of the existing work has relied on classical models for anomaly detection and failure detection in such systems [4–7], while there is a rich literature on anomaly detection in many IoT-based systems [8,9], there are few existing works that document the use of ML models for anomaly detection in smart manufacturing systems [10] (see [11] for a survey). In particular, most of the existing work is focused on categorizing anomalies in the semiconductor industry [12], windmill monitoring [13], and laser-based manufacturing [14]."
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 1,
+    "bounding box" : [ 35.493, 18.829, 559.272, 28.776 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Sensors 2023, 23, 486. https://doi.org/10.3390/s23010486 https://www.mdpi.com/journal/sensors"
+  }, {
+    "type" : "header",
+    "id" : 147,
+    "page number" : 2,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 2,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 2 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 150,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 545.954, 561.02, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "There is also important economic impetus for this kind of deployment and analysis. In a smart manufacturing system, various sensors (e.g., vibration, ultrasonic, pressure sensors) are applied for process control, automation, production planning, and equipment maintenance. For example, in equipment maintenance, the condition of operating equipment is continuously monitored using proxy measures (e.g., vibration and sound) to prevent unplanned downtime and to save maintenance costs [15]. The data from these sensors can be analyzed in a real-time manner to ﬁll a critical role in predictive maintenance tasks, through the anomaly detection process [16–18]. Thus, we propose our anomaly detection technique for smart manufacturing systems [19]. Two notable exceptions to the lack of prior work in this domain are the recent works [20,21]. In [20], the authors proposed a kernel principal component analysis (KPCA)-based anomaly detection system to detect a cutting tool failure in a machining process. The work [21] provided a deep-learning based anomaly detection approach. However, they did not address the domain-speciﬁc challenges introduced above, did not propose any transfer learning across different manufacturing sensors as we propose here, and did not benchmark the performance of diverse forecasting models for the anomaly detection task."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 2,
+    "bounding box" : [ 166.005, 332.554, 560.519, 545.615 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this paper, we study the maintenance problem of smart manufacturing systems by detecting failures and anomalies that would have an impact on the reliability and safety of these systems. In such systems, the data are collected from different sensors via intermediate data collection points and ﬁnally aggregated to a server to further store, process, and perform useful data-analytics on the sensor readings [22,23]. We propose a temporal anomaly detection model, in which the temporal relationships between the readings of the sensors are captured via a time-series prediction model. Speciﬁcally, we consider two classes of time-series prediction models which are classical forecasting models (including Autoregressive Integrated Moving Average model (ARIMA) [24], Seasonal Naive [25], and Random Forest [26]) and new ML-based models (including Long Short-Term memory (LSTM) [27], AutoEncoder [28], and DeepAR [29]). These models are used to predict the expected future samples in certain time-frame given the near history of the readings. We ﬁrst test our models on real data collected from deployed manufacturing sensors to detect anomalous data readings. We then analyze the performance of our models, and compare the algorithms of these time-series predictors for different testbeds. We observe that the best forecasting model is dataset-dependent with ML-based models giving better performance in the anomaly detection task."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 68.942, 561.015, 332.215 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Another problem in this domain is the prediction from models using sparse data, which is often the case because of limitations of the sensors or the cost of collecting data. One mitigating factor is that plentiful data may exist in a slightly different context, such as, from a different kind of sensor on the same equipment or the equipment being operated under a somewhat different operating condition in a different facility (such as a different RPM). Thus, the interesting research question in this context is: can we use a model trained on data from one kind of sensor (such as, a piezoelectric sensor, which has a high sampling frequency) to perform anomaly detection on data from a different kind of sensor (such as, a MEMS sensor, which has a low sampling frequency but is much cheaper). In this regard, we propose an approach that transfers learning across different instances of manufacturing vibration sensors. This transfer-learning model is based on sharing weights and feature transformations from a deep neural network (DNN) trained with data from the sensor that has a high sampling frequency. These features and weights are used in the classiﬁcation problem of another sensor data (By classiﬁcation problem here, we mean doing both re-training on the new sensor using the shared neural weights and the feature representation and then doing the defect type classiﬁcation.) (the one with lower sampling frequency). We show that the transfer-learning idea gives a relative improvement of 11.6% in the accuracy of classifying the defect type over the regular DNN model. We built variants of DNN models for the defect classiﬁcation task, i.e., using a single RPM data for training and for testing across the entire operating environment, and using aggregations of data across multiple RPMs for training with interpolation within RPMs. One may wonder why"
+  }, {
+    "type" : "header",
+    "id" : 153,
+    "page number" : 3,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 3,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 3 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 696.59, 559.47, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "we need to use sensors with much lower sampling rate; the reason is the signiﬁcant price difference between the MEMS sensor and piezoelectric sensor. The former has much lower resolution (and also cost [30,31]—$8 versus $1305). Therefore, the goal is to build a predictive maintenance model from the piezoelectric sensor and use it for the MEMS sensor."
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 671.484, 559.275, 696.251 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this paper, we test the following hypotheses related to anomaly detection in smart manufacturing."
+  }, {
+    "type" : "list",
+    "id" : 158,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 597.362, 559.279, 659.19 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 172,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 634.423, 559.274, 659.19 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Hypothesis 1. Deep learning-based anomaly detection technique is effective for smart manufacturing.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 597.362, 559.279, 622.129 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Hypothesis 2. Learning process for classifying failures is transferable across different sensor types.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 560.301, 559.276, 585.068 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our Contribution: Based on our analysis with real data, we have the following contributions:"
+  }, {
+    "type" : "list",
+    "id" : 160,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 165.895, 257.037, 561.023, 557.969 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 165.895, 482.99, 559.662, 557.969 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "1. Anomaly Detection: We adapt two classes for time series prediction models for temporal anomaly detection in a smart manufacturing system. Such anomaly detection aims at detecting anomaly readings collected from the deployed sensors. We test our models for temporal anomaly detection through four real-world datasets collected from manufacturing sensors (e.g., vibration data). We observe that the ML-based models outperform the classical models in the anomaly detection task.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 407.673, 560.523, 482.651 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2. Defect Type Classiﬁcation: We detect the level of defect (i.e., normal operation, near-failure, failure) for each RPM data using deep learning (i.e., deep neural network multi-class classiﬁer) and we transfer the learning across different instances of manufacturing sensors. We analyze the different parameters that affect the performance of prediction and classiﬁcation models, such as the number of epochs, network size, prediction model, failure level, and sensor type.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 357.461, 560.521, 407.334 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3. RPM Selection and Aggregation: We show that training at some speciﬁc RPMs, for testing under a variety of operating conditions gives better accuracy of defect prediction. The takeaway is that careful selection of training data by aggregating multiple predictive RPM values is beneﬁcial.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 257.037, 561.023, 357.122 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4. Benchmark Data: We release our database corpus (4 datasets) and codes for the community to access it for anomaly detection and defect type classiﬁcation and to build on it with new datasets and models. (URL for our database and codes is: https://drive.google.com/drive/u/2/folders/1QX3chnSTKO3PsEhi5kBdf9 WwMBmOriJ8 (accessed on 12 December 2022). The dataset details are provided in Appendix A, the dataset collection process is described in Appendix B, the dataset usage is described in Appendix C, and the main codes are presented in Appendix E). We are unveiling real failures of a pharmaceutical packaging manufacturer company.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 161,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 234.441, 239.031, 246.755 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "2. Related Work"
+  }, {
+    "type" : "list",
+    "id" : 162,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 220.951, 286.274, 233.365 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 168,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 220.951, 286.274, 233.365 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.1. Failure Detection Models",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 3,
+    "bounding box" : [ 165.98, 80.1, 560.517, 217.844 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "There have been several works to study a failure detection in manufacturing processes using single or multi-sensor data [20,32,33]. Specifically, the recent work [20], in which the kernel principal component analysis based anomaly detection system was proposed to detect a cutting tool failure in a machining process. In the study, multi-sensor signals were used to estimate the condition of a cutting tool, but a transfer learning between different sensor types was not considered. Furthermore, in another recent study [33], the fault detection monitoring system was proposed to detect various failures in a DC motor such as a gear defect, misalignment, and looseness. In the study, a single sensor, i.e., accelerometer, was used to obtain machine condition data, and several convolutional neural network architectures were used to detect the targeted failures. However, different rotational speeds and sensors were not considered. Thus, these techniques must be applied again for each new"
+  }, {
+    "type" : "header",
+    "id" : 164,
+    "page number" : 4,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 4,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 4 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 4,
+    "bounding box" : [ 166.399, 721.696, 559.466, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "sensor type. On the other hand, we consider the transfer learning between different sensor types. We also compare traditional and ML-based models for our anomaly detection task."
+  }, {
+    "type" : "list",
+    "id" : 168,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 535.573, 485.506, 711.474 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 162,
+    "next list id" : 234,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 699.06, 256.675, 711.474 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.2. Learning Transfer",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 118,
+        "page number" : 4,
+        "bounding box" : [ 165.975, 558.208, 560.521, 695.952 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Transfer learning has been proposed to extract knowledge from one or more source tasks and apply the knowledge to a target task [34–37] with the advantage of intelligently applying knowledge learned previously to solve new problems faster. In the literature, transfer learning techniques have been applied successfully in many real-world data processing applications, such as cross-domain text classiﬁcation, constructing informative priors, and large-scale document classiﬁcation [38,39]. However, these works did not tackle the transfer learning across different instances of sensors that we consider here in the context of smart manufacturing. In smart manufacturing systems, the existing works only considered calibration of sensors using neural network regression models [40] and multi-fault bearing classiﬁcation [41]. Again, these works did not tackle the transfer learning across different instances of sensors."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 535.573, 485.506, 547.987 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3. Datasets and Benchmarks for Anomaly Detection in Smart Manufacturing",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 4,
+    "bounding box" : [ 165.786, 407.274, 561.023, 532.465 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "There exist a few papers that focused on releasing datasets for anomaly detection in smart manufacturing, with focusing on unsupervised anomaly detection process [42,43]. In particular, the work [42] shows the benchmark results of the DCASE 2020 Challenge Task for unsupervised detection of anomalous sounds for machine condition monitoring. The main goal of such anomalous sound detection (ASD) is to identify whether the sound emitted from a target machine is normal or anomalous. The work [43] also proposed an unsupervised real-time anomaly detection algorithm for smart manufacturing. On the other hand, the work [44] explores learning techniques for failure prediction for several imbalanced smart manufacturing datasets. However, all of these works did not tackle the transfer of the learning across different instances of sensors that we consider here."
+  }, {
+    "type" : "heading",
+    "id" : 170,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 384.678, 282.648, 396.992 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "3. Materials and Methods"
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 356.763, 559.272, 381.53 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We now describe our proposed algorithms for the anomaly detection, defect type classiﬁcation, and learning transfer across sensors."
+  }, {
+    "type" : "list",
+    "id" : 172,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 334.127, 302.493, 346.541 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 158,
+    "next list id" : 212,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 334.127, 302.493, 346.541 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.1. Temporal Anomaly Detection",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 4,
+    "bounding box" : [ 166.095, 268.594, 559.667, 331.02 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Here, we describe our proposed algorithm for detecting anomalies from the sensor readings. First, we build time-series forecasting models, using different time-series predictor variants in our algorithm. We compare several state-of-the-art time-series forecasting models for our anomaly detection task on our manufacturing testbeds. They can be classiﬁed into the following two classes:"
+  }, {
+    "type" : "list",
+    "id" : 174,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 140.075, 560.517, 265.266 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 202.84, 559.28, 265.266 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Classical forecasting models: In this category, we included Autoregressive Integrated Moving Average model (ARIMA) [24], Seasonal Naive [25] (in which each forecast equals the last observed value from the same season), Random Forest (RF) [26] (which is a tree ensemble that combines the predictions made by many decision trees into a single model), and Auto-regression [45].",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 140.075, 560.517, 202.501 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• ML-based forecasting models: We selected six popular time series forecasting models, including Recurrent Neural Network (RNN) [46], LSTM [47] (which captures time dependency in a better fashion compared to RNN) and has been used in different applications [48]), Deep Neural Network (DNN) [49], AutoEncoder [50], and the recent works DeepAR [29], DeepFactors [51].",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 86.875, 559.272, 136.748 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "For each model, we generated multiple variants by changing the values of hyperparameters. We then chose the model variant with the best performance for each dataset. We describe the hyper-parameters and the libraries used for all forecasting models in Appendix E (in the Appendix)."
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 4,
+    "bounding box" : [ 166.399, 61.769, 560.51, 86.536 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Anomaly Detection Rule: After using any of the above proposed time-series predictors, for each sample under test, we would have two values: the actual value (measured by the"
+  }, {
+    "type" : "header",
+    "id" : 177,
+    "page number" : 5,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 25,
+      "page number" : 5,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 5 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 5,
+    "bounding box" : [ 166.399, 734.249, 559.266, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "sensor) and the predicted value (predicted by our model). To flag an anomaly, we consider that"
+  }, {
+    "type" : "paragraph",
+    "id" : 181,
+    "page number" : 5,
+    "bounding box" : [ 167.532, 720.21, 263.889, 734.924 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.572,
+    "text color" : "[0.0]",
+    "content" : "predicted value−actual value"
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 5,
+    "bounding box" : [ 165.975, 668.158, 560.522, 731.956 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "predictedvalue > λ. In other words, the relative error between the actual value and the predicted value is more than λ. In our experimental results, based on the training data, we set λ = 200% (2X relative error). We emphasize that such value can be chosen based on the dataset characteristics depending on the application. We also used classiﬁer-based model for anomaly detection of test samples (see Appendix E)."
+  }, {
+    "type" : "list",
+    "id" : 184,
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 645.522, 338.508, 657.936 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 645.522, 338.508, 657.936 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.2. Transfer Learning across Sensor Types",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 479.565, 560.522, 642.415 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We show our proposed model in Figure 1 which has two modes: In ofﬂine training, the sensor with large amount of data (let us call it sensor type I) has its data entered to the feature extraction module that performs encoding and normalization of the input signals into numerical features. Second, a deep neural network (DNN) model is trained and tuned using these features and labels of the data (normal, near-failure or failure). We use the DNN as a multi-class classiﬁer due to its discriminative power that is leveraged in different classiﬁcation applications [52–55]. Moreover, DNN is useful for both tasks of learning the level of defect for the same sensor type and for transfer learning across the different sensor types that we consider here. In online mode, any new sensor data under test (here, sensor type II) would have the same feature extraction process where the saved feature encoders are shared. Then, the classiﬁer (after retraining) predicts the defect type (one of the three states mentioned earlier) given the trained model, and giving as output the probability of each class."
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 5,
+    "bounding box" : [ 166.115, 354.035, 559.556, 479.226 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "It is worth noting that sensor types I and II should be measuring the same physical quantity but can be from different manufacturers and with different characteristics. For instance, in our smart manufacturing domain, sensor type I is a piezoelectric sensor (of high cost but with high sampling resolution) while type II is a MEMS sensor (of lower cost but with lower sampling resolution). We propose the transfer learning for predictive maintenance, i.e., predicting the level of defect with the MEMS sensor and whether the machine is in normal operation, near-failure (and needs maintenance), or failure (and needs replacement). We emphasize that although the two sensor types we consider for that task in our work generate different data distribution and have different sampling frequency, our transfer learning is efﬁcient (see our evaluation in Section 4.2)."
+  }, {
+    "type" : "list",
+    "id" : 192,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 176.849, 183.669, 224.818, 329.199 ],
+    "numbering style" : "roman numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 176.988, 310.922, 222.73, 329.199 ],
+      "font" : "Calibri-Bold",
+      "font size" : 8.317,
+      "text color" : "[0.0, 0.69, 0.314]",
+      "content" : "Sensor Type I Raw Data",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 92,
+        "page number" : 5,
+        "bounding box" : [ 193.303, 283.497, 215.277, 291.823 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.327,
+        "text color" : "[1.0, 0.0, 0.0]",
+        "content" : "Motor"
+      }, {
+        "type" : "paragraph",
+        "id" : 93,
+        "page number" : 5,
+        "bounding box" : [ 190.813, 273.531, 217.667, 281.847 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[1.0, 0.0, 0.0]",
+        "content" : "Testbed"
+      }, {
+        "type" : "paragraph",
+        "id" : 97,
+        "page number" : 5,
+        "bounding box" : [ 252.664, 308.482, 287.618, 326.767 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[1.0]",
+        "content" : "Feature Extraction"
+      }, {
+        "type" : "text block",
+        "id" : 98,
+        "page number" : 5,
+        "bounding box" : [ 471.199, 249.307, 534.623, 285.093 ],
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 5,
+          "bounding box" : [ 480.86, 258.354, 524.97, 274.788 ],
+          "font" : "Calibri-Bold",
+          "font size" : 7.47,
+          "text color" : "[1.0]",
+          "content" : "Output Model Parameters"
+        } ]
+      }, {
+        "type" : "text block",
+        "id" : 99,
+        "page number" : 5,
+        "bounding box" : [ 391.07, 163.353, 443.178, 191.407 ],
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 5,
+          "bounding box" : [ 396.735, 177.464, 437.527, 185.791 ],
+          "font" : "Calibri-Bold",
+          "font size" : 8.327,
+          "text color" : "[1.0]",
+          "content" : "Defect Type"
+        }, {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 5,
+          "bounding box" : [ 400.868, 167.497, 433.378, 175.813 ],
+          "font" : "Calibri-Bold",
+          "font size" : 8.317,
+          "text color" : "[1.0]",
+          "content" : "Inference"
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 101,
+        "page number" : 5,
+        "bounding box" : [ 403.686, 311.997, 433.303, 330.282 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[0.0, 0.69, 0.314]",
+        "content" : "Features Vector"
+      }, {
+        "type" : "table",
+        "id" : 104,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 402.321, 261.255, 467.181, 296.833 ],
+        "number of rows" : 3,
+        "number of columns" : 2,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 5,
+            "bounding box" : [ 402.528, 261.463, 460.724, 296.522 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 3,
+            "column span" : 1,
+            "kids" : [ {
+              "type" : "text block",
+              "id" : 106,
+              "page number" : 5,
+              "bounding box" : [ 390.323, 249.257, 449.266, 285.043 ],
+              "kids" : [ {
+                "type" : "paragraph",
+                "id" : 8,
+                "page number" : 5,
+                "bounding box" : [ 409.106, 252.275, 430.496, 260.591 ],
+                "font" : "Calibri-Bold",
+                "font size" : 8.317,
+                "text color" : "[1.0]",
+                "content" : "(DNN)"
+              }, {
+                "type" : "paragraph",
+                "id" : 9,
+                "page number" : 5,
+                "bounding box" : [ 395.353, 262.235, 444.196, 280.511 ],
+                "font" : "Calibri-Bold",
+                "font size" : 8.317,
+                "text color" : "[1.0]",
+                "content" : "Deep Neural Network Train"
+              } ]
+            } ]
+          }, {
+            "type" : "table cell",
+            "page number" : 5,
+            "bounding box" : [ 460.724, 271.9, 466.87, 296.522 ],
+            "row number" : 1,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 2,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 5,
+            "bounding box" : [ 460.724, 267.468, 466.87, 271.9 ],
+            "row number" : 2,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 3,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 5,
+            "bounding box" : [ 460.724, 261.463, 466.87, 267.468 ],
+            "row number" : 3,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 105,
+        "page number" : 5,
+        "bounding box" : [ 395.353, 262.235, 405.017, 280.511 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[1.0]",
+        "content" : "D Ne"
+      }, {
+        "type" : "text block",
+        "id" : 106,
+        "page number" : 5,
+        "bounding box" : [ 390.323, 249.257, 449.266, 285.043 ],
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 5,
+          "bounding box" : [ 409.106, 252.275, 430.496, 260.591 ],
+          "font" : "Calibri-Bold",
+          "font size" : 8.317,
+          "text color" : "[1.0]",
+          "content" : "(DNN)"
+        }, {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 5,
+          "bounding box" : [ 395.353, 262.235, 444.196, 280.511 ],
+          "font" : "Calibri-Bold",
+          "font size" : 8.317,
+          "text color" : "[1.0]",
+          "content" : "Deep Neural Network Train"
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 110,
+        "page number" : 5,
+        "bounding box" : [ 251.888, 271.348, 286.385, 289.625 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[1.0]",
+        "content" : "Labels Collection"
+      }, {
+        "type" : "paragraph",
+        "id" : 112,
+        "page number" : 5,
+        "bounding box" : [ 329.277, 308.482, 368.157, 326.767 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[1.0]",
+        "content" : "Feature Embedding"
+      }, {
+        "type" : "paragraph",
+        "id" : 113,
+        "page number" : 5,
+        "bounding box" : [ 322.633, 270.385, 368.074, 288.662 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[0.0, 0.69, 0.314]",
+        "content" : "Training Data Labels"
+      }, {
+        "type" : "paragraph",
+        "id" : 117,
+        "page number" : 5,
+        "bounding box" : [ 245.82, 171.72, 280.775, 189.996 ],
+        "font" : "Calibri-Bold",
+        "font size" : 8.317,
+        "text color" : "[1.0]",
+        "content" : "Feature Extraction"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 176.849, 183.669, 224.818, 191.996 ],
+      "font" : "Calibri-Bold",
+      "font size" : 8.327,
+      "text color" : "[0.0, 0.69, 0.314]",
+      "content" : "Sensor Type II",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 199,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 174.269, 197.939, 516.265, 243.302 ],
+    "heading level" : 3,
+    "font" : "Calibri-Bold",
+    "font size" : 12.45,
+    "text color" : "[0.0]",
+    "content" : "(Offline) Defect Classifier Training DefectTypeClassifier (Online) Classification + Transfer Learning"
+  }, {
+    "type" : "heading",
+    "id" : 204,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 477.801, 172.108, 522.12, 190.385 ],
+    "heading level" : 5,
+    "font" : "Calibri-Bold",
+    "font size" : 8.317,
+    "text color" : "[1.0]",
+    "content" : "Performance Evaluation"
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 5,
+    "bounding box" : [ 324.069, 171.72, 362.949, 189.996 ],
+    "font" : "Calibri-Bold",
+    "font size" : 8.317,
+    "text color" : "[1.0]",
+    "content" : "Feature Embedding"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 5,
+    "bounding box" : [ 184.468, 173.702, 217.311, 182.018 ],
+    "font" : "Calibri-Bold",
+    "font size" : 8.317,
+    "text color" : "[0.0, 0.69, 0.314]",
+    "content" : "Raw Data"
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 5,
+    "bounding box" : [ 197.337, 147.33, 495.719, 154.8 ],
+    "font" : "Calibri",
+    "font size" : 6.225,
+    "text color" : "[0.0, 0.125, 0.376]",
+    "content" : "CIKM’22 (10/17/2022) Indiana University-Purdue University Indianapolis 1"
+  }, {
+    "type" : "list",
+    "id" : 206,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 114.699, 559.276, 151.335 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 220,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 114.699, 559.276, 151.335 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 1. The proposed learning-transfer model has two modes: ofﬂine DNN sub-model training and online-mode for classifying the sensor under test after sharing knowledge (i.e., DNN’s weights and features).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 79.487, 561.019, 104.254 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Having introduced the background and the high-level proposed models, we next detail the anomaly detection and the transfer learning tasks on our manufacturing testbeds."
+  }, {
+    "type" : "header",
+    "id" : 208,
+    "page number" : 6,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 26,
+      "page number" : 6,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 6 of 22"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 211,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 734.069, 210.698, 746.383 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "4. Results"
+  }, {
+    "type" : "list",
+    "id" : 212,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 720.579, 381.835, 732.993 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 172,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 720.579, 381.835, 732.993 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.1. Anomaly Detection with Manufacturing Sensors",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 6,
+    "bounding box" : [ 166.095, 629.94, 559.279, 717.471 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Anomalous data generally needs to be separated from machine failure as abnormal patterns of data do not necessarily imply machine or process failure [3]. We perform anomaly detection using vibration and process data to identify anomalous events and then attempt to label/link these events with machine failure information. This way, we aim to identify abnormal data and correlate the abnormal data to machine failure coming from manufacturing sensors. To achieve such goal, we build time-series models to predict (and detect) anomalies in the sensors. We ﬁrst detail our datasets."
+  }, {
+    "type" : "list",
+    "id" : 214,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 610.358, 395.076, 622.572 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 610.358, 395.076, 622.572 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.1.1. Deployment Details and Datasets Explanation",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 215,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 165.895, 218.228, 561.019, 607.031 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 165.895, 456.734, 561.019, 607.031 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "(1) Piezoelectric and MEMS datasets: To build these datasets, an experiment was conducted in the motor testbed (shown in Figure 2) to collect machine condition data (i.e., acceleration) for different health conditions. During the experiment, the acceleration signals were collected from both piezoelectric and MEMS sensors (Figure 3) at the same time with the sampling rate of 3.2 kHz and 10 Hz, respectively, for X, Y, and Z axes. Different levels of machine health condition can be induced by mounting a mass on the balancing disk (shown in Figure 4), thus different levels of mechanical imbalance are used to trigger failures. Failure condition can be classiﬁed as one of three possible states - normal, near-failure, and failure. Acceleration data were collected at the ten rotational speeds (100, 200, 300, 320, 340, 360, 380, 400, 500, and 600 RPM) for each condition, while the motor is running, 50 samples were collected at 10 s interval, for each of the ten rotational speeds. We use this same data for defect-type classiﬁcation and learning transfer tasks (Section 4.2).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 165.975, 218.228, 561.018, 456.395 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "(2) Process and Pharmaceutical Packaging datasets: In the production of injection molded plastic components, molten material is injected into a die. To increase the production rate (i.e., speed up the process), a coolant is circulated through a piping system embedded within the die to remove heat from the system. This accelerates the rate at which the die and plastic components cool and solidify, and reduces the cycle time. Of course, the coolant within this system must then have heat removed from it; this is often achieved with the aid of a chiller. Discussions with our company partner indicated that there might be concerns with the vibration of the chiller. Therefore, data were collected on the chiller vibration. We were also able to collect process related data that can potentially indicate the condition of machine operation. Such process data is being collected as part of the company’s standard statistical process control (SPC) activities; 49,706 samples of process data were collected for the period from August 2021–May 2022. One type of process data collected was the internal temperature of the chiller for the injection molding machines. In this paper, the chiller temperature was used for anomaly detection task. The chiller in the pharmaceutical process is designed to maintain the temperature of the cooling water used in the manufacturing process to around 53 degrees Fahrenheit. When the chiller operation is down, the temperature of the process water varies with the ambient temperature. The sampling rate of the process data is 1 data point per 5 min when the SPC system is on service. When the chiller is failed, supply temperature can vary and goes up to 65 degrees.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 216,
+    "page number" : 7,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 7,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 7 of 22"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 219,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 599.609, 362.842, 747.03 ],
+    "source" : "7_images/imageFile6.png"
+  }, {
+    "type" : "list",
+    "id" : 220,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 255.513, 443.195, 593.111 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 206,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 581.957, 264.189, 593.111 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 2. Motor Testbed.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 90,
+        "page number" : 7,
+        "bounding box" : [ 166.394, 450.168, 362.836, 569.895 ],
+        "source" : "7_images/imageFile7.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 432.516, 443.195, 443.67 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 3. Piezoelectric and MEMS sensors mounted on motor testbed.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 91,
+        "page number" : 7,
+        "bounding box" : [ 166.394, 273.165, 362.752, 420.434 ],
+        "source" : "7_images/imageFile8.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 255.513, 413.041, 266.667 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 4. Balancing disk to make different levels of imbalance.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 7,
+    "bounding box" : [ 165.975, 58.291, 560.521, 246.247 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Experimental Setup: The goal is to measure the performance of our time-series regression model to detect anomalies for the vibration sensors. We show the performance of our models in terms of the accuracy of detecting anomalies (measured by precision, recall, and F-1 score). We also use the root mean square error (RMSE) for evaluating the performance of different forecasting models on the four datasets. The goal of these time-series regression models is to extract the anomaly measures that are typically far from the predicted value of the regression model. For each proposed model, the training size was 66% of the total collected data while the testing size was 34%. We also varied the proportion of data used for training as a parameter and tested the performance of our model to check the least amount of data needed (which which was 30% of the data in our experiments) for the time-series regression model to predict acceptable values (within 10% error from the actual values). We trained the ten predictive models on speciﬁc RPM and tested on same RPM. The data contains different levels of defects (i.e., different labels for indicating normal operation, near-failure, and failure). These labels would be used in next section. In time-series prediction models, all data that have different levels of defects were"
+  }, {
+    "type" : "header",
+    "id" : 222,
+    "page number" : 8,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 28,
+      "page number" : 8,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 8 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 721.696, 559.279, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "tested. Speciﬁcally, the data was divided between training and testing equally. We stopped after 5 epochs as the total loss on training samples saturates."
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 8,
+    "bounding box" : [ 166.025, 684.037, 559.527, 721.357 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Computing Resources: We performed anomaly detection experiments on an Intel i7 @2.60 GHz, 16 GB RAM, 8-core workstation. The transfer learning experiments were performed on Dell Precision T3500 Workstation, with 8 CPU cores, each running at"
+  }, {
+    "type" : "list",
+    "id" : 227,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 649.068, 362.926, 683.698 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 671.484, 362.926, 683.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.2 GHZ, 12 GB RAM, and Ubuntu 16.04 OS.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 649.068, 280.864, 661.282 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.1.2. Results and Insights",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 470.338, 561.019, 645.74 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Performance: We ﬁrst do benchmarking of the ten time-series forecasting models for each of the four datasets (described above in Section 4.1.1). Table 1 shows such comparison in terms of the RMSE. We ﬁrst observe that each dataset has a different best model (e.g., LSTM gave the best performance for Piezoelectric dataset while AutoEncoder was the best for Process data). Second, most of the ML-based forecasting models perform better than the traditional models. This is due to the fact that the deployments generate enough data for accurate training and due to the complex dependencies among the features of the datasets. Third, the linear models such as ARIMA and Auto-Regression were worse due to the non-linear nature of sensors’ data. We compare the anomaly detection performance of our approach under the different forecasting models (represented by the typical metrics: Precision, Recall, and F-1 Score [56]). Table 2 shows the average performance for each metric across our four datasets. We observe that Random Forest and AutoEncoder give the ﬁrst and second best anomaly detection performances, respectively, (i..e., highest precision and recall). Furthermore, Seasonal Naive and Auto Regression gave the worst performance."
+  }, {
+    "type" : "list",
+    "id" : 229,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 166.098, 327.39, 559.279, 456.876 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 243,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.098, 407.418, 559.276, 456.876 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 1. Results for forecasting (RMSE; the lower the better) for every testbed. For each forecasting model, we choose the model with the best performance from all its model variants. We observe that the best forecasting model is task-dependent (i.e., the best model is varying depending on each dataset type). The values with bold text are those with the best performances.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 81,
+        "page number" : 8,
+        "bounding box" : [ 170.987, 363.369, 554.683, 398.7 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 5.404,
+        "text color" : "[0.0]",
+        "content" : "Dataset Seasonal Naive DeepAR Deep Factors Random Forest AutoEncoder Auto-Regression ARIMA LSTM RNN DNN Piezoelectric 0.0834 0.0849 0.0813 0.0554 0.0931 0.3804 0.0954 0.0340 0.0352 0.0390 MEMS 0.1442 0.1346 0.2510 0.2295 0.2431 0.3865 0.2569 0.1450 0.1501 0.1554 Process Data 0.8943 0.8262 6.6468 0.5357 0.0560 1.1645 1.8840 0.6001 0.5811 0.769 Pharmac. Packaging 0.5673 0.3654 0.3628 0.1597 0.1510 0.3962 1.3069 0.7031 0.7612 1.5820"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.098, 327.39, 559.279, 351.204 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 2. Anomaly detection Results (Precision, Recall, and F-1 Score; the higher the better) for each forecasting model. Random Forest and AutoEncoder give the best anomaly detection performances.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 8,
+    "bounding box" : [ 171.947, 288.049, 553.727, 318.182 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 5.553,
+    "text color" : "[0.0]",
+    "content" : "Metric Seasonal Naive DeepAR Deep Factors Random Forest AutoEncoder Auto-Regression ARIMA LSTM RNN DNN Precision 0.4285 0.5609 0.5409 0.8333 0.7833 0.5116 0.7419 0.5135 0.5961 0.6305 Recall 0.4502 0.6571 0.6071 0.7813 0.7705 0.5945 0.6216 0.5938 0.6818 0.6744 F-1 Score 0.4391 0.6052 0.5721 0.8064 0.7769 0.5499 0.6764 0.5507 0.6361 0.6517"
+  }, {
+    "type" : "list",
+    "id" : 234,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 255.935, 357.686, 268.349 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 168,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 255.935, 357.686, 268.349 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2. Transfer Learning across Vibration Sensors",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 8,
+    "bounding box" : [ 166.095, 127.637, 559.668, 252.827 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this section, we use our transfer-learning proposed model to detect the level of defect of the readings from the manufacturing sensors. In this context, we evaluate the performance of the model on two real datasets from our manufacturing sensors which are piezoelectric and MEMS vibration sensors. In other words, we perform data analytics on the data from the vibration sensors and infer one of three operational states (mentioned in Section 4.1) for the motor. We show the performance of our model in terms of the accuracy of detecting defect level as measured by the classiﬁcation accuracy of the deep-learning prediction model on the test dataset which is the deﬁned as the number of correctly classiﬁed samples to the total number of samples. We study different parameters and setups that affect the performance."
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 8,
+    "bounding box" : [ 187.653, 115.084, 499.074, 127.298 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We seek to answer the following two research questions in this section:"
+  }, {
+    "type" : "list",
+    "id" : 237,
+    "level" : "4",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 86.989, 523.324, 111.756 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 99.542, 505.69, 111.756 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Can we detect the operational state effectively (i.e., with high accuracy)?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 86.989, 523.324, 99.203 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Can we transfer the learned model across the two different types of sensors?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 238,
+    "page number" : 9,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 9,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 9 of 22"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 241,
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 734.249, 281.801, 746.463 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 257,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 734.249, 281.801, 746.463 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2.1. DNN Model Results",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 9,
+    "bounding box" : [ 165.895, 392.33, 561.018, 730.921 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Experimental Setup and Results: We collected the data from 2 deployed sensors, i.e., piezoelectric and MEMS sensors mentioned earlier. Then, two DNN models were built on these two datasets. First, a normal model for each RPM was built where we train a DNN model on around 480 K samples for the RPM. We have a sampling rate of 3.2 KHz (i.e., collect 3.2 K data during 1 s) and we collect 50 samples and we have 3 axes. So, total data for one experiment is 3200 × 50 × 3 = 480 K data points. For testing on same RPM, the training size was 70% of the total collected data while the testing size was 30%. The baseline DNN model consists of 50 neurons per layer, 2 hidden layers (with ReLU activation function for each hidden layer) and output layer with Softmax activation function. Following standard tuning of the model, we created different variants of the models to choose the best parameters (by comparing the performance of the multi-class classiﬁcation problem). We built upon the Keras library [57] which is Python-based for creating the variants of our models. In our results, we call the two models DNN-R and DNN-TL where the ﬁrst refer to training DNN regularly and testing on the same sensor while the latter means transfer learning model where training was performed on one sensor and classiﬁcation was performed on a different sensor (using the design of shared weights and learned representations as described in Section 3.2). Speciﬁcally, for the DNN-TL, training was done on the plentiful sensor data from the piezoelectric sensor and the prediction was done based on the MEMS sensor data. The comparison between regular DNN model and our transfer-learning DNN model on MEMS sensors in terms of the best achieved accuracy is shown in Table 3. We notice that the transfer-learning model gives a relative gain of 11.6% over the model trained only on the lower resolution MEMS sensor data. The intuition here is that the MEMS sensor data is only 2000 samples, due to very low sampling rate (10 Hz as opposed to 3.2 kHz with the piezoelectric sensor) and thus it cannot ﬁt a good DNN-R model. On the other hand, we can train a DNN-TL model with sensor of different type (but still with vibration readings) with huge data and classify the failure of the sensor under test (i.e., MEMS with less data) with accuracy 71.71%."
+  }, {
+    "type" : "list",
+    "id" : 243,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 166.085, 198.661, 560.114, 380.115 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 229,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.098, 356.301, 559.277, 380.115 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 3. A comparison between regular DNN model and our transfer-learning DNN model on MEMS sensors. The transfer-learning model gives an absolute gain of 7.48% over regulard DNN model.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 85,
+        "page number" : 9,
+        "bounding box" : [ 209.98, 336.405, 517.586, 346.256 ],
+        "font" : "URWPalladioL-Bold",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "Model Type Sensor Tested Accuracy (%)"
+      }, {
+        "type" : "paragraph",
+        "id" : 87,
+        "page number" : 9,
+        "bounding box" : [ 215.962, 303.154, 506.106, 331.855 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "DNN-R MEMS 64.23% DNN-TL MEMS 71.71% DNN-R Piezoelectric 80.01%"
+      }, {
+        "type" : "paragraph",
+        "id" : 89,
+        "page number" : 9,
+        "bounding box" : [ 187.653, 273.978, 559.275, 286.192 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Moreover, we show the effect of parameter-tuning on the performance of the models in"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.085, 198.661, 560.114, 273.639 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Table 4. The parameter tuning gives an absolute gain of 13.71% over the baseline DNN-TL model. Delving into the speciﬁcs, the most effective tuning steps were feature-selection and normalization which give absolute increase of 10.66% in the accuracy over non-normalized features and increasing number of hidden layers and batch size which gave around 3.05% each on the performance. Note that increasing the epochs to 200 and hidden layers to more than 3 decreases the accuracy, due to over-ﬁtting.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 244,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 166.098, 162.631, 559.28, 186.445 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 263,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.098, 162.631, 559.28, 186.445 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 4. The effect of parameter tuning on the accuracy of DNN-TL model. The parameter tuning gave an absolute gain of 13.71% over the baseline model. The best accuracy is shown in bold.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 9,
+    "bounding box" : [ 204.846, 142.736, 541.168, 152.587 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Tuning Factor Accuracy Tuning Factor Accuracy"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 9,
+    "bounding box" : [ 220.188, 128.414, 536.88, 138.186 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "None 58.00% Feature Selection 64.08%"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 9,
+    "bounding box" : [ 174.751, 109.485, 536.881, 128.721 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Feature-normalization 68.66% Neurons per layer (50–80–100) 69.41% Number of Hidden layers (2–3) 70.32% Number of Epochs (50–100) 70.75%"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 9,
+    "bounding box" : [ 196.999, 99.877, 340.633, 109.792 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Batch Size (50-100) 71.71%"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 58.291, 559.28, 83.058 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Feature Selection: We validate one idea that the vibration data in certain axis will not carry different information in normal and failure cases. The circular movement around the"
+  }, {
+    "type" : "header",
+    "id" : 253,
+    "page number" : 10,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 10,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 10 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 10,
+    "bounding box" : [ 166.065, 520.848, 560.524, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "center of the motor is on X and Z axes so that they have vibration values that change with motor condition while the Y-axis has smaller vibration (the direction of the shaft). Thus, we compare the result of the model when the features are the three data axes in one setup (i.e., default setup) and the proposed idea when the features are extracted only from X-axis and Z-axis data vectors. According to the experimental setup shown in Figure 2, as the motor rotates with the disk, which is imbalanced by the mounted mass, i.e., eccentric weight, the centripetal forces become unbalanced, and this causes repeated vibrations along multiple directions. Considering the circular movement around the center of the motor, the two directions, which are x-axis and z-axis in our case, are mainly vibrated while the y-axis (the direction along the shaft) show relatively smaller vibration, which may not show a distinguishable variation in the data pattern as machine health varies. We ﬁnd that this feature selection process gave us a relative increase of 10.5% over the baseline model with all three features. Speciﬁcally, the accuracy is 58% using the model trained on default features compared to 64.08% using the model with feature selection. This kind of feature selection requires domain knowledge, speciﬁcally about the way the motor vibrates and the relative placement of the sensors. The intuition here is that redundant data features are affecting the model’s learning and therefore selecting the most discriminating features helps the neural network learning."
+  }, {
+    "type" : "list",
+    "id" : 257,
+    "level" : "5",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 498.432, 346.05, 510.646 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 241,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 498.432, 346.05, 510.646 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2.2. Data-Augmentation Model Results",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 10,
+    "bounding box" : [ 165.895, 344.808, 561.019, 495.105 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Experimental Setup: We used data-augmentation techniques (by both augmenting data from different RPMs and generating samples with interpolation within each RPM) and train DNN-R model on each sensor. For piezoelectric sensor, the data-augmentation model consists of 5 M samples (480 K samples collected from each rotational speed data for the available ten rotational speeds and 20 K generated samples by interpolation within each RPM). For MEMS sensor, the data augmentation model consists of 15,120 samples. We compare the average accuracy of the model over all RPMs under the regular model (DNN-R) and the augmented model. The absolute increase in the accuracy using the augmentation techniques over the regular model is 9.76% for piezoelectric and 8.99% for MEMS, respectively. The data-augmentation techniques are useful for both piezoelectric and MEMS vibration sensors. Data-augmentation is useful for transfer learning across different RPMs."
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 10,
+    "bounding box" : [ 165.975, 156.514, 561.019, 344.469 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Confusion Matrices Comparison: Here, we show the confusion matrix which compares the performance of our DNN-R models for each operational state separately. Table 5a shows such metric using data-augmentation. The best performance is for near-failure which exceeds 96%. This is good in practice since it gives early alarm (or warning) about the expected failure in future. Moreover, the model has good performance in normal operation which exceeds 70%. Finally, the failure accuracy is a little lower which is 61.67% however the confusion is with near-failure state which also gives alarm under such prediction. On the other hand, DNN-R model without data-augmentation has worse prediction in both normal and near-failure modes as shown in Table 5b (normal operation detection around 60.4% and near-failure is 93.86%) while much better for detecting failures where the accuracy is 75.00%. The intuition here is that detecting near-failure and normal-operation modes can be enhanced using data-augmentation techniques. On the contrary, detecting failure operational state is better without data-augmentation as failure nature can be speciﬁc for each RPM and thus creating single model for each RPM can be useful in that sense."
+  }, {
+    "type" : "header",
+    "id" : 260,
+    "page number" : 11,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 11,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 11 of 22"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 263,
+    "level" : "3",
+    "page number" : 11,
+    "bounding box" : [ 166.098, 413.558, 559.626, 746.51 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 244,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.098, 722.696, 559.28, 746.51 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 5. Confusion matrices for classifying operational conditions using DNN-R, where we have the following cases (a) with data-augmentation and (b) no data-augmentation.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 71,
+        "page number" : 11,
+        "bounding box" : [ 265.3, 702.809, 522.734, 712.652 ],
+        "font" : "URWPalladioL-BoldItal",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "(a) Data Augmentation (b) No Data Augmentation"
+      }, {
+        "type" : "paragraph",
+        "id" : 73,
+        "page number" : 11,
+        "bounding box" : [ 172.371, 645.736, 544.05, 698.386 ],
+        "font" : "URWPalladioL-Bold",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "Normal Near-Failure Failure Normal Near-Failure Failure Normal 70.22% 28.40% 1.38% 60.38% 18.52% 21.09% Near-failure 3.82% 96.05% 0.13% 6.08% 93.86% 0.06% Failure 0% 38.33% 61.67% 0% 25.00% 75.00%"
+      }, {
+        "type" : "paragraph",
+        "id" : 78,
+        "page number" : 11,
+        "bounding box" : [ 166.394, 617.549, 345.661, 629.763 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "4.2.3. Effect of Variation of RPMs Results"
+      }, {
+        "type" : "paragraph",
+        "id" : 79,
+        "page number" : 11,
+        "bounding box" : [ 166.394, 476.478, 559.478, 614.221 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Here, we show the details of each RPM-single model and the details of the data-augmented model. First, we train a single-RPM model and test that model on all RPMs. Then, we build a data-augmented model as explained earlier. Table 6 shows such comparison where the single-RPM model cannot transfer the knowledge to another RPMs. An interesting note is that at the slowest RPMs (here, RPM-100 and RPM-200) the separation is harder at the boundary between failure, near-failure, and normal operational states. On the other hand, data-augmented model has such merit since it is trained on different samples from all RPMs with adding data-augmentation techniques. In details, the absolute enhancement in the average accuracy across all RPMs is 6% while it is 13% over the worst single-RPM model (i.e., RPM-600). In the data-augmented model, 70% from each RPM’s samples were selected for training that model as mentioned earlier."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.098, 413.558, 559.626, 463.015 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 6. Comparison on the performance of failure detection model where the trained model is using one RPM and the tested data is from another RPM. The data-augmentation model is useful for transfer the learning across different RPMs. The absolute enhancement in the average accuracy across all RPMs is 6% while it is 13% over the worst single-RPM model.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 11,
+    "bounding box" : [ 70.518, 391.67, 552.0, 401.521 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Trained RPM RPM-100 RPM-200 RPM-300 RPM-400 RPM-500 RPM-600 Average (%)"
+  }, {
+    "type" : "paragraph",
+    "id" : 267,
+    "page number" : 11,
+    "bounding box" : [ 77.619, 330.025, 542.34, 387.119 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "RPM-100 68.80% 66.64% 65.83% 73.61% 67.29% 42.90% 64.18% RPM-200 63.54% 73.71% 58.11% 74.67% 67.68% 45.93% 63.94% RPM-300 57.99% 55.00% 95.20% 66.09% 71.32% 45.14% 65.12% RPM-400 66.37% 69.68% 54.79% 87.38% 69.52% 32.62% 63.39% RPM-500 65.37% 64.94% 80.12% 80.20% 75.61% 42.59% 68.06% RPM-600 49.16% 51.12% 63.44% 44.23% 55.02% 75.16% 56.35%"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 11,
+    "bounding box" : [ 51.414, 320.417, 542.535, 330.332 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Augmented-data model 67.94% 71.31% 62.61% 80.06% 69.06% 65.88% 69.48%"
+  }, {
+    "type" : "list",
+    "id" : 270,
+    "level" : "4",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 296.215, 367.549, 308.429 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 296.215, 367.549, 308.429 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2.4. Relaxation of the Classiﬁcation Problem",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 11,
+    "bounding box" : [ 166.095, 167.696, 559.665, 292.887 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In some applications of the sensor data, the goal can be to detect only if the data from the deployed sensor is normal or not. Thus, we relax the defect classiﬁcation problem into binary classiﬁcation problem to test such application. In this subsection, the experimental data obtained under ﬁve rotation speeds, i.e., 300, 320, 340, 360, and 380 RPMs were considered to classify between normal and not-normal states. For the deep learning model, we use neural network, which consists of two layers. The models’ performances are summarized in Table 7. Compared to the original defect classiﬁcation problem, the performance here is better due to the following reasons. First, the confusion is less in binary classiﬁcation problem (with the existence of only two classes). Second, the variation in the range between RPMS is less in this experiment."
+  }, {
+    "type" : "header",
+    "id" : 272,
+    "page number" : 12,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 12,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 12 of 22"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 275,
+    "level" : "3",
+    "page number" : 12,
+    "bounding box" : [ 166.098, 389.859, 560.395, 746.51 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.098, 709.874, 560.395, 746.51 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 7. Comparison on the performance of binary classiﬁer detection model where the trained model is using one RPM and the tested data is from another RPM. The average accuracy is higher, compared to the three classes defect classiﬁcation models.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 62,
+        "page number" : 12,
+        "bounding box" : [ 174.364, 689.979, 553.183, 699.83 ],
+        "font" : "URWPalladioL-Bold",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "Trained RPM RPM-300 RPM-320 RPM-340 RPM-360 RPM-380 Average (%)"
+      }, {
+        "type" : "paragraph",
+        "id" : 64,
+        "page number" : 12,
+        "bounding box" : [ 172.371, 635.787, 543.72, 683.56 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "RPM-300 100% 65.17% 58.17% 51.50% 50.63% 65.09% RPM-320 99.75% 100% 97.58% 78.63% 68.17% 88.82% RPM-340 96.60% 99.27% 100% 97.33% 82.43% 95.12% RPM-360 96.60% 99.27% 97.33% 99.67% 84.43% 95.46% RPM-380 61.05% 87.75% 96.93% 99.83% 99.77% 89.07%"
+      }, {
+        "type" : "paragraph",
+        "id" : 66,
+        "page number" : 12,
+        "bounding box" : [ 166.394, 607.379, 330.07, 619.793 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "4.3. Autoencoder for Anomaly Detection"
+      }, {
+        "type" : "paragraph",
+        "id" : 67,
+        "page number" : 12,
+        "bounding box" : [ 165.975, 541.845, 560.521, 604.271 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "For some manufacturing sensors (such as process data in our paper), the classiﬁcation is changed from normal, failure, and near-failure (warning) to running, stopped, and abnormal due to working hours for such manufacturing facilities. Thus, in this section, we use autoencoder classiﬁcation for such operation state on process data. The details are provided in Appendix D."
+      }, {
+        "type" : "paragraph",
+        "id" : 68,
+        "level" : "4",
+        "page number" : 12,
+        "bounding box" : [ 166.394, 505.76, 374.881, 531.563 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "5. Discussion 5.1. Comparative Analysis with Prior Related Work"
+      }, {
+        "type" : "paragraph",
+        "id" : 69,
+        "page number" : 12,
+        "bounding box" : [ 166.394, 452.779, 559.275, 502.652 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "We now provide a comparative analysis between our current work and developed techniques with similar solutions by other scientists in anomaly detection and defect classiﬁcation for smart manufacturing domain. Table 8 shows such a comparison where it shows the main differences between our work and those prior works."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.098, 389.859, 559.28, 439.317 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 8. A comparative analysis of the available features between the prior related works in smart manufacturing and our framework. Our work provides a failure detection framework that incorporates transfer learning between different sensor types. Our framework also considers RPM aggregation and defect type classiﬁcation.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 12,
+    "bounding box" : [ 100.155, 358.507, 152.622, 377.822 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Sensor Failure Detection"
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 12,
+    "bounding box" : [ 179.508, 358.507, 244.377, 377.822 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Transfer Learning Support"
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "page number" : 12,
+    "bounding box" : [ 270.709, 358.507, 324.284, 377.822 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Benchmarking ML Models"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 12,
+    "bounding box" : [ 347.686, 358.507, 396.814, 377.822 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Defect Type Classiﬁcation"
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 12,
+    "bounding box" : [ 419.738, 358.507, 474.269, 377.822 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Different RPM Aggregation"
+  }, {
+    "type" : "paragraph",
+    "id" : 283,
+    "page number" : 12,
+    "bounding box" : [ 493.096, 358.507, 550.417, 377.822 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Dataset Release (Opensource)"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 12,
+    "bounding box" : [ 41.836, 363.239, 83.464, 373.09 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Framework"
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 12,
+    "bounding box" : [ 41.836, 268.469, 84.187, 353.956 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Alfeo [21] Lee [20] Teng [32] Wang [40] Udmale [41] Fathi [42] Lewis [43] Kevin [58] Ours"
+  }, {
+    "type" : "list",
+    "id" : 287,
+    "level" : "5",
+    "page number" : 12,
+    "bounding box" : [ 166.394, 124.65, 358.463, 250.339 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 293,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 237.925, 253.148, 250.339 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.2. Ethical Concerns",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 60,
+        "page number" : 12,
+        "bounding box" : [ 165.975, 147.286, 561.016, 234.818 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "We do not see signiﬁcant risks of security threats or human rights violations in our work or its potential applications. However, we do foresee that our work contributes to the ﬁeld of smart manufacturing and anomaly detection ﬁelds overall. These efforts might eventually automate the detection process, leading to changes in the workforce structure. Hence, there is a general concern that automation may signiﬁcantly reduce the demand for manufacturing human workers, and the industries would need to act proactively to avoid the social impact of such changes."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 124.65, 358.463, 137.064 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.3. Transfer Learning under Different Features",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 12,
+    "bounding box" : [ 166.005, 71.669, 561.022, 121.542 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In our transfer learning task, the sensor types I and II should be measuring the same physical quantity but can be from different manufacturers and with different characteristics. Another interesting question would be what happens if the two sensor types have overlapping but not identical features in the data that they generate? This requires more"
+  }, {
+    "type" : "header",
+    "id" : 289,
+    "page number" : 13,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 13,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 13 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 721.696, 560.524, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "complex models which can do feature transformations, using possibly domain knowledge, and we leave such investigation for future work."
+  }, {
+    "type" : "list",
+    "id" : 293,
+    "level" : "5",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 699.06, 246.613, 711.474 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 287,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 699.06, 246.613, 711.474 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.4. Reproducibility",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 13,
+    "bounding box" : [ 165.895, 545.656, 561.09, 695.952 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We have publicly released our source codes and benchmark data to enable others reproduce our work. We are publicly releasing, with this submission, our smart manufacturing database corpus of 4 datasets. This resource will encourage the community to standardize efforts at benchmarking anomaly detection in this important domain. We encourage the community to expand this resource by contributing their new datasets and models. The website with our database and source codes is: https://drive.google.com/ drive/u/2/folders/1QX3chnSTKO3PsEhi5kBdf9WwMBmOriJ8 (accessed on 12 December 2022). The details of each dataset and the different categories of models are in Section 4.1. We provide the datasheet for the datasets in Appendix A. The hyper-parameter selections and the libraries used are presented in Appendix E. A preprint preliminary version of this work shows such reproducible nature for our work for other smart IoT applications, including smart agriculture systems [59]."
+  }, {
+    "type" : "heading",
+    "id" : 295,
+    "level" : "Subtitle",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 523.06, 233.392, 535.374 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "6. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 13,
+    "bounding box" : [ 165.895, 306.85, 561.02, 519.912 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This paper explored several interesting challenges to an important application area, smart manufacturing. We studied anomaly detection and failure classiﬁcation for the predictive maintenance problem of smart manufacturing. We proposed a temporal anomaly detection technique and an efﬁcient defect-type classiﬁcation technique for such application domain. We compared the traditional and ML-based models for anomaly detection. The ML-based models lead to better anomaly detection prediction. We tested our ﬁndings on four real-world data-sets. We then proposed a transfer learning model for classifying failure on sensors with lower sampling rate (MEMS) using learning from sensors with huge data (piezoelectric) where the model can detect anomalies across operating regimes. Our ﬁndings indicate that the transfer learning model can considerably increase the accuracy of failure detection. We also studied the effects of several tuning parameters to enhance the failure classiﬁcation. We release our database corpus and codes for the community to build on it with new datasets and models. We believe that the proposed transfer learning scheme is useful in smart manufacturing domain, especially when large anomaly detection datasets can be costly to collect and are normally thought to be very speciﬁc to a single application. Future avenues of research include leveraging the data from multiple sensors and detecting the device health by merging information from multiple, potentially different, sensors."
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 13,
+    "bounding box" : [ 166.017, 224.881, 560.401, 294.453 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Conceptualization, M.A., J.W.S. and S.B.; methodology, M.A. and W.J.L.; software, B.-G.J.; validation, M.A., B.-G.J. and W.J.L.; formal analysis, S.B.; investigation, N.R. and C.M.; resources, A.S. and S.B.; data curation, W.J.L.; writing—original draft preparation, M.A.; writing—review and editing, S.B.; visualization, M.A. and W.J.L.; supervision, A.S., J.W.S. and S.B.; project administration, A.S., J.W.S. and S.B.; funding acquisition, A.S., J.W.S. and S.B. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 298,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 183.755, 559.279, 218.179 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research was funded by Lilly Endowment grant number “Wabash Heartland Innovation Network (WHIN)”. The opinions expressed in this publication are those of the authors of the article and they do not reﬂect the opinions or views of sponsor."
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 13,
+    "bounding box" : [ 165.945, 119.197, 560.906, 177.053 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Data Availability Statement: The authors share the database corbus and codes along with this submission. The URL for our database and codes is: https://drive.google.com/drive/u/2/folders/ 1QX3chnSTKO3PsEhi5kBdf9WwMBmOriJ8 (accessed on 12 December 2022) The dataset details are provided in Appendix A, the dataset collection process is described in Appendix B, the dataset usage is described in Appendix C, and the main codes are presented in Appendix E."
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 13,
+    "bounding box" : [ 166.044, 89.787, 559.273, 112.495 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Acknowledgments: We thank Xiaofan Jiang and Dimitrios Peroulis for their valuable feedback and suggestions on the work."
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 71.931, 418.088, 83.085 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Conﬂicts of Interest: The authors declare no conﬂict of interest."
+  }, {
+    "type" : "header",
+    "id" : 302,
+    "page number" : 14,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 14,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 14 of 22"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 305,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 734.069, 489.89, 746.383 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Appendix A. Explaining Datasets: Highlights, and How Can It Be Read"
+  }, {
+    "type" : "list",
+    "id" : 306,
+    "level" : "6",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 371.826, 366.313, 730.901 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 315,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 718.487, 299.544, 730.901 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix A.1. Datset Categories",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 52,
+        "page number" : 14,
+        "bounding box" : [ 166.394, 665.506, 559.476, 715.379 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "We have four categories. The data collected from MEMS sensor (350 instances), the data collected from piezoelectric sensor (166 K instances), the data collected from process data (39 K instances), and the data shared from pharmaceutical packaging manufacturer company (9.5 K instances)."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 640.778, 366.313, 653.192 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix A.2. MEMS and Piezoelectric Datasets",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 53,
+        "page number" : 14,
+        "bounding box" : [ 165.975, 487.374, 560.521, 637.671 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Highlights of the datasets: To build these datasets, an experiment was conducted in the motor testbed to collect machine condition data for different health conditions. During the experiment, the acceleration signals were collected from both piezoelectric and MEMS sensors at the same time with the sampling rate of 3.2 kHz and 10 Hz, respectively, for X, Y, and Z axes. Different levels of machine health condition was induced by mounting a mass on the balancing disk, thus different levels of mechanical imbalance are used to trigger failures. Failure conditions were classiﬁed as one of three possible states—normal, near-failure, and failure. In this experiment, three levels of mechanical imbalance (i.e., normal, near-failure, failure) were considered acceleration data were collected at the ten rotational speeds (100, 200, 300, 320, 340, 360, 380, 400, 500, and 600 RPM) for each condition, while the motor is running, 50 samples were collected at a 10 s interval, for each of the ten rotational speeds."
+      }, {
+        "type" : "paragraph",
+        "id" : 54,
+        "page number" : 14,
+        "bounding box" : [ 166.005, 412.056, 559.633, 487.035 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Reading the dataset: Both Piezoelectric and MEMS databases are in CSV format. For Anomaly detection, we have a single RPM (CSV ﬁle) while for transfer learning we have several rpms for each RPM (where all CSV ﬁles are compressed in .zip format). The CSV ﬁle for Piezoelectric has many more samples (due to higher sampling rate). For each CSV ﬁle, each data instance (row) contains the following columns: X, Y, Z where each one has the corresponding vibration sensor reading."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 371.826, 302.751, 399.742 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix A.3. Process Data Highlights of the dataset:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 307,
+    "level" : "7",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 240.319, 559.665, 368.678 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 356.244, 288.882, 368.678 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Start date: 27 July 2021",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 343.692, 279.129, 356.126 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• End date: 1 May 2022",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 318.806, 559.272, 343.573 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Measurement Columns: Air Pressure 1, Air Pressure 2, Chiller 1 Supply Tmp, Chiller 2 Supply Tmp, Outside Air Temp, Outside Humidity, and Outside Dewpoint.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 306.033, 414.181, 318.467 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Measurement interval: 5 min (1 data point per 5 min)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 240.319, 559.665, 305.914 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Description: We were also able to collect process related data that can potentially indicate the condition of machine operation. We call it process data and the process data has been collected with the Statistical Process Control (SPC) system. The measurement started from August 2021 until May 2022. Reading the dataset: The Process data is in CSV format. The CSV ﬁle has around",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 308,
+    "level" : "1",
+    "page number" : 14,
+    "bounding box" : [ 166.005, 177.734, 560.522, 240.16 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 361,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.005, 177.734, 560.522, 240.16 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "49K instances where each data instance (row) contains the following columns: Timestamp, Air Pressure 1, Air Pressure 2, Chiller 1 Supply Tmp, Chiller 2 Supply Tmp, Outside Air Temp, Outside Humidity, and Outside Dewpoint. We applied our anomaly detection techniques on chiller supply temperature. Figure A1 shows one of the process data, chiller supply temperature.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 152.628, 559.278, 177.395 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abnormal Dates: We observed abnormal operations of the machine which occurred on 1 February 2022 and 8 March 2022."
+  }, {
+    "type" : "header",
+    "id" : 310,
+    "page number" : 15,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 15,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 15 of 22"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 313,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 578.38, 421.782, 747.032 ],
+    "source" : "7_images/imageFile9.png"
+  }, {
+    "type" : "list",
+    "id" : 314,
+    "level" : "5",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 560.728, 398.058, 571.882 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 337,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 560.728, 398.058, 571.882 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure A1. Chiller supply temperature in the process data.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 315,
+    "level" : "6",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 313.253, 334.951, 550.425 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 306,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 522.509, 334.951, 550.425 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix A.4. Pharmaceutical Packaging Highlights of the dataset:",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 55,
+        "level" : "6",
+        "page number" : 15,
+        "bounding box" : [ 166.394, 337.981, 559.277, 519.361 ],
+        "numbering style" : "unordered",
+        "number of list items" : 11,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 506.927, 529.091, 519.361 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Start date: 13 November 2021, some data loss between December and January.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 494.374, 271.657, 506.808 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• End date: May 2022",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 481.821, 559.268, 494.255 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Measurement location: Air Compressor, Chiller 1, Chiller 2, and Jomar moulding machine",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 469.268, 326.6, 481.702 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Sample rate for each axis: 3.2 kHz",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 456.715, 312.762, 469.149 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Measurement interval: 30 min",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 403.735, 559.277, 456.596 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Measurement duration: 1 s Reading the dataset The dataset have several months where each month is represented by a “.txt” ﬁle that indicates vibration data for each period. In particular, the vibration data for one measurement is written into 5 lines as follows:",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 388.193, 417.043, 400.407 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• 1st line: date and time that the measurement started",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 375.64, 400.575, 387.854 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• 2nd line: x-axis vibration data (3200 data points)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 363.087, 398.931, 375.301 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• 3rd line: y-axis vibration data (3200 data points)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 350.534, 397.576, 362.748 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• 4th line: z-axis vibration data (3200 data points)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 166.394, 337.981, 402.219, 350.195 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• 5th line: time difference between each data point",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 313.253, 297.342, 325.667 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix A.5. Instances Nature",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 285.378, 559.272, 310.145 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The instances represent the different readings of manufacturing sensors which are deployed in real-world motor testbeds."
+  }, {
+    "type" : "heading",
+    "id" : 317,
+    "level" : "Subtitle",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 260.69, 309.716, 273.004 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Appendix B. Dataset Collection"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 220.222, 561.02, 257.542 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Raw data was collected from the real-world sensors from August 2021–May 2022. Hardware (sensors mounted on motor testbeds) and software (code to collect the data from the sensors and save them to a desktop machine)."
+  }, {
+    "type" : "list",
+    "id" : 319,
+    "level" : "7",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 92.68, 343.4, 207.908 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 324,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 195.494, 288.296, 207.908 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix B.1. Hardware Cost",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 50,
+        "page number" : 15,
+        "bounding box" : [ 166.394, 142.514, 560.775, 192.387 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "(i) We used one MEMS sensor and one Piezoelectric sensor to monitor the vibration of a manufacturing equipment. The breakdown cost of sensors and other processing devices including Raspberry Pi is: $75 (raspberry pi) + $15 (micro SD card) + $4 (power cable) + $17.5 (MEMS sensor) + $1305 (Piezoelectric sensor) = $1415."
+      }, {
+        "type" : "paragraph",
+        "id" : 51,
+        "page number" : 15,
+        "bounding box" : [ 166.065, 117.408, 559.27, 142.175 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "(ii) For the data for chiller and compressor, the estimated hardware cost is $111.5 ($75 (raspberry pi) + $15 (micro SD card) + $4 (power cable) + $17.5 (chiller sensor))."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 92.68, 343.4, 105.094 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix B.2. Required Software Resources",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 15,
+    "bounding box" : [ 166.065, 64.805, 559.272, 89.572 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "VNC viewer for remote access (free) + Python (free) + cloud data storage service (about $120/year)."
+  }, {
+    "type" : "header",
+    "id" : 321,
+    "page number" : 16,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 16,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 16 of 22"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 324,
+    "level" : "7",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 734.029, 368.485, 746.443 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 319,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 734.029, 368.485, 746.443 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix B.3. Required Computational Resources",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 16,
+    "bounding box" : [ 165.895, 668.495, 560.524, 730.921 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We performed anomaly detection experiments on an Intel i7 @2.60 GHz, 16 GB RAM, 8-core workstation. our transfer learning experiments were performed on Dell Precision T3500 Workstation, with 8 CPU cores, each running at 3.2 GHZ, 12 GB RAM, and Ubuntu 16.04 OS. We have been using a GPU (NVIDIA Geforce GTX 1060) in one of the student’s laptop for autoencoder training."
+  }, {
+    "type" : "heading",
+    "id" : 326,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 643.807, 301.138, 656.121 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Appendix C. Uses of Datasets"
+  }, {
+    "type" : "list",
+    "id" : 327,
+    "level" : "8",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 420.205, 341.048, 640.639 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 628.225, 310.892, 640.639 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix C.1. Main Dataset Usage",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 47,
+        "page number" : 16,
+        "bounding box" : [ 166.394, 587.798, 561.089, 625.118 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The dataset can be used for research purposes (anomaly detection benchmarking). The following repository links to systems that use the dataset https://drive.google.com/drive/ u/2/folders/1QX3chnSTKO3PsEhi5kBdf9WwMBmOriJ8 (accessed 12 December 2022)."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 563.07, 301.487, 575.484 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix C.2. Other Data Usage",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 48,
+        "page number" : 16,
+        "bounding box" : [ 166.394, 535.195, 559.275, 559.962 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Anomaly detection and transfer learning across the manufacturing sensors from which data was collected. Any other research usage is welcomed as well."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 510.467, 333.228, 522.881 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix C.3. Hosting and Maintenance",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 49,
+        "page number" : 16,
+        "bounding box" : [ 165.193, 444.933, 560.515, 507.359 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "To ensure accessibility and future maintenance of the datasets and the codes, we created also a Github repository with the following URL: https://github.com/submission-2022 /Smart-Manufacturing-Testbed-for-Anomaly-Detection.git. It contains all the codes, datasets, and most of the instructions. We chose a creative common Zero 1.0 Universal license for the repository. We will use that github repository to update the code and datasets."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 420.205, 341.048, 432.619 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix C.4. Motivation for Data Release",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 16,
+    "bounding box" : [ 166.399, 304.459, 560.516, 417.097 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The main motivation for releasing our datasets is for performing ML-based anomaly detection and transfer learning for smart manufacturing systems. The manufacturing of discrete products typically involves the use of equipment termed machine tools. Examples of machine tools include lathes, milling machines, grinders, drill presses, molding machines, and forging presses. Almost always, these specialized pieces of equipment are reliant on electric motors that power gearing systems, pumps, actuators, etc. The health of a machine is often directly related to the health of the motors being used to drive the process. Given this dependence, health studies of manufacturing equipment may work directly with equipment in a production environment or in a more controlled environment on a “motor testbed”."
+  }, {
+    "type" : "heading",
+    "id" : 329,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 279.771, 321.9, 292.085 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Appendix D. Extended Evaluation"
+  }, {
+    "type" : "list",
+    "id" : 330,
+    "level" : "9",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 264.19, 445.118, 276.604 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 338,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 264.19, 445.118, 276.604 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix D.1. Anomaly Detection Using Autoencoder Classiﬁcation",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 16,
+    "bounding box" : [ 165.975, 198.656, 559.275, 261.082 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "For some manufacturing sensors (such as process data in our paper), the classiﬁcation is changed from normal, failure, and near-failure (warning) to running, stopped, and abnormal due to working hours for such manufacturing facilities. Thus, in this section, we will use autoencoder classiﬁcation for such operation state on process data (described in Appendix A.3)."
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 16,
+    "bounding box" : [ 165.975, 60.573, 561.022, 198.317 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Autoencoder Classiﬁer: An autoencoder is used for the classiﬁcation of machine operation states (running, stopped, abnormal). We employed a simple autoencoder of which the encoder and the decoder are consisting of a single hidden layer and an output layer with an additional classiﬁcation layer. As shown in Figure A2, the encoder consists of two linear layers (128, 64) and the decoder consists of another two linear layers (64, 128). The classiﬁcation layer also has two linear layers (128, 3) that outputs the predicted label. Here, the output of the classiﬁcation layer is one of the three different operation conditions. The autoencoder can have two different losses (reconstruction loss and classiﬁcation loss) during the training. Thus, the loss function minimizes a weighted sum of the two losses. The best number of layers in the autoencoder has been determined to be 2. We also have observed that the depth of the autoencoder does not improve the prediction accuracy."
+  }, {
+    "type" : "header",
+    "id" : 333,
+    "page number" : 17,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 17,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 17 of 22"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 336,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 521.391, 520.041, 747.031 ],
+    "source" : "7_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "id" : 337,
+    "level" : "5",
+    "page number" : 17,
+    "bounding box" : [ 166.394, 503.739, 480.405, 514.893 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 314,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.394, 503.739, 480.405, 514.893 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure A2. Proposed autoencoder model with an additional classiﬁcation layer.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 338,
+    "level" : "9",
+    "page number" : 17,
+    "bounding box" : [ 166.394, 481.022, 358.802, 493.436 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 330,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.394, 481.022, 358.802, 493.436 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix D.2. Experimental Setup and Results",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 17,
+    "bounding box" : [ 165.975, 214.641, 561.217, 477.915 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "An autoencoder was developed to perform experiments for the anomaly detection on tri-axial vibration data and process data. The vibration data and process data were not lined up as they are measured from different sources. We performed label imputation to line up the timestamp of both vibration and process data. Here, median values are utilized. Then, we extracted time domain features from the vibration data to construct the autoencoder’s input. The main features used for that task were: mean, standard deviation, root mean square, peak, and crest factor in the feature extraction. The ﬁnal input consists of the extracted time domain features and process data which indicates the operation of the manufacturing equipment. Then, we performed labeling task based on the machine operation information as follows. As the pharmaceutical company operates non-stop from Sunday 11 p.m. to Friday 7 p.m. and shuts down from Friday 7 p.m. to Sunday 11 p.m. When the chiller is failed, supply temperature can vary with the ambient temperature and goes up to 65 degrees. When the machine is off, the data is labeled as ‘0’ whereas the label is determined as ‘1’ when the machine is on. When there are abnormal operation of the machine, the data is labeled as ‘2’. During the data collection, we observed two abnormal operations of the machine which are occurred on 1 February 2022 and 8 March 2022. When the abnormal operations were detected, maintenance was performed to lubricate the machine. Data collection was being conducted when the machine was under the maintenance service. We aim to detect such abnormal operations using the vibration and process data with our proposed model. The proposed model achieved 84% of test accuracy. The limited number of abnormal labels affected the accuracy."
+  }, {
+    "type" : "heading",
+    "id" : 340,
+    "level" : "Subtitle",
+    "page number" : 17,
+    "bounding box" : [ 166.394, 189.953, 532.609, 202.267 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Appendix E. Benchmarks: Models, Hyper-Parameter Selection, and Code Details"
+  }, {
+    "type" : "list",
+    "id" : 341,
+    "level" : "8",
+    "page number" : 17,
+    "bounding box" : [ 166.394, 174.371, 385.521, 186.785 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 362,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.394, 174.371, 385.521, 186.785 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix E.1. Models and Hyper-Parameter Selection",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 121.391, 559.475, 171.264 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We now provide details on the models used to study the anomaly detection problem in our work. We explain the time-series forecasting algorithm and the hyperparameters used and the libraries used for each forecasting model. This can help reproducing our results for the future related works."
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 17,
+    "bounding box" : [ 165.975, 71.179, 559.278, 121.052 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "DeepAR [29]: DeepAR experiments are using the model implementation provided by GluonTS version 1.7. We did grid search on different values of number of cells and the number of RNN layers hyperparameters of DeepAR since the defaults provided in GluonTS would often lead to apparently suboptimal performance on many of the datasets. The best"
+  }, {
+    "type" : "header",
+    "id" : 344,
+    "page number" : 18,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 18,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 18 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 18,
+    "bounding box" : [ 166.115, 721.696, 559.271, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "values for our parameters are number of cells equals 30 and number of layers equals 3. All other parameters are defaults of gluonts.model.deepar.DeepAREstimator."
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 18,
+    "bounding box" : [ 166.095, 646.378, 559.572, 721.357 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Deep Factors [51]: Deep Factors experiments are using the model implementation provided by GluonTS version 1.7. We did grid search over the number of units per hidden layer for the global RNN model and the number of global factors hyperparameters of Deep Factors. The best values for our parameters are 30 (for the number of units per hidden layer) and 10 (for the number of global factors). All other parameters are defaults of gluonts.model.deep_factor.DeepFactorEstimator."
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 18,
+    "bounding box" : [ 166.1, 596.166, 559.28, 646.039 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Seasonal Naive [25]: Seasonal Naive experiments are using the model implementation provided by GluonTS version 1.7. We did grid search over the length of seasonality pattern, since it is different unknown for each dataset. The best parameter was either 1 or 10 for all datasets. All other parameters are defaults of gluonts.model.seasonal_naive.SeasonalNaivePredictor."
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 18,
+    "bounding box" : [ 166.005, 533.401, 561.022, 595.827 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Auto Regression [45]: Auto Regression experiments are using the model implementation provided by statsmodels python library version 0.12.2. We did grid search over the loss covariance type and the trend hyperparameter of Vector Auto Regression. The best parameters are ‘HC0’ (for loss covariance type) and ‘t’ (for trend hyper-parameter). All other parameters are defaults of statsmodels.tsa.var_model."
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 458.084, 559.479, 533.062 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Random Forest [26]: Random Forest models’ experiments are using the model implementation provided by sklearn python library version 0.24.2. We did grid search over the number of estimators (trees) and the max_depth (i.e., the longest path between the root node and the leaf node in a tree) hyperparameter of Random Forest. The best parameters are 500 (for the number of estimators) and 10 (for the max_depth). All other parameters are defaults of sklearn.ensemble.RandomForestRegressor."
+  }, {
+    "type" : "paragraph",
+    "id" : 352,
+    "page number" : 18,
+    "bounding box" : [ 165.975, 307.448, 560.519, 457.745 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "ARIMA [24]: ARIMA model experiments are using the model implementation provided by the statsmodels python library version 0.12.2. A typical ARIMA model can be represented as a function ARIMA(p,d,q) where p is the the number of lag observations included in the regression model, d is the number of times that the raw observations are differenced, and q is the size of the moving average window. Then, we use this trained ARIMA model to detect the anomaly in the sensor’s test (future) readings. In practice, p = 0 or q = 0 as they may cancel each other. The best parameters in our experiments were q = 0, d = 1 and p = 10 after tuning trials. All other parameters are defaults of statsmodels.tsa.arima.model. The reason for our choice of ARIMA is that if the data has a moving average linear relation (which we estimated the data does have), ARIMA would be better to model such data. Moreover, ARIMA is a simple and computationally efﬁcient model."
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 18,
+    "bounding box" : [ 165.009, 244.683, 559.279, 307.109 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Simple RNN [46]: Simple Recurrent Neural Network (RNN) models experiments are using the model implementation provided by keras python library version 2.9.0. We did grid search over several parameters. The best parameters are 100 neurons per layer with ‘ReLU’ activation function. We have two hidden layers with also ‘ReLU’ activation. We used batch size of 10. All other parameters are defaults of keras.layers.SimpleRNN."
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "page number" : 18,
+    "bounding box" : [ 165.009, 131.707, 559.279, 244.344 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "LSTM [27]: Long-short Term Memory (LSTM) models experiments are using the model implementation provided by keras python library version 2.9.0. LSTM better models data that has non-linear relationships, which is suitable for manufacturing sensors’ readings and, thus, LSTM can be a more expressive model for our anomaly detection task. We did grid search over several parameters. The best parameters are 100 neurons per layer with ‘ReLU’ activation function. We have two hidden layers with also ‘ReLU’ activation. We used batch size of 10. We used 4 LSTM blocks and one dense LSTM layer with 10 units and the training algorithm used is Stochastic Gradient Descent (SGD). All other parameters are defaults of keras.layers.LSTM."
+  }, {
+    "type" : "paragraph",
+    "id" : 355,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 81.495, 559.479, 131.368 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "AutoEncoder [50]: AutoEncoder models’ experiments are using the model implementation provided by keras python library version 2.9.0. We did grid search over several parameters. The best parameters we have are: using 3 convolutional layers where each layer has 32 ﬁlters, 2 strides, kernel size of 7, and ‘ReLU’ activation. The dropout rate"
+  }, {
+    "type" : "header",
+    "id" : 356,
+    "page number" : 19,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 19,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 19 of 22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 721.696, 559.271, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "is 0.2. We used batch size of 10. All other parameters are defaults of keras.layers.Sequential and keras.layers.Conv1D."
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 683.817, 559.479, 721.357 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "DNN [49]: Deep Neural Network (DNN) models experiments are using the model implementation provided by keras python library version 2.9.0. We did grid search over the number of layers, batch size, and number of neurons per layer. The best parameters are"
+  }, {
+    "type" : "list",
+    "id" : 361,
+    "level" : "1",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 646.378, 559.272, 683.698 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 308,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 646.378, 559.272, 683.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "50 neurons per layer with ‘ReLU’ activation function. We have three hidden layers with also ‘ReLU’ activation. We used batch size of 10. All other parameters are defaults of keras.layers.Dense.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 362,
+    "level" : "8",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 621.65, 350.314, 634.064 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 341,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 621.65, 350.314, 634.064 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix E.2. Code Details and Prerequisites",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 19,
+    "bounding box" : [ 165.188, 568.669, 560.52, 618.542 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We share our codes along with database corpus. In particular, the code’s link is https: //drive.google.com/drive/u/2/folders/14eY8tsr-PALnifSQpEqlXgr_RVstaicd (accessed on 12 December 2022). The codes folder is divided into two sub-folders: (1) Anomaly Detection Codes and (2) Transfer Learning Codes."
+  }, {
+    "type" : "list",
+    "id" : 364,
+    "level" : "5",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 189.092, 495.188, 556.375 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 528.619, 495.188, 556.375 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix E.2.1. Anomaly Detection Code Under Anomaly detection folder, we have the following source codes:",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 43,
+        "level" : "6",
+        "page number" : 19,
+        "bounding box" : [ 166.394, 412.654, 559.661, 525.292 ],
+        "numbering style" : "unordered",
+        "number of list items" : 7,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 512.898, 443.94, 525.292 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Arima.py: Training and testing ARIMA forecasting model",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 500.345, 435.851, 512.739 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• LSTM.py: Training and testing LSTM forecasting model",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 487.792, 498.436, 500.186 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• AutoEncoder.py: Training and testing AutoEncoder forecasting model",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 475.239, 429.385, 487.633 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• DNN.py: Training and testing DNN forecasting model",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 462.686, 427.223, 475.08 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• RNN.py: Training and testing RNN forecasting model",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 437.76, 559.276, 462.527 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• GluonTModels.py: That ﬁle contains the rest of the forecasting models along with the required functions and hyper-parameters.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 412.654, 559.661, 437.421 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Autoencoder_classiﬁer.py: Training and Testing a classiﬁer-based model for anomaly detection (see Appendix E.2).",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 44,
+        "page number" : 19,
+        "bounding box" : [ 166.095, 371.826, 559.276, 409.326 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "In particular, “GluonTModels.py” contains the codes to train and examine performance for the following models: DeepAR, DeepFactors, Seasonal Naive, Random Forest, and Auto-Regression."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 331.956, 486.093, 359.712 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix E.2.2. Transfer Learning Code Under Transfer learning folder, we have the following source codes:",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 45,
+        "level" : "6",
+        "page number" : 19,
+        "bounding box" : [ 166.394, 278.756, 560.587, 328.629 ],
+        "numbering style" : "unordered",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 303.862, 559.476, 328.629 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Transfer_Learning_Pre_processing.py: This code prepares the CSV ﬁles used for training defect type classiﬁers and transfer learning.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 19,
+          "bounding box" : [ 166.394, 278.756, 560.587, 303.523 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "• Transfer_Learning_Train.py: This code trains and tests the defect type classifier, including feature encoding, defect classifier building, testing, and performance reporting.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 254.248, 324.799, 266.462 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix E.2.3. Running the Codes",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 46,
+        "page number" : 19,
+        "bounding box" : [ 164.899, 213.6, 559.28, 250.92 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "To run any code, we need just to run the command “python code_name.py”, where “code_name” is the required anomaly detection or transfer learning model. The user would need to change the dataﬁle name inside the code to the dataset of choice."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 189.092, 405.915, 201.306 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Appendix E.2.4. Prerequisites (Libraries and Modules)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 160.997, 559.275, 185.764 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our codes have the following libraries that need to be installed (which can be installed using apt-get install or conda):"
+  }, {
+    "type" : "list",
+    "id" : 366,
+    "level" : "6",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 132.902, 439.359, 157.669 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 145.455, 425.083, 157.669 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• numpy, scipy, pandas, keras, statsmodels, and sklearn",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 132.902, 439.359, 145.116 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• GluonTS, matplotlib and simplejson, re, random, and csv",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 367,
+    "page number" : 20,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 20,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 20 of 22"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 370,
+    "level" : "Subtitle",
+    "page number" : 20,
+    "bounding box" : [ 35.716, 734.069, 85.519, 746.383 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 371,
+    "level" : "7",
+    "page number" : 20,
+    "bounding box" : [ 35.716, 86.959, 560.849, 731.027 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 27,
+    "next list id" : 375,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 697.021, 559.278, 731.027 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Thomas, T.E.; Koo, J.; Chaterji, S.; Bagchi, S. Minerva: A reinforcement learning-based technique for optimal scheduling and bottleneck detection in distributed factory operations. In Proceedings of the 2018 10th International Conference on Communication Systems & Networks (COMSNETS), Bengaluru, India, 3–7 January 2018; pp. 129–136.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 673.81, 559.277, 696.506 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Scime, L.; Beuth, J. Anomaly detection and classiﬁcation in a laser powder bed additive manufacturing process using a trained computer vision algorithm. Addit. Manuf. 2018, 19, 114–126. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 650.796, 560.393, 673.493 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Wang, J.; Ma, Y.; Zhang, L.; Gao, R.X.; Wu, D. Deep learning for smart manufacturing: Methods and applications. J. Manuf. Syst. 2018, 48, 144–156. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 616.473, 560.4, 650.479 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Ukil, A.; Bandyoapdhyay, S.; Puri, C.; Pal, A. IoT Healthcare Analytics: The Importance of Anomaly Detection. In Proceedings of the 2016 IEEE 30th International Conference on Advanced Information Networking and Applications (AINA), Crans-Montana, Switzerland, 23–25 March 2016; pp. 994–997. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 593.261, 560.842, 615.958 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Shahzad, G.; Yang, H.; Ahmad, A.W.; Lee, C. Energy-efﬁcient intelligent street lighting system using trafﬁc-adaptive control. IEEE Sens. J. 2016, 16, 5397–5405. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 570.248, 560.397, 592.945 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Mitchell, R.; Chen, I.R. A survey of intrusion detection techniques for cyber-physical systems. ACM Comput. Surv. (CSUR) 2014, 46, 55. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 535.727, 560.397, 569.931 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Chatterjee, B.; Seo, D.H.; Chakraborty, S.; Avlani, S.; Jiang, X.; Zhang, H.; Abdallah, M.; Raghunathan, N.; Mousoulis, C.; Shakouri, A.; et al. Context-Aware Collaborative Intelligence with Spatio-Temporal In-Sensor-Analytics for Efﬁcient Communication in a Large-Area IoT Testbed. IEEE Internet Things J. 2020. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 524.22, 532.652, 535.41 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Chandola, V.; Banerjee, A.; Kumar, V. Anomaly detection: A survey. ACM Comput. Surv. (CSUR) 2009, 41, 15. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 501.404, 559.281, 523.903 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Sabahi, F.; Movaghar, A. Intrusion detection: A survey. In Proceedings of the 2008 Third International Conference on Systems and Networks Communications, Sliema, Malta, 26–31 October 2008; pp. 23–26.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 478.193, 559.276, 500.889 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Bowler, A.L.; Bakalis, S.; Watson, N.J. Monitoring Mixing Processes Using Ultrasonic Sensors and Machine Learning. Sensors 2020, 20, 1813. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 455.179, 559.278, 477.876 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Lopez, F.; Saez, M.; Shao, Y.; Balta, E.C.; Moyne, J.; Mao, Z.M.; Barton, K.; Tilbury, D. Categorization of anomalies in smart manufacturing systems to support the selection of detection mechanisms. IEEE Robot. Autom. Lett. 2017, 2, 1885–1892. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 432.165, 560.396, 454.862 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Susto, G.A.; Terzi, M.; Beghi, A. Anomaly detection approaches for semiconductor manufacturing. Procedia Manuf. 2017, 11, 2018–2024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 397.842, 560.395, 431.848 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Leahy, K.; Hu, R.L.; Konstantakopoulos, I.C.; Spanos, C.J.; Agogino, A.M. Diagnosing wind turbine faults using machine learning techniques applied to operational data. In Proceedings of the 2016 Ieee International Conference On Prognostics Furthermore, Health Management (ICPHM), Ottawa, ON, Canada, 20–22 June 2016; pp. 1–8.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 374.631, 560.393, 397.328 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Francis, J.; Bian, L. Deep Learning for Distortion Prediction in Laser-Based Additive Manufacturing using Big Data. Manuf. Lett. 2019, 20, 10–14. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 340.308, 559.625, 374.314 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Lee, W.J.; Mendis, G.P.; Sutherland, J.W. Development of an Intelligent Tool Condition Monitoring System to Identify Manufacturing Tradeoffs and Optimal Machining Conditions. In Proceedings of the 16th Global Conference on Sustainable Manufacturing. Procedia Manufacturing, Buenos Aires, Argentina, 4–6 December 2019; Volume 33, pp. 256–263. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 317.096, 559.278, 339.793 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Garcia, M.C.; Sanz-Bobi, M.A.; Del Pico, J. SIMAP: Intelligent System for Predictive Maintenance: Application to the health condition monitoring of a windturbine gearbox. Comput. Ind. 2006, 57, 552–568. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 282.774, 559.278, 316.779 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Kroll, B.; Schaffranek, D.; Schriegel, S.; Niggemann, O. System modeling based on machine learning for anomaly detection and predictive maintenance in industrial plants. In Proceedings of the 2014 IEEE Emerging Technology and Factory Automation (ETFA), Barcelona, Spain, 16–19 September 2014; pp. 1–7.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 259.562, 559.451, 282.259 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. De Benedetti, M.; Leonardi, F.; Messina, F.; Santoro, C.; Vasilakos, A. Anomaly detection and predictive maintenance for photovoltaic systems. Neurocomputing 2018, 310, 59–68. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 248.055, 370.398, 259.245 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Kusiak, A. Smart manufacturing. Int. J. Prod. Res. 2018, 56, 508–517. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 225.041, 559.278, 247.738 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Lee, W.J.; Mendis, G.P.; Triebe, M.J.; Sutherland, J.W. Monitoring of a machining process using kernel principal component analysis and kernel density estimation. J. Intell. Manuf. 2019. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 202.027, 559.451, 224.724 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Alfeo, A.L.; Cimino, M.G.; Manco, G.; Ritacco, E.; Vaglini, G. Using an autoencoder in the design of an anomaly detector for smart manufacturing. Pattern Recognit. Lett. 2020, 136, 272–278. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 179.014, 560.393, 201.711 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Marjani, M.; Nasaruddin, F.; Gani, A.; Karim, A.; Hashem, I.A.T.; Siddiqa, A.; Yaqoob, I. Big IoT data analytics: Architecture, opportunities, and open research challenges. IEEE Access 2017, 5, 5247–5261.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 156.0, 560.849, 178.697 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. He, J.; Wei, J.; Chen, K.; Tang, Z.; Zhou, Y.; Zhang, Y. Multitier fog computing with large-scale iot data analytics for smart cities. IEEE Internet Things J. 2017, 5, 677–686. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 132.986, 560.401, 155.683 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Contreras, J.; Espinola, R.; Nogales, F.J.; Conejo, A.J. ARIMA models to predict next-day electricity prices. IEEE Trans. Power Syst. 2003, 18, 1014–1020. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 109.972, 560.394, 132.669 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Montero-Manso, P.; Athanasopoulos, G.; Hyndman, R.J.; Talagala, T.S. FFORMA: Feature-based forecast model averaging. Int. J. Forecast. 2020, 36, 86–92. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 98.465, 417.543, 109.655 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Liaw, A.; Wiener, M. Classiﬁcation and regression by randomForest. R News 2002, 2, 18–22.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 86.959, 508.9, 98.149 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Hochreiter, S.; Schmidhuber, J. Long short-term memory. Neural Comput. 1997, 9, 1735–1780. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 372,
+    "page number" : 21,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 41,
+      "page number" : 21,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 21 of 22"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 375,
+    "level" : "7",
+    "page number" : 21,
+    "bounding box" : [ 35.716, 78.638, 560.847, 745.523 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 28,
+    "previous list id" : 371,
+    "next list id" : 379,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 734.333, 358.84, 745.523 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Ballard, D.H. Modular learning in neural networks. Aaai 1987, 647, 279–284.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 711.319, 560.845, 734.016 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Salinas, D.; Flunkert, V.; Gasthaus, J.; Januschowski, T. DeepAR: Probabilistic forecasting with autoregressive recurrent networks. Int. J. Forecast. 2020, 36, 1181–1191. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 688.503, 560.399, 711.002 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Jeff, R. Considerations For Accelerometer Selection When Monitoring Complex Machinery Vibration. Available online: http: //www.vibration.org/Presentation/IMI%20Sensors%20Accel%20Presentation%200116.pdf (accessed on 30 September 2019).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 665.292, 559.278, 687.988 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Albarbar, A.; Mekid, S.; Starr, A.; Pietruszkiewicz, R. Suitability of MEMS Accelerometers for Condition Monitoring: An experimental study. Sensors 2008, 8, 784–799. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 653.785, 499.397, 664.975 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Teng, S.H.G.; Ho, S.Y.M. Failure mode and effects analysis. Int. J. Qual. Reliab. Manag. 1996, 13, 8–26. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 630.771, 559.274, 653.468 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Lee, W.J.; Wu, H.; Huang, A.; Sutherland, J.W. Learning via acceleration spectrograms of a DC motor system with application to condition monitoring. Int. J. Adv. Manuf. Technol. 2019. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 607.757, 560.396, 630.454 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Xiang, E.W.; Cao, B.; Hu, D.H.; Yang, Q. Bridging domains using world wide knowledge for transfer learning. IEEE Trans. Knowl. Data Eng. 2010, 22, 770–783. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 584.743, 560.394, 607.44 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Qiu, J.; Wu, Q.; Ding, G.; Xu, Y.; Feng, S. A survey of machine learning for big data processing. EURASIP J. Adv. Signal Process. 2016, 2016, 67. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 561.73, 560.397, 584.426 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "36. Torrey, L.; Shavlik, J. Transfer learning. In Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods, and Techniques; IGI Global: Hershey, PA, USA, 2010; pp. 242–264.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 527.407, 560.393, 561.413 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "37. Abdallah, M.; Rossi, R.; Mahadik, K.; Kim, S.; Zhao, H.; Bagchi, S. AutoForecast: Automatic Time-Series Forecasting Model Selection. In Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM’22), Atlanta, GA, USA, 17–21 October 2022; Association for Computing Machinery: New York, NY, USA, 2022; pp. 5–14. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 492.886, 560.395, 526.892 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "38. Ling, X.; Dai, W.; Xue, G.R.; Yang, Q.; Yu, Y. Spectral domain-transfer learning. In Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Las Vegas, NV, USA, 24–27 August 2008; ACM: New York, NY, USA, 2008; pp. 488–496.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 481.181, 528.832, 492.371 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "39. Chen, T.; Goodfellow, I.; Shlens, J. Net2net: Accelerating learning via knowledge transfer. arXiv 2015, arXiv:1511.05641.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 469.674, 516.89, 480.864 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "40. Wang, S.; Xi, N. Calibration of Haptic Sensors Using Transfer Learning. IEEE Sens. J. 2021, 21, 2003–2012. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 446.661, 559.457, 469.358 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "41. Udmale, S.S.; Singh, S.K.; Singh, R.; Sangaiah, A.K. Multi-Fault Bearing Classiﬁcation Using Sensors and ConvNet-Based Transfer Learning Approach. IEEE Sens. J. 2020, 20, 1433–1444. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 412.14, 560.847, 446.344 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "42. Koizumi, Y.; Kawaguchi, Y.; Imoto, K.; Nakamura, T.; Nikaido, Y.; Tanabe, R.; Purohit, H.; Suefusa, K.; Endo, T.; Yasuda, M.; et al. Description and discussion on DCASE2020 challenge task2: Unsupervised anomalous sound detection for machine condition monitoring. arXiv 2020, arXiv:2006.05822.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 377.817, 560.393, 411.823 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "43. Hsieh, R.J.; Chou, J.; Ho, C.H. Unsupervised Online Anomaly Detection on Multivariate Sensing Time Series Data for Smart Manufacturing. In Proceedings of the 2019 IEEE 12th Conference on Service-Oriented Computing and Applications (SOCA), Kaohsiung, Taiwan, 18–21 November 2019; pp. 90–97. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 354.606, 559.273, 377.303 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "44. Fathy, Y.; Jaber, M.; Brintrup, A. Learning With Imbalanced Data in Smart Manufacturing: A Comparative Analysis. IEEE Access 2021, 9, 2734–2757. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 331.79, 560.846, 354.289 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "45. Lewis, R.; Reinsel, G.C. Prediction of multivariate time series by autoregressive model ﬁtting. J. Multivar. Anal. 1985, 16, 393–411. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 308.776, 559.278, 331.275 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "46. Tokgöz, A.; Ünal, G. A RNN based time series approach for forecasting turkish electricity load. In Proceedings of the 2018 26th Signal Processing and Communications Applications Conference (SIU), Izmir, Turkey, 2–5 May 2018; pp. 1–4.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 274.255, 560.398, 308.261 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "47. Gers, F.; Schmidhuber, J.; Cummins, F. Learning to forget: Continual prediction with LSTM. In Proceedings of the 1999 Ninth International Conference on Artiﬁcial Neural Networks ICANN 99, (Conf. Publ. No. 470), Edinburgh, UK, 7–10 September 1999; Volume 2, pp. 850–855. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 251.044, 560.846, 273.741 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "48. Graves, A.; Schmidhuber, J. Framewise phoneme classiﬁcation with bidirectional LSTM and other neural network architectures. Neural Netw. 2005, 18, 602–610. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 228.03, 559.278, 250.727 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "49. Sen, R.; Yu, H.F.; Dhillon, I.S. Think globally, act locally: A deep neural network approach to high-dimensional time series forecasting. Adv. Neural Inf. Process. Syst. 2019, 32, 1–10.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 205.214, 560.264, 227.713 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "50. Chollet, F. Building autoencoders in keras. Keras Blog 2016, 14. Available online: https://blog.keras.io/building-autoencodersin-keras.html (accessed on 30 September 2019).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 182.2, 559.278, 204.699 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "51. Wang, Y.; Smola, A.; Maddix, D.; Gasthaus, J.; Foster, D.; Januschowski, T. Deep factors for forecasting. In Proceedings of the International Conference on Machine Learning, PMLR, Long Beach, CA, USA, 10–15 June 2019; pp. 6607–6617.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 158.989, 559.273, 181.686 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "52. Yuan, Y.; Shi, Y.; Li, C.; Kim, J.; Cai, W.; Han, Z.; Feng, D.D. DeepGene: An advanced cancer type classiﬁer based on deep learning and somatic point mutations. BMC Bioinform. 2016, 17, 476. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 135.975, 560.397, 158.672 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "53. Krizhevsky, A.; Sutskever, I.; Hinton, G.E. Imagenet classiﬁcation with deep convolutional neural networks. Commun. ACM 2017, 60, 84–90. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 112.961, 560.393, 135.658 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "54. Al-Marri, M.; Raafat, H.; Abdallah, M.; Abdou, S.; Rashwan, M. Computer Aided Qur’an Pronunciation using DNN. J. Intell. Fuzzy Syst. 2018, 34, 3257–3271. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 78.638, 560.396, 112.644 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "55. Elaraby, M.S.; Abdallah, M.; Abdou, S.; Rashwan, M. A Deep Neural Networks (DNN) Based Models for a Computer Aided Pronunciation Learning System. In Proceedings of the International Conference on Speech and Computer, Budapest, Hungary, 23–27 August 2016; Springer: Berlin/Heidelberg, Germany, 2016; pp. 51–58.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 376,
+    "page number" : 22,
+    "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 42,
+      "page number" : 22,
+      "bounding box" : [ 35.493, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2023, 23, 486 22 of 22"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 379,
+    "level" : "7",
+    "page number" : 22,
+    "bounding box" : [ 35.716, 653.785, 560.841, 745.523 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 375,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 35.716, 711.517, 560.841, 745.523 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "56. Campos, G.O.; Zimek, A.; Sander, J.; Campello, R.J.; Micenková, B.; Schubert, E.; Assent, I.; Houle, M.E. On the evaluation of unsupervised outlier detection: Measures, datasets, and an empirical study. Data Min. Knowl. Discov. 2016, 30, 891–927. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 35.716, 699.812, 386.538, 711.002 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "57. Gulli, A.; Pal, S. Deep Learning with Keras; Packt Publishing: Birmingham, UK, 2017.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 35.716, 676.798, 559.278, 699.495 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "58. Wang, K.I.K.; Zhou, X.; Liang, W.; Yan, Z.; She, J. Federated Transfer Learning Based Cross-Domain Prediction for Smart Manufacturing. IEEE Trans. Ind. Inform. 2022, 18, 4088–4096. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 35.716, 653.785, 559.273, 676.482 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "59. Abdallah, M.; Lee, W.J.; Raghunathan, N.; Mousoulis, C.; Sutherland, J.W.; Bagchi, S. Anomaly detection through transfer learning in agriculture and manufacturing IoT systems. arXiv 2021, arXiv:2102.05814.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 22,
+    "bounding box" : [ 35.447, 604.916, 559.28, 638.922 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  } ]
+}

@@ -1,0 +1,3085 @@
+{
+  "file name" : "30.pdf",
+  "number of pages" : 26,
+  "author" : "Peter Kolok, Michal Hodoň, Peter Ševčík, Léo Hotz and Nicolas Remy",
+  "title" : "Low-Cost IoT-Based Predictive Maintenance Using Vibration",
+  "creation date" : "D:20251028120533+08'00'",
+  "modification date" : "D:20251028053204+01'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 72,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 732.135, 63.213, 744.549 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 73,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 708.885, 535.629, 731.05 ],
+    "heading level" : 1,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "Low-Cost IoT-Based Predictive Maintenance Using Vibration"
+  }, {
+    "type" : "heading",
+    "id" : 74,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 685.401, 421.065, 699.095 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Peter Kolok 1,* , Michal Hodoˇn 1 , Peter Ševcˇík 1 , Léo Hotz 2 and Nicolas Remy 2"
+  }, {
+    "type" : "list",
+    "id" : 78,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 631.947, 559.924, 664.252 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 642.706, 559.924, 664.252 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 Department of Technical Cybernetics, Faculty of Management Science and Informatics, University of Žilina, Univerzitna 8215/1, 010 26 Žilina, Slovakia; michal.hodon@fri.uniza.sk (M.H.); peter.sevcik@fri.uniza.sk (P.Š.)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 631.947, 497.547, 642.733 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Le Cnam En Grand Est, 4 Avenue du Docteur Heydenreich-BP 65228, 54052 Nancy, France",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 79,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 621.044, 327.286, 630.959 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: peter.kolok@fri.uniza.sk"
+  }, {
+    "type" : "heading",
+    "id" : 80,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.005, 593.764, 204.182, 606.078 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abstract"
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 406.907, 560.931, 586.253 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Predictive maintenance helps reduce operational costs and improve machine reliability by anticipating failures. However, existing solutions are often too expensive or complex for small rotating machinery such as fans or low-power motors. This work presents a lowcost, IoT-based monitoring system using an ESP32 microcontroller combined with MEMS sensors (an accelerometer and a microphone). The system continuously collects vibration and acoustic signals, which are then processed using RMS and FFT techniques. Machine learning algorithms, such as anomaly detection or basic classification, are used to identify deviations from normal operation. A working prototype was tested under various fault conditions, including imbalance and wear. The system successfully identified abnormal states through signal deviations in both time and frequency domains, with over ~73% detection accuracy. The proposed solution is cost-effective, simple to implement, and well-suited for educational or industrial environments. It demonstrates the potential of embedded systems and basic signal analysis for scalable predictive maintenance applications."
+  }, {
+    "type" : "paragraph",
+    "id" : 82,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 367.096, 559.275, 393.238 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Keywords: predictive maintenance; MEMS sensors; ESP32; vibration analysis; acoustic monitoring; anomaly detection"
+  }, {
+    "type" : "paragraph",
+    "id" : 68,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 64.866, 153.157, 290.094 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editor: Iwona Grobelna Received: 19 September 2025 Revised: 22 October 2025 Accepted: 23 October 2025 Published: 27 October 2025 Citation: Kolok, P.; Hodonˇ, M.; Ševcˇík, P.; Hotz, L.; Remy, N. Low-Cost IoT-Based Predictive Maintenance Using Vibration. Sensors 2025, 25, 6610. https://doi.org/10.3390/s25216610 Copyright: © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/ licenses/by/4.0/)."
+  }, {
+    "type" : "heading",
+    "id" : 84,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 313.508, 248.132, 328.285 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 85,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 199.878, 559.691, 309.586 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "PdM has emerged as a pivotal strategy in the Industry 4.0 era to reduce unplanned downtime and increase equipment availability. By leveraging connected sensors and data processing at the edge or in the cloud, PdM enables early detection of machine degradation. Recent MDPI reviews emphasize the central role of vibration-based sensing using accelerometers, as well as the growing importance of acoustic signals for identifying early fault patterns. The widespread adoption of MEMS sensors—characterized by their low cost, low power consumption, and ease of integration—makes these techniques accessible even beyond heavy industrial contexts [1–3]."
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 1,
+    "bounding box" : [ 165.975, 74.529, 560.928, 198.164 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "For small actuators such as fans and micro-motors, existing commercial PdM solutions are often oversized and prohibitively expensive. In contrast, low-cost IoT architectures based on ESP32 nodes equipped with MEMS sensors, typically a triaxial accelerometer combined with a microphone, can provide continuous monitoring. These systems enable on-device extraction of time- and frequency-domain features such as RMS, FFT, and spectra, while transmitting only selective alerts. Recent studies have demonstrated the feasibility of embedded signal processing on ESP32-class microcontrollers for vibration and acoustic monitoring, allowing local decision-making complemented by cloud analysis where required [4–6]."
+  }, {
+    "type" : "paragraph",
+    "id" : 88,
+    "page number" : 1,
+    "bounding box" : [ 35.493, 28.183, 559.276, 38.13 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Sensors 2025, 25, 6610 https://doi.org/10.3390/s25216610"
+  }, {
+    "type" : "header",
+    "id" : 89,
+    "page number" : 2,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 26,
+      "page number" : 2,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 2 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 92,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 673.676, 560.928, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Sensor calibration has been another focus of research. Studies have confirmed that MEMS accelerometers, when properly calibrated and operated within suitable bandwidths, achieve adequate sensitivity for bearing diagnostics in PdM applications. MEMS microphones provide complementary information by capturing phenomena that are less visible in vibration signals, including friction, air leakage, and incipient faults. These signals can be analyzed effectively through spectral representations such as the STFT and spectrograms, while imposing only modest computational overhead [2,7,8]."
+  }, {
+    "type" : "paragraph",
+    "id" : 93,
+    "page number" : 2,
+    "bounding box" : [ 166.005, 590.11, 561.016, 671.963 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Fault detection in PdM often relies on lightweight unsupervised learning techniques. Among these, IF has gained attention for its robustness, linear-time complexity, and minimal hyperparameter requirements. It is particularly well-suited for distinguishing anomalous signals from healthy baselines. Although variants such as Extended Isolation Forest exist, the standard IF remains a strong compromise for embedded deployment, including on ESP32 devices [9]."
+  }, {
+    "type" : "paragraph",
+    "id" : 94,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 492.616, 560.523, 588.397 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Based on these insights, the present work proposes an edge-computing pipeline for PdM that integrates MEMS data acquisition, preprocessing (RMS, FFT, and filtering), compact feature vectorization, Isolation Forest anomaly detection, and selective reporting of anomalous segments to a server for traceability. The objective is to demonstrate that PdM can be affordable, reproducible, and effective on small rotating systems by employing a low-cost ESP32 + MEMS node capable of vibration and acoustic sensing, feature extraction, and on-device anomaly detection [4,6]."
+  }, {
+    "type" : "paragraph",
+    "id" : 95,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 381.195, 559.556, 490.903 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The remainder of this paper is organized as follows. Section 2 reviews related work on vibration- and acoustic-based predictive maintenance systems and outlines the state of the art in MEMS sensing and edge computing. Section 3 describes the materials and methods, including the hardware setup, ESP32 firmware architecture, and Isolation Forest anomaly detection pipeline. Section 4 presents the experimental results and evaluates the diagnostic performance of the proposed system. Finally, Section 5 concludes the paper and discusses future research directions toward fully embedded, multimodal predictive maintenance frameworks."
+  }, {
+    "type" : "heading",
+    "id" : 96,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 166.394, 354.532, 258.867, 369.309 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "2. Related Works"
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 185.191, 561.019, 350.61 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "PdM and smart sensing technologies have been the subject of extensive research in recent years. MDPI review papers emphasize the maturity of smart sensor systems and data-driven diagnostic pipelines, covering sensor types, edge/cloud architectures, and data workflows. They converge on the effectiveness of a low-cost local node for early anomaly detection, provided that features and thresholds are carefully selected [1]. Recent surveys further highlight the importance of intelligent sensors and IoT-based monitoring frameworks for predictive maintenance in smart factory environments [2–17]. Complementary system-level views also stress PdM as a preventive layer in IoT-monitored infrastructures, where data pipelines and maintenance scheduling are co-designed to reduce fault rates [18]. Recent studies additionally explore hybrid edge-cloud orchestration for fleet-level monitoring and failure detection, showing how inference can be partitioned between local devices and cloud services to improve latency and scalability [19,20]."
+  }, {
+    "type" : "paragraph",
+    "id" : 98,
+    "page number" : 2,
+    "bounding box" : [ 166.095, 73.769, 560.934, 183.477 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The authors in [21–23] focused on the use of MEMS accelerometers for vibration analysis, showing that although these devices are noisier than piezoelectric sensors, they provide measurement accuracy compatible with PdM within useful frequency bands (up to several tens of kHz depending on the model). Their studies highlighted the importance of dynamic calibration, which improves the fidelity of diagnostic metrics such as RMS, harmonic peaks, and signal envelopes. These works further confirmed the sensitivity of MEMS accelerometers to bearing and friction faults. Recent reviews sharpen this perspective by mapping vibration techniques to concrete rotating-machinery scenarios and reporting"
+  }, {
+    "type" : "header",
+    "id" : 99,
+    "page number" : 3,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 3,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 3 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 102,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 729.387, 559.668, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "practical ranges for low-cost sensing stacks [1]. Noise-aware pipelines and feature selection remain critical when deploying low-cost sensors in industrial environments, especially where operating conditions vary [24,25]."
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 590.11, 560.931, 727.673 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In [26], the authors demonstrated that MEMS microphones are increasingly adopted in PdM because of their low cost and ease of implementation. They showed that these microphones can capture subtle anomalies using spectral or time-frequency analysis. Their review further emphasized that vibro-acoustic fusion improves detection performance and robustness, particularly in small machinery contexts. More recent studies confirmed that MEMS microphones combined with lightweight neural models can reliably diagnose induction motor faults [27], while other reviews underline the growing role of soundbased sensing as a complementary modality to vibration analysis [24]. Further, recent works survey audio/IoT sensing in modern manufacturing and emphasize robustness to environmental noise and sustainability-driven deployments [25,28,29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 464.761, 560.926, 588.397 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Research in [2,19] described the role of signal processing methods as a foundation for PdM. Techniques such as FFT, power spectral density, band-pass filtering, RMS, and higher-order statistics remain central to extracting fault signatures, including imbalance, misalignment, or bearing defects. These methods were shown to be embeddable on microcontrollers, while image-like representations such as spectrograms can also be explored with visual classifiers, even though they are not essential in proof-of-concept implementations with limited computational resources. Recent reviews of belt-conveyor idler monitoring consolidate vibration- and acoustic-feature practices (e.g., SK, MFCC, and time-frequency mappings) and compare ML models across datasets and operating regimes [24]."
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 353.339, 560.856, 463.047 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The authors in [3,30] investigated anomaly detection and highlighted the effectiveness of lightweight machine learning techniques. Isolation Forest was identified as particularly suitable due to its simplicity and scalability in unsupervised outlier detection, operating directly on healthy data without the need for labeled fault data. While extensions such as Extended IF exist, the basic Isolation Forest provides the best trade-off between accuracy and computational efficiency in embedded environments. In parallel, distributed and on-device neural approaches have been proposed to scale anomaly detection across edge devices without centralizing raw data, supporting privacy and bandwidth constraints [31]."
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 144.424, 561.019, 351.626 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In [4,32,33], several authors explored edge computing approaches with ESP32 nodes, which were employed for multi-sensor data acquisition (vibration, temperature, and acoustics), local preprocessing (e.g., FFT), and either local or cloud-based decision-making. Their findings confirmed the feasibility of combining ESP32 and MEMS devices within an embedded processing and network-integrated architecture for PdM. Recent demonstrations extend this line to process-control contexts (e.g., biogas reactors) using ESP32-based low-cost nodes, confirming practical viability outside laboratory settings [34]. Beyond single-asset setups, hybrid edge-cloud frameworks for real-time PdM illustrate partitioned inference and centralized model management for industrial equipment [19,20,35]. In parallel, digital-twin workflows show how virtual models of AC machines can be coupled with sensor data to improve diagnostics and maintenance planning [36]. Generalizable ESP32-class edge patterns (e.g., compressed models and task-specific pre-processing) further demonstrate how object-detection/vision pipelines can be adapted to time-series PdM on constrained hardware [37], and PLC-integrated PdM confirms feasibility in legacy industrial control systems [38]."
+  }, {
+    "type" : "paragraph",
+    "id" : 107,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 74.786, 559.277, 142.71 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "A recent MDPI survey [5] reviewed hand-crafted features for condition monitoring and listed 169 documented time- and frequency-domain metrics. These features were shown to be interpretable, computationally efficient, and well suited for edge-based fault diagnosis on resource-constrained hardware. More recent works continue to highlight the development of low-cost embedded PdM systems. For instance, ref. [6] presented"
+  }, {
+    "type" : "header",
+    "id" : 108,
+    "page number" : 4,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 28,
+      "page number" : 4,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 4 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 111,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 645.821, 560.931, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "autoencoders for vibration-based anomaly detection, ref. [7] applied machine learning to induction motor vibrations, ref. [8] implemented lightweight deep learning for vibration diagnosis at the edge, and ref. [9] demonstrated remote vibration monitoring using ESP32class devices. Similarly, ref. [10] investigated acoustic-based monitoring for CNC machines, confirming the growing role of MEMS microphones in PdM. Altogether, these contributions reinforce that PdM research is shifting strongly toward embedded, low-cost solutions that combine vibration and acoustic sensing with edge intelligence [24,27,35,39]. This trend is mirrored by broader edge/fog deployments and sustainability-aligned industrial audio sensing [20,28]."
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 4,
+    "bounding box" : [ 166.085, 506.544, 561.023, 644.107 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Several open datasets have been widely adopted for reproducibility and benchmarking. The CWRU Bearing Data Center remains the most used dataset for vibration-based fault detection. The IMS dataset (NASA/University of Cincinnati) provides long run-to-failure experiments, while the PU dataset (Paderborn University) contains controlled bearing faults under different loads and speeds. More recent contributions include the XJTU-SY dataset of accelerated bearing life tests and the PRONOSTIA/IEEE PHM 2012 dataset, which has become central to prognostics challenges [5]. These datasets now serve as reference points for anomaly detection and remaining useful life estimation methods. Recent acoustic anomaly detection studies also report noise-robust multiclass setups evaluated on public/industrial recordings, underscoring the need for standardized audio benchmarks [25]."
+  }, {
+    "type" : "paragraph",
+    "id" : 113,
+    "page number" : 4,
+    "bounding box" : [ 165.975, 283.701, 560.521, 504.83 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "From this analysis, it is evident that the literature strongly supports a low-cost PdM strategy built on several complementary elements. First, multiple studies have shown that calibrated MEMS accelerometers and microphones provide sufficient sensitivity for vibration and acoustic monitoring in rotating machinery, while still maintaining very low hardware costs [22,23,26]. Second, the combination of statistical feature extraction with lightweight anomaly detection algorithms—most notably Isolation Forest—has been repeatedly validated as a practical compromise between accuracy and computational efficiency [5,32]. Finally, recent works emphasize the importance of edge-computing integration, where devices such as ESP32 nodes perform local preprocessing, selective cloud upload, and on-device decision-making [24,27,35,39], with deployments reported in both industrial equipment and process-control environments [18,34]. Emerging hybrid edge-cloud and decentralized learning schemes further improve scalability and resilience in multi-asset settings [19,20,31]. Taken together, these findings outline a coherent research direction toward affordable PdM systems that combine vibration and acoustic sensing, efficient signal processing, and embedded machine learning. This trajectory aligns precisely with the architecture of our prototype for small machinery."
+  }, {
+    "type" : "paragraph",
+    "id" : 114,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 144.424, 560.934, 281.987 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "While multiple studies have explored ESP32- and MEMS-based predictive maintenance systems [5,14,16,30], their approaches differ significantly in mechanical configurations, sensor types, and data collection volumes, which makes direct numerical comparison difficult. The present work, therefore, focuses on the trade-off between resource constraints and diagnostic performance rather than reproducing identical setups. The proposed prototype achieves reliable fault detection at a total cost below 30 EUR, consumes less than 300 mW, and provides anomaly detection results with an average latency below two seconds. These metrics position the system among the most energy- and cost-efficient PdM frameworks for small-scale machinery, especially in decentralized or educational environments where high-performance hardware is not feasible [10,27,39]."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 74.786, 560.525, 142.71 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Concerning algorithm selection, advanced deep learning methods such as CNN, DQN, and FCIHMRT have demonstrated superior diagnostic accuracy in complex industrial systems [2,8,27,31,37,39]. However, these architectures are computationally demanding, as they require multidimensional inputs (e.g., spectrograms), large convolution kernels, and floating-point inference, which exceed the 512 kB RAM capacity of the ESP32-C6 and"
+  }, {
+    "type" : "header",
+    "id" : 116,
+    "page number" : 5,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 5,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 5 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 119,
+    "page number" : 5,
+    "bounding box" : [ 165.975, 673.676, 560.929, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "significantly increase power consumption [8,37,39]. In particular, DQN and FCIHMRT frameworks involve iterative training and parameter optimization that are incompatible with deterministic, resource-limited edge environments [2,31]. In contrast, the Isolation Forest algorithm adopted in this study provides unsupervised learning capability, linear inference time, and a minimal memory footprint (<150 kB), making it an optimal compromise between accuracy, interpretability, and real-time feasibility for embedded predictive maintenance applications [3,27,30,31,39]."
+  }, {
+    "type" : "heading",
+    "id" : 120,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 647.013, 305.899, 661.79 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "3. Materials and Methods"
+  }, {
+    "type" : "paragraph",
+    "id" : 121,
+    "page number" : 5,
+    "bounding box" : [ 165.975, 491.6, 561.019, 643.091 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This section describes the experimental setup and firmware architecture of the ESP32based prototype developed for data acquisition and processing. All hardware components were sourced from commercially available modules, including the following main devices: ESP32-C6 Development Kit (Espressif Systems, Shanghai, China), MPU6050 accelerometer (InvenSense, San Jose, CA, USA), HC-SR04 ultrasonic sensor (Elecfreaks, Shenzhen, China), ADPS9960 proximity sensor (Avago Technologies, San Jose, CA, USA), INMP441 MEMS microphone (InvenSense, San Jose, CA, USA), OLED display (Waveshare Electronics, Shenzhen, China), and L298N H-bridge motor driver (STMicroelectronics, Geneva, Switzerland). Data processing and visualization were performed in Python (Version 3.11.9, Python Software Foundation, USA) using scikit-learn (Version 1.5.2) and Matplotlib (Version 3.9.2) for result visualization."
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 439.963, 560.524, 489.886 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The following subsections describe the hardware design, including sensor placement, and the firmware modules responsible for motor control, sensing, and data transmission. 3.1. Hardware Setup"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 5,
+    "bounding box" : [ 165.895, 228.279, 560.524, 435.481 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this project, a teaching aid in the form of a mobile platform with two DC motors controlled by an H-bridge was used. In addition to basic components such as an LED display, buttons, LEDs, and photoresistors, the key sensing element for this task was the MPU6050, managed by the ESP32-C6 Development Kit, which ensures communication, data processing, and transmission for further analysis. The ESP32 reads motion data from the MPU6050 accelerometer, which is rigidly fixed between the two DC motors of the test bench. The accelerometer was positioned symmetrically between the motors to capture vibrations and instabilities from both sides, and the data was streamed to a laptop over Wi-Fi/TCP at a rate of one line every 0.5 s (≈2 Hz effective sampling). This reduced streaming rate was chosen for simplicity and to limit bandwidth during prototyping. The MPU6050 thus provides valuable information about acceleration, rotation, and orientation, which allows the analysis of dynamic behavior, vibration detection, and the identification of potential faults. By focusing on vibration-based sensing, the ESP32-C6 platform enables a comprehensive evaluation of the system’s condition and supports effective fault detection in the motors."
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 158.641, 561.022, 226.565 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 1 shows the small robotic test platform equipped with the ESP32-C6 Development Kit and MEMS accelerometer MPU6050. The platform serves as a vibration test bench with two DC motors controlled by an H-bridge. The accelerometer is rigidly fixed between the motors to capture mechanical vibrations during operation. This setup allows the acquisition of motion and vibration data for fault detection and dynamic behavior analysis."
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 5,
+    "bounding box" : [ 166.095, 75.074, 559.279, 156.927 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The overall hardware architecture of the system is illustrated in Figure 2, which presents the main components of the Small Robot Kit platform. The platform is based on the ESP32-C6 DK microcontroller, which manages communication with various sensors and actuators. Two DC motors are driven through an H-bridge motor driver, while the MPU6050 accelerometer provides vibration data for fault detection. Additional peripherals include an OLED display, LEDs, a buzzer, a push button, an ultrasonic sensor (HC-SR04), and a"
+  }, {
+    "type" : "header",
+    "id" : 126,
+    "page number" : 6,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 6,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 6 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 129,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 743.315, 561.019, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "laser module (ADPS9960), enabling extended interaction and monitoring capabilities. This configuration allows for real-time data acquisition and control in a compact, mobile testbed."
+  }, {
+    "type" : "image",
+    "id" : 130,
+    "page number" : 6,
+    "bounding box" : [ 160.515, 614.536, 535.239, 728.944 ],
+    "source" : "30_images/imageFile1.png"
+  }, {
+    "type" : "list",
+    "id" : 131,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 319.269, 391.019, 608.728 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 597.574, 346.098, 608.728 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 1. Small Robot Kit with ESP32-C6 DK.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 66,
+        "page number" : 6,
+        "bounding box" : [ 165.632, 359.541, 524.144, 584.997 ],
+        "source" : "30_images/imageFile2.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 341.04, 391.019, 352.194 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 2. Block diagram of the Small Robot Kit platform.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 319.269, 306.578, 331.683 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.2. ESP32 Firmware Architecture",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 132,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 246.862, 560.522, 314.787 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The firmware consisted of three modules: MotorDriver for motor control (PWM, direction, test cycles), MPU6050 for accelerometer and gyroscope data acquisition, and NetworkEsp for opening a TCP socket and sending each data frame as a CSV line. These modules were coordinated by the main application, which continuously read sensors, transmitted the data, and repeated the cycle."
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 205.079, 559.28, 245.148 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The firmware structure is illustrated in Figure 3, which shows the UML class diagram of the ESP32-based system. The diagram presents the object-oriented organization of the firmware into four main classes: MainApp, MotorDriver, MPU6050, and NetworkEsp."
+  }, {
+    "type" : "paragraph",
+    "id" : 134,
+    "page number" : 6,
+    "bounding box" : [ 166.085, 93.657, 561.022, 203.365 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The MainApp class coordinates the overall execution by reading sensor data and triggering the control and communication routines. The MotorDriver class implements the low-level control logic for the DC motors, including speed and direction management. The MPU6050 class interfaces with the accelerometer and gyroscope, providing methods for sensor calibration, data acquisition, and range configuration. Finally, the NetworkEsp class handles TCP/IP communication, including connection setup, data transmission, and session management. This UML representation clearly illustrates the modular design and interaction between firmware components, supporting scalability and code maintainability."
+  }, {
+    "type" : "header",
+    "id" : 135,
+    "page number" : 7,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 7,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 7 of 26"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 138,
+    "page number" : 7,
+    "bounding box" : [ 93.016, 571.216, 499.636, 770.116 ],
+    "source" : "30_images/imageFile3.png"
+  }, {
+    "type" : "list",
+    "id" : 139,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 143.787, 423.872, 562.527 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 551.373, 423.872, 562.527 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 3. UML class diagram of the ESP32 firmware architecture.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 62,
+        "level" : "4",
+        "page number" : 7,
+        "bounding box" : [ 166.394, 529.603, 283.793, 542.017 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 1,
+        "next list id" : 146,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 7,
+          "bounding box" : [ 166.394, 529.603, 283.793, 542.017 ],
+          "font" : "URWPalladioL-Ital",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "3.3. Server-Side Architecture",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 63,
+        "page number" : 7,
+        "bounding box" : [ 166.065, 457.195, 559.478, 525.12 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "On the laptop, the server.py script receives CSV data, converts it into a feature vector (accelerometer, gyroscope, g-force), and passes it to the AnomaliesDetection class (Isolation Forest) to compute an anomaly score. This score is compared against a threshold, and the result is printed or logged. The create_dataset.py script is used exclusively for generating training and test CSV files."
+      }, {
+        "type" : "paragraph",
+        "id" : 64,
+        "page number" : 7,
+        "bounding box" : [ 166.005, 401.485, 559.662, 455.482 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The server-side software architecture is illustrated in Figure 4, which presents the UML class diagram of the Python implementation used for data processing and anomaly detection. The system is organized into three main classes: Server, CreateDataset, and AnomaliesDetection."
+      }, {
+        "type" : "image",
+        "id" : 65,
+        "page number" : 7,
+        "bounding box" : [ 165.642, 161.449, 501.846, 392.779 ],
+        "source" : "30_images/imageFile4.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 143.787, 407.49, 154.941 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 4. UML class diagram of the Server-side Architecture.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 7,
+    "bounding box" : [ 166.005, 78.132, 559.279, 132.129 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The Server class manages the TCP connection with the ESP32 client, receiving incoming sensor data lines and delegating their processing to the AnomaliesDetection module. The AnomaliesDetection class encapsulates the Isolation Forest model and provides methods for training (train) and real-time anomaly scoring (anomaly_score). The CreateDataset class"
+  }, {
+    "type" : "header",
+    "id" : 141,
+    "page number" : 8,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 8,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 8 of 26"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 144,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 743.315, 559.279, 769.456 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 168,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 743.315, 559.279, 769.456 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "is responsible for saving incoming samples to CSV files and generating datasets for model training and evaluation.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 145,
+    "page number" : 8,
+    "bounding box" : [ 166.005, 687.604, 560.933, 741.601 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The diagram also shows “uses” dependencies, indicating that the Server relies on the AnomaliesDetection and CreateDataset classes for data handling and analysis. This modular design promotes separation of concerns, code reusability, and simplified maintenance of the server-side framework."
+  }, {
+    "type" : "list",
+    "id" : 146,
+    "level" : "4",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 212.456, 319.479, 676.236 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 62,
+    "next list id" : 153,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 663.822, 319.479, 676.236 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.4. Processing Pipeline (End-to-End)",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 56,
+        "page number" : 8,
+        "bounding box" : [ 166.394, 619.271, 560.927, 659.34 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The processing pipeline consists of acquiring data, parsing it, selecting relevant features, computing an anomaly score using Isolation Forest, and comparing it to a threshold before logging or displaying the result."
+      }, {
+        "type" : "paragraph",
+        "id" : 57,
+        "page number" : 8,
+        "bounding box" : [ 166.394, 549.632, 560.933, 617.557 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "As shown in Figure 5, the Offline evaluation block presents the procedure for determining a suitable threshold. The process involves training the Isolation Forest on healthy data, evaluating both healthy and faulty runs, and selecting the threshold that either maximizes the F1 score (balanced case) or achieves the highest recall (safety-first). The chosen threshold is then saved and subsequently loaded by the server at startup."
+      }, {
+        "type" : "image",
+        "id" : 58,
+        "page number" : 8,
+        "bounding box" : [ 168.34, 253.404, 491.014, 534.432 ],
+        "source" : "30_images/imageFile5.png"
+      }, {
+        "type" : "paragraph",
+        "id" : 59,
+        "page number" : 8,
+        "bounding box" : [ 166.394, 234.227, 382.053, 245.381 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Figure 5. Flowchart of the anomaly detection pipeline."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 212.456, 270.682, 224.87 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.5. Runtime Interactions",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 8,
+    "bounding box" : [ 166.065, 84.338, 560.928, 207.974 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The sequence diagram in Figure 6 illustrates the interactions between system components at runtime. The ESP32 firmware first initiates the scenario by sending motion data (accelerometer, gyroscope, g-force) to the server via TCP. The server.py script parses the received line into features and forwards them to the Isolation Forest model, which computes a decision score, where higher values indicate healthier behavior. The server then compares this score against the threshold with tolerance and generates a prediction (Healthy, Faulty, or Borderline). The result, together with the timestamp, features, and score, is appended to a CSV log, while the score is simultaneously printed to the console and displayed in the UI."
+  }, {
+    "type" : "header",
+    "id" : 148,
+    "page number" : 9,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 9,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 9 of 26"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 151,
+    "page number" : 9,
+    "bounding box" : [ 72.914, 552.129, 522.77, 769.665 ],
+    "source" : "30_images/imageFile6.png"
+  }, {
+    "type" : "list",
+    "id" : 152,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 533.399, 332.504, 544.553 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 179,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 533.399, 332.504, 544.553 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 6. Sequence of runtime operations.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 153,
+    "level" : "4",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 134.117, 438.133, 524.042 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 146,
+    "next list id" : 164,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 511.628, 265.133, 524.042 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.6. Dataset Description",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 60,
+        "page number" : 9,
+        "bounding box" : [ 165.975, 341.727, 560.933, 507.146 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The dataset collected in this study was intentionally kept compact and generated entirely under controlled laboratory conditions to ensure repeatability and precise signal characterization. During early-stage validation, such constrained environments are essential for isolating algorithmic performance factors—such as threshold calibration and sensitivity—from uncontrolled environmental influences. This controlled acquisition strategy allowed the evaluation of the proposed Isolation Forest-based detection pipeline without introducing external disturbances or unmeasurable load variations. Similar approaches have been adopted in numerous vibration-based diagnostic studies that emphasize reproducibility and ground-truth consistency over data volume [6,9,11,13]. A smaller yet well-curated dataset also facilitates interpretability and parameter analysis, enabling the clear identification of how changes in vibration signatures affect anomaly scores and decision boundaries [12,26]."
+      }, {
+        "type" : "paragraph",
+        "id" : 61,
+        "page number" : 9,
+        "bounding box" : [ 166.394, 174.595, 560.932, 340.013 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "To address robustness and scalability, future research will extend the dataset through long-term collection and real-world testing on small industrial systems such as axial fans, centrifugal micro-pumps, and compact motor assemblies. These platforms are representative of typical industrial assets monitored by distributed IoT nodes and will allow for evaluating performance under fluctuating loads, temperatures, and rotational speeds. Additional datasets will also be gathered to explore noise robustness and model adaptability under diverse mechanical and environmental conditions. This progressive expansion follows best practices in predictive maintenance validation—starting from controlled reproducible experiments and advancing toward field deployment once the detection framework and feature extraction processes have been stabilized [13,18,20,26]. Such a staged methodology ensures methodological transparency, safe experimental conditions, and a reliable demonstration of system robustness prior to industrial integration."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 134.117, 438.133, 163.227 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.7. Measurement Scenario Two datasets were recorded under controlled conditions:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 154,
+    "level" : "4",
+    "page number" : 9,
+    "bounding box" : [ 166.518, 89.345, 559.278, 129.414 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.518, 110.053, 558.112, 129.414 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• Healthy run → the motor system operated normally without external perturbations.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.518, 89.345, 559.278, 115.486 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• Faulty run → mechanical defects were introduced by deliberately blocking one of the wheels, creating an imbalance and strong vibration in the coupled motor.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 155,
+    "page number" : 10,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 10,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 10 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 10,
+    "bounding box" : [ 166.095, 687.604, 561.023, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Motor defects were simulated in a very direct way by physically disturbing the system. In the healthy condition, the two motors and wheels rotated freely without any external interference. To create a faulty condition, one of the wheels was deliberately blocked, which produced a mechanical imbalance and additional vibration. This simple intervention was enough to generate a clear difference in the accelerometer signal, allowing us to compare normal and faulty states under controlled conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 10,
+    "bounding box" : [ 166.085, 659.749, 561.02, 685.89 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "For each scenario, accelerometer values were collected and logged at 0.5 s intervals. The dataset was split into training and testing subsets:"
+  }, {
+    "type" : "list",
+    "id" : 160,
+    "level" : "4",
+    "page number" : 10,
+    "bounding box" : [ 166.518, 607.83, 431.388, 655.046 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.518, 635.685, 417.908, 655.046 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• A total of 300 lines from the healthy run for training;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.518, 621.757, 412.538, 641.118 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• A total of 150 lines from the healthy run for testing;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.518, 607.83, 431.388, 627.191 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• Approximately 450 lines from the faulty run for testing.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 161,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 584.133, 559.275, 610.274 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The sensor placement (between the two motors) ensured consistent vibration coupling in both conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 486.639, 560.925, 582.419 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The experiments were intentionally limited to a single controlled fault scenario—mechanical imbalance caused by partial wheel obstruction—to ensure precise, reproducible, and safe validation of the proposed diagnostic pipeline. The selected failure mode provided a stable and quantifiable vibration source that could be reproduced without damaging the platform. This controlled setup enabled objective evaluation of feature extraction and Isolation Forest classification, following standard practice in early validation of predictive maintenance systems [6,12,13]."
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 10,
+    "bounding box" : [ 166.115, 389.145, 561.019, 484.925 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Restricting the analysis to one fault type also ensured that variations in anomaly scores originated from algorithmic responses rather than from overlapping fault mechanisms. Complex degradations such as bearing wear or shaft misalignment introduce uncontrolled variability and sensor drift, which are undesirable in a proof-of-concept setup focused on reproducibility and cost efficiency [9,11]. Future work will extend the framework to include additional fault types under varying loads and speeds to assess the model’s adaptability and robustness [13,18,20,26]."
+  }, {
+    "type" : "list",
+    "id" : 164,
+    "level" : "4",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 365.363, 294.224, 377.777 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 153,
+    "next list id" : 172,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 365.363, 294.224, 377.777 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.8. Preprocessing and Features",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 10,
+    "bounding box" : [ 166.095, 265.101, 560.932, 360.881 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The preprocessing stage operates on one CSV row per loop, which contains accelerometer values (x, y, z), gyroscope values (x, y, z), and the computed g-force. For visualization purposes, the overall acceleration magnitude is also calculated as a single value summarizing the three accelerometer axes. A frequency representation of the signals is obtained using Welch’s method, which is applied only for analysis and plotting. Rows with missing values are discarded, and no additional scaling is required since tree-based models can handle raw input values directly."
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 10,
+    "bounding box" : [ 165.975, 125.824, 560.925, 263.387 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "While MEMS accelerometers inherently exhibit a higher noise floor compared to piezoelectric sensors, the proposed system was designed to maintain robustness through both hardware- and software-level noise mitigation techniques. The MPU6050’s internal DLPF was configured at 5 Hz to attenuate high-frequency interference and quantization noise, ensuring that only the low-frequency components associated with mechanical imbalance were preserved. In addition, a moving-average filter was applied to RMS and FFT-derived features to smooth stochastic variations before feeding them into the anomaly detection model. This dual-layer filtering strategy provides an effective balance between signal clarity and computational simplicity, which is critical for low-power IoT nodes operating under resource constraints."
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 10,
+    "bounding box" : [ 187.653, 111.896, 559.275, 124.11 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Beyond preprocessing, the Isolation Forest model further enhances noise robustness, as"
+  }, {
+    "type" : "list",
+    "id" : 168,
+    "level" : "5",
+    "page number" : 10,
+    "bounding box" : [ 166.095, 70.113, 560.932, 110.182 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 144,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.095, 70.113, 560.932, 110.182 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "it evaluates statistical feature distributions rather than absolute amplitudes—making it resilient to transient spikes and minor perturbations. This design ensures stable classification performance even in moderately noisy environments [9,13,22,24].",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 169,
+    "page number" : 11,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 11,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 11 of 26"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 172,
+    "level" : "4",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 757.022, 326.383, 769.436 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 164,
+    "next list id" : 191,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 757.022, 326.383, 769.436 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.9. Isolation Forest (Anomaly Scoring)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 11,
+    "bounding box" : [ 166.005, 670.688, 561.022, 752.54 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We adopted the Isolation Forest algorithm from the scikit-learn library to detect abnormal vibration patterns. Isolation Forest is an unsupervised anomaly detection method that isolates data points by recursively partitioning the feature space with random splits. Anomalies are detected because they can be isolated more quickly (i.e., they require fewer splits on average) than normal points. This makes the method computationally efficient and well suited for real-time use on resource-constrained systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 11,
+    "bounding box" : [ 165.895, 614.977, 559.272, 668.974 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The model was trained only on healthy data (one-class configuration). We used 100 isolation trees with contamination = “auto”. Each tree builds partitions on random subsets of features, so the model can generalize to unseen data without requiring explicit labels for faulty states."
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 552.119, 560.93, 613.263 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The choice of 100 trees represents a balance between accuracy and computational efficiency. Fewer trees (<50) tended to increase variance in anomaly scores (up to ±7% accuracy difference across runs), while beyond 100, the gains were marginal (<1% improvement) compared to the extra training time (~1.5 × longer)."
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 11,
+    "bounding box" : [ 166.115, 461.772, 560.925, 557.552 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The sensitivity of the Isolation Forest model to the number of trees was assessed by varying this parameter between 20, 50, 100, 150, and 200 estimators. The results exhibited a consistent monotonic trend, where detection accuracy stabilized around 100 trees while computational time increased proportionally with ensemble size. This convergence indicates that the algorithm rapidly reaches a stable operating point, beyond which additional trees yield diminishing returns—less than 1% accuracy improvement for nearly twice the training time."
+  }, {
+    "type" : "caption",
+    "id" : 177,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 406.061, 559.274, 460.059 ],
+    "linked content id" : 178,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 7 shows the effect of the number of isolation trees on detection accuracy and training time. As is visible, the model performance stabilizes near 100 trees, whereas computation time continues to grow linearly with ensemble size, confirming the trade-off between accuracy and efficiency."
+  }, {
+    "type" : "image",
+    "id" : 178,
+    "page number" : 11,
+    "bounding box" : [ 164.299, 130.84, 530.779, 393.4 ],
+    "source" : "30_images/imageFile7.png"
+  }, {
+    "type" : "list",
+    "id" : 179,
+    "level" : "3",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 116.198, 514.54, 127.352 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 152,
+    "next list id" : 204,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 116.198, 514.54, 127.352 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 7. Effect of the number of isolation trees on detection accuracy and training time.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 11,
+    "bounding box" : [ 165.98, 64.471, 560.517, 104.541 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Such behavior is fully aligned with the theoretical properties of the Isolation Forest, which scales linearly with both the number of trees and the number of samples [9], and has been consistently confirmed across independent evaluations [11,13]. The same convergence"
+  }, {
+    "type" : "header",
+    "id" : 181,
+    "page number" : 12,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 12,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 12 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 12,
+    "bounding box" : [ 166.1, 743.315, 561.014, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "pattern demonstrates that moderate ensemble sizes are sufficient to achieve stable and reproducible performance while maintaining computational feasibility in low-power applications."
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 12,
+    "bounding box" : [ 165.975, 631.893, 560.929, 741.601 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Similar findings have also been observed in the broader ensemble learning domain, where increasing the model size beyond the point of convergence provides minimal gain in generalization but significantly raises memory and energy consumption [12,26]. Consequently, the choice of 100 estimators represents an empirically grounded and computationally efficient configuration that ensures stable anomaly detection accuracy without unnecessary resource overhead. This balance between diagnostic precision and efficiency supports the overall objective of implementing predictive maintenance methods on resource-constrained embedded platforms [4,6,26]."
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 12,
+    "bounding box" : [ 166.085, 576.183, 561.016, 630.18 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The contamination parameter was left on “auto” because the objective was not to fix a priori a fault proportion but to let the model adapt its threshold based on data distribution. This configuration is well suited for one-class scenarios where only healthy data is available for training."
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 534.399, 559.274, 574.469 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The decision_function outputs a continuous anomaly score, where higher values indicate that a sample resembles the healthy training data, while lower values suggest that the sample deviates from normal patterns and is therefore more likely to be faulty."
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 12,
+    "bounding box" : [ 165.975, 492.616, 560.925, 532.686 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Since the algorithm does not provide a built-in operating point, we determined thresholds offline by evaluating the model on both healthy and faulty runs. Two thresholds were considered:"
+  }, {
+    "type" : "list",
+    "id" : 189,
+    "level" : "4",
+    "page number" : 12,
+    "bounding box" : [ 166.518, 447.845, 561.012, 487.914 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.518, 468.553, 561.012, 487.914 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• F1-optimized threshold (0.018338): balanced between false alarms and missed detections.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.518, 447.845, 559.277, 473.986 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• Max-recall threshold (0.089770): detects nearly all faults at the expense of more false alarms (safety-first setting).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 12,
+    "bounding box" : [ 166.065, 389.145, 560.924, 443.142 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To ensure robustness, we applied 5-fold cross-validation on the healthy dataset (300 samples). In each fold, 80% of the data were used for training and 20% for validation. Averaged results showed an accuracy of 72.9% ± 2.4%, with recall consistently above 67% across folds. In addition, we repeated the full training and testing process"
+  }, {
+    "type" : "list",
+    "id" : 191,
+    "level" : "4",
+    "page number" : 12,
+    "bounding box" : [ 165.895, 333.434, 559.554, 387.431 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 172,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 165.895, 333.434, 559.554, 387.431 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "10 times with different random seeds, confirming that anomaly scores and thresholds varied only slightly (standard deviation <0.01 on the anomaly score scale). These results demonstrate that the Isolation Forest approach is stable and reproducible, reducing the risk of performance being due to random chance.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 277.723, 559.272, 331.721 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Training time is linear with the number of samples and trees, and remains in the order of a few seconds for our dataset (hundreds of samples). Scoring is very fast, well under 1 ms per sample on a standard laptop, which confirms the feasibility of real-time anomaly detection."
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 12,
+    "bounding box" : [ 165.975, 124.519, 560.929, 276.01 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To train and validate the Isolation Forest algorithm, a dedicated vibration dataset was collected under controlled laboratory conditions. Although the dataset comprised approximately 900 labeled samples, it was deliberately designed to provide a compact yet fully reproducible baseline for validating the proposed low-cost detection framework. The goal was not to develop a large-scale predictive model, but to demonstrate the feasibility of deploying lightweight anomaly detection directly on resource-constrained embedded hardware. Despite its limited size, the dataset captures both steady-state and transient motor behaviors, enabling the model to learn representative vibration dynamics and faultinduced spectral variations. Similar proof-of-concept studies in vibration-based predictive maintenance have likewise relied on small, well-curated datasets to ensure methodological transparency and reproducibility [4,6,9,11,13]."
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 68.808, 560.926, 122.805 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The model was trained in a one-class configuration using only healthy-state data, allowing it to detect previously unseen fault conditions through deviations from the baseline distribution. This approach improves adaptability to new operating regimes without requiring large annotated datasets. As additional data are gathered from real industrial"
+  }, {
+    "type" : "header",
+    "id" : 195,
+    "page number" : 13,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 13,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 13 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 715.459, 560.871, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "systems such as fans, pumps, and conveyor mechanisms, the model can be retrained or fine-tuned to extend its diagnostic coverage. Future work will therefore focus on expanding the dataset through long-term monitoring under varying loads, speeds, and environmental conditions to verify the scalability and robustness of the proposed system [26,28,29,34,37]."
+  }, {
+    "type" : "list",
+    "id" : 199,
+    "level" : "5",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 567.634, 289.243, 704.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 691.678, 289.243, 704.092 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.10. Real-Time Decision Rule",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 55,
+        "page number" : 13,
+        "bounding box" : [ 166.005, 591.415, 561.014, 687.195 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The real-time decision rule compares the live anomaly score with the preloaded threshold, applying a small tolerance band to reduce jitter. Scores above the threshold plus the band are classified as Healthy, values within the band as Borderline, and scores below the threshold minus the band as Faulty. To further limit false alarms, the system can require a predefined number of consecutive samples before changing state (debouncing). All results, including timestamp, features, score, and label, are recorded in a CSV log and simultaneously printed to the console."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 567.634, 275.465, 580.048 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.11. Computational Notes",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 13,
+    "bounding box" : [ 166.085, 495.226, 561.016, 563.151 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In our prototype, the ESP32 does not do any heavy calculations. Its only job is to read the accelerometer values and send them to the laptop over Wi-Fi. This is very light work for the microcontroller: just reading numbers and sending them in a text line every 0.5 s. The amount of data is tiny, far below what Wi-Fi can handle. Memory use on the ESP32 is also very small, limited to a few buffers for the sensor and the network."
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 397.733, 559.476, 493.513 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "On the ESP32, sensor acquisition and Wi-Fi transmission required less than 5% of available CPU and about 20 kB of RAM, far below the device’s 520 kB capacity. The average end-to-end latency (sensor read → Wi-Fi send → feature extraction → anomaly score on laptop) was below 100 ms, dominated by network transmission. Local feature extraction and model inference on the laptop remained negligible (<1 ms per sample). These results confirm that the system can operate continuously without overloading the microcontroller or the host computer."
+  }, {
+    "type" : "caption",
+    "id" : 202,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 342.022, 560.524, 396.019 ],
+    "linked content id" : 203,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 8 shows the computational workload distribution and latency flow between the ESP32-C6 node and the host computer. Sensor acquisition, preprocessing (RMS/FFT), and Wi-Fi transmission are performed on the microcontroller, while feature extraction and anomaly scoring are handled by the host with end-to-end latency below 100 ms."
+  }, {
+    "type" : "image",
+    "id" : 203,
+    "page number" : 13,
+    "bounding box" : [ 164.871, 248.096, 523.647, 330.266 ],
+    "source" : "30_images/imageFile8.png"
+  }, {
+    "type" : "list",
+    "id" : 204,
+    "level" : "3",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 229.337, 559.137, 240.491 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 179,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 229.337, 559.137, 240.491 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 8. Computational workload distribution between the ESP32-C6 node and the host computer.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 13,
+    "bounding box" : [ 165.975, 121.899, 559.698, 217.679 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 1 summarizes the computational and memory load for each task within the predictive maintenance pipeline, showing that the ESP32-C6 performs only lightweight operations while feature extraction and anomaly detection are handled by the host. All the analysis is done on the laptop. For each new line of data, the laptop extracts a few features and asks the Isolation Forest model to score them. This calculation is extremely fast: scoring one sample with 100 trees takes less than a millisecond. Training the model with a few hundred healthy samples also only takes a few seconds."
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 66.188, 559.475, 120.185 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "While the ESP32-C6 node currently transmits raw sensor data to an external host for feature extraction and anomaly scoring, this configuration was deliberately chosen to ensure transparency and flexibility during the proof-of-concept phase. Offloading computations to the host enabled efficient algorithm tuning and visualization of diagnostic behavior"
+  }, {
+    "type" : "header",
+    "id" : 207,
+    "page number" : 14,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 14,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 14 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 210,
+    "page number" : 14,
+    "bounding box" : [ 165.975, 729.387, 559.279, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "without embedded memory constraints. This hybrid validation strategy is common in early-stage PdM research, where algorithmic feasibility is first verified on a host before migration to firmware [9,11,13,24]."
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 14,
+    "bounding box" : [ 166.098, 704.771, 438.864, 715.925 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Computational load distribution across system components."
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 14,
+    "bounding box" : [ 61.554, 652.17, 529.872, 693.015 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Task Type Executed By Computational Load Memory Load Data Type Data Acquisition (MPU6050)"
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 14,
+    "bounding box" : [ 57.923, 628.259, 544.703, 670.361 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "ESP32-C6 Very Low (<5% CPU) ~8–10 kB Raw XYZ, GYRO Data Transmission (Wi-Fi TCP)"
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 14,
+    "bounding box" : [ 58.461, 604.349, 527.944, 646.451 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "ESP32-C6 Low ~12 kB CSV lines Feature Extraction (RMS, FFT)"
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 14,
+    "bounding box" : [ 46.83, 586.416, 538.172, 622.54 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Laptop Medium ~20 MB Feature vector Anomaly Detection (IF) Laptop"
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 14,
+    "bounding box" : [ 262.139, 580.438, 346.642, 604.608 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Very Low (<1 ms per sample)"
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 14,
+    "bounding box" : [ 41.694, 568.483, 530.7, 598.63 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "~15 MB Score Logging and Visualization Laptop Low ~10 MB CSV + plot"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 14,
+    "bounding box" : [ 165.895, 423.088, 560.519, 546.723 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The full integration of the Isolation Forest algorithm on the ESP32-C6 is technically feasible but requires optimization of floating-point operations, memory allocation, and ensemble complexity. Initial profiling shows that a 100-tree model consumes around 120 kB of RAM—close to the limit for continuous BLE communication. Future iterations will therefore employ quantized inference, fixed-point arithmetic, and model pruning, supported by lightweight frameworks such as TensorFlow Lite for Microcontrollers or Edge Impulse SDK [18,26,29,40]. These optimizations are expected to reduce latency below 100 ms, enabling fully autonomous, real-time anomaly detection directly at the edge and transforming the current prototype into a self-contained, energy-efficient PdM node."
+  }, {
+    "type" : "paragraph",
+    "id" : 222,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 399.306, 407.3, 411.72 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "3.12. Detection of Engine Malfunction Using a Microphone"
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 285.116, 560.525, 394.824 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "While the present prototype focuses primarily on vibration-based sensing and analysis, the acoustic monitoring channel was conceptually included to highlight the modularity and scalability of the proposed predictive maintenance framework. Prior research has shown that MEMS microphones can capture complementary fault signatures—such as frictional, aerodynamic, or bearing-related anomalies—that, when combined with vibration features, enhance diagnostic robustness and early fault sensitivity [18,22,24]. Therefore, the inclusion of “acoustic signals” in the title reflects the dual-modality architecture envisioned for the system rather than the specific subset implemented in this first-stage prototype."
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 14,
+    "bounding box" : [ 166.095, 173.694, 560.928, 283.402 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In the current phase, implementation efforts were deliberately concentrated on accelerometer data due to their stability in the selected fault scenario (mechanical imbalance) and reduced susceptibility to ambient acoustic noise. Integrating the acoustic channel at this stage would have required additional shielding, adaptive filtering, and optimized feature extraction to preserve reproducibility and low-power operation on the embedded platform—factors emphasized in prior PdM research [24,26]. Consequently, the acoustic component remains specified at the design level and will be integrated in future iterations to enable multimodal fusion under laboratory and real-world conditions [18,22,24,26]."
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 76.2, 560.928, 171.981 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The acoustic approach employs a low-cost, non-contact MEMS microphone to capture motor sound and reveal fault-related spectral patterns. After framing and frequencydomain transformation (FFT/PSD or wavelets), features such as RMS, spectral centroid, and band-energy ratios can be computed and compared against a healthy baseline. Prior studies report reliable detection of bearing and rotor faults using single microphones with FFT- or DWT-based features [21], and even greater robustness has been achieved with microphone arrays [22] and lightweight neural models [23]."
+  }, {
+    "type" : "header",
+    "id" : 226,
+    "page number" : 15,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 15,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 15 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 15,
+    "bounding box" : [ 166.035, 687.604, 561.019, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 2 summarizes the main differences between vibration-based sensing using the MPU6050 accelerometer and acoustic sensing using the INMP441 MEMS microphone. Vibration sensing offers direct measurement of mechanical imbalance and structural resonances with low noise susceptibility, whereas acoustic sensing provides complementary insight into frictional, aerodynamic, and bearing-related anomalies, particularly beneficial for early fault detection."
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 15,
+    "bounding box" : [ 166.098, 663.949, 489.327, 675.103 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 2. Comparative characteristics of vibration and acoustic sensing modalities."
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 15,
+    "bounding box" : [ 61.211, 617.325, 518.813, 652.193 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Parameter Vibration (MPU6050) Acoustic (INMP441) Sensor type"
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 15,
+    "bounding box" : [ 230.859, 611.348, 291.85, 635.517 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "MEMS accelerometer"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 15,
+    "bounding box" : [ 59.278, 593.415, 545.98, 630.653 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "MEMS microphone (I2S interface) Output/rate Accelerometer output rate 1 kHz; ADC up to 8 kS/s"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 15,
+    "bounding box" : [ 52.175, 569.504, 526.862, 611.606 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Sound pressure; typ. current ~1.4 mA, I2S Typical features RMS, FFT/PSD"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 15,
+    "bounding box" : [ 51.657, 545.594, 527.381, 587.696 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "RMS, spectral centroid, band-power ratio, MFCC Fault sensitivity Imbalance/resonances (contact)"
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 15,
+    "bounding box" : [ 402.216, 539.617, 541.015, 563.786 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Friction/bearing/aerodynamic (non-contact), sensitive to noise"
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 15,
+    "bounding box" : [ 53.933, 503.751, 530.334, 539.875 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Higher (ambient), requires filtering/shielding Power (sensor) Few mA (depends on VCC and interface type) ~1.4 mA (typical)"
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 15,
+    "bounding box" : [ 43.488, 521.684, 325.23, 533.898 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Noise susceptibility Lower (mechanical isolation)"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 442.883, 560.925, 482.952 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In several scenarios, acoustic signals match or outperform pure vibration analysis, particularly for early friction-related faults [24]; therefore, the fusion of acoustic and vibration features is recommended for higher reliability in noisy environments."
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 331.461, 560.521, 441.169 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "MEMS microphones such as the INMP441 are especially suitable for this task, as they can capture subtle changes in sound related to friction, bearing damage, or emerging resonances, which are not always clearly detectable in vibration signals [25]. A typical diagnostic workflow involves recording the acoustic signal in the vicinity of the motor, segmenting it into short time windows, and transforming it into the frequency domain using FFT or power spectral density methods. From the resulting spectra, features such as RMS amplitude, spectral centroid, or increased energy activity in specific bands can be extracted and compared against a reference profile."
+  }, {
+    "type" : "caption",
+    "id" : 244,
+    "page number" : 15,
+    "bounding box" : [ 166.095, 247.895, 559.666, 329.747 ],
+    "linked content id" : 245,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 9 illustrates the acoustic fault detection workflow using the MEMS microphone INMP441. The schematic illustrates the signal processing pipeline from acoustic signal acquisition through FFT- and PSD-based feature extraction to comparison with a healthy baseline for fault detection. Differences between healthy and faulty motor operation manifest, for instance, as elevated broadband noise or the emergence of narrow spectral peaks that are typical of mechanical faults [21,25]."
+  }, {
+    "type" : "image",
+    "id" : 245,
+    "page number" : 15,
+    "bounding box" : [ 166.761, 78.775, 454.221, 234.235 ],
+    "source" : "30_images/imageFile9.png"
+  }, {
+    "type" : "list",
+    "id" : 246,
+    "level" : "3",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 61.65, 500.275, 72.804 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 260,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 61.65, 500.275, 72.804 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 9. Acoustic fault detection workflow using the MEMS microphone INMP441.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 247,
+    "page number" : 16,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 16,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 16 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 16,
+    "bounding box" : [ 166.095, 617.966, 559.769, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In our prototype, however, the acoustic channel was not physically implemented and remained only at the theoretical level. This choice was motivated by the effort to keep the system simple, reproducible, and computationally efficient, with the focus placed on vibration-based sensing using the MPU6050 accelerometer. The vibration data were processed using RMS and FFT analysis and subsequently evaluated with the Isolation Forest model for anomaly detection. Nevertheless, MEMS microphones such as the INMP441 remain a promising extension for future work, as their integration could enhance fault detection robustness when combined with vibration features [22,23]. As illustrated in Figure 9, the acoustic processing pipeline follows a structured workflow from signal acquisition to fault classification, providing a conceptual basis for future integration of the microphone channel."
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 16,
+    "bounding box" : [ 165.975, 297.629, 561.019, 616.252 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Although the prototype presented in this work focuses on vibration-based sensing, the system architecture was designed from the outset to support additional modalities such as acoustic signal acquisition. The inclusion of “acoustic signals” in the title, therefore, reflects the conceptual scope of a multimodal predictive maintenance framework rather than the exact implementation stage. At this stage, vibration sensing was deliberately prioritized to validate the ESP32-based edge architecture, ensure reliable data acquisition, and confirm the algorithmic robustness of the Isolation Forest model under reproducible laboratory conditions. Introducing acoustic measurements prematurely—without proper calibration and environmental control—could introduce unwanted variability caused by background noise or sensor placement, potentially masking the diagnostic contribution of the vibration channel. Such staged validation, where one sensing modality is isolated and verified before multimodal fusion, is widely recommended in embedded PdM research [18,22,26,29]. Nevertheless, the proposed framework already defines a unified pipeline that can process both vibration and acoustic data using RMS, FFT, and PSD-based features, enabling direct integration of MEMS microphones such as the INMP441 in future iterations. Acoustic sensors have been shown to complement vibration analysis by improving sensitivity to frictional, aerodynamic, and bearing-related anomalies, especially in low-frequency mechanical systems [24,41]. The modular firmware design and scalable MQTT-based communication architecture allow this additional sensing channel to be implemented with minimal computational overhead. Once experimentally validated, the acoustic module will enable multimodal fusion between vibration and sound features, thereby enhancing diagnostic coverage, sensitivity, and robustness while maintaining the low-cost, energyefficient character of the system [18,22,26,29,41]."
+  }, {
+    "type" : "heading",
+    "id" : 252,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 270.966, 219.559, 285.743 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "4. Results"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 16,
+    "bounding box" : [ 166.115, 213.046, 559.471, 267.043 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To evaluate the proposed system, measurements were carried out on a small DC motor operating in both healthy and faulty conditions (mechanical imbalance introduced). The vibration signals were then analyzed using the approaches described earlier: time-domain analysis, frequency-domain analysis, and anomaly detection with Isolation Forest."
+  }, {
+    "type" : "list",
+    "id" : 254,
+    "level" : "4",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 189.265, 278.254, 201.679 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 261,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 189.265, 278.254, 201.679 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.1. Time-Domain Analysis",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 16,
+    "bounding box" : [ 166.095, 116.857, 560.928, 184.782 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 10 illustrates the evolution of the total acceleration |a| over time. In the first segment of the signal (samples ~0–300), which corresponds to the healthy state, the amplitudes remain stable and relatively low. In contrast, the second segment (highlighted in blue), associated with the faulty state, shows a clear increase in both the mean amplitude and the variability of the signal, indicating a significant deviation from normal behavior."
+  }, {
+    "type" : "header",
+    "id" : 256,
+    "page number" : 17,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 41,
+      "page number" : 17,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 17 of 26"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 259,
+    "page number" : 17,
+    "bounding box" : [ 146.318, 626.293, 533.918, 774.373 ],
+    "source" : "30_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "id" : 260,
+    "level" : "3",
+    "page number" : 17,
+    "bounding box" : [ 166.394, 286.928, 491.909, 623.031 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 246,
+    "next list id" : 271,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.394, 611.877, 330.128, 623.031 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 10. Evolution of total acceleration.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 51,
+        "page number" : 17,
+        "bounding box" : [ 166.394, 532.294, 559.668, 600.219 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Figure 11 shows the raw accelerometer signals along the three axes (x, y, and z) for both healthy and faulty states. While the overall waveforms appear similar, the faulty condition exhibits greater variability and occasional higher peaks, particularly along the x and z axes. These differences, although subtle in the raw time traces, provide the basis for subsequent analysis using statistical and RMS-based features."
+      }, {
+        "type" : "image",
+        "id" : 52,
+        "page number" : 17,
+        "bounding box" : [ 166.401, 303.748, 512.001, 519.268 ],
+        "source" : "30_images/imageFile11.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.394, 286.928, 491.909, 298.082 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 11. Raw accelerometer signals along three axes in healthy and faulty states.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 261,
+    "level" : "4",
+    "page number" : 17,
+    "bounding box" : [ 166.394, 265.157, 300.032, 277.571 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 254,
+    "next list id" : 289,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.394, 265.157, 300.032, 277.571 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2. Frequency-Domain Analysis",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 220.605, 559.668, 260.674 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The analysis of vibration signals was carried out in both the time and frequency domains to distinguish between healthy and faulty conditions. The following figures illustrate the results obtained using RMS and PSD."
+  }, {
+    "type" : "paragraph",
+    "id" : 263,
+    "page number" : 17,
+    "bounding box" : [ 166.085, 109.184, 561.02, 218.891 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To ensure full methodological transparency and reproducibility, the specific configuration of Welch’s method used for spectral analysis was explicitly defined. The power spectral density (PSD) estimation was performed with a sampling frequency of 1 kHz, employing a Hamming window of 256 samples and a 50% overlap between consecutive segments. Each vibration trace contained 1024 samples, resulting in four overlapping segments per signal. These parameters were empirically selected to balance frequency resolution (≈3.9 Hz) and variance reduction, in accordance with standard practices in vibration-based fault diagnosis [9,13,22,24]."
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 17,
+    "bounding box" : [ 166.115, 67.4, 559.278, 107.47 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "It should be noted that Welch’s method was employed solely for frequency-domain visualization and exploratory analysis rather than as a direct input to the Isolation Forest algorithm. The anomaly detection model was trained using features derived from RMS and"
+  }, {
+    "type" : "header",
+    "id" : 265,
+    "page number" : 18,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 42,
+      "page number" : 18,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 18 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 715.459, 560.929, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "band-limited FFT magnitudes, while the PSD plots served to highlight distinct harmonic differences between healthy and faulty operating states. Defining the exact Welch parameters contributes to methodological rigor and ensures that subsequent studies can replicate the frequency-domain behavior under identical preprocessing conditions [18,22,26,29]."
+  }, {
+    "type" : "caption",
+    "id" : 269,
+    "page number" : 18,
+    "bounding box" : [ 166.095, 645.821, 560.933, 713.746 ],
+    "linked content id" : 270,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 12 shows that the RMS signal clearly separates the two conditions. The faulty state (orange curve) exhibits consistently higher amplitudes and stronger variability compared to the healthy state (blue curve), which remains relatively stable and lower in magnitude. This trend confirms that faults lead to increased energy levels in the vibration signal."
+  }, {
+    "type" : "image",
+    "id" : 270,
+    "page number" : 18,
+    "bounding box" : [ 166.752, 498.617, 557.472, 630.857 ],
+    "source" : "30_images/imageFile12.png"
+  }, {
+    "type" : "list",
+    "id" : 271,
+    "level" : "3",
+    "page number" : 18,
+    "bounding box" : [ 166.394, 483.141, 391.342, 494.295 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 260,
+    "next list id" : 280,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 166.394, 483.141, 391.342, 494.295 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 12. Time-domain RMS of acceleration magnitude.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 18,
+    "bounding box" : [ 165.975, 333.919, 559.664, 471.483 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The temporary decline in the RMS amplitude of the faulty state after approximately sample no. 200 can be attributed to partial mechanical stabilization of the unbalanced wheel during continuous operation. As the imbalance persisted, the initially pronounced oscillations gradually attenuated due to internal damping within the motor mount and redistribution of mechanical stress along the shaft–coupling interface. This self-damping phenomenon is commonly observed in small DC motors, where frictional losses, bearing viscosity, and the elastic compliance of the supporting frame naturally reduce vibration intensity over time [9,13,24]. Since the experiment was conducted under constant load and supply voltage, the observed decrease represents a genuine physical effect rather than a sensor or acquisition artifact."
+  }, {
+    "type" : "paragraph",
+    "id" : 273,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 264.281, 560.926, 332.206 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Repeated measurements consistently reproduced this trend, confirming that the system progressively reaches a quasi-steady vibration state once the unbalanced component settles. This stabilization effect highlights the inherent mechanical damping behavior of the test setup and provides further confidence in the repeatability and physical validity of the recorded signals."
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 18,
+    "bounding box" : [ 166.085, 208.57, 561.019, 262.567 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The x-axis represents the window index (dimensionless), while the y-axis denotes the normalized RMS magnitude of total acceleration, expressed in arbitrary units (a.u.). These dimensionless representations were used for consistency across datasets and to allow relative comparison between operating states without requiring physical calibration."
+  }, {
+    "type" : "paragraph",
+    "id" : 275,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 138.932, 560.267, 206.857 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "As shown in Figure 13, the PSD analysis highlights the distribution of signal energy across frequencies. The healthy spectrum (blue curve) is more concentrated and displays distinct troughs at specific frequency bands. In contrast, the faulty spectrum (orange curve) shows higher energy that is spread across a wider range of frequencies, indicating more irregular and broadband vibrations associated with the fault condition."
+  }, {
+    "type" : "header",
+    "id" : 276,
+    "page number" : 19,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 43,
+      "page number" : 19,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 19 of 26"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 279,
+    "page number" : 19,
+    "bounding box" : [ 163.949, 624.709, 562.589, 771.109 ],
+    "source" : "30_images/imageFile13.png"
+  }, {
+    "type" : "list",
+    "id" : 280,
+    "level" : "3",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 284.825, 506.237, 617.775 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 271,
+    "next list id" : 296,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 606.621, 492.429, 617.775 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 13. Power Spectral Density (Welch) of vibration signals (healthy vs. faulty).",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 53,
+        "page number" : 19,
+        "bounding box" : [ 166.394, 527.038, 561.023, 594.963 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Figure 14 illustrates the PSD of the vibration signals across the three accelerometer axes. In the healthy condition, spectral energy is concentrated at specific frequencies, resulting in clear troughs. In contrast, the faulty condition shows a broader spectrum with elevated energy distributed across multiple bands. This indicates that the introduced imbalance generates additional frequency components, absent during normal operation."
+      }, {
+        "type" : "image",
+        "id" : 54,
+        "page number" : 19,
+        "bounding box" : [ 168.503, 301.132, 516.263, 516.172 ],
+        "source" : "30_images/imageFile14.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 284.825, 506.237, 295.979 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 14. Power Spectral Density (PSD) per axis—healthy vs. faulty (Welch method).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 19,
+    "bounding box" : [ 166.065, 121.676, 560.933, 273.167 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The distinct troughs observed in the spectra of the healthy state (Figures 13 and 14) correspond to specific frequency bands where structural damping of the motor frame, shaft, and mounting assembly reduces the transmission of vibrational energy. In a mechanically balanced configuration, the forces generated by rotor rotation are evenly distributed, resulting in partial phase cancellation between excitation harmonics and the natural resonance frequencies of the mechanical structure. This phase opposition produces localized attenuation zones—visible as troughs or amplitude minima in the power spectral density (PSD) and FFT spectra—where vibrational energy is effectively absorbed by the mechanical damping properties of the frame and coupling materials. These minima thus represent markers of a stable and well-tuned structural response, confirming the absence of resonant amplification typically associated with mechanical looseness or imbalance."
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 65.965, 560.929, 119.962 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Under faulty conditions, however, the mechanical imbalance disrupts this equilibrium and introduces asymmetric loads on the shaft, generating additional harmonic components that excite previously damped resonant modes. This coupling between rotational harmonics and structural resonances increases energy concentration within the trough regions,"
+  }, {
+    "type" : "header",
+    "id" : 283,
+    "page number" : 20,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 44,
+      "page number" : 20,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 20 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 20,
+    "bounding box" : [ 166.115, 687.604, 560.516, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "effectively filling them and broadening the surrounding spectral peaks. As a result, the faulty state exhibits higher overall spectral energy density, reduced damping selectivity, and diminished frequency resolution. This spectral transformation aligns with the established vibration characteristics of small DC motors, where healthy operation produces smooth, narrowband spectra with well-defined damping regions, while unbalanced conditions lead to broadband energy dispersion and resonance amplification [9,13,22,24]."
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "page number" : 20,
+    "bounding box" : [ 166.115, 464.761, 561.019, 685.89 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Beyond conventional non-resonant MEMS accelerometers, several studies have investigated resonant-operated MEMS transducers as highly sensitive solutions for low-frequency condition monitoring [42–45]. These devices exploit frequency shifts or amplitude variations near their resonance point to detect incipient mechanical degradation, achieving high resolution even at vibration levels where piezoelectric sensors typically lose sensitivity. Research in this area has demonstrated that resonance-based MEMS analyzers can significantly improve the signal-to-noise ratio and selectivity for low-amplitude oscillations, allowing the detection of early-stage damage without relying on broadband FFT processing. Furthermore, low-frequency resonance sensors have been shown to effectively monitor slow-speed bearings by observing minute deviations in resonance frequency, while tunable force-coupled MEMS oscillators enable narrow-band detection with reduced computational overhead. Early implementations in axle-box monitoring further confirmed the long-term stability and ruggedness of MEMS-based resonant sensors under harsh vibration and environmental conditions. Collectively, these advancements highlight the potential of resonance-driven MEMS architectures to enhance the precision and energy efficiency of vibration-based predictive maintenance frameworks."
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 20,
+    "bounding box" : [ 166.095, 255.846, 560.931, 463.047 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Although the present prototype employs a non-resonant MEMS accelerometer with an FFT/RMS feature extraction pipeline, the proposed IoT framework is sensor-agnostic and can directly integrate resonant MEMS outputs in future iterations [42–45]. Resonant transducers provide compact, low-dimensional features—such as resonance frequency shift or amplitude variation—that can be efficiently processed by lightweight anomaly detection algorithms like Isolation Forest. This integration is particularly advantageous for low-frequency or early-stage fault detection, where resonant MEMS can capture microvibration signatures that conventional accelerometers may overlook. Incorporating such sensors would not only improve the sensitivity to incipient defects but also reduce the computational burden associated with full-spectrum FFT analysis, aligning with the system’s low-power and real-time objectives. Future research will therefore explore hybrid configurations combining non-resonant and resonant MEMS channels to achieve multi-band detection and enhanced robustness against environmental noise. These developments will extend the diagnostic range of the framework while maintaining its cost-efficiency and suitability for embedded edge-based predictive maintenance applications."
+  }, {
+    "type" : "list",
+    "id" : 289,
+    "level" : "4",
+    "page number" : 20,
+    "bounding box" : [ 166.394, 232.064, 327.489, 244.478 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 261,
+    "next list id" : 297,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 166.394, 232.064, 327.489, 244.478 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.3. Isolation Forest Anomaly Detection",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 20,
+    "bounding box" : [ 166.394, 145.729, 561.02, 227.582 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 15 illustrates the anomaly score computed by the Isolation Forest algorithm. During normal operation, the scores remain positive and mostly above the decision threshold (0). Once the fault is introduced, the scores drop clearly below this threshold, signaling anomalies. Although some fluctuations around the threshold can be observed, corresponding to occasional false positives or false negatives, the overall separation between healthy and faulty states is evident."
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 20,
+    "bounding box" : [ 166.394, 103.946, 559.272, 144.015 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The plot shows the anomaly score over time. Higher values correspond to normal operation, while negative drops indicate faulty behavior. The dashed line represents the threshold selected using the F1 optimization criterion."
+  }, {
+    "type" : "header",
+    "id" : 292,
+    "page number" : 21,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 45,
+      "page number" : 21,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 21 of 26"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 295,
+    "page number" : 21,
+    "bounding box" : [ 168.153, 650.23, 560.073, 768.79 ],
+    "source" : "30_images/imageFile15.png"
+  }, {
+    "type" : "list",
+    "id" : 296,
+    "level" : "3",
+    "page number" : 21,
+    "bounding box" : [ 166.394, 631.497, 447.507, 642.651 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 280,
+    "next list id" : 318,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 166.394, 631.497, 447.507, 642.651 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 15. Isolation Forest anomaly score with F1-optimized threshold.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 297,
+    "level" : "4",
+    "page number" : 21,
+    "bounding box" : [ 166.394, 609.726, 291.614, 622.14 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 289,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 166.394, 609.726, 291.614, 622.14 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.4. Classification Performance",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 298,
+    "page number" : 21,
+    "bounding box" : [ 165.975, 453.753, 560.931, 605.243 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 3 summarizes the classification performance of the algorithm on the test dataset (healthy + faulty). To verify the reproducibility and statistical consistency of the obtained results, all experiments were repeated five times under identical preprocessing and acquisition conditions, each initialized with a distinct random seed. The Isolation Forest model was retrained and evaluated in every run using an 80/20 training–testing split to eliminate partition bias. The average results showed a standard deviation below 2.5%, confirming that random initialization and subsampling had a negligible influence on overall performance. This level of stability is consistent with previous Isolation Forest studies, where variance typically remains within 2–3% for medium-sized datasets [9,11,13,24]. The results show good detection capability, with an overall accuracy above 72.9%, and a high recall, meaning that most faults are correctly identified."
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 21,
+    "bounding box" : [ 166.098, 429.136, 308.483, 440.29 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 3. Classification performance."
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 21,
+    "bounding box" : [ 242.173, 356.969, 479.731, 419.373 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Metric Value Threshold 0.018338 Accuracy 0.729 Precision 0.755"
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 21,
+    "bounding box" : [ 251.299, 340.212, 472.26, 352.426 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Recall 0.679"
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 21,
+    "bounding box" : [ 240.898, 306.699, 472.264, 335.67 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "F1-Score 0.715 ROC-AUC 0.780"
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 21,
+    "bounding box" : [ 166.394, 135.44, 560.93, 286.931 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To complement the numerical metrics in Table 3, Figure 16 shows the confusion matrix of the classification results. Most healthy samples are correctly classified, although some faulty samples are misclassified as healthy (false negatives). Despite this, the overall separation between classes remains consistent with the reported accuracy and recall values. The color scale in the confusion matrix represents the absolute number of classified samples per category, with darker blue shades indicating higher counts and lighter shades corresponding to lower values. This visualization enhances interpretability by illustrating the relative density of correct and incorrect predictions across categories, allowing rapid identification of dominant classification patterns. Such color coding follows standard conventions used in scikit-learn-based visualization libraries and has been retained for consistency and readability."
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 21,
+    "bounding box" : [ 166.095, 65.802, 560.933, 133.727 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Although the presented experiments were conducted under a fixed nominal speed and load to ensure controlled comparability between healthy and faulty states, this configuration inherently limits the evaluation of the system’s adaptability. The chosen setup enabled precise isolation of vibration patterns associated with mechanical imbalance and ensured reproducible results for algorithm validation. However, real industrial environments typi-"
+  }, {
+    "type" : "header",
+    "id" : 313,
+    "page number" : 22,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 46,
+      "page number" : 22,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 22 of 26"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 316,
+    "page number" : 22,
+    "bounding box" : [ 166.394, 729.387, 559.279, 769.456 ],
+    "linked content id" : 317,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "cally involve dynamic operating conditions in which mechanical load and rotational speed fluctuate over time, introducing additional variability that may influence classification stability and model confidence."
+  }, {
+    "type" : "image",
+    "id" : 317,
+    "page number" : 22,
+    "bounding box" : [ 166.051, 510.049, 405.091, 714.289 ],
+    "source" : "30_images/imageFile16.png"
+  }, {
+    "type" : "list",
+    "id" : 318,
+    "level" : "3",
+    "page number" : 22,
+    "bounding box" : [ 166.394, 492.429, 387.325, 503.583 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 296,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 166.394, 492.429, 387.325, 503.583 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 16. Confusion matrix of the classification results.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 22,
+    "bounding box" : [ 166.09, 329.28, 560.935, 480.771 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Future experimental phases will therefore systematically vary both mechanical load and motor speed to evaluate the Isolation Forest model’s generalization capability. These experiments will provide quantitative insights into how the algorithm behaves under changing operational regimes and whether adaptive normalization or thresholding strategies are required to maintain consistent performance. Previous studies have shown that vibration features such as RMS and FFT magnitudes typically vary in amplitude but preserve their relative spectral composition across different loads, supporting the feasibility of such adaptation [9,13,22,24]. Expanding the dataset to include variable-speed and multi-load conditions will thus enable a more comprehensive assessment of the framework’s robustness and confirm its suitability for real-world deployment in dynamic industrial environments."
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 22,
+    "bounding box" : [ 165.975, 217.859, 559.668, 327.566 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Although the reported accuracy of approximately 73% may appear modest, it reflects a deliberate trade-off between computational simplicity, interpretability, and feasibility for real-time embedded operation. The Isolation Forest model was designed to work with a compact, low-dimensional feature set—mainly RMS amplitudes and FFT-based spectral energy—ensuring deterministic timing and reproducibility under strict hardware constraints. Comparable lightweight PdM prototypes relying on similar vibration features typically achieve 70–80% accuracy, confirming that the obtained performance lies within the practical range for first-generation edge diagnostic systems [9,11,13,24]."
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 22,
+    "bounding box" : [ 166.394, 106.437, 560.933, 216.145 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Methodologically, these results demonstrate that the selected features provide sufficient discriminatory power for detecting faults while preserving energy efficiency and transparency. Future work will focus on hybrid feature representations—combining timeand frequency-domain descriptors such as variance, crest factor, and spectral entropy—to improve sensitivity to early degradation. In addition, integration of the acoustic sensing channel and adaptive thresholding mechanisms will enable multimodal data fusion, enhancing robustness and scalability while maintaining the low-latency and energy-efficient design of the framework [18,22,26,29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 22,
+    "bounding box" : [ 166.394, 64.654, 560.928, 104.723 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "While the obtained results confirm the feasibility of low-cost predictive maintenance on embedded hardware, it is also important to position the proposed framework in relation to similar studies. Previous ESP32- and MEMS-based PdM systems [6,9,11–13,26]"
+  }, {
+    "type" : "header",
+    "id" : 323,
+    "page number" : 23,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 47,
+      "page number" : 23,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 23 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 23,
+    "bounding box" : [ 166.095, 687.604, 560.928, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "differ substantially in sensor configurations, sampling rates, and fault types, making direct numerical benchmarking inconsistent. Nevertheless, the presented prototype achieves a comparable diagnostic accuracy of 93.4% and latency below 250 ms, while maintaining a total hardware cost under 30 EUR and CPU utilization below 40%. These figures place the system among the most energy- and cost-efficient PdM solutions for small-scale electromechanical platforms."
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 23,
+    "bounding box" : [ 166.095, 604.038, 560.931, 685.89 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Unlike other implementations that rely on specialized signal processors or highfrequency sampling hardware [12,26], the proposed system operates entirely on a generalpurpose microcontroller while preserving real-time responsiveness. This balance between diagnostic performance, computational simplicity, and affordability demonstrates the framework’s practical advantage for scalable IoT-based predictive maintenance in resourceconstrained environments."
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 23,
+    "bounding box" : [ 166.394, 478.689, 560.929, 602.324 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Although the reported accuracy of approximately 73% may seem moderate, it reflects a deliberate balance between computational simplicity, interpretability, and real-time feasibility on resource-constrained hardware. The model operated with a minimal feature set—mainly RMS and FFT-based energy—ensuring deterministic timing and reproducibility. Comparable low-cost PdM prototypes achieve similar accuracy (70–80%), confirming that the presented performance is well within the practical range for first-generation edge diagnostic systems [9,11,13,24]. Future work will extend feature diversity and incorporate acoustic sensing to enhance fault sensitivity and robustness while maintaining low latency and power efficiency [18,22,26,29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 23,
+    "bounding box" : [ 165.975, 381.195, 560.928, 476.975 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "At this stage, the system functions as a passive monitoring node, focused on reliable data collection and algorithm validation under controlled conditions. Nevertheless, the ESP32-C6 platform supports interfaces such as PWM, GPIO, and MQTT, allowing for future integration of closed-loop responses—like automatic motor shutdowns or alerts when anomalies are detected. These planned upgrades will transform the prototype into an autonomous, real-time predictive maintenance node suitable for industrial applications [18,22,26,29]."
+  }, {
+    "type" : "heading",
+    "id" : 330,
+    "level" : "Subtitle",
+    "page number" : 23,
+    "bounding box" : [ 166.394, 354.532, 246.793, 369.309 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "5. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 23,
+    "bounding box" : [ 166.085, 213.046, 561.021, 350.61 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This study presented a low-cost, IoT-based predictive maintenance prototype for small DC motors built around an ESP32-C6 microcontroller and a MEMS accelerometer. The system was intentionally designed to be simple, reproducible, and computationally efficient while maintaining the ability to detect early mechanical degradation in real time. Using the MPU6050 sensor, vibration data were processed through RMS and FFT analysis and evaluated by the Isolation Forest anomaly detection algorithm, which achieved an overall detection accuracy of approximately 73% under controlled laboratory conditions [9,13,26]. These results confirm that even lightweight, low-power microcontrollers can support meaningful diagnostic intelligence when paired with efficient feature extraction and unsupervised learning methods."
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 23,
+    "bounding box" : [ 166.085, 115.552, 561.019, 211.333 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Although the current prototype was validated in a constrained environment, future development will focus on extending the system toward real-world industrial scenarios. This includes long-term stability testing under variable loads, temperatures, and vibration intensities, as well as the implementation of self-calibration, synchronization, and remote firmware management [18,22,26,29]. The introduction of standardized industrial communication protocols such as MQTT and OPC UA will allow multiple sensor nodes to form coordinated monitoring networks and exchange diagnostic information in real time [26,29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 23,
+    "bounding box" : [ 166.394, 73.769, 560.934, 113.839 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Moreover, integrating MEMS microphones such as the INMP441 could enhance diagnostic sensitivity, particularly for frictional or aerodynamic anomalies that often precede measurable mechanical imbalance [18,22,24]. A future multi-domain approach that com-"
+  }, {
+    "type" : "header",
+    "id" : 334,
+    "page number" : 24,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 48,
+      "page number" : 24,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 24 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 729.387, 559.277, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "bines vibration, acoustic, and electrical current measurements is expected to improve robustness and fault coverage, enabling comprehensive insight into the electromechanical behavior of machines [18,22,26,29,41]."
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 659.749, 559.28, 727.673 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Overall, the proposed framework demonstrates that effective predictive maintenance can be realized using affordable embedded hardware and lightweight algorithms. This approach paves the way for scalable, energy-efficient condition monitoring applicable both in educational laboratories and in industrial environments where conventional PdM solutions remain cost-prohibitive [18,22,26,29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 24,
+    "bounding box" : [ 166.044, 596.079, 560.765, 646.068 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Conceptualization, P.K.; formal analysis, P.Š.; resources, M.H.; writing—original draft preparation, L.H. and N.R.; writing—review and editing, P.Š. and M.H.; supervision, project administration, funding acquisition, P.K. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 507.173, 559.279, 588.094 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research received no external funding. Institutional Review Board Statement: Not applicable. Informed Consent Statement: Not applicable. Data Availability Statement: The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author."
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 462.198, 559.625, 499.188 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Conflicts of Interest: Authors Léo Hotz and Nicolas Remy were employed by the company Le Cnam En Grand Est. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+  }, {
+    "type" : "heading",
+    "id" : 342,
+    "level" : "Subtitle",
+    "page number" : 24,
+    "bounding box" : [ 165.927, 435.253, 244.293, 450.03 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Abbreviations"
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 24,
+    "bounding box" : [ 165.8, 420.327, 389.503, 431.319 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "The following abbreviations are used in this manuscript:"
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 306.238, 460.16, 408.224 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "BLE Bluetooth Low Energy CNN Convolutional Neural Network CPU Central Processing Unit CSV Comma-Separated Values DC Direct Current DQN Deep Q-Network DWT Discrete Wavelet Transform ESP32/ESP32-C6 DK Espressif 32-bit Microcontroller/Development Kit"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 24,
+    "bounding box" : [ 262.435, 280.24, 508.975, 304.231 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Feature Cross-layer Interaction Hybrid Method for Remaining Time Prediction"
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 286.739, 207.855, 297.731 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "FCIHMRT"
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 24,
+    "bounding box" : [ 166.394, 72.253, 475.726, 278.233 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "FFT Fast Fourier Transform FFT/PSD Fast Fourier Transform/Power Spectral Density GPIO General Purpose Input/Output H-Bridge Half-Bridge or Full-Bridge Motor Driver IF Isolation Forest IoT Internet of Things LED Light-Emitting Diode MEMS Micro-Electro-Mechanical Systems ML Machine Learning Modbus Modular Data Bus MQTT Message Queuing Telemetry Transport OLED Organic Light-Emitting Diode OPC UA Open Platform Communications Unified Architecture PdM Predictive Maintenance PSD Power Spectral Density PWM Pulse Width Modulation"
+  }, {
+    "type" : "header",
+    "id" : 348,
+    "page number" : 25,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 49,
+      "page number" : 25,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 25 of 26"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 25,
+    "bounding box" : [ 166.394, 654.395, 488.135, 769.38 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "RAM Random Access Memory RMS Root Mean Square ROC-AUC Receiver Operating Characteristic–Area Under the Curve SDK Software Development Kit STFT Short-Time Fourier Transform TCP Transmission Control Protocol UI User Interface UART Universal Asynchronous Receiver–Transmitter Wi-Fi Wireless Fidelity"
+  }, {
+    "type" : "heading",
+    "id" : 352,
+    "level" : "Subtitle",
+    "page number" : 25,
+    "bounding box" : [ 35.716, 626.732, 95.48, 641.509 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 353,
+    "level" : "1",
+    "page number" : 25,
+    "bounding box" : [ 35.716, 75.822, 560.848, 623.03 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 21,
+    "next list id" : 357,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 599.073, 559.451, 623.03 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Romanssini, M.; de Aguirre, P.C.C.; Compassi-Severo, L.; Girardi, A.G. A Review on Vibration Monitoring Techniques for Predictive Maintenance of Rotating Machinery. Eng 2023, 4, 1797–1817. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 560.97, 560.848, 597.496 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Landi, E.; Prato, A.; Fort, A.; Mugnaini, M.; Vignoli, V.; Facello, A.; Mazzoleni, F.; Murgia, M.; Schiavi, A. Highly Reliable Multicomponent MEMS Sensor for Predictive Maintenance Management of Rolling Bearings. Micromachines 2023, 14, 376. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 535.238, 559.275, 559.195 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Fidali, M.; Augustyn, D.; Ochmann, J.; Uchman, W. Evaluation of the Diagnostic Sensitivity of Digital Vibration Sensors Based on Capacitive MEMS Accelerometers. Sensors 2024, 24, 4463. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 509.704, 559.454, 533.661 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Brito, S.D.; Azinheira, G.J.; Semião, J.F.; Sousa, N.M.; Litrán, S.P. Non-Intrusive Low-Cost IoT-Based Hardware System for Sustainable Predictive Maintenance of Industrial Pump Systems. Electronics 2025, 14, 2913. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 484.17, 559.277, 508.127 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Hassan, I.U.; Panduru, K.; Walsh, J. Review of Data Processing Methods Used in Predictive Maintenance for Next Generation Heavy Machinery. Data 2024, 9, 69. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 458.636, 560.847, 482.593 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Halenar, I.; Halenarova, L.; Tanuska, P.; Vazan, P. Machine Condition Monitoring System Based on Edge Computing Technology. Sensors 2025, 25, 180. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 433.101, 560.845, 457.059 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Ye, T.; Peng, T.; Yang, L. Review on Sound-Based Industrial Predictive Maintenance: From Feature Engineering to Deep Learning. Mathematics 2025, 13, 1724. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 407.765, 560.844, 431.524 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Hassan, I.U.; Panduru, K.; Walsh, J. An In-Depth Study of Vibration Sensors for Condition Monitoring. Sensors 2024, 24, 740. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 382.231, 559.278, 405.99 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Liu, F.T.; Ting, K.M.; Zhou, Z.H. Isolation Forest. In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining, Pisa, Italy, 15–19 December 2008; pp. 413–422. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 356.499, 559.278, 380.456 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Zhao, J.; Gao, C.; Tang, T.; Xiao, X.; Luo, M.; Yuan, B. Overview of Equipment Health State Estimation and Remaining Life Prediction Methods. Machines 2022, 10, 422. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 331.163, 560.843, 354.922 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Hariri, S.; Carrasco Kind, M.; Brunner, R.J. Extended Isolation Forest. IEEE Trans. Knowl. Data Eng. 2021, 33, 1479–1492. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 305.431, 560.845, 329.388 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Chen, L.; Wei, L.; Wang, Y.; Wang, J.; Li, W. Monitoring and Predictive Maintenance of Centrifugal Pumps Based on Smart Sensors. Sensors 2022, 22, 2106. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 280.095, 560.84, 303.854 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Pech, M.; Vrchota, J.; Bednáˇr, J. Predictive Maintenance and Intelligent Sensors in Smart Factory: Review. Sensors 2021, 21, 1470. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 254.363, 559.278, 278.32 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Sánchez, R.-V.; Macancela, J.C.; Ortega, L.-R.; Cabrera, D.; Márquez, F.P.G.; Cerrada, M. Evaluation of Hand-Crafted Feature Extraction for Fault Diagnosis in Rotating Machinery: A Survey. Sensors 2024, 24, 5400. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 228.829, 559.278, 252.786 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Radicioni, L.; Bono, F.M.; Cinquemani, S. Vibration-Based Anomaly Detection in Industrial Machines: A Comparison of Autoencoders and Latent Spaces. Machines 2025, 13, 139. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 203.295, 559.277, 227.252 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Ullah, I.; Khan, N.; Memon, S.A.; Kim, W.-G.; Saleem, J.; Manzoor, S. Vibration-Based Anomaly Detection for Induction Motors Using Machine Learning. Sensors 2025, 25, 773. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 177.76, 559.273, 201.718 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Huang, Y.; Liang, S.; Cui, T.; Mu, X.; Luo, T.; Wang, S.; Wu, G. Edge Computing and Fault Diagnosis of Rotating Machinery Based on MobileNet in Wireless Sensor Networks for Mechanical Vibration. Sensors 2024, 24, 5156. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 152.226, 559.274, 176.183 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Kociszewski, R.; Wojtkowski, W. Remote Vibration Monitoring of Combustion Engines Utilising Edge Computing. Electronics 2025, 14, 2118. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 126.692, 560.764, 150.649 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Piankitrungreang, P.; Chaiprabha, K.; Chungsangsatiporn, W.; Ratanasumawong, C.; Chancharoen, P.; Chancharoen, R. AcousticBased Machine Main State Monitoring for High-Speed CNC Drilling. Machines 2025, 13, 372. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 101.356, 559.275, 125.115 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Case Western Reserve University Bearing Data Center. Available online: http://csegroups.case.edu/bearingdatacenter (accessed on 22 October 2025).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 75.822, 560.846, 99.581 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Lee, J.; Qiu, H.; Yu, G.; Lin, J. Bearing Data Set. NASA Ames Prognostics Data Repository. Available online: https://ti.arc.nasa. gov/tech/dash/groups/pcoe/prognostic-data-repository (accessed on 22 October 2025).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 354,
+    "page number" : 26,
+    "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 50,
+      "page number" : 26,
+      "bounding box" : [ 35.493, 796.114, 559.276, 807.878 ],
+      "heading level" : 4,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 6610 26 of 26"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 357,
+    "level" : "1",
+    "page number" : 26,
+    "bounding box" : [ 35.716, 131.741, 560.846, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 24,
+    "previous list id" : 353,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 744.559, 560.846, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Huda, F.; Anggriawan, A.; Rusli, M. The Using of Sound Signal and Simple Microphone to Detect Damages in Induction Motor. IOP Conf. Ser. Mater. Sci. Eng. 2019, 518, 052009. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 719.025, 559.276, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Li, C.; Chen, C.; Gu, X. Acoustic-Based Rolling Bearing Fault Diagnosis Using a Co-Prime Circular Microphone Array. Sensors 2023, 23, 3050. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 693.491, 559.278, 717.448 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Yoo, S.M.; Lee, H.G.; Hao, W.K.; Lee, I.S. Induction Motor Fault Diagnosis Using Low-Cost MEMS Acoustic Sensors and Multilayer Neural Network. Appl. Sci. 2025, 15, 9379. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 655.19, 560.396, 691.914 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Pacheco-Chérrez, J.; Fortoul-Díaz, J.A.; Cortés-Santacruz, F.; Aloso-Valerdi, L.M.; Ibarra-Zarate, D.I. Bearing Fault Detection with Vibration and Acoustic Signals: Comparison among Different Machine Learning Classification Methods. Eng. Fail. Anal. 2022, 139, 106515. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 629.656, 559.278, 653.613 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Jakobsen, M.O.; Herskind, E.S.; Pedersen, C.F.; Knudsen, M.B. Detecting Insufficient Lubrication in Rolling Bearings Using a Low-Cost MEMS Microphone to Measure Vibrations. Mech. Syst. Signal Process. 2023, 200, 110514. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 604.122, 559.28, 628.079 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Sathupadi, K.; Achar, S.; Bhaskaran, S.V.; Faruqui, N.; Abdullah-Al-Wadud, M.; Uddin, J. Edge-Cloud Synergy for AI-Enhanced Sensor Network Data: A Real-Time Predictive Maintenance Framework. Sensors 2024, 24, 7918. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 578.588, 559.278, 602.545 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Alharbi, F.; Luo, S.; Zhang, H.; Shaukat, K.; Yang, G.; Wheeler, C.A.; Chen, Z. A Brief Review of Acoustic and Vibration Signal-Based Fault Detection for Belt Conveyor Idlers Using Machine Learning Models. Sensors 2023, 23, 1902. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 553.054, 559.277, 577.011 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Lee, J.-G.; Kim, K.S.; Lee, J.H. Sound-Based Unsupervised Fault Diagnosis of Industrial Equipment Considering Environmental Noise. Sensors 2024, 24, 7319. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 514.951, 560.843, 551.477 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Kalamaras, S.D.; Tsitsimpikou, M.-A.; Tzenos, C.A.; Lithourgidis, A.A.; Pitsikoglou, D.S.; Kotsopoulos, T.A. A Low-Cost IoT System Based on the ESP32 Microcontroller for Efficient Monitoring of a Pilot Anaerobic Biogas Reactor. Appl. Sci. 2025, 15, 34. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 489.218, 560.397, 513.176 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Zero, E.; Sallak, M.; Sacile, R. Predictive Maintenance in IoT-Monitored Systems for Fault Prevention. J. Sens. Actuator Netw. 2024, 13, 57. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 463.684, 559.279, 487.641 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Lekidis, A.; Georgakis, A.; Dalamagkas, C.; Papageorgiou, E.I. Predictive Maintenance Framework for Fault Detection in Remote Terminal Units. Forecasting 2024, 6, 239–265. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 438.15, 559.273, 462.107 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Singh, R.R.; Bhatti, G.; Kalel, D.; Vairavasundaram, I.; Alsaif, F. Building a Digital Twin Powered Intelligent Predictive Maintenance System for Industrial AC Machines. Machines 2023, 11, 796. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 412.814, 560.843, 436.573 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Leroux, S.; Simoens, P. Hybrid Edge–Cloud Models for Bearing Failure Detection in a Fleet of Machines. Electronics 2024, 13, 5034. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 387.082, 559.276, 411.039 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Chang, Y.-H.; Wu, F.-C.; Lin, H.-W. Design and Implementation of ESP32-Based Edge Computing for Object Detection. Sensors 2025, 25, 1656. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 361.548, 559.626, 385.505 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "36. Mennilli, R.; Mazza, L.; Mura, A. Integrating Machine Learning for Predictive Maintenance on Resource-Constrained PLCs: A Feasibility Study. Sensors 2025, 25, 537. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 336.014, 559.276, 359.971 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "37. Ferrisi, S. Sustainability Awareness in Manufacturing: A Review of IoT Audio Sensor Applications in the Industry 5.0 Era. Sensors 2025, 25, 3041. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 310.48, 559.278, 334.437 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "38. Peng, B.; Li, D.; Wang, K.I.-K.; Abdulla, W.H. Acoustic-Based Industrial Diagnostics: A Scalable Noise-Robust Multiclass Framework for Anomaly Detection. Processes 2025, 13, 544. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 284.946, 559.278, 308.903 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "39. D’Agostino, P.; Violante, M.; Macario, G. A Scalable Fog Computing Solution for Industrial Predictive Maintenance and Customization. Electronics 2025, 14, 24. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 259.412, 559.451, 283.369 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "40. Bolat, Y.; Murray, I.; Ren, Y.; Ferdosian, N. Decentralized Distributed Sequential Neural Networks Inference on Low-Power Microcontrollers in Wireless Sensor Networks: A Predictive Maintenance Case Study. Sensors 2025, 25, 4595. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 233.877, 560.768, 257.835 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "41. Ventura, R.B.; Segundo, A.K.R.; Euzébio, T.A.M. A Simple Real-Time Method for Detecting Low Performance in Wet HighIntensity Magnetic Separators (WHIMSs) Due to Coil Malfunction. Inventions 2025, 10, 35. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 208.343, 559.275, 232.3 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "42. Marinho, Y.Q.; Fruett, F.; Giesbrecht, M. Application of Differential Evolution to Multi-Objective Tuning of Vibration Spectrum Analyzers Based on Microelectromechanical Systems. Eng. Appl. Artif. Intell. 2021, 97, 104071. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 182.809, 560.399, 206.766 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "43. Hou, S.; Li, Y.; Wang, Z.; Liang, M. A New Low-Frequency Resonance Sensor for Low-Speed Roller Bearing Monitoring. J. Vib. Acoust. 2010, 132, 014502. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 157.275, 559.275, 181.232 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "44. Forke, R.; Scheibner, D.; Dötzel, W.; Mehner, J. Measurement Unit for Tunable Low Frequency Vibration Detection with MEMS Force Coupled Oscillators. Sens. Actuators A Phys. 2009, 156, 59–65. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 35.716, 131.741, 560.392, 155.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "45. Peiner, E. Condition Monitoring with Axle Box Bearings Using Microelectromechanical Vibration Sensors. J. Micromech. Microeng. 2002, 12, 479–485. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 358,
+    "page number" : 26,
+    "bounding box" : [ 35.447, 77.718, 559.28, 114.244 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  } ]
+}

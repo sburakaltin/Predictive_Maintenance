@@ -1,0 +1,1704 @@
+{
+  "file name" : "8.pdf",
+  "number of pages" : 12,
+  "author" : "Imran Ahmed, Misbah Ahmad, Abdellah Chehri and Gwanggil Jeon",
+  "title" : "A Smart-Anomaly-Detection System for Industrial Machines Based on Feature Autoencoder and Deep Learning ",
+  "creation date" : "D:20230117131131+02'00'",
+  "modification date" : "D:20230117121838+01'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.37, 558.498, 785.846 ],
+    "source" : "8_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.37, 558.498, 785.846 ],
+    "source" : "8_images/imageFile2.png"
+  }, {
+    "type" : "image",
+    "id" : 53,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.37, 558.498, 785.846 ],
+    "source" : "8_images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 54,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 758.37, 558.498, 785.846 ],
+    "source" : "8_images/imageFile4.png"
+  }, {
+    "type" : "heading",
+    "id" : 49,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 73.79, 770.95, 163.661, 780.756 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 14.19,
+    "text color" : "[1.0, 0.921875, 0.224854, 0.0]",
+    "content" : "micromachines"
+  }, {
+    "type" : "paragraph",
+    "id" : 56,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 725.66, 63.213, 738.074 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 57,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 35.017, 685.642, 532.58, 726.637 ],
+    "heading level" : 1,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "A Smart-Anomaly-Detection System for Industrial Machines Based on Feature Autoencoder and Deep Learning"
+  }, {
+    "type" : "heading",
+    "id" : 58,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 661.429, 396.018, 675.123 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Imran Ahmed 1, Misbah Ahmad 2,3, Abdellah Chehri 4 and Gwanggil Jeon 5,*"
+  }, {
+    "type" : "list",
+    "id" : 61,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 565.19, 552.732, 640.534 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 629.748, 527.021, 640.534 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 School of Computing and Information Science, Anglia Ruskin University, Cambridge CB1 1PT, UK",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 618.988, 488.836, 629.774 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Department of Animal and Agriculture, Hartpury University, Gloucester GL19 3BE, UK",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 608.228, 507.486, 619.015 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3 Faculty of Health and Applied Sciences, University of West of England, Bristol BS16 1QY, UK",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 586.709, 537.422, 608.255 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "4 Department of Mathematics and Computer Science, Royal Military College of Canada, Station Forces, Kingston, ON K7K 7B4, Canada",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 565.19, 552.732, 586.736 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "5 Department of Embedded Systems Engineering, Incheon National University, 19 Academy-ro, Yeonsu-gu, Incheon 22012, Republic of Korea",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 62,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 554.287, 298.132, 564.202 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: gjeon@inu.ac.kr"
+  }, {
+    "type" : "paragraph",
+    "id" : 43,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 270.532, 151.934, 362.559 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Citation: Ahmed, I.; Ahmad, M.; Chehri, A.; Jeon, G. A Smart-Anomaly-Detection System for Industrial Machines Based on Feature Autoencoder and Deep Learning. Micromachines 2023, 14, 154. https://doi.org/10.3390/ mi14010154"
+  }, {
+    "type" : "paragraph",
+    "id" : 44,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 252.629, 133.635, 261.179 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editor: Arman Roohi"
+  }, {
+    "type" : "caption",
+    "id" : 45,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 197.954, 125.029, 242.28 ],
+    "linked content id" : 46,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 30 November 2022 Revised: 2 January 2023 Accepted: 4 January 2023 Published: 7 January 2023"
+  }, {
+    "type" : "image",
+    "id" : 46,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 165.167, 92.409, 185.009 ],
+    "source" : "8_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 47,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 67.79, 153.204, 159.818 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Copyright: © 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/)."
+  }, {
+    "type" : "paragraph",
+    "id" : 63,
+    "page number" : 1,
+    "bounding box" : [ 166.017, 308.166, 560.846, 539.671 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Abstract: Machine-health-surveillance systems are gaining popularity in industrial manufacturing systems due to the widespread availability of low-cost devices, sensors, and internet connectivity. In this regard, artiﬁcial intelligence provides valuable assistance in the form of deep learning methods to analyze and process big machine data. In diverse industrial applications, gears are considered a condemning element; many contributing failures occur due to an unexpected breakdown of the gears. In recent research, anomaly-detection and fault-diagnosis systems have been the gears’ most contributing content. Thus, in work, we presented a smart deep learning-based system to detect anomalies in an industrial machine. Our system used vibrational analysis methods as a deciding tool for different machinery-maintenance decisions. We will ﬁrst perform a data analysis of the gearbox data set to analyze the data’s insights. By calculating and examining the machine’s vibration, we aim to determine the nature and severity of the defect in the machine and hence detect the anomaly. A gearbox’s vibration signal holds the fault’s signature in the gears, and earlier fault detection of the gearbox is achievable by examining the vibration signal using a deep learning technique. Therefore, we aim to propose a 6-layer autoencoder-based deep learning framework for anomaly detection and fault analysis using a publically available data set of wind-turbine components. The gearbox faultdiagnosis data set is utilized for experimentation, including collecting vibration attributes recorded using SpectraQuest’s gearbox fault-diagnostics simulator. Through comprehensive experiments, we have seen that the framework gains good results compared to others, with an overall accuracy of 91%."
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 270.106, 510.021, 281.26 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Keywords: artiﬁcial intelligence; deep learning; industrial machine; anomaly detection"
+  }, {
+    "type" : "heading",
+    "id" : 66,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 219.706, 234.508, 232.02 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 67,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 116.473, 560.933, 216.558 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Advancements in modern technology aim to enhance today’s industrial applications signiﬁcantly; machine systems are now evolving to become more complex and complete critical tasks. Thus, it is necessary to monitor these systems’ conditions in order to improve their reliability. Any rotating machine, including pumps, compressors, steam turbines, and wind turbines, will ultimately reach a threshold of poor health conditions. One useful approach for improving their cost-effective maintenance and reliability is to use conditionmonitoring and health-surveillance systems. These systems will aim to detect unexpected failures, faults, and anomalies in the machines [1,2]."
+  }, {
+    "type" : "paragraph",
+    "id" : 68,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 66.262, 559.277, 116.134 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Monitoring and prognostics systems developed on data-driven approaches need a sufﬁcient amount of data, which is collected using a network of various kinds of sensors that monitor systems performance [3]. The data set collected from different machines through various sensors and devices normally has high dimensionality and sometimes"
+  }, {
+    "type" : "paragraph",
+    "id" : 70,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 18.829, 559.272, 28.776 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Micromachines 2023, 14, 154. https://doi.org/10.3390/mi14010154 https://www.mdpi.com/journal/micromachines"
+  }, {
+    "type" : "header",
+    "id" : 71,
+    "page number" : 2,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 12,
+      "page number" : 2,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 2 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 74,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 684.037, 559.275, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "also possesses undesirable interference and noise. The high-dimensional data set has an immediate effect on the training time and on the performance precision of deep learning methods. In order to deal with such problems, researchers mainly focus on reducing the input data or signal dimensionality by collecting useful features that hold the health condition information of machines."
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 533.401, 560.933, 683.698 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Various techniques have been developed to achieve this goal. Some researchers used machine learning and handcrafted feature-based methods [4,5] such as obtaining temporal features by calculating the root mean square or peak-to-peak distance approach [6]. However, the primary features of a good-condition monitoring system and anomaly detection enable one to accumulate valuable characteristics and use these characteristics to determine the deteriorating state of machines by investigating the variation from the healthy (normal) behavior . In addition, handcrafted feature engineering-based techniques need domain details and knowledge, along with “trial and error” approaches. Nevertheless, the advent of artiﬁcial intelligence [7] and the recent improvement of deep learning methods [8] have transformed the feature-extraction and dimensionality-reduction methods. It is anticipated that hidden units obtain features that will deﬁne the data by piling up the layer to assemble deep autoencoders and decrease the number of units in the hidden layers."
+  }, {
+    "type" : "paragraph",
+    "id" : 76,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 320.001, 559.479, 533.062 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Inspired by the successful results of artiﬁcial intelligence-based methods, we presented an intelligent framework for detecting anomalies in an industrial data set in this work. We also utilized the data-analysis method to investigate insights into the data set [9] because the most valuable features are known instantly from the data; hence, we avoided using trial and error methods . We presented an autoencoder-based model focusing on the data set’s most salient features and enhancing the system’s results. Furthermore, the autoencoder model mainly learns to match standard data points and does not contain anomalies in the trained model. The proposed framework demonstrates its relevance in machine-condition monitoring and anomaly-detection systems by considering it in relation to a real-world gearbox fault diagnosis data set (https://data.openei.org/submissions/623, accessed on 20 November 2022). The beneﬁts of the autoencoder model comprise the capability to operate without preprocessing, feature selection, or manual-feature engineering. It does not restrict itself to the preidentiﬁed anomalies. It has the potential to identify new anomalies. We also demonstrate the time and feature-domain features used to teach the model to improve a detection model’s performance . First, the vibration signals are preprocessed, and later the training extracts features and rebuilds the signal for absolute-anomaly detection . In summary, the main contribution of the work is presented as follows:"
+  }, {
+    "type" : "list",
+    "id" : 77,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 166.394, 227.149, 560.979, 314.681 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 166.394, 289.914, 559.272, 314.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• To present a combined framework for anomaly detection and condition monitoring using an industrial data set.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 166.394, 264.808, 559.272, 289.575 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• To perform time and frequency analysis in order to gain insight of the data set through data visualization.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 166.394, 239.702, 559.276, 264.469 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• To develop a window-feature-based autoencoder model for anomaly detection and condition monitoring.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 166.394, 227.149, 560.979, 239.363 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• To perform a comparative analysis of the developed model with state-of-the-art methods.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "page number" : 2,
+    "bounding box" : [ 166.095, 134.297, 560.929, 221.829 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The work presented in the paper is arranged as follows: an overview of different methods used for anomaly detection is presented in Section 2. Then, section 3 discusses the details of the developed anomaly-detection framework. The data set used to evaluate the framework is also presented in this section. We also discuss the time- and frequencybased data analysis in Section 3. Furthermore, experimental results, along with evaluation parameters, are also addressed in Section 4. Lastly, the presented work with some future guidelines is concluded and summarized in Section 5."
+  }, {
+    "type" : "heading",
+    "id" : 79,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 166.394, 111.701, 258.578, 124.015 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "2. Literature Review"
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 58.68, 560.928, 108.553 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Researchers studied machine learning and deep learning methods for anomalydetection and machine-condition monitoring systems. For example, the authors of [10] presented a time-series-based anomaly-detection system for rotatory machine fault/anomaly detection. In data analysis, features and their generations are meaningful ideas in order"
+  }, {
+    "type" : "header",
+    "id" : 81,
+    "page number" : 3,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 13,
+      "page number" : 3,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 3 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 84,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 696.59, 559.279, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "to perform anomaly detection. Moreover, the selected features are vital for calculating dissimilarities in data, therefore identifying anomalies. Conventionally, feature extraction from the time and frequency domain has been utilized for monitoring or computing the anomalies of the machine [11]."
+  }, {
+    "type" : "paragraph",
+    "id" : 85,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 583.613, 561.021, 696.251 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Numerous feature-extracted methods are handled using conditions that are sensitive to irregularities. Investigators have attempted to improve the implementation of machineand anomaly-detection techniques [12,13] by executing multivariate examinations while utilizing different features jointly. Xia et al. [14] calculated 29 bearing features by utilizing signal-processing methods [15]. Others have tried to perform this by creating components for detailed failure patterns and completing multivariate investigations based on them. For example, the authors of [16] made ﬁve attributes, each liable to a distinct failure method. Nevertheless, such handcrafted extracted features are not generalizable and fail to deliver good machine health data, speciﬁcally in unfamiliar circumstances."
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 3,
+    "bounding box" : [ 166.095, 458.084, 559.28, 583.274 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Ali et al. [17] attempted to classify different bearing classes utilizing a collection of time-frequency domain components and artiﬁcial neural networks (ANN). [18] substituted the traditional feature extraction step by using 1-D convolutional neural networks. The method is performed using raw motor signals. The assessment conducted on bearing fault identiﬁcation showed their approach’s superiority over conventional feature extraction techniques. [19] used an autoencoder for feature extraction and utilized this information for training a supervised detection model for fault classiﬁcation. [20] explored various one-class classiﬁers, including k-means and nearest neighbors, to classify faulty rotor bars present in an induction motor. They ﬁgured the k-nearest neighbor approach displayed good results among other tested techniques."
+  }, {
+    "type" : "paragraph",
+    "id" : 87,
+    "page number" : 3,
+    "bounding box" : [ 166.005, 320.001, 561.016, 457.745 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Deep learning architectures, speciﬁcal autoencoders, are successfully used to classify anomalies and faults into distinct classes [21]. A probabilistic method for classifying anomalies in the natural gas consumption industry is presented in [22]. Nevertheless, the prediction approach indicates the consumption ranks utilizing different independent attributes and does not include the temporal information. Liu et al. [23] offered a faultdiagnosis system based on STFT and deep learning using Rolling bearing sound signals. Autoencoders have also obtained a valuable pattern from multiple sensor data [24]. Jiang et al. [25] presented frequency-domain-feature-based methods employing auto-encoders and traditional classiﬁcation algorithms such as support vector machines and random forest to complete the classiﬁcation job. Wang et al. [26] presented a deep-learning-based system for fault-relevant feature extraction and fault classiﬁcation."
+  }, {
+    "type" : "paragraph",
+    "id" : 88,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 244.683, 560.518, 319.662 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Mao et al. [27] proposed a novel autoencoder for fault recognition. Hoang et al. [28] suggested a a convolutional neural network for fault detection using a vibration image of a rolling bearing. However, the authors mainly focused on overcoming overﬁtting due to training data because of the limited available dataset. The authors of [29] presented an improved feature-based method with local binary patterns for bearing-fault diagnosis, which requires more training."
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 131.707, 561.02, 244.344 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Researchers in [30,31], presented a review of various deep learning methods [32,33] used for the diagnosis of faults and anomalies in different machinery systems. In the literature, various feature and deep learning-based methods are developed by researchers. However, as discussed above, methods encounter one or several limitations: the need for accurately labelled data sets, labour-intensive manual-feature extraction, or a failure to integrate temporal information. In contrast, the presented artiﬁcial-based anomalydetection framework ﬁrst utilized data analysis to give insight into the data set. Finally, the autoencoder-based deep learning model trained over the vibration signals autonomously monitors the health condition of machines and identiﬁes anomaly detection ."
+  }, {
+    "type" : "heading",
+    "id" : 90,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 109.111, 282.648, 121.425 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "3. Materials and Methods"
+  }, {
+    "type" : "paragraph",
+    "id" : 91,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 68.643, 559.275, 105.963 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This work introduced an automated artiﬁcial-based framework using deep learning to detect anomalies in industrial machine data. In the presented work, we ﬁrst perform simple data analysis in order to gain insight into the data set. Next, we perform a time- and"
+  }, {
+    "type" : "header",
+    "id" : 92,
+    "page number" : 4,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 14,
+      "page number" : 4,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 4 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 95,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 709.143, 561.019, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "frequency-domain analysis of the vibrational data set and then propose a deep-learningbased autoencoder model for detection purposes. In the following subsections, the details of the data set, data analysis, and developed deep autoencoder model are provided in detail."
+  }, {
+    "type" : "list",
+    "id" : 96,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 296.634, 343.21, 698.921 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 686.507, 301.646, 698.921 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.1. Gearbox Vibrational Data set",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 39,
+        "page number" : 4,
+        "bounding box" : [ 166.394, 533.103, 561.014, 683.399 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The vibration signal data set utilized in this study is gathered from the (https://data. openei.org/submissions/623, accessed on 20 November 2022). It has been recorded with the help of four vibration sensors a1, a2, a3, a4 placed in four different directions. The data set has been recorded under load variation from ‘0’ to ‘90’ percent. It includes the tooth data set in two scenarios: (1) healthy condition h and (2) broken tooth condition b. There are 20 ﬁles in total, 10 for the healthy gearbox and 10 for broken one. The data set is collocated by implementing SpectraQuest’s gearbox fault-diagnostics simulator. The gearbox device has conﬁgurations with various options and working behaviors. Based on these conﬁgurations, condition monitoring, gearbox working behavior, and vibration data is studied. The total number of samples for both healthy- and broken-tooth conditions for load 0 to 90 is shown in Figure 1. There are total four ﬁles for each sensor, and the ﬁles have roughly the same number of samples (85 k–120 k samples per ﬁle)."
+      }, {
+        "type" : "image",
+        "id" : 40,
+        "page number" : 4,
+        "bounding box" : [ 166.394, 334.911, 455.644, 520.161 ],
+        "source" : "8_images/imageFile6.png"
+      }, {
+        "type" : "list",
+        "id" : 41,
+        "level" : "5",
+        "page number" : 4,
+        "bounding box" : [ 166.394, 317.223, 559.278, 328.413 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 1,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 4,
+          "bounding box" : [ 166.394, 317.223, 559.278, 328.413 ],
+          "font" : "URWPalladioL-Bold",
+          "font size" : 8.966,
+          "text color" : "[0.0]",
+          "content" : "Figure 1. Total number of samples (healthy-condition h and broken-tooth condition b) in the data set.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 296.634, 343.21, 309.048 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.2. Time- and Frequency-Domain Analysis",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 4,
+    "bounding box" : [ 166.085, 155.783, 561.019, 293.526 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this section, we performed a time- and frequency-domain analysis of the data set in order to gain insight it. Through deep analysis, we understand the patterns of all four vibration sensors in both scenarios. First, in Figure 2, we have shown histograms of the four vibration signals. Each plot shows the histogram for each of the four sensor accelerations a1, a2, a3, a4. It can be seen that all four sensors’ histogram amplitude values are different. In Figure 3, we have shown the time-domain analysis of all four sensors in both good- and broken-tooth scenarios. The upper row shows the plot for sensors a1 and a2, while the second row shows plots for sensors a3 and a4. It looks like there is a difference in amplitude for the sensor readings between the healthy gearbox and the one with the broken tooth . The difference between the amplitude values of all the sensors can be clearly seen against the time readings."
+  }, {
+    "type" : "header",
+    "id" : 98,
+    "page number" : 5,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 15,
+      "page number" : 5,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 5 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 101,
+    "page number" : 5,
+    "bounding box" : [ 160.38, 562.758, 553.305, 747.033 ],
+    "source" : "8_images/imageFile7.png"
+  }, {
+    "type" : "heading",
+    "id" : 102,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 544.047, 368.887, 556.26 ],
+    "heading level" : 5,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 2. Histogram of all four sensors a1, a2, a3, a4."
+  }, {
+    "type" : "image",
+    "id" : 103,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 370.671, 547.294, 540.971 ],
+    "source" : "8_images/imageFile8.png"
+  }, {
+    "type" : "heading",
+    "id" : 104,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 351.961, 461.374, 364.174 ],
+    "heading level" : 5,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 3. Time-domain analysis of each individual sensor e.g., a1, a2, a3, a4."
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 5,
+    "bounding box" : [ 165.895, 230.099, 561.222, 342.736 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In Figure 4, we have shown the time-domain analysis of two scenarios: the good- and broken-tooth scenario. It looks like there is a difference in amplitude between the sensor readings between the healthy gearbox and the one with the broken tooth. For load value 0, the machine shows some minor amplitude vibrations, which means that the machine is not working accurately, while for load 90, in a good or healthy state, the machine shows high amplitude vibrations, meaning that the machine is properly working without any anomaly. We also analyzed the combined plot of all four sensors in Figure 5 to show the readings’ distribution and compare the healthy and broken gearboxes for the same load and sensor. It can be seen that the values of all sensors are different."
+  }, {
+    "type" : "image",
+    "id" : 106,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 83.953, 514.994, 219.753 ],
+    "source" : "8_images/imageFile9.png"
+  }, {
+    "type" : "heading",
+    "id" : 107,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 66.301, 448.404, 77.455 ],
+    "heading level" : 5,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 4. Time-domain analysis of different scenarios for load 0 and 90."
+  }, {
+    "type" : "header",
+    "id" : 108,
+    "page number" : 6,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 16,
+      "page number" : 6,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 6 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 111,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 584.129, 526.994, 747.029 ],
+    "source" : "8_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "id" : 112,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 165.895, 140.074, 561.019, 577.631 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 565.419, 394.845, 577.631 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 5. Time-domain analysis of all sensors a1, a2, a3, a4.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 37,
+        "page number" : 6,
+        "bounding box" : [ 166.394, 468.662, 559.668, 556.194 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Looking at the vibration data across time is useful. However, as seen from the above ﬁgures, vibrations are occurring at different frequencies—this is very difﬁcult to identify from the time-based analysis. Thus, the frequency analysis of the data may yield some more tangible features. In Figure 6, we have shown a frequency-domain analysis based on Fourier transforms to convert signal data (e.g., vibration readings) into its component frequencies. It can be seen that there is ﬂuctuation at some points in the data (we can see some peaks)."
+      }, {
+        "type" : "image",
+        "id" : 38,
+        "page number" : 6,
+        "bounding box" : [ 157.546, 270.684, 450.346, 465.684 ],
+        "source" : "8_images/imageFile11.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 240.498, 559.272, 274.149 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 6. Frequency-domain analysis for all counted samples. We plotted a power spectral density to clearly see these peak values as shown in",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 165.895, 140.074, 561.019, 240.159 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 7. At each load, compare the healthy and broken gearbox signals for each sensor. We can also correlate the power values for each frequency between the healthy and broken gearboxes to see how well they line up. The correlation between the two spectra is shown in the plot’s title for the sensors, and the signal power at the higher frequencies is much lower in the readings from the gearbox with the broken tooth . This pattern is visible across all loads. In Figures 8 and 9, we have shown the power spectral analysis of all sensors using frequency values of the data samples for load ’0’ and ’90’. From the frequency spectrum the changes in the correlation values can be seen for load ’90’.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 113,
+    "page number" : 7,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 7,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 7 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 116,
+    "page number" : 7,
+    "bounding box" : [ 163.215, 597.031, 387.215, 747.031 ],
+    "source" : "8_images/imageFile12.png"
+  }, {
+    "type" : "list",
+    "id" : 117,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 118.502, 528.098, 594.518 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "next list id" : 145,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 583.364, 528.098, 594.518 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 7. Power-spectral-density graph plotted using frequency values of the data samples.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 24,
+        "page number" : 7,
+        "bounding box" : [ 160.724, 524.603, 544.999, 579.228 ],
+        "source" : "8_images/imageFile13.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 512.929, 433.233, 524.083 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 8. Power-spectral-density graph of all four sensors at load 0.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 25,
+        "page number" : 7,
+        "bounding box" : [ 166.05, 447.715, 547.0, 502.815 ],
+        "source" : "8_images/imageFile14.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 436.041, 437.716, 447.195 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 9. Power-spectral-density graph of all four sensors at load 90.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 26,
+        "page number" : 7,
+        "bounding box" : [ 166.394, 415.416, 402.019, 427.83 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "3.3. Developed Autoencoder Model for Anomaly Detection"
+      }, {
+        "type" : "paragraph",
+        "id" : 27,
+        "page number" : 7,
+        "bounding box" : [ 166.095, 287.117, 559.476, 412.308 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "We proposed a 6-layer autoencoder-based deep learning model for anomaly detection in this work. The developed model comprises of encoder and a decoder steps. The encoder takes high-dimensional input data and translates it into low-dimensional data. On the other side, the decoder network receives the input from the encoder, that is, the output from the coder. The decoder’s goal is to rebuild the information that is provided as input data. The size of the output in this network is also larger than the size of the input. The overall architecture of the proposed model is illustrated in Figure 10. As discussed, that model receives high-dimensional information data and squeezes it down to the latent-space presentation in the bottleneck hidden layer. At the same time, the decoder accepts the latent presentation of the information as an input to rebuild the actual input data."
+      }, {
+        "type" : "image",
+        "id" : 28,
+        "page number" : 7,
+        "bounding box" : [ 163.215, 136.153, 491.715, 280.153 ],
+        "source" : "8_images/imageFile15.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 118.502, 393.646, 129.656 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 10. Illustration of autoencoder model architecture.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 58.126, 560.928, 108.218 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The encoder mainly encodes the input using the hidden layer to decrease the dimensionality of nonlinear and linear data; therefore, it is more powerful than principal component analysis. The model comprises two main functions: the encoder g(.) and a decoder f(.); each function is parameterized using φ and theta values, respectively. The"
+  }, {
+    "type" : "header",
+    "id" : 119,
+    "page number" : 8,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 8,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 8 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 8,
+    "bounding box" : [ 165.975, 721.696, 560.521, 746.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "low-dimensional value of the code is retained for input x through the bottleneck layers z, which is provided as"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 690.313, 559.275, 721.357 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "z = gφ(x) (1) and the reconstructed input value is estimated as;"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 8,
+    "bounding box" : [ 332.742, 665.316, 559.275, 679.514 ],
+    "font" : "CMR10",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "x = fθ(gφ(x)) (2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 631.733, 559.277, 656.5 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In the above equations, θ, and φ are jointly learned to output, and a reconstructed data sample the same as the actual size of the input is obtained as;"
+  }, {
+    "type" : "paragraph",
+    "id" : 126,
+    "page number" : 8,
+    "bounding box" : [ 334.172, 606.735, 559.275, 620.933 ],
+    "font" : "CMR10",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "x = fθ(gφ(x)) (3)"
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 548.047, 560.268, 597.919 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In other words, the equivalence function is learned. Different metrics are applied to quantify the discrepancy between two feature vectors, such as cross-entropy, which is applied when the activation function is sigmoid or a simple mean square root error (MSE) loss. The loss function for the autoencoder is estimated as follows:"
+  }, {
+    "type" : "paragraph",
+    "id" : 129,
+    "page number" : 8,
+    "bounding box" : [ 343.693, 529.421, 348.674, 541.635 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1"
+  }, {
+    "type" : "paragraph",
+    "id" : 128,
+    "page number" : 8,
+    "bounding box" : [ 252.719, 520.693, 339.204, 534.891 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.572,
+    "text color" : "[0.0]",
+    "content" : "L(autoencoder)(θ, φ) ="
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 365.775, 515.53, 559.275, 536.75 ],
+    "font" : "CMR10",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "= 1n(x(i) − fθ(gφ(x(i)))2 (4)"
+  }, {
+    "type" : "heading",
+    "id" : 131,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 343.414, 515.622, 362.757, 536.619 ],
+    "heading level" : 3,
+    "font" : "PazoMath",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "n ∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 132,
+    "page number" : 8,
+    "bounding box" : [ 356.303, 512.35, 358.408, 521.784 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.572,
+    "text color" : "[0.0]",
+    "content" : "i"
+  }, {
+    "type" : "paragraph",
+    "id" : 134,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 416.789, 559.668, 504.321 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Hence, the autoencoder learns through the equivalence function; we might face the threat of overﬁtting as there are more network parameters than the number of input data attributes . Thus, to overcome overﬁtting and enhance the robustness and performance of the model, we used the denoising autoencoder approach as shown in Figure 11. This approach is proposed as a modiﬁcation to the autoencoder model. The input is partly corrupted by adding some noisy values or hiding some values of the input vector in a stochastic way;"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 8,
+    "bounding box" : [ 187.653, 382.82, 559.275, 417.006 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "xˆ = Md(xˆ(i) x(i)) (5) In the above equation, MD deﬁnes the mapping from the actual data samples to the"
+  }, {
+    "type" : "paragraph",
+    "id" : 136,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 371.565, 411.026, 383.779 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "noisy ones. The ﬁnal loss function is deﬁned as follows:"
+  }, {
+    "type" : "paragraph",
+    "id" : 138,
+    "page number" : 8,
+    "bounding box" : [ 361.565, 350.345, 366.546, 362.559 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1"
+  }, {
+    "type" : "paragraph",
+    "id" : 137,
+    "page number" : 8,
+    "bounding box" : [ 233.778, 336.811, 357.075, 355.814 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.572,
+    "text color" : "[0.0]",
+    "content" : "L(denoising−autoencoder)(θ, φ) ="
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 383.647, 336.453, 559.275, 357.674 ],
+    "font" : "CMR10",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "= 1n(x(i) − fθ(gφ(x(i)))2 (6)"
+  }, {
+    "type" : "heading",
+    "id" : 140,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 361.286, 336.546, 380.628, 357.542 ],
+    "heading level" : 3,
+    "font" : "PazoMath",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "n ∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 8,
+    "bounding box" : [ 374.175, 333.274, 376.28, 342.708 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.572,
+    "text color" : "[0.0]",
+    "content" : "i"
+  }, {
+    "type" : "caption",
+    "id" : 143,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 275.372, 561.023, 325.245 ],
+    "linked content id" : 144,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In a high-dimension data set, anomalies are detected using the above discussed model. During the training, the normal input values are given to the encoder. The bottleneck layers use the latent representation of the actual input data. The decoder uses the output of the bottleneck layers to reconstruct the actual input data."
+  }, {
+    "type" : "image",
+    "id" : 144,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 113.708, 546.844, 268.408 ],
+    "source" : "8_images/imageFile16.png"
+  }, {
+    "type" : "list",
+    "id" : 145,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 96.057, 434.999, 107.211 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 117,
+    "next list id" : 152,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 96.057, 434.999, 107.211 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 11. Illustration of denoising autoencoder model architecture.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 146,
+    "page number" : 9,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 9,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 9 of 12"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 149,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 734.069, 210.698, 746.383 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "4. Results"
+  }, {
+    "type" : "caption",
+    "id" : 150,
+    "page number" : 9,
+    "bounding box" : [ 166.085, 668.495, 561.015, 730.921 ],
+    "linked content id" : 151,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The results of the above-discussed model are presented in this section. We trained the above model for 140 epochs. Firstly, we discussed training and validation loss observations as shown in Figure 12. In the ﬁgure, the x-axis shows the total number of epochs, while the y-axis shows loss values. It can be seen that the loss value decreases after the 20th epoch. The minimum value of the training loss is 0.01, while the validation loss is 0.07."
+  }, {
+    "type" : "image",
+    "id" : 151,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 489.354, 418.394, 655.554 ],
+    "source" : "8_images/imageFile17.png"
+  }, {
+    "type" : "list",
+    "id" : 152,
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 191.447, 383.407, 482.856 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 145,
+    "next list id" : 158,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 471.702, 322.014, 482.856 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 12. Training and validation loss.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 29,
+        "page number" : 9,
+        "bounding box" : [ 166.115, 386.44, 561.019, 461.419 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "To estimate the reconstruction loss on the test data set, we anticipate the test data set values and compute the mean square error between the test data and the reconstructed test data. To calculate the reconstruction loss on test data, predict the test data and calculate the mean square error between the test data and the reconstructed test data. We plotted the reconstruction loss against the sample index. The results shown in Figure 13 are plotted for normal test data. It can be seen that the loss value is not so high for normal data set samples."
+      }, {
+        "type" : "image",
+        "id" : 30,
+        "page number" : 9,
+        "bounding box" : [ 166.394, 209.099, 421.394, 373.499 ],
+        "source" : "8_images/imageFile18.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 191.447, 383.407, 202.601 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 13. Reconstruction loss of normal data samples.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 9,
+    "bounding box" : [ 166.115, 131.291, 560.939, 181.164 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We also calculated the difference for the anomalous data set as shown in Figure 14. By comparing both ﬁgures, it can be seen that the difference in loss values between anomalous data sets is high . The peak value shows the detected anomalies as points highlighting the values where the reconstruction loss is high or greater than a deﬁned ﬁxed threshold value."
+  }, {
+    "type" : "header",
+    "id" : 154,
+    "page number" : 10,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 10,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 10 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 157,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 583.831, 412.394, 747.031 ],
+    "source" : "8_images/imageFile19.png"
+  }, {
+    "type" : "list",
+    "id" : 158,
+    "level" : "5",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 170.718, 398.452, 577.333 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 152,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 566.179, 398.452, 577.333 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 14. Reconstruction loss of anomalous data samples.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 31,
+        "page number" : 10,
+        "bounding box" : [ 165.975, 518.576, 560.52, 555.896 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "In order to ﬁnd the threshold to fault detection, histograms are plotted for both train loss and test loss. In Figure 15, we have shown the plot of the train-loss histogram values, while in Figure 16, we have shown the plot of test loss histogram values."
+      }, {
+        "type" : "image",
+        "id" : 32,
+        "page number" : 10,
+        "bounding box" : [ 166.394, 360.135, 383.394, 505.635 ],
+        "source" : "8_images/imageFile20.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 342.483, 302.377, 353.637 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 15. Histogram of train loss.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 33,
+        "page number" : 10,
+        "bounding box" : [ 166.394, 188.369, 383.394, 332.369 ],
+        "source" : "8_images/imageFile21.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 170.718, 297.544, 181.872 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 16. Histogram of test loss.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 98.009, 560.521, 160.434 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The parameter evaluation results are discussed in Table 1. The model’s overall accuracy is 91%, the precision is 98%, and the recall value is 83%. We also compared results with other state-of-the-art methods. These methods are performed with manual-feature engineering and other machine learning methods. It can be seen that among all of the proposed methods, they display excellent results."
+  }, {
+    "type" : "header",
+    "id" : 160,
+    "page number" : 11,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 11,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 11 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 11,
+    "bounding box" : [ 166.098, 735.356, 421.317, 746.51 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Comparison results with other state-of-the-art methods."
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 11,
+    "bounding box" : [ 181.984, 713.279, 542.77, 725.593 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "S.NO Method Accuracy Precision Recall"
+  }, {
+    "type" : "list",
+    "id" : 167,
+    "level" : "6",
+    "page number" : 11,
+    "bounding box" : [ 192.081, 648.682, 537.833, 708.717 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 192.081, 696.503, 537.833, 708.717 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "1 SVM 90% 94% 80%",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 192.081, 684.548, 537.833, 696.762 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2 Random forest 89% 91% 78%",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 192.081, 672.593, 537.833, 684.807 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3 KNN 84% 90% 76%",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 192.081, 660.638, 537.833, 672.852 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4 ANN 90% 94% 80%",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 192.081, 648.682, 537.833, 660.896 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5 Proposed autoencoder 91% 98% 83%",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 169,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 619.988, 233.392, 632.302 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "5. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 170,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 453.99, 559.472, 616.84 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this paper, we presented an artiﬁcial-intelligence-assisted deep learning method to analyze and process big machine data. We utilized vibrational analysis methods as a deciding tool for different machinery-maintenance decisions. We will ﬁrst perform a data analysis of the gearbox data set to analyze the data’s insights. By calculating and examining the machine’s vibration, we determine the nature and severity of the defect in the machine and hence detect the anomaly. Our proposed model is based on a 6-layer autoencoder-based deep learning framework, which is used for the anomaly detection and fault analysis of wind-turbine components. The gearbox fault-diagnosis data set is utilized for experimentation; it includes the sets of vibration attributes recorded by SpectraQuest’s gearbox fault-diagnostics simulator. Through comprehensive experiments, we have seen that the framework achieves better results than other methods. The proposed method displayed excellent results, with an overall accuracy of 91%. In the future, we aim to extend this work to other deep learning models with different industrial benchmark data sets."
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 11,
+    "bounding box" : [ 166.044, 395.453, 560.768, 441.593 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Methodology, I.A.; Validation, A.C. and G.J.; Formal analysis, M.A.; Investigation, M.A. and A.C.; Data curation, I.A.; Writing—original draft, I.A.; Project administration, G.J.; Funding acquisition, G.J. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 342.21, 418.088, 388.751 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research received no external funding. Data Availability Statement: Not applicable. Conﬂicts of Interest: The authors declare no conﬂict of interest."
+  }, {
+    "type" : "heading",
+    "id" : 173,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 35.716, 319.494, 85.519, 331.808 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 174,
+    "level" : "7",
+    "page number" : 11,
+    "bounding box" : [ 35.716, 75.125, 560.846, 316.452 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "next list id" : 178,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 293.755, 560.392, 316.452 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Orchard, M.E.; Vachtsevanos, G.J. A particle-ﬁltering approach for on-line fault diagnosis and failure prognosis. Trans. Inst. Meas. Control 2009, 31, 221–246. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 270.742, 559.274, 293.438 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Wu, Y.; Jiang, B.; Wang, Y. Incipient winding fault detection and diagnosis for squirrel-cage induction motors equipped on CRH trains. ISA Trans. 2020, 99, 488–495. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 224.912, 560.4, 270.425 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Nectoux, P.; Gouriveau, R.; Medjaher, K.; Ramasso, E.; Chebel-Morello, B.; Zerhouni, N.; Varnier, C. PRONOSTIA: An experimental platform for bearings accelerated degradation tests. In Proceedings of the IEEE International Conference on Prognostics and Health Management, PHM’12, Denver, CO, USA, 18–21 June 2012; IEEE Catalog Number: CPF12PHM-CDR; pp. 1–8.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 201.7, 560.846, 224.397 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Ahmed, I.; Ahmad, M.; Adnan, A.; Ahmad, A.; Khan, M. Person detector for different overhead views using machine learning. Int. J. Mach. Learn. Cybern. 2019, 10, 2657–2668. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 178.687, 560.399, 201.383 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Ahmad, M.; Ahmed, I.; Ullah, K.; Khan, I.; Khattak, A.; Adnan, A. Energy Efﬁcient Camera Solution for Video Surveillance. Int. J. Adv. Comput. Sci. Appl. 2019, 10, 522–529. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 155.673, 559.625, 178.37 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Sekine, M.; Tamura, T.; Yoshida, M.; Suda, Y.; Kimura, Y.; Miyoshi, H.; Kijima, Y.; Higashi, Y.; Fujimoto, T. A gait abnormality measure based on root mean square of trunk acceleration. J. Neuroeng. Rehabil. 2013, 10, 1–7. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 132.659, 559.275, 155.356 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Ahmed, I.; Ahmad, M.; Khan, F.A.; Asif, M. Comparison of deep-learning-based segmentation models: Using top view person images. IEEE Access 2020, 8, 136361–136373. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 109.645, 559.451, 132.342 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Ahmed, I.; Ahmad, M.; Rodrigues, J.J.; Jeon, G.; Din, S. A deep learning-based social distance monitoring framework for COVID-19. Sustain. Cities Soc. 2021, 65, 102571. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 86.631, 559.276, 109.328 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Gelle, G.; Colas, M.; Servière, C. Blind source separation: A new pre-processing tool for rotating machines monitoring? IEEE Trans. Instrum. Meas. 2003, 52, 790–795. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 75.125, 435.691, 86.315 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Aggarwal, C.C.; Sathe, S. Outlier Ensembles: An Introduction; Springer: Cham, Switzerland, 2017.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 175,
+    "page number" : 12,
+    "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 12,
+      "bounding box" : [ 35.716, 776.48, 559.276, 786.427 ],
+      "heading level" : 6,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Micromachines 2023, 14, 154 12 of 12"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 178,
+    "level" : "7",
+    "page number" : 12,
+    "bounding box" : [ 35.716, 228.03, 560.849, 745.523 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 23,
+    "previous list id" : 174,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 722.826, 559.273, 745.523 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Tobon-Mejia, D.A.; Medjaher, K.; Zerhouni, N.; Tripot, G. A data-driven failure prognostics method based on mixture of Gaussians hidden Markov models. IEEE Trans. Reliab. 2012, 61, 491–503. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 699.812, 559.273, 722.509 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Wang, W.; Wang, Z.; Zhou, Z.; Deng, H.; Zhao, W.; Wang, C.; Guo, Y. Anomaly detection of industrial control systems based on transfer learning. Tsinghua Sci. Technol. 2021, 26, 821–832. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 676.798, 559.278, 699.495 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Arbaoui, A.; Ouahabi, A.; Jacques, S.; Hamiane, M. Concrete cracks detection and monitoring using deep learning-based multiresolution analysis. Electronics 2021, 10, 1772. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 653.785, 559.276, 676.482 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Xia, Z.; Xia, S.; Wan, L.; Cai, S. Spectral regression based fault feature extraction for bearing accelerometer sensor signals. Sensors 2012, 12, 13694–13719. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 642.278, 448.172, 653.468 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Ouahabi, A. Signal and Image Multiresolution Analysis; John Wiley & Sons: Hoboken, NJ, USA, 2012.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 619.264, 559.278, 641.961 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Tian, J.; Morillo, C.; Azarian, M.H.; Pecht, M. Motor bearing fault detection using spectral kurtosis-based feature extraction coupled with K-nearest neighbor distance analysis. IEEE Trans. Ind. Electron. 2015, 63, 1793–1803. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 596.25, 559.274, 618.947 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Ali, J.B.; Fnaiech, N.; Saidi, L.; Chebel-Morello, B.; Fnaiech, F. Application of empirical mode decomposition and artiﬁcial neural network for automatic bearing fault diagnosis based on vibration signals. Appl. Acoust. 2015, 89, 16–27.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 573.236, 560.842, 595.933 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Ince, T.; Kiranyaz, S.; Eren, L.; Askar, M.; Gabbouj, M. Real-time motor fault detection by 1-D convolutional neural networks. IEEE Trans. Ind. Electron. 2016, 63, 7067–7075. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 550.223, 560.849, 572.92 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Sun, J.; Yan, C.; Wen, J. Intelligent bearing fault diagnosis method combining compressed data acquisition and deep learning. IEEE Trans. Instrum. Meas. 2017, 67, 185–195. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 515.9, 559.279, 549.906 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Ahmad, S.; Styp-Rekowski, K.; Nedelkoski, S.; Kao, O. Autoencoder-based condition monitoring and anomaly detection method for rotating machines. In Proceedings of the 2020 IEEE International Conference on Big Data (Big Data), Atlanta, GA, USA, 10–13 December 2020; pp. 4093–4102.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 492.688, 559.278, 515.385 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Jia, F.; Lei, Y.; Lin, J.; Zhou, X.; Lu, N. Deep neural networks: A promising tool for fault characteristic mining and intelligent diagnosis of rotating machinery with massive data. Mech. Syst. Signal Process. 2016, 72, 303–315. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 469.872, 560.848, 492.371 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Akouemo, H.N.; Povinelli, R.J. Probabilistic anomaly detection in natural gas time series data. Int. J. Forecast. 2016, 32, 948–956. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 458.168, 560.396, 469.358 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Liu, H.; Li, L.; Ma, J. Rolling bearing fault diagnosis based on STFT-deep learning and sound signals. Shock Vib. 2016, 2016,",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 23,
+        "level" : "8",
+        "page number" : 12,
+        "bounding box" : [ 57.232, 446.859, 135.114, 457.851 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "6127479. [CrossRef]"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 423.647, 559.276, 446.344 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Chen, Z.; Li, W. Multisensor feature fusion for bearing fault diagnosis using sparse autoencoder and deep belief network. IEEE Trans. Instrum. Meas. 2017, 66, 1693–1702. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 400.633, 559.272, 423.33 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Jiang, G.Q.; Xie, P.; Wang, X.; Chen, M.; He, Q. Intelligent fault diagnosis of rotary machinery based on unsupervised multiscale representation learning. Chin. J. Mech. Eng. 2017, 30, 1314–1324. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 377.619, 559.278, 400.316 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Wang, Y.; Yang, H.; Yuan, X.; Shardt, Y.A.; Yang, C.; Gui, W. Deep learning for fault-relevant feature extraction and fault classiﬁcation with stacked supervised auto-encoder. J. Process Control 2020, 92, 79–89. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 354.606, 560.396, 377.303 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Mao, W.; He, J.; Li, Y.; Yan, Y. Bearing fault diagnosis with auto-encoder extreme learning machine: A comparative study. Proc. Inst. Mech. Eng. Part C J. Mech. Eng. Sci. 2017, 231, 1560–1578. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 331.592, 560.396, 354.289 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Hoang, D.T.; Kang, H.J. Rolling element bearing fault diagnosis using convolutional neural network and vibration image. Cogn. Syst. Res. 2019, 53, 42–50. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 308.578, 559.279, 331.275 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Kaplan, K.; Kaya, Y.; Kuncan, M.; Minaz, M.R.; Ertunç, H.M. An improved feature extraction method using texture analysis with LBP for bearing fault diagnosis. Appl. Soft Comput. 2020, 87, 106019. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 285.564, 559.28, 308.261 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Li, C.; Zhang, S.; Qin, Y.; Estupinan, E. A systematic review of deep transfer learning for machinery fault diagnosis. Neurocomputing 2020, 407, 121–135. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 274.057, 559.223, 285.247 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Hoang, D.T.; Kang, H.J. A survey on deep learning based bearing fault diagnosis. Neurocomputing 2019, 335, 327–335. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 251.044, 559.275, 273.741 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Ahmad, M.; Ahmed, I.; Jeon, G. An IoT-enabled real-time overhead view person detection system based on Cascade-RCNN and transfer learning. J. Real-Time Image Process. 2021, 18, 1129–1139. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 228.03, 559.276, 250.727 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Ahmed, I.; Din, S.; Jeon, G.; Piccialli, F. Exploring deep learning models for overhead view multiple object detection. IEEE Internet Things J. 2019, 7, 5737–5744. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 12,
+    "bounding box" : [ 35.447, 181.154, 559.28, 215.16 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  } ]
+}

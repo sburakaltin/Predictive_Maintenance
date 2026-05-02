@@ -1,0 +1,1540 @@
+{
+  "file name" : "26.pdf",
+  "number of pages" : 8,
+  "author" : null,
+  "title" : null,
+  "creation date" : null,
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "image",
+    "id" : 30,
+    "page number" : 1,
+    "bounding box" : [ 38.835, 637.707, 88.937, 696.661 ],
+    "source" : "26_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 33,
+    "page number" : 1,
+    "bounding box" : [ 113.068, 662.296, 144.532, 693.64 ],
+    "source" : "26_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 55,
+    "page number" : 1,
+    "bounding box" : [ 164.03, 730.204, 333.608, 740.393 ],
+    "font" : "ArialMT",
+    "font size" : 9.12,
+    "text color" : "[0.0, 0.2240024358034134, 1.0]",
+    "content" : "Available online at www.sciencedirect.com"
+  }, {
+    "type" : "paragraph",
+    "id" : 39,
+    "page number" : 1,
+    "bounding box" : [ 164.03, 718.204, 333.608, 728.393 ],
+    "font" : "ArialMT",
+    "font size" : 9.12,
+    "text color" : "[0.0, 0.2240024358034134, 1.0]",
+    "content" : "Available online at www.sciencedirect.com"
+  }, {
+    "type" : "heading",
+    "id" : 56,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 203.42, 700.157, 294.202, 716.717 ],
+    "heading level" : 2,
+    "font" : "Calibri",
+    "font size" : 16.56,
+    "text color" : "[0.0]",
+    "content" : "ScienceDirect"
+  }, {
+    "type" : "heading",
+    "id" : 40,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 203.42, 688.157, 294.202, 704.717 ],
+    "heading level" : 2,
+    "font" : "Calibri",
+    "font size" : 16.56,
+    "text color" : "[0.0]",
+    "content" : "ScienceDirect"
+  }, {
+    "type" : "paragraph",
+    "id" : 31,
+    "page number" : 1,
+    "bounding box" : [ 157.415, 687.21, 326.369, 697.265 ],
+    "font" : "ArialMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.5869992971420288, 0.7430075407028198]",
+    "content" : "Available online at www.sciencedirect.com"
+  }, {
+    "type" : "paragraph",
+    "id" : 57,
+    "page number" : 1,
+    "bounding box" : [ 172.67, 680.024, 325.012, 688.795 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Procedia Computer Science 00 (2025) 000–000"
+  }, {
+    "type" : "paragraph",
+    "id" : 41,
+    "page number" : 1,
+    "bounding box" : [ 172.67, 668.024, 325.012, 676.795 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Procedia Computer Science 00 (2025) 000–000"
+  }, {
+    "type" : "paragraph",
+    "id" : 29,
+    "page number" : 1,
+    "bounding box" : [ 189.826, 654.218, 285.772, 675.058 ],
+    "font" : "JWVAGRoundedLTBold",
+    "font size" : 16.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "ScienceDirect"
+  }, {
+    "type" : "paragraph",
+    "id" : 34,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 165.809, 639.023, 329.403, 647.883 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 8.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Procedia Computer Science 274 (2025) 1169–1176"
+  }, {
+    "type" : "image",
+    "id" : 35,
+    "page number" : 1,
+    "bounding box" : [ 395.219, 625.395, 505.417, 697.323 ],
+    "source" : "26_images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 58,
+    "page number" : 1,
+    "bounding box" : [ 391.17, 667.274, 501.839, 676.045 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "www.elsevier.com/locate/procedia"
+  }, {
+    "type" : "paragraph",
+    "id" : 42,
+    "page number" : 1,
+    "bounding box" : [ 391.17, 655.274, 501.839, 664.045 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "www.elsevier.com/locate/procedia"
+  }, {
+    "type" : "paragraph",
+    "id" : 61,
+    "page number" : 1,
+    "bounding box" : [ 67.504, 586.691, 483.259, 612.905 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "37th European Modeling & Simulation Symposium (EMSS 2025), held within the 22nd International Multidisciplinary Modeling & Simulation Multiconference (I3M 2025)"
+  }, {
+    "type" : "paragraph",
+    "id" : 45,
+    "page number" : 1,
+    "bounding box" : [ 67.504, 574.691, 483.259, 600.905 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "37th European Modeling & Simulation Symposium (EMSS 2025), held within the 22nd International Multidisciplinary Modeling & Simulation Multiconference (I3M 2025)"
+  }, {
+    "type" : "heading",
+    "id" : 62,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 48.304, 515.009, 495.452, 573.992 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 17.04,
+    "text color" : "[0.0]",
+    "content" : "AI-enabled Predictive Maintenance in engineer to order CNC machining: an Architectural Framework for Enabling ESG Alignment"
+  }, {
+    "type" : "heading",
+    "id" : 46,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 48.304, 503.011, 495.454, 561.992 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 17.04,
+    "text color" : "[0.0]",
+    "content" : "AI-enabled Predictive Maintenance in engineer to order CNC machining: an Architectural Framework for Enabling ESG Alignment"
+  }, {
+    "type" : "paragraph",
+    "id" : 63,
+    "page number" : 1,
+    "bounding box" : [ 54.544, 464.054, 489.057, 498.822 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.96,
+    "text color" : "[0.0]",
+    "content" : "Fausta Abbruzzesea, Mohaiad Elbasheerb, Anna Gaccia, Marco Lapuccia, Francesco Longob,*, Giovanni Mirabellib, Letizia Nicolettic"
+  }, {
+    "type" : "paragraph",
+    "id" : 47,
+    "page number" : 1,
+    "bounding box" : [ 54.544, 452.054, 489.057, 486.822 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.96,
+    "text color" : "[0.0]",
+    "content" : "Fausta Abbruzzesea, Mohaiad Elbasheerb, Anna Gaccia, Marco Lapuccia, Francesco Longob,*, Giovanni Mirabellib, Letizia Nicolettic"
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "page number" : 1,
+    "bounding box" : [ 99.208, 420.964, 443.799, 450.448 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "aII Level Master in Industry of the Future and Smart Manufacturing, University of Calabria, Italy b Department of Mechanical, Energy and Management Engineering (DIMEG), University of Calabria, Italy cCAL-TEK Srl, Rende 87036, Italy"
+  }, {
+    "type" : "paragraph",
+    "id" : 48,
+    "page number" : 1,
+    "bounding box" : [ 99.208, 408.964, 443.803, 438.448 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "aII Level Master in Industry of the Future and Smart Manufacturing, University of Calabria, Italy b Department of Mechanical, Energy and Management Engineering (DIMEG), University of Calabria, Italy cCAL-TEK Srl, Rende 87036, Italy"
+  }, {
+    "type" : "heading",
+    "id" : 65,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.984, 389.484, 71.719, 399.584 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "Abstract"
+  }, {
+    "type" : "heading",
+    "id" : 49,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.984, 377.484, 71.719, 387.584 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "Abstract"
+  }, {
+    "type" : "paragraph",
+    "id" : 67,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 285.294, 506.059, 378.224 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "This paper presents the design and preliminary implementation of an AI-enabled predictive maintenance (PdM) architecture for engineer-to-order (ETO) manufacturing environments. The study focuses on five-axis CNC machining systems, where high customization and limited sensorization constrain the deployment of conventional data-driven models. The proposed architecture integrates the OPC UA communication protocol for interoperable data acquisition, feature selection methods for signal reduction, and AI algorithms such as Decision Trees, XGBoost, and LSTM for exploratory fault prediction. Data is collected directly from the native CNC controller and processed within a minimal monitoring interface. The work emphasizes how a standardized data pipeline and lightweight analytics layer can serve as a foundation for scalable PdM in data-scarce industrial settings. Rather than demonstrating full predictive accuracy, the study aims to validate the architectural feasibility and integration logic required for future, sensor-enhanced implementations of AI-based maintenance systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 50,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 273.294, 506.063, 366.224 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "This paper presents the design and preliminary implementation of an AI-enabled predictive maintenance (PdM) architecture for engineer-to-order (ETO) manufacturing environments. The study focuses on five-axis CNC machining systems, where high customization and limited sensorization constrain the deployment of conventional data-driven models. The proposed architecture integrates the OPC UA communication protocol for interoperable data acquisition, feature selection methods for signal reduction, and AI algorithms such as Decision Trees, XGBoost, and LSTM for exploratory fault prediction. Data is collected directly from the native CNC controller and processed within a minimal monitoring interface. The work emphasizes how a standardized data pipeline and lightweight analytics layer can serve as a foundation for scalable PdM in data-scarce industrial settings. Rather than demonstrating full predictive accuracy, the study aims to validate the architectural feasibility and integration logic required for future, sensor-enhanced implementations of AI-based maintenance systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 68,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 273.807, 335.031, 284.97 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "© 2025 The Authors. Check in the contract: Published by ELSEVIER B.V."
+  }, {
+    "type" : "paragraph",
+    "id" : 38,
+    "page number" : 1,
+    "bounding box" : [ 38.829, 237.864, 505.481, 277.831 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "© 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 22nd International Multidisciplinary Modeling & Simulation Multiconference (I3M)."
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 242.074, 498.142, 273.832 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 22nd International Multidisciplinary Modeling & Simulation Multiconference)"
+  }, {
+    "type" : "paragraph",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 261.807, 335.031, 272.97 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "© 2025 The Authors. Check in the contract: Published by ELSEVIER B.V."
+  }, {
+    "type" : "paragraph",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 230.074, 498.142, 261.832 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 22nd International Multidisciplinary Modeling & Simulation Multiconference)"
+  }, {
+    "type" : "paragraph",
+    "id" : 70,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 222.174, 496.303, 241.025 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Keywords: Predictive Maintenance (PdM); Artificial Intelligence (AI); Industry 4.0; Engineer-to-Order (ETO); CNC; OPC-UA; Sustainability; Digital Twin; Manufacturing"
+  }, {
+    "type" : "paragraph",
+    "id" : 53,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 210.174, 496.303, 229.025 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Keywords: Predictive Maintenance (PdM); Artificial Intelligence (AI); Industry 4.0; Engineer-to-Order (ETO); CNC; OPC-UA; Sustainability; Digital Twin; Manufacturing"
+  }, {
+    "type" : "paragraph",
+    "id" : 59,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 43.984, 141.984, 181.261, 160.835 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "* Corresponding author. E-mail address: francesco.longo@unical.it"
+  }, {
+    "type" : "paragraph",
+    "id" : 43,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 43.984, 129.982, 181.261, 148.835 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "* Corresponding author. E-mail address: francesco.longo@unical.it"
+  }, {
+    "type" : "paragraph",
+    "id" : 60,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 99.964, 501.617, 128.919 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "1877-0509 © 2025 The Authors. Check in the contract: Published by ELSEVIER B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 22nd International Multidisciplinary Modeling & Simulation Multiconference)"
+  }, {
+    "type" : "paragraph",
+    "id" : 44,
+    "page number" : 1,
+    "bounding box" : [ 37.984, 87.964, 501.617, 116.919 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "1877-0509 © 2025 The Authors. Check in the contract: Published by ELSEVIER B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 22nd International Multidisciplinary Modeling & Simulation Multiconference)"
+  }, {
+    "type" : "paragraph",
+    "id" : 36,
+    "page number" : 1,
+    "bounding box" : [ 38.835, 43.526, 501.995, 79.385 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 8.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1877-0509 © 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 22nd International Multidisciplinary Modeling & Simulation Multiconference (I3M). 10.1016/j.procs.2025.12.114"
+  }, {
+    "type" : "paragraph",
+    "id" : 37,
+    "page number" : 1,
+    "bounding box" : [ 37.417, -23.274, 397.499, -14.131 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 8.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "10.1016/j.procs.2025.12.114 1877-0509"
+  }, {
+    "type" : "paragraph",
+    "id" : 71,
+    "page number" : 2,
+    "bounding box" : [ 38.835, 688.644, 422.804, 697.503 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 8.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1170 Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176"
+  }, {
+    "type" : "paragraph",
+    "id" : 72,
+    "page number" : 2,
+    "bounding box" : [ 37.624, 683.424, 373.648, 692.195 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "2 Author name / Procedia Computer Science 00 (2025) 000–000"
+  }, {
+    "type" : "heading",
+    "id" : 74,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 37.624, 659.677, 102.227, 670.84 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "page number" : 2,
+    "bounding box" : [ 37.624, 539.422, 506.837, 646.597 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "The ongoing transformation of industrial systems under the paradigm of Industry 4.0 has brought renewed attention to the role of artificial intelligence (AI) in optimizing operational performance [1][2]. Among the many domains reshaped by this digital transition, predictive maintenance (PdM) has emerged as a high-impact application, enabling the shift from reactive or scheduled interventions to intelligent, data-driven maintenance planning [3][4]. The adoption of PdM strategies is motivated by their potential to reduce unplanned downtime, extend asset life, and enhance process reliability through early detection of abnormal machine conditions [5][6]. However, while these benefits are conceptually well established, the practical implementation of AI-based PdM remains limited, particularly in manufacturing environments characterized by structural complexity, heterogeneous data, and minimal sensor instrumentation [7][8]."
+  }, {
+    "type" : "paragraph",
+    "id" : 76,
+    "page number" : 2,
+    "bounding box" : [ 37.614, 467.421, 506.828, 538.59 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "This study addresses these challenges within the context of engineer-to-order (ETO) manufacturing, a production paradigm defined by high customization and low process repeatability. In ETO environments, each manufacturing job is unique, and product configurations vary significantly across batches. Consequently, historical data are sparse and non-uniform, while real-time signals (e.g., torque, feed rate, temperature) are often restricted to those natively available from the machine controller [9][10]. These factors constrain the deployment of conventional data-driven models, which typically rely on homogeneous datasets and stable operating conditions as found in mass production [11]."
+  }, {
+    "type" : "paragraph",
+    "id" : 77,
+    "page number" : 2,
+    "bounding box" : [ 37.604, 335.433, 507.1, 466.589 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "To explore a feasible pathway toward AI-enabled PdM in such data-scarce settings, this work develops and validates an architectural framework that integrates interoperable communication, signal preprocessing, and lightweight AI algorithms. The proposed architecture leverages the OPC UA protocol for standardized data acquisition from a five-axis CNC machine, applies feature-selection techniques to reduce signal redundancy, and implements decision tree, XGBoost, and LSTM models for exploratory fault detection [12][13]. Data are processed within a minimal monitoring interface to demonstrate the interoperability and scalability of the framework rather than its predictive accuracy. The objective of this study is therefore not to present a fully optimized PdM system but to validate the feasibility of an interoperable architecture capable of supporting future, sensor-enhanced implementations in ETO contexts. By focusing on the integration logic and data flow between control, preprocessing, and analytics layers, the research contributes to the ongoing effort to design scalable and realistic PdM frameworks for customized manufacturing environments [14][15]."
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "page number" : 2,
+    "bounding box" : [ 37.604, 275.457, 506.839, 334.601 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "The remainder of the paper is structured as follows: Section 2 reviews existing approaches to AI-driven predictive maintenance and identifies architectural requirements relevant to ETO applications. Section 3 presents the proposed framework and its implementation on a CNC machining platform. Section 4 reports and discusses the experimental findings. Finally, Section 5 concludes with reflections on applicability, current limitations, and directions for future development."
+  }, {
+    "type" : "heading",
+    "id" : 79,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 37.604, 251.427, 111.692, 262.59 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "2. State of the art"
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "page number" : 2,
+    "bounding box" : [ 37.625, 167.291, 505.569, 238.45 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "Predictive Maintenance (PdM) represents one of the most mature applications of Artificial Intelligence (AI) within Industry 4.0, linking machine learning, interoperability standards, and industrial connectivity to operational reliability and sustainability [1][2]. In contemporary manufacturing systems, maintenance has evolved from a cost-centered function to a strategic enabler of resilience and competitiveness [3][4]. This transformation has been accelerated by the integration of Industrial Internet of Things (IIoT) technologies and real-time analytics, which allow early fault detection, Remaining Useful Life (RUL) estimation, and performance optimization [5][6]."
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 2,
+    "bounding box" : [ 37.625, 95.289, 505.882, 166.458 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "Across the literature, the evolution of maintenance strategies can be viewed as a continuum, from reactive and preventive methods to data-driven, predictive, and prescriptive approaches [7][8]. Among these, AI-based PdM has gained prominence for its ability to model nonlinear behaviors and capture early degradation trends using heterogeneous process signals [9][10]. Traditional statistical methods, such as Weibull or Bayesian renewal models, remain valuable for transparent estimation of failure probabilities but are limited in scalability and adaptability under non-stationary operating conditions [3][9]. Machine learning models, including Support Vector Machines and"
+  }, {
+    "type" : "list",
+    "id" : 73,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 37.624, 76.988, 41.584, 85.759 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 88,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 37.624, 76.988, 41.584, 85.759 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "2",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 82,
+    "page number" : 3,
+    "bounding box" : [ 172.472, 683.424, 505.82, 697.503 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 10,
+      "page number" : 3,
+      "bounding box" : [ 172.472, 688.644, 505.417, 697.503 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176 1171"
+    }, {
+      "type" : "paragraph",
+      "id" : 11,
+      "page number" : 3,
+      "bounding box" : [ 179.87, 683.424, 505.82, 692.195 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "Author name / Procedia Computer Science 00 (2025) 000–000 3"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 3,
+    "bounding box" : [ 37.984, 563.445, 506.078, 670.6 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "Random Forests, improve detection accuracy on engineered features but still require consistent data structures and expert-defined preprocessing [10][11]. Recent advances employ deep learning (DL) techniques such as Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks, which automatically extract features and learn temporal dependencies from multi-sensor data [12][13]. However, DL models face challenges of interpretability and computational load, making them difficult to deploy at the edge in constrained environments. To address this, hybrid and physics-informed architectures have been introduced, combining statistical, knowledge-based, and neural approaches to enhance robustness and explainability [14][15][16]. These systems often integrate digital twins, which act as virtual representations of assets, enabling simulation-based learning and continuous feedback for fault diagnosis [5][14]."
+  }, {
+    "type" : "paragraph",
+    "id" : 84,
+    "page number" : 3,
+    "bounding box" : [ 37.984, 395.442, 506.069, 562.592 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "Despite these developments, literature identifies several persistent gaps that motivate the present study. First, data integration remains a key challenge: industrial datasets are fragmented across controllers, historians, and MES or ERP systems, often using incompatible formats [8][11]. Second, data quality and sparsity limit the reliability of AI models in real production contexts. ETO and small-batch environments suffer from irregular duty cycles and scarce failure samples, undermining the statistical validity of many existing approaches [9][10]. Third, model transparency and interoperability are necessary for industrial acceptance, especially when PdM systems must interact directly with shopfloor controllers and operator interfaces [3][18]. In response to these limitations, research has shifted toward architecturally grounded PdM frameworks that emphasize interoperability, modularity, and edge-level deployment [4][5][12]. The OPC Unified Architecture (OPC UA) standard has emerged as a preferred solution for structured data exchange, offering security, platform independence, and semantic interoperability across heterogeneous assets [13][14]. When coupled with lightweight AI algorithms, OPC UA-based systems enable continuous monitoring and localized anomaly detection without requiring extensive retrofitting or external sensors [15][16]. This direction aligns with current industrial trends favoring incremental digitalization and pragmatic integration over full-scale AI transformation [9][11]."
+  }, {
+    "type" : "paragraph",
+    "id" : 85,
+    "page number" : 3,
+    "bounding box" : [ 37.974, 311.455, 506.079, 394.609 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "For engineer-to-order (ETO) manufacturing, where products are unique, datasets are small, and machine usage is non-repetitive, the literature supports the need for simplified PdM architectures that prioritize interoperability and minimal data dependency [17][19][20]. Opportunistic sensing, feature selection, and ontology-augmented reasoning have been proposed to handle sparse signals and contextual variability [4][19]. Moreover, digital twin–assisted learning frameworks are increasingly used to generate synthetic data and compensate for missing historical records [5][14][15]. Together, these approaches converge toward an architectural paradigm that values data accessibility and explainable processing pipelines as much as raw predictive accuracy."
+  }, {
+    "type" : "heading",
+    "id" : 86,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 37.974, 287.455, 178.175, 298.617 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "3. Proposed System Architecture"
+  }, {
+    "type" : "paragraph",
+    "id" : 87,
+    "page number" : 3,
+    "bounding box" : [ 37.984, 179.437, 505.676, 274.587 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "The proposed architecture aims to enable the integration of Artificial Intelligence (AI) techniques for Predictive Maintenance (PdM) in ETO manufacturing environments, where process variability, limited data, and heterogeneous machine configurations pose major challenges to model deployment. The framework, illustrated in Figure 1, provides a modular and interoperable approach for connecting native CNC signals, preprocessing them for feature extraction, and performing exploratory analytics using lightweight ML models. At its core, the architecture is designed around three functional data acquisition, data pre-processing and feature engineering, and machine learning analytics. These layers collectively define a complete yet adaptable data flow, from raw signal ingestion to real-time condition assessment."
+  }, {
+    "type" : "list",
+    "id" : 88,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 37.984, 155.437, 121.183, 166.6 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 73,
+    "next list id" : 92,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 37.984, 155.437, 121.183, 166.6 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.08,
+      "text color" : "[0.0]",
+      "content" : "3.1 Data Acquisition",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "page number" : 3,
+    "bounding box" : [ 37.994, 59.435, 505.877, 142.599 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "The data acquisition layer establishes standardized communication between CNC machines and the analytics environment. Data is collected directly from the native CNC controller within the ETO machining environment through the OPC Unified Architecture (OPC UA) protocol. The OPC UA server/client gateway ensures secure, interoperable, and vendor-independent access to real-time operational variables such as spindle torque, axis load, feed rate, and temperature compensation. This configuration allows consistent data flow from the machine controller without requiring additional sensors, reducing cost and integration complexity. The collected telemetry is streamed to a local server, where it is made available for analysis and visualization through monitoring tools such as Grafana."
+  }, {
+    "type" : "list",
+    "id" : 91,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 38.624, 706.624, 374.648, 715.395 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 38.624, 706.624, 374.648, 715.395 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "4 Author name / Procedia Computer Science 00 (2025) 000–000",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 90,
+    "page number" : 4,
+    "bounding box" : [ 38.835, 688.644, 422.804, 697.503 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 8.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1172 Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176"
+  }, {
+    "type" : "image",
+    "id" : 96,
+    "page number" : 4,
+    "bounding box" : [ 38.7, 535.527, 454.4, 670.527 ],
+    "source" : "26_images/imageFile4.png"
+  }, {
+    "type" : "caption",
+    "id" : 95,
+    "page number" : 4,
+    "bounding box" : [ 76.304, 516.734, 431.374, 535.585 ],
+    "linked content id" : 96,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Fig 1. Proposed OPC UA–based architecture for AI-enabled Predictive Maintenance in engineer-to-order CNC machining."
+  }, {
+    "type" : "list",
+    "id" : 93,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 38.609, 116.162, 506.451, 510.839 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 38.629, 499.676, 242.073, 510.839 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.08,
+      "text color" : "[0.0]",
+      "content" : "3.2 Data Pre-Processing and Feature Engineering",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 20,
+        "page number" : 4,
+        "bounding box" : [ 38.629, 463.68, 506.272, 486.838 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.08,
+        "text color" : "[0.0]",
+        "content" : "The second layer focuses on transforming raw CNC data into structured and meaningful inputs for AI models. It includes three sequential stages:"
+      }, {
+        "type" : "list",
+        "id" : 21,
+        "level" : "5",
+        "page number" : 4,
+        "bounding box" : [ 56.612, 379.694, 506.36, 464.0 ],
+        "numbering style" : "unordered",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 4,
+          "bounding box" : [ 56.632, 439.69, 506.36, 464.0 ],
+          "font" : "Symbol",
+          "font size" : 10.08,
+          "text color" : "[0.0]",
+          "content" : " Raw data ingestion, where machine telemetry is time-aligned and cleaned to remove inconsistencies and outliers;",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 4,
+          "bounding box" : [ 56.622, 415.679, 506.097, 439.989 ],
+          "font" : "Symbol",
+          "font size" : 10.08,
+          "text color" : "[0.0]",
+          "content" : " Feature extraction, which derives statistical and temporal indicators (e.g., mean, variance, RMS, kurtosis) from the raw signals; and",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 4,
+          "bounding box" : [ 56.612, 379.694, 506.146, 415.999 ],
+          "font" : "Symbol",
+          "font size" : 10.08,
+          "text color" : "[0.0]",
+          "content" : " Feature selection, which applies dimensionality-reduction techniques such as Principal Component Analysis (PCA) and Minimum Redundancy–Maximum Relevance (mRMR) to identify the most informative parameters.",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 22,
+        "page number" : 4,
+        "bounding box" : [ 38.609, 343.688, 506.42, 378.861 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.08,
+        "text color" : "[0.0]",
+        "content" : "The output of this layer is a processed feature store, which feeds the ML orchestrator. This step ensures that the analytics layer receives compact, relevant, and computationally efficient input data, particularly important in ETO scenarios where data volume and uniformity are limited."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 38.609, 319.698, 167.794, 330.861 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 10.08,
+      "text color" : "[0.0]",
+      "content" : "3.3 Machine Learning Analytics",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 23,
+        "page number" : 4,
+        "bounding box" : [ 38.619, 223.706, 506.592, 306.87 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.08,
+        "text color" : "[0.0]",
+        "content" : "The third layer constitutes the ML model zoo, integrating multiple algorithms for exploratory analysis and condition monitoring. Architecture supports pre-trained PdM modules targeting anomaly detection, Remaining Useful Life (RUL) estimation, and failure prediction. Lightweight models such as Decision Tree, XGBoost, and LSTM are prioritized for their balance between interpretability and temporal modeling capability. Model orchestration is handled by a dedicated component that selects the appropriate algorithm based on data characteristics and analytical objectives. The processed outputs are then displayed through a real-time dashboard, allowing operators to visualize machine conditions, predicted degradation trends, and alert thresholds."
+      }, {
+        "type" : "paragraph",
+        "id" : 24,
+        "page number" : 4,
+        "bounding box" : [ 38.619, 163.71, 506.804, 222.853 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.08,
+        "text color" : "[0.0]",
+        "content" : "The three layers are connected in a closed-loop configuration: data acquisition, preprocessing, ML inference, and visualization. Hence, Operator feedback, when available, can be reintroduced into the training process to refine model parameters. The modular design supports future extensions such as integration with digital twins, federated learning setups, or cloud-based analytics services. By relying solely on interoperable communication standards and native data sources, the framework ensures scalability and adaptability across different machines and ETO configurations."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 38.619, 116.162, 506.451, 150.842 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 10.08,
+      "text color" : "[0.0]",
+      "content" : "4. Case study The proposed predictive-maintenance (PdM) architecture was implemented in an ETO machining context to",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 92,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 38.624, 100.188, 42.584, 108.959 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 88,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 38.624, 100.188, 42.584, 108.959 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "4",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 98,
+    "page number" : 5,
+    "bounding box" : [ 172.472, 683.424, 505.82, 697.503 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 12,
+      "page number" : 5,
+      "bounding box" : [ 172.472, 688.644, 505.417, 697.503 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176 1173"
+    }, {
+      "type" : "paragraph",
+      "id" : 13,
+      "page number" : 5,
+      "bounding box" : [ 179.87, 683.424, 505.82, 692.195 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "Author name / Procedia Computer Science 00 (2025) 000–000 5"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 99,
+    "page number" : 5,
+    "bounding box" : [ 37.974, 464.456, 506.18, 671.08 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "evaluate its feasibility for real industrial integration. The objective was to test whether interoperable data communication and lightweight analytics could be achieved using existing controller infrastructure and without additional sensorization. By establishing a continuous information flow, from machine-level signal acquisition to AIenabled analysis, the case study aimed to validate the architectural soundness and identify practical considerations for ETO deployment. To enable secure and scalable data collection, the OPC Unified Architecture (OPC UA) protocol played a central role [33]. Its client–server and publish–subscribe mechanisms ensure encrypted, role-based communication between heterogeneous devices, supporting interoperability from shop-floor CNC machines to enterprise IT layers. This capability is particularly critical in predictive-maintenance workflows, where diverse signals must be aggregated and analyzed without compromising data integrity. At the machine level, the Siemens SINUMERIK 840D SL numeric controller exemplified how PdM can be implemented using native data access [34]. Through its integrated OPC UA server, both PLC and NC data were made available for monitoring, including parameters such as axis load, spindle torque, and alarm states [35]. The case study applied the developed architecture to a five-axis CNC machining system, illustrating how integrated data pipelines can support the preliminary implementation of PdM analytics. The most relevant variables for predictive maintenance were found within the NC core (NCK) of the controller, as these describe the dynamic state of the machine’s axes and spindle. The variables extracted from both the controller and the Manufacturing Execution System (MES) are summarized in Table 1, which lists the tag paths, variable names, descriptions, and units."
+  }, {
+    "type" : "paragraph",
+    "id" : 100,
+    "page number" : 5,
+    "bounding box" : [ 114.134, 403.964, 376.447, 441.795 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Variables used in the case study. Variable Description / Role in PdM Type Axis current Electrical current drawn by the machine"
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 404.204, 382.902, 412.975 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Double"
+  }, {
+    "type" : "paragraph",
+    "id" : 102,
+    "page number" : 5,
+    "bounding box" : [ 207.98, 384.047, 340.196, 402.655 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "axes; sensitive to tool wear and increased friction"
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 360.044, 339.476, 378.895 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Axis load Percentage of mechanical load applied to the axis drive; indicator of process effort"
+  }, {
+    "type" : "paragraph",
+    "id" : 107,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 336.024, 336.094, 354.895 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Filtered axis load Smoothed version of load signal used to remove transient spikes"
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 312.024, 334.042, 330.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Axis torque Torque command from the spindle/axis drive; proxy for cutting forces"
+  }, {
+    "type" : "paragraph",
+    "id" : 111,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 278.187, 339.741, 306.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Feed rate Instantaneous tool feed velocity; relevant for correlating process stage with load variations"
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 370.124, 382.902, 378.895 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Double"
+  }, {
+    "type" : "paragraph",
+    "id" : 108,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 346.124, 382.902, 354.895 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Double"
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 322.104, 382.902, 330.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Double"
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 298.104, 382.902, 306.875 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Double"
+  }, {
+    "type" : "paragraph",
+    "id" : 113,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 254.154, 347.628, 272.765 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Thermal compensation Axis temperature compensation value; used to infer thermal drift and stability"
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 230.154, 327.57, 248.765 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Axis type Specifies whether the axis is linear or rotary; used for signal grouping"
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 5,
+    "bounding box" : [ 122.49, 206.154, 335.785, 224.765 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Alarm number Active alarm identifiers and textual descriptions from the CNC alarm buffer"
+  }, {
+    "type" : "paragraph",
+    "id" : 114,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 263.994, 382.902, 272.765 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Double"
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 239.994, 381.785, 248.765 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Integer"
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 5,
+    "bounding box" : [ 359.49, 215.994, 402.045, 224.765 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "String / Long"
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 5,
+    "bounding box" : [ 37.984, 106.748, 505.665, 175.548 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "These parameters, widely used in previous studies on tool wear, chatter detection, and spindle reliability analysis (see [36], [37], [38]), formed the foundation of the present implementation. Since dozens of signals can be extracted from the controller, feature selection was necessary to identify the most informative variables while reducing redundancy and computational cost. Techniques such as Minimum Redundancy–Maximum Relevance (mRMR), Recursive Feature Elimination (RFE), Random Forest importance ranking, and Principal Component Analysis (PCA) have proven effective in improving PdM model performance by filtering out irrelevant or correlated variables [39]."
+  }, {
+    "type" : "header",
+    "id" : 121,
+    "page number" : 6,
+    "bounding box" : [ 38.624, 684.424, 422.804, 697.503 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 14,
+      "page number" : 6,
+      "bounding box" : [ 38.835, 688.644, 422.804, 697.503 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1174 Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176"
+    }, {
+      "type" : "paragraph",
+      "id" : 15,
+      "page number" : 6,
+      "bounding box" : [ 38.624, 684.424, 374.648, 693.195 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "6 Author name / Procedia Computer Science 00 (2025) 000–000"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 122,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 38.624, 660.437, 145.925, 671.6 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "5. Results and Discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 6,
+    "bounding box" : [ 38.624, 588.425, 506.536, 647.599 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "The implementation of the proposed predictive-maintenance (PdM) architecture confirmed its technical feasibility and interoperability within an engineer-to-order (ETO) machining environment. The system successfully enabled continuous data acquisition through OPC UA, feature preprocessing, and exploratory model execution using native controller signals only. This section presents the main observations from the data analysis and discusses their implications for predictive maintenance in data-scarce manufacturing settings."
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 6,
+    "bounding box" : [ 38.644, 444.432, 506.749, 575.598 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "The exploratory analysis demonstrated that the selected variables, particularly axis current, load, torque, and feed rate, are effective indicators of machine behavior. Feature-ranking results obtained through Minimum Redundancy– Maximum Relevance (mRMR) and Principal Component Analysis (PCA) consistently emphasized these parameters as dominant contributors to signal variance and mechanical condition tracking. This confirms the relevance of the selected feature set identified in the case study (Table 1), aligning with previous research on tool wear and spindle reliability [36–38]. Preliminary anomaly detection using Decision Tree, XGBoost, and LSTM models provided coherent responses to deviations in torque and load signals, corresponding to known process variations. While the dataset size and time coverage were insufficient for full predictive validation, the tests verified that the architecture can manage continuous signal processing, model inference, and result visualization in real time. The Grafana interface enabled operators to view live trends and flagged events, enhancing transparency and interpretability, an important prerequisite for operator adoption in ETO workshops."
+  }, {
+    "type" : "image",
+    "id" : 127,
+    "page number" : 6,
+    "bounding box" : [ 90.45, 278.377, 443.8, 429.677 ],
+    "source" : "26_images/imageFile5.png"
+  }, {
+    "type" : "image",
+    "id" : 126,
+    "page number" : 6,
+    "bounding box" : [ 50.6, 125.977, 518.35, 326.327 ],
+    "source" : "26_images/imageFile6.png"
+  }, {
+    "type" : "caption",
+    "id" : 129,
+    "page number" : 6,
+    "bounding box" : [ 116.17, 254.914, 439.732, 273.765 ],
+    "linked content id" : 127,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 7.92,
+    "text color" : "[0.0]",
+    "content" : "Fig 2. Projected improvement in Overall Equipment Effectiveness (OEE) and reduction in unplanned downtime following the implementation of predictive-maintenance architecture."
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 6,
+    "bounding box" : [ 38.654, 135.027, 506.517, 242.171 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "Figure 2 summarizes the expected operational improvements projected from the implementation of PdM workflows. Based on conservative benchmarking and preliminary signal analyses, the adoption of the architecture could lead to an increase in Overall Equipment Effectiveness (OEE) from approximately 32 % to 45–55 %, accompanied by a 30–50 % reduction in unplanned downtime. These figures are indicative rather than definitive; they are derived from the system’s potential to anticipate abnormal conditions and optimize maintenance scheduling rather than from long-term production statistics. The study validates the architectural readiness of the proposed framework and outlines its role as a foundation for scalable PdM systems in ETO manufacturing. The next phase of research will focus on expanding the monitoring period, incorporating additional CNC assets, and refining the AI models for enhanced temporal prediction and cross-machine generalization."
+  }, {
+    "type" : "footer",
+    "id" : 130,
+    "page number" : 6,
+    "bounding box" : [ 38.624, 77.988, 42.584, 86.759 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 8,
+      "page number" : 6,
+      "bounding box" : [ 38.624, 77.988, 42.584, 86.759 ],
+      "heading level" : 5,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "6"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 132,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 37.984, 660.437, 95.884, 671.6 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "6. Conclusion"
+  }, {
+    "type" : "header",
+    "id" : 131,
+    "page number" : 7,
+    "bounding box" : [ 172.472, 684.424, 505.82, 697.503 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 16,
+      "page number" : 7,
+      "bounding box" : [ 172.472, 688.644, 505.417, 697.503 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176 1175"
+    }, {
+      "type" : "paragraph",
+      "id" : 17,
+      "page number" : 7,
+      "bounding box" : [ 179.87, 684.424, 505.82, 693.195 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "Author name / Procedia Computer Science 00 (2025) 000–000 7"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 7,
+    "bounding box" : [ 37.981, 528.582, 505.819, 646.744 ],
+    "font" : "Times New Roman",
+    "font size" : 9.12,
+    "text color" : "[0.0]",
+    "content" : "This paper presented the design and implementation of an AI-enabled PdM architecture tailored to ETO manufacturing environments. The framework integrates OPC UA-based data acquisition, feature-engineering routines, and lightweight AI models to enable real-time monitoring using only native CNC controller signals. The case study confirmed the feasibility and interoperability of the proposed setup: data were successfully acquired, pre-processed, and analyzed within a modular pipeline that maintained transparency and minimal computational requirements. Exploratory analyses demonstrated that variables such as torque, current, and load provide meaningful indicators of machine condition and can support the early detection of abnormal behaviors. While the dataset size limited quantitative validation, the study establishes a practical foundation for scalable PdM deployment in data-scarce environments. Future work will focus on extending the monitoring period, enriching the dataset, and refining model performance to transition from feasibility validation toward fully predictive applications in complex ETO production systems."
+  }, {
+    "type" : "heading",
+    "id" : 134,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 37.984, 492.628, 120.79, 503.791 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "Acknowledgements"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 7,
+    "bounding box" : [ 37.974, 458.518, 496.238, 492.723 ],
+    "font" : "Times New Roman",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "This work was supported by “Patto Territoriale dell’Alta Formazione per le imprese” Finanziato con DPCM del 26 settembre 2023 a valere sui fondi di cui all’art. l’art. 14-bis del decreto-legge del 6 novembre 2021, n.152, CUP: H52C23000090001."
+  }, {
+    "type" : "heading",
+    "id" : 136,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 37.974, 435.233, 84.806, 446.396 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.08,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 137,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 37.976, 66.126, 506.182, 424.795 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 17,
+    "next list id" : 140,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 406.647, 505.36, 424.795 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[1] Monroy-Osorio JC. Charting the digital route to net-zero: A framework for sustainable industry practices. Cleaner Logistics and Supply Chain 2024;13:100191. https://doi.org/10.1016/j.clscn.2024.100191.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 379.038, 506.182, 406.294 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[2] Patrício L, Varela L, Silveira Z. Proposal for a Sustainable Model for Integrating Robotic Process Automation and Machine Learning in Failure Prediction and Operational Efficiency in Predictive Maintenance. Applied Sciences 2025;15:854. https://doi.org/10.3390/app15020854.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 360.79, 505.557, 378.685 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[3] Drakaki M, Karnavas YL, Tziafettas IA, Linardos V, Tzionas P. Machine learning and deep learning based methods toward industry 4.0 predictive maintenance in induction motors: State of the art survey. JIEM 2022;15:31. https://doi.org/10.3926/jiem.3597.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 333.165, 505.953, 360.199 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[4] Cao Q, Zanni-Merk C, Samet A, Reich C, Beuvron FDBD, Beckmann A, Giannetti C. KSPMI: A Knowledge-based System for Predictive Maintenance in Industry 4.0. Robotics and Computer-Integrated Manufacturing 2022;74:102281. https://doi.org/10.1016/j.rcim.2021.102281.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.992, 314.68, 505.788, 332.574 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[5] Piankitrungreang P, Chaiprabha K, Chungsangsatiporn W, Ratanasumawong C, Chancharoen P, Chancharoen R. Acoustic-Based Machine Main State Monitoring for High-Speed CNC Drilling. Machines 2025;13:372. https://doi.org/10.3390/machines13050372.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.992, 287.071, 505.755, 314.327 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[6] Sharma SS, V V, Malviya A. AI-Enhanced Predictive Maintenance in Intelligent Systems for Industries. 2024 International Conference on Advances in Computing Research on Science Engineering and Technology (ACROSET), Indore, India: IEEE; 2024, p. 1–6. https://doi.org/10.1109/ACROSET62108.2024.10743977.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 268.554, 505.36, 286.718 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[7] Monroy-Osorio JC. Charting the digital route to net-zero: A framework for sustainable industry practices. Cleaner Logistics and Supply Chain 2024;13:100191. https://doi.org/10.1016/j.clscn.2024.100191.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 250.306, 505.477, 268.201 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[8] Bampoula X, Siaterlis G, Nikolakis N, Alexopoulos K. A Deep Learning Model for Predictive Maintenance in Cyber-Physical Production Systems Using LSTM Autoencoders. Sensors 2021;21:972. https://doi.org/10.3390/s21030972.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 231.821, 505.715, 249.953 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[9] Abele E, Panten N, Menz B. Data Collection for Energy Monitoring Purposes and Energy Control of Production Machines. Procedia CIRP 2015;29:299–304. https://doi.org/10.1016/j.procir.2015.01.035.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.976, 204.212, 505.81, 231.468 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[10] Satwaliya DS, Thethi HP, Dhyani A, Kiran GR, Al-Taee M, Alazzam MB. Predictive Maintenance using Machine Learning: A Case Study in Manufacturing Management. 2023 3rd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE), Greater Noida, India: IEEE; 2023, p. 872–6. https://doi.org/10.1109/ICACITE57410.2023.10183012.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.976, 185.948, 505.795, 203.843 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[11] Ayvaz S, Alpay K. Predictive maintenance system for production lines in manufacturing: A machine learning approach using IoT data in real-time. Expert Systems with Applications 2021;173:114598. https://doi.org/10.1016/j.eswa.2021.114598.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.976, 167.463, 505.684, 185.357 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[12] Wahid A, Breslin JG, Intizar MA. Prediction of Machine Failure in Industry 4.0: A Hybrid CNN-LSTM Framework. Applied Sciences 2022;12:4221. https://doi.org/10.3390/app12094221.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.984, 139.854, 505.731, 167.11 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[13] Habib M, Mohamed K. Innovative Development of Hybrid LSTM-CNN Architecture with Optimized Parameters for Enhanced Predictive Maintenance Performance. 2024 8th International Symposium on Innovative Approaches in Smart Technologies (ISAS), İstanbul, Turkiye: IEEE; 2024, p. 1–6. https://doi.org/10.1109/ISAS64331.2024.10845282.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.992, 121.337, 505.398, 139.501 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[14] Falekas G, Karlis A. Digital Twin in Electrical Machine Control and Predictive Maintenance: State-of-the-Art and Future Prospects. Energies 2021;14:5933. https://doi.org/10.3390/en14185933.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 37.992, 103.089, 504.921, 120.984 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[15] Javaid M, Haleem A, Singh RP, Suman R. Enabling flexible manufacturing system (FMS) through the applications of industry 4.0 technologies. Internet of Things and Cyber-Physical Systems 2022;2:49–62. https://doi.org/10.1016/j.iotcps.2022.05.005.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 38.0, 75.488, 505.715, 102.506 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[16] Sudhakar KVS, Deepika NM, Khairnar PN, Kumar PS, Bindal AK, Ranjit PS, Franjkovic J. Predictive Maintenance Using AI and IoT in Aerospace Engineering. Recent Trends In Engineering and Science for Resource Optimization and Sustainable Development. 1st ed., London: CRC Press; 2024, p. 19–22. https://doi.org/10.1201/9781003596721-5.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 38.0, 66.126, 504.828, 74.897 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[17] Doanh DC, Dufek Z, Ejdys J, Ginevičius R, Korzynski P, Mazurek G, Paliszkiewicz J, Wach K, Ziemba E. Generative AI in the",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 138,
+    "page number" : 8,
+    "bounding box" : [ 38.624, 681.424, 422.804, 697.503 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 18,
+      "page number" : 8,
+      "bounding box" : [ 38.835, 688.644, 422.804, 697.503 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1176 Fausta Abbruzzese et al. / Procedia Computer Science 274 (2025) 1169–1176"
+    }, {
+      "type" : "paragraph",
+      "id" : 19,
+      "page number" : 8,
+      "bounding box" : [ 38.624, 681.424, 374.648, 690.195 ],
+      "font" : "TimesNewRomanPS-ItalicMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "8 Author name / Procedia Computer Science 00 (2025) 000–000"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 140,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 38.616, 172.562, 506.862, 669.078 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 23,
+    "previous list id" : 137,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 139,
+      "page number" : 8,
+      "bounding box" : [ 63.825, 651.184, 506.862, 669.078 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "Manufacturing Process: Theoretical Considerations. Engineering Management in Production and Services 2023;15:76–89. https://doi.org/10.2478/emj-2023-0029.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.624, 632.699, 506.45, 650.831 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[18] Hoffmann R, Reich C. A Systematic Literature Review on Artificial Intelligence and Explainable Artificial Intelligence for Visual Quality Assurance in Manufacturing. Electronics 2023;12:4572. https://doi.org/10.3390/electronics12224572.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 614.427, 506.092, 632.322 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[19] Nasir V, Cool J. Intelligent wood machining monitoring using vibration signals combined with self-organizing maps for automatic feature selection. Int J Adv Manuf Technol 2020;108:1811–25. https://doi.org/10.1007/s00170-020-05505-5.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 595.942, 506.142, 613.836 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[20] Jittawiriyanukoon C, Srisarkun V. Simulation for predictive maintenance using weighted training algorithms in machine learning. IJECE 2022;12:2839. https://doi.org/10.11591/ijece.v12i3.pp2839-2846.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 577.457, 505.894, 595.589 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[21] Bretones Cassoli B, Hoffmann F, Metternich J. Comparison of AI-Based Business Models in Manufacturing: Case Studies on Predictive Maintenance 2021. https://doi.org/10.15488/11286.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 549.832, 506.633, 577.104 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[22] Schöggl J-P, Rusch M, Stumpf L, Baumgartner RJ. Implementation of digital technologies for a circular economy and sustainability management in the manufacturing sector. Sustainable Production and Consumption 2023;35:401–20. https://doi.org/10.1016/j.spc.2022.11.012.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 522.223, 506.395, 549.479 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[23] Garg A, Vemaraju S. Artificial Intelligence Applications in Predictive Maintenance for Sustainable Logistics. 2024 IEEE 4th International Conference on ICT in Business Industry &amp; Government (ICTBIG), Indore, India: IEEE; 2024, p. 1–5. https://doi.org/10.1109/ICTBIG64922.2024.10911124.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.624, 503.975, 506.245, 521.869 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[24] Puttero S, Verna E, Genta G, Galetto M. Improved quality control and sustainability in food production by machine learning. Procedia CIRP 2024;122:533–8. https://doi.org/10.1016/j.procir.2024.01.078.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.616, 485.49, 506.3, 503.384 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[25] Kathirvel M., Chandrasekaran M. Predictive Maintenance and Energy Optimization with AI-Driven IoT Framework in Textile Manufacturing Industry. IJCESEN 2025;11. https://doi.org/10.22399/ijcesen.1584.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.624, 466.981, 506.148, 485.113 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[26] Jamwal A, Agrawal R, Sharma M. Deep learning for manufacturing sustainability: Models, applications in Industry 4.0 and implications. International Journal of Information Management Data Insights 2022;2:100107. https://doi.org/10.1016/j.jjimei.2022.100107.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 439.371, 506.306, 466.627 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[27] Cagno E, Accordini D, Thollander P, Andrei M, Hasan ASMM, Pessina S, Trianni A. Energy management and industry 4.0: Analysis of the enabling effects of digitalization on the implementation of energy management practices. Applied Energy 2025;390:125877. https://doi.org/10.1016/j.apenergy.2025.125877.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 411.746, 506.593, 439.018 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[28] P R, Shruti JR, Thippeswamy I, B L N, V D. A Surrogate Approach to Explainable AI for Predictive Maintenance: Techniques and Applications. 2024 5th International Conference on Circuits, Control, Communication and Computing (I4C), Bangalore, India: IEEE; 2024, p. 160–5. https://doi.org/10.1109/I4C62240.2024.10748524.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 393.499, 506.466, 411.393 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[29] Khan M, Haleem A, Javaid M. Changes and improvements in Industry 5.0: A strategic approach to overcome the challenges of Industry 4.0. Green Technologies and Sustainability 2023;1:100020. https://doi.org/10.1016/j.grets.2023.100020.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 375.013, 506.489, 392.908 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[30] Sharma R, Villányi B. Evaluation of corporate requirements for smart manufacturing systems using predictive analytics. Internet of Things 2022;19:100554. https://doi.org/10.1016/j.iot.2022.100554.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 338.265, 506.641, 374.66 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[31] Arabelli R, Chotaliya DK, Gadhave RT, Haritha B, Kasireddy LC, Soni M. Artificial Intelligence in Next Generation IoT Infrastructure: Challenges and Opportunities. 2025 First International Conference on Advances in Computer Science, Electrical, Electronics, and Communication Technologies (CE2CT), Bhimtal, Nainital, India: IEEE; 2025, p. 1436–40. https://doi.org/10.1109/CE2CT64011.2025.10939142.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 310.656, 506.641, 337.674 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[32] Siaterlis G, Nikolakis N, Alexopoulos K, Makris S. Adoption of AI in EU Manufacturing. Gaps and Challenges. In: Katalinic B, editor. DAAAM Proceedings, vol. 1. 1st ed., DAAAM International Vienna; 2022, p. 0547–50. https://doi.org/10.2507/33rd.daaam.proceedings.077.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 292.17, 506.355, 310.302 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[33] Unified Architecture. OPC Foundation n.d. https://opcfoundation.org/developer-tools/specifications-unified-architecture (accessed July 5, 2025).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 283.046, 401.685, 291.817 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[34] SINUMERIK SINUMERIK 840D sl Universal Operating Manual. 12/2019 ; 6FC5398-6AP40-6BA2 n.d.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 255.406, 506.862, 282.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[35] Varga P, Blomstedt F, Ferreira LL, Eliasson J, Johansson M, Delsing J, Martínez de Soria I. Making system of systems interoperable – The core components of the arrowhead framework. Journal of Network and Computer Applications 2017;81:85–95. https://doi.org/10.1016/j.jnca.2016.08.028.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 236.92, 506.032, 255.053 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[36] Al-Naggar YM, Jamil N, Hassan MF, Yusoff AR. Condition monitoring based on IoT for predictive maintenance of CNC machines. Procedia CIRP 2021;102:314–8. https://doi.org/10.1016/j.procir.2021.09.054.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.632, 218.673, 506.435, 236.567 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[37] Denkena B, Klemme H, Stiehl TH. Multivariate time series data of milling processes with varying tool wear and machine tools. Data in Brief 2023;50:109574. https://doi.org/10.1016/j.dib.2023.109574.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.64, 200.187, 505.924, 218.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[38] Huang Z, Zhu J, Lei J, Li X, Tian F. Tool wear predicting based on multi-domain feature fusion by deep convolutional neural network in milling operations. J Intell Manuf 2020;31:953–66. https://doi.org/10.1007/s10845-019-01488-7.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 38.64, 172.562, 506.664, 199.818 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "[39] Bezerra FE, Oliveira Neto GC de, Cervi GM, Francesconi Mazetto R, Faria AM de, Vido M, Lima GA, Araújo SA de, Sampaio M, Amorim M. Impacts of Feature Selection on Predicting Machine Failures by Machine Learning Algorithms. Applied Sciences 2024;14:3337. https://doi.org/10.3390/app14083337.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 141,
+    "page number" : 8,
+    "bounding box" : [ 38.624, 74.988, 42.584, 83.759 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 9,
+      "page number" : 8,
+      "bounding box" : [ 38.624, 74.988, 42.584, 83.759 ],
+      "heading level" : 5,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 7.92,
+      "text color" : "[0.0]",
+      "content" : "8"
+    } ]
+  } ]
+}

@@ -1,0 +1,3400 @@
+{
+  "file name" : "29.pdf",
+  "number of pages" : 16,
+  "author" : "Sadiq T. Bunyan, Zeashan Hameed Khan, Luttfi A. Al-Haddad, Hayder Abed Dhahad, Mustafa I. Al-Karkhi, Ahmed Ali Farhan Ogaili and Zainab T. Al-Sharify",
+  "title" : "Intelligent Thermal Condition Monitoring for Predictive Maintenance of Gas Turbines Using Machine Learning",
+  "creation date" : "D:20250511180414+08'00'",
+  "modification date" : "D:20250511120805+02'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 732.544, 63.213, 744.958 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 84,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 688.402, 499.44, 731.458 ],
+    "heading level" : 1,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "Intelligent Thermal Condition Monitoring for Predictive Maintenance of Gas Turbines Using Machine Learning"
+  }, {
+    "type" : "heading",
+    "id" : 85,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 650.99, 486.928, 678.612 ],
+    "heading level" : 6,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Sadiq T. Bunyan 1 , Zeashan Hameed Khan 2 , Luttfi A. Al-Haddad 3,* , Hayder Abed Dhahad 3, Mustafa I. Al-Karkhi 3, Ahmed Ali Farhan Ogaili 4 and Zainab T. Al-Sharify 5,6"
+  }, {
+    "type" : "paragraph",
+    "id" : 77,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 189.943, 149.647, 337.795 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editor: Ahmed Abu-Siada Received: 28 March 2025 Revised: 1 May 2025 Accepted: 9 May 2025 Published: 11 May 2025 Citation: Bunyan, S.T.; Khan, Z.H.; Al-Haddad, L.A.; Dhahad, H.A.; Al-Karkhi, M.I.; Ogaili, A.A.F.; Al-Sharify, Z.T. Intelligent Thermal Condition Monitoring for Predictive Maintenance of Gas Turbines Using Machine Learning. Machines 2025, 13,"
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 166.246, 130.769, 186.721 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "401. https://doi.org/10.3390/ machines13050401"
+  }, {
+    "type" : "paragraph",
+    "id" : 79,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 64.866, 147.353, 156.893 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Copyright: © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/ licenses/by/4.0/)."
+  }, {
+    "type" : "list",
+    "id" : 91,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 545.78, 559.259, 631.884 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 621.098, 442.737, 631.884 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 Ministry of Higher Education and Scientific Research, Baghdad 10066, Iraq",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 599.579, 559.098, 621.125 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Interdisciplinary Research Center for Intelligent Manufacturing and Robotics (IRC-IMR), King Fahd University of Petroleum and Minerals (KFUPM), Dhahran 31261, Saudi Arabia; zeashan.khan@kfupm.edu.sa",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 588.819, 495.579, 599.605 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3 Mechanical Engineering Department, University of Technology-Iraq, Baghdad 10066, Iraq",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 578.059, 559.259, 588.845 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "4 Mechanical Engineering Department, College of Engineering, Mustansiriyah University, Baghdad 10052, Iraq",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 556.54, 506.984, 578.086 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "5 Environmental Engineering Department, Al Hikma University College, Baghdad 10052, Iraq; zainab.alsharify@hiuc.edu.iq or zta011@alumni.bham.ac.uk",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 545.78, 484.054, 556.566 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "6 Chemical Engineering Department, Birmingham University, Birmingham B15 2TT, UK",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 92,
+    "level" : "3",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 534.878, 378.462, 544.793 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: luttfi.a.alhaddad@uotechnology.edu.iq"
+  }, {
+    "type" : "paragraph",
+    "id" : 93,
+    "page number" : 1,
+    "bounding box" : [ 165.975, 286.977, 561.019, 522.034 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abstract: Gas turbines play a crucial role in power generation and aviation, where effective maintenance strategies are essential to ensure reliability. Traditional condition monitoring methods often rely on scheduled inspections, leading to potential downtime and increased maintenance costs. This study presents an AI-driven approach for thermal condition monitoring and the predictive maintenance of gas turbines using machine learning. An Extreme Gradient Boosting (XGBoost)-based classification model was developed to distinguish between healthy and faulty operating conditions based on thermal load data. The dataset, collected over six months from strategically placed thermocouples in the exhaust gas section, was processed to extract key statistical features such as mean temperature, standard deviation, and skewness. The proposed XGBoost model achieved a classification accuracy (CA) of 97.2%, with an F1-score of 96.8%, precision of 97.5%, and recall of 96.1%, demonstrating its effectiveness in detecting anomalies. The results indicate that the integration of machine learning in gas turbine monitoring significantly enhances fault detection capabilities, enabling proactive maintenance strategies and reducing the risk of critical failures. This study provides valuable insights for data-driven maintenance strategies, optimizing operational efficiency and extending the lifespan of gas turbine components. Future work will focus on real-time deployment and further validation with extended datasets."
+  }, {
+    "type" : "paragraph",
+    "id" : 94,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 247.167, 559.278, 273.308 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Keywords: thermal condition monitoring; predictive maintenance; gas turbine; machine learning; XGBoost classification; fault detection; data-driven maintenance"
+  }, {
+    "type" : "heading",
+    "id" : 96,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 193.579, 248.132, 208.356 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 177.851, 297.87, 190.265 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1.1. Background and Motivation"
+  }, {
+    "type" : "paragraph",
+    "id" : 98,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 63.661, 560.929, 173.369 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Gas turbines are essential components in various industrial applications, particularly in power generation, aviation, and manufacturing [1–3]. Their ability to operate efficiently at high power levels makes them of critical value to power generation and propulsion equipment [4–6]. The severe mechanical and thermal stresses that result upon operation, however, are of great challenge to the reliability, longevity, and performance of the component [7–14]. The hottest component of a gas turbine, including items such as turbine blades and vanes, is most susceptible to thermal degradation and fatigue, which makes effective monitoring and servicing critical [15]."
+  }, {
+    "type" : "paragraph",
+    "id" : 100,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 28.183, 559.277, 38.13 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Machines 2025, 13, 401 https://doi.org/10.3390/machines13050401"
+  }, {
+    "type" : "header",
+    "id" : 101,
+    "page number" : 2,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 10,
+      "page number" : 2,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 2 of 16"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 645.821, 559.278, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The increasing complexity of modern gas turbines has led to a greater emphasis on condition monitoring and predictive maintenance to ensure their continued efficiency and safe operation [16,17]. Traditional maintenance activities such as preventive maintenance on schedule and reactive repairs also result in unnecessary costs, unplanned downtime, and safety risks [18–24]. The use of pre-established plans rather than actual operating conditions makes such processes ineffective in detecting defects that are early-stage. Industries are, hence, switching to data-driven maintenance strategies that employ sensor-based monitoring along with computational techniques to perform informed decision making on maintenance [25,26]."
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 2,
+    "bounding box" : [ 166.005, 478.689, 560.928, 644.107 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In recent years, the integration of machine learning and artificial intelligence (AI) techniques has revolutionized asset management and fault detection in industrial systems [27,28]. AI-driven models, particularly those focused on predictive analytics, enable the early identification of anomalies based on real-time operational data. By analyzing key parameters such as temperature fluctuations, pressure variations, and operational loads, these models can enhance fault detection accuracy and support proactive maintenance planning. This shift towards AI-assisted monitoring aligns with the growing demand for reliable, cost-effective, and sustainable maintenance solutions in industries that rely on gas turbines. This study explores the role of machine learning-based classification models in gas turbine thermal condition monitoring and predictive maintenance. By leveraging AI-driven techniques, it aims to improve fault detection capabilities, minimize operational risks, and contribute to the advancement of intelligent maintenance strategies"
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 454.907, 389.955, 467.321 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1.2. Challenges in Traditional Maintenance Approaches"
+  }, {
+    "type" : "paragraph",
+    "id" : 107,
+    "page number" : 2,
+    "bounding box" : [ 166.095, 326.789, 559.278, 450.425 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Traditional maintenance strategies for gas turbines have largely relied on scheduled preventive maintenance and reactive maintenance. Preventive maintenance follows a fixed time-based schedule, assuming that components degrade predictably over time. While this approach helps mitigate catastrophic failures, it often results in unnecessary maintenance actions that increase operational costs without necessarily improving efficiency. On the other hand, reactive maintenance is performed only after a failure occurs, which can lead to unexpected downtimes and costly repairs. These conventional strategies are often ineffective in addressing early-stage faults, as they fail to consider real-time turbine health conditions which is suboptimal for modern industrial applications."
+  }, {
+    "type" : "paragraph",
+    "id" : 108,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 187.512, 560.934, 325.075 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To overcome these limitations, industries have shifted toward predictive maintenance, which leverages sensor-based condition monitoring and data-driven fault diagnosis. Predictive maintenance utilizes real-time operational data, such as temperature, pressure, and vibration signals, to detect anomalies before a critical failure occurs. As shown in Figure 1, predictive maintenance schemes integrate advanced diagnostics to provide accurate fault detection and optimized maintenance planning. This proactive approach minimizes downtime, reduces maintenance costs, and enhances the overall reliability and efficiency of gas turbines. However, the effectiveness of predictive maintenance depends on the robustness of the underlying fault classification models that highlight the need for advanced AI-driven solutions to further improve accuracy and adaptability."
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 3,
+    "bounding box" : [ 17.559, 851.198, 619.273, 860.522 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.177,
+    "text color" : "[0.0]",
+    "content" : "Machines 2025, 13, x FOR PEER REVIEW 3 of 17"
+  }, {
+    "type" : "paragraph",
+    "id" : 114,
+    "page number" : 3,
+    "bounding box" : [ 167.496, 783.946, 619.377, 811.801 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 11.523,
+    "text color" : "[0.0]",
+    "content" : "on the robustness of the underlying fault classiﬁcation models that highlight the need for advanced AI-driven solutions to further improve accuracy and adaptability."
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 3,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Machines 2025, 13, 401 3 of 16"
+  }, {
+    "type" : "image",
+    "id" : 125,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 742.922, 526.835, 769.97 ],
+    "source" : "29_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 126,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 715.874, 526.835, 742.922 ],
+    "source" : "29_images/imageFile2.png"
+  }, {
+    "type" : "image",
+    "id" : 127,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 688.826, 526.835, 715.874 ],
+    "source" : "29_images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 128,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 661.778, 526.835, 688.826 ],
+    "source" : "29_images/imageFile4.png"
+  }, {
+    "type" : "image",
+    "id" : 129,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 634.73, 526.835, 661.778 ],
+    "source" : "29_images/imageFile5.png"
+  }, {
+    "type" : "image",
+    "id" : 130,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 607.682, 526.835, 634.73 ],
+    "source" : "29_images/imageFile6.png"
+  }, {
+    "type" : "image",
+    "id" : 131,
+    "page number" : 3,
+    "bounding box" : [ 167.565, 580.91, 526.835, 607.682 ],
+    "source" : "29_images/imageFile7.png"
+  }, {
+    "type" : "caption",
+    "id" : 132,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 562.567, 348.653, 573.721 ],
+    "linked content id" : 131,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 1. Predictive maintenance scheme [29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 3,
+    "bounding box" : [ 167.496, 557.407, 377.396, 567.924 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.35,
+    "text color" : "[0.0]",
+    "content" : "Figure 1. Predictive maintenance scheme [29]."
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 540.797, 256.486, 553.211 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1.3. Literature Review"
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 3,
+    "bounding box" : [ 167.496, 527.542, 270.907, 539.251 ],
+    "font" : "PalatinoLinotype,Italic",
+    "font size" : 11.523,
+    "text color" : "[0.0]",
+    "content" : "1.3. Literature Review"
+  }, {
+    "type" : "paragraph",
+    "id" : 134,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 426.607, 560.521, 536.314 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The application of artificial intelligence (AI) and machine learning (ML) techniques in any application of interest [30–32], and specifically in gas turbine condition monitoring and predictive maintenance, has gained considerable attention in recent years. Researchers have developed various AI-based models to enhance fault detection accuracy, optimize maintenance planning, and improve turbine reliability. The integration of deep learning, neural networks, hybrid models, and ensemble techniques has enabled more efficient and automated fault diagnosis. A summary of key studies exploring AI-driven approaches for gas turbine fault detection and diagnostics is provided in Table 1."
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 3,
+    "bounding box" : [ 167.497, 395.269, 619.564, 519.655 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 11.523,
+    "text color" : "[0.0]",
+    "content" : "The application of artiﬁcial intelligence (AI) and machine learning (ML) techniques in any application of interest [30–32], and speciﬁcally in gas turbine condition monitoring and predictive maintenance, has gained considerable attention in recent years. Researchers have developed various AI-based models to enhance fault detection accuracy, optimize maintenance planning, and improve turbine reliability. The integration of deep learning, neural networks, hybrid models, and ensemble techniques has enabled more eﬃcient and automated fault diagnosis. A summary of key studies exploring AI-driven approaches for gas turbine fault detection and diagnostics is provided in Table 1."
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 3,
+    "bounding box" : [ 166.098, 401.99, 511.752, 413.144 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. AI-based approaches for gas turbine condition monitoring and fault diagnosis."
+  }, {
+    "type" : "heading",
+    "id" : 137,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 45.056, 377.921, 473.757, 390.235 ],
+    "heading level" : 6,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Ref. AI Approach Methodology Key Findings"
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 3,
+    "bounding box" : [ 167.496, 365.38, 567.234, 375.897 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.35,
+    "text color" : "[0.0]",
+    "content" : "Table 1. AI-based approaches for gas turbine condition monitoring and fault diagnosis."
+  }, {
+    "type" : "list",
+    "id" : 139,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 46.027, 122.143, 187.874, 355.625 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "next list id" : 151,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 46.027, 343.411, 183.999, 355.625 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[33] Knowledge-Driven AI",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 33,
+        "page number" : 3,
+        "bounding box" : [ 204.544, 337.434, 319.383, 361.603 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Hybrid deep learning and gas path analysis"
+      }, {
+        "type" : "paragraph",
+        "id" : 34,
+        "page number" : 3,
+        "bounding box" : [ 338.834, 325.479, 547.531, 373.558 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Achieved highly accurate fault detection with a maximum relative error of 0.36%, enabling real-time health monitoring of turbine components."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 46.027, 296.767, 187.874, 308.981 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[34] Hybrid Multi-Mode ML",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 36,
+        "page number" : 3,
+        "bounding box" : [ 202.215, 284.811, 321.377, 320.936 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Recurrent Neural Networks (RNNs) and Self-Organizing Maps (SOMs)"
+      }, {
+        "type" : "paragraph",
+        "id" : 37,
+        "page number" : 3,
+        "bounding box" : [ 333.37, 284.811, 552.992, 320.936 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Improved diagnostic accuracy for multi-mode and concurrent faults without requiring prior knowledge of data."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 46.027, 250.122, 182.863, 262.336 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[35] Surrogate ML Models",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 39,
+        "page number" : 3,
+        "bounding box" : [ 202.631, 232.189, 321.296, 280.269 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Artificial Neural Networks (ANNs) and High-Dimensional Model Representation (HDMR)"
+      }, {
+        "type" : "paragraph",
+        "id" : 40,
+        "page number" : 3,
+        "bounding box" : [ 336.239, 238.167, 550.126, 274.291 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Developed a gas turbine performance prediction model with <2.0% average error, supporting health monitoring and fault diagnosis."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 46.027, 203.477, 62.625, 215.691 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[36]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 42,
+        "page number" : 3,
+        "bounding box" : [ 94.117, 197.5, 175.372, 221.669 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Autoencoders and Clustering"
+      }, {
+        "type" : "paragraph",
+        "id" : 43,
+        "page number" : 3,
+        "bounding box" : [ 212.235, 191.522, 311.692, 227.647 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Data-driven anomaly detection with unsupervised learning"
+      }, {
+        "type" : "paragraph",
+        "id" : 44,
+        "page number" : 3,
+        "bounding box" : [ 342.236, 191.522, 544.128, 227.646 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Proposed an unsupervised approach to detect faults in real time without requiring labeled disruption data."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 46.027, 162.81, 165.18, 175.024 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[37] Ensemble ML",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 46,
+        "page number" : 3,
+        "bounding box" : [ 213.729, 150.855, 310.197, 186.979 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Neural Networks and Principal Component Analysis (PCA)"
+      }, {
+        "type" : "paragraph",
+        "id" : 47,
+        "page number" : 3,
+        "bounding box" : [ 338.749, 150.855, 547.615, 186.979 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Designed an anomaly detection system for combustion chamber faults for early/improved maintenance plans."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 46.027, 122.143, 62.625, 134.357 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[38]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 119,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 187.782, 341.794, 557.576, 353.503 ],
+    "heading level" : 4,
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 11.523,
+    "text color" : "[0.0]",
+    "content" : "Ref. AI Approach Methodology Key Findings"
+  }, {
+    "type" : "list",
+    "id" : 121,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 188.886, 51.856, 305.472, 314.104 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 188.886, 302.395, 208.111, 314.104 ],
+      "font" : "PalatinoLinotype",
+      "font size" : 11.523,
+      "text color" : "[0.0]",
+      "content" : "[33]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 60,
+        "page number" : 3,
+        "bounding box" : [ 238.98, 294.667, 301.485, 321.9 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "KnowledgeDriven AI"
+      }, {
+        "type" : "paragraph",
+        "id" : 61,
+        "page number" : 3,
+        "bounding box" : [ 312.879, 294.667, 423.214, 321.9 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Hybrid deep learning and gas path analysis"
+      }, {
+        "type" : "paragraph",
+        "id" : 62,
+        "page number" : 3,
+        "bounding box" : [ 425.9, 279.142, 618.593, 337.425 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Achieved highly accurate fault detection with a maximum relative error of 0.36%, enabling real-time health monitoring of turbine components."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 188.886, 239.812, 208.111, 251.521 ],
+      "font" : "PalatinoLinotype",
+      "font size" : 11.523,
+      "text color" : "[0.0]",
+      "content" : "[34]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 64,
+        "page number" : 3,
+        "bounding box" : [ 234.149, 232.015, 306.395, 259.249 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Hybrid MultiMode ML"
+      }, {
+        "type" : "paragraph",
+        "id" : 65,
+        "page number" : 3,
+        "bounding box" : [ 316.604, 216.49, 419.468, 274.774 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Recurrent Neural Networks (RNNs) and Self-Organizing Maps (SOMs)"
+      }, {
+        "type" : "paragraph",
+        "id" : 66,
+        "page number" : 3,
+        "bounding box" : [ 426.175, 216.49, 618.241, 274.774 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Improved diagnostic accuracy for multi-mode and concurrent faults without requiring prior knowledge of data."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 188.886, 169.432, 208.111, 181.141 ],
+      "font" : "PalatinoLinotype",
+      "font size" : 11.523,
+      "text color" : "[0.0]",
+      "content" : "[35]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 68,
+        "page number" : 3,
+        "bounding box" : [ 234.978, 161.635, 305.515, 188.869 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Surrogate ML Models"
+      }, {
+        "type" : "paragraph",
+        "id" : 69,
+        "page number" : 3,
+        "bounding box" : [ 311.638, 138.383, 424.314, 212.122 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Artiﬁcial Neural Networks (ANNs) and High-Dimensional Model Representation (HDMR)"
+      }, {
+        "type" : "paragraph",
+        "id" : 70,
+        "page number" : 3,
+        "bounding box" : [ 426.385, 146.112, 618.173, 204.395 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Developed a gas turbine performance prediction model with <2.0% average error, supporting health monitoring and fault diagnosis."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 188.886, 106.78, 208.111, 118.489 ],
+      "font" : "PalatinoLinotype",
+      "font size" : 11.523,
+      "text color" : "[0.0]",
+      "content" : "[36]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 72,
+        "page number" : 3,
+        "bounding box" : [ 232.287, 98.984, 308.167, 126.217 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Autoencoders and Clustering"
+      }, {
+        "type" : "paragraph",
+        "id" : 73,
+        "page number" : 3,
+        "bounding box" : [ 313.569, 91.256, 422.41, 134.015 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Data-driven anomaly detection with unsupervised learning"
+      }, {
+        "type" : "paragraph",
+        "id" : 74,
+        "page number" : 3,
+        "bounding box" : [ 428.661, 91.256, 615.585, 134.015 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 11.523,
+        "text color" : "[0.0]",
+        "content" : "Proposed an unsupervised approach to detect faults in real time without requiring labeled disruption data."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 188.886, 51.856, 305.472, 63.565 ],
+      "font" : "PalatinoLinotype",
+      "font size" : 11.523,
+      "text color" : "[0.0]",
+      "content" : "[37] Ensemble ML",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 3,
+    "bounding box" : [ 211.926, 110.188, 312.0, 146.312 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Convolutional Neural Networks (CNNs) and Wavelet Transform"
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 3,
+    "bounding box" : [ 92.294, 116.166, 177.195, 140.335 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Deep Learning and Signal Processing"
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "page number" : 3,
+    "bounding box" : [ 339.053, 116.166, 547.7, 140.335 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Demonstrated high fault classification accuracy using acoustic emissions."
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 3,
+    "bounding box" : [ 430.455, 28.604, 613.977, 86.887 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 11.523,
+    "text color" : "[0.0]",
+    "content" : "Designed an anomaly detection system for combustion chamber faults for early/improved maintenance plans."
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 3,
+    "bounding box" : [ 312.327, 36.4, 423.795, 79.09 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 11.523,
+    "text color" : "[0.0]",
+    "content" : "Neural Networks and Principal Component Analysis (PCA)"
+  }, {
+    "type" : "header",
+    "id" : 144,
+    "page number" : 4,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 11,
+      "page number" : 4,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 4 of 16"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 4,
+    "bounding box" : [ 166.098, 758.314, 220.433, 769.486 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Cont."
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 4,
+    "bounding box" : [ 45.983, 735.278, 470.703, 746.361 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Ref. AI Approach Methodology Key Findings"
+  }, {
+    "type" : "list",
+    "id" : 151,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 46.857, 606.644, 187.19, 719.712 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 139,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 46.857, 708.72, 185.155, 719.712 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "[39] Genetic Algorithm + CNN",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 49,
+        "page number" : 4,
+        "bounding box" : [ 203.131, 697.761, 320.797, 730.671 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Genetic Algorithm-optimized Support Vector Data Description (SVDD)"
+      }, {
+        "type" : "paragraph",
+        "id" : 50,
+        "page number" : 4,
+        "bounding box" : [ 342.826, 697.761, 543.889, 730.671 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Developed a hybrid GA-SVDD model for anomaly detection, improving robustness in turbine health assessment."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 46.857, 671.042, 61.795, 682.034 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "[40]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 52,
+        "page number" : 4,
+        "bounding box" : [ 88.684, 665.563, 180.805, 687.513 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Neural Network-Based Diagnostics"
+      }, {
+        "type" : "paragraph",
+        "id" : 53,
+        "page number" : 4,
+        "bounding box" : [ 205.179, 660.083, 318.927, 692.993 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Multiple ML models compared and optimized for fault detection"
+      }, {
+        "type" : "paragraph",
+        "id" : 54,
+        "page number" : 4,
+        "bounding box" : [ 337.209, 660.083, 549.157, 692.993 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Identified neural networks as the best-performing approach, achieving reliable fault classification across different turbine operating conditions."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 46.857, 638.843, 61.795, 649.835 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "[41]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 56,
+        "page number" : 4,
+        "bounding box" : [ 82.982, 633.364, 186.858, 655.315 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Long Short-Term Memory (LSTM)"
+      }, {
+        "type" : "paragraph",
+        "id" : 57,
+        "page number" : 4,
+        "bounding box" : [ 204.789, 633.364, 319.137, 655.315 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Deep learning model trained on failure data"
+      }, {
+        "type" : "paragraph",
+        "id" : 58,
+        "page number" : 4,
+        "bounding box" : [ 348.48, 633.364, 537.886, 655.315 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Improved turbine availability and life cycle cost optimization by predicting degradation trends."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 46.857, 606.644, 187.19, 617.636 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "[42] Comparative ML Analysis",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 4,
+    "bounding box" : [ 344.503, 595.685, 541.862, 628.595 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ANN outperformed all the other algorithms, with 94.55% fault diagnosis accuracy for hydrogen-fueled turbines."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 4,
+    "bounding box" : [ 207.623, 601.165, 317.426, 623.116 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ANN, SVM, Decision Trees, KNN, and Random Forest"
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 394.596, 561.019, 573.942 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Recent research has demonstrated significant advancements in AI-driven predictive maintenance for gas turbines (Table 1). Early studies focused on statistical and thermodynamic models to assess turbine health, but these approaches often required predefined failure conditions and extensive domain knowledge. With the rise in machine learning, researchers have developed data-driven models that leverage sensor data to enhance fault detection and anomaly prediction. Several studies have proposed deep learning architectures, such as autoencoders, convolutional neural networks (CNNs), and long short-term memory (LSTM) networks, to automatically extract features and classify turbine conditions. Hybrid approaches integrating neural networks with clustering techniques, genetic algorithms, or self-organizing maps (SOMs) have been introduced to improve fault classification accuracy and reduce false alarms. Additionally, ensemble methods combining multiple AI models have been explored to enhance anomaly detection in combustion chambers and other turbine components."
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 4,
+    "bounding box" : [ 166.065, 269.247, 561.019, 392.882 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Despite the progress in AI-based fault diagnosis, the existing methods exhibit variability in accuracy, computational complexity, and real-time implementation feasibility. Some approaches rely on historical failure data, making them less effective for detecting early-stage anomalies. Others require extensive feature engineering, increasing the computational cost and limiting adaptability to different turbine configurations. Furthermore, most studies focus on general fault detection without specifically addressing thermal condition monitoring based on exhaust gas temperature variations. The effectiveness of XGBoost classification, a powerful gradient boosting technique, remains underexplored in this context."
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 245.465, 296.506, 257.879 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1.4. Research Gap and Novelties"
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 117.347, 560.926, 240.983 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Despite significant advancements in AI-driven predictive maintenance, the existing studies primarily focus on general fault detection rather than thermal condition monitoring based on exhaust gas temperature variations. Many approaches rely on historical failure data, limiting their ability to detect early-stage anomalies in real time. Additionally, while deep learning and neural networks have been extensively explored, gradient boosting techniques such as XGBoost remain underutilized in gas turbine fault classification. The need for high-accuracy, computationally efficient, and adaptable models for thermal loadbased fault detection in gas turbines presents a critical research gap. The novelties are summarized within the following points:"
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 166.518, 72.575, 559.277, 112.645 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "• Implementation of XGBoost for gas turbine fault detection: This study introduces XGBoost classification to distinguish between healthy and faulty conditions based on thermal load variations, optimizing predictive maintenance strategies."
+  }, {
+    "type" : "list",
+    "id" : 176,
+    "level" : "8",
+    "page number" : 5,
+    "bounding box" : [ 38.465, 867.83, 561.694, 875.938 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 200,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 38.465, 867.83, 561.694, 875.938 ],
+      "font" : "PalatinoLinotype,Italic",
+      "font size" : 7.98,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, x FOR PEER REVIEW 5 of 17",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 178,
+    "page number" : 5,
+    "bounding box" : [ 168.845, 809.35, 561.878, 833.572 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "load-based fault detection in gas turbines presents a critical research gap. The novelties are summarized within the following points:"
+  }, {
+    "type" : "list",
+    "id" : 160,
+    "level" : "6",
+    "page number" : 5,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 196,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 5 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 179,
+    "level" : "7",
+    "page number" : 5,
+    "bounding box" : [ 168.845, 666.371, 561.855, 805.338 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 168.845, 764.35, 561.796, 805.338 ],
+      "font" : "Symbol",
+      "font size" : 10.02,
+      "text color" : "[0.0]",
+      "content" : "• Implementation of XGBoost for gas turbine fault detection: This study introduces XGBoost classification to distinguish between healthy and faulty conditions based on thermal load variations, optimizing predictive maintenance strategies.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 168.845, 722.35, 561.743, 763.338 ],
+      "font" : "Symbol",
+      "font size" : 10.02,
+      "text color" : "[0.0]",
+      "content" : "• Integration of statistical feature extraction from exhaust gas temperature data: The model leverages standard deviation, and skewness to enhance fault classiﬁcation accuracy without requiring extensive labeled failure datasets.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 168.846, 666.371, 561.855, 721.338 ],
+      "font" : "Symbol",
+      "font size" : 10.02,
+      "text color" : "[0.0]",
+      "content" : "• Comparative evaluation with conventional predictive maintenance approaches: The proposed method is evaluated against traditional condition monitoring techniques, demonstrating its superior performance in early-stage fault detection and real-time adaptability.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 163,
+    "level" : "7",
+    "page number" : 5,
+    "bounding box" : [ 166.518, 673.676, 560.933, 769.456 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.518, 729.387, 559.277, 769.456 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• Integration of statistical feature extraction from exhaust gas temperature data: The model leverages standard deviation, and skewness to enhance fault classification accuracy without requiring extensive labeled failure datasets.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.518, 673.676, 560.933, 727.673 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• Comparative evaluation with conventional predictive maintenance approaches: The proposed method is evaluated against traditional condition monitoring techniques, demonstrating its superior performance in early-stage fault detection and realtime adaptability.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 164,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 647.013, 284.774, 661.79 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "2. Experimental Work"
+  }, {
+    "type" : "heading",
+    "id" : 180,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 168.845, 638.207, 287.818, 650.401 ],
+    "heading level" : 2,
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "2. Experimental Work"
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 5,
+    "bounding box" : [ 166.065, 561.239, 559.471, 643.091 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In order to evaluate the thermal behavior of gas turbine hot section components under real operating conditions, a comprehensive experimental study was carried out using an operational thermal dataset collected over six months [43]. The primary focus was on monitoring the exhaust gas temperature (EGT) at the outlet of the Low-Pressure Turbine (LPT), a critical parameter for diagnosing potential thermal stress-induced damage in gas turbines."
+  }, {
+    "type" : "paragraph",
+    "id" : 181,
+    "page number" : 5,
+    "bounding box" : [ 168.845, 565.21, 562.018, 631.371 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "In order to evaluate the thermal behavior of gas turbine hot section components under real operating conditions, a comprehensive experimental study was carried out using an operational thermal dataset collected over six months [43]. The primary focus was on monitoring the exhaust gas temperature (EGT) at the outlet of the Low-Pressure Turbine (LPT), a critical parameter for diagnosing potential thermal stress-induced damage in gas turbines."
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 5,
+    "bounding box" : [ 168.846, 439.211, 561.877, 561.352 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The experimental setup involved the installation of sixteen K-type thermocouples, which were distributed at strategic positions along the turbine’s exhaust system. These sensors were responsible for continuously measuring the EGT and transmitting the data through a Junction Box (JB) and connecting terminals to a Human–Machine Interface (HMI) located in the turbine control room. The HMI system displayed and logged the temperature readings at one-second intervals, which allowed for the continuous observation of thermal patterns across the turbine’s hot section. The speciﬁcations of the thermocouples are described in Table 2. The measurement and transmission process are illustrated in Figure 2."
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 5,
+    "bounding box" : [ 165.975, 449.817, 561.022, 559.525 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The experimental setup involved the installation of sixteen K-type thermocouples, which were distributed at strategic positions along the turbine’s exhaust system. These sensors were responsible for continuously measuring the EGT and transmitting the data through a Junction Box (JB) and connecting terminals to a Human–Machine Interface (HMI) located in the turbine control room. The HMI system displayed and logged the temperature readings at one-second intervals, which allowed for the continuous observation of thermal patterns across the turbine’s hot section. The specifications of the thermocouples are described in Table 2. The measurement and transmission process are illustrated in Figure 2."
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 5,
+    "bounding box" : [ 166.098, 425.201, 440.567, 436.355 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 2. Thermocouple specifications used in the experimental setup."
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 5,
+    "bounding box" : [ 168.845, 413.16, 444.859, 422.305 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Table 2. Thermocouple speciﬁcations used in the experimental setup."
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 5,
+    "bounding box" : [ 191.265, 374.592, 545.17, 415.438 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Temperature Range (◦C) K Internal Thread Platinum 80 0–1300"
+  }, {
+    "type" : "paragraph",
+    "id" : 170,
+    "page number" : 5,
+    "bounding box" : [ 239.972, 391.169, 292.545, 415.438 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Connection Type"
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 5,
+    "bounding box" : [ 386.291, 391.169, 460.532, 415.438 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Well Dimension (mm)"
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 5,
+    "bounding box" : [ 183.704, 397.146, 206.06, 409.46 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Type"
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 5,
+    "bounding box" : [ 321.868, 397.146, 360.603, 409.46 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Material"
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 5,
+    "bounding box" : [ 347.405, 379.21, 422.691, 402.832 ],
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "Well Dimension (mm)"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 5,
+    "bounding box" : [ 177.905, 365.17, 553.435, 396.112 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "Temperature Range (°C) K Internal Thread Platinum 80 0–1300"
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 5,
+    "bounding box" : [ 169.865, 385.93, 326.874, 396.111 ],
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "Type Connection Type Material"
+  }, {
+    "type" : "image",
+    "id" : 190,
+    "page number" : 5,
+    "bounding box" : [ 168.905, 312.877, 413.252, 351.997 ],
+    "source" : "29_images/imageFile8.png"
+  }, {
+    "type" : "image",
+    "id" : 191,
+    "page number" : 5,
+    "bounding box" : [ 168.905, 273.757, 413.252, 312.877 ],
+    "source" : "29_images/imageFile9.png"
+  }, {
+    "type" : "image",
+    "id" : 192,
+    "page number" : 5,
+    "bounding box" : [ 168.905, 234.637, 413.252, 273.757 ],
+    "source" : "29_images/imageFile10.png"
+  }, {
+    "type" : "image",
+    "id" : 193,
+    "page number" : 5,
+    "bounding box" : [ 168.905, 195.517, 413.252, 234.637 ],
+    "source" : "29_images/imageFile11.png"
+  }, {
+    "type" : "image",
+    "id" : 194,
+    "page number" : 5,
+    "bounding box" : [ 168.905, 156.637, 413.252, 195.517 ],
+    "source" : "29_images/imageFile12.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 136.575, 553.375, 147.729 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Figure Figure2.2.ThermalThermaldatadataacquisitionacquisitionprocessprocessfromfromthermocouplesthermocouplesmountedmountedononthethegasgasturbineturbine[43[43].]."
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 70.92, 559.276, 124.917 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To validate the thermal measurements and identify any physical signs of deterioration in the turbine’s hot components, borescope inspections were conducted at three scheduled operational milestones: 2000, 4000, and 6000 h. These inspections targeted critical zones of the turbine, including the liners and stator blades of the High-Pressure Turbine (HPT). The"
+  }, {
+    "type" : "list",
+    "id" : 200,
+    "level" : "8",
+    "page number" : 6,
+    "bounding box" : [ 36.259, 984.474, 559.486, 992.582 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 176,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 36.259, 984.474, 559.486, 992.582 ],
+      "font" : "PalatinoLinotype,Italic",
+      "font size" : 7.98,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, x FOR PEER REVIEW 6 of 17",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "page number" : 6,
+    "bounding box" : [ 166.638, 870.014, 559.977, 950.216 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "To validate the thermal measurements and identify any physical signs of deterioration in the turbine’s hot components, borescope inspections were conducted at three scheduled operational milestones: 2000, 4000, and 6000 h. These inspections targeted critical zones of the turbine, including the liners and stator blades of the High-Pressure Turbine (HPT). The regions selected for visual inspection are shown in Figure 3, with Figure 3a highlighting the liner section and Figure 3b detailing the stator blades."
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 6,
+    "bounding box" : [ 166.636, 744.015, 559.638, 866.216 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The borescope system used was equipped with a compact, high-resolution camera mounted on a ﬂexible probe. The device was inserted into the hot section through an access port after burner disassembly. A bright LED light at the tip of the probe enabled clear visual feedback for capturing detailed images and videos of the internal surfaces. As shown in Figure 4, the inspection results revealed a progressive increase in coating damage on the stator blades and liners over time. Figure 4a corresponds to the 2000 h inspection, where minor coating wear was observed. Figure 4b shows the 4000 h ﬁndings which indicate more pronounced damage. Finally, Figure 4c illustrates the 6000 h inspection, where the deterioration had expanded across a wider area."
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 6,
+    "bounding box" : [ 36.072, 848.174, 559.299, 856.282 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 7.98,
+    "text color" : "[0.0]",
+    "content" : "Machines 2025, 13, x FOR PEER REVIEW 6 of 17"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 6,
+    "bounding box" : [ 166.451, 733.714, 559.79, 813.916 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "To validate the thermal measurements and identify any physical signs of deterioration in the turbine’s hot components, borescope inspections were conducted at three scheduled operational milestones: 2000, 4000, and 6000 h. These inspections targeted critical zones of the turbine, including the liners and stator blades of the High-Pressure Turbine (HPT). The regions selected for visual inspection are shown in Figure 3, with Figure 3a highlighting the liner section and Figure 3b detailing the stator blades."
+  }, {
+    "type" : "list",
+    "id" : 196,
+    "level" : "6",
+    "page number" : 6,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 160,
+    "next list id" : 237,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 6 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 743.315, 559.272, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "regions selected for visual inspection are shown in Figure 3, with Figure 3a highlighting the liner section and Figure 3b detailing the stator blades."
+  }, {
+    "type" : "paragraph",
+    "id" : 222,
+    "page number" : 6,
+    "bounding box" : [ 166.449, 607.715, 559.451, 729.916 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The borescope system used was equipped with a compact, high-resolution camera mounted on a ﬂexible probe. The device was inserted into the hot section through an access port after burner disassembly. A bright LED light at the tip of the probe enabled clear visual feedback for capturing detailed images and videos of the internal surfaces. As shown in Figure 4, the inspection results revealed a progressive increase in coating damage on the stator blades and liners over time. Figure 4a corresponds to the 2000 h inspection, where minor coating wear was observed. Figure 4b shows the 4000 h ﬁndings which indicate more pronounced damage. Finally, Figure 4c illustrates the 6000 h inspection, where the deterioration had expanded across a wider area."
+  }, {
+    "type" : "image",
+    "id" : 208,
+    "page number" : 6,
+    "bounding box" : [ 60.979, 507.461, 297.379, 728.981 ],
+    "source" : "29_images/imageFile13.png"
+  }, {
+    "type" : "image",
+    "id" : 209,
+    "page number" : 6,
+    "bounding box" : [ 307.939, 618.281, 534.83, 684.461 ],
+    "source" : "29_images/imageFile14.png"
+  }, {
+    "type" : "image",
+    "id" : 210,
+    "page number" : 6,
+    "bounding box" : [ 307.939, 552.101, 534.83, 618.281 ],
+    "source" : "29_images/imageFile15.png"
+  }, {
+    "type" : "image",
+    "id" : 227,
+    "page number" : 6,
+    "bounding box" : [ 60.792, 371.161, 297.192, 592.681 ],
+    "source" : "29_images/imageFile16.png"
+  }, {
+    "type" : "image",
+    "id" : 228,
+    "page number" : 6,
+    "bounding box" : [ 307.752, 481.981, 534.643, 548.161 ],
+    "source" : "29_images/imageFile17.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 6,
+    "bounding box" : [ 173.297, 491.414, 427.671, 501.595 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(a) (b)"
+  }, {
+    "type" : "image",
+    "id" : 229,
+    "page number" : 6,
+    "bounding box" : [ 307.752, 415.801, 534.643, 481.981 ],
+    "source" : "29_images/imageFile18.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 457.598, 559.277, 481.574 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 3. Borescope inspection zones in the gas turbine hot section: (a) liner region selected for visual inspection; (b) stator blades of HPT selected for condition assessment [43]."
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 6,
+    "bounding box" : [ 166.639, 457.444, 559.615, 480.569 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Figure 3. Borescope inspection zones in the gas turbine hot section: (a) liner region selected for visual inspection; (b) stator blades of HPT selected for condition assessment [43]."
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 6,
+    "bounding box" : [ 166.095, 322.847, 559.279, 446.483 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The borescope system used was equipped with a compact, high-resolution camera mounted on a flexible probe. The device was inserted into the hot section through an access port after burner disassembly. A bright LED light at the tip of the probe enabled clear visual feedback for capturing detailed images and videos of the internal surfaces. As shown in Figure 4, the inspection results revealed a progressive increase in coating damage on the stator blades and liners over time. Figure 4a corresponds to the 2000 h inspection, where minor coating wear was observed. Figure 4b shows the 4000 h findings which indicate more pronounced damage. Finally, Figure 4c illustrates the 6000 h inspection, where the deterioration had expanded across a wider area."
+  }, {
+    "type" : "image",
+    "id" : 211,
+    "page number" : 6,
+    "bounding box" : [ 88.519, 399.701, 250.302, 445.241 ],
+    "source" : "29_images/imageFile19.png"
+  }, {
+    "type" : "image",
+    "id" : 213,
+    "page number" : 6,
+    "bounding box" : [ 261.319, 399.701, 507.285, 445.241 ],
+    "source" : "29_images/imageFile20.png"
+  }, {
+    "type" : "image",
+    "id" : 212,
+    "page number" : 6,
+    "bounding box" : [ 88.519, 354.221, 250.302, 399.701 ],
+    "source" : "29_images/imageFile21.png"
+  }, {
+    "type" : "image",
+    "id" : 214,
+    "page number" : 6,
+    "bounding box" : [ 261.319, 354.221, 507.285, 399.701 ],
+    "source" : "29_images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 6,
+    "bounding box" : [ 173.11, 355.114, 427.484, 365.295 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(a) (b)"
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 6,
+    "bounding box" : [ 163.699, 340.394, 390.714, 350.575 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(a) (b)"
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 6,
+    "bounding box" : [ 166.452, 321.144, 559.428, 344.269 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Figure 3. Borescope inspection zones in the gas turbine hot section: (a) liner region selected for visual inspection; (b) stator blades of HPT selected for condition assessment [43]."
+  }, {
+    "type" : "image",
+    "id" : 215,
+    "page number" : 6,
+    "bounding box" : [ 128.059, 298.781, 467.996, 340.241 ],
+    "source" : "29_images/imageFile23.png"
+  }, {
+    "type" : "image",
+    "id" : 230,
+    "page number" : 6,
+    "bounding box" : [ 88.332, 263.401, 250.115, 308.941 ],
+    "source" : "29_images/imageFile24.png"
+  }, {
+    "type" : "image",
+    "id" : 232,
+    "page number" : 6,
+    "bounding box" : [ 261.132, 263.401, 507.098, 308.941 ],
+    "source" : "29_images/imageFile25.png"
+  }, {
+    "type" : "image",
+    "id" : 216,
+    "page number" : 6,
+    "bounding box" : [ 128.059, 257.321, 467.996, 298.781 ],
+    "source" : "29_images/imageFile26.png"
+  }, {
+    "type" : "image",
+    "id" : 231,
+    "page number" : 6,
+    "bounding box" : [ 88.332, 217.921, 250.115, 263.401 ],
+    "source" : "29_images/imageFile27.png"
+  }, {
+    "type" : "image",
+    "id" : 233,
+    "page number" : 6,
+    "bounding box" : [ 261.132, 217.921, 507.098, 263.401 ],
+    "source" : "29_images/imageFile28.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 6,
+    "bounding box" : [ 292.339, 244.034, 303.475, 254.215 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(c)"
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 6,
+    "bounding box" : [ 163.512, 204.094, 390.527, 214.275 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(a) (b)"
+  }, {
+    "type" : "image",
+    "id" : 234,
+    "page number" : 6,
+    "bounding box" : [ 127.872, 162.481, 467.809, 203.941 ],
+    "source" : "29_images/imageFile29.png"
+  }, {
+    "type" : "image",
+    "id" : 235,
+    "page number" : 6,
+    "bounding box" : [ 127.872, 121.021, 467.809, 162.481 ],
+    "source" : "29_images/imageFile30.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 6,
+    "bounding box" : [ 292.152, 107.734, 303.288, 117.915 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(c)"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 61.812, 559.279, 98.448 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 4. Borescope inspection results at different turbine operation hours: (a) minor coating damage observed at 2000 h inspection; (b) increased deterioration during the 4000 h inspection; (c) extensive coating degradation at 6000 h inspection [43]."
+  }, {
+    "type" : "list",
+    "id" : 237,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 196,
+    "next list id" : 258,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 7 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 687.604, 561.018, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The experimental evidence unequivocally emphasizes the relationship between the prolonged operation of the turbine and thermal wear in the most vulnerable components. Integrating the real-time monitoring of the temperature with periodic visual inspections forms the sound basis for the detection of incipient faults and the determination of thermal damage development. This database provides a useful basis for the development of fault classification models by using AI in the following stages of the work."
+  }, {
+    "type" : "heading",
+    "id" : 241,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 660.941, 335.799, 675.718 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "3. Machine Learning Approach"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 616.949, 559.536, 657.019 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Machine learning has become an essential tool across various engineering and scientific fields because it offers powerful capabilities for automated decision making in complex systems [44–47]."
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 491.38, 559.47, 615.236 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this study, the Extreme Gradient Boosting (XGBoost) algorithm is adopted as the core classification model for evaluating the thermal condition of gas turbines. XGBoost is an advanced implementation of gradient boosting machines that integrate regularization techniques, parallel processing, and tree pruning strategies to deliver high accuracy and robust generalization performance [48,49]. XGBoost was developed by Tianqi Chen and his collaborators as part of a specific project [50]. This algorithm is particularly used for structured data applications such as industrial fault detection [51]. At its core, XGBoost builds an ensemble of K decision trees, each of which contributes incrementally to the final prediction. The model prediction for a given input xi is defined as follows [52]:"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 7,
+    "bounding box" : [ 305.955, 457.684, 560.271, 480.62 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "yi = ∑kk=1 fk (xi) fk ∈ F, (1)"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 7,
+    "bounding box" : [ 166.085, 411.442, 561.019, 451.511 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Here, each fk is a function corresponding to a regression tree in the functional space F. The learning process aims to minimize an objective function that combines a training loss term with a regularization term [52]:"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 7,
+    "bounding box" : [ 283.193, 382.254, 560.268, 401.696 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Xobj = ∑in=1 l(yi, yi)+∑kK=1Ω(fk), (2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 7,
+    "bounding box" : [ 166.085, 290.735, 559.662, 372.588 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The first term evaluates the difference between the predicted and actual values through a differentiable loss function l, while the second term Ω(fk ) penalizes model complexity to reduce overfitting. This balance allows XGBoost to perform well on high-dimensional and noisy datasets. In this study, specific training parameters were chosen on the basis of the discussed literature and a try-error scheme, and these selections are enlisted in Table 3 below."
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 7,
+    "bounding box" : [ 166.098, 270.217, 376.601, 281.371 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 3. XGBoost proposed and adopted parameters."
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 7,
+    "bounding box" : [ 226.282, 231.564, 474.062, 260.454 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Parameter Value Learning Rate (η) 0.1"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 7,
+    "bounding box" : [ 225.038, 207.653, 463.547, 231.823 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Max Depth 5 Min Child Weight 1"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 7,
+    "bounding box" : [ 247.035, 195.698, 467.278, 207.912 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Gamma 0.1"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 7,
+    "bounding box" : [ 224.794, 171.788, 469.774, 195.957 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Subsample 0.88 Colsample_bytree 0.88"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 7,
+    "bounding box" : [ 196.137, 135.922, 468.524, 172.047 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Lambda (λ) 1.0 Alpha (α) 0.0 Number of Trees (n estimators) 100"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 63.661, 561.019, 117.658 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To assess the turbine’s thermal condition, features such as mean temperature, standard deviation, and skewness were extracted from the time-series data collected by the thermocouples. The feature-labeled dataset was further split into training and test subsets and the XGBoost classifier was trained to discriminate between healthy and fault conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 8,
+    "bounding box" : [ 36.225, 856.826, 559.452, 864.934 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 7.98,
+    "text color" : "[0.0]",
+    "content" : "Machines 2025, 13, x FOR PEER REVIEW 8 of 17"
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 8,
+    "bounding box" : [ 166.603, 630.347, 559.602, 822.568 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "To assess the turbine’s thermal condition, features such as mean temperature, standard deviation, and skewness were extracted from the time-series data collected by the thermocouples. The feature-labeled dataset was further split into training and test subsets and the XGBoost classiﬁer was trained to discriminate between healthy and fault conditions. Precision, recall, F1-score, and classiﬁcation accuracy were evaluated as the performance measures of the model. To provide a clear picture of the whole process pursued in this work—from the acquisition and feature extraction from the data to classiﬁcation and analysis—a schematic diagram is shown in Figure 5. The process is optimized for fault detection within turbines using the thermal sensor data, from acquiring the data from the 16 thermocouples for six months to moving on to feature extraction and further on to developing the model using the XGBoost. After hyperparameter tuning and training evaluation, the system tests the performance of the model, and if satisfactory, makes a prediction regarding the health condition of the turbine that closes the loop. The system has intelligent re-tuning enabled by intelligent branching."
+  }, {
+    "type" : "list",
+    "id" : 258,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 237,
+    "next list id" : 284,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 8 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 261,
+    "page number" : 8,
+    "bounding box" : [ 165.975, 631.893, 559.28, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Precision, recall, F1-score, and classification accuracy were evaluated as the performance measures of the model. To provide a clear picture of the whole process pursued in this work—from the acquisition and feature extraction from the data to classification and analysis—a schematic diagram is shown in Figure 5. The process is optimized for fault detection within turbines using the thermal sensor data, from acquiring the data from the 16 thermocouples for six months to moving on to feature extraction and further on to developing the model using the XGBoost. After hyperparameter tuning and training evaluation, the system tests the performance of the model, and if satisfactory, makes a prediction regarding the health condition of the turbine that closes the loop. The system has intelligent re-tuning enabled by intelligent branching."
+  }, {
+    "type" : "image",
+    "id" : 271,
+    "page number" : 8,
+    "bounding box" : [ 166.305, 362.293, 393.585, 618.373 ],
+    "source" : "29_images/imageFile31.png"
+  }, {
+    "type" : "caption",
+    "id" : 272,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 345.138, 401.555, 356.292 ],
+    "linked content id" : 271,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 5. Schematic diagram of the proposed methodology."
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 8,
+    "bounding box" : [ 166.605, 341.856, 403.324, 351.001 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Figure 5. Schematic diagram of the proposed methodology."
+  }, {
+    "type" : "paragraph",
+    "id" : 273,
+    "page number" : 8,
+    "bounding box" : [ 166.065, 223.773, 559.279, 333.48 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To identify the abnormal instances from the temperature values, the Isolation Forest (IF) is used [53]. IF detects anomalies by how easily a data point can be separated from others. It builds random binary trees by selecting random features and split values, and isolates points by recursively dividing the space. Anomalies, being few and different, tend to be isolated quickly—resulting in shorter average path lengths. This is quantified by the average path length E(h(x)), which is normalized using the expected average path length of a random binary tree c(n) = 2H(n − 1) − 2(nn−1), where H(i) ≈ ln(i) + 0.5772 (the harmonic number approximation). The final anomaly score is calculated as follows [53]:"
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 8,
+    "bounding box" : [ 166.605, 214.546, 559.624, 326.067 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "To identify the abnormal instances from the temperature values, the Isolation Forest (IF) is used [53]. IF detects anomalies by how easily a data point can be separated from others. It builds random binary trees by selecting random features and split values, and isolates points by recursively dividing the space. Anomalies, being few and diﬀerent, tend to be isolated quickly—resulting in shorter average path lengths. This is quantiﬁed by the average path length \uD835\uDC38 ℎ \uD835\uDC65  , which is normalized using the expected average path length of a random binary tree \uD835\uDC50 \uD835\uDC5B  = 2\uD835\uDC3B \uD835\uDC5B 1  , where \uD835\uDC3B \uD835\uDC56  ln  \uD835\uDC56  + 0.5772 (the harmonic number approximation). The ﬁnal anomaly score is calculated as follows [53]:"
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 8,
+    "bounding box" : [ 377.83, 204.682, 398.216, 212.13 ],
+    "font" : "CMR10",
+    "font size" : 6.229,
+    "text color" : "[0.0]",
+    "content" : "E(h(x))"
+  }, {
+    "type" : "paragraph",
+    "id" : 275,
+    "page number" : 8,
+    "bounding box" : [ 323.327, 193.692, 376.38, 208.712 ],
+    "font" : "CMR10",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "s(x, n) = 2−"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 8,
+    "bounding box" : [ 382.457, 193.912, 560.274, 206.126 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "c(n) , (3)"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 8,
+    "bounding box" : [ 187.847, 167.386, 559.58, 201.327 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC60 \uD835\uDC65,\uD835\uDC5B = 2 , (3) Higher scores near 1 indicate anomalies, while lower scores near 0 signal normality."
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 8,
+    "bounding box" : [ 166.085, 154.45, 561.018, 180.592 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Higher scores near 1 indicate anomalies, while lower scores near 0 signal normality. To visualize the results, the next section is utilized."
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 8,
+    "bounding box" : [ 166.607, 153.346, 390.645, 163.527 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "To visualize the results, the next section is utilized."
+  }, {
+    "type" : "heading",
+    "id" : 280,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 127.787, 306.533, 142.564 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "4. Results and Discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 112.059, 397.168, 124.473 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "4.1. Experimental Results and Temperature Visualization"
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 8,
+    "bounding box" : [ 165.975, 67.507, 560.522, 107.577 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The thermal data collected for this study spanned a period from April to September, with data acquisition carried out on the 15th day of each month. On each selected day, approximately 750 readings were randomly sampled throughout the turbine’s operating"
+  }, {
+    "type" : "header",
+    "id" : 283,
+    "page number" : 9,
+    "bounding box" : [ 38.465, 878.117, 561.692, 886.225 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 12,
+      "page number" : 9,
+      "bounding box" : [ 38.465, 878.117, 561.692, 886.225 ],
+      "heading level" : 7,
+      "font" : "PalatinoLinotype",
+      "font size" : 7.98,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, x FOR PEER REVIEW 9 of 17"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 290,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 168.845, 831.494, 308.709, 843.688 ],
+    "heading level" : 2,
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 12.0,
+    "text color" : "[0.0]",
+    "content" : "4. Results and Discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 9,
+    "bounding box" : [ 168.845, 814.477, 401.228, 824.658 ],
+    "font" : "PalatinoLinotype,Italic",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "4.1. Experimental Results and Temperature Visualization"
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 9,
+    "bounding box" : [ 168.845, 671.497, 561.884, 807.678 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The thermal data collected for this study spanned a period from April to September, with data acquisition carried out on the 15th day of each month. On each selected day, approximately 750 readings were randomly sampled throughout the turbine’s operating hours, resulting in a total of around 8000 readings over six months. The raw readings represent the mean LPT EGT derived from 16 thermocouples. These values were processed into statistical intervals of 10 readings, producing 800 intervals in total. This approach facilitated the calculation of trend indicators such as mean, standard deviation, and skewness for each interval. To diﬀerentiate between healthy and faulty operational conditions, the IF algorithm was applied for unsupervised anomaly detection. A detailed discussion of the machine learning classiﬁcation results is provided in the next subsection."
+  }, {
+    "type" : "list",
+    "id" : 284,
+    "level" : "6",
+    "page number" : 9,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 258,
+    "next list id" : 302,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 9 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 673.676, 560.931, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "hours, resulting in a total of around 8000 readings over six months. The raw readings represent the mean LPT EGT derived from 16 thermocouples. These values were processed into statistical intervals of 10 readings, producing 800 intervals in total. This approach facilitated the calculation of trend indicators such as mean, standard deviation, and skewness for each interval. To differentiate between healthy and faulty operational conditions, the IF algorithm was applied for unsupervised anomaly detection. A detailed discussion of the machine learning classification results is provided in the next subsection."
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 492.616, 560.929, 671.963 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The temporal trend of exhaust gas temperatures on each sampled day is illustrated in Figure 6. The plot reveals substantial variability across the months, reflecting the dynamic thermal behavior of the turbine under differing operational loads. In April, most values are clustered between 700 ◦C and 770 ◦C, with one outlier dropping below 100 ◦C, likely corresponding to a transient or cooldown phase. A significant drop is observed in May and June, where the temperature readings stabilize around 33 ◦C, indicating either nonoperational phases or idling conditions. A sharp rise occurs in July, returning to a consistent range near 720–750 ◦C, which persists through August and September. Notably, August also exhibits a broader spread, including readings below 300 ◦C, suggesting transitional states or start-up/shutdown sequences during the sampling day. This figure confirms that the turbine did not operate under consistent thermal conditions across the selected dates, underlining the need for further statistical decomposition and anomaly detection through advanced analysis techniques."
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 9,
+    "bounding box" : [ 168.845, 489.458, 561.888, 667.639 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The temporal trend of exhaust gas temperatures on each sampled day is illustrated in Figure 6. The plot reveals substantial variability across the months, reﬂecting the dynamic thermal behavior of the turbine under diﬀering operational loads. In April, most values are clustered between 700 °C and 770 °C, with one outlier dropping below 100 °C, likely corresponding to a transient or cooldown phase. A signiﬁcant drop is observed in May and June, where the temperature readings stabilize around 33 °C, indicating either non-operational phases or idling conditions. A sharp rise occurs in July, returning to a consistent range near 720–750 °C, which persists through August and September. Notably, August also exhibits a broader spread, including readings below 300 °C, suggesting transitional states or start-up/shutdown sequences during the sampling day. This ﬁgure conﬁrms that the turbine did not operate under consistent thermal conditions across the selected dates, underlining the need for further statistical decomposition and anomaly detection through advanced analysis techniques."
+  }, {
+    "type" : "image",
+    "id" : 297,
+    "page number" : 9,
+    "bounding box" : [ 168.545, 335.344, 499.265, 477.424 ],
+    "source" : "29_images/imageFile32.png"
+  }, {
+    "type" : "caption",
+    "id" : 298,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 315.271, 482.817, 326.425 ],
+    "linked content id" : 297,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 6. Monthly one-day readings of mean LPT EGT over a six-month period."
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 9,
+    "bounding box" : [ 168.845, 315.747, 485.992, 324.892 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Figure 6. Monthly one-day readings of mean LPT EGT over a six-month period."
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 9,
+    "bounding box" : [ 165.975, 166.05, 560.523, 303.613 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The statistical analysis of the 800 processed intervals is summarized in Figure 7, which presents the evolution of three key indicators: mean temperature, standard deviation, and skewness. These statistical descriptors provide insight into both thermal consistency and anomalous patterns that may be indicative of developing faults. As illustrated in Figure 7a, the mean temperature values fluctuated significantly across the intervals, ranging from a low of 33.60 ◦C to a peak of 748.97 ◦C. These values reflect the turbine’s transition through various operational phases, including idle, startup, full-load, and shutdown. Most of the higher temperature clusters were concentrated in the 600–750 ◦C range, correlating with active combustion and peak-load operation. The lower range reflects either transient conditions or data points during early-stage or cool-down operation phases."
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 9,
+    "bounding box" : [ 168.845, 163.777, 562.07, 299.958 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The statistical analysis of the 800 processed intervals is summarized in Figure 7, which presents the evolution of three key indicators: mean temperature, standard deviation, and skewness. These statistical descriptors provide insight into both thermal consistency and anomalous patterns that may be indicative of developing faults. As illustrated in Figure 7a, the mean temperature values fluctuated significantly across the intervals, ranging from a low of 33.60 °C to a peak of 748.97 °C. These values reflect the turbine’s transition through various operational phases, including idle, startup, full-load, and shutdown. Most of the higher temperature clusters were concentrated in the 600–750 °C range, correlating with active combustion and peak-load operation. The lower range reflects either transient conditions or data points during early-stage or cool-down operation phases."
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 68.556, 560.926, 164.336 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The standard deviation analysis shown in Figure 7b demonstrates a substantial variation in the degree of thermal fluctuation among intervals. Standard deviation values ranged from as low as 0.0133, indicating near-steady temperature behavior, to as high as 362.33, which reveals severe thermal volatility. Intervals with such high deviation may correspond to load cycling, abrupt operational changes, or sensor disturbances—factors that can contribute to mechanical stress in the hot sections of the turbine. Notably, a concentration of intervals in the 100–200 range suggests routine fluctuations that still warrant"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 9,
+    "bounding box" : [ 168.845, 135.757, 561.755, 159.979 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "The standard deviation analysis shown in Figure 7b demonstrates a substantial variation in the degree of thermal ﬂuctuation among intervals. Standard deviation values"
+  }, {
+    "type" : "header",
+    "id" : 301,
+    "page number" : 10,
+    "bounding box" : [ 36.334, 874.613, 559.623, 882.721 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 13,
+      "page number" : 10,
+      "bounding box" : [ 36.334, 874.613, 559.623, 882.721 ],
+      "heading level" : 7,
+      "font" : "PalatinoLinotype",
+      "font size" : 7.98,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, x FOR PEER REVIEW 10 of 17"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 10,
+    "bounding box" : [ 166.713, 662.174, 559.965, 840.355 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "ranged from as low as 0.0133, indicating near-steady temperature behavior, to as high as 362.33, which reveals severe thermal volatility. Intervals with such high deviation may correspond to load cycling, abrupt operational changes, or sensor disturbances—factors that can contribute to mechanical stress in the hot sections of the turbine. Notably, a concentration of intervals in the 100–200 range suggests routine fluctuations that still warrant continuous monitoring. In Figure 7c, the skewness distribution offers further insight into the symmetry of the temperature proﬁles. The skewness values range from −2.67 (left-skewed) to +2.67 (rightskewed), indicating that some intervals exhibited a strong tendency toward either abnormally high or low temperature readings. A left-skewed distribution reflects a clustering of higher temperature values, potentially signaling overheating or local hot spots, while right-skewed intervals suggest dominant cooler periods, possibly linked to irregular load conditions. Skewness values close to zero reflect balanced operation, while extreme skewness may indicate emerging faults or irregular combustion behavior."
+  }, {
+    "type" : "list",
+    "id" : 302,
+    "level" : "6",
+    "page number" : 10,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 284,
+    "next list id" : 319,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 10 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 305,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 659.749, 560.933, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "continuous monitoring. In Figure 7c, the skewness distribution offers further insight into the symmetry of the temperature profiles. The skewness values range from −2.67 (leftskewed) to +2.67 (right-skewed), indicating that some intervals exhibited a strong tendency toward either abnormally high or low temperature readings. A left-skewed distribution reflects a clustering of higher temperature values, potentially signaling overheating or local hot spots, while right-skewed intervals suggest dominant cooler periods, possibly linked to irregular load conditions. Skewness values close to zero reflect balanced operation, while extreme skewness may indicate emerging faults or irregular combustion behavior."
+  }, {
+    "type" : "image",
+    "id" : 312,
+    "page number" : 10,
+    "bounding box" : [ 62.014, 508.96, 292.174, 646.96 ],
+    "source" : "29_images/imageFile33.png"
+  }, {
+    "type" : "image",
+    "id" : 313,
+    "page number" : 10,
+    "bounding box" : [ 302.494, 508.24, 533.854, 647.2 ],
+    "source" : "29_images/imageFile34.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 10,
+    "bounding box" : [ 171.214, 492.193, 424.629, 502.375 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(a) (b)"
+  }, {
+    "type" : "image",
+    "id" : 314,
+    "page number" : 10,
+    "bounding box" : [ 154.894, 317.44, 440.974, 489.28 ],
+    "source" : "29_images/imageFile35.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 10,
+    "bounding box" : [ 292.415, 301.333, 303.551, 311.515 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "(c)"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 267.869, 559.273, 291.845 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 7. Progressed statistical analysis for each interval: (a) temperature mean value; (b) standard deviation; (c) Skewness."
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "page number" : 10,
+    "bounding box" : [ 166.714, 267.363, 559.573, 290.488 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.0,
+    "text color" : "[0.0]",
+    "content" : "Figure 7. Progressed statistical analysis for each interval: (a) temperature mean value; (b) standard deviation; (c) Skewness."
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 10,
+    "bounding box" : [ 165.975, 132.576, 561.019, 256.212 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To establish the connection between statistical anomalies and actual component degradation, the thermally abnormal intervals detected by the IF were compared against borescope inspection results. These inspections, conducted at 2000, 4000, and 6000 h of operation, revealed progressive coating damage on the HPT stator blades and liners. Intervals with extreme skewness or unusually high standard deviation (e.g., >300) coincided with these operational periods, reinforcing the validity of treating such thermal behavior as early indicators of incipient faults. Thus, abnormal intervals in this study are defined statistically and through their indirect association with observed physical wear which helped to establish a data-driven bridge between anomaly detection and component health."
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 10,
+    "bounding box" : [ 166.714, 129.373, 559.78, 251.574 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 10.02,
+    "text color" : "[0.0]",
+    "content" : "To establish the connection between statistical anomalies and actual component degradation, the thermally abnormal intervals detected by the IF were compared against borescope inspection results. These inspections, conducted at 2000, 4000, and 6000 h of operation, revealed progressive coating damage on the HPT stator blades and liners. Intervals with extreme skewness or unusually high standard deviation (e.g., >300) coincided with these operational periods, reinforcing the validity of treating such thermal behavior as early indicators of incipient faults. Thus, abnormal intervals in this study are deﬁned statistically and through their indirect association with observed physical wear which helped to establish a data-driven bridge between anomaly detection and component health."
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 108.794, 290.897, 121.208 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "4.2. Machine Learning Results"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 10,
+    "bounding box" : [ 166.095, 64.243, 559.275, 104.312 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To evaluate the effectiveness of the XGBoost classifier in detecting abnormal thermal conditions in the gas turbine, a series of performance metrics and visualizations were produced. These provide a quantitative and qualitative assessment of the model’s ability to"
+  }, {
+    "type" : "list",
+    "id" : 323,
+    "level" : "7",
+    "page number" : 11,
+    "bounding box" : [ 42.417, 840.178, 529.075, 847.719 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 335,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 42.417, 840.178, 529.075, 847.719 ],
+      "font" : "PalatinoLinotype,Italic",
+      "font size" : 7.421,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, x FOR PEER REVIEW 11 of 17",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 11,
+    "bounding box" : [ 163.669, 798.85, 279.328, 808.318 ],
+    "font" : "PalatinoLinotype,Italic",
+    "font size" : 9.319,
+    "text color" : "[0.0]",
+    "content" : "4.2. Machine Learning Results"
+  }, {
+    "type" : "list",
+    "id" : 319,
+    "level" : "6",
+    "page number" : 11,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 302,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 11 of 16",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 11,
+    "bounding box" : [ 163.666, 548.643, 529.197, 792.471 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.319,
+    "text color" : "[0.0]",
+    "content" : "To evaluate the eﬀectiveness of the XGBoost classiﬁer in detecting abnormal thermal conditions in the gas turbine, a series of performance metrics and visualizations were produced. These provide a quantitative and qualitative assessment of the model’s ability to distinguish between healthy and faulty operating intervals. Figure 8 presents the assessment metrics of the XGBoost classiﬁcation model used for thermal condition monitoring. The model achieved a classiﬁcation accuracy (CA) of 97.2%, which reﬂects its excellent overall performance. The F1-score reached 96.8% and indicated a strong balance between precision and recall. Precision, which measures the proportion of correctly identiﬁed abnormal intervals out of all the predicted abnormal cases, was 97.5%. Meanwhile, the recall value of 96.1% demonstrated the model’s capability to correctly identify most actual abnormal cases. These values collectively suggest that the XGBoost algorithm provides highly reliable and consistent predictions to minimize both false alarms and missed detections. Figure 9 shows the confusion matrix for the ﬁnal classiﬁcation results. Out of 797 intervals, the model correctly identiﬁed 740 normal intervals and 37 abnormal intervals and corresponded to the true negatives and true positives, respectively. Only 17 normal intervals were incorrectly classiﬁed as abnormal (false positives), and 3 abnormal intervals were misclassiﬁed as normal (false negatives). These minimal misclassiﬁcation counts validate the high precision and recall values and demonstrate the robustness of the model, especially given the class imbalance between the normal (757) and 40 abnormal cases."
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 11,
+    "bounding box" : [ 165.975, 548.327, 561.022, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "distinguish between healthy and faulty operating intervals. Figure 8 presents the assessment metrics of the XGBoost classification model used for thermal condition monitoring. The model achieved a classification accuracy (CA) of 97.2%, which reflects its excellent overall performance. The F1-score reached 96.8% and indicated a strong balance between precision and recall. Precision, which measures the proportion of correctly identified abnormal intervals out of all the predicted abnormal cases, was 97.5%. Meanwhile, the recall value of 96.1% demonstrated the model’s capability to correctly identify most actual abnormal cases. These values collectively suggest that the XGBoost algorithm provides highly reliable and consistent predictions to minimize both false alarms and missed detections. Figure 9 shows the confusion matrix for the final classification results. Out of 797 intervals, the model correctly identified 740 normal intervals and 37 abnormal intervals and corresponded to the true negatives and true positives, respectively. Only 17 normal intervals were incorrectly classified as abnormal (false positives), and 3 abnormal intervals were misclassified as normal (false negatives). These minimal misclassification counts validate the high precision and recall values and demonstrate the robustness of the model, especially given the class imbalance between the normal (757) and 40 abnormal cases."
+  }, {
+    "type" : "image",
+    "id" : 328,
+    "page number" : 11,
+    "bounding box" : [ 163.391, 312.857, 503.325, 537.842 ],
+    "source" : "29_images/imageFile36.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 299.0, 559.382, 310.154 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 8. Performance metrics of the XGBoost classification model used for thermal condition monitoring."
+  }, {
+    "type" : "caption",
+    "id" : 327,
+    "page number" : 11,
+    "bounding box" : [ 163.67, 281.295, 529.319, 302.801 ],
+    "linked content id" : 328,
+    "font" : "PalatinoLinotype",
+    "font size" : 8.37,
+    "text color" : "[0.0]",
+    "content" : "Figure 8. Performance metrics of the XGBoost classification model used for thermal condition monitoring."
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "page number" : 11,
+    "bounding box" : [ 165.975, 66.212, 561.019, 287.342 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To further evaluate the model’s discriminative ability, Figure 10 displays the Receiver Operating Characteristic (ROC) curve. The curve shows a steep rise toward the topleft corner, indicating a high true positive rate with minimal false positives. The Area Under the Curve (AUC) was found to be 0.97, which confirms the classifier’s strong capacity to differentiate between healthy and faulty states. AUC values close to 1.0 typically represent excellent model performance, and in this context, it reinforces the reliability of the classifier for predictive maintenance applications. Figure 11 illustrates the learning curve, showing how the model’s accuracy evolves as the number of trees in the XGBoost ensemble increases. The training accuracy steadily rises from 90.0% to 97.2%, while the testing accuracy improves from 88.0% to 96.1% as the number of trees increases to 20. The smooth convergence between the training and testing curves indicates that the model generalizes well and is not overfitting. The final configuration, using 100 trees (as previously defined in Table 3), was selected based on this convergence and optimal performance plateau. Collectively, these results validate the reliability and predictive power of the XGBoost model in classifying gas turbine operating conditions based on thermal data. The model successfully integrates statistical feature extraction with advanced ensemble learning to"
+  }, {
+    "type" : "header",
+    "id" : 331,
+    "page number" : 12,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 14,
+      "page number" : 12,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 12 of 16"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 729.387, 559.272, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "deliver actionable insights for proactive maintenance strategies. A comparative analysis summarized in Table 4 demonstrates that the proposed XGBoost model outperforms traditional machine learning algorithms."
+  }, {
+    "type" : "list",
+    "id" : 335,
+    "level" : "7",
+    "page number" : 12,
+    "bounding box" : [ 38.922, 755.858, 536.047, 763.561 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 323,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 38.922, 755.858, 536.047, 763.561 ],
+      "font" : "PalatinoLinotype,Italic",
+      "font size" : 7.581,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, x FOR PEER REVIEW 12 of 17",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 22,
+        "page number" : 12,
+        "bounding box" : [ 162.783, 479.417, 535.999, 501.443 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 8.55,
+        "text color" : "[0.0]",
+        "content" : "Figure 9. Confusion matrix of the XGBoost classiﬁer for classifying healthy and faulty thermal intervals."
+      }, {
+        "type" : "paragraph",
+        "id" : 23,
+        "page number" : 12,
+        "bounding box" : [ 162.782, 215.347, 536.161, 464.418 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 9.519,
+        "text color" : "[0.0]",
+        "content" : "To further evaluate the model’s discriminative ability, Figure 10 displays the Receiver Operating Characteristic (ROC) curve. The curve shows a steep rise toward the topleft corner, indicating a high true positive rate with minimal false positives. The Area Under the Curve (AUC) was found to be 0.97, which conﬁrms the classiﬁer’s strong capacity to diﬀerentiate between healthy and faulty states. AUC values close to 1.0 typically represent excellent model performance, and in this context, it reinforces the reliability of the classiﬁer for predictive maintenance applications. Figure 11 illustrates the learning curve, showing how the model’s accuracy evolves as the number of trees in the XGBoost ensemble increases. The training accuracy steadily rises from 90.0% to 97.2%, while the testing accuracy improves from 88.0% to 96.1% as the number of trees increases to 20. The smooth convergence between the training and testing curves indicates that the model generalizes well and is not overﬁtting. The ﬁnal conﬁguration, using 100 trees (as previously deﬁned in Table 3), was selected based on this convergence and optimal performance plateau. Collectively, these results validate the reliability and predictive power of the XGBoost model in classifying gas turbine operating conditions based on thermal data. The model successfully integrates statistical feature extraction with advanced ensemble learning to deliver actionable insights for proactive maintenance strategies. A comparative analysis summarized in Table 4 demonstrates that the proposed XGBoost model outperforms traditional machine learning algorithms."
+      }, {
+        "type" : "paragraph",
+        "id" : 24,
+        "page number" : 12,
+        "bounding box" : [ 162.783, 190.655, 499.701, 199.343 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 8.55,
+        "text color" : "[0.0]",
+        "content" : "Table 4. Comparison of the classiﬁcation assessment metrics against traditional methods."
+      }, {
+        "type" : "paragraph",
+        "id" : 25,
+        "page number" : 12,
+        "bounding box" : [ 190.314, 157.89, 521.612, 180.843 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 9.519,
+        "text color" : "[0.0]",
+        "content" : "Algorithm Accuracy F1-Score Precision Recall Artiﬁcial Neural Network 95.4% 95.1% 95.6% 94.7%"
+      }, {
+        "type" : "paragraph",
+        "id" : 28,
+        "page number" : 12,
+        "bounding box" : [ 212.772, 132.24, 520.49, 154.737 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 9.519,
+        "text color" : "[0.0]",
+        "content" : "Decision Tree 91.8% 91.2% 92.5% 90.0% Random Forest 94.5% 94.0% 94.8% 93.2%"
+      }, {
+        "type" : "paragraph",
+        "id" : 29,
+        "page number" : 12,
+        "bounding box" : [ 193.45, 106.59, 520.492, 129.087 ],
+        "font" : "PalatinoLinotype",
+        "font size" : 9.519,
+        "text color" : "[0.0]",
+        "content" : "Support Vector Machine 92.3% 91.9% 92.7% 91.0% XGBoost (This study) 97.2% 96.8% 97.5% 96.1%"
+      }, {
+        "type" : "image",
+        "id" : 31,
+        "page number" : 12,
+        "bounding box" : [ 162.498, 512.0, 447.498, 727.232 ],
+        "source" : "29_images/imageFile37.png"
+      }, {
+        "type" : "list",
+        "id" : 32,
+        "level" : "8",
+        "page number" : 12,
+        "bounding box" : [ 163.197, 49.957, 558.973, 509.731 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 12,
+          "bounding box" : [ 166.394, 498.577, 558.973, 509.731 ],
+          "font" : "URWPalladioL-Bold",
+          "font size" : 8.966,
+          "text color" : "[0.0]",
+          "content" : "Figure 9. Confusion matrix of the XGBoost classifier for classifying healthy and faulty thermal intervals.",
+          "kids" : [ {
+            "type" : "paragraph",
+            "id" : 19,
+            "page number" : 12,
+            "bounding box" : [ 39.336, 520.654, 536.461, 528.357 ],
+            "font" : "PalatinoLinotype",
+            "font size" : 7.581,
+            "text color" : "[0.0]",
+            "content" : "Machines 2025, 13, x FOR PEER REVIEW 13 of 17"
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 12,
+          "bounding box" : [ 163.197, 286.051, 476.869, 294.739 ],
+          "font" : "PalatinoLinotype,Bold",
+          "font size" : 8.55,
+          "text color" : "[0.0]",
+          "content" : "Figure 10. Receiver Operating Characteristic (ROC) curve of the XGBoost classiﬁer.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 12,
+          "bounding box" : [ 163.197, 49.957, 536.504, 71.926 ],
+          "font" : "PalatinoLinotype,Bold",
+          "font size" : 8.55,
+          "text color" : "[0.0]",
+          "content" : "Figure 11. Learning curve showing training and testing accuracy versus the number of trees in the XGBoost ensemble.",
+          "kids" : [ ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 12,
+    "bounding box" : [ 39.75, 531.273, 536.875, 538.977 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 7.581,
+    "text color" : "[0.0]",
+    "content" : "Machines 2025, 13, x FOR PEER REVIEW 13 of 17"
+  }, {
+    "type" : "image",
+    "id" : 348,
+    "page number" : 12,
+    "bounding box" : [ 163.326, 315.46, 443.538, 502.419 ],
+    "source" : "29_images/imageFile38.png"
+  }, {
+    "type" : "image",
+    "id" : 339,
+    "page number" : 12,
+    "bounding box" : [ 162.912, 304.84, 443.124, 491.8 ],
+    "source" : "29_images/imageFile39.png"
+  }, {
+    "type" : "list",
+    "id" : 344,
+    "level" : "10",
+    "page number" : 12,
+    "bounding box" : [ 163.611, 60.577, 536.918, 305.359 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 163.611, 296.671, 477.284, 305.359 ],
+      "font" : "PalatinoLinotype,Bold",
+      "font size" : 8.55,
+      "text color" : "[0.0]",
+      "content" : "Figure 10. Receiver Operating Characteristic (ROC) curve of the XGBoost classiﬁer.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 163.611, 60.577, 536.918, 82.546 ],
+      "font" : "PalatinoLinotype,Bold",
+      "font size" : 8.55,
+      "text color" : "[0.0]",
+      "content" : "Figure 11. Learning curve showing training and testing accuracy versus the number of trees in the XGBoost ensemble.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 292.805, 495.191, 303.959 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 10. Receiver Operating Characteristic (ROC) curve of the XGBoost classifier."
+  }, {
+    "type" : "image",
+    "id" : 349,
+    "page number" : 12,
+    "bounding box" : [ 163.326, 92.704, 452.202, 285.592 ],
+    "source" : "29_images/imageFile40.png"
+  }, {
+    "type" : "image",
+    "id" : 340,
+    "page number" : 12,
+    "bounding box" : [ 162.912, 82.084, 451.788, 274.972 ],
+    "source" : "29_images/imageFile41.png"
+  }, {
+    "type" : "caption",
+    "id" : 350,
+    "page number" : 12,
+    "bounding box" : [ 166.098, 67.741, 559.279, 91.555 ],
+    "linked content id" : 349,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 11. Learning curve showing training and testing accuracy versus the number of trees in the XGBoost ensemble."
+  }, {
+    "type" : "heading",
+    "id" : 345,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 163.611, 33.832, 239.604, 45.416 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 11.4,
+    "text color" : "[0.0]",
+    "content" : "5. Conclusions"
+  }, {
+    "type" : "heading",
+    "id" : 336,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 163.197, 23.212, 239.189, 34.796 ],
+    "heading level" : 5,
+    "font" : "PalatinoLinotype,Bold",
+    "font size" : 11.4,
+    "text color" : "[0.0]",
+    "content" : "5. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 12,
+    "bounding box" : [ 163.612, -62.134, 536.982, 27.338 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.519,
+    "text color" : "[0.0]",
+    "content" : "This study investigated a data-driven approach for thermal condition monitoring and the predictive maintenance of gas turbines using machine learning, particularly the XGBoost classiﬁcation algorithm. The research focused on leveraging statistical featuresmean temperature, standard deviation, and skewness—extracted from a six-month operational dataset obtained via thermocouple measurements at the turbine exhaust. Through detailed experimental analysis, machine learning modeling, and performance evaluation, several key contributions were achieved:"
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "page number" : 12,
+    "bounding box" : [ 163.197, -72.754, 536.568, 16.718 ],
+    "font" : "PalatinoLinotype",
+    "font size" : 9.519,
+    "text color" : "[0.0]",
+    "content" : "This study investigated a data-driven approach for thermal condition monitoring and the predictive maintenance of gas turbines using machine learning, particularly the XGBoost classiﬁcation algorithm. The research focused on leveraging statistical featuresmean temperature, standard deviation, and skewness—extracted from a six-month operational dataset obtained via thermocouple measurements at the turbine exhaust. Through detailed experimental analysis, machine learning modeling, and performance evaluation, several key contributions were achieved:"
+  }, {
+    "type" : "list",
+    "id" : 347,
+    "level" : "9",
+    "page number" : 12,
+    "bounding box" : [ 163.612, -144.784, 536.94, -65.946 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 163.612, -104.884, 536.94, -65.946 ],
+      "font" : "Symbol",
+      "font size" : 9.519,
+      "text color" : "[0.0]",
+      "content" : "• A comprehensive thermal dataset was processed into 800 statistical intervals from over 8000 raw readings collected across six months. This facilitated the eﬀective characterization of turbine operating states using simple meaningful statistical indicators.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 163.612, -144.784, 536.94, -105.845 ],
+      "font" : "Symbol",
+      "font size" : 9.519,
+      "text color" : "[0.0]",
+      "content" : "• An IF algorithm was implemented to detect anomalies within the thermal intervals based on their statistical features, providing unsupervised labeling of normal and abnormal conditions used for the supervised training of the XGBoost model.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 338,
+    "level" : "9",
+    "page number" : 12,
+    "bounding box" : [ 163.197, -155.404, 536.526, -76.565 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 163.197, -115.504, 536.526, -76.565 ],
+      "font" : "Symbol",
+      "font size" : 9.519,
+      "text color" : "[0.0]",
+      "content" : "• A comprehensive thermal dataset was processed into 800 statistical intervals from over 8000 raw readings collected across six months. This facilitated the eﬀective characterization of turbine operating states using simple meaningful statistical indicators.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 163.198, -155.404, 536.526, -116.465 ],
+      "font" : "Symbol",
+      "font size" : 9.519,
+      "text color" : "[0.0]",
+      "content" : "• An IF algorithm was implemented to detect anomalies within the thermal intervals based on their statistical features, providing unsupervised labeling of normal and abnormal conditions used for the supervised training of the XGBoost model.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 351,
+    "page number" : 13,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 15,
+      "page number" : 13,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 13 of 16"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "page number" : 13,
+    "bounding box" : [ 166.098, 758.35, 518.898, 769.504 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 4. Comparison of the classification assessment metrics against traditional methods."
+  }, {
+    "type" : "paragraph",
+    "id" : 356,
+    "page number" : 13,
+    "bounding box" : [ 177.262, 719.696, 541.3, 748.587 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Algorithm Accuracy F1-Score Precision Recall Artificial Neural Network 95.4% 95.1% 95.6% 94.7%"
+  }, {
+    "type" : "paragraph",
+    "id" : 358,
+    "page number" : 13,
+    "bounding box" : [ 204.898, 707.741, 540.09, 719.955 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Decision Tree 91.8% 91.2% 92.5% 90.0%"
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "page number" : 13,
+    "bounding box" : [ 181.073, 683.831, 540.095, 708.0 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Random Forest 94.5% 94.0% 94.8% 93.2% Support Vector Machine 92.3% 91.9% 92.7% 91.0%"
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 13,
+    "bounding box" : [ 187.264, 671.875, 540.089, 684.089 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "XGBoost (This study) 97.2% 96.8% 97.5% 96.1%"
+  }, {
+    "type" : "heading",
+    "id" : 362,
+    "level" : "Subtitle",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 639.114, 246.793, 653.891 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "5. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 13,
+    "bounding box" : [ 166.065, 539.411, 561.266, 635.191 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This study investigated a data-driven approach for thermal condition monitoring and the predictive maintenance of gas turbines using machine learning, particularly the XGBoost classification algorithm. The research focused on leveraging statistical featuresmean temperature, standard deviation, and skewness—extracted from a six-month operational dataset obtained via thermocouple measurements at the turbine exhaust. Through detailed experimental analysis, machine learning modeling, and performance evaluation, several key contributions were achieved:"
+  }, {
+    "type" : "list",
+    "id" : 364,
+    "level" : "10",
+    "page number" : 13,
+    "bounding box" : [ 166.518, 327.507, 561.023, 534.709 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.518, 494.639, 561.023, 534.709 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• A comprehensive thermal dataset was processed into 800 statistical intervals from over 8000 raw readings collected across six months. This facilitated the effective characterization of turbine operating states using simple meaningful statistical indicators.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.518, 452.856, 559.277, 492.926 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• An IF algorithm was implemented to detect anomalies within the thermal intervals based on their statistical features, providing unsupervised labeling of normal and abnormal conditions used for the supervised training of the XGBoost model.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.518, 411.073, 560.521, 451.143 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• An XGBoost classification model was developed and trained on the processed feature set, yielding a high classification accuracy (97.2%), F1-score (96.8%), precision (97.5%), and recall (96.1%).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.518, 369.29, 559.275, 409.359 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• A detailed performance evaluation was conducted using a confusion matrix, ROC curve (AUC = 0.97), and learning curve analysis, which demonstrated that the model was not overfitting and generalized well to unseen data.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.518, 327.507, 560.517, 367.576 ],
+      "font" : "CMSY10",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "• The study demonstrated the practical feasibility of integrating AI techniques with real-world thermal monitoring systems to support predictive maintenance strategies, helping reduce unplanned downtimes and enhance asset reliability.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "page number" : 13,
+    "bounding box" : [ 166.095, 227.024, 561.019, 322.805 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In the future, this study can be extended by adding the real-time application of the proposed model in turbine control systems for real-time fault detection. Additional features such as pressure, vibration, and acoustic signals can be included for stronger prediction. Moreover, ensemble or hybrid deep learning techniques, i.e., LSTM-XGBoost or CNNbased feature fusion, can be explored for more detailed temporal and spatial anomaly descriptions. Validation on multiple turbines and longer operating durations will further strengthen the generalizability of the proposed methodology."
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 13,
+    "bounding box" : [ 166.017, 150.355, 560.4, 213.344 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Conceptualization, S.T.B., M.I.A.-K., Z.H.K., H.A.D., A.A.F.O., and Z.T.A.-S.; methodology, L.A.A.-H.; software, L.A.A.-H.; formal analysis, L.A.A.-H.; investigation, L.A.A.-H.; writing—original draft preparation, L.A.A.-H.; writing—review and editing, S.T.B., M.I.A.-K., Z.H.K., H.A.D., A.A.F.O., and Z.T.A.-S.; visualization, L.A.A.-H. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 367,
+    "page number" : 13,
+    "bounding box" : [ 166.017, 80.264, 559.28, 142.371 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research received no external funding. Data Availability Statement: Data are available from the open-access article cited in the experimental work [43]. Conflicts of Interest: The authors declare no conflicts of interest."
+  }, {
+    "type" : "header",
+    "id" : 368,
+    "page number" : 14,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 16,
+      "page number" : 14,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 14 of 16"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 371,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 35.716, 756.462, 95.48, 771.239 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 372,
+    "level" : "2",
+    "page number" : 14,
+    "bounding box" : [ 35.716, 64.917, 560.85, 752.761 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 25,
+    "next list id" : 376,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 716.037, 560.401, 752.761 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Condessa, G.Á.; Ismail, K.A.R.; Hunt, J.D.; Ponce Júnior, N.; Velásquez, R.M.G.; Borges, V.L.; Tomé, F.M.C.; de Souza, C.L.; Gazoli, J.R.; Bindemann, F.T. Electricity Generation Potential from Natural Gas Pressure Reduction Turbines in Brazil. Energy Effic. 2023, 16, 97. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 690.502, 560.394, 714.46 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Guandalini, G.; Campanari, S.; Romano, M.C. Power-to-Gas Plants and Gas Turbines for Improved Wind Energy Dispatchability: Energy and Economic Assessment. Appl. Energy 2015, 147, 117–130. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 664.968, 559.273, 688.925 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Jaber, A.A.; Ibraheem, L.; Patel, H. Optimizing Wind Turbine Performance: The Impact of Atmospheric Factors and Advanced Control Strategies. Terra Joule J. 2024, 1, 3.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 626.865, 560.848, 663.391 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Talal, W.; Akroot, A. An Exergoeconomic Evaluation of an Innovative Polygeneration System Using a Solar-Driven Rankine Cycle Integrated with the Al-Qayyara Gas Turbine Power Plant and the Absorption Refrigeration Cycle. Machines 2024, 12, 133. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 601.133, 559.278, 625.09 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Yun, W.; Ha, M.; Kim, K.; Lee, G. Design of a Thermal Performance Test Equipment for a High-Temperature and High-Pressure Heat Exchanger in an Aero-Engine. Machines 2024, 12, 794. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 575.599, 559.275, 599.556 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Biassoni, D.; Barsi, D.; Lengani, D. Effect of Purge on Secondary Flows in Turbine Due to Interaction Between Cavity Flow and Main Channel. Machines 2025, 13, 77. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 550.065, 559.274, 574.022 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Chowdhury, T.S.; Mohsin, F.T.; Tonni, M.M.; Mita, M.N.H.; Ehsan, M.M. A Critical Review on Gas Turbine Cooling Performance and Failure Analysis of Turbine Blades. Int. J. Thermofluids 2023, 18, 100329. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 524.531, 559.272, 548.488 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Błachnio, J.; Spychała, J.; Zasada, D. Analysis of Structural Changes in a Gas Turbine Blade as a Result of High Temperature and Stress. Eng. Fail. Anal. 2021, 127, 105554. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 486.23, 560.394, 522.954 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Abid, A.; Sarowar, M.T. Heat Transfer, Thermal Stress and Failure Inspection of a Gas Turbine Compressor Stator Blade Made of Five Different Conventional Superalloys and Ultra-High-Temperature Ceramic Material: A Direct Numerical Investigation. J. Fail. Anal. Prev. 2022, 22, 878–898. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 460.696, 559.278, 484.653 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Yeranee, K.; Rao, Y.; Xu, C.; Zhang, Y.; Su, X. Turbulent Flow Heat Transfer and Thermal Stress Improvement of Gas Turbine Blade Trailing Edge Cooling with Diamond-Type TPMS Structure. Aerospace 2024, 11, 37. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 422.394, 560.396, 459.119 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Montañés, R.M.; Hagen, B.; Deng, H.; Skaugen, G.; Morin, N.; Andersen, M.; Mazzetti, M.J. Design Optimization of Compact Gas Turbine and Steam Combined Cycles for Combined Heat and Power Production in a FPSO System–A Case Study. Energy 2023, 282, 128401. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 396.86, 559.272, 420.817 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Cai, L.; He, Y.; Wang, S.; Li, Y.; Li, F. Thermal-Fluid-Solid Coupling Analysis on the Temperature and Thermal Stress Field of a Nickel-Base Superalloy Turbine Blade. Materials 2021, 14, 3315. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 371.326, 559.273, 395.283 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Vo, D.-T.; Mai, T.-D.; Kim, B.; Jung, J.-S.; Ryu, J. Numerical Investigation of Crack Initiation in High-Pressure Gas Turbine Blade Subjected to Thermal-Fluid-Mechanical Low-Cycle Fatigue. Int. J. Heat Mass Transf. 2023, 202, 123748. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 345.792, 560.399, 369.749 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Rayapati, S. Gas Turbine Blade Failure Scenario Due to Thermal Loads in Case of Nickel Based Super Alloys. Mater. Today Proc. 2021, 46, 8119–8126. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 320.258, 559.278, 344.215 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Ogaili, A.A.F.; Jaber, A.A.; Hamzah, M.N. Statistically Optimal Vibration Feature Selection for Fault Diagnosis in Wind Turbine Blade. Int. J. Renew. Energy Res. 2023, 13, 1082–1092.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 294.724, 560.843, 318.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Xie, J.; Sage, M.; Zhao, Y.F. Feature Selection and Feature Learning in Machine Learning Applications for Gas Turbines: A Review. Eng. Appl. Artif. Intell. 2023, 117, 105591. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 269.19, 559.279, 293.147 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. de Castro-Cros, M.; Velasco, M.; Angulo, C. Machine-Learning-Based Condition Assessment of Gas Turbines—A Review. Energies 2021, 14, 8468. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 243.656, 559.278, 267.613 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Hurtado, J.; Salvati, D.; Semola, R.; Bosio, M.; Lomonaco, V. Continual Learning for Predictive Maintenance: Overview and Challenges. Intell. Syst. Appl. 2023, 19, 200251. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 218.122, 560.394, 242.079 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Arafat, M.Y.; Hossain, M.J.; Alam, M.M. Machine Learning Scopes on Microgrid Predictive Maintenance: Potential Frameworks, Challenges, and Prospects. Renew. Sustain. Energy Rev. 2024, 190, 114088. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 192.588, 560.85, 216.545 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Liu, X.; He, D.; Lodewijks, G.; Pang, Y.; Mei, J. Integrated Decision Making for Predictive Maintenance of Belt Conveyor Systems. Reliab. Eng. Syst. Saf. 2019, 188, 347–351. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 167.053, 559.281, 191.01 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Gawde, S.; Patil, S.; Kumar, S.; Kamat, P.; Kotecha, K.; Alfarhood, S. Explainable Predictive Maintenance of Rotating Machines Using LIME, SHAP, PDP, ICE. IEEE Access 2024, 12, 29345–29361. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 141.519, 560.399, 165.476 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Scaife, A.D. Improve Predictive Maintenance through the Application of Artificial Intelligence: A Systematic Review. Results Eng. 2023, 21, 101645. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 115.985, 559.273, 139.942 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Pollak, A.; Temich, S.; Ptasin´ski, W.; Kucharczyk, J.; Ga˛siorek, D. Prediction of Belt Drive Faults in Case of Predictive Maintenance in Industry 4.0 Platform. Appl. Sci. 2021, 11, 307. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 90.451, 559.276, 114.408 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Liao, R.; He, Y.; Feng, T.; Yang, X.; Dai, W.; Zhang, W. Mission Reliability-Driven Risk-Based Predictive Maintenance Approach of Multistate Manufacturing System. Reliab. Eng. Syst. Saf. 2023, 236, 109273. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 35.716, 64.917, 559.277, 88.874 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Garan, M.; Tidriri, K.; Kovalenko, I. A Data-Centric Machine Learning Methodology: Application on Predictive Maintenance of Wind Turbines. Energies 2022, 15, 826. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 373,
+    "page number" : 15,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 15,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 15 of 16"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 376,
+    "level" : "2",
+    "page number" : 15,
+    "bounding box" : [ 35.716, 67.906, 560.844, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 24,
+    "previous list id" : 372,
+    "next list id" : 380,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 744.559, 559.278, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Dehghan Shoorkand, H.; Nourelfath, M.; Hajji, A. A Hybrid CNN-LSTM Model for Joint Optimization of Production and Imperfect Predictive Maintenance Planning. Reliab. Eng. Syst. Saf. 2024, 241, 109707. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 706.258, 560.842, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Domínguez-Monferrer, C.; Fernández-Pérez, J.; De Santos, R.; Miguélez, M.H.; Cantero, J.L. Machine Learning Approach in Non-Intrusive Monitoring of Tool Wear Evolution in Massive CFRP Automatic Drilling Processes in the Aircraft Industry. J. Manuf. Syst. 2022, 65, 622–639. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 667.957, 559.279, 704.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Nagy, M.; Lăzăroiu, G.; Valaskova, K. Machine Intelligence and Autonomous Robotic Technologies in the Corporate Context of SMEs: Deep Learning and Virtual Simulation Algorithms, Cyber-Physical Production Networks, and Industry 4.0-Based Manufacturing Systems. Appl. Sci. 2023, 13, 1681. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 642.621, 560.84, 666.38 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Pech, M.; Vrchota, J.; Bednáˇr, J. Predictive Maintenance and Intelligent Sensors in Smart Factory: Review. Sensors 2021, 21, 1470. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 616.889, 559.278, 640.846 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Abdul-Zahra, A.S.; Ghane, E.; Kamali, A.; Farhan Ogaili, A.A. Power Forecasting in Continuous Extrusion of Pure Titanium Using Naïve Bayes Algorithm. Terra Joule J. 2024, 1, 2.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 591.355, 559.628, 615.312 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Al-Haddad, L.A.; Kahachi, H.A.H.; Ur Rehman, H.Z.; Al-Zubaidi, A.A.; Al-Karkhi, M.I.; Al-Oubaidi, B. Advancing Sustainability in Buildings Using an Integrated Aerodynamic Façade: Potential of Artificial Intelligence. Terra Joule J. 2024, 1, 1.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 553.054, 560.397, 589.778 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Mahdi, N.M.; Jassim, A.H.; Abulqasim, S.A.; Basem, A.; Ogaili, A.A.F.; Al-Haddad, L.A. Leak Detection and Localization in Water Distribution Systems Using Advanced Feature Analysis and an Artificial Neural Network. Desalination Water Treat 2024, 320, 100685. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 527.52, 559.278, 551.477 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Jin, Y.; Ying, Y.; Li, J.; Zhou, H. Gas Path Fault Diagnosis of Gas Turbine Engine Based on Knowledge Data-Driven Artificial Intelligence Algorithm. IEEE Access 2021, 9, 108932–108941. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 501.986, 559.278, 525.943 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Shen, Y.; Khorasani, K. Hybrid Multi-Mode Machine Learning-Based Fault Diagnosis Strategies with Application to Aircraft Gas Turbine Engines. Neural. Netw. 2020, 130, 126–142. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 489.218, 516.988, 500.408 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Liu, Z.; Karimi, I.A. Gas Turbine Performance Prediction via Machine Learning. Energy 2020, 192, 116627. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 463.684, 559.278, 487.641 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "36. Barrera, J.M.; Reina, A.; Mate, A.; Trujillo, J.C. Fault Detection and Diagnosis for Industrial Processes Based on Clustering and Autoencoders: A Case of Gas Turbines. Int. J. Mach. Learn. Cybern. 2022, 13, 3113–3129. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 425.581, 560.844, 462.107 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "37. del Carmen Rubiales Mena, M.; Muñoz, A.; Sanz-Bobi, M.Á.; Gonzalez-Calvo, D.; Álvarez-Tejedor, T. Application of Ensemble Machine Learning Techniques to the Diagnosis of the Combustion in a Gas Turbine. Appl. Therm. Eng. 2024, 249, 123447. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 399.849, 559.276, 423.806 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "38. Nashed, M.S.; Renno, J.; Mohamed, M.S.; Reuben, R.L. Gas Turbine Failure Classification Using Acoustic Emissions with Wavelet Analysis and Deep Learning. Expert Syst. Appl. 2023, 232, 120684. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 361.548, 560.768, 398.272 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "39. Yang, X.; Jiang, A.; Jiang, W.; Zhao, Y.; Tang, E.; Chang, S. Abnormal Detection and Fault Diagnosis of Adjustment Hydraulic Servomotor Based on Genetic Algorithm to Optimize Support Vector Data Description with Negative Samples and OneDimensional Convolutional Neural Network. Machines 2024, 12, 368. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 336.014, 559.278, 359.971 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "40. Salilew, W.M.; Gilani, S.I.; Lemma, T.A.; Fentaye, A.D.; Kyprianidis, K.G. Simultaneous Fault Diagnostics for Three-Shaft Industrial Gas Turbine. Machines 2023, 11, 832. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 310.48, 559.625, 334.437 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "41. Djeddi, A.Z.; Hafaifa, A.; Hadroug, N.; Iratni, A. Gas Turbine Availability Improvement Based on Long Short-Term Memory Networks Using Deep Learning of Their Failures Data Analysis. Process Saf. Environ. Prot. 2022, 159, 1–25. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 272.377, 560.393, 308.903 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "42. Hashmi, M.B.; Fentaye, A.D.; Mansouri, M.; Kyprianidis, K.G. A Comparative Analysis of Various Machine Learning Approaches for Fault Diagnostics of Hydrogen Fueled Gas Turbines. In Proceedings of the Turbo Expo: Power for Land, Sea, and Air; American Society of Mechanical Engineers: New York, NY, USA, 2024; Volume 87967, p. V004T05A050.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 246.645, 559.273, 270.602 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "43. Khoshghiafehgan, M.; Akhlaghi, A.; Ranji, A.; Mazhar, M.Y. Gas Turbine Hot Sections Condition Monitoring Based on Operational Thermal Dataset. Data Brief 2024, 55, 110624. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 221.11, 559.455, 245.067 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "44. Al-Haddad, L.A.; Jaber, A.A.; Mahdi, N.M.; Al-Haddad, S.A.; Al-Karkhi, M.I.; Al-Sharify, Z.T.; Farhan Ogaili, A.A. Protocol for UAV Fault Diagnosis Using Signal Processing and Machine Learning. STAR Protoc. 2024, 5, 103351. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 182.809, 560.398, 219.533 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "45. Al-Haddad, A.A.; Al-Haddad, L.A.; Al-Haddad, S.A.; Jaber, A.A.; Khan, Z.H.; Rehman, H.Z.U. Towards Dental Diagnostic Systems: Synergizing Wavelet Transform with Generative Adversarial Networks for Enhanced Image Data Fusion. Comput. Biol. Med. 2024, 182, 109241. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 144.706, 560.842, 181.232 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "46. Abdulameer, A.G.; Mrah, M.M.; Bazerkan, M.; Al-Haddad, L.A.; Al-Karkhi, M.I. Machine Learning-Driven Power Prediction in Continuous Extrusion of Pure Titanium for Enhanced Structural Resilience under Extreme Loading. Discov. Mater. 2025, 5, 7. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 118.974, 559.452, 142.931 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "47. Al-Haddad, L.A.; Jaber, A.A.; Dhahir, M.K.; Nagim, H.Y.; Algburi, Z.I. Characterization and Prediction of Femtosecond Laser Induced Tracks in Silver-Containing Zinc Phosphate Glass. CEUR Workshop Proc. 2024, 3870, 10–19.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 93.638, 560.842, 117.397 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "48. Ren, Q.; Wang, J. Research on Enterprise Digital-Level Classification Based on XGBoost Model. Sustainability 2023, 15, 2699. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 35.716, 67.906, 559.273, 91.863 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "49. Wang, Q.; Zou, X.; Chen, Y.; Zhu, Z.; Yan, C.; Shan, P.; Wang, S.; Fu, Y. XGBoost Algorithm Assisted Multi-Component Quantitative Analysis with Raman Spectroscopy. Spectrochim. Acta A Mol. Biomol. Spectrosc. 2024, 323, 124917. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 377,
+    "page number" : 16,
+    "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 16,
+      "bounding box" : [ 35.716, 795.883, 559.276, 807.647 ],
+      "heading level" : 8,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Machines 2025, 13, 401 16 of 16"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 380,
+    "level" : "2",
+    "page number" : 16,
+    "bounding box" : [ 35.716, 655.19, 560.848, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 376,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 744.757, 559.278, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "50. Chen, T.; Guestrin, C. Xgboost: A Scalable Tree Boosting System. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA, 13–17 August 2016; pp. 785–794.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 706.456, 560.848, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "51. Wang, Y.; Li, J.; Wang, G.; Chen, G.; He, S. Prediction of Diesel Particulate Filter Regeneration Conditions and Diesel Engine Performance under Regeneration Mode Using AMSO-BPNN and Combined with XGBoost. Appl. Energy 2025, 377, 124341. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 680.724, 559.278, 704.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "52. Sarow, S.A.; Flayyih, H.A.; Bazerkan, M.; Al-Haddad, L.A.; Al-Sharify, Z.T.; Ogaili, A.A.F. Advancing Sustainable Renewable Energy: XGBoost Algorithm for the Prediction of Water Yield in Hemispherical Solar Stills. Discov. Sustain. 2024, 5, 510. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 655.19, 559.277, 679.147 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "53. Chugh, B.; Malik, N.; Gupta, D.; Alkahtani, B.S. A Probabilistic Approach Driven Credit Card Anomaly Detection with CBLOF and Isolation Forest Models. Alex. Eng. J. 2025, 114, 231–242. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 381,
+    "page number" : 16,
+    "bounding box" : [ 35.447, 601.167, 559.28, 637.693 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  } ]
+}

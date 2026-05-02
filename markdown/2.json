@@ -1,0 +1,3097 @@
+{
+  "file name" : "2.pdf",
+  "number of pages" : 20,
+  "author" : "Filippo Morselli, Luca Bedogni, Umberto Mirani, Michele Fantoni, Simone Galasso",
+  "title" : "Anomaly Detection and Classification in Predictive Maintenance Tasks with Zero Initial Training",
+  "creation date" : "D:20211018153505+08'00'",
+  "modification date" : "D:20211018103857+02'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 56,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 761.462, 558.498, 788.938 ],
+    "source" : "2_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 57,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 761.462, 558.498, 788.938 ],
+    "source" : "2_images/imageFile2.png"
+  }, {
+    "type" : "image",
+    "id" : 58,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 761.462, 558.498, 788.938 ],
+    "source" : "2_images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 59,
+    "page number" : 1,
+    "bounding box" : [ 516.898, 761.462, 558.498, 788.938 ],
+    "source" : "2_images/imageFile4.png"
+  }, {
+    "type" : "heading",
+    "id" : 54,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 75.874, 770.671, 101.984, 783.525 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 19.014,
+    "text color" : "[0.841797, 0.446777, 0.0270386, 0.023468]",
+    "content" : "IoT"
+  }, {
+    "type" : "paragraph",
+    "id" : 61,
+    "page number" : 1,
+    "bounding box" : [ 35.641, 728.753, 63.496, 741.167 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 62,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.301, 688.735, 454.139, 729.729 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "Anomaly Detection and Classiﬁcation in Predictive Maintenance Tasks with Zero Initial Training"
+  }, {
+    "type" : "heading",
+    "id" : 63,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 36.0, 660.536, 486.414, 674.23 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Filippo Morselli 1, Luca Bedogni 2,* , Umberto Mirani 1,3, Michele Fantoni 1 and Simone Galasso 3"
+  }, {
+    "type" : "list",
+    "id" : 72,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 167.265, 588.551, 518.567, 642.376 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 167.265, 620.83, 508.532, 642.376 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 DIGIBELT, 40056 Bologna, Italy; fmorselli@digibelt.com (F.M.); umirani@digibelt.com (U.M.); mfantoni@digibelt.com (M.F.)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 167.265, 599.311, 518.567, 620.857 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Department of Physics, Informatics and Mathematics, University of Modena and Reggio Emilia, 41125 Modena, Italy",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 167.265, 588.551, 399.159, 599.338 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3 Bonﬁglioli Consulting, 40033 Bologna, Italy; sgalasso@bcsoa.it",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 73,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 166.555, 577.649, 331.409, 587.564 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: luca.bedogni@unimore.it"
+  }, {
+    "type" : "paragraph",
+    "id" : 66,
+    "page number" : 1,
+    "bounding box" : [ 35.728, 347.579, 152.602, 427.681 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Citation: Morselli, F.; Bedogni, L.; Mirani, U.; Fantoni, M.; Galasso, S. Anomaly Detection and Classiﬁcation in Predictive Maintenance Tasks with Zero Initial Training. IoT 2021, 2, 590–609. https://doi.org/10.3390/ iot2040030"
+  }, {
+    "type" : "paragraph",
+    "id" : 67,
+    "page number" : 1,
+    "bounding box" : [ 35.728, 311.774, 141.765, 332.249 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editors: Carlo Giannelli and Marco Picone"
+  }, {
+    "type" : "paragraph",
+    "id" : 68,
+    "page number" : 1,
+    "bounding box" : [ 35.728, 264.042, 125.983, 296.443 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 16 August 2021 Accepted: 21 September 2021 Published: 9 October 2021"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 1,
+    "bounding box" : [ 35.707, 202.892, 154.248, 247.218 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional afﬁliations."
+  }, {
+    "type" : "image",
+    "id" : 70,
+    "page number" : 1,
+    "bounding box" : [ 36.0, 163.952, 92.693, 183.794 ],
+    "source" : "2_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 71,
+    "page number" : 1,
+    "bounding box" : [ 35.728, 66.575, 154.359, 158.602 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/)."
+  }, {
+    "type" : "paragraph",
+    "id" : 74,
+    "page number" : 1,
+    "bounding box" : [ 166.888, 422.073, 560.765, 562.779 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Abstract: The Fourth Industrial Revolution has led to the adoption of novel technologies and methodologies in factories, making these more efﬁcient and productive. Among the new services which are changing industry, there are those based on machine learning algorithms, which enable machines to learn from their past observations and hence possibly forecast future states. Speciﬁcally, predictive maintenance represents the opportunity to understand in advance possible machine outages due to broken parts and schedule the necessary maintenance operations. However, in real scenarios predictive maintenance struggles to be adopted due to a multitude of variables and the heavy customization it requires. In this work, we propose a novel framework for predictive maintenance, which is trained online to recognize new issues reported by the operators. Our framework, tested on different scenarios and with a varying number and several kinds of sensors, shows recall levels above 0.85, demonstrating its effectiveness and adaptability."
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "page number" : 1,
+    "bounding box" : [ 167.265, 396.985, 510.695, 408.139 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Keywords: anomaly detection; Industry 4.0; machine learning; predictive maintenance"
+  }, {
+    "type" : "heading",
+    "id" : 77,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 167.265, 346.585, 235.379, 358.899 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "page number" : 1,
+    "bounding box" : [ 166.846, 293.564, 560.933, 343.437 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Novel software applications and improved engineered technologies are paving the way for a radical transformation in many scenarios, including those related to the production of goods. In particular, in the industry domain this set of technologies is called Industry 4.0."
+  }, {
+    "type" : "paragraph",
+    "id" : 79,
+    "page number" : 1,
+    "bounding box" : [ 166.846, 168.034, 561.016, 293.225 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industry 4.0 is driving an industrial revolution, encompassing a set of new technologies and novel software models which will completely transform industries. These include, for instance, Cyber Physical Systems (CPS), which provide the bridge between the software and manufacturing robots, enabling industrial machines to perform faster and better. Moreover, the adoption of machine learning models has led to a whole new set of services being offered by the industry, such as enhanced customer satisfaction management, human resources, and improved automatic control for CPS. Among the many areas that Industry 4.0 is changing, in this work we focus on predictive maintenance, which is the ability of a system to automatically predict whether some parts of a CPS are going to break before the event happens."
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "page number" : 1,
+    "bounding box" : [ 167.265, 80.164, 560.925, 167.695 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Maintenance costs represent between 15% and 40% of the total costs of goods production [1]. Moreover, unplanned corrective maintenance is estimated to be at least three times more expensive than a regularly scheduled one [2]. Predictive maintenance allows manufacturers to signiﬁcantly reduce costs, minimizing downtimes caused by sudden breakdowns and increasing the maintenance activities that can be scheduled in advance, based on actual machine health. It also allows to substitute components just before their failure, thus making the most out of their useful lifetime."
+  }, {
+    "type" : "paragraph",
+    "id" : 82,
+    "page number" : 1,
+    "bounding box" : [ 36.0, 18.829, 557.284, 28.776 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "IoT 2021, 2, 590–609. https://doi.org/10.3390/iot2040030 https://www.mdpi.com/journal/iot"
+  }, {
+    "type" : "header",
+    "id" : 83,
+    "page number" : 2,
+    "bounding box" : [ 36.0, 780.073, 559.674, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 2,
+      "bounding box" : [ 36.0, 780.073, 559.674, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 591"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 2,
+    "bounding box" : [ 166.846, 509.446, 561.021, 747.613 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Even though predictive maintenance has shown several beneﬁts, particularly the increase in Overall Equipment Effectiveness (OEE) thanks to reduced stop times, its real deployment in industries is proceeding slowly, mainly due to the challenges of deploying real models in the ﬁeld. One of the major obstacles to the rapid adoption of predictive maintenance models in production is the fact that the machine learning models overarching the predictive maintenance framework have to be effectively trained. This requires a dataset which collects all the sensors’ measurements, which would also contain their different readings depending on the issue that the machine is experiencing. As many variables change from machine to machine, such as standard vibrations and environmental parameters, it is challenging to have general datasets; hence, each dataset must be collected for a single machine. However, this would mean that one should know in advance all the possible issues that the machine may experience, but should also manually break it to collect the sensors’ patterns which will eventually enable the model to classify failures. In real deployments, this is clearly unfeasible, as stopping the machine to break it would increase costs of operation and slow down production, whilst it would also be difﬁcult to foresee all the possible issues and issue levels in advance. Moreover, personnel need to be trained in advance before using novel systems such as those based on machine learning with interfaces that are different from those they are used to see. Hence, usability also takes a primary role in the adoption of Industry 4.0 technologies in industries."
+  }, {
+    "type" : "paragraph",
+    "id" : 87,
+    "page number" : 2,
+    "bounding box" : [ 167.265, 233.281, 561.021, 509.107 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To overcome these challenges, in this paper we present a novel framework which combines two different models: one is used for anomaly detection and the other for classiﬁcation, which are used in cascade. Basically, the anomaly detection model is run ﬁrst, collecting data about the machine in a stable state, while the classiﬁcation model is run afterwards, should the anomaly detection model reports an anomaly compared to the standard state in which the machine should be. With this approach, the only data we need to bootstrap the model are those related to the machine being in the stable state, while all the other states concerning failures can be learned later by monitoring deviating states thanks to the anomaly detection model. In other words, the only input data which our model need are samples from the machine in working order. In the model we present in this paper, both the anomaly detection module and the classiﬁer module are implemented as one-class Support Vector Machines (SVM). While in the former case the model is used to recognize anomalies—in the latter case there different one-class SVMs, each one tailored to recognize a speciﬁc issue. As soon as the anomaly detection module reports a possible new state, the raw data are fed to the classiﬁcation model, which looks for patterns similar to those already seen in the past. If a match is found, then the corresponding class is output to the user, otherwise the user is asked for further details. Each time a new sample is found, the raw data are used to train a new model, with all the previous classes found, plus the new one, hence increasing the spectrum of possible issues found by the classiﬁcation model. By doing this, the same model can be deployed to different industrial machines, with a different set of sensors, and the speciﬁc anomalies will be classiﬁed by the users while the model is working."
+  }, {
+    "type" : "paragraph",
+    "id" : 88,
+    "page number" : 2,
+    "bounding box" : [ 166.846, 157.963, 560.52, 232.942 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We tested our model under three different conditions to show its adaptability: ﬁrst, we used a publicly available dataset; as a second scenario we built a custom prototype machine; as a third scenario we deployed our model on a real industrial machine. The results that we present in Section 5 show that our framework is able to adapt its behavior to different machines, with different numbers and types of sensors, with different machine issues and in a heterogeneous scenario."
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "page number" : 2,
+    "bounding box" : [ 167.265, 82.645, 559.472, 157.624 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The rest of this paper is structured as follows: Section 2 presents related work from the literature; Section 3 presents our model; Section 4 shows the datasets and scenarios we considered; Section 5 shows the different scenarios we evaluated, along with numerical results; Section 6 discusses the results obtained and the integration of this work in other scenarios; Section 7 summarizes the paper, and concludes it by also discussing future works on this topic."
+  }, {
+    "type" : "header",
+    "id" : 90,
+    "page number" : 3,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 3,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 592"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 93,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 167.265, 733.677, 239.902, 745.991 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "2. Related Work"
+  }, {
+    "type" : "paragraph",
+    "id" : 94,
+    "page number" : 3,
+    "bounding box" : [ 167.265, 693.21, 560.927, 730.53 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In recent years, industry has undergone several transformations, not only from an instrumentation point of view, but also with regard to software, human resource management, and customer relations."
+  }, {
+    "type" : "paragraph",
+    "id" : 95,
+    "page number" : 3,
+    "bounding box" : [ 167.265, 642.998, 559.668, 692.871 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Among the vast amount of work that has been carried on in the Industry 4.0 area, we focus here on contributions which focus on Condition Based Maintenance (CBM). Mainly CBM aims to reduce the costs of maintenance by performing it only when necessary, instead of doing unplanned maintenance when not needed."
+  }, {
+    "type" : "paragraph",
+    "id" : 96,
+    "page number" : 3,
+    "bounding box" : [ 166.966, 580.233, 559.279, 642.659 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Generally, each CBM operation is composed of three different phases, summarized in [3]. These steps are the Data Collection, to gather meaningful data helpful to understand the industrial machine state, the Data Management aiming at extracting useful information from the data, and ﬁnally the Decision, which deﬁnes a policy to take action related to the possible maintenance operation."
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 3,
+    "bounding box" : [ 166.971, 504.915, 559.666, 579.894 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Typical CBM systems address diagnostic decisions, or prognostic decisions. While the former aims to identify a failure when it happens, the latter forecasts it, by also giving a possible time frame in which such a failure may happen. Prognostic systems are typically more complex, though they offer more valuable insights. However, they could also be combined together [4], to provide diagnostics solutions when prognostic fails. Moreover, data from the diagnostic process can be fed to the prognostic system, to strengthen its decision."
+  }, {
+    "type" : "paragraph",
+    "id" : 98,
+    "page number" : 3,
+    "bounding box" : [ 166.966, 329.174, 561.015, 504.576 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In general what any system should do is to react to potential failures in advance, before they become a functional failure for the industrial machine, typically represented by the P-F curve shown in Figure 1. Any predictive system should be able to react as soon as a potential failure is experienced, which may arise from friction, heating and other anomalies. Before such point, the maintenance would be proactive, meaning that any equipment is replaced or ﬁxed before it actually starts to malfunction. Here, cost raises as fully functional equipment may be replaced without the need to do so. After a potential failure there is a certain time, dependent on a number of factors, in which the equipment works but the potential failure becomes more evident, until a point in which the failure becomes functional, meaning that the equipment does not work anymore, or it may break. In this scenario, predictive maintenance has not reacted fast enough, hence reactive maintenance has to take place. The time between each point and the overall lifespan of any equipment varies greatly, so in general predictive maintenance frameworks should react as fast as possible after the potential failure begins to be observed."
+  }, {
+    "type" : "image",
+    "id" : 99,
+    "page number" : 3,
+    "bounding box" : [ 167.265, 80.76, 481.225, 316.23 ],
+    "source" : "2_images/imageFile6.png"
+  }, {
+    "type" : "caption",
+    "id" : 100,
+    "page number" : 3,
+    "bounding box" : [ 167.265, 63.108, 247.953, 74.262 ],
+    "linked content id" : 99,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 1. P-F Curve."
+  }, {
+    "type" : "header",
+    "id" : 101,
+    "page number" : 4,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 4,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 593"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 104,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 167.265, 369.303, 214.627, 746.051 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 117,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 167.265, 733.637, 205.213, 746.051 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.1. Data",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 48,
+        "page number" : 4,
+        "bounding box" : [ 167.265, 693.21, 559.665, 730.53 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Popular architectures for such system leverage on the cloud [5], due to the possibility of sharing data among different plants, which also helps in gathering the needed data to train appropriate models for CBM."
+      }, {
+        "type" : "paragraph",
+        "id" : 49,
+        "page number" : 4,
+        "bounding box" : [ 166.846, 592.786, 560.519, 692.871 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Data for CBM can be divided broadly in three different types. We have static data, which are those related to the kind of order the industrial machine is producing, materials in use and data about the operator following the industrial process. Then there are log data, which report the history of the machine related to maintenance operations and possible components switch. Finally there are sensor data, which are all the information coming from sensors installed in the industrial machine or in its vicinity. These can include temperature, voltage, humidity and so on, and are highly dependent on the environment and on the kind of industrial machine they are installed on."
+      }, {
+        "type" : "paragraph",
+        "id" : 50,
+        "page number" : 4,
+        "bounding box" : [ 167.265, 555.127, 560.521, 592.447 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "An example of these data are provided in [6], where the authors present PRONOSTIA, a platform which aim to deliver real data for testing purposes, testifying the difﬁculty to gather real data for these complex scenarios."
+      }, {
+        "type" : "paragraph",
+        "id" : 51,
+        "page number" : 4,
+        "bounding box" : [ 166.846, 479.809, 560.921, 554.788 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Of course, these data are not always easy to get, hence there are different dataset which exist in the literature. For instance, NASA released datasets for two different jet2 engines, in which they simulate an engine until it reaches a state of failure [7]. They provide in total 24 variables which represent the operational characteristics of the engine, without detailing which kind of data refer to what sensor. Data are reported every 10 minutes, sampling the accelerometer values at 20 KHz for 1 second, until the industrial machine reports a failure."
+      }, {
+        "type" : "paragraph",
+        "id" : 52,
+        "page number" : 4,
+        "bounding box" : [ 167.265, 429.597, 559.279, 479.47 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Ref. [8] shows a study in which two different datasets have been used, one from a mining company and a second one from a pulp and paper company. They performed a study leveraging Principal Component Analysis, showing similarities and differences among the two datasets."
+      }, {
+        "type" : "paragraph",
+        "id" : 53,
+        "page number" : 4,
+        "bounding box" : [ 167.265, 391.939, 559.476, 429.258 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Finally there is [9], which publishes data for 100 industrial machines which span over a year. They provide telemetry data, error data, maintenance data, failure data and static data about the industrial machines."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 167.265, 369.303, 214.627, 381.717 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.2. Models",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 4,
+    "bounding box" : [ 166.846, 291.216, 560.521, 366.195 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Physics based models develop systems which describe the physics characteristics of the component in terms of temperature, mechanical and chemical properties. After developing the model, which however is not an easy task, sensors reports real time values which are fed into the system. The main advantage is that this is a descriptive approach, meaning that it can be certiﬁed and explained [3]; however, it is highly challenging and it relies on the accuracy of the model."
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 4,
+    "bounding box" : [ 167.265, 228.451, 559.664, 290.877 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Other models are based on the knowledge of the system, which is derived from the experience of the systems experts. Basically it transfers human knowledge to a computer understandable knowledge, such as with fuzzy logic or Bayesian networks [10]. Fuzzy logic is also the technique leveraged by [11], where the author focus speciﬁcally on gas turbine propulsion."
+  }, {
+    "type" : "paragraph",
+    "id" : 107,
+    "page number" : 4,
+    "bounding box" : [ 166.956, 102.922, 561.016, 228.112 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Finally, there are models based on big data, which use data science and machine learning applied from data collected by the industrial machines. Nowadays, it is one of the most investigated subjects in research [4], mainly because data are nowadays easier to be obtained, and they do not require deep knowledge of the system to be effective. They mainly differ on the output that the user requires from the system. There are binary classiﬁcation systems, in which typically the user only wants to understand whether an issue has been identiﬁed or not [12]. Clearly multiclass systems provide more knowledge about the state of the system, but are also more complex. Regression models instead are devoted to learn the behavior of the system, in order to possibly predict its future states [13]."
+  }, {
+    "type" : "paragraph",
+    "id" : 108,
+    "page number" : 4,
+    "bounding box" : [ 167.265, 65.263, 559.279, 102.583 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "A further possibility which is also the one we will use in the remainder of the paper is anomaly detection. Basically the model only determines whether the system is in a standard state or not, and leaves further analysis to more speciﬁc models. The main difference"
+  }, {
+    "type" : "header",
+    "id" : 109,
+    "page number" : 5,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 5,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 594"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 5,
+    "bounding box" : [ 167.265, 708.751, 559.28, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "among this approach and the binary classiﬁcation model is that anomaly detection is semi-supervised, since it only needs to learn samples from the standard case, and it learns the non-standard ones by itself."
+  }, {
+    "type" : "paragraph",
+    "id" : 113,
+    "page number" : 5,
+    "bounding box" : [ 167.265, 608.328, 560.521, 708.412 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Some other proposals use SVMs, such as [14], where the authors build a diagnostic system for induction engines with real data gathered from engines in a standard state and during failures. A similar approach is envisioned in [15] but in a chemical scenario, and in a multiclass problem. The idea is to split the problem into several subproblems, in which they train multiple classiﬁers able to recognize between a class and another one. This is a solution similar to that proposed in [16] where two SVMs are combined in cascade, achieving a 94.4% of accuracy. Ref. [17] also uses an SVM but in a regression problem to estimate the Remaining Useful Life (RUL) of components."
+  }, {
+    "type" : "paragraph",
+    "id" : 114,
+    "page number" : 5,
+    "bounding box" : [ 166.966, 545.563, 559.278, 607.989 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Neural networks have been recently applied to solve CBM problems, such as in [18] and [19], where authors tackle multiclass classiﬁcation problems mainly with vibration patterns, achieving over 95% of accuracy. This is also the case of [20], where the authors leveraged recurrent neural networks to develop an intelligent predictive decision support system."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 5,
+    "bounding box" : [ 166.956, 420.033, 561.023, 545.224 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Other popular algorithms used are for instance Decision Trees [21,22]. While the accuracy is over 90%, hence comparable with other techniques, author prefer Decision Trees since they can be explained and can give insights on why the failure had happened. Ref. [23] leverages instead Hidden Markov Models using the NASA dataset which we presented earlier. Each hidden state represents a different health status of the model and enables the possibility to compute the probability leading to a state of failure. The NASA dataset is also used by [24], where the authors propose a speciﬁc framework to perform prognostic condition based maintenance. Ref. [25] uses instead an Hidden semi-Markov model to generate a sequence of observations from a single state, achieving roughly 91% of accuracy in diagnostic tasks and 8.3% in prognostic tasks for the RUL of a component."
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 5,
+    "bounding box" : [ 166.876, 357.268, 559.279, 419.694 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Another model often used in the literature is the Auto Regressive Integrated Moving Average (ARIMA), which is typically used to model time series behavior to forecast future trends. This is the case for the instance of [26], where the ARIMA model is used to estimate the remaining useful life of aircraft engines. Their model also employs SVM to strengthen the prediction and presents good results in this speciﬁc scenario."
+  }, {
+    "type" : "list",
+    "id" : 117,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 167.265, 334.632, 229.033, 347.046 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 104,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 167.265, 334.632, 229.033, 347.046 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3. Challenges",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 5,
+    "bounding box" : [ 166.846, 243.993, 560.524, 331.525 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Data collection and analysis in Industry 4.0 is a complex task which encompasses a series of challenges. At ﬁrst, noise can alter signiﬁcantly the raw signal from the sensors, also due to environmental variables such as temperature and humidity. Thus, algorithms which analyze such data need to be robust with respect to noise, distinguishing between oscillations due to external factors and those related to possible failures. This also relates to the fact that in certain environments, it is possible that external factors alter the sensor behavior such as temperature, humidity or external vibrations."
+  }, {
+    "type" : "paragraph",
+    "id" : 119,
+    "page number" : 5,
+    "bounding box" : [ 167.265, 206.334, 559.276, 243.654 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Moreover speciﬁcally for prognostic tasks, the same failure might happen depending on various factors, making its recognition more challenging [27], as a direct causal effect may not be always evident."
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 5,
+    "bounding box" : [ 166.966, 68.251, 561.016, 205.995 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "However, one of the major challenges is due to the data availability itself, as data in this scenario are not easy to gather, since that would mean to physically break the industrial machine in all the possible ways in which it could lead to a failure, which is clearly unfeasible due to raised operational costs and also to the fact that operators should know in advance all the possible issues which the industrial machine may experience. Hence algorithms should work with few data available, and learn issues online rather than being trained once at deployment time. This allows for rapid deployment of the predictive maintenance algorithms which learn as the available dataset grows. Moreover it is also challenging to design systems which can adapt to a number of different scenarios, with heterogeneous sensors and with a varying set of issues to be recognized. The system we propose in this paper addresses these challenges in the following way:"
+  }, {
+    "type" : "header",
+    "id" : 121,
+    "page number" : 6,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 6,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 595"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 124,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 167.265, 533.01, 560.93, 746.071 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 167.265, 658.54, 560.524, 746.071 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Data Collection: our system does not need any input data when installed in a new industrial machine, and it is able to learn as the machine operates. The only mandatory operation is that when installed, the machine should be in correct working order, i.e., it should not have any issue. This can be easily done for instance when ordinary and extraordinary maintenance operations are planned: upon completing the maintenance, the system may be run and learns what is the behavior of the machine in a correct working operation.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 167.265, 583.222, 560.519, 658.201 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Causality: our system does not recognize speciﬁc causality but leaves to the operator the possibility to describe the anomaly which the system experienced. In other words, we do not look to understand what speciﬁc component is responsible for the issue, but the system presents to the operator the possibility to do so. When the same anomaly is experienced later, the system is then able to present the description that the operator provided, so the speciﬁc reason for the issue can be identiﬁed.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 167.265, 533.01, 560.93, 582.883 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Scenario heterogeneity: our system is built with no speciﬁc scenario in mind, meaning that it can adapt to any set of sensor, kind of industrial machine and precision of the data. By doing so it can be installed virtually in any scenario, and it will automatically learn how to recognize anomalies with the available data.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 6,
+    "bounding box" : [ 166.966, 479.809, 559.279, 529.682 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "More details about the novelties and the speciﬁc contributions will be given in Section 3 where we describe how we designed and developed our system. We will also present three different case studies which show how the system can adapt to different scenarios in Section 4, and we will evaluate them in Section 5."
+  }, {
+    "type" : "heading",
+    "id" : 126,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 167.265, 457.213, 243.409, 469.527 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "3. System Model"
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 6,
+    "bounding box" : [ 167.265, 416.746, 560.523, 454.066 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this section, we present the model we have developed by detailing the two main components of it, which are the anomaly detection, run ﬁrst, and the classiﬁcation of issues, run upon an anomaly being found by the anomaly detector."
+  }, {
+    "type" : "paragraph",
+    "id" : 128,
+    "page number" : 6,
+    "bounding box" : [ 167.265, 394.11, 224.6, 406.524 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "3.1. Overview"
+  }, {
+    "type" : "paragraph",
+    "id" : 129,
+    "page number" : 6,
+    "bounding box" : [ 166.846, 64.964, 561.019, 391.002 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 2 presents the overview of our model. We deﬁne a steady state Ss, in which the machine does not present any issue. This can happen for instance after a planned maintenance, in which all the critical components are checked and worn parts replaced. Ss represents the state in which our model should recognize that the machine is in working order, does not present any issue, therefore it should not give any warning to the operator. Upon running, the machine may experience unseen states, in which the behavior of one or more sensors installed on the machine deviates from Ss. This is called an anomaly and it is represented by Sa. Note that at this stage the precise issue may not be known, hence our model will simply output that there is an anomaly, without necessarily specifying which one. This scenario is depicted in Figure 2a. Whenever an anomaly is detected, the system warns the operator for a possible issue on the industrial machine, giving the possibility to describe it, by detailing the speciﬁc issue experienced. This makes the model able to learn that the unknown anomaly which has just been experienced is now described in terms of kind, issue type and any other detail that the operator wants to use. In our model this translates into learning a novel state, called SI1, which represents a speciﬁc issue which may happen on the industrial machine. Note that SI1 is not deﬁned a priori, but it is declared after the operator describes the ﬁrst issue which is found on the industrial machine. At this stage, depicted in Figure 2b, the system is aware of the steady state Ss, which can lead to an anomaly Sa, and since it is now known also SI1, in case the same anomaly is found the system may recognize it. This happens since after having at least one described anomaly, the system upon the case an anomaly is found also tries to classify it against all the known issues, in this case only SI1. If the classiﬁer matches the current anomaly with SI1, then it outputs the speciﬁc issue, hence not just an unknown anomaly. In case the current anomaly is not recognized among any of the previous ones, it again offers the operator the possibility to describe it as a novel one. This can lead to several anomalies described as speciﬁc issues by the operator, which can lead to the scenario we show in Figure 2c, where different issues"
+  }, {
+    "type" : "header",
+    "id" : 130,
+    "page number" : 7,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 25,
+      "page number" : 7,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 596"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 7,
+    "bounding box" : [ 167.265, 708.751, 559.474, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "are known to the system and analyzed in case any anomaly is found. Clearly, the number of issues and the data used to describe them is left to the speciﬁc scenarios, and operators need to be trained about this aspect."
+  }, {
+    "type" : "image",
+    "id" : 134,
+    "page number" : 7,
+    "bounding box" : [ 45.919, 542.702, 200.023, 696.806 ],
+    "source" : "2_images/imageFile7.png"
+  }, {
+    "type" : "image",
+    "id" : 136,
+    "page number" : 7,
+    "bounding box" : [ 220.586, 542.702, 374.69, 696.806 ],
+    "source" : "2_images/imageFile8.png"
+  }, {
+    "type" : "image",
+    "id" : 137,
+    "page number" : 7,
+    "bounding box" : [ 395.254, 542.702, 549.358, 696.806 ],
+    "source" : "2_images/imageFile9.png"
+  }, {
+    "type" : "caption",
+    "id" : 135,
+    "page number" : 7,
+    "bounding box" : [ 117.595, 525.05, 477.134, 536.204 ],
+    "linked content id" : 136,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) (b) (c)"
+  }, {
+    "type" : "paragraph",
+    "id" : 138,
+    "page number" : 7,
+    "bounding box" : [ 57.26, 454.128, 538.013, 516.408 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 2. Model deﬁnition. In Figure 2a, we show the case in which our model can only detect the base state Ss and the anomaly state Sa. In Figure 2b, we show the case in which the ﬁrst anomaly has been described by the user, which then deﬁnes the class SI1. Clearly the model may still recognize the base case Ss and a novel anomaly Sa. Finally, whenever the user describes a novel anomaly SI2, this is added to the model while keeping also the base cases Ss and Sa in addition to the other deﬁned classes."
+  }, {
+    "type" : "list",
+    "id" : 139,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 167.265, 404.895, 559.277, 439.778 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 150,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 167.265, 404.895, 559.277, 439.778 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "3.2. Implementation In this section, we detail the implementation of our model. Let M be the industrial",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 7,
+    "bounding box" : [ 167.265, 386.716, 559.151, 411.703 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "machine on which we perform the predictive maintenance task, and SM = {s1, s2, · · · , sN} be the set of N sensors through which we sense the machine dynamics."
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 7,
+    "bounding box" : [ 166.846, 211.195, 560.523, 386.597 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 3 shows the architecture of the proposed system. The set of sensors SM can be directly connected to a collector, which can serve data through a local controller. As we already stated, si can be anything, such as accelerometers, sound sensors, voltage sensors and so on and so forth. In particular accelerometers can be used to sense unusual vibrations, which may relate to parts not tightened together or excessive loads. Sound sensors may instead be used to assess whether sounds which were not present during normal operation of M are instead heard, thus potentially indicating malfunctions. Clearly many other sensors can be used, and their ﬁnal choice depends on the kind of industrial machine on which it has to be performed the predictive maintenance task, and to the possible points of failure of it. However our framework is sensor-agnostic, meaning that it can adapt itself to different kind and number of sensors, and continuously learn new behaviors of M. As a ﬁnal note it also enables the system to scale, starting with a low number of sensors, and gradually adding new ones which add information to the model, thus specializing more on speciﬁc failures."
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "page number" : 7,
+    "bounding box" : [ 167.265, 110.771, 560.521, 210.856 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Communication is performed between the Controller or directly from the sensor si with HTTP, through which each sensors si reports the date it senses to a local server, running a web server which stores the data locally, and on which we deploy the learning model P described in the next section. We note that this architecture allows for different conﬁgurations in terms of network protocols used and sensors types. For instance, there may be more energy efﬁcient communications if sensors communicate to the local controller through specialized M2M protocols, however this is out of the scope of this work and has to be determined depending on the speciﬁc scenario."
+  }, {
+    "type" : "paragraph",
+    "id" : 143,
+    "page number" : 7,
+    "bounding box" : [ 167.265, 60.559, 559.279, 110.432 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The web server is connected to a client, both with a WebSocket and with HTTP messages. The client is needed by the operator to interact with P, and to be notiﬁed about possible issues which needs to be investigated further. In our experiments we have implemented the client on a tablet which we place aside of the industrial machine, but"
+  }, {
+    "type" : "header",
+    "id" : 144,
+    "page number" : 8,
+    "bounding box" : [ 36.0, 780.073, 559.475, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 26,
+      "page number" : 8,
+      "bounding box" : [ 36.0, 780.073, 559.475, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 597"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 8,
+    "bounding box" : [ 167.265, 721.304, 559.279, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "it may also be implemented on a mobile application or as a web application. Again this depends on the speciﬁc scenario and on the requirements of the application."
+  }, {
+    "type" : "image",
+    "id" : 148,
+    "page number" : 8,
+    "bounding box" : [ 36.0, 552.506, 559.256, 709.357 ],
+    "source" : "2_images/imageFile10.png"
+  }, {
+    "type" : "caption",
+    "id" : 149,
+    "page number" : 8,
+    "bounding box" : [ 205.491, 534.855, 389.786, 546.009 ],
+    "linked content id" : 148,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 3. Architecture of the proposed system."
+  }, {
+    "type" : "list",
+    "id" : 150,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 167.265, 507.303, 259.62, 526.644 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 139,
+    "next list id" : 166,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 167.265, 507.303, 259.62, 526.644 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "3.3. Learning Model P",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 8,
+    "bounding box" : [ 166.846, 473.802, 559.277, 511.122 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this section, we describe the learning model P, which is the main component which learns from the data obtained from the sensors, recognizes possible anomalies, and classiﬁes such anomalies when operators describe the issues."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 8,
+    "bounding box" : [ 166.846, 423.59, 559.691, 473.463 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The learning model P = {A, C} is built with two different components, the anomaly detector A and the classiﬁer C. The anomaly detector is run every T seconds, where T is the size of the sensing window. The speciﬁc features computed over the sensing window will be detailed in Section 3.4."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 8,
+    "bounding box" : [ 188.524, 410.817, 559.275, 423.251 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The anomaly detection model A is trained with a one-class SVM. This kind of model"
+  }, {
+    "type" : "list",
+    "id" : 154,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 167.265, 52.407, 559.478, 410.698 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 167.265, 373.378, 559.478, 410.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "is able to train a base state and recognize novelties in the features. Thus, it is well suited for our case, as we can train it when the industrial machine is functioning properly, and let it recognize whenever any novelty in the data, which is an anomaly, is observed.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 46,
+        "page number" : 8,
+        "bounding box" : [ 166.876, 172.531, 561.023, 373.039 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Whenever an anomaly is detected by A, we enter the Sa state as depicted in Figure 2. The classiﬁer C = {C1, . . . ,CN} is a set of classiﬁers, each one trained on a speciﬁc anomaly. All the Ci are deﬁned as one-class SVMs, and each one of them is trained on a speciﬁc anomaly. Although one-class SVM models can be heavily parametrized, for our work we found that several conﬁgurations suited our scenario, mainly because the signals of the issues can be clearly distinguished with respect to the steady case. A deeper study on the SVM parametrization is left as a future work. Upon entering the state Sa, in case no speciﬁc anomaly has been previously found (i.e., C = ∅), the operator needs to describe the anomaly. Let i be the speciﬁc anomaly found, then the K previous windows on which A found the anomaly are used to train Ci, which is then appended to C. The value of K depends on the time which passes between the start of the anomaly experienced by our system and its description by the operator. Therefore K can vary depending on how fast the operator is: in case the anomaly is described shortly after experiencing it K will be small, in case the operator takes more time K will be large. For sake of clarity, in our scenario the time needed was in the [30:90] seconds range, therefore it can lead to different K values depending on the size of the time window."
+      }, {
+        "type" : "paragraph",
+        "id" : 47,
+        "page number" : 8,
+        "bounding box" : [ 166.846, 83.21, 559.698, 172.192 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "P now has the ability not only to detect anomalies, but also to recognize a speciﬁc one if the corresponding Ci has been trained before. When the system is in the state Ss and ﬁnds an anomaly, it then moves to state Sa. At this stage if C = ∅, the sensed window which raised the anomaly is also tested against each Ci ∈ C. Since the one-class SVM is able to detect the novelty of features with respect to those it has been trained with, in case Ci considers the sensed window similar to the ones used to train it, then it also raises the speciﬁc anomaly i. In case no Ci is able to correctly characterize the anomaly, we consider"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 167.265, 52.407, 559.275, 84.321 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "it as unseen before, therefore the operator has to label it so that a novel Ci is trained and added to C. In other words, A uses one-class SVM to identify deviations from the data and",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 155,
+    "page number" : 9,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 9,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 598"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 9,
+    "bounding box" : [ 167.265, 708.751, 560.517, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "to identify anomalies, while each Ci uses a one-class SVM to check whether there is no anomaly, meaning no substantial difference from the data on which Ci has been trained on, hence classifying the issue."
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 9,
+    "bounding box" : [ 188.524, 696.198, 522.799, 708.412 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We provide the pseudo-code of the algorithm we developed in Algorithm 1."
+  }, {
+    "type" : "paragraph",
+    "id" : 161,
+    "page number" : 9,
+    "bounding box" : [ 177.506, 669.756, 400.259, 682.15 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Algorithm 1: Anomaly detection and classiﬁcation"
+  }, {
+    "type" : "list",
+    "id" : 163,
+    "level" : "7",
+    "page number" : 9,
+    "bounding box" : [ 176.57, 485.427, 369.966, 666.19 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 15,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.057, 653.976, 267.029, 666.19 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "1 W = Read_Data();",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.057, 641.8, 266.442, 654.234 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2 Anomaly = A(W);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.057, 629.845, 258.252, 642.259 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3 if Anomaly then",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.456, 618.11, 307.813, 630.324 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4 Out(\"Anomaly found\");",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.456, 606.155, 266.687, 618.369 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5 CLASSES = [];",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.456, 587.053, 277.885, 606.394 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 10.381,
+      "text color" : "[0.0]",
+      "content" : "6 foreach c in C do",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.854, 582.245, 328.133, 594.459 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "7 CLASSES.append(c(W));",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.456, 570.109, 221.019, 582.423 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "8 end",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 180.456, 558.334, 308.849, 570.548 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "9 CL = Voting(CLASSES);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 176.969, 546.159, 291.255, 558.573 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "10 if CL != \"Base\" then",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 177.368, 534.424, 303.137, 546.638 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "11 Out(\"Issue is \" CL);",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 176.969, 522.289, 221.567, 534.603 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "12 else",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 177.368, 510.513, 369.966, 522.727 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "13 Out(\"No known anomaly found\");",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 176.969, 498.378, 221.019, 510.692 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "14 end",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 176.57, 485.427, 205.68, 497.741 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "15 end",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 9,
+    "bounding box" : [ 166.767, 380.713, 559.279, 468.245 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "At line 1 we read the data from the sensors, and compute the corresponding features into W, which is then tested for the anomaly at line 2. In case no anomaly is found the algorithm ends, waiting for the next data to analyze. In case an anomaly is found, we test W against all classiﬁers at line 7. In case at least one of them reports a known issue we output it at line 11. Conversely if no known issue is found, the output tells that no known anomaly is found. In the latter case, the operator may also describe the found issue so that the next time it is observed it is possible to directly identify it."
+  }, {
+    "type" : "list",
+    "id" : 166,
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 167.265, 342.756, 559.277, 370.491 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 150,
+    "next list id" : 258,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 167.265, 342.756, 559.277, 370.491 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.4. Feature Engineering In this section, we describe the different features we collect from the raw data gathered",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 9,
+    "bounding box" : [ 166.767, 292.544, 561.021, 342.447 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "from the sensors. More formally given a sensor i reading a signal Θi, we create windows of size T seconds, namely WiT[j] which refers to the j-th window of the i-th sensor built with the sensing window of size T. We then compute 12 features to extract the signal dynamics. We compute basic statistical metrics such as the mean µ:"
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 9,
+    "bounding box" : [ 356.293, 247.321, 390.729, 282.986 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "∑WiT[j] |WiT[j]|"
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 9,
+    "bounding box" : [ 332.129, 259.641, 352.085, 276.128 ],
+    "font" : "CMR10",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "µij ="
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 9,
+    "bounding box" : [ 167.265, 232.177, 378.94, 244.391 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "the maximum of the window simply deﬁned as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 9,
+    "bounding box" : [ 392.045, 262.069, 559.277, 274.283 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (1)"
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 9,
+    "bounding box" : [ 167.265, 186.15, 559.273, 223.222 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "maxij = max(WiT[j]), (2) and consequently the minimum:"
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 9,
+    "bounding box" : [ 167.265, 140.122, 559.274, 177.194 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "minij = min(WiT[j]), (3) and eventually the standard deviation:"
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 9,
+    "bounding box" : [ 319.935, 103.073, 336.684, 113.619 ],
+    "font" : "CMR10",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "σ ="
+  }, {
+    "type" : "paragraph",
+    "id" : 177,
+    "page number" : 9,
+    "bounding box" : [ 351.651, 88.266, 402.545, 125.99 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "∑(xk − µij)2 |WiT[j]|"
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 9,
+    "bounding box" : [ 404.239, 103.014, 559.277, 115.228 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (4)"
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 9,
+    "bounding box" : [ 166.846, 56.749, 559.278, 82.863 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "where xk is a single measurement of window WiT[j]. These statistical metrics help to understand the shape of the signal, with respect to its variance over the time window and"
+  }, {
+    "type" : "header",
+    "id" : 181,
+    "page number" : 10,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 28,
+      "page number" : 10,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 599"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 10,
+    "bounding box" : [ 166.986, 721.304, 559.691, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "to spot possible peaks of it. For instance, for vibration sensor we may expect a rather low variance, while for a sound sensor it may be higher in presence of speciﬁc events."
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 10,
+    "bounding box" : [ 166.986, 690.295, 559.276, 722.312 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We also compute the Fast Fourier Transform (FFT) of the signal as FFTji, and the Power Spectral Density (PSD) of it, namely the PSDij."
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 10,
+    "bounding box" : [ 188.524, 679.267, 347.556, 691.701 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We also leverage the Peak deﬁned as"
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 10,
+    "bounding box" : [ 354.089, 639.967, 406.707, 669.777 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "maxij − minij 2"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 10,
+    "bounding box" : [ 315.878, 644.373, 349.881, 660.86 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Peakij ="
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 10,
+    "bounding box" : [ 408.495, 646.801, 559.279, 659.015 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (5)"
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 10,
+    "bounding box" : [ 166.846, 608.469, 559.274, 633.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "which models the difference between the maximum and the minimum value, hence it helps to understand how wide is the value span of the i-th sensor."
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 10,
+    "bounding box" : [ 188.524, 595.916, 478.166, 608.35 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We also leverage the Root Mean Square (RMS), which is deﬁned as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 197,
+    "page number" : 10,
+    "bounding box" : [ 376.865, 566.361, 411.003, 582.191 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "|WiT[j]|−1"
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 10,
+    "bounding box" : [ 342.653, 543.578, 373.795, 577.285 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1 |WiT[j]|"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 10,
+    "bounding box" : [ 291.052, 555.898, 327.685, 572.385 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "RMSij ="
+  }, {
+    "type" : "heading",
+    "id" : 198,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 388.537, 555.126, 399.235, 572.268 ],
+    "heading level" : 3,
+    "font" : "PazoMath",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 10,
+    "bounding box" : [ 411.127, 555.157, 559.278, 571.769 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(xki )2. (6)"
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 10,
+    "bounding box" : [ 387.727, 547.999, 400.088, 557.448 ],
+    "font" : "CMR10",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 10,
+    "bounding box" : [ 166.956, 514.408, 559.275, 539.175 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The RMS is similar to the mean, but it better characterizes it when dealing with positive and negative numbers."
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "page number" : 10,
+    "bounding box" : [ 167.265, 488.12, 559.275, 515.415 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Having deﬁned Peakij and RMSij we can now compute the Crest Factor (CF) which is deﬁned as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 10,
+    "bounding box" : [ 364.221, 457.656, 389.296, 491.467 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Peakij RMSij"
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 10,
+    "bounding box" : [ 333.05, 466.062, 359.814, 482.549 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "CFji ="
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 10,
+    "bounding box" : [ 391.084, 468.491, 559.273, 480.705 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (7)"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 10,
+    "bounding box" : [ 167.265, 428.019, 560.933, 452.786 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "and correspondingly the Kurtosis coefﬁcient, which gives insights on how ﬂat the distribution of values is, deﬁned as"
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 10,
+    "bounding box" : [ 347.638, 402.295, 381.775, 418.243 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "|WiT[j]|−1"
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 10,
+    "bounding box" : [ 384.755, 383.543, 427.759, 417.368 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "(xki − µij)4 (σji)4"
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 10,
+    "bounding box" : [ 319.483, 383.732, 344.568, 413.336 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1 WiT[j]"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 10,
+    "bounding box" : [ 294.731, 391.949, 315.474, 408.436 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "Kij ="
+  }, {
+    "type" : "heading",
+    "id" : 212,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 359.309, 391.177, 370.007, 408.319 ],
+    "heading level" : 3,
+    "font" : "PazoMath",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "level" : "7",
+    "page number" : 10,
+    "bounding box" : [ 429.453, 394.377, 559.276, 406.591 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ". (8)"
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 10,
+    "bounding box" : [ 358.5, 384.051, 370.86, 393.5 ],
+    "font" : "CMR10",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 10,
+    "bounding box" : [ 167.265, 333.971, 559.274, 374.039 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In contrast to Kij, the CFji value enhances higher values. Hence, the two metrics complement each other, and used in conjunction help in better describing the signal. We then compute the Skeweness (SK) of the signal, deﬁned as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 10,
+    "bounding box" : [ 353.66, 307.292, 387.798, 323.239 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "|WiT[j]|−1"
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 10,
+    "bounding box" : [ 390.778, 288.54, 433.781, 322.365 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "(xki − µij)3 (σji)3"
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 10,
+    "bounding box" : [ 319.448, 284.626, 350.59, 318.333 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1 |WiT[j]|"
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 10,
+    "bounding box" : [ 288.699, 296.946, 315.24, 313.433 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "SKij ="
+  }, {
+    "type" : "heading",
+    "id" : 222,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 365.332, 296.174, 376.03, 313.316 ],
+    "heading level" : 3,
+    "font" : "PazoMath",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 10,
+    "bounding box" : [ 435.475, 299.374, 559.28, 311.588 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (9)"
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 10,
+    "bounding box" : [ 364.522, 289.047, 376.883, 298.496 ],
+    "font" : "CMR10",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 10,
+    "bounding box" : [ 166.846, 254.718, 560.523, 279.485 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "which describes whether the right and the left tail of the distribution of values are similar, or if the distribution is more skewed towards one of them."
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 10,
+    "bounding box" : [ 167.265, 229.612, 559.28, 254.379 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Finally we compute the Entropy (E), used mainly to determine how diverse the signal is, deﬁned as"
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 10,
+    "bounding box" : [ 323.56, 214.349, 357.698, 230.297 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "|WiT[j]|−1"
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 10,
+    "bounding box" : [ 300.593, 204.003, 320.578, 220.49 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 10.381,
+    "text color" : "[0.0]",
+    "content" : "Eij ="
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 10,
+    "bounding box" : [ 359.682, 203.878, 559.276, 220.49 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "P(xki )log2P(xki ) (10)"
+  }, {
+    "type" : "heading",
+    "id" : 231,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 335.232, 203.231, 345.93, 220.373 ],
+    "heading level" : 3,
+    "font" : "PazoMath",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 10,
+    "bounding box" : [ 334.422, 196.105, 346.783, 205.554 ],
+    "font" : "CMR10",
+    "font size" : 7.89,
+    "text color" : "[0.0]",
+    "content" : "i=0"
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 10,
+    "bounding box" : [ 167.265, 154.891, 561.021, 192.211 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "These features are not computationally intensive to be computed, hence do not require extensive computational capabilities, making it possible to run the framework in real time and also on edge devices with limited capabilities. We provide evidence of this in Section 5."
+  }, {
+    "type" : "heading",
+    "id" : 235,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 167.265, 132.295, 229.013, 144.609 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "4. Case Study"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 10,
+    "bounding box" : [ 167.265, 79.274, 559.279, 129.147 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To assess the beneﬁts of the proposed framework we tested it under three different data sources. This highlights how generalizable the model is, and its ability to adapt to different data sources and different data collection architectures. Moreover it also shows the possibility to run the model with a different number and type of sensors, crucial in this"
+  }, {
+    "type" : "header",
+    "id" : 237,
+    "page number" : 11,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 11,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 600"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 11,
+    "bounding box" : [ 167.265, 721.304, 559.271, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "kind of scenarios, as every industrial machine present speciﬁc characteristics which have to be assessed with the appropriate sensors."
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 11,
+    "bounding box" : [ 167.265, 658.54, 559.665, 720.965 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "More speciﬁcally the three scenarios on which we performed our tests are the NASA dataset [7], a custom built prototype machine and a real industrial machine. Throughout these different scenarios we do not modify in any way the general framework. Clearly different kind of failures are experienced and different sensor readings have to be accounted for, hence the model adapts itself to these issues as the operators describes them."
+  }, {
+    "type" : "list",
+    "id" : 242,
+    "level" : "8",
+    "page number" : 11,
+    "bounding box" : [ 167.265, 522.628, 261.94, 648.318 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 252,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 167.265, 635.904, 246.448, 648.318 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.1. NASA Dataset",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 41,
+        "page number" : 11,
+        "bounding box" : [ 166.956, 545.264, 561.019, 632.796 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The NASA dataset [7] is related to the monitoring of the different bearings of an engine. The bearings are monitored through accelerometers and the data is collected through a central entity. The dataset reports the total time of monitoring and the breaking point of the component. Due to the nature of the dataset, we will not perform classiﬁcation of the different issues on this dataset. Instead we will leverage it to understand the speed of anomaly recognition of our proposal, starting from the point in which it is noticeable the potential issue."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 167.265, 522.628, 261.94, 535.042 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2. Prototype Machine",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 243,
+    "page number" : 11,
+    "bounding box" : [ 167.265, 431.989, 559.662, 519.52 ],
+    "linked content id" : 244,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 4 shows the general architecture of our prototype, and also highlights the sensors we used in our experiments. More precisely, for the purpose of this study we collected vibration patterns with an accelerometer, the temperature of the engine and the current drained. Clearly the set of sensor is suitable only related to the speciﬁc industrial machine which has to be monitored. This has to be designed a priori by specialized individuals, so that appropriate sensors can be installed and conﬁgured to check the key components of the industrial machine."
+  }, {
+    "type" : "image",
+    "id" : 244,
+    "page number" : 11,
+    "bounding box" : [ 167.265, 286.39, 481.205, 419.052 ],
+    "source" : "2_images/imageFile11.png"
+  }, {
+    "type" : "list",
+    "id" : 245,
+    "level" : "9",
+    "page number" : 11,
+    "bounding box" : [ 167.265, 268.738, 406.057, 279.892 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 255,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 167.265, 268.738, 406.057, 279.892 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 4. Prototype machine we used for experimental tests.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 11,
+    "bounding box" : [ 167.265, 196.029, 559.472, 258.455 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The prototype machine is built so that the belt spins moved by an engine installed on top of it. The machine is leveled with the help of four feet, which can be raised or lowered according to the surface on which the industrial machine stands. This simulates a typical industrial environment, in which there is a belt carrying pieces to the next step of the manufacturing process."
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 11,
+    "bounding box" : [ 188.524, 183.476, 443.865, 195.69 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We tested three possible issues on this machine which are:"
+  }, {
+    "type" : "list",
+    "id" : 248,
+    "level" : "4",
+    "page number" : 11,
+    "bounding box" : [ 167.265, 92.617, 559.274, 180.148 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 167.265, 155.381, 559.271, 180.148 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Untightened screws: this may happen as the industrial machine vibrates, hence it may make the screws to become loose.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 167.265, 130.276, 559.271, 155.042 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Increased friction on the belt: this may happen when there is not enough lubricant or the belt rotor becomes dirty.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 167.265, 92.617, 559.274, 129.937 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Loose foot: as the industrial machine has to be stabilized, the feet are adapted to level the industrial machine. If any of these become loose, then the machine is not leveled anymore, hence vibrations and rotations will behave differently.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 249,
+    "page number" : 12,
+    "bounding box" : [ 36.0, 780.073, 559.674, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 12,
+      "bounding box" : [ 36.0, 780.073, 559.674, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 601"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 252,
+    "level" : "8",
+    "page number" : 12,
+    "bounding box" : [ 167.265, 733.637, 267.668, 746.051 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 242,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 167.265, 733.637, 267.668, 746.051 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.3. Production Machine",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 12,
+    "bounding box" : [ 166.846, 504.915, 560.738, 730.53 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The last dataset we use is collected from a real industrial machine, pictured in Figure 5, whose task is to fold plain paper into boxes. These boxes are then placed on a conveyor belt and eventually moved to the next stage of the process. The machine itself, according to the owner, presents one critical component, which takes care of the alignment of the conveyor belt. In case it is not perfectly aligned boxes may come out with various defects such as open sides, bumps and scratches. Therefore we decided to monitor such component, which is attached to the machine through two screws, one on the left and one on the right. If these screws become untightened, then the vibrations start to increase on one side or the other, requiring manual maintenance. We then installed two accelerometers, each one attached to any screw, to monitor left and right vibrations. This issue is experienced from time to time, as the vibrations of the machine naturally make the screw loose, therefore resulting in possible misalignment of the conveyor belt. After installing our system, which was also enriched with a graphical user interface which can be seen on the left of Figure 5, we explained how the system works and what are the responsibilities for the personnel. We then double checked that the screws were correctly tightened, and we started to run the system which learnt the steady state. Upon anomalies, the operators had the opportunity to verify the issue, and instruct the system on the speciﬁc problem found. For this test, operators identiﬁed two levels for the same issue, related to how much the screw is loose."
+  }, {
+    "type" : "image",
+    "id" : 254,
+    "page number" : 12,
+    "bounding box" : [ 167.265, 256.5, 481.225, 491.97 ],
+    "source" : "2_images/imageFile12.png"
+  }, {
+    "type" : "list",
+    "id" : 255,
+    "level" : "9",
+    "page number" : 12,
+    "bounding box" : [ 167.265, 238.848, 287.826, 250.002 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 245,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 167.265, 238.848, 287.826, 250.002 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 5. Production machine.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 256,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 167.265, 218.263, 262.199, 230.577 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "5. Numerical Results"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 12,
+    "bounding box" : [ 167.265, 190.349, 559.277, 215.116 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this section, we present numerical results on the evaluation of our framework using the datasets described in Section 4."
+  }, {
+    "type" : "list",
+    "id" : 258,
+    "level" : "5",
+    "page number" : 12,
+    "bounding box" : [ 167.265, 167.713, 242.772, 180.127 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 166,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 167.265, 167.713, 242.772, 180.127 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.1. Reaction Time",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 12,
+    "bounding box" : [ 167.265, 114.732, 559.474, 164.605 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This analysis covers the ability of the model to react fast enough to the anomaly. To model it we used the P-F curve, which describes the state of health of the equipment over time, and highlights the time in which a potential failure started to be noticed, and the time in which such issue becomes a functional failure as shown in Figure 1."
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 12,
+    "bounding box" : [ 167.265, 77.073, 560.925, 114.393 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "For this test we used the NASA Bearing dataset, as it contains test to failure experiments, which enable us to understand how fast our proposal would react in presence of a failure."
+  }, {
+    "type" : "header",
+    "id" : 261,
+    "page number" : 13,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 13,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 602"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 13,
+    "bounding box" : [ 166.846, 708.751, 559.279, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "There are three different tests in the dataset: for test 1, bearings 3 and 4 are the ones which present issues, test 2 only has bearing 1 with defects, and ﬁnally test 3 presents an issue in bearing 3."
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 13,
+    "bounding box" : [ 166.966, 608.328, 559.279, 708.412 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "As it can be seen from Table 1, the model reacts fast upon the potential failure, well ahead of the failure time. Due to the nature of the dataset, in this case our proposed model identiﬁes an anomaly without classifying it hence only A is tested. It learns from the initial data fed to it, and whenever the potential failure starts to be noticeable, it detects the anomaly in the data. This happens regardless of the test ID, and regardless of the speciﬁc bearing presenting the issue, demonstrating the adaptability of our model. This test shows the ability of the model to react quickly to the experienced issue, allowing operators to perform maintenance on the industrial machine."
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 13,
+    "bounding box" : [ 166.969, 583.712, 261.556, 594.866 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Reaction times."
+  }, {
+    "type" : "paragraph",
+    "id" : 269,
+    "page number" : 13,
+    "bounding box" : [ 383.086, 551.673, 441.457, 573.715 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Warning Time (Since p.f.)"
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 13,
+    "bounding box" : [ 484.245, 551.673, 536.304, 573.715 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Failure Time (Since p.f.)"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 13,
+    "bounding box" : [ 201.449, 557.152, 336.806, 568.235 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Test ID Bearing ID"
+  }, {
+    "type" : "list",
+    "id" : 272,
+    "level" : "6",
+    "page number" : 13,
+    "bounding box" : [ 214.024, 519.916, 528.234, 546.867 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 214.024, 535.875, 528.234, 546.867 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1 3 227 min 5800 min",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 214.024, 519.916, 528.234, 530.908 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1 4 145 min 5800 min",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 274,
+    "level" : "7",
+    "page number" : 13,
+    "bounding box" : [ 214.024, 487.996, 531.596, 514.948 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 214.024, 503.956, 528.234, 514.948 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2 1 44 min 4330 min",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 214.024, 487.996, 531.596, 498.988 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3 3 21 min 53,430 min",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 13,
+    "bounding box" : [ 167.265, 459.278, 270.896, 471.692 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "5.2. Varying Dataset Size"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 13,
+    "bounding box" : [ 166.986, 431.404, 560.519, 456.171 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 6 shows the recall of the classiﬁer algorithm in classifying different issues, versus the window size in Figure 6a and versus the training size in Figure 6b."
+  }, {
+    "type" : "image",
+    "id" : 278,
+    "page number" : 13,
+    "bounding box" : [ 39.985, 236.977, 291.265, 425.437 ],
+    "source" : "2_images/imageFile13.png"
+  }, {
+    "type" : "image",
+    "id" : 280,
+    "page number" : 13,
+    "bounding box" : [ 298.883, 236.977, 550.163, 425.437 ],
+    "source" : "2_images/imageFile14.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 13,
+    "bounding box" : [ 117.882, 200.525, 477.393, 230.479 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) Varying window size (b) Varying training size Figure 6. Recall of the classiﬁer versus the window size (a) and versus the training size (b)."
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 13,
+    "bounding box" : [ 166.767, 65.051, 561.021, 190.242 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "If we look at Figure 6a, we can see that the greater the window size, the better the recall results. With a window size of 1s the recall is almost 1 regardless of the issue type. This happens as longer window sizes present more signal characteristics, which makes it easier to assess how the signal is, hence making it easier to correctly detect any anomaly. We can also observe that some issues, such as a loosen machine foot, are easier to be recognized compared to others such as an untightened screw. This may indicate better sensor placement, a more suitable sensor type, or in general that some issues are easier to be recognized than others. However even with the smallest window size that we tested, equal to 0.1s, all three issues achieve a recall greater than 0.85, which conﬁrm the beneﬁts and the good performance of our proposal."
+  }, {
+    "type" : "header",
+    "id" : 282,
+    "page number" : 14,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 14,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 603"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 14,
+    "bounding box" : [ 166.966, 671.092, 559.473, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 6b presents a similar behavior, in which a larger training size results in a higher recall by the classiﬁer. This result also conﬁrms that issues are different regarding the easiness of being classiﬁed, as again the loose machine foot achieves top results even with the smallest training size. It is also worth noting that in this scenario even the highest values are able to provide a satisﬁable results in a short time frame, with a relatively small percentage of the dataset used for the training of the classiﬁer."
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 14,
+    "bounding box" : [ 167.265, 648.457, 264.829, 660.871 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "5.3. Varying Issue Level"
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "page number" : 14,
+    "bounding box" : [ 166.767, 331.864, 561.019, 645.349 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figures 7 and 8 present the recall results and f-score measures for different issue levels when using all the sensors available (Figures 7a and 8a) and when using only the accelerometer (Figures 7b and 8b). When using all the sensors each issue occurs with a different level, going from the lowest (i.e., 1) which is the one in which the issue is less severe, going up to the highest (i.e., 4) in which the speciﬁc issue is at the most severe level, right before a functional failure. For instance, considering the screw, a level of 1 means that the screw is slightly untightened while a level of 4 means that the screw is almost falling off. We can again see that the loose foot is the easiest issue to be classiﬁed, achieving top results regardless of the issue level and whether we are using all the available sensors or just a single one. This is related to the fact that a loosen foot unbalances the whole industrial machine, hence making quite peculiar sensor readings. Furthermore, the misaligned belt provides good results, as the vibrations are quite easily recognizable. Eventually the screw, as also observed in Figure 6, is the most challenging issue to be classiﬁed, as it is also the smallest part of the industrial machine. The results are however similar between the recall and the f-score, showing a good performance regardless of the conﬁguration and of the speciﬁc issue. We also note that for any issue, a level of 1 refers to the beginning of a potential failure according to the P-F curve of Figure 1. Hence the ability to correctly identify a level one issue conﬁrms again the fast reaction of our proposal in the presence of failures. However both Figures 7 and 8 consider a matched class only when the speciﬁc issue is recognized, at the level in which it is experienced. In other words for our experiments if the classiﬁcation reported the correct issue, but a wrong issue level, we considered it as wrong. We posed ourselves in this challenging scenario to show the real performance of our system, also considering that in some speciﬁc scenarios knowing the exact issue level may be compulsory for planned ordinary maintenance, as low level issues may be better tolerated by the industrial machine."
+  }, {
+    "type" : "image",
+    "id" : 288,
+    "page number" : 14,
+    "bounding box" : [ 39.985, 137.437, 291.265, 325.897 ],
+    "source" : "2_images/imageFile15.png"
+  }, {
+    "type" : "image",
+    "id" : 290,
+    "page number" : 14,
+    "bounding box" : [ 298.883, 137.437, 550.163, 325.897 ],
+    "source" : "2_images/imageFile16.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 14,
+    "bounding box" : [ 139.797, 119.785, 459.896, 130.939 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) All sensors (b) Single sensor"
+  }, {
+    "type" : "list",
+    "id" : 291,
+    "level" : "8",
+    "page number" : 14,
+    "bounding box" : [ 138.316, 101.982, 456.964, 113.136 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 298,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 138.316, 101.982, 456.964, 113.136 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 7. Recall of the classiﬁer among different issues and different issue levels.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 292,
+    "page number" : 15,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 15,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 604"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 295,
+    "page number" : 15,
+    "bounding box" : [ 39.985, 558.18, 291.265, 746.64 ],
+    "source" : "2_images/imageFile17.png"
+  }, {
+    "type" : "image",
+    "id" : 297,
+    "page number" : 15,
+    "bounding box" : [ 298.883, 558.18, 550.163, 746.64 ],
+    "source" : "2_images/imageFile18.png"
+  }, {
+    "type" : "list",
+    "id" : 298,
+    "level" : "8",
+    "page number" : 15,
+    "bounding box" : [ 136.137, 522.725, 459.896, 551.682 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 291,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 296,
+      "page number" : 15,
+      "bounding box" : [ 139.797, 540.528, 459.896, 551.682 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(a) All sensors (b) Single sensor",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 136.137, 522.725, 459.143, 533.879 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 8. F-score of the classiﬁer among different issues and different issue levels.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 15,
+    "bounding box" : [ 167.265, 502.1, 298.672, 514.514 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "5.4. Correctness of Classiﬁcation"
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 15,
+    "bounding box" : [ 167.265, 311.037, 560.927, 498.992 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "As we noted recognizing the precise issue level is more challenging than just recognizing the piece of equipment which needs maintenance. For this reason we now show the confusion matrices, which are depicted in Figure 9a for the case in which all sensors are used, and in Figure 9b for the case in which only one sensor is used. We have highlighted the parts of the matrices in which all the classiﬁcations refer to the same issue with white, regardless of the level of it. As it is possible to see the highlighted parts of the matrices are the only ones in which there are values greater than 0, meaning that even if the precise issue level is not found, still the classiﬁer is able to recognize the issue type. We can also observe that in general the highest miss-classiﬁcation is between adjacent levels, as they may present similar signal behaviors. This is true for instance for the belt, in which level 2 and 3 are sometimes classiﬁed as the other one, the same goes for the foot, while the screw considers level 1 and 2 similar, and the same goes also for levels 3 and 4. This conﬁrms the almost perfect classiﬁcation with respect to the issue itself, while determining the exact issue level is a more challenging task, although we have shown in the earlier results that the performance still remains high."
+  }, {
+    "type" : "image",
+    "id" : 301,
+    "page number" : 15,
+    "bounding box" : [ 39.985, 110.632, 291.259, 299.088 ],
+    "source" : "2_images/imageFile19.png"
+  }, {
+    "type" : "image",
+    "id" : 303,
+    "page number" : 15,
+    "bounding box" : [ 298.883, 110.632, 550.157, 299.088 ],
+    "source" : "2_images/imageFile20.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 302,
+    "page number" : 15,
+    "bounding box" : [ 139.797, 92.98, 459.896, 104.134 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) All sensors (b) Single sensor"
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 15,
+    "bounding box" : [ 114.044, 75.177, 478.456, 86.331 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 9. Confusion matrix of the classiﬁer among different issues and different issue levels."
+  }, {
+    "type" : "header",
+    "id" : 305,
+    "page number" : 16,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 16,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 605"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 16,
+    "bounding box" : [ 167.265, 733.637, 260.854, 746.051 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "5.5. Computation Time"
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 16,
+    "bounding box" : [ 167.265, 630.445, 559.665, 730.53 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In Figure 10a, we also show the time needed to perform the anomaly detection and the time needed for the classiﬁer to classify the sample is shown in Figure 10b. It is worth noting that the classiﬁer will not run in case the anomaly detector will not detect any anomaly in the data. As it can be seen, the time needed to compute either the anomaly detection or perform the classiﬁcation is quite small. In both cases when observing a maximum level issue, both the anomaly detection and the classiﬁcation take less time. This happens as the sample present more peculiar characteristics, therefore the windows are easier to be classiﬁed hence the reduced time."
+  }, {
+    "type" : "image",
+    "id" : 310,
+    "page number" : 16,
+    "bounding box" : [ 39.985, 432.635, 291.265, 621.095 ],
+    "source" : "2_images/imageFile21.png"
+  }, {
+    "type" : "image",
+    "id" : 312,
+    "page number" : 16,
+    "bounding box" : [ 298.883, 432.635, 550.163, 621.095 ],
+    "source" : "2_images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 16,
+    "bounding box" : [ 113.727, 422.954, 462.24, 434.108 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) Anomaly detection time (b) Classiﬁer time"
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 16,
+    "bounding box" : [ 126.243, 404.154, 469.032, 415.308 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 10. Time needed to perform the anomaly detection (a) and the classiﬁcation (b)."
+  }, {
+    "type" : "list",
+    "id" : 314,
+    "level" : "1",
+    "page number" : 16,
+    "bounding box" : [ 167.265, 383.529, 280.301, 395.943 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 167.265, 383.529, 280.301, 395.943 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.6. Real World Experiment",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 16,
+    "bounding box" : [ 167.26, 242.678, 560.526, 380.422 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 11 shows the experiment we performed on the real production machine to test our system in real working conditions. After running extensive tests we evaluated the performance of the system, which is presented in Figure 11. As we already saw in Figure 9a the accuracy of the system is satisfactory, with the only errors which are experienced for the same issue at different levels. It is also possible to see that the right screw achieves better results compared to the left screw: we investigated this, and we found that the left screw is closer to the conveyor belt engine, which also vibrates during operations. This may confuse the algorithm in recognizing the precise level of the issue, as the vibrations from the engine may alter those experienced by the screw. However, we can also see that the steady state is recognized perfectly, meaning that no unnecessary maintenance is requested to the operators."
+  }, {
+    "type" : "header",
+    "id" : 316,
+    "page number" : 17,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 17,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 606"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 319,
+    "page number" : 17,
+    "bounding box" : [ 167.265, 511.167, 481.231, 746.642 ],
+    "source" : "2_images/imageFile23.png"
+  }, {
+    "type" : "caption",
+    "id" : 320,
+    "page number" : 17,
+    "bounding box" : [ 167.265, 493.515, 387.514, 504.669 ],
+    "linked content id" : 319,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 11. Confusion matrix for the Industrial machine."
+  }, {
+    "type" : "heading",
+    "id" : 321,
+    "level" : "Subtitle",
+    "page number" : 17,
+    "bounding box" : [ 167.265, 473.806, 228.166, 486.12 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "6. Discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 17,
+    "bounding box" : [ 167.265, 433.338, 559.279, 470.658 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this section, we discuss some of the possible integration of our architecture in different popular IoT scenarios, such as the Social Internet of Things (SIoT) [28] and in Multi-IoT scenarios (MIoT) [29,30] and in Smart Homes (SH) [31]."
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 17,
+    "bounding box" : [ 166.966, 169.726, 560.931, 432.999 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In the SIoT devices, actuators and sensors mimic a social network, by creating connections and improving the overall status of the system. The overarching idea of the system is to bring social networking to devices, by connecting them and making them able to provide novel collaborative services. At ﬁrst in SIoT there is a challenge related to the relationship of different devices [32]. As sensors are deployed over an industrial machine, there is the need to understand groups and connections among them. In other words, in our scenario sensors closer to each other are more likely to form a group, meaning that they can provide data about a similar phenomenon, hence to understand a possible issue in the industrial machine. The SIoT can also manage the different relations among devices: for instance in our scenario it is possible that a causal relation between different issues exists. In other words an issue which is not handled may unleash another issue, hence it is possible to understand relations between issues and sensors. Practically this means that the central system, upon experiencing an anomaly, may advise the user to check also for other potential issues which are not still observed, but may probably be experienced in the future as a consequence. An interesting case is also reported in [33], where the authors use social relations between devices to provide a predictive maintenance service through a digital twin with distributed ledger. The SIoT is also leveraged for predictive maintenance tasks in [34], where the authors estimate the Remaining Useful Life (RUL) of the components by providing an ontological representations of them. In general in SIoT it is possible to integrate the system we just presented and leverage on some of the peculiar aspects of SIoT, like the relationship between devices, and the possibility to understand causal effects."
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 17,
+    "bounding box" : [ 166.846, 56.749, 560.925, 169.387 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Another scenario is the Multi-IoT (MIoT) [29,35], which is a speciﬁc case in which the focus is on a high level of several IoT devices. MIoT scenarios are data driven and independent from the speciﬁc technology used, as the focal point is on the content exchanged by devices. MIoT is particularly useful when considering networks of networks, which may share data in order to achieve a customized service. Closer to the work in this paper is [36], where the authors speciﬁcally tackle the problem of anomaly detection in MIoT scenarios. Speciﬁcally in such article there is an interesting discussion on two separate aspects, which are the “forward problem” and the “inverse problem”. While the former is the classical anomaly detection, in which from a set of data the goal is to ﬁnd"
+  }, {
+    "type" : "header",
+    "id" : 325,
+    "page number" : 18,
+    "bounding box" : [ 36.0, 780.073, 559.475, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 18,
+      "bounding box" : [ 36.0, 780.073, 559.475, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 607"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 18,
+    "bounding box" : [ 166.846, 696.198, 559.273, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "whether such data presents an anomaly or not, the latter case is more difﬁcult as it tries to understand what has caused such anomaly. In the context of Industry 4.0, this would open up the possibility to understand which component is faulty hence to speed up maintenance operations."
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 18,
+    "bounding box" : [ 166.966, 658.54, 559.279, 695.859 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "For Smart Home (SH) appliances, anomaly detection and predictive maintenance tasks can be customized to a number of different scenarios and to cover a plethora of purposes [37,38]."
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "page number" : 18,
+    "bounding box" : [ 166.846, 344.715, 559.664, 658.201 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The works in [39,40] addressed the problem of Assisted Living (AL), where people with disabilities live in their SH and an intelligent system monitors their behavior for possible discrepancies. This requires the system to understand, as in our case, a set of variables and parameters for which the system is considered to be in a steady state, which for the AL scenario can be considered a safe state, meaning that the assisted person is not in danger. By constantly monitoring the changes in data and human behavior it is then possible to spot anomalies. This is done in [40] by monitoring temporal relations between actions, with associated probabilities of transitioning from one activity to another, and therefore identifying probabilistically those transitions which were seldom experienced in the past. This may raise a notiﬁcation to the caregiver, which can act promptly to help the assisted human reacting to the anomaly identiﬁed. Similar to what we do, the caregiver may also inform the system about the speciﬁc issue, so that in the future it will be recognized not as an anomaly but rather as a speciﬁc problem, hence possibly unleashing a more tailored intervention. A similar approach is also studied in [41] where the authors use a clustering technique to understand anomalies such as inactivity or too long activities in SH thanks to unobtrusive sensors. Another wide branch of research is devoted to security models, to assess whether network operations and accesses can be considered as normal or are instead to be considered as an anomaly [42–44]. In [44], the authors consider an Hidden Markov Model which models the normal behavior of an SH, and are able to recognize attacks with a high accuracy. In the speciﬁc domain of AL [42] analyzes potential attacks on IoT devices used by elderly people by monitoring unusual behaviors. Closer to this work is [43], where the authors provide different levels of anomaly detection, from an unknown unusual behavior to a properly classiﬁed issue. In this case the system presents at ﬁrst anomalies when experiencing unusual behavior, and as it learns novel issues it presents a more precise classiﬁcation of them."
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 18,
+    "bounding box" : [ 166.846, 269.398, 559.279, 344.376 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In any of these scenarios there is the possibility to assess an anomaly at ﬁrst, and when experiencing it humans can describe the speciﬁc anomaly, so that the system can learn and in the future may better inform the user about the issue. IoT networks have been adopted in many different scenarios, and whenever it is challenging to obtain data to train a classiﬁer model in advance, and the system can allow a two step recognition (i.e., an anomaly at ﬁrst, which is eventually described), the system we have just present can ﬁt."
+  }, {
+    "type" : "heading",
+    "id" : 332,
+    "level" : "Subtitle",
+    "page number" : 18,
+    "bounding box" : [ 167.265, 246.802, 339.688, 259.116 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "7. Conclusions and Future Challenges"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 18,
+    "bounding box" : [ 167.265, 181.228, 559.278, 243.654 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this paper, we have shown a predictive maintenance model which does not require an initial dataset to be trained on. Instead it learns by observing an initial steady state, and then it detects anomalies in the data, while also classifying issues already seen. The model is also not bound to any speciﬁc set of sensors, thus making it adaptable to a plethora of different use cases."
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 18,
+    "bounding box" : [ 167.27, 143.569, 559.273, 180.889 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We have shown that our model solves two important challenges in this domain: (i) it does not require an initial dataset, which is unfeasible to obtain in a real scenario; (ii) it does not need to know in advance the number nor the description of the issues to be recognized."
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 18,
+    "bounding box" : [ 166.966, 68.251, 559.665, 143.23 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We have tested our proposal on three different datasets, to show its adaptability to different scenarios, sensors and sampling frequency. In all three datasets the model performed well, achieving an almost perfect classiﬁcation on the real industrial machine also due to the reduced number of classes. Clearly, increasing the number of classes would also change the performance ﬁgures of it. However, we also argue that these models may be better leveraged when they have to monitor a speciﬁc component rather that the"
+  }, {
+    "type" : "header",
+    "id" : 336,
+    "page number" : 19,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 19,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 608"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 19,
+    "bounding box" : [ 166.846, 658.54, 560.518, 746.071 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "whole machine, hence also reducing the set of possible issues. This is also a planned future work on this topic, in scenarios where there are several sensors which monitor different components. There, we want to investigate whether having separate smaller models, which only focus on a speciﬁc part of the industrial machine would be better compared to having a unique model which monitors everything. In such a scenario, we have to extend our model by enabling the possibility for it to split and only focus on the given components, and we will also leverage multi class classiﬁers."
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 19,
+    "bounding box" : [ 166.915, 611.718, 560.849, 646.142 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Conceptualization, F.M. and L.B.; methodology, F.M. and L.B.; validation, S.G.; formal analysis, F.M., and L.B.; data curation, F.M. and L.B.; supervision, U.M., M.F. and S.G. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 19,
+    "bounding box" : [ 167.265, 576.169, 418.959, 605.016 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research received no external funding. Conﬂicts of Interest: The authors declare no conﬂict of interest."
+  }, {
+    "type" : "heading",
+    "id" : 342,
+    "level" : "Subtitle",
+    "page number" : 19,
+    "bounding box" : [ 36.0, 553.453, 85.803, 565.767 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 343,
+    "level" : "5",
+    "page number" : 19,
+    "bounding box" : [ 36.0, 78.946, 560.849, 550.411 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 18,
+    "next list id" : 347,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 516.405, 559.277, 550.411 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Sezer, E.; Romero, D.; Guedea, F.; Macchi, M.; Emmanouilidis, C. An Industry 4.0-Enabled Low Cost Predictive Maintenance Approach for SMEs. In Proceedings of the 2018 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC), Stuttgart, Germany, 17–20 June 2018; pp. 1–8.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 504.7, 409.138, 515.89 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Mobley, R.K. An Introduction to Predictive Maintenance; Elsevier: Hoboken, NJ, USA, 2002.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 481.687, 560.767, 504.384 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Jardine, A.K.; Lin, D.; Banjevic, D. A review on machinery diagnostics and prognostics implementing condition-based maintenance. Mech. Syst. Signal Process. 2006, 20, 1483–1510. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 470.18, 536.585, 481.37 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Elattar, H.M.; Elminir, H.K.; Riad, A.M. Prognostics: A literature review. Complex Intell. Syst. 2016, 2, 125–154. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 447.166, 559.277, 469.863 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Mourtzis, D.; Vlachou, E. A cloud-based cyber-physical system for adaptive shop-ﬂoor scheduling and condition-based maintenance. J. Manuf. Syst. 2018, 47, 179–198. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 412.843, 559.277, 446.849 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Nectoux, P.; Gouriveau, R.; Medjaher, K.; Ramasso, E.; Chebel-Morello, B.; Zerhouni, N.; Varnier, C. PRONOSTIA: An experimental platform for bearings accelerated degradation tests. In Proceedings of the IEEE International Conference on Prognostics and Health Management, PHM’12, Denver, CO, USA, 18–21 June 2012.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 389.83, 559.273, 412.329 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Nasa. NASA Dataset. Available online: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognosticdata-repository/ (accessed on 20 September 2021).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 366.618, 560.762, 389.315 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Lin, D.; Banjevic, D.; Jardine, A.K. Using principal components in a proportional hazards model with applications in conditionbased maintenance. J. Oper. Res. Soc. 2006, 57, 910–919. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 343.802, 559.273, 366.301 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Microsoft. Microsoft Azure Telemetry Dataset. Available online: https://gallery.azure.ai/Notebook/Predictive-MaintenanceMo delling-Guide-R-Notebook-1 (accessed on 20 September 2021).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 309.281, 560.849, 343.287 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Zhang, Y.; You, L.; Jia, C. Fault detection and diagnosis using Bayesian-network inference. In Proceedings of the IECON 2017-43rd Annual Conference of the IEEE Industrial Electronics Society, Beijing, China, 29 October–1 November 2017; pp. 5049–5053. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 286.07, 559.275, 308.767 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Kumar, A.; Shankar, R.; Thakur, L.S. A big data driven sustainable manufacturing framework for condition-based maintenance prediction. J. Comput. Sci. 2018, 27, 428–439. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 263.056, 559.279, 285.753 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Rivas, A.; Fraile, J.M.; Chamoso, P.; González-Briones, A.; Sittón, I.; Corchado, J.M. A Predictive Maintenance Model Using Recurrent Neural Networks; Springer: Berlin, Germany, 2020; pp. 261–270. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 228.733, 560.398, 262.739 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Abbasi, T.; Lim, K.H.; Rosli, N.; Ismail, I.; Ibrahim, R. Development of Predictive Maintenance Interface Using Multiple Linear Regression. In Proceedings of the 2018 International Conference on Intelligent and Advanced System (ICIAS), Kuala Lumpur, Malaysia, 13–14 August 2018; pp. 1–5. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 194.213, 560.393, 228.218 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Poyhonen, S.; Jover, P.; Hyotyniemi, H. Signal processing of vibrations for condition monitoring of an induction motor. In Proceedings of the First International Symposium on Control, Communications and Signal Processing, Hammamet, Tunisia, 21–24 March 2004; pp. 499–502. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 148.185, 560.393, 193.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Guo, M.; Xie, L.; Wang, S.-Q.; Zhang, J.-M. Research on an integrated ICA-SVM based framework for fault diagnosis. In Proceedings of the SMC’03 Conference Proceedings. 2003 IEEE International Conference on Systems, Man and Cybernetics, Conference Theme-System Security and Assurance (Cat. No.03CH37483), Washington, DC, USA, 8 October 2003; Volume 3, pp. 2710–2715. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 124.973, 559.457, 147.67 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. He, K.; Li, X. A Quantitative Estimation Technique for Welding Quality Using Local Mean Decomposition and Support Vector Machine. J. Intell. Manuf. 2016, 27, 525–533. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 101.96, 559.277, 124.656 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. das Chagas Moura, M.; Zio, E.; Lins, I.D.; Droguett, E. Failure and reliability prediction by support vector machines regression of time series data. Reliab. Eng. Syst. Saf. 2011, 96, 1527–1534. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 36.0, 78.946, 559.274, 101.643 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Zhang, Z.; Wang, Y.; Wang, K. Fault diagnosis and prognosis using wavelet packet decomposition, Fourier transform and artiﬁcial neural network. J. Intell. Manuf. 2013, 24, 1213–1227. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 344,
+    "page number" : 20,
+    "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 20,
+      "bounding box" : [ 36.0, 780.073, 559.275, 790.02 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "IoT 2021, 2 609"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 347,
+    "level" : "5",
+    "page number" : 20,
+    "bounding box" : [ 36.0, 124.275, 560.848, 745.131 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 26,
+    "previous list id" : 343,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 722.434, 560.845, 745.131 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Zarei, J.; Tajeddini, M.A.; Karimi, H.R. Vibration analysis for bearing fault detection and classiﬁcation using an intelligent ﬁlter. Mechatronics 2014, 24, 151–157. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 699.421, 560.394, 722.118 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Yam, R.C.; Tse, P.W.; Li, L.; Tu, P. Intelligent predictive decision support system for condition-based maintenance. Int. J. Adv. Manuf. Technol. 2001, 17, 383–391. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 676.407, 559.28, 699.104 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Butler, M.; Kešelj, V. Data Mining Techniques for Proactive Fault Diagnostics of Electronic Gaming Machines. In Advances in Artiﬁcial Intelligence; Farzindar, A., Kešelj, V., Eds.; Springer: Berli/Heidelberg, Germany, 2010; pp. 366–369.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 653.393, 559.276, 676.09 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Li, H.; Parikh, D.; He, Q.; Qian, B.; Li, Z.; Fang, D.; Hampapur, A. Improving rail network velocity: A machine learning approach to predictive maintenance. Transp. Res. Part Emerg. Technol. 2014, 45, 17–26. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 630.379, 559.277, 653.076 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Tobon-Mejia, D.A.; Medjaher, K.; Zerhouni, N.; Tripot, G. A Data-Driven Failure Prognostics Method Based on Mixture of Gaussians Hidden Markov Models. IEEE Trans. Reliab. 2012, 61, 491–503. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 607.366, 559.277, 630.062 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Ragab, A.; Yacout, S.; Ouali, M.S.; Osman, H. Pattern-based prognostic methodology for condition-based maintenance using selected and weighted survival curves. Qual. Reliab. Eng. Int. 2017, 33, 1753–1772. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 584.352, 560.848, 607.049 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Dong, M.; He, D. Hidden semi-Markov model-based methodology for multi-sensor equipment health diagnosis and prognosis. Eur. J. Oper. Res. 2007, 178, 858–878. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 561.338, 559.272, 584.035 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Ordóñez, C.; Sánchez Lasheras, F.; Roca-Pardiñas, J.; Juez, F.J.D.C. A hybrid ARIMA–SVM model for the study of the remaining useful life of aircraft engines. J. Comput. Appl. Math. 2019, 346, 184–191. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 527.015, 559.277, 561.021 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Paolanti, M.; Romeo, L.; Felicetti, A.; Mancini, A.; Frontoni, E.; Loncarski, J. Machine Learning approach for Predictive Maintenance in Industry 4.0. In Proceedings of the 2018 14th IEEE/ASME International Conference on Mechatronic and Embedded Systems and Applications (MESA), Oulu, Finland, 2–4 July 2018; pp. 1–6. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 503.804, 560.841, 526.501 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Malekshahi Rad, M.; Rahmani, A.M.; Sahaﬁ, A.; Nasih Qader, N. Social Internet of Things: Vision, challenges, and trends. Hum.-Centric Comput. Inf. Sci. 2020, 10, 1–40. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 480.79, 559.273, 503.487 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Baldassarre, G.; Lo Giudice, P.; Musarella, L.; Ursino, D. The MIoT paradigm: Main features and an “ad-hoc” crawler. Future Gener. Comput. Syst. 2019, 92, 29–42. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 469.283, 559.276, 480.473 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Amin, S.U.; Hossain, M.S. Edge Intelligence and Internet of Things in Healthcare: A Survey. IEEE Access 2021, 9, 45–59. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 446.269, 560.395, 468.966 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Marikyan, D.; Papagiannidis, S.; Alamanos, E. A systematic review of the smart home literature: A user perspective. Technol. Forecast. Soc. Chang. 2019, 138, 139–154. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 423.255, 560.394, 445.952 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Atzori, L.; Iera, A.; Morabito, G.; Nitti, M. The social internet of things (SIoT)-When social networks meet the internet of things: Concept, architecture and network characterization. Comput. Netw. 2012, 56, 3594–3608. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 400.44, 560.848, 422.939 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Altun, C.; Tavli, B. Social Internet of Digital Twins via Distributed Ledger Technologies: Application of Predictive Maintenance. In Proceedings of the 27th Telecommunications Forum, TELFOR 2019, Belgrade, Serbia, 26–27 November 2019; [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 377.228, 559.273, 399.925 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Roopa, M.S.; Pallavi, B.; Buyya, R.; Venugopal, K.R.; Iyengar, S.S.; Patnaik, L.M. Social Interaction-Enabled Industrial Internet of Things for Predictive Maintenance. In Advances in Intelligent Systems and Computing; Springer: Singapore, 2021; [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 354.214, 559.274, 376.911 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Cauteruccio, F.; Cinelli, L.; Fortino, G.; Savaglio, C.; Terracina, G.; Ursino, D.; Virgili, L. An approach to compute the scope of a social object in a Multi-IoT scenario. Pervasive Mob. Comput. 2020, 67, 101223. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 331.2, 559.459, 353.897 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "36. Cauteruccio, F.; Cinelli, L.; Corradini, E.; Terracina, G.; Ursino, D.; Virgili, L.; Savaglio, C.; Liotta, A.; Fortino, G. A framework for anomaly detection and classiﬁcation in Multiple IoT scenarios. Future Gener. Comput. Syst. 2021, 114, 322–335. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 308.187, 559.276, 330.884 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "37. Bakar, U.A.; Ghayvat, H.; Hasanm, S.F.; Mukhopadhyay, S.C. Activity and anomaly detection in smart home: A survey. In Smart Sensors, Measurement and Instrumentation; Springer: Berlin, Germany, 2016. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 285.173, 559.28, 307.87 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "38. Yamauchi, M.; Ohsita, Y.; Murata, M.; Ueda, K.; Kato, Y. Anomaly Detection in Smart Home Operation from User Behaviors and Home Conditions. IEEE Trans. Consum. Electron. 2020, 66, 183–192. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 262.357, 559.274, 284.856 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "39. Jakkula, V.; Cook, D.J.; Crandall, A.S. Temporal Pattern Discovery for Anomaly Detection in a Smart Home. In Proceedings of the 3rd IET International Conference on Intelligent Environments, Ulm, Germany, 24–25 September 2007. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 239.343, 560.397, 261.842 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "40. Jakkula, V.; Cook, D.J. Anomaly detection using temporal data mining in a smart home environment. Methods Inf. Med. 2008, 47, 70–75. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 216.132, 560.396, 238.828 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "41. Novak, M.; Jakab, F.; Lain, L. Anomaly detection in user daily patterns in smart-home environment. J. Sel. Areas Health Informa. 2013, 3, 1–11.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 193.118, 560.393, 215.815 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "42. Elsaid, M.; Altuwaijri, S.; Aljammaz, N.; Ara, A. Design and Analysis of Secure Smart Home for Elderly People. Int. J. Distrib. Parallel Syst. 2019, 10. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 170.302, 560.847, 192.801 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "43. Ullah, I.; Mahmoud, Q.H. A two-level ﬂow-based anomalous activity detection system for IoT networks. Electronics 2020, 9, 530. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 36.0, 124.275, 559.277, 169.787 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "44. Ramapatruni, S.; Narayanan, S.N.; Mittal, S.; Joshi, A.; Joshi, K. Anomaly Detection Models for Smart Home Security. In Proceedings of the 2019 IEEE 5th International Conference on Big Data Security on Cloud (BigDataSecurity), IEEE International Conference on High Performance and Smart Computing, (HPSC) and IEEE International Conference on Intelligent Data and Security (IDS), Washington, DC, USA, 27–29 May 2019. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  } ]
+}

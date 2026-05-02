@@ -1,0 +1,1891 @@
+{
+  "file name" : "23.pdf",
+  "number of pages" : 12,
+  "author" : "Seung Hyun Jeon, Sarang Yoo, Yoon-Sik Yoo and Il-Woo Lee",
+  "title" : "ML- and LSTM-Based Radiator Predictive Maintenance for Energy Saving in Compressed Air Systems",
+  "creation date" : "D:20240315224007+08'00'",
+  "modification date" : "D:20240315154238+01'00'",
+  "kids" : [ {
+    "type" : "heading",
+    "id" : 33,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 73.507, 763.618, 160.288, 786.145 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 25.198,
+    "text color" : "[0.34082, 0.591797, 0.851563, 0.397705]",
+    "content" : "energies"
+  }, {
+    "type" : "paragraph",
+    "id" : 37,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 725.609, 63.213, 738.023 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 38,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 685.592, 518.844, 726.586 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "ML- and LSTM-Based Radiator Predictive Maintenance for Energy Saving in Compressed Air Systems"
+  }, {
+    "type" : "heading",
+    "id" : 39,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 661.378, 360.876, 675.072 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Seung Hyun Jeon 1 , Sarang Yoo 2, Yoon-Sik Yoo 3,* and Il-Woo Lee 4"
+  }, {
+    "type" : "list",
+    "id" : 42,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 564.885, 559.437, 640.229 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 629.443, 559.437, 640.229 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 Department of Computer Engineering, Daejeon University, Daejeon 35235, Republic of Korea; creemur@dju.kr",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 607.924, 511.208, 629.47 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Global Production Operation Team, HD Hyundai Infracore, Incheon 22502, Republic of Korea; sarang.yoo@hd.com",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 586.404, 505.669, 607.95 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3 Energy ICT Research Section, Electronics and Telecommunications Research Institute (ETRI), Daejeon 34129, Republic of Korea",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 564.885, 556.892, 586.431 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "4 Industry & Energy Convergence Research Division, Electronics and Telecommunications Research Institute (ETRI), Daejeon 34129, Republic of Korea; ilwoo@etri.re.kr",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 43,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 553.982, 313.171, 563.897 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: midasyoo@etri.re.kr"
+  }, {
+    "type" : "paragraph",
+    "id" : 44,
+    "page number" : 1,
+    "bounding box" : [ 166.044, 385.436, 560.392, 539.113 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Abstract: Air compressors are widely used in industrial fields. Compressed air systems aggregate air flows and then supply them to places of demand. These huge systems consume a significant amount of energy and generate heat internally. Machine components in compressed air systems are vulnerable to heat, and, in particular, a radiator to cool the heat of the overall air compressor is the core component. Dirty radiators increase energy consumption due to anomalous cooling. To reduce the energy consumption of air compressors, this mechanism emphasizes a machine learning-based radiator fault detection, using features such as RPM, motor power, outlet pressure, air flow, water pump power, and outlet temperature with slight true fault labels. Moreover, the proposed system adds an LSTM-based motor power prediction model to point out the initial judgment of radiator fault possibility. Via the rigorous analysis and the comparison among machine learning models, this meticulous approach improves the performance of radiator fault prediction up to 93.0%, and decreases the mean power consumption of the air compressor around 2.24%."
+  }, {
+    "type" : "paragraph",
+    "id" : 27,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 268.715, 152.798, 336.892 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Citation: Jeon, S.H.; Yoo, S.; Yoo, Y.-S.; Lee, I.-W. ML- and LSTM-Based Radiator Predictive Maintenance for Energy Saving in Compressed Air Systems. Energies 2024, 17, 1428. https://doi.org/10.3390/en17061428"
+  }, {
+    "type" : "paragraph",
+    "id" : 28,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 250.812, 146.146, 259.362 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editor: Francesco Nocera"
+  }, {
+    "type" : "caption",
+    "id" : 29,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 196.137, 116.647, 240.463 ],
+    "linked content id" : 30,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 5 February 2024 Revised: 3 March 2024 Accepted: 13 March 2024 Published: 15 March 2024"
+  }, {
+    "type" : "image",
+    "id" : 30,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 165.167, 92.409, 185.009 ],
+    "source" : "23_images/imageFile1.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 31,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 67.79, 153.204, 159.818 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Copyright: © 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/)."
+  }, {
+    "type" : "paragraph",
+    "id" : 45,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 347.538, 560.393, 371.501 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Keywords: predictive maintenance; air compressor; machine learning; fault detection; radiator; energy consumption"
+  }, {
+    "type" : "heading",
+    "id" : 47,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 296.976, 234.508, 309.29 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 48,
+    "page number" : 1,
+    "bounding box" : [ 165.975, 193.743, 561.019, 293.828 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "An air compressor is one of the indispensable, energy-intensive tools, which account for 10% of energy consumption in global industrial fields. In numerous industrial sectors such as food, chemicals, and metal fabrication, compressed air has been widely used [1]. However, compressed air, as an energy source, is over two times more inefficient than electricity [2]. In particular, the energy cost of air compressors accounts for 75% or more of the total life-cycle cost. Moreover, at least 10% of the energy input into air compressors is wasted. In compressed air systems, reducing energy consumption can be monitored via an overheating check or other sensing information."
+  }, {
+    "type" : "paragraph",
+    "id" : 49,
+    "page number" : 1,
+    "bounding box" : [ 166.065, 118.425, 560.928, 193.404 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "However, cooling components, such as radiators that reduce the overheating of air compressors, are vulnerable to fault detection. If the fault detection of cooling components is delayed, the energy cost of compressed air systems such as OPerational EXpenditure (OPEX) significantly increases, regardless of whether fault detection happens. Here, previous research on predictive maintenance for air compressors and fault detection-based energy saving are briefly introduced."
+  }, {
+    "type" : "paragraph",
+    "id" : 50,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 68.214, 561.019, 118.086 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Predictive maintenance for air compressors has recently been studied in various industrial fields [3–11]. Panda et al. [3] developed an ML-based predictive maintenance framework to detect air compressor failure for the downtime reduction of heavy-duty trucks, whose air brake system converts air pressure into mechanic force. Cerrada et al."
+  }, {
+    "type" : "paragraph",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 35.469, 18.829, 559.272, 28.776 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Energies 2024, 17, 1428. https://doi.org/10.3390/en17061428 https://www.mdpi.com/journal/energies"
+  }, {
+    "type" : "header",
+    "id" : 53,
+    "page number" : 2,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 12,
+      "page number" : 2,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 2 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 56,
+    "page number" : 2,
+    "bounding box" : [ 166.095, 428.395, 561.019, 754.433 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "[4] proposed a Learning Methodology for Multivariable Data Analyses (LAMDA)-based classification model, using current signals to detect the tapered bearings of a reciprocating air compressor. Loukopoulos et al. [5] provided a Remaining Useful Life (RUL) estimation model using ML prognostics techniques with fault valve data of the reciprocating air compressor. Lee et al. [6] presented a proactive fault diagnosis of a radiator with a Gaussian mixture ML model for the initial fault classification, and then detected advanced faults using an LSTM autoencoder. However, their approaches equipped sensors on the radiator for anomaly detection directly. Moreover, they did not procure data from the radiator near air compressors, which are involved in compressed air systems. Recently, a neural designer proposed an ML-based bearing fault detection for air compressors [7,8]. However, despite the availability of information through the radiator label, Rodriguez [7] only provided an anomaly detection for the bearings of air compressors. Guo et al. [9] developed a Dual-Channel Transformer Network with the Convolutional Block Attention Module (DCTN-CBAM) to predict the bearings’ RUL. Even though the bearings’ fault detection focuses on noise db, similar to a radiator’s features, noise db have a weak correlation with motor power consumption. Moreover, Guo et al. [10] suggested a dual attention mechanism, which combines the anomaly attention from the features of an anomaly transformer and CBAM (AT-CBAM) to improve the accuracy of the fault detection of drilling pumps. However, datasets of air compressors, which are considered in this paper, do not guarantee time-domain information. If motor power and other features of each air compressor are gathered, attention mechanisms such as transformer may be considered. Gribbestad et al. [11] suggested an RUL prediction model for air compressors based on transfer learning; however, any power consumption of the air compressors was not considered. Thus, existing studies have shown limited interest in the fault detection of cooling component affecting the energy consumption of air compressors, compared to bearings’ and motors’ faults."
+  }, {
+    "type" : "paragraph",
+    "id" : 57,
+    "page number" : 2,
+    "bounding box" : [ 166.005, 189.889, 561.019, 428.056 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Studies on fault detection coupled with energy saving have been investigated [12–17]. Drakaki et al. [12] surveyed recent work on machine learning (ML)- and Deep Learning (DL)-based induction motor predictive maintenance and then used power spectrum information as a feature for fault detection. Lee et al. [13] presented an One-Versus-All (OVA) multi-class classification method for compressor faults, which shows high accuracy. In addition, energy saving through fault detection was analyzed for refrigerators. However, because this compressor is considered as a component of refrigeration systems, data characteristics of the air compressor in compressed air systems differ. Guo et al. [14] proposed a Moving Average (MA)-based ML method to reduce energy by detecting faults in air conditioning systems. Rodriguez et al. [15] provided a K-means clustering algorithm to predict faults for the predictive maintenance of wind turbines for energy saving, maximizing useful life, and maximizing productivity. Shi et al. [16] considered a multi-objective optimization model for low energy consumption with higher flow rate and efficiency. However, they employed a traditional method, not ML technologies, and only planned to study unexpected component faults in future research. Hu et al. [17] added cooling modules for energy saving in compressed air systems, which cool the incoming air flow into air compressors. However, they do not mention the failure detection of air compressors. Accordingly, according to the previous studies, fault detection-based energy saving for air compressors has not been extensively investigated."
+  }, {
+    "type" : "paragraph",
+    "id" : 58,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 164.783, 559.475, 189.55 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "However, much research on reducing the energy consumption of compressed air systems has focused on control operations to reduce energy consumption [18–20]. Mousavi"
+  }, {
+    "type" : "list",
+    "id" : 59,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 166.095, 89.465, 559.278, 164.444 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 166.394, 152.23, 559.278, 164.444 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "et al. [18] proposed an energy consumption model to control compressed air systems. Liu",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 166.095, 89.465, 559.277, 151.891 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "et al. [19] provided a genetic algorithm-based operation optimization model to reduce the total energy consumption of pipelines using air compressors. Bayoumi et al. [20] presented a symbolic model to provide each air compressor with the optimal electrical power consumption. In this paper, air pressure allocation to reduce the power consumed by any operation of an air compressor is not considered. Here, the suggested solution",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 60,
+    "page number" : 3,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 13,
+      "page number" : 3,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 3 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 63,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 729.666, 559.278, 754.433 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "focuses on predicting faults in cooling components affecting motor power consumption in compressed air systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 681.924, 559.273, 729.327 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Through the sophisticated analysis of the existing research, studies on fault detection for saving energy in compressed air systems are still required. Contributions"
+  }, {
+    "type" : "paragraph",
+    "id" : 65,
+    "page number" : 3,
+    "bounding box" : [ 166.085, 528.52, 560.931, 678.816 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To detect faulty components affecting energy consumption, this paper proposes an ML-based anomaly detection mechanism to predict faulty radiators increasing the energy consumption of the overall compressed air systems and, first, suggests a Long ShortTerm Memory (LSTM)-based motor power prediction model to forecast overheating in air compressors. The main contributions of this paper are summarized as follows: On the theoretical side, a predictive maintenance model targeting the overheating of air compressors guarantees a predicted accuracy of about 93.0% with a ground truth of 20%, considering power consumption and temperature instead of noise db. On the practical side, if experts in compressed air systems assign a margin of error from the predicted motor power consumption, an Artificial Intelligence (AI) analytic engine using the proposed ML-based and LSTM-based fault detection and prediction models can reduce the overall energy consumption of the compressed air systems by around 2.24%."
+  }, {
+    "type" : "heading",
+    "id" : 66,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 505.924, 242.538, 518.238 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "2. System Model"
+  }, {
+    "type" : "list",
+    "id" : 67,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 492.434, 239.858, 504.848 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 136,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 492.434, 239.858, 504.848 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.1. Proposed Idea",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 68,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 313.924, 560.928, 489.326 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 1 presents a predictive radiator maintenance model for energy saving in compressed air systems where such an approach can develop an AI analytic engine through measured features from compressed air systems equipped with sensors [21]. Generally, compressed air systems consist of various air compressors with radiators, cooler, air tanks, dryers, air regulators, and users. Air compressors provide energy from compressed air, a radiator reduces the heat of the overall air compressors, a cooler also reduces the heat of the compressed air, a dryer removes the noise from the compressed air, such as water, an air regulator controls the amount of air flow, and finally, users utilize compressed air in their work process. First, workers within a smart factory monitor motor power consumption based on LSTM [22]. Then, if the predicted motor power consumption increases past a threshold value, sensing or measured data for testing applies to an ML-based predictive maintenance framework, which was already trained to detect radiator faults. If the predicted motor power (a red line) exceeds a threshold value (δ) against true motor power (a blue line), the radiator fault should be checked due to the overheated air compressors."
+  }, {
+    "type" : "image",
+    "id" : 118,
+    "page number" : 3,
+    "bounding box" : [ 232.383, 269.052, 285.566, 303.83 ],
+    "source" : "23_images/imageFile2.png"
+  }, {
+    "type" : "image",
+    "id" : 119,
+    "page number" : 3,
+    "bounding box" : [ 246.51, 274.271, 269.005, 294.568 ],
+    "source" : "23_images/imageFile3.png"
+  }, {
+    "type" : "heading",
+    "id" : 121,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 295.29, 279.514, 471.937, 288.283 ],
+    "heading level" : 6,
+    "font" : "Arial-BoldMT",
+    "font size" : 7.849,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "AI Analytic Engine for Air Compressor Systems"
+  }, {
+    "type" : "image",
+    "id" : 126,
+    "page number" : 3,
+    "bounding box" : [ 195.925, 241.934, 211.984, 254.735 ],
+    "source" : "23_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 3,
+    "bounding box" : [ 285.211, 239.705, 316.235, 245.843 ],
+    "font" : "ArialMT",
+    "font size" : 5.494,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Motor Power"
+  }, {
+    "type" : "image",
+    "id" : 127,
+    "page number" : 3,
+    "bounding box" : [ 211.583, 242.013, 212.023, 245.278 ],
+    "source" : "23_images/imageFile5.png"
+  }, {
+    "type" : "image",
+    "id" : 116,
+    "page number" : 3,
+    "bounding box" : [ 211.583, 237.892, 217.713, 245.278 ],
+    "source" : "23_images/imageFile6.png"
+  }, {
+    "type" : "image",
+    "id" : 114,
+    "page number" : 3,
+    "bounding box" : [ 217.391, 237.892, 217.831, 245.278 ],
+    "source" : "23_images/imageFile7.png"
+  }, {
+    "type" : "image",
+    "id" : 128,
+    "page number" : 3,
+    "bounding box" : [ 227.281, 226.825, 239.101, 239.94 ],
+    "source" : "23_images/imageFile8.png"
+  }, {
+    "type" : "image",
+    "id" : 78,
+    "page number" : 3,
+    "bounding box" : [ 195.964, 203.946, 236.04, 238.135 ],
+    "source" : "23_images/imageFile9.png"
+  }, {
+    "type" : "image",
+    "id" : 113,
+    "page number" : 3,
+    "bounding box" : [ 211.623, 228.591, 217.713, 238.135 ],
+    "source" : "23_images/imageFile10.png"
+  }, {
+    "type" : "image",
+    "id" : 117,
+    "page number" : 3,
+    "bounding box" : [ 211.623, 228.591, 217.713, 238.135 ],
+    "source" : "23_images/imageFile11.png"
+  }, {
+    "type" : "image",
+    "id" : 115,
+    "page number" : 3,
+    "bounding box" : [ 217.391, 228.591, 217.831, 238.135 ],
+    "source" : "23_images/imageFile12.png"
+  }, {
+    "type" : "image",
+    "id" : 129,
+    "page number" : 3,
+    "bounding box" : [ 227.281, 226.786, 236.04, 238.135 ],
+    "source" : "23_images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 94,
+    "page number" : 3,
+    "bounding box" : [ 477.451, 220.596, 534.044, 228.488 ],
+    "font" : "ArialMT",
+    "font size" : 7.064,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Places of demand"
+  }, {
+    "type" : "paragraph",
+    "id" : 102,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 240.724, 220.119, 269.371, 228.01 ],
+    "font" : "Arial-BoldMT",
+    "font size" : 7.064,
+    "text color" : "[0.867188, 0.6875, 0.131592, 0.0]",
+    "content" : "Radiator"
+  }, {
+    "type" : "image",
+    "id" : 99,
+    "page number" : 3,
+    "bounding box" : [ 220.217, 201.748, 239.729, 221.182 ],
+    "source" : "23_images/imageFile14.png"
+  }, {
+    "type" : "image",
+    "id" : 100,
+    "page number" : 3,
+    "bounding box" : [ 220.217, 203.946, 236.04, 221.182 ],
+    "source" : "23_images/imageFile15.png"
+  }, {
+    "type" : "image",
+    "id" : 101,
+    "page number" : 3,
+    "bounding box" : [ 235.561, 216.779, 239.729, 221.182 ],
+    "source" : "23_images/imageFile16.png"
+  }, {
+    "type" : "image",
+    "id" : 97,
+    "page number" : 3,
+    "bounding box" : [ 239.447, 201.748, 239.886, 221.182 ],
+    "source" : "23_images/imageFile17.png"
+  }, {
+    "type" : "image",
+    "id" : 98,
+    "page number" : 3,
+    "bounding box" : [ 239.447, 216.779, 239.886, 217.728 ],
+    "source" : "23_images/imageFile18.png"
+  }, {
+    "type" : "image",
+    "id" : 90,
+    "page number" : 3,
+    "bounding box" : [ 506.384, 199.982, 528.683, 215.452 ],
+    "source" : "23_images/imageFile19.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 73,
+    "page number" : 3,
+    "bounding box" : [ 444.687, 203.647, 485.905, 211.539 ],
+    "font" : "ArialMT",
+    "font size" : 7.064,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Air Regulator"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 3,
+    "bounding box" : [ 348.79, 195.697, 360.87, 201.835 ],
+    "font" : "ArialMT",
+    "font size" : 5.494,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Time"
+  }, {
+    "type" : "image",
+    "id" : 71,
+    "page number" : 3,
+    "bounding box" : [ 406.861, 152.458, 449.724, 200.696 ],
+    "source" : "23_images/imageFile20.png"
+  }, {
+    "type" : "image",
+    "id" : 86,
+    "page number" : 3,
+    "bounding box" : [ 377.585, 173.885, 398.785, 200.539 ],
+    "source" : "23_images/imageFile21.png"
+  }, {
+    "type" : "image",
+    "id" : 82,
+    "page number" : 3,
+    "bounding box" : [ 457.094, 173.728, 478.215, 200.461 ],
+    "source" : "23_images/imageFile22.png"
+  }, {
+    "type" : "image",
+    "id" : 79,
+    "page number" : 3,
+    "bounding box" : [ 195.886, 157.756, 236.001, 197.4 ],
+    "source" : "23_images/imageFile23.png"
+  }, {
+    "type" : "image",
+    "id" : 75,
+    "page number" : 3,
+    "bounding box" : [ 319.308, 194.37, 364.525, 195.163 ],
+    "source" : "23_images/imageFile24.png"
+  }, {
+    "type" : "image",
+    "id" : 74,
+    "page number" : 3,
+    "bounding box" : [ 318.759, 152.261, 376.769, 195.163 ],
+    "source" : "23_images/imageFile25.png"
+  }, {
+    "type" : "image",
+    "id" : 70,
+    "page number" : 3,
+    "bounding box" : [ 273.432, 160.267, 303.265, 195.045 ],
+    "source" : "23_images/imageFile26.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 95,
+    "page number" : 3,
+    "bounding box" : [ 513.033, 173.163, 526.186, 184.936 ],
+    "font" : "ArialMT",
+    "font size" : 11.773,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "…"
+  }, {
+    "type" : "image",
+    "id" : 89,
+    "page number" : 3,
+    "bounding box" : [ 379.783, 173.885, 398.039, 183.625 ],
+    "source" : "23_images/imageFile27.png"
+  }, {
+    "type" : "image",
+    "id" : 88,
+    "page number" : 3,
+    "bounding box" : [ 380.176, 173.885, 397.647, 183.272 ],
+    "source" : "23_images/imageFile28.png"
+  }, {
+    "type" : "image",
+    "id" : 85,
+    "page number" : 3,
+    "bounding box" : [ 459.174, 173.728, 477.351, 182.88 ],
+    "source" : "23_images/imageFile29.png"
+  }, {
+    "type" : "image",
+    "id" : 84,
+    "page number" : 3,
+    "bounding box" : [ 459.527, 173.728, 476.959, 182.487 ],
+    "source" : "23_images/imageFile30.png"
+  }, {
+    "type" : "image",
+    "id" : 87,
+    "page number" : 3,
+    "bounding box" : [ 377.585, 177.574, 398.785, 178.249 ],
+    "source" : "23_images/imageFile31.png"
+  }, {
+    "type" : "image",
+    "id" : 83,
+    "page number" : 3,
+    "bounding box" : [ 457.094, 177.417, 459.456, 178.131 ],
+    "source" : "23_images/imageFile32.png"
+  }, {
+    "type" : "image",
+    "id" : 106,
+    "page number" : 3,
+    "bounding box" : [ 220.217, 157.756, 236.001, 175.149 ],
+    "source" : "23_images/imageFile33.png"
+  }, {
+    "type" : "image",
+    "id" : 105,
+    "page number" : 3,
+    "bounding box" : [ 220.217, 155.597, 239.729, 175.109 ],
+    "source" : "23_images/imageFile34.png"
+  }, {
+    "type" : "image",
+    "id" : 104,
+    "page number" : 3,
+    "bounding box" : [ 239.447, 155.597, 239.886, 175.109 ],
+    "source" : "23_images/imageFile35.png"
+  }, {
+    "type" : "image",
+    "id" : 92,
+    "page number" : 3,
+    "bounding box" : [ 506.384, 140.881, 528.683, 156.351 ],
+    "source" : "23_images/imageFile36.png"
+  }, {
+    "type" : "image",
+    "id" : 76,
+    "page number" : 3,
+    "bounding box" : [ 195.964, 116.235, 236.079, 153.211 ],
+    "source" : "23_images/imageFile37.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 72,
+    "page number" : 3,
+    "bounding box" : [ 277.834, 139.507, 436.671, 147.398 ],
+    "font" : "ArialMT",
+    "font size" : 7.064,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Cooler Dryer"
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "page number" : 3,
+    "bounding box" : [ 334.536, 139.507, 359.896, 147.398 ],
+    "font" : "ArialMT",
+    "font size" : 7.064,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Air Tank"
+  }, {
+    "type" : "image",
+    "id" : 108,
+    "page number" : 3,
+    "bounding box" : [ 220.178, 116.235, 236.079, 135.826 ],
+    "source" : "23_images/imageFile38.png"
+  }, {
+    "type" : "image",
+    "id" : 111,
+    "page number" : 3,
+    "bounding box" : [ 220.178, 116.353, 236.079, 135.826 ],
+    "source" : "23_images/imageFile39.png"
+  }, {
+    "type" : "image",
+    "id" : 112,
+    "page number" : 3,
+    "bounding box" : [ 235.718, 134.445, 237.296, 135.787 ],
+    "source" : "23_images/imageFile40.png"
+  }, {
+    "type" : "image",
+    "id" : 110,
+    "page number" : 3,
+    "bounding box" : [ 235.836, 116.275, 239.729, 135.787 ],
+    "source" : "23_images/imageFile41.png"
+  }, {
+    "type" : "image",
+    "id" : 109,
+    "page number" : 3,
+    "bounding box" : [ 239.447, 116.275, 239.886, 135.787 ],
+    "source" : "23_images/imageFile42.png"
+  }, {
+    "type" : "caption",
+    "id" : 77,
+    "page number" : 3,
+    "bounding box" : [ 196.328, 98.845, 255.657, 107.614 ],
+    "linked content id" : 76,
+    "font" : "Arial-BoldMT",
+    "font size" : 7.849,
+    "text color" : "[0.929688, 0.878906, 0.890625, 0.798828]",
+    "content" : "Air Compressor"
+  }, {
+    "type" : "heading",
+    "id" : 132,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 75.198, 531.559, 86.352 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 1. Proposed radiator fault predictive maintenance model for compressed air systems."
+  }, {
+    "type" : "header",
+    "id" : 133,
+    "page number" : 4,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 14,
+      "page number" : 4,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 4 of 12"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 136,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 741.999, 363.574, 754.413 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 67,
+    "next list id" : 145,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 741.999, 363.574, 754.413 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.2. Correlation Analysis and Feature Extraction",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 137,
+    "page number" : 4,
+    "bounding box" : [ 165.895, 638.806, 560.516, 738.891 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In our work, a well-organized predictive maintenance dataset for air compressors from Kaggle, which consists of 1000 rows, includes radiator statuses as follows: dirty and clean [8]. A dirty flag means that the radiator of the air compressor is anomalous. The air compressor system was divided into five groups based on Revolutions Per Minute (RPM) control point items. Each group consists of 200 rows for radiator statuses as follows: 160 rows for clean and 40 rows for dirty radiators. In this dataset, other labels exist such as the statuses of bearings and exhaust valves. However, their information is not relevant to predictive maintenance."
+  }, {
+    "type" : "caption",
+    "id" : 138,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 525.83, 560.521, 638.467 ],
+    "linked content id" : 139,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "First of all, to understand the characteristics of air compressors, Figure 2 shows a correlation heatmap generated from the given dataset. The features circled in yellow aligned with red underlines show high correlation with a radiator as label. All features are similar to several measured temperatures. Moreover, at the center of motor power consumption with green underlines, RPM, outlet pressure bar, air flow, water pump power, and the mentioned temperatures (e.g., outlet temp. and oil tank temp.) are shown to have a high correlation aligned with green circles. However, because noise db have a slightly high correlation with RPM and motor power consumption, noise db, even over 0.7, as a feature for important predictive maintenance, are included for comparison."
+  }, {
+    "type" : "image",
+    "id" : 139,
+    "page number" : 4,
+    "bounding box" : [ 166.31, 101.64, 559.969, 514.886 ],
+    "source" : "23_images/imageFile43.png"
+  }, {
+    "type" : "list",
+    "id" : 141,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 84.072, 295.787, 95.226 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 163,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 84.072, 295.787, 95.226 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 2. A correlation heatmap.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 142,
+    "page number" : 5,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 15,
+      "page number" : 5,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 5 of 12"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 145,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 741.999, 404.221, 754.413 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 136,
+    "next list id" : 170,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 741.999, 404.221, 754.413 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3. Proposed LSTM-Based Motor Power Prediction Model",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 588.595, 561.019, 738.891 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Assuming that time series sequences for motor power consumption exist, factors affecting heat, which may be generated near air compressors, can be monitored. Then, two types of LSTM models to predict motor power consumption, like in Table 1, are considered. Here, a cross-validation method (i.e., k = 5) for good performance is used, and then this approach can compare two LSTM models with different test rates for Mean Average Percentage Error (MAPE). In Table 1, if the test rate increases, the MAPE of multi channels is slightly low. However, if the test rate decreases, the MAPE between multi channels and a single channels is similar. That is, when the measured data of air compressors are sufficient for the training data, a motor power prediction method using a multi-channel-based LSTM model may be considered. On the contrary, when the sensed data of air compressors are not sufficient, a motor power prediction method using a single-channel-based LSTM model is effective. Here, both LSTM models assume a window size = 7 and horizon factor = 1."
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 488.171, 560.524, 588.256 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 3 shows the Mean Absolute Error (MAE) and predicted motor power for samples of test data, when five channels and a 20% test ratio are assumed. Compared with Figure 4 (left), the MAE converges to low values. The predicted motor power consumption follows a time series well, according to Figure 3 (right) and Figure 4 (right), due to the low test ratio (i.e., 20%). Finally, engineers in the smart factory may decide a threshold value through the difference between true motor power and predicted motor power. Sometimes, according to long time series, operators of compressed air systems may not detect the exact threshold value because motor power consumption gradually increases."
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 412.853, 560.93, 487.832 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Additionally, an LSTM-based radiator predictive maintenance model was not considered because all authors judged that the selected dataset aggregate sensed or measured information from various mixed air compressors for fault detection. Thus, the proposed LSTM-based motor power prediction model assumes that data are aggregated independently from mixed air compressors in compressed air systems. The basis of the judgment is explained additionally in Section 3.3."
+  }, {
+    "type" : "list",
+    "id" : 149,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 166.098, 388.237, 488.887, 399.391 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 172,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.098, 388.237, 488.887, 399.391 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 1. Comparison for a proposed LSTM-based motor power prediction model.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 5,
+    "bounding box" : [ 451.654, 352.472, 547.917, 376.706 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Test Rate 40% 30% 20%"
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 5,
+    "bounding box" : [ 172.371, 359.486, 365.471, 370.569 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Estimation Metric Channels"
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 5,
+    "bounding box" : [ 264.776, 323.524, 427.319, 345.475 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Motor power, Outlet temp., Water inlet temp., Water outlet temp., Oil tank temp."
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 5,
+    "bounding box" : [ 319.757, 310.373, 553.302, 339.996 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "12.67% 12.55% 11.51% Motor power 13.57% 12.57% 11.77%"
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 5,
+    "bounding box" : [ 192.808, 322.658, 224.888, 335.026 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "MAPE 1"
+  }, {
+    "type" : "paragraph",
+    "id" : 160,
+    "page number" : 5,
+    "bounding box" : [ 166.095, 296.165, 312.501, 306.951 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1 MAPE: Mean Average Percentage Error."
+  }, {
+    "type" : "image",
+    "id" : 162,
+    "page number" : 5,
+    "bounding box" : [ 360.761, 136.385, 557.097, 279.592 ],
+    "source" : "23_images/imageFile44.png"
+  }, {
+    "type" : "image",
+    "id" : 161,
+    "page number" : 5,
+    "bounding box" : [ 168.657, 137.088, 357.076, 278.273 ],
+    "source" : "23_images/imageFile45.png"
+  }, {
+    "type" : "list",
+    "id" : 163,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 106.429, 559.278, 130.243 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 141,
+    "next list id" : 169,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 106.429, 559.278, 130.243 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 3. MAE (left) and comparison of LSTM-based motor power prediction model (right) with 5 channels and 20% test ratio.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 164,
+    "page number" : 6,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 16,
+      "page number" : 6,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 6 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 167,
+    "page number" : 6,
+    "bounding box" : [ 168.743, 612.213, 359.072, 755.092 ],
+    "source" : "23_images/imageFile46.png"
+  }, {
+    "type" : "image",
+    "id" : 168,
+    "page number" : 6,
+    "bounding box" : [ 363.826, 612.733, 557.099, 753.707 ],
+    "source" : "23_images/imageFile47.png"
+  }, {
+    "type" : "list",
+    "id" : 169,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 582.253, 559.726, 606.067 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 163,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 582.253, 559.726, 606.067 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 4. MAE (left) and comparison of LSTM-based motor power prediction model (right) with 1 channel and 20% test ratio.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 170,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 561.466, 395.554, 573.88 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 145,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 561.466, 395.554, 573.88 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.4. Proposed ML-Based Radiator Fault Detection Model",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 6,
+    "bounding box" : [ 165.975, 244.873, 563.066, 558.358 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Next, a radiator fault detection model was designed, using ML classification tools as follows: Support Vector Machine (SVM), random forest, logistic regression, eXtreme Gradient Boosting (XGBoost), and light Gradient Boosting Machine (GBM). Here, five sub-datasets per RPM were divided as follows: RPM ≤ 520, RPM ≤ 1020, RPM ≤ 1520, RPM ≤ 2020, and RPM ≤ 2520. Using the correlation heatmap of Figure 2 to obtain the best classification performance on radiator fault detection, this mechanism considers five ML-based scenarios with different feature combinations, as shown in Table 2. ML1 consists of RPM, motor power, outlet temp., water inlet temp., water outlet temp., and oil tank temp. Secondly, ML2 adds information about noise db, and then reduces the amount of temperature information by only including the representative outlet temperature. Thirdly, ML3 incorporates ML2 and adds outlet pressure bar information. According to Table 2, the SVM technique consistently demonstrates an accuracy of 80.0%. However, logistic regression shows the best performance, compared with others. Random forest, XGBoost, and light GBM demonstrate an accuracy of around 81%. Fourthly, noise db generally focus on detecting bearings’ faults. Heat, as opposed to sound, provides a more precise gauge of energy expenditure. Accordingly, ML4 and ML5 include air flow and water pump power, excluding noise db. Air flow and water pump power are factors with slightly high correlation with motor power consumption. Here, any cross-validation methods, due to having the small subdatasets, were not considered. Even though random forest of ML2 presents slightly higher performance, compared with XGBoost and light GBM, logistic regression shows the highest accuracy, around 89.6%. The XGBoost and light GBM-based radiator fault detection models show better performance at ML1, ML2, and ML3. Finally, Table 2 shows an accuracy of 93.0% in a logistic regression model based on ML5, compared with the other ML scenarios. Here, the accuracy refers to an F1 accuracy score generated from the classification report, using sklearn libraries."
+  }, {
+    "type" : "list",
+    "id" : 172,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 166.098, 220.257, 543.699, 231.411 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 149,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.098, 220.257, 543.699, 231.411 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 2. Comparison of machine learning-based mean test accuracy for radiator fault detection.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 6,
+    "bounding box" : [ 257.979, 180.637, 553.018, 205.966 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Accuracy of ML Models SVM Random Forest Logistic Regression XGBoost Light GBM"
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 6,
+    "bounding box" : [ 41.694, 188.417, 186.241, 199.5 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Scenarios Features"
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 6,
+    "bounding box" : [ 95.046, 139.633, 243.745, 172.543 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "RPM, Motor power, Outlet temp., Water inlet temp., Water outlet temp., Oil tank temp."
+  }, {
+    "type" : "paragraph",
+    "id" : 178,
+    "page number" : 6,
+    "bounding box" : [ 52.144, 150.592, 70.588, 161.584 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ML1"
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 6,
+    "bounding box" : [ 257.078, 150.592, 541.34, 161.584 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "80.0% 81.4% 83.6% 81.8% 81.4%"
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 6,
+    "bounding box" : [ 110.248, 114.428, 228.99, 136.379 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "RPM, Motor power, Noise db, Outlet temp."
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 6,
+    "bounding box" : [ 52.144, 119.907, 70.588, 130.899 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ML2"
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 6,
+    "bounding box" : [ 257.078, 119.907, 541.34, 130.899 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "80.0% 85.6% 89.6% 82.6% 82.8%"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 6,
+    "bounding box" : [ 98.077, 89.222, 240.042, 111.173 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "RPM, Motor power, Outlet pressure bar, Noise db, Outlet temp."
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 6,
+    "bounding box" : [ 52.144, 94.702, 70.588, 105.694 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ML3"
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 6,
+    "bounding box" : [ 257.078, 94.702, 541.34, 105.694 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "80.0% 85.8% 92.4% 81.8% 81.8%"
+  }, {
+    "type" : "header",
+    "id" : 190,
+    "page number" : 7,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 7,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 7 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 7,
+    "bounding box" : [ 166.098, 743.29, 220.434, 754.48 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 2. Cont."
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 7,
+    "bounding box" : [ 257.979, 703.706, 553.018, 729.036 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Accuracy of ML Models SVM Random Forest Logistic Regression XGBoost Light GBM"
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 7,
+    "bounding box" : [ 41.694, 711.487, 186.241, 722.57 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Scenarios Features"
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 7,
+    "bounding box" : [ 94.813, 662.703, 243.306, 695.613 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "RPM, Motor power, Outlet pressure bar, Outlet temp., Wpump power, Oil tank temp."
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 7,
+    "bounding box" : [ 52.144, 673.662, 70.588, 684.654 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ML4"
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 7,
+    "bounding box" : [ 257.078, 673.662, 541.34, 684.654 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "80.0% 78.0% 92.6% 72.2% 75.2%"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 7,
+    "bounding box" : [ 98.077, 626.538, 240.042, 659.448 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "RPM, Motor power, Outlet pressure bar, Air flow, Outlet temp., Wpump power"
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 7,
+    "bounding box" : [ 52.144, 637.497, 70.588, 648.489 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "ML5"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 7,
+    "bounding box" : [ 257.078, 637.497, 541.34, 648.489 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "80.0% 72.0% 93.0% 71.6% 75.4%"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 567.864, 559.279, 605.184 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Thus, this solution provides an LSTM-based motor power prediction model and an ML-based radiator fault detection model, for energy saving and predictive maintenance in compressed air systems."
+  }, {
+    "type" : "heading",
+    "id" : 208,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 545.268, 261.328, 557.582 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "3. Numerical Results"
+  }, {
+    "type" : "list",
+    "id" : 209,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 531.778, 365.038, 544.192 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 225,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 531.778, 365.038, 544.192 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.1. Performance Comparison among ML Models",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 210,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 353.268, 561.019, 528.67 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The proposed two models were developed in the Google Colab environment, using the keras, sklearn, pandas, seaborn, and matplotlib libraries. Because the measured data are not an image, no GPU resources were required. However, because the LSTM-based motor power prediction model was trained with the cross-validation method, the support of GPU resources may be useful. Figures 5–9 show test accuracy for each ML scenario. The X axis of the figures show the sections of test samples and means of test accuracy. The sections of the test sample are equal to the five RPM-based groups. According to Figures 5–7, the measured or sensed sub-datasets did not contribute significantly to training, resulting in around 80.0% test accuracy for the third test samples. However, for the second and the fourth groups, test accuracy, which exceeded the mean values, is mostly good compared with the other groups. In particular, a logistic regression method shows the most powerful performance among any combination of features. Figures 6 and 7 consider noise db, however, Figures 8 and 9 do not consider noise db as feature to compare the proposed model with the conventional model."
+  }, {
+    "type" : "image",
+    "id" : 211,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 84.663, 501.098, 343.217 ],
+    "source" : "23_images/imageFile48.png"
+  }, {
+    "type" : "list",
+    "id" : 212,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 67.011, 437.653, 78.165 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 67.011, 437.653, 78.165 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 5. Comparison of ML1-based radiator fault detection models.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 213,
+    "page number" : 8,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 8,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 8 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 216,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 496.742, 501.098, 755.296 ],
+    "source" : "23_images/imageFile49.png"
+  }, {
+    "type" : "heading",
+    "id" : 217,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 479.09, 437.653, 490.244 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 6. Comparison of ML2-based radiator fault detection models."
+  }, {
+    "type" : "image",
+    "id" : 218,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 206.733, 501.098, 465.287 ],
+    "source" : "23_images/imageFile50.png"
+  }, {
+    "type" : "heading",
+    "id" : 219,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 189.081, 437.653, 200.235 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 7. Comparison of ML3-based radiator fault detection models."
+  }, {
+    "type" : "header",
+    "id" : 220,
+    "page number" : 9,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 9,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 9 of 12"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 223,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 496.742, 501.098, 755.296 ],
+    "source" : "23_images/imageFile51.png"
+  }, {
+    "type" : "list",
+    "id" : 224,
+    "level" : "6",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 187.088, 437.653, 490.244 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 233,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 479.09, 437.653, 490.244 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 8. Comparison of ML4-based radiator fault detection models.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 24,
+        "page number" : 9,
+        "bounding box" : [ 166.394, 204.74, 501.098, 463.294 ],
+        "source" : "23_images/imageFile52.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 187.088, 437.653, 198.242 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 9. Comparison of ML5-based radiator fault detection models.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 225,
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 162.478, 396.142, 174.892 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 209,
+    "next list id" : 234,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 162.478, 396.142, 174.892 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.2. Energy Saving Effects of Removing a Dirty Radiator",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 9,
+    "bounding box" : [ 166.095, 71.839, 560.928, 159.371 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To calculate the motor power consumption per unit of an air compressor, we considered the energy-saving effects /textcolorredfrom removing a dirty radiator. Figure 10 presents the motor power consumption plotted against increasing the outlet pressure bar according to the five RPM-based sub-datasets. Figure 10 (left) shows that both features have high correlation and a positive linear function is generated. Then, the medium value of the outlet pressure bar is considered for measuring energy saving because the changing rate of the outlet pressure bar in air compressors is not high. The value of the selected outlet"
+  }, {
+    "type" : "header",
+    "id" : 227,
+    "page number" : 10,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 10,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 10 of 12"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 230,
+    "page number" : 10,
+    "bounding box" : [ 166.095, 666.901, 559.668, 754.433 ],
+    "linked content id" : 231,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "pressure bar reaches around 4.0. Figure 10 (right) shows that a clean (normal) radiator’s motor power consumption is slightly low, compared with the air compressor with a dirty radiator. Considering the mean motor power, a gap of motor power consumption appears at about 2.34%. Moreover, according to the increasing RPM of the air compressor, the difference of motor power consumption slightly increases. However, due to the random motor power consumption of the air compressors in each RPM group, the results may have a few deviations."
+  }, {
+    "type" : "image",
+    "id" : 231,
+    "page number" : 10,
+    "bounding box" : [ 362.837, 514.891, 554.733, 656.816 ],
+    "source" : "23_images/imageFile53.png"
+  }, {
+    "type" : "image",
+    "id" : 232,
+    "page number" : 10,
+    "bounding box" : [ 166.476, 514.719, 359.061, 654.752 ],
+    "source" : "23_images/imageFile54.png"
+  }, {
+    "type" : "list",
+    "id" : 233,
+    "level" : "6",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 484.593, 559.272, 508.569 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 224,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 484.593, 559.272, 508.569 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 10. Comparison of motor power consumption models for outlet pressure bar (left), normal radiators and faulty radiators (right).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 234,
+    "level" : "5",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 350.733, 418.816, 476.382 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 225,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 463.968, 418.816, 476.382 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "3.3. The Limitations and Shortcomings of the Proposed Models",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 25,
+        "page number" : 10,
+        "bounding box" : [ 166.394, 373.329, 559.668, 460.861 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "According to Figure 10 (left), datasets of air compressors can be classified into five groups based on RPM. However, when the outlet pressure bar increases, the variation of motor power consumption is very high. In addition, the properties of specific time series in the datasets are not measured. Therefore, in this paper, this solution does not integrate the proposed LSTM-based motor power prediction model with the proposed ML-based radiator fault detection model. For a practical use, a predictive maintenance expert may consider the variation rate in the proposed LSTM-based motor power prediction model."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 350.733, 233.392, 363.047 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4. Conclusions",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 10,
+    "bounding box" : [ 165.975, 234.948, 559.668, 347.585 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this paper, a predictive maintenance framework for energy saving in compressed air systems is presented. The proposed framework consists of an LSTM-based motor power prediction model and an ML-based radiator fault detection model, respectively. Using well-defined air compressor datasets, the motor power consumption of compressed air systems can be reduced by removing the faulty radiator. If workers in the smart factory provide the ground truth for radiator faults at around 20%, the proposed ML-based radiator fault detection model can predict radiator faults with an accuracy of around 93.0%. As a future research project, the other fault components affecting energy waste in smart factories are required to be investigated for predictive maintenance."
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 10,
+    "bounding box" : [ 166.044, 152.978, 560.401, 222.55 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Conceptualization, Y.-S.Y. and S.H.J.; methodology, S.H.J.; software, S.H.J.; validation, S.H.J., Y.-S.Y., and S.Y.; formal analysis, S.H.J., Y.-S.Y., and S.Y.; investigation, S.H.J.; resources, S.H.J.; data curation, S.H.J.; writing—original draft preparation, S.H.J.; writing—review and editing, S.H.J. and Y.-S.Y.; visualization, S.H.J.; supervision, Y.-S.Y.; project administration, Y.-S.Y.; funding acquisition, I.-W.L. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 10,
+    "bounding box" : [ 166.098, 111.852, 559.28, 146.276 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This work was supported by the Korea Institute of Energy Technology Evaluation and Planning (KETEP) and the Ministry of Trade, Industry & Energy (MOTIE) of the Republic of Korea (No. 20202020900290)."
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 70.726, 560.398, 105.15 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Data Availability Statement: Suggested Data Availability Statements are available in the following link: https://www.kaggle.com/datasets/afumetto/predictive-maintenance-dataset-air-compressor, accessed on 20 January 2024."
+  }, {
+    "type" : "header",
+    "id" : 239,
+    "page number" : 11,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 11,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 11 of 12"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 742.339, 421.89, 753.493 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Conflicts of Interest: The authors declare no conflicts of interest."
+  }, {
+    "type" : "heading",
+    "id" : 243,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 166.005, 717.531, 231.31, 729.845 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abbreviations"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 11,
+    "bounding box" : [ 165.8, 506.633, 434.4, 714.28 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "The following abbreviations are used in this manuscript: AI Artificial Intelligence CBAM Convolutional Block Attention Module DL Deep Learning GBM Gradient Boosting Machine LAMDA Learning Methodology for Multivariable Data Analyses LSTM Long Short-Term Memory MA Moving Average MAE Mean Absolute Error MAPE Mean Average Percentage Error ML Machine learning OPEX OPerational EXpenditure OVA One-Versus-All RPM Revolutions Per Minute RUL Remaining Useful Life SVM Support Vector Machine XGBoost eXtreme Gradient Boosting"
+  }, {
+    "type" : "heading",
+    "id" : 245,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 35.716, 482.383, 85.519, 494.697 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 246,
+    "level" : "1",
+    "page number" : 11,
+    "bounding box" : [ 35.716, 76.917, 560.396, 479.341 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 18,
+    "next list id" : 250,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 456.644, 559.279, 479.341 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Saidur, R.; Rahim, N.A.; Hasanuzzaman, M. A review on compressed-air energy use and energy savings. Renew. Sustain. Energy Rev. 2010, 14, 1135–1153. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 433.63, 559.273, 456.327 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Yuan, C.Y.; Zhang, T.; Rangarajan, A.; Dornfeld, D.; Ziemba, B.; Whitbeck R. A decision-based analysis of compressed air usage patterns in automotive manufacturing. J. Manuf. Syst. 2006, 25, 293–300. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 410.616, 560.392, 433.313 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Panda, C.; Singh, T.R. ML-based vehicle downtime reduction: A case of air compressor failure detection. Eng. Appl. Artif. Intell. 2023, 122, 106031. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 387.603, 559.273, 410.299 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Cerrada, M.; Montalvo, D.; Zambrano, X.; Cabrera, D.; Sánchez, R.V. Fault diagnosis in reciprocating compressor bearings: An approach using LAMDA applied on current signals. IFAC-PapersOnLine 2022, 55, 199–204. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 364.589, 559.28, 387.286 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Loukopoulos, P.; Zolkiewski, G.; Bennett, I.; Sampath, S.; Pilidis, P.; Li, X.; Mba, D. Abrupt fault remaining useful life estimation using measurements from a reciprocating compressor valve failure. Mech. Syst. Signal Process. 2019, 121, 359–372. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 341.575, 559.275, 364.272 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Lee, J.-G.; Kim, D.-H.; Lee, J.H. Proactive Fault Diagnosis of a Radiator: A Combination of Gaussian Mixture Model and LSTM Autoencoder. Sensors 2023, 23, 8688. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 318.759, 560.263, 341.258 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Air Compressor Predictive Maintenance Using Machine Learning. Available online: https://www.neuraldesigner.com/blog/aircompressor/ (accessed on 20 January 2024).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 295.745, 560.265, 318.244 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Predictive Maintenance Dataset—Air Compressor. Available online: https://www.kaggle.com/datasets/afumetto/predictivemaintenance-dataset-air-compressor (accessed on 20 January 2024).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 272.534, 559.274, 295.231 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Guo, J.; Wang, Z.; Li, H.; Yang, Y.; Huang, C.-G.; Yazdi, M.; Kang, H.S. A hybrid prognosis scheme for rolling bearings based on a novel health indicator and nonlinear Wiener process. Reliab. Eng. Syst. Saf. 2024, 245, 110014. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 249.52, 560.393, 272.217 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Guo, J.; Yang, Y.; Li, H.; Dai, L.; Huang, B. A parallel deep neural network for intelligent fault diagnosis of drilling pumps, Eng. Appl. Artif. Intell. 2024, 133, 108071. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 226.506, 559.456, 249.203 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Gribbestad, M.; Hassan, M.U.; Hameed, I.A. Transfer Learning for Prognostics and Health Management (PHM) of Marine Air Compressors. J. Mar. Sci. Eng. 2021, 9, 47. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 203.492, 559.274, 226.189 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Drakaki, M.; Karnavas, Y.L.; Tziafettas, I.A.; Linardos, V.; Tzionas, P. Machine learning and deep learning based methods toward Industry 4.0 predictive maintenance in induction motors: A state of the art survey. J. Ind. Eng. Manag. 2022, 15, 31–57. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 180.479, 560.396, 203.176 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Lee, D.; Chen, M.-H.; Lai, G.-W. Achieving energy savings through artificial-intelligence-assisted fault detection and diagnosis: Case study on refrigeration systems. Case Stud. Therm. Eng. 2022, 40, 102499. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 157.465, 559.623, 180.162 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Guo, Y.; Zhang, Z.; Chen, Y.; Li, H.; Liu, C.; Lu, J.; Li, R. Sensor Fault Detection Combined Data Quality Optimization of Energy System for Energy Saving and Emission Reduction. Processes 2022, 10, 347. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 134.451, 559.279, 157.148 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Rodriguez, P.C.; Marti-Puig, P.; Caiafa, C.F.; Serra-Serra, M.; Cusidó, J.; Solé-Casals, J. Exploratory Analysis of SCADA Data from Wind Turbines Using the K-Means Clustering Algorithm for Predictive Maintenance Purposes. Machines 2023, 11, 270. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 111.437, 559.278, 134.134 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Shi, T.; Peng, X. Performance Assessment and Optimization of the Ultra-High Speed Air Compressor in Hydrogen Fuel Cell Vehicles. Appl. Sci. 2024, 14, 1232. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 88.622, 559.278, 111.12 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Hu, Y.; Xu, W.; Jia, G.; Li, G.; Cai, M. Energy Analysis of Precooling Air Compressor System. Entropy 2022, 24, 1035. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 35.716, 76.917, 548.756, 88.107 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Mousavi, S.; Kara, S.; Kornfeld, B. Energy Efficiency of Compressed Air Systems. Procedia CIRP 2014, 15, 313–318. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 247,
+    "page number" : 12,
+    "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 12,
+      "bounding box" : [ 35.469, 780.859, 559.276, 792.624 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Energies 2024, 17, 1428 12 of 12"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 250,
+    "level" : "1",
+    "page number" : 12,
+    "bounding box" : [ 35.716, 650.248, 560.4, 753.493 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 246,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 730.796, 559.278, 753.493 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Liu, E.; Lv, L.; Yi, Y.; Xie, P. Research on the Steady Operation Optimization Model of Natural Gas Pipeline Considering the Combined Operation of Air Coolers and Compressors. IEEE Access 2019, 7, 83251–83265. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 707.782, 559.274, 730.479 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Bayoumi, M.A.; Esawy, A.M.; Salim, O.M. New symbolic model for multi-compressor operation based on multi-objective Jaya optimization for life/energy saving. Ain. Shams Eng. J. 2023, 14, 102245. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 673.46, 560.4, 707.465 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Ong, K.S.H.; Niyato, D.; Yuen, C. Predictive Maintenance for Edge-Based Sensor Networks: A Deep Reinforcement Learning Approach. In Proceedings of the IEEE 6th World Forum on Internet of Things (WF-IoT), New Orleans, LA, USA, 2–16 June 2020; pp. 1–6. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 35.716, 650.248, 560.396, 672.945 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Choi, B.S.; Kim, H.; Jeon, S.H. LSTM-based Time Series Forecasting of Pulmonary Function Test for COPD Early Diagnosis. J. Korean Inst. Commun. Inf. Sci. (J-KICS) 2024, 49, 346–355. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 12,
+    "bounding box" : [ 35.447, 603.372, 559.28, 637.378 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  } ]
+}

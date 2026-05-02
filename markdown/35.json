@@ -1,0 +1,4167 @@
+{
+  "file name" : "35.pdf",
+  "number of pages" : 25,
+  "author" : "Bouzidi Lamdjad and Adem Chaiter",
+  "title" : "An Edge-Enabled Predictive Maintenance Approach Based on Anomaly-Driven Health Indicators for Industrial Production Systems",
+  "creation date" : "D:20260413183139+08'00'",
+  "modification date" : "D:20260414104318+02'00'",
+  "kids" : [ {
+    "type" : "heading",
+    "id" : 148,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 74.149, 783.42, 153.033, 799.711 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldItalicMT",
+    "font size" : 18.223,
+    "text color" : "[0.794922, 0.287842, 1.0, 0.181396]",
+    "content" : "algorithms"
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 732.989, 63.213, 745.403 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 152,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.017, 667.956, 541.063, 731.904 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "An Edge-Enabled Predictive Maintenance Approach Based on Anomaly-Driven Health Indicators for Industrial Production Systems"
+  }, {
+    "type" : "heading",
+    "id" : 153,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 644.472, 216.622, 656.786 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Bouzidi Lamdjad * and Adem Chaiter"
+  }, {
+    "type" : "paragraph",
+    "id" : 145,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 190.008, 139.974, 222.409 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editors: Sumika Chauhan, Govind Vashishtha and Rajesh Kumar"
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 64.777, 150.491, 182.648 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 22 February 2026 Revised: 18 March 2026 Accepted: 30 March 2026 Published: 8 April 2026 Copyright: © 2026 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license."
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 616.808, 493.128, 626.58 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "College of Commerce and Business, Lusail University, Lusail 9717, Qatar; achaiter@lu.edu.qa"
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 605.905, 308.588, 615.82 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: blamdjad@lu.edu.qa"
+  }, {
+    "type" : "heading",
+    "id" : 157,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.005, 582.896, 204.182, 595.21 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abstract"
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 1,
+    "bounding box" : [ 166.085, 284.617, 561.02, 575.385 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This study develops a data-driven framework for predictive maintenance and prognostic health management in industrial systems using edge-enabled predictive algorithms. The objective is to support early identification of abnormal operating conditions and improve maintenance decision making under real production environments. The proposed approach combines edge-level monitoring, anomaly detection, and predictive modeling to analyze operational signals and estimate system health conditions from high-frequency industrial data. Empirical validation was conducted using operational datasets collected from two industrial production facilities between 2024 and 2025. The model evaluates patterns associated with operational instability and degradation-related anomalies and translates them into interpretable health indicators that can support proactive intervention. The empirical results show strong predictive performance, with R2 reaching 0.989, a mean absolute percentage error of 3.67%, and a root mean square error of 0.79. In addition, the mitigation of early anomaly signals was associated with an observed improvement of approximately 3.99% in system stability. Unlike many existing studies that treat anomaly detection, predictive modeling, and prognostic analysis as separate tasks, the proposed framework connects these stages within a unified analytical structure designed for deployment in industrial environments. The findings indicate that edge-generated anomaly signals can provide meaningful early information about potential system deterioration and can assist in planning timely maintenance actions even when explicit failure labels are limited. The study contributes to the development of scalable predictive maintenance solutions that integrate artificial intelligence with edge-based industrial monitoring systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 1,
+    "bounding box" : [ 166.394, 230.879, 560.934, 270.948 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Keywords: AI-powered predictive maintenance (PdM); intelligent fault diagnosis; datadriven condition monitoring; prognostic health management; edge-based predictive algorithms"
+  }, {
+    "type" : "heading",
+    "id" : 161,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 177.291, 248.132, 192.068 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 1,
+    "bounding box" : [ 166.095, 63.661, 560.927, 173.369 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial operations increasingly depend on highly automated and data-intensive production systems, where equipment reliability and timely fault identification are essential for maintaining stable and efficient performance. As manufacturing environments evolve toward interconnected and intelligent infrastructures, traditional maintenance strategies based on periodic inspections or reactive interventions have become less effective in handling the dynamic and complex behavior of modern industrial processes. This shift has intensified interest in artificial intelligence-driven predictive maintenance (PdM) and prognostic health management (PHM), which aim to continuously monitor system conditions,"
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 1,
+    "bounding box" : [ 35.429, 28.183, 559.276, 38.13 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "Algorithms 2026, 19, 286 https://doi.org/10.3390/a19040286"
+  }, {
+    "type" : "header",
+    "id" : 165,
+    "page number" : 2,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 73,
+      "page number" : 2,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 2 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 701.532, 559.668, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "detect early signs of abnormal behavior, and anticipate degradation patterns before failures occur [1–6]. Advances in machine learning, time-series analysis, and anomaly detection have further enhanced the ability to extract meaningful insights from high-frequency industrial data, supporting a transition toward proactive and condition-based decision making [3–11]."
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 2,
+    "bounding box" : [ 166.095, 548.327, 559.664, 699.818 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Despite these developments, many predictive maintenance solutions continue to rely on centralized data processing architectures that introduce communication delays and limit responsiveness in time-sensitive industrial environments. This limitation becomes particularly critical in systems where large volumes of streaming data are generated by sensors and monitoring devices, and where early detection of abnormal conditions is required to prevent cascading failures and unplanned downtime. Edge computing has emerged as a practical solution to this challenge by enabling localized data processing and anomaly detection close to the data source. By reducing data transmission delays and supporting low-latency analytics, edge computing improves the timeliness of fault detection and enhances system responsiveness, which are both critical for effective PdM and PHM implementations [2–4,7]."
+  }, {
+    "type" : "paragraph",
+    "id" : 170,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 381.195, 560.928, 546.613 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In addition to detecting anomalies, predictive maintenance requires analytical approaches capable of interpreting abnormal patterns in relation to system health evolution and future operational performance. Prognostic health management extends conventional fault detection by linking observed anomalies to degradation trajectories, recovery capacity, and maintenance-oriented decision support [8–12]. However, existing research often treats edge analytics, predictive modeling, and prognostic assessment as separate components with limited interaction. While some studies focus on improving algorithmic accuracy in anomaly detection or forecasting tasks [11], others emphasize system architecture without explicitly connecting predictive outputs to operational health assessment and maintenance decisions [13–17]. As a result, the integration of condition monitoring, intelligent fault diagnosis, and prognostic health interpretation within a unified analytical pipeline remains limited in real industrial applications."
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 2,
+    "bounding box" : [ 166.085, 227.99, 561.019, 379.481 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Despite the growing body of research on anomaly detection, edge analytics, and prognostic modeling, the integration of these components into a coherent predictive maintenance framework remains insufficiently addressed. Most existing studies optimize individual layers independently, often emphasizing diagnostic performance, computational architecture, or prognostic modeling without establishing a direct connection between real-time anomaly detection, health-state estimation, and maintenance-oriented decision indicators. This lack of integration limits the ability of current systems to provide a comprehensive and operationally relevant view of system health. To address this limitation, this study develops and empirically evaluates an end-to-end edge-enabled framework designed to support early fault indication, health-risk trajectory assessment, and maintenance-oriented prognostic insights using real industrial data."
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 200.135, 559.668, 226.277 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To guide the development and evaluation of the proposed framework, this study addresses the following research questions:"
+  }, {
+    "type" : "list",
+    "id" : 173,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 187.653, 102.641, 559.278, 198.421 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 187.653, 186.207, 559.272, 198.421 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "RQ1. How can edge-enabled anomaly detection improve the early identification of",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 141,
+        "page number" : 2,
+        "bounding box" : [ 166.394, 172.279, 452.749, 184.493 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "abnormal operating conditions in industrial production systems?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 187.653, 158.352, 559.272, 170.566 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "RQ2. How can anomaly signals be transformed into interpretable health-related",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 142,
+        "page number" : 2,
+        "bounding box" : [ 166.394, 144.424, 494.223, 156.638 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "indicators for predictive maintenance and prognostic health management?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 187.653, 130.496, 559.278, 142.71 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "RQ3. How can predictive models enhance the estimation of system health states and",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 143,
+        "page number" : 2,
+        "bounding box" : [ 166.394, 116.569, 382.493, 128.783 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "operational risk under real industrial conditions?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 187.653, 102.641, 559.272, 114.855 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "RQ4. How does the integration of edge analytics and predictive modeling improve",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 88.713, 470.343, 100.927 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "system stability and support maintenance-oriented decision making?"
+  }, {
+    "type" : "footer",
+    "id" : 175,
+    "page number" : 2,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 49,
+      "page number" : 2,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 176,
+    "page number" : 3,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 74,
+      "page number" : 3,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 3 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 3,
+    "bounding box" : [ 166.115, 576.183, 560.933, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The present study contributes to the literature on predictive maintenance and prognostic health management by developing an integrated analytical framework that links edge-based monitoring with data-driven predictive modeling and operational health assessment. First, the study proposes an edge-enabled predictive framework that combines real-time anomaly detection with predictive modeling to generate operational indicators related to system health and performance stability. Second, it introduces a structured approach for translating anomaly patterns into interpretable health-related indicators that support maintenance planning and decision making, extending beyond conventional fault detection toward early identification of degradation behavior. Third, the framework is validated using high-frequency operational data collected from two industrial production facilities, providing empirical evidence of its predictive reliability and practical applicability under real operating conditions. Together, these contributions demonstrate how artificial intelligence techniques can be effectively integrated with edge-based industrial monitoring systems to enhance predictive maintenance practices [18–20]."
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 3,
+    "bounding box" : [ 166.095, 436.906, 560.933, 574.469 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The remainder of this paper is organized as follows. Section 2 presents a review of the relevant literature on predictive maintenance, anomaly detection, edge computing, and prognostic health management. Section 3 describes the proposed edge-enabled predictive maintenance framework and its overall algorithmic structure. Section 4 outlines the materials and methods, including data acquisition, preprocessing, anomaly detection, predictive modeling, and the construction of health-related indicators. Section 5 presents the empirical results and evaluates the predictive performance of the proposed approach using real industrial data. Section 6 discusses the findings in relation to predictive maintenance and PHM, highlighting both theoretical and practical implications. Finally, Section 7 concludes the study and outlines directions for future research"
+  }, {
+    "type" : "heading",
+    "id" : 181,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 410.243, 277.015, 425.02 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "2. Literature Review"
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 3,
+    "bounding box" : [ 166.095, 226.974, 560.931, 406.32 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "AI-powered predictive maintenance (PdM) and prognostic health management (PHM) have evolved into core enablers of reliability-oriented industrial operations, shifting maintenance from reactive interventions to continuous, data-driven health assessment and forward-looking decision support. Foundational PHM research emphasizes that effective PdM requires more than detecting deviations; it requires translating operational signals into health indicators and predicting how degradation will evolve over time to support timely maintenance planning [21,22]. Recent reviews further highlight that modern PHM pipelines increasingly combine condition monitoring, diagnosis, and prognostics into integrated workflows, often under streaming data constraints, with strong emphasis on scalable deployment and decision relevance in industrial environments [23,24]. While remaining useful life prediction is a common PHM objective, many industrial settings prioritize robust early fault signatures and stable health-state prediction as practical targets when failure labels are limited or operating conditions vary [25]."
+  }, {
+    "type" : "list",
+    "id" : 183,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 203.192, 457.86, 215.606 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 190,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 203.192, 457.86, 215.606 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.1. Intelligent Fault Diagnosis and Data-Driven Condition Monitoring",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 75.074, 560.927, 198.71 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Intelligent fault diagnosis has progressed rapidly due to machine learning and deep learning methods that can learn discriminative representations from multivariate sensor data and detect subtle changes in operating regimes [26,27]. Traditional anomaly detection literature provides the methodological basis for identifying rare or abnormal patterns, which remains relevant for industrial monitoring where faults are sparse and data are noisy [28,29]. More recent fault-diagnosis surveys emphasize recurring industrial challenges such as domain shift between test and plant data, imbalanced fault classes, and the need for robust feature learning under variable loads and speeds factors that often limit the generalization of purely centralized or purely offline models. These challenges"
+  }, {
+    "type" : "footer",
+    "id" : 185,
+    "page number" : 3,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 50,
+      "page number" : 3,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 186,
+    "page number" : 4,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 75,
+      "page number" : 4,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 4 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 4,
+    "bounding box" : [ 165.975, 729.387, 559.272, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "strengthen the case for condition-monitoring systems that combine anomaly detection with predictive modeling, enabling diagnosis to move beyond classification toward health evolution tracking and decision support in maintenance contexts. [30,31]"
+  }, {
+    "type" : "list",
+    "id" : 190,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 511.923, 476.56, 718.02 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 183,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 705.606, 476.56, 718.02 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.2. Edge-Based Predictive Algorithms for Low-Latency Diagnosis and PHM",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 140,
+        "page number" : 4,
+        "bounding box" : [ 165.975, 535.704, 561.015, 701.123 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The rise of edge computing has introduced a deployment pathway that addresses latency and bandwidth constraints in industrial monitoring by processing data close to equipment and control systems. Edge computing research argues that localized analytics can reduce response time and improve reliability for time-critical applications, especially when continuous streaming data and operational safety constraints limit the feasibility of centralized processing [32,33]. Recent work specifically linking edge computing with AI-based diagnostic and prognostic methods shows increasing attention to where preprocessing, inference, and training should occur across edge–fog–cloud layers, with practical considerations around resource constraints, model efficiency, and robustness. However, the literature still reflects an integration gap: many studies either optimize diagnostic accuracy without deployment realism or propose edge architecture without formally connecting edge anomaly outputs to predictive health trajectories and PHM-oriented decision signals."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 511.923, 297.621, 524.337 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3. Synthesis and Research Gap",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 4,
+    "bounding box" : [ 166.095, 369.877, 560.934, 507.44 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Across these streams, a consistent research need emerges: an end-to-end algorithmic framework that links data-driven condition monitoring, intelligent fault diagnosis, and PHM within an edge-enabled predictive pipeline, validated under real industrial data constraints. This need aligns directly with the scope of the Algorithms Special Issue on AIpowered predictive maintenance (PdM) and intelligent fault diagnosis, which emphasizes algorithmic contributions that transform industrial operations through monitoring, diagnosis, and prognostics. In response, your study is positioned to contribute by formalizing how edge-level anomaly detection can be fused with predictive models to infer health/risk dynamics and produce maintenance-relevant indicators, while demonstrating scalability and reliability on high-frequency operational data from industrial plants [34,35]."
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 328.094, 560.519, 368.163 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 1 summarizes selected studies on predictive maintenance, anomaly detection, and edge-enabled monitoring, highlighting their methodological approaches, application contexts, and limitations."
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 4,
+    "bounding box" : [ 166.098, 291.994, 559.28, 315.808 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Comparison of recent studies on predictive maintenance, anomaly detection, and prognostic health management in industrial systems."
+  }, {
+    "type" : "heading",
+    "id" : 195,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 45.827, 267.762, 533.088, 280.076 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Study Methodological Approach Industrial Context Main Output Limitations"
+  }, {
+    "type" : "list",
+    "id" : 197,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 41.836, 157.896, 53.452, 251.444 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 41.836, 239.23, 53.452, 251.444 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[3]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 130,
+        "page number" : 4,
+        "bounding box" : [ 88.592, 227.275, 211.182, 263.399 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Systematic review of predictive maintenance and PHM models"
+      }, {
+        "type" : "paragraph",
+        "id" : 131,
+        "page number" : 4,
+        "bounding box" : [ 229.546, 233.253, 309.775, 257.422 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "General industrial systems"
+      }, {
+        "type" : "paragraph",
+        "id" : 132,
+        "page number" : 4,
+        "bounding box" : [ 334.201, 227.275, 448.343, 263.399 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Classification of diagnostic and prognostic approaches"
+      }, {
+        "type" : "paragraph",
+        "id" : 133,
+        "page number" : 4,
+        "bounding box" : [ 460.456, 233.253, 547.25, 257.422 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "No deployment or real-time validation"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 41.836, 198.563, 53.452, 210.777 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[4]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 135,
+        "page number" : 4,
+        "bounding box" : [ 88.891, 192.586, 196.676, 216.755 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "AIoT-based predictive maintenance framework"
+      }, {
+        "type" : "paragraph",
+        "id" : 136,
+        "page number" : 4,
+        "bounding box" : [ 229.546, 192.586, 290.477, 216.755 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Industrial IoT environments"
+      }, {
+        "type" : "paragraph",
+        "id" : 137,
+        "page number" : 4,
+        "bounding box" : [ 334.201, 192.586, 448.501, 216.755 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Intelligent monitoring and maintenance automation"
+      }, {
+        "type" : "paragraph",
+        "id" : 138,
+        "page number" : 4,
+        "bounding box" : [ 460.038, 186.608, 546.294, 222.732 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Limited integration with prognostic indicators"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 41.836, 157.896, 53.452, 170.11 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[5]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 4,
+    "bounding box" : [ 333.902, 145.941, 429.683, 182.065 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Data-driven decision support for industrial processes"
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 4,
+    "bounding box" : [ 88.891, 151.918, 216.612, 176.088 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Smart analytics and Industry 4.0 data-driven models"
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 4,
+    "bounding box" : [ 229.546, 151.918, 295.907, 176.088 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Manufacturing systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 4,
+    "bounding box" : [ 460.456, 151.918, 543.992, 176.088 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "No anomaly-based fault detection"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 4,
+    "bounding box" : [ 88.891, 105.274, 218.528, 141.398 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Cyber-physical systems (CPS) architecture for smart manufacturing"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 4,
+    "bounding box" : [ 229.247, 111.251, 315.852, 135.421 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial production systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 4,
+    "bounding box" : [ 334.201, 111.251, 439.137, 135.421 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Integrated monitoring and control architecture"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 4,
+    "bounding box" : [ 460.456, 111.251, 551.126, 135.421 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "No predictive health modeling"
+  }, {
+    "type" : "list",
+    "id" : 203,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 41.836, 117.229, 53.452, 129.443 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 217,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 41.836, 117.229, 53.452, 129.443 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[7]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 209,
+    "page number" : 4,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 51,
+      "page number" : 4,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 210,
+    "page number" : 5,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 76,
+      "page number" : 5,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 5 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 5,
+    "bounding box" : [ 166.098, 758.314, 220.433, 769.486 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Cont."
+  }, {
+    "type" : "heading",
+    "id" : 215,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 45.827, 734.28, 533.088, 746.594 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Study Methodological Approach Industrial Context Main Output Limitations"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 5,
+    "bounding box" : [ 460.456, 693.793, 532.605, 729.918 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Not focused on equipment-level maintenance"
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 5,
+    "bounding box" : [ 88.891, 699.771, 217.339, 723.94 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "AI-based predictive analytics for supply chain systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 5,
+    "bounding box" : [ 229.546, 699.771, 322.198, 723.94 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial operations and logistics"
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 5,
+    "bounding box" : [ 334.201, 699.771, 443.232, 723.94 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Predictive insights for operational performance"
+  }, {
+    "type" : "list",
+    "id" : 217,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 41.836, 705.748, 53.452, 717.962 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 203,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 41.836, 705.748, 53.452, 717.962 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[8]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 223,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 41.836, 630.392, 58.434, 677.295 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 41.836, 665.081, 58.434, 677.295 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[10]",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 125,
+        "page number" : 5,
+        "bounding box" : [ 88.891, 653.126, 209.618, 689.25 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Statistical and machine learning anomaly detection methods"
+      }, {
+        "type" : "paragraph",
+        "id" : 126,
+        "page number" : 5,
+        "bounding box" : [ 229.546, 659.104, 318.532, 683.273 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "General data-driven systems"
+      }, {
+        "type" : "paragraph",
+        "id" : 127,
+        "page number" : 5,
+        "bounding box" : [ 333.902, 653.126, 448.483, 689.25 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Identification of abnormal patterns in time-series data"
+      }, {
+        "type" : "paragraph",
+        "id" : 128,
+        "page number" : 5,
+        "bounding box" : [ 460.157, 653.126, 547.967, 689.25 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "No integration with predictive maintenance"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 41.836, 630.392, 58.434, 642.606 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "[11]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 5,
+    "bounding box" : [ 88.891, 624.414, 195.59, 648.583 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Big data analytics in operations management"
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 5,
+    "bounding box" : [ 229.546, 624.414, 322.198, 648.583 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial operations systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 5,
+    "bounding box" : [ 334.201, 624.414, 448.48, 648.583 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Performance optimization using data analytics"
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 5,
+    "bounding box" : [ 460.456, 624.414, 553.159, 648.583 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Limited fault diagnosis capabilities"
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 5,
+    "bounding box" : [ 88.891, 595.702, 217.169, 619.871 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Big data-driven supply chain analytics"
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 5,
+    "bounding box" : [ 229.546, 595.702, 302.861, 619.871 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial and logistics systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 5,
+    "bounding box" : [ 334.201, 595.702, 448.451, 619.871 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Improved operational agility and responsiveness"
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 5,
+    "bounding box" : [ 460.038, 595.702, 552.899, 619.871 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "No direct integration with PHM"
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 601.68, 58.434, 613.894 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[14]"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 5,
+    "bounding box" : [ 88.891, 566.99, 217.589, 591.16 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Edge computing for real-time data processing"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 5,
+    "bounding box" : [ 229.546, 566.99, 316.858, 591.16 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial IoT and monitoring systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 5,
+    "bounding box" : [ 333.902, 566.99, 441.807, 591.16 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Low-latency data processing and analytics"
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 5,
+    "bounding box" : [ 460.456, 566.99, 553.156, 591.16 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "No predictive modeling integration"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 572.968, 58.434, 585.182 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[28]"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 5,
+    "bounding box" : [ 88.891, 538.278, 166.908, 562.448 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Edge-enabled IoT architecture"
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 5,
+    "bounding box" : [ 229.546, 538.278, 320.016, 562.448 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial and smart systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 5,
+    "bounding box" : [ 334.201, 538.278, 448.655, 562.448 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Distributed computing for real-time monitoring"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 5,
+    "bounding box" : [ 460.456, 538.278, 547.539, 562.448 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "No anomaly-driven health indicators"
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 544.256, 58.434, 556.47 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[30]"
+  }, {
+    "type" : "heading",
+    "id" : 247,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 504.52, 365.042, 519.297 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "3. Proposed Algorithmic Framework"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 321.251, 560.928, 500.597 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The proposed algorithmic framework is designed to support AI-powered predictive maintenance (PdM) and prognostic health management by structuring the interaction between data-driven condition monitoring, intelligent fault diagnosis, and predictive health assessment within an edge-enabled environment. The framework operates on high-frequency operational data collected from industrial systems, including multivariate sensor measurements and process variables, which are continuously streamed for realtime analysis. At the edge level, lightweight anomaly detection algorithms are deployed to perform early screening of operational behavior and identify deviations from normal conditions with minimal latency. These edge-level outputs are interpreted as early fault signatures, allowing the system to filter noise and reduce the volume of data transmitted for further analysis. To illustrate the structure of the proposed approach, Figure 1 presents the overall workflow of the edge-enabled predictive maintenance framework used in this study."
+  }, {
+    "type" : "image",
+    "id" : 249,
+    "page number" : 5,
+    "bounding box" : [ 169.286, 246.286, 556.336, 310.438 ],
+    "source" : "35_images/imageFile1.png"
+  }, {
+    "type" : "caption",
+    "id" : 250,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 225.814, 501.7, 236.968 ],
+    "linked content id" : 249,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 1. Flowchart of the proposed edge-enabled predictive maintenance approach."
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 5,
+    "bounding box" : [ 166.085, 91.516, 561.02, 215.152 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The framework begins with the acquisition of industrial operational data collected from sensors and monitoring systems deployed in production environments. These data are processed through edge-level data collection and preprocessing stages to enable lowlatency analysis and ensure data quality. An anomaly detection module is then applied to identify abnormal operational patterns that may signal emerging system degradation. The detected anomalies are subsequently used as inputs to predictive models that estimate system health indicators and evaluate potential operational risks. Finally, these healthrelated indicators support the maintenance decision stage, allowing timely and informed maintenance actions within industrial production systems [36,37]."
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 63.661, 560.93, 89.802 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The anomaly information generated at the edge is subsequently integrated into a predictive modeling layer, where forecasting algorithms are applied to estimate the evolution"
+  }, {
+    "type" : "footer",
+    "id" : 253,
+    "page number" : 5,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 52,
+      "page number" : 5,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 254,
+    "page number" : 6,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 77,
+      "page number" : 6,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 6 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 6,
+    "bounding box" : [ 166.095, 659.749, 560.933, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "of system behavior over time. This layer focuses on capturing degradation trends and inferring future health states rather than providing pointwise fault classification. By modeling the temporal dynamics of operational risk and performance indicators, the framework enables a forward-looking assessment of system condition that is essential for predictive maintenance applications. A prognostic layer is then introduced to translate predictive outputs into health-oriented indicators that reflect system stability, adaptability, and recovery capability. These indicators serve as interpretable inputs for maintenance planning and decision support, bridging the gap between algorithmic outputs and operational actions."
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 6,
+    "bounding box" : [ 166.095, 576.183, 560.931, 658.035 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Overall, the proposed framework formalizes an end-to-end algorithmic pipeline that connects edge-based anomaly detection with predictive modeling and prognostic evaluation in a coherent and scalable manner. By emphasizing low-latency diagnosis, health-state prediction, and maintenance-relevant outputs, the framework aligns with the objectives of intelligent fault diagnosis and PHM in industrial operations and provides a practical foundation for deploying AI-driven predictive algorithms in real-world industrial settings."
+  }, {
+    "type" : "heading",
+    "id" : 259,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 549.52, 305.899, 564.297 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "4. Materials and Methods"
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 435.889, 561.019, 545.597 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The proposed methodology follows a data-driven and algorithm-oriented approach to support predictive maintenance and prognostic health management in industrial operations. It is designed to capture system behavior through continuous condition monitoring, identify early fault signatures, and infer health degradation trends using predictive algorithms deployed within an edge-enabled architecture. The methodological pipeline consists of four main stages: data acquisition and preprocessing, edge-level anomaly detection, predictive modeling for health-state estimation, and prognostic evaluation for maintenance-oriented decision support."
+  }, {
+    "type" : "paragraph",
+    "id" : 261,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 412.108, 329.352, 424.522 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "4.1. Data Acquisition and Preprocessing"
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 339.701, 559.28, 407.625 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "High-frequency operational data were collected from two industrial production plants operating in the process manufacturing sector over the period from 1 January 2024 to 30 June 2025. Both facilities are located in Qatar, specifically in the industrial zones of Mesaieed (PLANT_MES) and Ras Laffan (PLANT_RLF). The dataset includes multivariate sensor and process measurements reflecting real-time operating conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 263,
+    "page number" : 6,
+    "bounding box" : [ 166.085, 256.134, 561.017, 337.987 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The collected data consists of key operational variables such as energy consumption, production output, process flow indicators, and system performance signals. These variables are treated as condition-monitoring inputs that capture variations in system behavior and provide indirect observations of equipment health and operational stability. Table 2 presents a structured overview of the process and sensor measurements used for monitoring the operating conditions across both industrial plants."
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 6,
+    "bounding box" : [ 166.098, 231.518, 557.176, 242.672 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 2. Process and sensor measurements used for condition monitoring in both industrial plants."
+  }, {
+    "type" : "heading",
+    "id" : 266,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 74.975, 207.449, 498.415, 219.763 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Variable Description Unit Plant"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 6,
+    "bounding box" : [ 41.836, 105.95, 542.347, 203.086 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Energy Consumption Total energy used during operation kWh PLANT_MES, PLANT_RLF Production Output Quantity of produced material tons PLANT_MES, PLANT_RLF Process Flow Rate Material flow through the system kg/min PLANT_MES, PLANT_RLF Anomaly Indicator Detected abnormal operational patterns % PLANT_MES, PLANT_RLF System Load Operational load level of equipment % PLANT_MES, PLANT_RLF Temperature Operating temperature of key components ◦C PLANT_MES, PLANT_RLF"
+  }, {
+    "type" : "footer",
+    "id" : 275,
+    "page number" : 6,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 53,
+      "page number" : 6,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 276,
+    "page number" : 7,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 78,
+      "page number" : 7,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 7 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 673.676, 559.279, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Prior to analysis, the dataset underwent a structured preprocessing procedure to ensure data quality and consistency. Missing values were handled using appropriate imputation techniques, while abnormal outliers related to sensor noise or data acquisition errors were identified and removed. In addition, time stamps from heterogeneous data sources were synchronized to preserve temporal alignment across variables. Normalization techniques were then applied to reduce scale variability and improve the robustness of the predictive models."
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 604.038, 560.931, 671.963 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The dataset consists of a large number of high-frequency observations collected over the study period, covering the full year of 2024 and the first half of 2025. This temporal coverage enables the analysis of both short-term operational fluctuations and longer-term system behavior. After preprocessing, the resulting dataset provides a consistent and reliable basis for both anomaly detection and predictive modeling within the proposed framework."
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 534.399, 560.933, 602.324 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This preprocessing stage plays a critical role in preserving the integrity of temporal patterns and ensuring that both anomaly detection and predictive modeling components operate on clean and consistent input data. As a result, the prepared dataset supports accurate identification of anomaly behavior and robust estimation of system health indicators in industrial production environments."
+  }, {
+    "type" : "list",
+    "id" : 282,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 510.618, 390.961, 523.032 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 298,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 510.618, 390.961, 523.032 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2. Edge-Level Anomaly Detection for Fault Indication",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 283,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 424.283, 559.668, 506.135 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To support timely fault indication and enable low-latency monitoring, an edge-based analytics layer is incorporated into the proposed framework. This layer continuously processes incoming data streams and performs real-time screening of operational behavior to detect deviations from normal system conditions. By executing anomaly detection close to the data source, the framework minimizes communication delays and enhances responsiveness in time-sensitive industrial environments."
+  }, {
+    "type" : "paragraph",
+    "id" : 284,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 312.861, 560.928, 422.569 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "At the edge level, lightweight anomaly detection techniques are employed to ensure computational efficiency while maintaining reliable detection performance. In this study, anomaly detection is implemented using Isolation Forest and statistical threshold-based methods, both of which are well-suited for identifying abnormal patterns in high-frequency industrial data. These methods operate within sliding time windows to capture shortterm deviations and evolving irregularities in system behavior. Rather than relying on explicit fault labels, the detected anomalies are interpreted as early indicators of abnormal operating conditions that may signal emerging degradation or instability."
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 7,
+    "bounding box" : [ 165.975, 257.151, 559.279, 311.148 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The Isolation Forest algorithm identifies anomalies based on their susceptibility to isolation through recursive partitioning of the data space. Observations that can be isolated with fewer splits are considered more likely to be anomalous. The anomaly score for an observation x is computed as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "page number" : 7,
+    "bounding box" : [ 379.075, 242.523, 399.462, 257.115 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 5.978,
+    "text color" : "[0.0]",
+    "content" : "E(h(x)) c(n)"
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 7,
+    "bounding box" : [ 324.572, 238.676, 377.625, 253.696 ],
+    "font" : "CMR10",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "s(x, n) = 2−"
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 7,
+    "bounding box" : [ 165.975, 162.294, 560.929, 230.219 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "where E(h(x)) denotes the expected path length required to isolate x, and c(n) is a normalization factor that depends on the sample size n. Shorter path lengths correspond to higher anomaly scores, indicating a higher likelihood of abnormal behavior. In the context of this study, this mechanism enables efficient identification of deviations in operational patterns at the edge level."
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 7,
+    "bounding box" : [ 166.095, 92.655, 559.277, 160.58 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In parallel, statistical threshold-based methods are used to complement the detection process by identifying values that exceed predefined operational limits derived from historical data distributions. This combination of model-based and rule-based detection enhances robustness and allows the system to capture both subtle and abrupt deviations in system behavior."
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 64.8, 560.928, 90.942 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The anomaly signals generated at the edge are subsequently filtered and aggregated before being transmitted to the predictive modeling layer. This design reduces unnec-"
+  }, {
+    "type" : "footer",
+    "id" : 292,
+    "page number" : 7,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 54,
+      "page number" : 7,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 293,
+    "page number" : 8,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 79,
+      "page number" : 8,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 8 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 715.459, 559.274, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "essary data transfer and ensures that only relevant information is used for downstream analysis. As a result, the framework maintains a balance between real-time responsiveness and analytical depth, enabling early detection of abnormal conditions while supporting scalable deployment."
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 8,
+    "bounding box" : [ 166.095, 645.821, 559.279, 713.746 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Overall, the edge-level anomaly detection layer serves as a critical first stage in the predictive maintenance pipeline, providing timely and interpretable signals that inform predictive modeling and prognostic analysis. By capturing deviations at an early stage, the framework enhances the ability to anticipate system degradation and supports proactive maintenance decision making in industrial production systems."
+  }, {
+    "type" : "list",
+    "id" : 298,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 259.648, 450.179, 634.453 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 282,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 622.039, 383.668, 634.453 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.3. Predictive Modeling and Health-State Estimation",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 123,
+        "page number" : 8,
+        "bounding box" : [ 166.095, 466.066, 560.928, 617.557 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The anomaly information generated at the edge is aggregated and forwarded to a predictive modeling layer, where forecasting algorithms are applied to estimate the future evolution of system behavior. This stage focuses on modeling temporal dynamics and degradation trends rather than static fault classification. Predictive models are trained using historical operational data to learn relationships between condition-monitoring signals, anomaly patterns, and system performance trajectories. The outputs of this stage represent predicted health states and risk-related indicators over a given forecasting horizon, providing a forward-looking view of system conditions. Model performance is evaluated using standard predictive accuracy metrics, including Mean Absolute Percentage Error (MAPE), Root Mean Square Error (RMSE), and the coefficient of determination (R2), ensuring that the models achieve sufficient reliability for maintenance decision support."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 442.284, 450.179, 454.698 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.4. Prognostic Health Management and Decision-Oriented Indicators",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 124,
+        "page number" : 8,
+        "bounding box" : [ 166.085, 286.311, 561.015, 437.802 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "To bridge the gap between predictive outputs and practical maintenance actions, a prognostic health management layer is incorporated into the methodology. This layer translates predicted health states and degradation trends into interpretable indicators that reflect system stability, adaptability, and recovery capability. Rather than focusing solely on remaining useful life estimation, the proposed approach emphasizes healthoriented indicators that support proactive maintenance planning and mitigation strategies. These indicators enable decision-makers to assess the effectiveness of early interventions and to prioritize maintenance actions based on anticipated system behavior. The overall methodology thus provides an integrated pipeline that connects condition monitoring, intelligent fault diagnosis, predictive modeling, and prognostic evaluation within a coherent algorithmic framework."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 259.648, 219.559, 274.425 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 11.955,
+      "text color" : "[0.0]",
+      "content" : "5. Results",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 8,
+    "bounding box" : [ 166.095, 118.162, 560.929, 255.726 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The experimental results demonstrate the effectiveness of the proposed edge-enabled predictive maintenance framework in capturing system behavior and supporting healthoriented decision-making. The predictive models achieved a high level of accuracy in estimating the evolution of operational condition indicators, reflecting their ability to learn temporal patterns associated with system degradation and abnormal behavior. Across both industrial case studies, the forecasting performance metrics indicate stable and reliable predictions, with low error levels and a strong degree of explained variance. These results suggest that the combination of edge-level anomaly detection and predictive modeling provides a robust basis for condition monitoring and early fault identification under real industrial operating conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 76.379, 559.274, 116.449 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "From a prognostic perspective, the results confirm that integrating anomaly-derived signals into the predictive layer enhances the system’s capability to anticipate deviations before they escalate into critical failures. The predicted health-state trajectories exhibit"
+  }, {
+    "type" : "footer",
+    "id" : 301,
+    "page number" : 8,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 55,
+      "page number" : 8,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 302,
+    "page number" : 9,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 80,
+      "page number" : 9,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 9 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 305,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 701.532, 561.019, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "consistent alignment with observed operational trends, supporting the interpretation of anomaly patterns as meaningful indicators of degradation rather than isolated disturbances. Overall, the results validate the proposed algorithmic framework as a practical and scalable approach for AI-powered predictive maintenance (PdM), enabling reliable fault diagnosis and forward-looking health assessment in dynamic industrial environments."
+  }, {
+    "type" : "list",
+    "id" : 306,
+    "level" : "7",
+    "page number" : 9,
+    "bounding box" : [ 165.975, 98.562, 560.933, 699.818 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 165.975, 520.472, 560.933, 699.818 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 2 illustrates the temporal evolution of key operational indicators, including forecasted demand, realized demand, production output, and inventory levels for the Mesaieed plant during the observation period. Within the predictive maintenance framework adopted in this study, these variables are interpreted as system-level operational signals that reflect variations in production workload and equipment utilization intensity. Periods where noticeable deviations appear between forecasted and actual demand coincide with temporary adjustments in production levels, indicating changes in operational stress on the production system. From a predictive monitoring perspective, such variations can influence machine usage patterns and energy consumption, which may subsequently be captured by edge-based anomaly detection mechanisms. Therefore, these operational indicators provide contextual information that complements anomaly-driven health assessment by helping predictive models interpret fluctuations in system behavior and identify potential early signs of instability in industrial production processes.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 1,
+        "page number" : 9,
+        "bounding box" : [ 71.895, 319.616, 521.799, 507.982 ],
+        "source" : "35_images/imageFile2.png"
+      }, {
+        "type" : "list",
+        "id" : 2,
+        "level" : "7",
+        "page number" : 9,
+        "bounding box" : [ 166.394, 289.728, 559.273, 313.542 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 1,
+        "next list id" : 312,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 9,
+          "bounding box" : [ 166.394, 289.728, 559.273, 313.542 ],
+          "font" : "URWPalladioL-Bold",
+          "font size" : 8.966,
+          "text color" : "[0.0]",
+          "content" : "Figure 2. Daily forecast and actual demand, production output, and inventory dynamics for the Mesaieed Plant (PLANT_MES).",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.095, 98.562, 560.933, 277.909 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 3 illustrates the daily evolution of total energy consumption together with the contribution of solar energy at the Mesaieed plant over the observation period. Within the predictive maintenance framework adopted in this study, energy consumption is interpreted as an operational condition indicator that reflects variations in equipment utilization and production intensity. Stable energy usage patterns generally indicate consistent system operation, whereas abrupt deviations may signal abnormal machine behavior, inefficient operating regimes, or emerging performance degradation. The gradual increase in solar energy contribution reflects the plant’s integration of renewable energy sources; however, short-term fluctuations remain visible and may be influenced by operational adjustments or environmental conditions. When analyzed together with anomaly signals generated at the edge level, energy-related indicators provide useful contextual information that helps predictive models identify irregular operational patterns and support early detection of potential instability in industrial production systems.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 307,
+    "page number" : 9,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 56,
+      "page number" : 9,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 308,
+    "page number" : 10,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 81,
+      "page number" : 10,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 10 of 25"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 311,
+    "page number" : 10,
+    "bounding box" : [ 167.898, 597.936, 541.233, 768.461 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 1,
+      "page number" : 10,
+      "bounding box" : [ 168.431, 598.469, 540.758, 768.043 ],
+      "source" : "35_images/imageFile3.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 312,
+    "level" : "7",
+    "page number" : 10,
+    "bounding box" : [ 166.098, 184.262, 559.278, 589.445 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 2,
+    "next list id" : 320,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 565.631, 559.278, 589.445 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 3. Daily trends in total energy consumption and solar energy contribution for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 113,
+        "page number" : 10,
+        "bounding box" : [ 166.095, 389.319, 560.934, 554.737 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Figure 4 illustrates the daily evolution of energy-related costs and logistics-related operational costs at the Mesaieed plant over the observation period. Within the proposed predictive maintenance framework, these variables are interpreted as indirect indicators of production system workload and operational stress. Energy costs generally remain relatively stable, reflecting consistent equipment utilization and production intensity, whereas logistics-related costs exhibit greater variability due to changes in material flows, transportation requirements, and operational adjustments. Such fluctuations may influence production scheduling and machine usage patterns, which can subsequently affect system performance stability. When analyzed alongside anomaly signals detected through edge analytics, these operational indicators provide additional contextual information that supports the interpretation of abnormal patterns and assists predictive models in identifying potential instability within industrial production systems."
+      }, {
+        "type" : "image",
+        "id" : 114,
+        "page number" : 10,
+        "bounding box" : [ 167.232, 217.111, 538.378, 376.106 ],
+        "source" : "35_images/imageFile4.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.098, 184.262, 559.277, 208.076 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 4. Comparative daily trends in energy costs and logistics costs for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 10,
+    "bounding box" : [ 165.975, 63.661, 560.933, 173.369 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 5 illustrates the monthly evolution of the health-risk score and the stabilityrelated resilience index for the Mesaieed plant during the observation period. Within the predictive maintenance framework adopted in this study, these indicators are interpreted as aggregated measures that reflect the overall condition and stability of the monitored industrial system. The results show a generally inverse relationship between the two metrics, where increases in the health-risk score are associated with temporary reductions in system stability. Such variations typically correspond to periods characterized by higher anomaly rates or operational disturbances detected in the monitoring data. From a prognostic health"
+  }, {
+    "type" : "footer",
+    "id" : 314,
+    "page number" : 10,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 57,
+      "page number" : 10,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 315,
+    "page number" : 11,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 82,
+      "page number" : 11,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 11 of 25"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 318,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 701.532, 559.668, 769.456 ],
+    "linked content id" : 319,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "management perspective, these indicators provide a high-level representation of system behavior over time and help translate anomaly-driven signals into interpretable measures of operational condition. This interpretation enables predictive models to support early identification of instability patterns and facilitates maintenance-oriented decision making in complex industrial production environments."
+  }, {
+    "type" : "image",
+    "id" : 319,
+    "page number" : 11,
+    "bounding box" : [ 168.362, 533.534, 529.774, 687.845 ],
+    "source" : "35_images/imageFile5.png"
+  }, {
+    "type" : "list",
+    "id" : 320,
+    "level" : "7",
+    "page number" : 11,
+    "bounding box" : [ 166.098, 73.375, 559.275, 525.616 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 312,
+    "next list id" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 501.802, 559.275, 525.616 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 5. Monthly health-risk score and stability-related resilience index trends for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 115,
+        "page number" : 11,
+        "bounding box" : [ 166.095, 310.636, 560.52, 489.982 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Figure 6 illustrates the distribution of operational disturbance events categorized by their primary sources within the monitored industrial system. These disturbances include supplier-related delays, port related interruptions, weather conditions, equipment failures, and other external factors that may influence production continuity. Within the predictive maintenance framework adopted in this study, such disturbance events are interpreted as contextual indicators that can affect system operating conditions and contribute to variations in anomaly behavior detected through edge analytics. Periods characterized by increased disturbance frequency may lead to irregular operating regimes, changes in production workload, or temporary stress on equipment performance. By incorporating this contextual information into the analytical pipeline, the predictive models can better interpret anomaly signals and improve the estimation of system health indicators, thereby supporting more informed maintenance planning and operational risk management in industrial production environments."
+      }, {
+        "type" : "image",
+        "id" : 116,
+        "page number" : 11,
+        "bounding box" : [ 167.174, 105.246, 409.912, 296.109 ],
+        "source" : "35_images/imageFile6.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.098, 73.375, 559.271, 97.189 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 6. Distribution of disruption events by root-cause category for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 321,
+    "page number" : 11,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 58,
+      "page number" : 11,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 322,
+    "page number" : 12,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 83,
+      "page number" : 12,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 12 of 25"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 325,
+    "level" : "7",
+    "page number" : 12,
+    "bounding box" : [ 165.975, 73.674, 561.019, 769.456 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.095, 604.038, 560.521, 769.456 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 7 illustrates the relationship between the edge-level anomaly detection rate and the health-risk score observed in the monitored industrial system. The results indicate a positive association between the frequency of anomalies detected through edge analytics and the estimated level of operational risk. Higher anomaly rates generally correspond to periods where the system exhibits increased instability or deviations from normal operating conditions. Within the proposed predictive maintenance framework, anomaly signals are interpreted as early indicators of abnormal system behavior that may precede performance degradation or operational disturbances. When integrated with predictive modeling, these signals contribute to the estimation of health-risk trajectories and provide useful information for anticipating potential instability in production systems. This relationship highlights the importance of real-time anomaly monitoring at the edge level to support timely diagnosis and proactive maintenance decisions in industrial environments.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 1,
+        "page number" : 12,
+        "bounding box" : [ 167.662, 422.448, 495.022, 589.728 ],
+        "source" : "35_images/imageFile7.png"
+      }, {
+        "type" : "list",
+        "id" : 2,
+        "level" : "7",
+        "page number" : 12,
+        "bounding box" : [ 166.098, 390.19, 559.272, 414.004 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 1,
+        "previous list id" : 320,
+        "next list id" : 331,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 12,
+          "bounding box" : [ 166.098, 390.19, 559.272, 414.004 ],
+          "font" : "URWPalladioL-Bold",
+          "font size" : 8.966,
+          "text color" : "[0.0]",
+          "content" : "Figure 7. Relationship between edge anomaly rate and health-risk score for the Mesaieed Plant (PLANT_MES).",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.095, 226.879, 561.019, 378.37 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 8 presents a temporal heatmap illustrating the evolution of supplier-related operational risk levels over the observation period. In the context of the predictive maintenance framework adopted in this study, these variations are interpreted as contextual operational factors that may influence production stability and system workload conditions. Periods characterized by elevated supplier-related risk can lead to irregular material flows, production rescheduling, or temporary changes in equipment utilization patterns. Such operational adjustments may indirectly affect system behavior and contribute to abnormal patterns detected through edge-based anomaly monitoring. By incorporating these contextual signals into the analytical pipeline, the predictive models gain additional information that helps interpret anomaly behavior and improves the estimation of health-risk indicators associated with the stability of industrial production systems.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 165.975, 73.674, 559.662, 225.165 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 9 illustrates the monthly evolution of the edge-level anomaly detection rate observed in the monitored industrial system. The results show noticeable variability in anomaly frequency across the observation period, reflecting changes in operational stability and system behavior. Periods with elevated anomaly rates generally correspond to phases where the production system experiences higher operational variability or irregular process conditions. Within the predictive maintenance framework proposed in this study, these anomaly signals are interpreted as early indicators of abnormal system behavior that may precede performance degradation or operational disturbances. Monitoring the temporal dynamics of anomaly occurrence therefore provides valuable information for identifying emerging instability patterns and supports the predictive models in estimating system health conditions and potential maintenance needs.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 326,
+    "page number" : 12,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 59,
+      "page number" : 12,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 327,
+    "page number" : 13,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 84,
+      "page number" : 13,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 13 of 25"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 330,
+    "page number" : 13,
+    "bounding box" : [ 165.998, 556.363, 526.91, 771.922 ],
+    "source" : "35_images/imageFile8.png"
+  }, {
+    "type" : "list",
+    "id" : 331,
+    "level" : "7",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 308.774, 552.728, 551.226 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 2,
+    "next list id" : 338,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 540.072, 552.728, 551.226 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 8. Temporal heatmap of supplier-related risk levels for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 117,
+        "page number" : 13,
+        "bounding box" : [ 164.722, 324.443, 528.354, 528.63 ],
+        "source" : "35_images/imageFile9.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 308.774, 518.468, 319.928 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 9. Monthly trend of the edge anomaly rate for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 13,
+    "bounding box" : [ 166.035, 131.697, 561.022, 297.116 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 10 illustrates the relationship between edge processing latency and the anomaly detection rate within the monitored industrial system. The results indicate that periods characterized by higher processing latency tend to coincide with increased anomaly detection rates. This pattern suggests that delays in edge data processing may affect the timeliness of anomaly identification and contribute to temporary instability in monitoring performance. Within the proposed predictive maintenance framework, efficient edge processing plays a critical role in enabling rapid detection of abnormal operational behavior. Variations in latency therefore represent an important deployment-related factor that can influence the responsiveness of the predictive monitoring system. These findings highlight the importance of maintaining optimized edge infrastructure to support reliable real-time anomaly detection and improve the effectiveness of predictive maintenance applications in industrial production environments."
+  }, {
+    "type" : "footer",
+    "id" : 333,
+    "page number" : 13,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 60,
+      "page number" : 13,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 334,
+    "page number" : 14,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 85,
+      "page number" : 14,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 14 of 25"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 337,
+    "page number" : 14,
+    "bounding box" : [ 166.022, 557.107, 531.285, 770.818 ],
+    "source" : "35_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "id" : 338,
+    "level" : "7",
+    "page number" : 14,
+    "bounding box" : [ 166.098, 529.36, 559.28, 553.174 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 331,
+    "next list id" : 347,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.098, 529.36, 559.28, 553.174 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 10. Relationship between edge latency and anomaly rate for the Mesaieed Plant (PLANT_MES).",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 118,
+        "level" : "7",
+        "page number" : 14,
+        "bounding box" : [ 187.653, 156.273, 559.272, 517.541 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 14,
+          "bounding box" : [ 187.653, 505.327, 559.272, 517.541 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "Figure 11 presents the monthly evolution of edge device uptime for the monitored",
+          "kids" : [ {
+            "type" : "paragraph",
+            "id" : 110,
+            "page number" : 14,
+            "bounding box" : [ 166.394, 366.05, 559.662, 503.613 ],
+            "font" : "URWPalladioL-Roma",
+            "font size" : 9.963,
+            "text color" : "[0.0]",
+            "content" : "industrial system during the observation period. The results indicate that edge devices maintain a consistently high availability level, generally exceeding 98%, which reflects the reliability of the edge-based monitoring infrastructure. Minor fluctuations in uptime can be observed during certain periods and may be associated with scheduled maintenance activities, temporary network adjustments, or hardware-related interventions. Within the predictive maintenance framework proposed in this study, maintaining stable edge device availability is essential to ensure continuous data acquisition and real-time anomaly detection. High uptime levels support uninterrupted monitoring of operational signals and enable the predictive models to receive consistent data streams for accurate health-state estimation and early identification of abnormal system behavior."
+          }, {
+            "type" : "image",
+            "id" : 111,
+            "page number" : 14,
+            "bounding box" : [ 168.488, 199.86, 525.608, 351.78 ],
+            "source" : "35_images/imageFile11.png"
+          }, {
+            "type" : "paragraph",
+            "id" : 112,
+            "page number" : 14,
+            "bounding box" : [ 166.394, 180.145, 502.579, 191.299 ],
+            "font" : "URWPalladioL-Roma",
+            "font size" : 8.966,
+            "text color" : "[0.0]",
+            "content" : "Figure 11. Monthly edge device uptime trend for the Mesaieed Plant (PLANT_MES)."
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 14,
+          "bounding box" : [ 187.653, 156.273, 559.272, 168.487 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "Figure 12 compares the monthly production volumes and actual demand between",
+          "kids" : [ ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 142.346, 559.664, 154.56 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "the Mesaieed Plant (PLANT_MES) and the Ras Laffan Plant (PLANT_RLF) from February"
+  }, {
+    "type" : "list",
+    "id" : 340,
+    "level" : "8",
+    "page number" : 14,
+    "bounding box" : [ 165.975, 72.707, 560.521, 140.632 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 349,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 165.975, 72.707, 560.521, 140.632 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2024 to June 2025. The results indicate that production trends in both plants generally follow demand patterns, reflecting effective alignment between production planning and market needs. However, notable deviations are observed during certain peak periods, where demand temporarily exceeds production capacity, particularly in June 2024 and May 2025, suggesting periods of increased operational pressure and potential supply chain",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 341,
+    "page number" : 14,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 61,
+      "page number" : 14,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 342,
+    "page number" : 15,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 86,
+      "page number" : 15,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 15 of 25"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 345,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 715.459, 560.925, 769.456 ],
+    "linked content id" : 346,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "constraints. Overall, the figure highlights the interdependence between demand forecasting, production optimization, and operational efficiency, underscoring the importance of adopting predictive analytics to better synchronize production strategies with real-time demand fluctuations across both facilities."
+  }, {
+    "type" : "image",
+    "id" : 346,
+    "page number" : 15,
+    "bounding box" : [ 168.801, 520.375, 545.966, 702.852 ],
+    "source" : "35_images/imageFile12.png"
+  }, {
+    "type" : "list",
+    "id" : 347,
+    "level" : "7",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 487.236, 559.274, 511.05 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 338,
+    "next list id" : 356,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 487.236, 559.274, 511.05 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 12. Monthly comparison of production output and actual demand between PLANT_MES and PLANT_RLF.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 119,
+        "level" : "7",
+        "page number" : 15,
+        "bounding box" : [ 187.653, 122.719, 561.423, 475.417 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 187.653, 463.203, 561.423, 475.417 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "Figure 13 illustrates the monthly risk score trends for the Mesaieed Plant (PLANT_MES)",
+          "kids" : [ {
+            "type" : "paragraph",
+            "id" : 107,
+            "page number" : 15,
+            "bounding box" : [ 166.394, 337.853, 560.932, 461.489 ],
+            "font" : "URWPalladioL-Roma",
+            "font size" : 9.963,
+            "text color" : "[0.0]",
+            "content" : "and the Ras Laffan Plant (PLANT_RLF) from February 2024 to June 2025. The results indicate dynamic fluctuations in operational risk levels across both facilities, reflecting the impact of demand variability, supplier performance, and production stability on overall risk exposure. While both plants exhibit similar patterns, PLANT_MES demonstrates slightly higher peaks in several months, suggesting greater sensitivity to disruptions in supply chain operations and production processes. These variations highlight the importance of integrating real-time risk monitoring and predictive analytics to proactively identify vulnerabilities, minimize operational disruptions, and improve overall supply chain resilience across both production sites."
+          }, {
+            "type" : "image",
+            "id" : 108,
+            "page number" : 15,
+            "bounding box" : [ 166.022, 161.52, 551.306, 326.808 ],
+            "source" : "35_images/imageFile13.png"
+          }, {
+            "type" : "paragraph",
+            "id" : 109,
+            "page number" : 15,
+            "bounding box" : [ 166.394, 146.591, 559.279, 157.745 ],
+            "font" : "URWPalladioL-Roma",
+            "font size" : 8.966,
+            "text color" : "[0.0]",
+            "content" : "Figure 13. Monthly comparison of health-risk score trends between PLANT_MES and PLANT_RLF."
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 187.653, 122.719, 559.27, 134.933 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "Figure 14 presents the monthly trends of the resilience index for the Mesaieed Plant",
+          "kids" : [ ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 15,
+    "bounding box" : [ 166.065, 108.791, 559.279, 121.005 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(PLANT_MES) and the Ras Laffan Plant (PLANT_RLF) between February 2024 and June"
+  }, {
+    "type" : "list",
+    "id" : 349,
+    "level" : "8",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 67.008, 560.931, 107.078 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 340,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 67.008, 560.931, 107.078 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2025. The results demonstrate noticeable fluctuations in resilience levels across both facilities, reflecting their adaptive responses to operational disruptions and supply chain variability. Overall, both plants maintain relatively high resilience scores, with PLANT_MES show-",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 350,
+    "page number" : 15,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 62,
+      "page number" : 15,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 351,
+    "page number" : 16,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 87,
+      "page number" : 16,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 16 of 25"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 354,
+    "page number" : 16,
+    "bounding box" : [ 166.394, 687.604, 561.019, 769.456 ],
+    "linked content id" : 355,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "ing slightly stronger recovery capabilities during several periods compared to PLANT_RLF. However, sudden declines in certain months correspond to periods of increased production instability, supplier delays, and logistics challenges. These findings emphasize the importance of integrating real-time resilience monitoring and predictive analytics to enhance operational flexibility and ensure robust recovery strategies within smart manufacturing ecosystems."
+  }, {
+    "type" : "image",
+    "id" : 355,
+    "page number" : 16,
+    "bounding box" : [ 164.968, 465.05, 531.686, 677.983 ],
+    "source" : "35_images/imageFile14.png"
+  }, {
+    "type" : "list",
+    "id" : 356,
+    "level" : "7",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 64.276, 559.274, 461.494 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 347,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 437.681, 559.274, 461.494 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 14. Monthly comparison of resilience-related stability trends between PLANT_MES and PLANT_RLF.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 120,
+        "page number" : 16,
+        "bounding box" : [ 166.065, 274.37, 561.016, 425.861 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Figure 15 illustrates the monthly energy consumption for the Mesaieed Plant (PLANT_MES) and the Ras Laffan Plant (PLANT_RLF) from January 2024 to July 2025. The results show that overall energy usage remains relatively consistent across both facilities, with slight variations reflecting differences in production volumes and operational demands. While PLANT_MES exhibits marginally higher energy consumption in several months, PLANT_RLF demonstrates comparable performance, suggesting efficient energy management practices in both sites. The observed stability indicates the effectiveness of energy optimization strategies and highlights the role of smart manufacturing systems in balancing production requirements with energy efficiency objectives. These findings support the importance of continuous energy monitoring and integration of sustainable energy solutions to enhance operational performance and reduce overall energy costs."
+      }, {
+        "type" : "image",
+        "id" : 121,
+        "page number" : 16,
+        "bounding box" : [ 165.22, 80.261, 515.584, 261.845 ],
+        "source" : "35_images/imageFile15.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 64.276, 551.105, 75.43 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 15. Monthly comparison of energy consumption between PLANT_MES and PLANT_RLF.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 357,
+    "page number" : 16,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 63,
+      "page number" : 16,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 358,
+    "page number" : 17,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 88,
+      "page number" : 17,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 17 of 25"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 361,
+    "level" : "7",
+    "page number" : 17,
+    "bounding box" : [ 187.653, 396.21, 560.268, 769.456 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 187.653, 757.242, 560.268, 769.456 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 16 compares the monthly logistics costs for the Mesaieed Plant (PLANT_MES)",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 104,
+        "page number" : 17,
+        "bounding box" : [ 166.394, 617.966, 560.934, 755.529 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "and the Ras Laffan Plant (PLANT_RLF) from January 2024 to July 2025. The results indicate significant variability in logistics expenses across both plants, influenced by fluctuations in demand, transportation requirements, and supply chain disruptions. While PLANT_MES generally incurs slightly higher logistics costs during peak production months, PLANT_RLF demonstrates better cost consistency, particularly in periods of lower operational activity. These variations reflect differences in transportation dependencies, port utilization, and supplier locations between the two facilities. The findings underscore the importance of adopting data-driven logistics optimization strategies to minimize operational costs, improve resource allocation, and enhance overall supply chain efficiency within smart manufacturing ecosystems."
+      }, {
+        "type" : "image",
+        "id" : 105,
+        "page number" : 17,
+        "bounding box" : [ 166.783, 438.296, 522.883, 607.496 ],
+        "source" : "35_images/imageFile16.png"
+      }, {
+        "type" : "paragraph",
+        "id" : 106,
+        "page number" : 17,
+        "bounding box" : [ 166.394, 420.082, 523.309, 431.236 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "Figure 16. Monthly comparison of logistics costs between PLANT_MES and PLANT_RLF."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 187.653, 396.21, 559.272, 408.424 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Figure 17 compares the monthly edge device uptime between the Mesaieed Plant",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 362,
+    "page number" : 17,
+    "bounding box" : [ 166.065, 243.006, 561.023, 394.497 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(PLANT_MES) and the Ras Laffan Plant (PLANT_RLF) from February 2024 to June 2025. The results indicate that both plants maintain consistently high uptime levels, generally exceeding 98%, which reflects the reliability and robustness of their edge infrastructure. However, several peaks and dips are observed, highlighting short-term performance variations caused by planned maintenance, network adjustments, or temporary hardware limitations. While PLANT_RLF demonstrates slightly higher uptime stability in several periods, PLANT_MES records sharper improvements in others, indicating differences in operational strategies and equipment utilization. These findings emphasize the importance of continuous edge performance monitoring and predictive maintenance to ensure uninterrupted data processing, improve anomaly detection capabilities, and support real-time decision-making in smart manufacturing environments."
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 17,
+    "bounding box" : [ 166.095, 89.801, 560.934, 241.292 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 18 compares the monthly edge latency between the Mesaieed Plant (PLANT_MES) and the Ras Laffan Plant (PLANT_RLF) from February 2024 to June 2025. The results indicate noticeable variations in latency performance across both facilities, highlighting periods of fluctuating network stability and data processing efficiency. While both plants demonstrate comparable performance on average, PLANT_MES exhibits slightly higher latency peaks during certain months, suggesting potential processing delays under increased production loads. Conversely, PLANT_RLF maintains relatively lower latency in several periods, reflecting more consistent network optimization. These findings underscore the importance of improving edge infrastructure performance to ensure timely anomaly detection, enhance real-time decision-making, and support predictive analytics within smart manufacturing systems."
+  }, {
+    "type" : "footer",
+    "id" : 364,
+    "page number" : 17,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 64,
+      "page number" : 17,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 365,
+    "page number" : 18,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 89,
+      "page number" : 18,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 18 of 25"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 368,
+    "page number" : 18,
+    "bounding box" : [ 166.421, 600.695, 523.178, 769.435 ],
+    "source" : "35_images/imageFile17.png"
+  }, {
+    "type" : "list",
+    "id" : 369,
+    "level" : "8",
+    "page number" : 18,
+    "bounding box" : [ 166.394, 379.199, 547.25, 592.555 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 166.394, 581.401, 547.25, 592.555 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 17. Monthly comparison of edge device uptime between PLANT_MES and PLANT_RLF.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 122,
+        "page number" : 18,
+        "bounding box" : [ 165.621, 397.201, 522.969, 568.542 ],
+        "source" : "35_images/imageFile18.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 166.394, 379.199, 519.239, 390.353 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 18. Monthly comparison of edge latency between PLANT_MES and PLANT_RLF.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 370,
+    "page number" : 18,
+    "bounding box" : [ 165.975, 189.01, 561.015, 368.356 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 3 summarizes the key performance metrics used to evaluate the predictive accuracy and operational improvements achieved by the proposed data-driven risk management framework. The results demonstrate that the model achieves a MAPE of 3.67%, indicating a very high prediction accuracy with minimal deviation from actual risk values. The RMSE of 0.79 confirms that the absolute prediction errors remain small and within acceptable operational thresholds. Additionally, the model achieves an R2 value of 0.989, meaning it explains approximately 98.9% of the variability in risk scores, which highlights the robustness and reliability of the predictive approach. Finally, the framework delivers a Resilience Gain of 3.99%, demonstrating its effectiveness in enhancing operational stability by reducing anomaly rates and improving the plant’s ability to adapt to disruptions. These findings confirm the capability of the proposed approach to provide accurate forecasts while strengthening supply chain resilience and supporting real-time decision-making in smart manufacturing environments."
+  }, {
+    "type" : "paragraph",
+    "id" : 371,
+    "page number" : 18,
+    "bounding box" : [ 166.095, 63.661, 560.521, 187.296 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Overall, the findings confirm the capability of the proposed framework to deliver high predictive accuracy in forecasting operational risks (R2 ≈ 0.989, MAPE ≈ 3.67%) while improving resilience by approximately 3.99% through effective anomaly detection and mitigation strategies. The results reveal the substantial impact of factors such as lead time variability, supplier performance, and edge device analytics on operational stability and supply chain continuity. Moreover, the integration of real-time monitoring, predictive risk modeling, and Edge Analytics demonstrates the framework’s potential to optimize production planning, reduce disruption impacts, and enhance sustainability in global supply chains. These insights provide a solid empirical basis for the subsequent discussion,"
+  }, {
+    "type" : "footer",
+    "id" : 372,
+    "page number" : 18,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 65,
+      "page number" : 18,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 373,
+    "page number" : 19,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 90,
+      "page number" : 19,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 19 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 376,
+    "page number" : 19,
+    "bounding box" : [ 165.975, 743.315, 559.272, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "where the implications for theory, practice, and policy are examined in the context of smart manufacturing and resilient supply chain management."
+  }, {
+    "type" : "list",
+    "id" : 377,
+    "level" : "9",
+    "page number" : 19,
+    "bounding box" : [ 166.098, 696.622, 482.414, 729.853 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 402,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.098, 696.622, 482.414, 729.853 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Table 3. Summarizes the results obtained. Metric Value Interpretation",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 381,
+    "page number" : 19,
+    "bounding box" : [ 349.58, 668.09, 551.612, 692.259 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "High prediction accuracy (low deviation from actual values)"
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 19,
+    "bounding box" : [ 194.087, 674.067, 318.141, 686.281 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "MAPE (%) 3.67%"
+  }, {
+    "type" : "paragraph",
+    "id" : 383,
+    "page number" : 19,
+    "bounding box" : [ 203.776, 628.351, 538.181, 663.547 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "RMSE 0.79 Small prediction error in absolute terms R2 0.989"
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "page number" : 19,
+    "bounding box" : [ 174.785, 599.887, 550.267, 646.79 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The model explains ~98.9% of the variance in risk scores Resilience Gain (%) 3.99%"
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 19,
+    "bounding box" : [ 365.844, 593.909, 535.348, 618.078 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Operational resilience improved when anomaly rates were reduced"
+  }, {
+    "type" : "heading",
+    "id" : 389,
+    "level" : "Subtitle",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 561.148, 239.476, 575.925 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "6. Discussion"
+  }, {
+    "type" : "list",
+    "id" : 390,
+    "level" : "10",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 102.344, 393.741, 557.834 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 398,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 545.42, 393.741, 557.834 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "6.1. Interpretation of Predictive and Operational Results",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 100,
+        "page number" : 19,
+        "bounding box" : [ 166.095, 431.229, 560.928, 540.937 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The empirical results indicate that the proposed framework provides a reliable analytical basis for identifying abnormal operational patterns and estimating system health conditions in industrial environments. The high predictive accuracy achieved by the model, reflected in an R2 value of 0.989 and a low mean absolute percentage error of 3.67%, suggests that the integration of edge-based anomaly detection with predictive modeling can effectively capture variations in operational behavior. These results demonstrate that highfrequency industrial data, when processed through localized edge analytics, can reveal patterns associated with system instability and emerging degradation risks."
+      }, {
+        "type" : "paragraph",
+        "id" : 101,
+        "page number" : 19,
+        "bounding box" : [ 166.095, 333.736, 559.659, 429.516 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The results also show that anomaly signals detected at the edge level are not merely isolated irregular events but can function as meaningful indicators of evolving operational conditions. Periods characterized by higher anomaly rates were frequently associated with increased health-risk scores and temporary reductions in stability-related performance indicators. This relationship supports the view that anomaly detection mechanisms can serve as an early diagnostic layer that informs broader health-state interpretation within predictive maintenance systems."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 309.954, 378.886, 322.368 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "6.2. Role of Edge Analytics in Industrial Monitoring",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 102,
+        "page number" : 19,
+        "bounding box" : [ 166.095, 209.691, 560.928, 305.471 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "One of the central contributions of this study lies in the integration of edge computing into the predictive maintenance pipeline. Traditional centralized data processing approaches often require the transmission of large volumes of sensor data to remote servers before analysis can be performed. Such architectures can introduce delays and limit the ability of industrial monitoring systems to respond quickly to emerging faults. By contrast, the framework proposed in this study enables a portion of the analytical processing to be executed close to the data source."
+      }, {
+        "type" : "paragraph",
+        "id" : 103,
+        "page number" : 19,
+        "bounding box" : [ 166.394, 126.125, 560.925, 207.978 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "This architectural design reduces latency and allows anomaly signals to be detected earlier in the monitoring process. The results indicate that localized edge analytics can improve the responsiveness of predictive maintenance systems by enabling faster identification of abnormal operating conditions. In complex industrial environments where equipment failures can propagate rapidly through interconnected processes, even small improvements in detection speed may contribute to reducing the likelihood of large-scale disruptions."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 166.394, 102.344, 378.866, 114.758 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "6.3. Implications for Prognostic Health Management",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 391,
+    "page number" : 19,
+    "bounding box" : [ 166.115, 71.719, 559.279, 97.861 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Beyond the detection of anomalies, the proposed framework also demonstrates the value of linking anomaly behavior to broader system health indicators. Prognostic health"
+  }, {
+    "type" : "footer",
+    "id" : 392,
+    "page number" : 19,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 66,
+      "page number" : 19,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 393,
+    "page number" : 20,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 91,
+      "page number" : 20,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 20 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 396,
+    "page number" : 20,
+    "bounding box" : [ 166.095, 715.459, 560.929, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "management requires analytical tools capable of translating operational signals into interpretable indicators that support maintenance planning and operational decision making. In this study, anomaly patterns detected through edge analytics were associated with changes in health-risk indicators and stability-related metrics."
+  }, {
+    "type" : "paragraph",
+    "id" : 397,
+    "page number" : 20,
+    "bounding box" : [ 165.895, 631.893, 561.023, 713.746 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This connection suggests that anomaly behavior can provide useful insights into the trajectory of system health evolution rather than serving solely as short-term fault alarms. When integrated with predictive modeling techniques, these signals can contribute to a more comprehensive understanding of system conditions and support earlier intervention strategies. Such capabilities are particularly important in industrial settings characterized by high operational complexity and continuous production cycles."
+  }, {
+    "type" : "list",
+    "id" : 398,
+    "level" : "10",
+    "page number" : 20,
+    "bounding box" : [ 166.394, 608.112, 323.086, 620.526 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 390,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 166.394, 608.112, 323.086, 620.526 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "6.4. Comparison with Existing Studies",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 20,
+    "bounding box" : [ 166.394, 521.777, 560.925, 603.629 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The findings of this study are consistent with previous research emphasizing the importance of data-driven monitoring and intelligent fault detection in modern industrial systems [3–11]. However, much of the existing literature tends to examine anomaly detection, predictive modeling, and system architecture as separate research topics. Some studies prioritize improvements in algorithmic forecasting accuracy, while others focus on the design of distributed computing infrastructures or sensor networks."
+  }, {
+    "type" : "paragraph",
+    "id" : 400,
+    "page number" : 20,
+    "bounding box" : [ 165.975, 424.283, 559.279, 520.063 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The present study contributes to this body of work by combining these perspectives within a unified analytical structure. By integrating edge-based monitoring, predictive modeling, and health-state interpretation, the proposed framework demonstrates how these components can interact within a single predictive maintenance pipeline. This integrated perspective helps bridge the gap between algorithm development and practical industrial deployment, an issue that has been highlighted in recent research on intelligent industrial monitoring systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 401,
+    "page number" : 20,
+    "bounding box" : [ 166.095, 285.006, 560.933, 422.569 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "To provide a structured interpretation of the empirical findings, the discussion is further organized into a set of key analytical dimensions aligned with the objectives of AIpowered predictive maintenance (PdM) and prognostic health management (PHM). Rather than presenting isolated observations, this structured framework links the observed results to their underlying algorithmic mechanisms and their relevance for health-state assessment and maintenance decision support. It captures how predictive accuracy, anomaly detection behavior, edge performance, and system stability jointly contribute to the effectiveness of the proposed framework. Table 4 summarizes these dimensions by connecting empirical observations with their algorithmic interpretation and their implications for predictive maintenance and PHM in industrial production systems."
+  }, {
+    "type" : "list",
+    "id" : 402,
+    "level" : "9",
+    "page number" : 20,
+    "bounding box" : [ 166.098, 247.73, 560.172, 271.544 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 377,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 166.098, 247.73, 560.172, 271.544 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 4. Structured Discussion Framework Aligned with AI-Powered Predictive Maintenance (PdM) and PHM.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 404,
+    "page number" : 20,
+    "bounding box" : [ 61.677, 213.537, 107.495, 235.579 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Discussion Dimension"
+  }, {
+    "type" : "paragraph",
+    "id" : 405,
+    "page number" : 20,
+    "bounding box" : [ 150.784, 213.537, 220.498, 235.579 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "What the Results Show"
+  }, {
+    "type" : "paragraph",
+    "id" : 406,
+    "page number" : 20,
+    "bounding box" : [ 265.257, 213.537, 322.534, 235.579 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Algorithmic Interpretation"
+  }, {
+    "type" : "paragraph",
+    "id" : 407,
+    "page number" : 20,
+    "bounding box" : [ 376.126, 213.537, 428.176, 235.579 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Relevance to PdM/PHM"
+  }, {
+    "type" : "paragraph",
+    "id" : 408,
+    "page number" : 20,
+    "bounding box" : [ 466.906, 213.537, 546.357, 235.579 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Alignment with Algorithms Journal"
+  }, {
+    "type" : "paragraph",
+    "id" : 412,
+    "page number" : 20,
+    "bounding box" : [ 243.677, 143.144, 340.209, 208.93 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Forecasting models successfully capture temporal dependencies and degradation-related patterns in operational data"
+  }, {
+    "type" : "paragraph",
+    "id" : 413,
+    "page number" : 20,
+    "bounding box" : [ 355.801, 143.144, 444.416, 208.93 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Reliable prediction of health-state evolution supports early maintenance planning and reduces reactive interventions"
+  }, {
+    "type" : "paragraph",
+    "id" : 411,
+    "page number" : 20,
+    "bounding box" : [ 139.021, 148.623, 231.954, 203.451 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "High predictive performance (low MAPE and RMSE, high R2) across both industrial sites"
+  }, {
+    "type" : "paragraph",
+    "id" : 414,
+    "page number" : 20,
+    "bounding box" : [ 460.456, 148.623, 551.411, 203.451 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Emphasizes algorithmic robustness and model validity rather than managerial outcomes"
+  }, {
+    "type" : "paragraph",
+    "id" : 410,
+    "page number" : 20,
+    "bounding box" : [ 41.836, 165.062, 118.974, 187.013 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Predictive accuracy and reliability"
+  }, {
+    "type" : "paragraph",
+    "id" : 418,
+    "page number" : 20,
+    "bounding box" : [ 243.946, 94.507, 343.845, 138.375 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Edge-based anomaly detection acts as an early fault-signature extraction mechanism"
+  }, {
+    "type" : "paragraph",
+    "id" : 417,
+    "page number" : 20,
+    "bounding box" : [ 139.29, 99.986, 231.994, 132.896 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Anomaly rates correlate with increased health-risk indicators"
+  }, {
+    "type" : "paragraph",
+    "id" : 419,
+    "page number" : 20,
+    "bounding box" : [ 355.801, 99.986, 441.385, 132.896 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Enables early-stage fault diagnosis before failure escalation"
+  }, {
+    "type" : "paragraph",
+    "id" : 420,
+    "page number" : 20,
+    "bounding box" : [ 460.456, 99.986, 553.125, 132.896 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Highlights edge-based algorithms and low-latency diagnostics"
+  }, {
+    "type" : "paragraph",
+    "id" : 416,
+    "page number" : 20,
+    "bounding box" : [ 41.836, 105.466, 115.289, 127.417 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Role of edge-level anomaly detection"
+  }, {
+    "type" : "footer",
+    "id" : 422,
+    "page number" : 20,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 67,
+      "page number" : 20,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 423,
+    "page number" : 21,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 92,
+      "page number" : 21,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 21 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 426,
+    "page number" : 21,
+    "bounding box" : [ 166.098, 758.314, 220.433, 769.486 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 4. Cont."
+  }, {
+    "type" : "paragraph",
+    "id" : 428,
+    "page number" : 21,
+    "bounding box" : [ 61.677, 724.319, 107.495, 746.361 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Discussion Dimension"
+  }, {
+    "type" : "paragraph",
+    "id" : 429,
+    "page number" : 21,
+    "bounding box" : [ 150.784, 724.319, 220.498, 746.361 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "What the Results Show"
+  }, {
+    "type" : "paragraph",
+    "id" : 430,
+    "page number" : 21,
+    "bounding box" : [ 265.257, 724.319, 322.534, 746.361 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Algorithmic Interpretation"
+  }, {
+    "type" : "paragraph",
+    "id" : 431,
+    "page number" : 21,
+    "bounding box" : [ 376.126, 724.319, 428.176, 746.361 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Relevance to PdM/PHM"
+  }, {
+    "type" : "paragraph",
+    "id" : 432,
+    "page number" : 21,
+    "bounding box" : [ 466.906, 724.319, 546.357, 746.361 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Alignment with Algorithms Journal"
+  }, {
+    "type" : "paragraph",
+    "id" : 437,
+    "page number" : 21,
+    "bounding box" : [ 355.801, 686.802, 448.496, 719.712 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Strengthens prognostic inference under limited fault labels"
+  }, {
+    "type" : "paragraph",
+    "id" : 435,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 686.802, 231.99, 719.712 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Edge outputs improve sensitivity of predictive models"
+  }, {
+    "type" : "paragraph",
+    "id" : 436,
+    "page number" : 21,
+    "bounding box" : [ 243.677, 686.802, 331.682, 719.712 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Anomaly-derived features enrich the predictive input space"
+  }, {
+    "type" : "paragraph",
+    "id" : 438,
+    "page number" : 21,
+    "bounding box" : [ 460.456, 686.802, 552.245, 719.712 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Demonstrates end-to-end algorithmic integration"
+  }, {
+    "type" : "paragraph",
+    "id" : 434,
+    "page number" : 21,
+    "bounding box" : [ 41.836, 692.282, 125.241, 714.233 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Integration of edge and predictive layers"
+  }, {
+    "type" : "paragraph",
+    "id" : 443,
+    "page number" : 21,
+    "bounding box" : [ 355.424, 627.206, 438.847, 682.034 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Supports PHM-oriented decision-making without explicit RUL estimation"
+  }, {
+    "type" : "paragraph",
+    "id" : 444,
+    "page number" : 21,
+    "bounding box" : [ 460.079, 638.165, 553.16, 671.075 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Keeps discussion within PHM scope accepted by Algorithms"
+  }, {
+    "type" : "paragraph",
+    "id" : 442,
+    "page number" : 21,
+    "bounding box" : [ 243.946, 638.165, 338.595, 671.075 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Risk indicators function as proxies for system health degradation"
+  }, {
+    "type" : "paragraph",
+    "id" : 441,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 638.165, 229.833, 671.075 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Health-risk trajectories align with observed operational trends"
+  }, {
+    "type" : "paragraph",
+    "id" : 440,
+    "page number" : 21,
+    "bounding box" : [ 41.836, 643.645, 110.931, 665.596 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Prognostic health interpretation"
+  }, {
+    "type" : "paragraph",
+    "id" : 447,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 567.61, 217.298, 622.438 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Measurable improvement in stability-related indicators after anomaly mitigation"
+  }, {
+    "type" : "paragraph",
+    "id" : 448,
+    "page number" : 21,
+    "bounding box" : [ 243.946, 573.09, 344.146, 616.958 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Predictive control and early intervention improve system recovery capability"
+  }, {
+    "type" : "paragraph",
+    "id" : 450,
+    "page number" : 21,
+    "bounding box" : [ 460.456, 578.569, 553.16, 611.479 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Frames “resilience” as algorithmic health recovery, not economics"
+  }, {
+    "type" : "paragraph",
+    "id" : 449,
+    "page number" : 21,
+    "bounding box" : [ 355.532, 578.569, 448.488, 611.479 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Reflects effectiveness of proactive maintenance strategies"
+  }, {
+    "type" : "paragraph",
+    "id" : 446,
+    "page number" : 21,
+    "bounding box" : [ 41.836, 584.049, 127.671, 606.0 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Stability and recovery behavior"
+  }, {
+    "type" : "paragraph",
+    "id" : 453,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 518.973, 231.993, 562.842 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Lower latency and high uptime associated with reduced anomaly escalation"
+  }, {
+    "type" : "paragraph",
+    "id" : 456,
+    "page number" : 21,
+    "bounding box" : [ 460.456, 524.453, 551.895, 557.362 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Reinforces relevance of algorithm–system co-design"
+  }, {
+    "type" : "paragraph",
+    "id" : 455,
+    "page number" : 21,
+    "bounding box" : [ 355.801, 524.453, 431.997, 557.362 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Timely diagnosis is critical for PdM effectiveness"
+  }, {
+    "type" : "paragraph",
+    "id" : 454,
+    "page number" : 21,
+    "bounding box" : [ 243.677, 524.453, 327.253, 557.362 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Deployment-level parameters influence diagnostic timeliness"
+  }, {
+    "type" : "paragraph",
+    "id" : 452,
+    "page number" : 21,
+    "bounding box" : [ 41.54, 529.932, 124.21, 551.883 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Edge performance (latency and uptime)"
+  }, {
+    "type" : "paragraph",
+    "id" : 460,
+    "page number" : 21,
+    "bounding box" : [ 243.946, 481.295, 343.848, 514.205 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Models remain stable under different operating regimes"
+  }, {
+    "type" : "paragraph",
+    "id" : 461,
+    "page number" : 21,
+    "bounding box" : [ 355.801, 481.295, 435.476, 514.205 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Demonstrates adaptability of PdM framework"
+  }, {
+    "type" : "paragraph",
+    "id" : 462,
+    "page number" : 21,
+    "bounding box" : [ 460.456, 481.295, 549.699, 514.205 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Supports scalability and generalizability of algorithms"
+  }, {
+    "type" : "paragraph",
+    "id" : 459,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 486.774, 231.99, 508.725 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Differences observed between industrial sites"
+  }, {
+    "type" : "paragraph",
+    "id" : 458,
+    "page number" : 21,
+    "bounding box" : [ 41.836, 492.254, 123.807, 503.246 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Cross-site variability"
+  }, {
+    "type" : "paragraph",
+    "id" : 468,
+    "page number" : 21,
+    "bounding box" : [ 460.106, 432.658, 540.741, 476.526 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Directly responds to gaps emphasized in Algorithms special issue"
+  }, {
+    "type" : "paragraph",
+    "id" : 466,
+    "page number" : 21,
+    "bounding box" : [ 243.946, 438.137, 333.368, 471.047 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Unified pipeline links monitoring, diagnosis, and prognostics"
+  }, {
+    "type" : "paragraph",
+    "id" : 467,
+    "page number" : 21,
+    "bounding box" : [ 355.801, 438.137, 434.409, 471.047 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Advances beyond isolated anomaly or forecasting studies"
+  }, {
+    "type" : "paragraph",
+    "id" : 464,
+    "page number" : 21,
+    "bounding box" : [ 41.567, 443.617, 111.415, 465.567 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Comparison with prior studies"
+  }, {
+    "type" : "paragraph",
+    "id" : 465,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 443.617, 231.778, 465.567 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Addresses integration gaps noted in literature"
+  }, {
+    "type" : "paragraph",
+    "id" : 474,
+    "page number" : 21,
+    "bounding box" : [ 460.456, 384.02, 533.882, 427.889 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Focus on implementation of algorithms, not management"
+  }, {
+    "type" : "paragraph",
+    "id" : 471,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 389.5, 217.199, 422.41 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Outputs are interpretable health indicators"
+  }, {
+    "type" : "paragraph",
+    "id" : 472,
+    "page number" : 21,
+    "bounding box" : [ 243.946, 389.5, 343.826, 422.41 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Algorithmic outputs can be embedded in real-time PdM systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 473,
+    "page number" : 21,
+    "bounding box" : [ 355.801, 389.5, 429.415, 422.41 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Facilitates deployment-ready PHM systems"
+  }, {
+    "type" : "paragraph",
+    "id" : 470,
+    "page number" : 21,
+    "bounding box" : [ 41.54, 394.979, 127.151, 416.93 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Practical implications (technical)"
+  }, {
+    "type" : "paragraph",
+    "id" : 478,
+    "page number" : 21,
+    "bounding box" : [ 243.946, 335.383, 338.604, 379.252 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Framework emphasizes health-state trajectories over component failure labels"
+  }, {
+    "type" : "paragraph",
+    "id" : 479,
+    "page number" : 21,
+    "bounding box" : [ 355.801, 340.863, 441.0, 373.773 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Appropriate for data-scarce industrial environments"
+  }, {
+    "type" : "paragraph",
+    "id" : 480,
+    "page number" : 21,
+    "bounding box" : [ 460.456, 340.863, 551.725, 373.773 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Transparent discussion of algorithmic boundaries"
+  }, {
+    "type" : "paragraph",
+    "id" : 477,
+    "page number" : 21,
+    "bounding box" : [ 139.29, 340.863, 228.676, 373.772 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "No explicit RUL estimation; reliance on operational proxies"
+  }, {
+    "type" : "paragraph",
+    "id" : 476,
+    "page number" : 21,
+    "bounding box" : [ 41.836, 346.342, 104.197, 368.293 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Methodological limitations"
+  }, {
+    "type" : "heading",
+    "id" : 482,
+    "level" : "Subtitle",
+    "page number" : 21,
+    "bounding box" : [ 166.394, 300.646, 375.275, 315.423 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "7. Theoretical & Practical Implications"
+  }, {
+    "type" : "list",
+    "id" : 483,
+    "level" : "10",
+    "page number" : 21,
+    "bounding box" : [ 166.394, 284.918, 281.183, 297.332 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 489,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 166.394, 284.918, 281.183, 297.332 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "7.1. Theoretical Implications",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 484,
+    "page number" : 21,
+    "bounding box" : [ 166.095, 101.089, 560.931, 280.436 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "From a theoretical perspective, this study contributes to the literature on AI-powered predictive maintenance (PdM) and prognostic health management by formalizing an integrated algorithmic pipeline that links data-driven condition monitoring, intelligent fault diagnosis, and prognostic assessment within an edge-enabled environment. Unlike prior studies that focus on isolated components such as anomaly detection or forecasting accuracy, the proposed framework emphasizes the algorithmic coupling between edge-level anomaly extraction and predictive health-state modeling. This integration advances PHM theory by demonstrating how anomaly-derived signals can be systematically transformed into health-oriented indicators that capture degradation dynamics under real operational variability. Furthermore, the study extends existing PHM and PdM research by framing riskrelated predictions as health-risk trajectories rather than purely statistical outputs, thereby strengthening the theoretical connection between predictive modeling and maintenanceoriented decision support in industrial systems."
+  }, {
+    "type" : "footer",
+    "id" : 485,
+    "page number" : 21,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 68,
+      "page number" : 21,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 486,
+    "page number" : 22,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 93,
+      "page number" : 22,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 22 of 25"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 489,
+    "level" : "10",
+    "page number" : 22,
+    "bounding box" : [ 166.394, 757.022, 272.685, 769.436 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 483,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 166.394, 757.022, 272.685, 769.436 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "7.2. Practical Implications",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 490,
+    "page number" : 22,
+    "bounding box" : [ 166.085, 559.266, 561.019, 752.54 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "From a practical and technical standpoint, the findings provide clear guidance for the design and deployment of predictive maintenance systems under industrial constraints. The results show that performing anomaly detection at the edge enables low-latency fault indication and reduces the dependency on continuous centralized processing, which is critical for time-sensitive industrial applications. By combining edge-based screening with centralized predictive modeling, the proposed framework offers a scalable deployment strategy that balances computational efficiency and diagnostic accuracy. For engineers and system designers, the framework highlights the importance of treating edge performance metrics, such as latency and uptime, as integral components of the predictive maintenance pipeline rather than secondary implementation details. The health-oriented indicators produced by the prognostic layer can be directly integrated into real-time monitoring platforms to support maintenance prioritization, early intervention, and system stability assessment, providing a practical foundation for implementing AI-driven PdM and PHM solutions in dynamic industrial environments."
+  }, {
+    "type" : "heading",
+    "id" : 491,
+    "level" : "Subtitle",
+    "page number" : 22,
+    "bounding box" : [ 166.394, 532.603, 246.793, 547.38 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "8. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 492,
+    "page number" : 22,
+    "bounding box" : [ 166.095, 432.901, 561.02, 528.681 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This study presented an artificial intelligence-based framework designed to support predictive maintenance and prognostic health assessment in industrial environments. The proposed approach integrates edge-enabled monitoring with data-driven predictive modeling to identify abnormal operational behavior and translate anomaly patterns into interpretable health indicators. By linking anomaly detection with predictive analysis within a unified analytical structure, the framework supports earlier identification of operational instability and improves the ability of industrial systems to anticipate potential degradation."
+  }, {
+    "type" : "paragraph",
+    "id" : 493,
+    "page number" : 22,
+    "bounding box" : [ 166.394, 335.407, 560.933, 431.187 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The empirical evaluation, based on operational data collected from two industrial production facilities, demonstrates strong predictive performance, with the model achieving an R2 value of 0.989 and a mean absolute percentage error of 3.67%. In addition, early mitigation of detected anomalies was associated with an observed improvement of approximately 3.99% in system stability. These findings suggest that anomaly signals generated at the edge can provide meaningful early information about system health conditions and can support more timely maintenance interventions in complex industrial settings."
+  }, {
+    "type" : "paragraph",
+    "id" : 494,
+    "page number" : 22,
+    "bounding box" : [ 166.394, 265.768, 560.928, 333.693 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Overall, the study highlights the potential of combining artificial intelligence techniques with edge-based industrial monitoring systems to strengthen predictive maintenance strategies. Future research may extend this framework by incorporating adaptive learning mechanisms, exploring component-level degradation analysis, and examining the integration of remaining useful life estimation within edge-enabled prognostic systems."
+  }, {
+    "type" : "heading",
+    "id" : 495,
+    "level" : "Subtitle",
+    "page number" : 22,
+    "bounding box" : [ 166.394, 239.105, 346.069, 253.882 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "9. Limitations & Future Research"
+  }, {
+    "type" : "paragraph",
+    "id" : 496,
+    "page number" : 22,
+    "bounding box" : [ 165.975, 111.547, 560.931, 235.183 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Despite the promising results obtained in this study, several limitations should be acknowledged to provide a balanced interpretation of the findings and to delineate directions for future research. First, the proposed framework relies on operational condition signals and anomaly-derived indicators as proxies for system health, rather than on explicit component-level failure labels. While this approach reflects practical industrial constraints where labeled failure data is often scarce, it limits the ability to directly estimate remaining useful life or to validate prognostic outputs against known failure events. Future studies could extend the framework by incorporating labeled degradation histories or hybrid physical–data-driven models to enable more granular component-level prognostics."
+  }, {
+    "type" : "paragraph",
+    "id" : 497,
+    "page number" : 22,
+    "bounding box" : [ 166.005, 69.764, 561.019, 109.834 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Second, the predictive models were trained and evaluated using data from two industrial plants operating under specific process configurations and operating regimes. Although the results demonstrate stable performance across these contexts, the general-"
+  }, {
+    "type" : "footer",
+    "id" : 498,
+    "page number" : 22,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 69,
+      "page number" : 22,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 499,
+    "page number" : 23,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 94,
+      "page number" : 23,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 23 of 25"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 502,
+    "page number" : 23,
+    "bounding box" : [ 166.394, 715.459, 560.931, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "izability of the framework to other industrial domains with different asset types, sensing infrastructures, or control strategies remains to be systematically investigated. Future research could explore transfer learning, domain adaptation, or federated learning strategies to enhance model robustness under cross-plant and cross-domain variability."
+  }, {
+    "type" : "paragraph",
+    "id" : 503,
+    "page number" : 23,
+    "bounding box" : [ 166.394, 617.966, 560.932, 713.746 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Third, the current implementation treats edge-level anomaly detection and predictive modeling as sequential stages with fixed algorithmic configurations. While this design supports clarity and deployment feasibility, it does not fully exploit adaptive or co-learning mechanisms between the edge and predictive layers. Future work could investigate adaptive edge intelligence, where anomaly thresholds, feature extraction, or model parameters evolve in response to changing operating conditions, thereby improving long-term stability and responsiveness."
+  }, {
+    "type" : "paragraph",
+    "id" : 504,
+    "page number" : 23,
+    "bounding box" : [ 165.975, 520.472, 560.932, 616.252 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Finally, although the framework explicitly accounts for edge performance characteristics such as latency and availability, these factors are not yet optimized as part of the learning objective. Future research could integrate edge-aware optimization criteria, including energy consumption, computational load, and communication reliability, into the predictive maintenance pipeline. Such extensions would further strengthen the framework’s suitability for large-scale industrial deployment and contribute to the development of fully autonomous, resource-aware PdM and PHM systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 505,
+    "page number" : 23,
+    "bounding box" : [ 166.044, 456.802, 560.767, 506.791 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: Author Contributions: B.L.: Conceptualization, methodology, software, formal analysis, writing—original draft preparation. A.C.: Data curation, validation, investigation, writing—review and editing. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 506,
+    "page number" : 23,
+    "bounding box" : [ 166.394, 437.663, 377.104, 448.817 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research received no external funding."
+  }, {
+    "type" : "paragraph",
+    "id" : 507,
+    "page number" : 23,
+    "bounding box" : [ 166.125, 379.851, 560.761, 429.84 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Data Availability Statement: The data used in this study are not publicly available due to confidentiality constraints associated with industrial operations and data-sharing agreements with the participating plants. Aggregated data and supporting materials may be made available from the corresponding author upon reasonable request, subject to approval from the data providers."
+  }, {
+    "type" : "paragraph",
+    "id" : 508,
+    "page number" : 23,
+    "bounding box" : [ 166.044, 321.877, 559.623, 371.866 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Acknowledgments: The authors would like to express their sincere appreciation to Lusail University for supporting this research. During the preparation of this manuscript, the author used ChatGPT (OpenAI, GPT-5.2) for the purposes of language refinement and structural editing. The author has reviewed and edited the output and takes full responsibility for the content of this publication."
+  }, {
+    "type" : "paragraph",
+    "id" : 509,
+    "page number" : 23,
+    "bounding box" : [ 166.394, 302.738, 421.89, 313.892 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Conflicts of Interest: The authors declare no conflicts of interest."
+  }, {
+    "type" : "heading",
+    "id" : 510,
+    "level" : "Subtitle",
+    "page number" : 23,
+    "bounding box" : [ 165.927, 275.955, 244.293, 290.732 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "Abbreviations"
+  }, {
+    "type" : "paragraph",
+    "id" : 511,
+    "page number" : 23,
+    "bounding box" : [ 165.8, 190.919, 415.911, 272.021 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "The following abbreviations are used in this manuscript: AI-PdM Artificial Intelligence-based Predictive Maintenance PHM Prognostic Health Management R2 Coefficient of Determination MAPE Mean Absolute Percentage Error RMSE Root Mean Square Error"
+  }, {
+    "type" : "heading",
+    "id" : 512,
+    "level" : "Subtitle",
+    "page number" : 23,
+    "bounding box" : [ 35.716, 163.256, 95.48, 178.033 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 513,
+    "level" : "11",
+    "page number" : 23,
+    "bounding box" : [ 35.716, 84.529, 560.762, 159.555 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 518,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 35.716, 135.598, 559.459, 159.555 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Ciobotaru, A.; Corches, C.; Gota, D.; Miclea, L. An Explainable Deep Learning-Based Predictive Maintenance Solution for Air Compressor Condition Monitoring. Sensors 2025, 25, 5797. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 35.716, 110.064, 560.762, 134.021 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Ucar, A.; Karakose, M.; Kırımça, N. Artificial Intelligence for Predictive Maintenance Applications: Key Components, Trustworthiness, and Future Trends. Appl. Sci. 2024, 14, 898. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 35.716, 84.529, 559.275, 108.486 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. El Hammoumi, Z.; Tebr, D.; Charkaoui, Y.; Satauri, I.; El Beqqali, O. Predictive Maintenance Approaches: A Systematic Literature Review. Eng. Proc. 2025, 112, 70. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 514,
+    "page number" : 23,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 70,
+      "page number" : 23,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 515,
+    "page number" : 24,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 95,
+      "page number" : 24,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 24 of 25"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 518,
+    "level" : "11",
+    "page number" : 24,
+    "bounding box" : [ 35.716, 67.906, 560.848, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 27,
+    "previous list id" : 513,
+    "next list id" : 523,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 744.559, 559.272, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Bitam, T.; Yahiaoui, A.; Boubiche, D.E.; Martínez-Peláez, R.; Toral-Cruz, H.; Velarde-Alvarado, P. Artificial Intelligence of Things for Next-Generation Predictive Maintenance. Sensors 2025, 25, 7636. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 719.025, 559.277, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Lee, J.; Kao, H.-A.; Yang, S. Service Innovation and Smart Analytics for Industry 4.0 and Big Data Environment. Procedia CIRP 2014, 16, 3–8. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 693.689, 560.842, 717.448 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Aven, T. On Some Recent Definitions and Analysis Frameworks for Risk, Vulnerability and Resilience. Risk Anal. 2011, 31, 515–522. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 668.155, 560.396, 691.914 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Bagheri, B.; Lee, J. A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems. Manuf. Lett. 2015, 3, 18–23. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 642.423, 560.762, 666.38 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Thyago, P.; Fabrízzio, A.; Roberto, V. A systematic literature review of machine learning methods applied to predictive maintenance. Comput. Ind. Eng. 2019, 137, 106024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 617.087, 560.842, 640.846 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Amzil, K.; Saidi, R.; Cherif, W. Enhancing Critical Industrial Processes with Artificial Intelligence Models. Eng. Proc. 2025, 112, 75. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 591.355, 560.396, 615.312 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Farchi, F.; Farchi, C.; Touzi, B.; Mabrouki, C. A Generic Model Integrating Machine Learning and Lean Six Sigma. Eng. Proc. 2025, 112, 81. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 566.019, 560.845, 589.778 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Choi, T.-M.; Wallace, S.W.; Wang, Y. Big Data Analytics in Operations Management. Prod. Oper. Manag. 2018, 27, 1868–1883. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 553.054, 488.789, 564.244 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Christopher, M.; Peck, H. Building the Resilient Supply Chain. Int. J. Logist. Manag. 2004, 15, 1–13. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 527.52, 559.278, 551.477 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Craighead, C.W.; Blackhurst, J.; Rungtusanatham, M.J.; Handfield, R.B. The Severity of Supply Chain Disruptions: Design Characteristics and Mitigation Capabilities. Decis. Sci. 2007, 38, 131–156. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 501.986, 559.273, 525.943 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Ahire, S.; Greenwood, G.; Gupta, A.; Terwilliger, M. Workforce-constrained Preventive Maintenance Scheduling Using Evolution Strategies. Decis. Sci. 2000, 31, 833–859. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 476.451, 559.274, 500.408 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Lamdjad, B.; Chaiter, A. AI-Powered Predictive Maintenance and Prognostic Health Management Using Edge-Based Predictive Algorithms for Industrial Operations. Preprints 2026, 2026030010. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 451.115, 560.848, 474.874 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Khaja, Z. Ai-Orchestrated Edge Clusters for Predictive Maintenance in Industrial Iot. Int. J. Pharm. Med. Sci. 2025, 2, 13–24. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 425.383, 559.277, 449.34 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Gatta, F.; Giampaolo, F.; Chiaro, D.; Piccialli, F. Predictive maintenance for offshore oil wells by means of deep learning features extraction. Expert Syst. 2024, 41, e13128. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 399.849, 559.278, 423.806 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Mehdiyev, N.; Mayer, L.; Lahann, J.; Fettke, P. Deep learning-based clustering of processes and their visual exploration: An industry 4.0 use case for small, medium-sized enterprises. Expert Syst. 2024, 41, e13139. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 374.315, 559.279, 398.272 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Sierra-Garcia, J.E.; Santos, M. Combining reinforcement learning and conventional control to improve automatic guided vehicles tracking of complex trajectories. Expert Syst. 2024, 41, e13076. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 348.781, 560.392, 372.738 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Thakkar, D.; Ravi, K. AI-driven predictive maintenance for industrial assets using edge computing and machine learning. J. Res. Appl. Sci. Biotechnol. 2024, 3, 363–367. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 323.247, 560.394, 347.204 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Ngozi, E. Predictive Maintenance and System Optimization Using Edge-Integrated AI and Machine Learning Models. Am. Int. J. Comput. Sci. Technol. 2023, 5, 12–22. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 297.713, 560.4, 321.67 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Jüttner, U. Supply chain risk management: Understanding the business requirements from a practitioner perspective. Int. J. Logist. Manag. 2005, 16, 120–141. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 272.179, 559.278, 296.136 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Kang, H.S.; Lee, J.Y.; Choi, S.; Kim, H.; Park, J.H.; Son, J.Y.; Kim, B.H.; Noh, S.D. Smart manufacturing: Past research, present findings, and future directions. Int. J. Precis. Eng. Manuf.-Green Technol. 2016, 3, 111–128. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 234.075, 560.394, 270.602 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Pinto, R.; Gonçalves, G. Emerging Requirements for AI and Edge Computing in Cyber-Physical Production Systems. In Proceedings of the 2025 IEEE 23rd International Conference on Industrial Informatics (INDIN), Kunming, China, 12–15 July 2025; pp. 1–6. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 221.11, 538.795, 232.3 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Lundberg, S.M.; Lee, S.-I. A Unified Approach to Interpreting Model Predictions. arXiv 2017, arXiv:1705.07874. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 195.576, 560.396, 219.533 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Pettit, T.J.; Fiksel, J.; Croxton, K.L. Ensuring supply chain resilience: Development of a conceptual framework. J. Bus. Logist. 2010, 31, 1–21. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 157.473, 560.397, 193.999 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Munteanu, E.; Carbune, V.; Zaporojan, S.; Dulgheru, V. Edge-Enabled Predictive Maintenance of Wind Turbine Blades: Intelligent Embedded Approach. In Proceedings of the 2025 International Conference on Electromechanical and Energy Systems (SIELMEN), Iasi, Romania, 16–18 October 2025; pp. 189–193. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 119.172, 560.397, 155.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Hazra, A.; Kalita, A.; Gurusamy, M. A Combined Approach of Industrial Edge Computing and Machine Learning for Predictive Maintenance. In Proceedings of the 2023 IEEE Globecom Workshops (GC Wkshps), Kuala Lumpur, Malaysia, 4–8 December 2023; pp. 590–595. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 93.44, 560.392, 117.397 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Dey, S.; Nagavalli, S.P. AI-Based Predictive Maintenance in Edge IoT Devices: A Proactive Approach to Latency Reduction. Int. J. Emerg. Trends Comput. Sci. Inf. Technol. 2022, 3, 55–64.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 35.716, 67.906, 559.274, 91.863 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Maiti, R.; Madhukumar, A.; Ernest, T.Z.H. Machine Learning-Driven Edge Caching for Industry 5.0: A Survey of Collaborative and Inference-Enabled Techniques. IEEE Open J. Commun. Soc. 2026, 7, 2464–2503. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 519,
+    "page number" : 24,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 71,
+      "page number" : 24,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 520,
+    "page number" : 25,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 96,
+      "page number" : 25,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Ital",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Algorithms 2026, 19, 286 25 of 25"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 523,
+    "level" : "11",
+    "page number" : 25,
+    "bounding box" : [ 35.716, 565.821, 560.766, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "previous list id" : 518,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 744.559, 559.273, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Manchadi, O.; Ben-Bouazza, F.-E.; Edder, A.; Tafala, I.; Jioudi, B. Predictive Maintenance in Pharma Manufacturing: Challenges and Strategic Directions. Eng. Proc. 2025, 112, 80. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 719.025, 559.276, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Olutimehin, A.T.; Olaniyi, O.O.; Popoola, A.D.; Ogunmolu, A.M.; Kolo, F.H.O. AI and IoT Integration for Predictive Maintenance and Risk Management in Smart Manufacturing. Asian J. Res. Comput. Sci. 2025, 18, 120–142. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 680.922, 560.766, 717.448 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Lamdjad, B. Comparative forecasting of container throughput for maritime logistics using statistical, machine learning and explainable AI models. Marit. Bus. Rev. 2025, 1–17. Available online: https://www.emerald.com/mabr/article-pdf/doi/10.1108/MABR08-2025-0086/11145817/mabr-08-2025-0086en.pdf (accessed on 29 November 2025).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 642.621, 559.726, 679.147 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Patil, D. Artificial Intelligence-Driven Predictive Maintenance in Manufacturing: Enhancing Operational Efficiency, Minimizing Downtime, and Optimizing Resource Utilization. 2024. Available online: https://ssrn.com/abstract=5057406 (accessed on 1 March 2026).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 616.889, 559.278, 640.846 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Simion, D.; Postolache, F.; Fleacă, B.; Fleacă, E. AI-Driven Predictive Maintenance in Modern Maritime Transport—Enhancing Operational Efficiency and Reliability. Appl. Sci. 2024, 14, 9439. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 591.355, 559.274, 615.312 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "36. Wamba, S.F.; Gunasekaran, A.; Akter, S.; Ren, S.J.F.; Dubey, R.; Childe, S.J. Big data and predictive analytics for supply chain and organizational performance. J. Bus. Res. 2017, 70, 308–317. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 35.716, 565.821, 559.273, 589.778 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "37. Bello, S.F.; Wada, I.U.; Ige, O.B.; Chianumba, E.C.; Adebayo, S.A. AI-driven predictive maintenance and optimization of renewable energy systems for enhanced operational efficiency and longevity. Int. J. Sci. Res. Arch. 2024, 13, 2823–2837. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 524,
+    "page number" : 25,
+    "bounding box" : [ 35.447, 511.797, 559.28, 548.323 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  }, {
+    "type" : "footer",
+    "id" : 525,
+    "page number" : 25,
+    "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 72,
+      "page number" : 25,
+      "bounding box" : [ 432.87, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/a19040286"
+    } ]
+  } ]
+}

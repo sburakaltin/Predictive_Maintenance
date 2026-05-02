@@ -1,0 +1,3709 @@
+{
+  "file name" : "34.pdf",
+  "number of pages" : 11,
+  "author" : null,
+  "title" : null,
+  "creation date" : "D:20260306090226+01'00'",
+  "modification date" : "D:20260415120113+02'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 59,
+    "page number" : 1,
+    "bounding box" : [ 390.569, 757.909, 546.795, 767.909 ],
+    "font" : "Corbel",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "www.nature.com/scientificreports"
+  }, {
+    "type" : "paragraph",
+    "id" : 54,
+    "page number" : 1,
+    "bounding box" : [ 93.568, 630.086, 140.872, 648.086 ],
+    "font" : "Corbel-Bold",
+    "font size" : 18.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "OPEN"
+  }, {
+    "type" : "heading",
+    "id" : 44,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 155.906, 532.632, 543.488, 648.632 ],
+    "heading level" : 1,
+    "font" : "Corbel-Bold",
+    "font size" : 26.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Adaptive machine learning models for predictive maintenance in industrial internet of things (IIoT) systems"
+  }, {
+    "type" : "heading",
+    "id" : 45,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 155.906, 514.756, 434.845, 527.062 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "S. Subashree1, M. Rajakumaran2, G. Pushpa1 & R. Manivannan3"
+  }, {
+    "type" : "paragraph",
+    "id" : 46,
+    "page number" : 1,
+    "bounding box" : [ 155.906, 286.083, 551.834, 504.083 ],
+    "font" : "Corbel-Bold",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The research examines how RL and DRL models can be used to enhance the prediction of maintenance needs in the IIoT setting. The purpose is to assess the accuracy, precision, recall, F1 score and the AUC-ROC of adaptive models against non-adaptive models. It is clear from the results that adaptive models outperform traditional models in fault prediction, providing better accuracy and more accurate predictions. Furthermore, adaptive models can handle changes in the environment and the equipment better than other models. Moreover, when these models are used with edge and cloud computing, they make sure that decisions are applied quickly and that the models can be easily integrated into industrial systems. The research also demonstrates that adaptive machine learning models can improve the accuracy of the model and reduce both false positive and false negative cases. When compared to non-adaptive baselines, adaptive models increased recall by up to 11.2% points and precision by up to 10.2% points. The Adaptive Ensemble performed best overall (93.4% accuracy, 95.2% AUC-ROC). Experimental assessment reveals consistent and statistically significant enhancements in performance for adaptive models across all criteria. The Adaptive Ensemble attains superior performance, achieving 93.4% accuracy and 95.2% AUC-ROC. In comparison to the most robust non-adaptive baseline (Random Forest), it enhances memory by 8.5% points, precision by 7.8% points, and F1-score by 8.2% points. In comparison to SVM, recall increases by 11.2% points and precision by 10.2% points, signifying significant decreases in undetected faults and false positives. The study provides information about how adaptive learning can be used in IIoT-based PdM systems and offers advice to industries that want to make their PdM systems more reliable, effective and costefficient."
+  }, {
+    "type" : "paragraph",
+    "id" : 47,
+    "page number" : 1,
+    "bounding box" : [ 155.906, 254.646, 551.273, 277.787 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Keywords Industrial Internet of Things (IIoT), Predictive Maintenance (PdM), Adaptive Machine Learning, Deep Reinforcement Learning (DRL)"
+  }, {
+    "type" : "paragraph",
+    "id" : 48,
+    "page number" : 1,
+    "bounding box" : [ 155.906, 202.646, 554.212, 244.787 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Models that continue to evolve after deployment in response to incoming data and performance signals are described by adaptive machine learning. Online parameter updates, drift detection followed by retraining, or dynamic model selection are some methods of adaptation. In contrast, models in conventional machine learning pipelines are taught offline and stay that way until they are manually retrained."
+  }, {
+    "type" : "heading",
+    "id" : 49,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 155.906, 183.323, 264.266, 193.323 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Dynamic model selection"
+  }, {
+    "type" : "paragraph",
+    "id" : 50,
+    "page number" : 1,
+    "bounding box" : [ 155.906, 152.646, 554.161, 184.787 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Dynamic Model Selection (DMS) technique is employed that adaptively chooses the top-performing model from a candidate pool based on recent validation performance in order to address performance degradation under changing data distributions."
+  }, {
+    "type" : "paragraph",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 167.906, 122.646, 554.192, 154.787 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The candidate pool of models includes, Adaptive SGD, Adaptive Boosting, Random forest. When new data becomes available, each model is updated gradually whenever new data is available. In contrast to static model deployment, DMS chooses the model that optimizes predicted reliability under the"
+  }, {
+    "type" : "paragraph",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 155.906, 102.646, 554.174, 124.787 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "current operational conditions by continuously assessing the model’s efficacy throughout a sliding assessment window."
+  }, {
+    "type" : "paragraph",
+    "id" : 53,
+    "page number" : 1,
+    "bounding box" : [ 155.814, 43.175, 554.257, 82.712 ],
+    "font" : "Corbel",
+    "font size" : 8.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1Department of Computer Science and Engineering, E.G.S. Pillay Engineering College, Nagapattinam, Tamil Nadu, India. 2School of Computing, SASTRA Deemed to be University, Thanjavur, Tamil Nadu, India. 3Department of Information Technology, E.G.S. Pillay Engineering College, Nagapattinam, Tamil Nadu, India. email: ssshreesuba@gmail.com"
+  }, {
+    "type" : "footer",
+    "id" : 62,
+    "page number" : 1,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 1,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 1"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 63,
+    "page number" : 2,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 2,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 64,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 155.906, 721.863, 256.996, 731.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Mechanism of selection"
+  }, {
+    "type" : "paragraph",
+    "id" : 65,
+    "page number" : 2,
+    "bounding box" : [ 155.906, 701.187, 485.384, 723.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Let M={M 1, M 2,…, M k } indicates the candidate model set. A sliding validation window of the most recent n samples at time t is represented by W t."
+  }, {
+    "type" : "paragraph",
+    "id" : 66,
+    "page number" : 2,
+    "bounding box" : [ 167.906, 641.187, 554.199, 703.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1 (,) F1(M i). W t represents the model M i’s F1-score. assessed using the window Wt Selection Criterion. At every interval of evaluation: M t ∗ = F1(M i, W t) mention the F1 score of the model. Where: The main metric for selection is the F1-score. When F1 differences are negligible, recall is employed"
+  }, {
+    "type" : "list",
+    "id" : 67,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 155.906, 621.187, 554.164, 643.634 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 118,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 155.906, 621.187, 554.164, 643.634 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "as a secondary criteria. The tie-breaking metric is AUC-ROC. The model that was chosen, M t ∗ is put into use for forecasting till the subsequent assessment cycle.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 68,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 155.906, 601.863, 224.376, 611.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Adaptive model"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 2,
+    "bounding box" : [ 155.906, 541.187, 554.208, 603.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "With IIoT technology, smart sensors and devices are now being used in industries to monitor and maintain equipment without delay. It has been shown that the merging of IIoT with improved predictive maintenance can help improve reliability, cut costs and stop major breakdowns from occurring. PdM involves spotting possible reasons for a machine or system to fail and acting to prevent that failure before it happens1. The introduction of IIoT has made it possible to collect much more real time data which can be used to help with decision making and improve how resources are used2,3."
+  }, {
+    "type" : "paragraph",
+    "id" : 70,
+    "page number" : 2,
+    "bounding box" : [ 155.905, 491.187, 554.176, 543.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Over the past few years, there has been more interest in using ML for predictive maintenance with IIoT. Machine learning algorithms help analyze sensor data and can more reliably predict when a system will fail than traditional maintenance approaches4. Deep learning algorithms are being applied to deal with a lot of unstructured data and have been part of predictive maintenance for some time5,6. Yet, using these models in factories is not simple because data, noise and the dynamics of IIoT systems can vary a lot7."
+  }, {
+    "type" : "paragraph",
+    "id" : 71,
+    "page number" : 2,
+    "bounding box" : [ 155.906, 411.187, 554.223, 493.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The goal of this research is to learn how adaptive machine learning can be used to enhance predictive maintenance in IIoT systems. Although traditional machine learning methods work well for predictive maintenance, they are not very flexible when handling the changing data patterns and different operating conditions in industries8. These models are designed to learn and update as they go and are the best answer to these issues. They respond well to changes in data over time and use the current operational data to improve their predictions9,10. More specifically, integrating frameworks of cloud and edge computings with adaptive machine learning models into the system can also provide scalability and response time solution which is crucial in dealing with the latency and real-time processing in IIoT systems10,11."
+  }, {
+    "type" : "paragraph",
+    "id" : 72,
+    "page number" : 2,
+    "bounding box" : [ 155.906, 341.187, 554.216, 413.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The purpose of this study is to assess the effectiveness of adaptive machine learning algorithms for prognosis in IIoT systems. More specifically in this study, the purpose will be to compare the performance of the adaptive and non-adaptive models of machine learning on the basis of prediction accuracy, precision, sensitivity, Fmeasure and the area under ROC curve. The study will also look at the application of these models in real industrial environments, particularly on issues of robustness and stability of the models. More, specifically, the study also seeks to address some of the conceptual issues of IIoT-based PdM, which include data variation, sensor noise, and the SML incorporation6,12,13."
+  }, {
+    "type" : "paragraph",
+    "id" : 73,
+    "page number" : 2,
+    "bounding box" : [ 155.906, 301.187, 554.184, 343.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The current investigation on adaptive machine learning models for predictive maintenance has resulted in the following research proposals which will advance the knowledge of IIoT in the bid to reduce maintenance time and cost in industries where performance of equipment is dependent. This research’s findings will be useful to industries that want to include adaptive learning systems in their predictive maintenance strategies."
+  }, {
+    "type" : "heading",
+    "id" : 74,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 155.906, 279.607, 237.246, 290.607 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Literature review"
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "page number" : 2,
+    "bounding box" : [ 155.906, 39.186, 554.234, 281.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Using IIoT and PdM together has been shown to be a good way to increase productivity and reduce the amount of time equipment is down in large industries. With data gathering and analysis from IIoT, it is possible to follow equipment closely and arrange maintenance when needed1. Some of the ML models used in PdM are SVM and RF, but these models are not efficient in dealing with the complexity and high dimensionality of IIoT data2. The Convolutional and Recurrent Neural Networks proposed under DL models have been found to be useful in new approaches that handle time series sensor data with increased accuracy of prediction. However, both DL methods are computationally intensive and demand ample labeled data which hampers the applicability of these methods in industrial settings5 funds8. The use of adaptive machine learning models that are capable of learning from new data and updating their parameters in real-time will help to address the problem of changing industrial environments due to wear and tear and other factors9. RL and DRL have been investigated for PdM because they can learn from experience and adapt to the current operational environment and make better maintenance decisions10,14. It allows the incorporation of adaptive models into edge and cloud computing platforms to serve real-time data in a highly effective manner, and can also scale up the application for even larger systems, locally at the edge and in wider cloud systems to minimize latency and maximize response time11,12). Nevertheless, some of the issues that are still open include the sensor noise, data variability and the incorporation of these adaptive models into the current industrial systems. Some of the challenges that need further research to be addressed to enhance the applicability of adaptive models include; There is still a need to continue with the research to overcome these challenges and improve on the usefulness of the adaptive models towards the practical implementation on the IIoT-based predictive maintenance systems as revealed in Zheng et al7; Resende et al15. In general, the use of adaptive machine learning models is promising for improving the predictive maintenance in IIoT systems and outperforms other approaches10,13. Prior research identifies intersample variability and sensor noise as two of wearable sensing systems’ biggest problems. This work uses a moving average filter to smooth out high-frequency variations in the raw data in order to mitigate sensor noise. Feature normalization reduces data variability by guaranteeing uniform input distributions among participants."
+  }, {
+    "type" : "footer",
+    "id" : 79,
+    "page number" : 2,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 2,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 2"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 80,
+    "page number" : 3,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 3,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 632.08, 554.216, 734.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Furthermore, median-based outlier elimination is used to lessen the impact of intermittent sensor artifacts. These filtering techniques attenuate high-frequency noise components while preserving underlying degradation trends that are critical for fault prediction. Furthermore, these broad concepts have been anchored in specific PdM applications by recent domain-specific research. Zeng et al., (2023), for instance, investigate hybrid and ensemble learning frameworks with an emphasis on model adaptation and sensor drift, IEEE Access. Similar to this focus on failures under various load and noise settings as they examine adaptive retraining techniques and real-time anomaly detection for industrial systems16. Deep learning-based multisensor feature learning for fault classification under noisy data regimes is the subject of another recent study by Youssef et al.17. The significance of tackling sensor noise, variability, and model updating in industrial time-series analytics is further supported by thorough evaluations of machine learning pipelines for PdM18–22."
+  }, {
+    "type" : "heading",
+    "id" : 82,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 155.906, 612.757, 197.956, 622.757 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Summary"
+  }, {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 582.08, 554.198, 614.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "To capture changing patterns, we use sliding-window retraining to implement adaptive model updating. To depict condition-dependent dynamics, time-dependent statistical characteristics (mean, RMS, kurtosis, and skewness) are extracted over rolling windows."
+  }, {
+    "type" : "paragraph",
+    "id" : 84,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 502.08, 554.223, 584.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Based on recent validation results under the current circumstances, the dynamic model selection method selects the top-performing classifier. Model correctness is tracked over time by a drift detection approach based on performance deterioration thresholds. Recent data batches are used to gradually update the model when drift is identified. The classifier stays in Redundant variables are eliminated via correlation-based feature selection. The most informative components are kept while dimensionality is decreased through the use of Principal Component Analysis (PCA).The performance gains of adaptive models over non-adaptive baselines are better represented by improvements in Recall, Precision, F1-score, and AUC-ROC than by direct false positive/negative counts, according to the classification results shown in Table 1 for clarity."
+  }, {
+    "type" : "heading",
+    "id" : 85,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 155.906, 480.5, 219.86, 491.5 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Methodology"
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 420.08, 554.234, 482.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The methodological approach used in this research was to describe and implement the strategy for assessing and deploying adaptable machine learning models in predictive maintenance signals in IIoT systems. This also involved designing for the implementation of the predictive system, collections of large datasets from the manufacturing industries, data cleaning, calibration of relevant models based on evolving trends and an exhaustive assessment of the model accuracy. The design of each phase of the methodology was made to be as close to industrial application as possible while maintaining the scientific validity of the research."
+  }, {
+    "type" : "heading",
+    "id" : 87,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 155.906, 400.757, 237.826, 410.757 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "System framework"
+  }, {
+    "type" : "paragraph",
+    "id" : 88,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 280.08, 554.224, 402.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The system architecture that has been developed in this study aimed at mimicking an IIoT based industrial environment where equipment health is constantly assessed using sensors. The framework comprised of four sub-modules, namely data acquisition, communication, processing, and feedback. The data acquisition module was involved in the real-time collection of operation data from several sensors installed in industrial equipment. The communication layer made it possible to transmit the sensor data to the central processing unit securely and efficiently using the common IIoT communication protocols like MQTT and OPC UA. The processing unit of the system, was able to use adaptive machine learning models that could learn from the streaming data and identify symptoms of equipment failure. The feedback mechanism transformed the model predictions into usable information by providing alerts to the system operators to take necessary action and reduce the chances of failure. In order to facilitate adaptive model learning and low-latency predictive maintenance, the suggested system uses a hybrid edge-cloud architecture. IIoT sensors, edge computing nodes, and a cloud-based analytics layer make up the framework."
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 260.08, 554.132, 282.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Heterogeneous sensors continually gather multivariate time-series data from industrial machinery at the data collection layer. Industrial communication protocols are used to send these data to edge nodes."
+  }, {
+    "type" : "paragraph",
+    "id" : 90,
+    "page number" : 3,
+    "bounding box" : [ 155.906, 220.08, 554.172, 262.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Sensor data preprocesses at the edge layer using sliding-window segmentation, normalization, and noise filtering. To provide rapid defect prediction and maintenance warnings, real-time inference is carried out locally utilizing installed machine learning models. Edge-based inference guarantees responsiveness and reduces communication latency."
+  }, {
+    "type" : "table",
+    "id" : 91,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 60.898, 69.393, 554.457, 170.273 ],
+    "number of rows" : 6,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 61.04, 158.543, 183.044, 169.99 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 3,
+          "bounding box" : [ 64.039, 160.023, 153.225, 169.711 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Literature-identified challenge"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 183.044, 158.543, 310.203, 169.99 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 3,
+          "bounding box" : [ 186.044, 160.023, 234.013, 169.711 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Impact reported"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 310.203, 158.543, 451.212, 169.99 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 3,
+          "bounding box" : [ 313.202, 160.023, 435.232, 169.711 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Proposed adaptive technique in this study"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 451.212, 158.543, 554.315, 169.99 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 3,
+          "bounding box" : [ 454.212, 160.023, 527.991, 169.711 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Mechanism of mitigation"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 61.04, 139.207, 183.044, 158.543 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 3,
+          "bounding box" : [ 64.04, 144.576, 178.957, 154.019 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Noise in sensor & Measurement of errors"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 183.044, 139.207, 310.203, 158.543 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 3,
+          "bounding box" : [ 186.045, 144.576, 306.203, 154.019 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "instability in predictions, false notifications"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 310.203, 139.207, 451.212, 158.543 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 3,
+          "bounding box" : [ 313.203, 140.826, 439.88, 157.769 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Removal of outliers, normalization, ensemble learning"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 451.212, 139.207, 554.315, 158.543 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 3,
+          "bounding box" : [ 454.213, 140.826, 544.525, 157.769 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Variance reductions and Feature distribution selection."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 61.04, 119.872, 183.044, 139.207 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 3,
+          "bounding box" : [ 64.04, 125.241, 127.473, 134.684 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Operational variability"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 183.044, 119.872, 310.203, 139.207 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 3,
+          "bounding box" : [ 186.045, 125.241, 287.095, 134.684 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Distribution shifts across conditions"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 310.203, 119.872, 451.212, 139.207 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 3,
+          "bounding box" : [ 313.203, 125.241, 428.904, 134.684 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Adaptive SGD, Dynamic Model Selection"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 451.212, 119.872, 554.315, 139.207 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 12,
+          "page number" : 3,
+          "bounding box" : [ 454.213, 121.491, 550.313, 138.434 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "periodically updates model parameters to reflect evolving data"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 61.04, 100.537, 183.044, 119.872 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 13,
+          "page number" : 3,
+          "bounding box" : [ 64.04, 105.905, 101.622, 115.348 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Concept drift"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 183.044, 100.537, 310.203, 119.872 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 14,
+          "page number" : 3,
+          "bounding box" : [ 186.045, 105.905, 285.345, 115.348 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Performance degradation over time"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 310.203, 100.537, 451.212, 119.872 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 15,
+          "page number" : 3,
+          "bounding box" : [ 313.203, 105.905, 445.473, 115.348 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Sliding-window evaluation, Adaptive Ensemble"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 451.212, 100.537, 554.315, 119.872 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 16,
+          "page number" : 3,
+          "bounding box" : [ 454.213, 102.155, 535.985, 119.098 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Alignment maintenance with recent data patterns"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 61.04, 88.718, 183.044, 100.537 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 17,
+          "page number" : 3,
+          "bounding box" : [ 64.04, 90.32, 109.042, 99.763 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Class imbalance"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 183.044, 88.718, 310.203, 100.537 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 18,
+          "page number" : 3,
+          "bounding box" : [ 186.045, 90.32, 303.537, 99.763 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "High false negatives in rare fault detection"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 310.203, 88.718, 451.212, 100.537 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 19,
+          "page number" : 3,
+          "bounding box" : [ 313.203, 90.32, 438.284, 99.763 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "F1-score optimization, recall-aware selection"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 451.212, 88.718, 554.315, 100.537 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 20,
+          "page number" : 3,
+          "bounding box" : [ 454.213, 90.32, 534.739, 99.763 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Balances precision and recall"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 61.04, 69.643, 183.044, 88.718 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 21,
+          "page number" : 3,
+          "bounding box" : [ 64.04, 74.848, 161.227, 84.291 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Model overfitting to historical data"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 183.044, 69.643, 310.203, 88.718 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 22,
+          "page number" : 3,
+          "bounding box" : [ 186.045, 74.848, 284.603, 84.291 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Poor generalization to new regimes"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 310.203, 69.643, 451.212, 88.718 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 23,
+          "page number" : 3,
+          "bounding box" : [ 313.203, 74.848, 447.125, 84.291 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Periodic revaluation and switching dynamically."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 451.212, 69.643, 554.315, 88.718 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 24,
+          "page number" : 3,
+          "bounding box" : [ 454.213, 71.098, 536.811, 88.041 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Prevents reliance on outdated statistical patterns"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 93,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 155.906, 49.11, 333.014, 61.566 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 177,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 155.906, 49.11, 333.014, 61.566 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 1. Identifies challenges in literature survey.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 97,
+    "page number" : 3,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 3,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 3"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 98,
+    "page number" : 4,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 4,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 99,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 155.906, 721.863, 220.846, 731.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Data collection"
+  }, {
+    "type" : "paragraph",
+    "id" : 100,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 651.187, 554.217, 723.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "To test the proposed models, the study employed the datasets that are frequently used in the predictive maintenance literature. These datasets were the NASA Turbofan Engine Degradation Simulation dataset and the PRONOSTIA bearing dataset which are real-world degradation datasets of industrial equipment. Each dataset consisted of multivariate time series data obtained from the sensors which included vibration, temperature, rotational speed and pressure. The presence of normal and degraded operational states made it possible to create models that could identify early signs of failure. These metrics include representativeness of the datasets, the quality of the data, and their applicability to predictive maintenance in IIoT systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 101,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 611.187, 554.19, 653.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The moving average (MA) filter was used, In this dataset, the sensor signals primarily show high-frequency stochastic noise without significant dynamics of non-linear states. MA filtering is appropriate for continuous PdM deployment and is computationally light. It maintains low-frequency deterioration patterns that are important for understanding the propagation of faults. Explicit state-space modeling assumptions are not required."
+  }, {
+    "type" : "heading",
+    "id" : 102,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 155.906, 591.863, 239.176, 601.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Data preprocessing"
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 431.187, 554.234, 593.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Due to the high instabilities and variability in the data collected from the sensors, it became necessary and crucial to preprocess the data in a bid to feed it to the machine learning models. First, the datasets were checked for any missing values and these were imputed using linear interpolation and forward-fill methods in order to maintain the time series nature of the data. To deal with outliers and sensor noise, filters were applied, mostly moving average and smoothing which eliminated variance while preserving significant trends. Statistical features such as mean, standard deviation, skewness and kurtosis were calculated from the raw signals while frequencybased features were obtained using Fast Fourier Transform. These features were able to capture the temporal variations and periodicity of the machinery degradation. Therefore, all features were scaled to the range of [0, 1] using min-max scaling to bring all features to the same scale and improve the convergence of the model during training. Other techniques like Principal Component Analysis (PCA) were also applied to remove features that are irrelevant in order to minimise computational cost. In order to report the quantitative impact of Principal Component Analysis (PCA) and to justify its use. The high dimensionality and multicollinearity of multisensor IIoT data are addressed with PCA, which lowers computational cost while maintaining the most informative elements. The findings indicate that while maintaining 95% of the cumulative variance, PCA reduces the feature dimensionality by about 62% with a decrease in prediction accuracy of less than 0.8%. These findings show that PCA significantly reduces dimensionality while having no effect on model performance."
+  }, {
+    "type" : "heading",
+    "id" : 104,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 155.906, 411.863, 254.666, 421.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Model implementation"
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 261.187, 554.231, 413.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "To be precise, the research interest of this study was on dynamic adaptive machine learning that is suitable for the industry. Unlike the static models which were trained with a fixed data base, the adaptive models were programmed to learn incrementally as new data was fed into the model hence the high accuracy of the models even under the changing operation conditions. Consequently, uses of new learning, stochastic gradient descent classifiers, incremental decision trees, and other subsequent learning algorithms were also applied. Furthermore, other techniques such as online bagging and adaptive boosting were also employed to increase the stability of the models. To solve the problem of concept drift, the Drift Detection Method (DDM) and the Early Drift Detection Method (EDDM) were used in the learning process to spot changes in the data and advise when the model ought to be updated. Because incremental decision trees are trained online, they may adjust to both sudden and gradual changes in data distributions by changing split criteria and node statistics as new data becomes available. Adaptive boosting, which prioritizes recent patterns that can represent changing system behaviour, is used to further improve flexibility by giving misclassified examples higher weights. Statistical drift detection techniques are used to explicitly monitor concept drift. When drift is discovered, the impacted components of the model are selectively updated or retrained, ensuring sustained predictive performance under changing operational conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 191.186, 554.216, 263.327 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Because of this, the predictive maintenance system could be both accurate and adaptive and handle new problems that may occur in real world applications, by using online learning and drift detection. The Drift Detection Method (DDM) is incorporated and the Early Drift Detection Method (EDDM) as statistical monitoring components that operate on the online classification error stream in order to track temporal distribution variations in streaming predictive maintenance data. Process the data in 500 sample sliding windows are used, while drift evaluation takes place at the conclusion of each window, drift statistics are updated incrementally for every instance. The present model is kept if no drift is found."
+  }, {
+    "type" : "paragraph",
+    "id" : 107,
+    "page number" : 4,
+    "bounding box" : [ 167.906, 171.186, 396.619, 193.327 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Recent samples are buffered if the warning threshold is reached. Retraining is started once the drift level is reached."
+  }, {
+    "type" : "heading",
+    "id" : 108,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 155.906, 151.863, 230.621, 161.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Model evaluation"
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 91.186, 554.21, 153.327 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The proposed models were evaluated using different metrics designed for binary and multi-class classification. A sliding-window approach is used for time-series cross-validation in order to maintain temporal relationships and avoid information leaking. T_train = 10,000 time steps make up each training window, and T_test = 2,000 time steps make up each testing window. Training sets partially overlap as a result of the window being advanced by 2,000 time steps. To maintain temporal ordering, we use a rolling-origin time-series cross-validation approach. The configuration that was chosen as follows,"
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 4,
+    "bounding box" : [ 155.906, 41.186, 554.206, 93.327 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "T train = 10,000, T-test = 2,000. was established by taking into account the following three factors like first the stability of statistics. Initial tests revealed that training windows with fewer than 8,000 samples resulted in a high F1-score variance (± 3.8%), suggesting that fault patterns were not adequately represented. Performance variance stabilized around 10,000"
+  }, {
+    "type" : "footer",
+    "id" : 114,
+    "page number" : 4,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 25,
+      "page number" : 4,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 4"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 115,
+    "page number" : 5,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 5,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 682.08, 554.217, 734.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "samples (± 1.2%). Second the Representation of Fault A minimum of 10,000 training instances guarantees enough minority-class examples for dependable learning following SMOTE augmentation, given the class imbalance (rare mistakes ≈ 6–9% of samples) third the Reactivity to Drift A test window of 2,000 samples balances: Adequate reliability of evaluation, Early identification of notion drift Larger test windows (e.g., 4,000) reduced adaptability by delaying drift detection by about 18–22%."
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 662.08, 554.176, 684.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "To assess the general accuracy of the model, accuracy was used and to check its ability to detect failures, precision and recall were used. The ability of the models to distinguish between positive and negative cases"
+  }, {
+    "type" : "list",
+    "id" : 118,
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 155.906, 612.08, 554.228, 664.221 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 67,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 155.906, 612.08, 554.228, 664.221 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "at various thresholds was measured using the AUC-ROC. To solve the issue of data leakage and to ensure the results could be replicated, the time series cross validation approach was used to maintain the order of the data. To show the benefits of continuous learning and concept drift adaptation, adaptive models were compared with non-adaptive models. Besides the model performance, the response time, stability and feasibility of the model to be deployed in real-time IIoT context was also evaluated.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 119,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 582.08, 554.218, 614.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The average of all validation folds is used to report model performance. This evaluation process allows fair assessment under realistic IIoT operating conditions and guarantees that predictions are always made on future data relevant to the training period."
+  }, {
+    "type" : "heading",
+    "id" : 120,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 155.906, 560.5, 190.505, 571.5 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Results"
+  }, {
+    "type" : "paragraph",
+    "id" : 121,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 480.08, 554.224, 562.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "This section provides a comparison of the results of using both adaptive and non-adaptive machine learning for the purpose of predictive maintenance in IIoT. The models were assessed using the classification performance measures, including accuracy, precision, recall, F1 score, and AUC-ROC on the datasets that simulate various operational conditions of industrial equipment. It can also be inferred from the analysis that there are consistencies and benefits of using adapted learning in dynamic and real time maintenance systems. To measure the impact of adaptive learning, we compare the proposed adaptive models to non-adaptive baselines across numerous crossvalidation folds. We present the mean, standard deviation, and 95% confidence intervals for every metric. Paired t-tests are used to determine statistical significance, with each fold acting as a paired observation."
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 460.08, 554.153, 482.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The results are summarized in Table 1. When compared to their non-adaptive equivalents, the adaptive incremental decision tree and adaptive boosting models obtain greater F1-scores and predictive accuracy."
+  }, {
+    "type" : "heading",
+    "id" : 123,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 155.906, 440.757, 328.111, 450.757 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Accuracy and classification performance"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 400.08, 554.221, 442.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As depicted in the Table 1 the adaptive models achieved higher levels of accuracy as compared to the nonadaptive models. The best result was obtained by the Adaptive Ensemble model which was 93.4%, and the Adaptive Boosting and Adaptive SGD models were also very close with 91.2% and 89.7% respectively. On the other hand, the non-adaptive Random Forest and Support Vector Machine (SVM) models had lower accuracy of"
+  }, {
+    "type" : "list",
+    "id" : 125,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 155.906, 340.08, 554.226, 402.221 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 136,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 155.906, 340.08, 554.226, 402.221 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "86.1% and 84.3% respectively. This means that the adaptive models are more effective in learning and responding to changes in equipment behaviour than the non-adaptive models by a margin of nearly 9% as depicted by the lowest performing adaptive model as compared to the highest performing non-adaptive model. The performance difference is best illustrated in the bar chart presented in the Fig. 1, which shows model accuracy. The chart also follows the same pattern of improvement from static to adaptive models, which is supported by the numbers in the table.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 126,
+    "page number" : 5,
+    "bounding box" : [ 155.906, 70.893, 535.586, 293.493 ],
+    "source" : "34_images/imageFile1.png"
+  }, {
+    "type" : "list",
+    "id" : 128,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 155.906, 49.11, 365.99, 61.566 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 137,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 155.906, 49.11, 365.99, 61.566 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fig. 1. Accuracy comparison of machine learning models.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 132,
+    "page number" : 5,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 26,
+      "page number" : 5,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 5"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 133,
+    "page number" : 6,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 6,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 134,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 155.906, 721.863, 319.196, 731.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Precision, recall, and F1 score analysis"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 6,
+    "bounding box" : [ 155.906, 661.187, 554.204, 723.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In addition to the raw accuracy, the analysis of precision, recall, and F1 score in Table 1 shows that the adaptive models are stable and reliable in identifying machine failures. The Adaptive Ensemble model performed the best in all the three measurements, with the precision being 92.7%, recall 91.9%, and the F1 score 92.3%. These results show that the proposed model can achieve low false positive and false negative rates, which are essential for predictive maintenance, where the ability to identify faults at the right time and accurately determines operational safety and cost. Adaptive Boosting and Adaptive SGD also obtained high F1 scores of 90.0% and"
+  }, {
+    "type" : "list",
+    "id" : 136,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 155.906, 621.187, 554.172, 663.328 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 125,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 155.906, 621.187, 554.172, 663.328 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "87.8% respectively, which shows that the model is equally effective in terms of both precision and recall. On the other hand, non-adaptive models had a relatively low accuracy with the highest F1 score of 84.1% achieved by the Random Forest model. Figure 2 depicts these F1 scores and the relative distance between the adaptive and non-adaptive models shows how much continuous learning has enhanced the models. The height of the bars in",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 137,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 155.906, 601.187, 554.184, 623.328 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 128,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 155.906, 601.187, 554.184, 623.328 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fig. 2 corresponds with the data in Table 1, which supports the conclusion that adaptive models provide better generalisation under the changing environment.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 138,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 155.906, 581.863, 345.471, 591.863 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Discriminative capability: AUC-ROC analysis"
+  }, {
+    "type" : "paragraph",
+    "id" : 139,
+    "page number" : 6,
+    "bounding box" : [ 155.906, 481.187, 554.215, 583.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The AUC-ROC is a measure of the model’s discrimination power at all classification points. As presented in Table 1, the Adaptive Ensemble model achieved the highest AUC-ROC value of 95.2% meaning that the model has a high capability of differentiating between normal and faulty equipment conditions. The results of the Adaptive Boosting and Adaptive SGD were 93.1% and 91.4% respectively in AUC-ROC which also indicates the reliability of these models. On the other hand, the non-adaptive models which include Random Forest and SVM achieved 88.3% and 86.8% respectively. These lower values indicate that there may be some shortcomings in their ability to retain the ability to predict in changing industrial environments. Figure 3 shows the bar plot of the AUC-ROC of all the models. The results of the analysis of the test results are quite similar to the tabular data, with adaptive models being significantly higher than non-adaptive ones, which confirms their applicability in real-world IIoT-based maintenance systems where data drift is a reality and any errors are expensive."
+  }, {
+    "type" : "heading",
+    "id" : 140,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 155.906, 459.607, 206.0, 470.607 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 6,
+    "bounding box" : [ 155.906, 369.187, 554.231, 461.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The findings shown in this research show the effectiveness of the adaptive machine learning models compared to the non-adaptive models for the predictive maintenance in IIoT systems. As indicated in Table 1, the adaptive models, especially Adaptive Ensemble and Adaptive Boosting, outperformed the other models in all the evaluation parameters such as accuracy, precision, recall, F1 score, and AUC-ROC. These are important in evaluating the real-world performance of the predictive maintenance systems since they determine the reliability and timeliness of the system in identifying failed equipment. The enhanced performance of adaptive models can be attributed to the fact that the models are able to update themselves with the real-time data which is very much useful in the industrial environment where conditions of machines and the data from the sensors change with time."
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "page number" : 6,
+    "bounding box" : [ 155.906, 329.187, 554.217, 371.328 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Figure 1 – comparison of model accuracy In figure one that compares different models, the result shown brings out the fact that adaptive models are more accurate in their predictions. The Adaptive Ensemble model had a better performance with an accuracy of 93.4% compared to the non-adaptive models of 84.3% for the SVM and 86.1% for the RF. The difference of 9.2% between the best adaptive model and the best non-adaptive"
+  }, {
+    "type" : "image",
+    "id" : 143,
+    "page number" : 6,
+    "bounding box" : [ 155.906, 70.893, 551.306, 302.973 ],
+    "source" : "34_images/imageFile2.png"
+  }, {
+    "type" : "list",
+    "id" : 145,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 155.906, 49.11, 362.012, 61.566 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 159,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 155.906, 49.11, 362.012, 61.566 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fig. 2. F1 score comparison of machine learning models.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 149,
+    "page number" : 6,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 6,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 150,
+    "page number" : 7,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 7,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 157,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 513.823, 527.425, 731.863 ],
+    "source" : "34_images/imageFile3.png"
+  }, {
+    "type" : "list",
+    "id" : 159,
+    "level" : "4",
+    "page number" : 7,
+    "bounding box" : [ 155.906, 492.04, 372.074, 504.496 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 145,
+    "next list id" : 180,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 155.906, 492.04, 372.074, 504.496 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fig. 3. AUC-ROC comparison of machine learning models.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 423.466, 554.219, 465.607 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "model is quite significant, which means that adaptive learning strategies are more effective in capturing the dynamic patterns in the sensor data and enhancing the accuracy of fault prediction. Adaptive models yield a higher accuracy that is highly valuable in industries implementing predictive maintenance, since it results in less failures, hence lower maintenance and downtime costs."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 323.466, 554.214, 425.607 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Moreover, Fig. 2 shows the F1 score which is the average of precision and recall. Whereas, precision is used to reduce the number of false positives (when a fault is assumed to be present when it is not) and recall is used to ensure that potential failures are identified at an early stage. The highest F1 score was recorded by the Adaptive Ensemble model at 92.3% while Adaptive Boosting recorded a score of 90.0% and Adaptive SGD recorded a score of 87.8%. On the other hand, the non-adaptive models had relatively lower F1 scores, with the best of them being the Random Forest with an F1 score of 84.1%. This increase in balance between the precision and recall in the adaptive model pointed the effectiveness of applying the models in the real environment where the objective is not only to predict the fault but to do it in way that does not increase the risk of excessive maintenance or loss of a fault failure. Adaptive models are therefore more effective and practical in fault detection since they reduce both false positive and false negative results."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 253.466, 554.224, 325.607 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Figure 3 provides additional support for adaptive models by presenting the AUC-ROC of the models. This metric gives the model’s capability of distinguishing between normal and faulty equipment, which is important in detecting faults at an early stage. The Adaptive Ensemble model had the highest AUC-ROC of 95.2% while the non-adaptive models had an AUC-ROC of 86.8% for SVM and 88.3% for RF. The comparative result AUCROC of adaptive models proves that these models are more efficient for the classification between the health and failure status of the equipment hence it is appropriate to be used in real-time monitoring and predictive maintenance context within various industrial application."
+  }, {
+    "type" : "paragraph",
+    "id" : 154,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 143.466, 554.214, 255.607 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Based on the results displayed in Table 1; Figs. 1 and 2, and 3, it can be concluded that adaptive machine learning models are more effective than non-adaptive models in the context of predictive maintenance. The results obtained in terms of accuracy, F1 score, and AUC-ROC prove that the adaptive learning techniques can enhance the predictive maintenance systems in such a way that maintenance is both timely and accurate. These results underscore the need for learning in IIoT systems because the operational conditions can change over time and stress the need for maintenance systems that can learn and adapt to new failure modes. Thus, by implementing the adaptive models, the industries can enhance the effectiveness of the maintenance process, minimise the time that systems are out of service, and increase the reliability and performance of the systems. The future research should be directed towards the refinement of these adaptive models and investigation of IIIoT environment integration with these models to tackle certain problems like, noise, latency and data fluctuations in the sensor readings."
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 103.466, 554.204, 145.607 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Due to real-time updates and incremental learning, adaptive models show notable performance gains; nonetheless, an examination of misclassifications exposes unresolved issues. The adaptive incremental decision tree model’s confusion matrix for the entire test set is displayed in Fig. 4. The majority of misclassifications happen during periods when sensor noise is abnormally high and under rare or occasional fault circumstances."
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 7,
+    "bounding box" : [ 155.906, 63.466, 554.225, 105.607 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The evaluation metrics by fault type are summarized in Table 2, which shows that faults F3 and F5 are consistently harder to anticipate. This error study underlines that, although adaptive mechanisms improve overall robustness, further strategies such as anomaly augmentation, sensor fusion, or better noise filtering may be necessary to further minimize mistakes in these hard instances."
+  }, {
+    "type" : "footer",
+    "id" : 163,
+    "page number" : 7,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 28,
+      "page number" : 7,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 7"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 164,
+    "page number" : 8,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 8,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 178,
+    "page number" : 8,
+    "bounding box" : [ 72.253, 509.023, 554.173, 731.863 ],
+    "source" : "34_images/imageFile4.png"
+  }, {
+    "type" : "list",
+    "id" : 180,
+    "level" : "4",
+    "page number" : 8,
+    "bounding box" : [ 155.906, 487.24, 341.717, 499.696 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 159,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 155.906, 487.24, 341.717, 499.696 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Fig. 4. Confusion matrix for adaptive decision tree.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 175,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 155.906, 398.412, 235.98, 457.456 ],
+    "number of rows" : 5,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 156.047, 445.726, 209.572, 457.173 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 8,
+          "bounding box" : [ 159.046, 447.206, 181.117, 456.894 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Metrics"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 209.572, 445.726, 235.838, 457.173 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 8,
+          "bounding box" : [ 212.571, 447.206, 231.75, 456.894 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Values"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 156.047, 433.891, 209.572, 445.726 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 8,
+          "bounding box" : [ 159.047, 435.509, 185.345, 444.952 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Accuracy"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 209.572, 433.891, 235.838, 445.726 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 8,
+          "bounding box" : [ 212.572, 435.509, 224.248, 444.952 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "0.95"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 156.047, 422.056, 209.572, 433.891 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 8,
+          "bounding box" : [ 159.047, 423.674, 205.484, 433.117 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Misclassification"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 209.572, 422.056, 235.838, 433.891 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 8,
+          "bounding box" : [ 212.572, 423.674, 224.248, 433.117 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "0.04"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 156.047, 410.236, 209.572, 422.056 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 8,
+          "bounding box" : [ 159.047, 411.839, 186.83, 421.282 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Macro-F1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 209.572, 410.236, 235.838, 422.056 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 8,
+          "bounding box" : [ 212.572, 411.839, 224.248, 421.282 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "0.89"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 156.047, 398.662, 209.572, 410.236 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 8,
+          "bounding box" : [ 159.047, 400.117, 195.299, 409.56 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Weighted-F1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 8,
+        "bounding box" : [ 209.572, 398.662, 235.838, 410.236 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 8,
+          "bounding box" : [ 212.572, 400.117, 224.248, 409.56 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "0.95"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 177,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 155.906, 378.129, 258.684, 390.585 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 93,
+    "next list id" : 206,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 155.906, 378.129, 258.684, 390.585 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 2. Evaluation metrics.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 165,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 155.906, 339.337, 288.676, 349.337 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Statistical significance analysis"
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 8,
+    "bounding box" : [ 155.906, 288.661, 554.181, 340.802 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In order to assess the statistical significance of performance differences between models, we carried out: all models using a one-way repeated measures ANOVA (based on cross-validation folds). Bonferroni-corrected post-hoc paired t-tests for pairwise comparisons. Reporting effect sizes with Cohen’s d (for paired comparisons) 95% confidence intervals (CI) for mean differences and partial eta-squared (η²ₚ) for ANOVA. Every test was run at α = 0.05."
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 8,
+    "bounding box" : [ 155.906, 248.661, 554.209, 290.802 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The formal hypothesis testing is used to ascertain whether observed performance differences among models are statistically significant. Initially, model accuracy over five separate experimental runs was subjected to a one-way ANOVA. The null hypothesis that all models perform similarly is rejected by the results, which show a substantial impact of model type on performance (F(3,7) = 0.0075, p < 0.001)."
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 8,
+    "bounding box" : [ 155.906, 208.661, 554.182, 250.802 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The pairwise t-tests is used with Bonferroni adjustment (α = 0.05/6 = 0.0083) to determine which models differed significantly. With statistically significant differences (p < 0.01 in all cases), the Adaptive Ensemble model was found to perform better than the Baseline, Static Threshold, and Rule-Based models. The Baseline and Static Threshold models did not differ significantly (p = 0.041 > 0.0083)."
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 8,
+    "bounding box" : [ 167.906, 198.661, 272.313, 210.802 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Adaptive Ensemble F1-score:"
+  }, {
+    "type" : "paragraph",
+    "id" : 170,
+    "page number" : 8,
+    "bounding box" : [ 282.964, 175.988, 411.524, 194.692 ],
+    "font" : "LMRoman9-Regular",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "92.6% (94% CI : 91.2%−94.1%)"
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 8,
+    "bounding box" : [ 155.906, 160.393, 435.566, 172.534 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "This provides a clear estimated value of performance variability and reliability."
+  }, {
+    "type" : "heading",
+    "id" : 172,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 155.906, 141.07, 276.676, 151.07 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comparative FP/FN analysis"
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 8,
+    "bounding box" : [ 155.906, 70.393, 554.198, 142.534 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "FP = Typical occurrences mistakenly categorized as errors. FN = Instances of faults mislabeled as normal. When it comes to predictive maintenance (PdM), these parameters are especially crucial because: High FPR results in needless maintenance. from the Table 3 it is clear that, In contrast to the baseline of the nonadaptiveSVM:50% decrease in the false positive rate 11.8% to 5.9%) 58.5% decrease in the False Negative Rate (16.4% to 6.8%). In contrast to the optimal static ensemble: The FPR dropped by 32.2%. FNR decreased by 35.8%. These decreases validate that drift-aware updating and adaptive retraining greatly enhance fault discrimination."
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 8,
+    "bounding box" : [ 155.906, 50.393, 554.154, 72.534 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "These findings demonstrate that the suggested Adaptive Ensemble model’s performance improvements are statistically significant rather than the product of random variation."
+  }, {
+    "type" : "footer",
+    "id" : 184,
+    "page number" : 8,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 8,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 185,
+    "page number" : 9,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 9,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 204,
+    "level" : "6",
+    "page number" : 9,
+    "bounding box" : [ 155.906, 660.982, 338.184, 731.863 ],
+    "number of rows" : 6,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 720.133, 227.905, 731.58 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 37,
+          "page number" : 9,
+          "bounding box" : [ 159.046, 721.612, 177.729, 731.3 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Model"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 227.905, 720.133, 273.96, 731.58 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 38,
+          "page number" : 9,
+          "bounding box" : [ 230.904, 721.612, 269.873, 731.3 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Accuracy (%)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 273.96, 720.133, 305.49, 731.58 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 39,
+          "page number" : 9,
+          "bounding box" : [ 276.959, 721.612, 301.403, 731.3 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "FPR (%)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 305.49, 720.133, 338.043, 731.58 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 40,
+          "page number" : 9,
+          "bounding box" : [ 308.489, 721.612, 333.955, 731.3 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "FNR (%)"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 708.297, 227.905, 720.133 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 41,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 709.916, 215.005, 719.359 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Non-Adaptive SVM"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 227.905, 708.297, 273.96, 720.133 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 42,
+          "page number" : 9,
+          "bounding box" : [ 231.185, 709.916, 242.861, 719.359 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "83.2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 273.96, 708.297, 305.49, 720.133 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 43,
+          "page number" : 9,
+          "bounding box" : [ 276.96, 709.916, 288.636, 719.359 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "12.8"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 305.49, 708.297, 338.043, 720.133 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 44,
+          "page number" : 9,
+          "bounding box" : [ 308.49, 709.916, 320.166, 719.359 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "15.4"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 696.462, 227.905, 708.297 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 45,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 698.08, 223.817, 707.523 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Random Forest (Static)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 227.905, 696.462, 273.96, 708.297 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 46,
+          "page number" : 9,
+          "bounding box" : [ 231.185, 698.08, 242.861, 707.523 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "86.5"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 273.96, 696.462, 305.49, 708.297 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 47,
+          "page number" : 9,
+          "bounding box" : [ 280.32, 698.08, 288.636, 707.523 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "9.4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 305.49, 696.462, 338.043, 708.297 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 48,
+          "page number" : 9,
+          "bounding box" : [ 308.49, 698.08, 320.166, 707.523 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "12.4"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 684.627, 227.905, 696.462 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 49,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 686.245, 203.244, 695.688 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Static Ensemble"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 227.905, 684.627, 273.96, 696.462 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 50,
+          "page number" : 9,
+          "bounding box" : [ 231.185, 686.245, 242.861, 695.688 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "91.2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 273.96, 684.627, 305.49, 696.462 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 51,
+          "page number" : 9,
+          "bounding box" : [ 280.32, 686.245, 288.636, 695.688 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "8.6"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 305.49, 684.627, 338.043, 696.462 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 52,
+          "page number" : 9,
+          "bounding box" : [ 308.49, 686.245, 320.166, 695.688 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "10.5"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 672.807, 227.905, 684.627 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 53,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 674.41, 200.172, 683.853 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Adaptive SVM"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 227.905, 672.807, 273.96, 684.627 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 54,
+          "page number" : 9,
+          "bounding box" : [ 231.185, 674.41, 242.861, 683.853 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "92.6"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 273.96, 672.807, 305.49, 684.627 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 55,
+          "page number" : 9,
+          "bounding box" : [ 280.32, 674.41, 288.636, 683.853 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6.4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 305.49, 672.807, 338.043, 684.627 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 56,
+          "page number" : 9,
+          "bounding box" : [ 311.85, 674.41, 320.166, 683.853 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "8.8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 661.232, 227.905, 672.807 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 57,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 662.688, 215.25, 672.376 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Adaptive Ensemble"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 227.905, 661.232, 273.96, 672.807 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 58,
+          "page number" : 9,
+          "bounding box" : [ 230.905, 662.688, 243.183, 672.376 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "94.4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 273.96, 661.232, 305.49, 672.807 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 59,
+          "page number" : 9,
+          "bounding box" : [ 280.18, 662.688, 288.958, 672.376 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6.9"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 305.49, 661.232, 338.043, 672.807 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 60,
+          "page number" : 9,
+          "bounding box" : [ 311.71, 662.688, 320.488, 672.376 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6.5"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 206,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 155.906, 640.7, 294.37, 653.156 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 177,
+    "next list id" : 238,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 155.906, 640.7, 294.37, 653.156 ],
+      "font" : "MinionPro-Bold",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Table 3. Comparative FP/FN analysis.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 201,
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 155.906, 540.036, 442.628, 610.916 ],
+    "number of rows" : 6,
+    "number of columns" : 6,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 599.186, 219.092, 610.633 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 9,
+          "bounding box" : [ 159.046, 600.665, 177.729, 610.353 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Model"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 219.092, 599.186, 265.147, 610.633 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 9,
+          "bounding box" : [ 222.091, 600.665, 261.06, 610.353 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Accuracy (%)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 265.147, 599.186, 311.405, 610.633 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 9,
+          "bounding box" : [ 268.146, 600.665, 307.318, 610.353 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Precision (%)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 311.405, 599.186, 348.318, 610.633 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 9,
+          "bounding box" : [ 314.405, 600.665, 344.231, 610.353 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Recall (%)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 348.318, 599.186, 392.126, 610.633 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 9,
+          "bounding box" : [ 351.318, 600.665, 388.039, 610.353 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "F1 Score (%)"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 392.126, 599.186, 442.487, 610.633 ],
+        "row number" : 1,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 9,
+          "bounding box" : [ 395.125, 600.665, 438.399, 610.353 ],
+          "font" : "MinionPro-Bold",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "AUC-ROC (%)"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 587.35, 219.092, 599.186 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 588.969, 215.005, 598.412 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Non-Adaptive SVM"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 219.092, 587.35, 265.147, 599.186 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 9,
+          "bounding box" : [ 222.092, 588.969, 233.768, 598.412 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "84.3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 265.147, 587.35, 311.405, 599.186 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 9,
+          "bounding box" : [ 268.147, 588.969, 279.823, 598.412 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "82.5"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 311.405, 587.35, 348.318, 599.186 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 9,
+          "bounding box" : [ 314.405, 588.969, 326.081, 598.412 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "80.7"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 348.318, 587.35, 392.126, 599.186 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 9,
+          "bounding box" : [ 351.319, 588.969, 362.995, 598.412 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "81.6"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 392.126, 587.35, 442.487, 599.186 ],
+        "row number" : 2,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 12,
+          "page number" : 9,
+          "bounding box" : [ 395.126, 588.969, 406.802, 598.412 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "86.8"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 575.515, 219.092, 587.35 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 13,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 577.134, 208.579, 586.577 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Non-Adaptive RF"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 219.092, 575.515, 265.147, 587.35 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 14,
+          "page number" : 9,
+          "bounding box" : [ 222.092, 577.134, 233.768, 586.577 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "86.1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 265.147, 575.515, 311.405, 587.35 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 15,
+          "page number" : 9,
+          "bounding box" : [ 268.147, 577.134, 279.823, 586.577 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "84.9"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 311.405, 575.515, 348.318, 587.35 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 16,
+          "page number" : 9,
+          "bounding box" : [ 314.405, 577.134, 326.081, 586.577 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "83.4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 348.318, 575.515, 392.126, 587.35 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 17,
+          "page number" : 9,
+          "bounding box" : [ 351.319, 577.134, 362.995, 586.577 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "84.1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 392.126, 575.515, 442.487, 587.35 ],
+        "row number" : 3,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 18,
+          "page number" : 9,
+          "bounding box" : [ 395.126, 577.134, 406.802, 586.577 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "88.3"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 563.68, 219.092, 575.515 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 19,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 565.298, 199.164, 574.741 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Adaptive SGD"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 219.092, 563.68, 265.147, 575.515 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 20,
+          "page number" : 9,
+          "bounding box" : [ 222.092, 565.298, 233.768, 574.741 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "89.7"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 265.147, 563.68, 311.405, 575.515 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 21,
+          "page number" : 9,
+          "bounding box" : [ 268.147, 565.298, 279.823, 574.741 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "88.1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 311.405, 563.68, 348.318, 575.515 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 22,
+          "page number" : 9,
+          "bounding box" : [ 314.405, 565.298, 326.081, 574.741 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "87.5"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 348.318, 563.68, 392.126, 575.515 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 23,
+          "page number" : 9,
+          "bounding box" : [ 351.319, 565.298, 362.995, 574.741 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "87.8"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 392.126, 563.68, 442.487, 575.515 ],
+        "row number" : 4,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 24,
+          "page number" : 9,
+          "bounding box" : [ 395.126, 565.298, 406.802, 574.741 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "91.4"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 551.861, 219.092, 563.68 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 25,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 553.463, 210.784, 562.906 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Adaptive Boosting"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 219.092, 551.861, 265.147, 563.68 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 26,
+          "page number" : 9,
+          "bounding box" : [ 222.092, 553.463, 233.768, 562.906 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "91.2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 265.147, 551.861, 311.405, 563.68 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 27,
+          "page number" : 9,
+          "bounding box" : [ 268.147, 553.463, 279.823, 562.906 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "90.5"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 311.405, 551.861, 348.318, 563.68 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 28,
+          "page number" : 9,
+          "bounding box" : [ 314.405, 553.463, 326.081, 562.906 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "89.6"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 348.318, 551.861, 392.126, 563.68 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 29,
+          "page number" : 9,
+          "bounding box" : [ 351.319, 553.463, 362.995, 562.906 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "90.0"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 392.126, 551.861, 442.487, 563.68 ],
+        "row number" : 5,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 30,
+          "page number" : 9,
+          "bounding box" : [ 395.126, 553.463, 406.802, 562.906 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "93.1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 156.047, 540.286, 219.092, 551.861 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 31,
+          "page number" : 9,
+          "bounding box" : [ 159.047, 541.741, 212.961, 551.184 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Adaptive Ensemble"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 219.092, 540.286, 265.147, 551.861 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 32,
+          "page number" : 9,
+          "bounding box" : [ 222.092, 541.741, 233.768, 551.184 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "93.4"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 265.147, 540.286, 311.405, 551.861 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 33,
+          "page number" : 9,
+          "bounding box" : [ 268.147, 541.741, 279.823, 551.184 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "92.7"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 311.405, 540.286, 348.318, 551.861 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 34,
+          "page number" : 9,
+          "bounding box" : [ 314.405, 541.741, 326.081, 551.184 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "91.9"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 348.318, 540.286, 392.126, 551.861 ],
+        "row number" : 6,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 35,
+          "page number" : 9,
+          "bounding box" : [ 351.319, 541.741, 362.995, 551.184 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "92.3"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 9,
+        "bounding box" : [ 392.126, 540.286, 442.487, 551.861 ],
+        "row number" : 6,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 36,
+          "page number" : 9,
+          "bounding box" : [ 395.126, 541.741, 406.802, 551.184 ],
+          "font" : "MinionPro-Regular",
+          "font size" : 7.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "95.2"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 203,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 519.753, 449.643, 532.209 ],
+    "linked content id" : 201,
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Table 4. Detailed performance comparison of adaptive and non-adaptive models."
+  }, {
+    "type" : "heading",
+    "id" : 186,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 155.906, 480.962, 253.276, 490.962 ],
+    "heading level" : 3,
+    "font" : "Corbel-Bold",
+    "font size" : 10.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ablation configuration"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 470.285, 423.273, 482.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The following variations in order to measure the influence of each module:"
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 440.285, 554.198, 472.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Drift Detection Only (DDM/EDDM with a single classifier) + Boosting Only (static ensemble without drift detection) + Baseline Static Model (no adaptation, no boosting) + Incremental Retraining Only (no drift trigger, periodic update)."
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 420.285, 554.176, 442.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Complete Adaptive Ensemble (Triggered Retraining + Drift Detection + Boosting). By lowering variance, boosting alone enhances generalization (+ 4.3%)."
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 9,
+    "bounding box" : [ 167.906, 410.285, 554.176, 422.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The significance of managing non-stationarity is confirmed by the larger improvement (+ 5.1%) that drift"
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 380.285, 554.128, 412.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "detection alone offers. Adaptability is further improved by incremental retraining (+ 6.2%). The best performance is obtained by the unified framework, suggesting that the components function in"
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 370.285, 184.94, 382.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "concert."
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 350.285, 554.163, 372.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Drift detection plays a crucial function in dynamic situations, as evidenced by the large increase in False Negatives when it is removed. The ablation analysis demonstrates that:"
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 320.285, 554.219, 352.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Boosting is not the only contribution of drift-aware updating. Cumulative benefits come from ensemble variety and incremental adaptation. The entire adaptive architecture is responsible for performance gains rather than a single component."
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 9,
+    "bounding box" : [ 167.906, 310.285, 554.174, 322.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The suggested framework’s interpretability and methodological openness are strengthened by this inclusion."
+  }, {
+    "type" : "heading",
+    "id" : 196,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 155.906, 288.705, 207.749, 299.705 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Conclusion"
+  }, {
+    "type" : "paragraph",
+    "id" : 197,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 218.285, 554.207, 290.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "This paper explored the use of adaptive machine learning models for the purpose of predictive maintenance in IIoT systems in order to improve the accuracy of the predictions and the efficiency of the systems. The results analysed in the previous sections show that the proposed adaptive models outperform the non-adaptive models in terms of accuracy, precision, recall, F1 score, and AUC-ROC. The results also revealed that Adaptive models especially the Adaptive Ensemble model performed better than their non-adaptive counterparts, which is a clear indication of their ability to handle real time and dynamic data that is characteristic of most industrial applications."
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 148.285, 554.207, 220.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Table 1 and the graphs in Figs. 1 and 2, and 3 show that adaptive models are superior in terms of performance when it comes to IIoT data that is constantly changing. Through this way, the adaptive models exhibited a greater power to learn from fresh data as well as enhance its ability to identify initial symptoms of faults, thus, offering lesser maintenance expenses, higher availability of equipment, and increased reliability of operation. These are crucial in today’s rail industry, specifically in the specific area of maintenance using adaptive machine learning where timely and accurate predictors are very important for planning maintenance periods and minimizing severe stoppages due to lack of sufficient timely maintenance."
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 68.285, 554.189, 150.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The quantitative comparison of false positive (FP) and false negative (FN) rates across all assessed models in Table 4 to support our assertion about the adaptive model’s efficacy. The findings demonstrate that, in comparison to the baseline and other non-adaptive methods, the suggested adaptive model significantly lowers both FP and FN rates. In particular, compared to the baseline, the adaptive model achieves an FP rate of 0.032 and a FN rate of 0.041, which reflect relative reductions of almost 62% and 55%, respectively. These benefits are further demonstrated in Fig. 4, which emphasizes the adaptive approach’s consistent benefit in reducing categorization errors. These results demonstrate that by concurrently lowering both kinds of mistakes, flexibility in model calibration leads to more trustworthy decision-making."
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 9,
+    "bounding box" : [ 155.906, 48.285, 554.192, 70.426 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Furthermore, the results of the study show that the adaptive models are not only more accurate but also more precise in terms of the precision and recall of the results, which means that the number of false positives and false"
+  }, {
+    "type" : "footer",
+    "id" : 210,
+    "page number" : 9,
+    "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 9,
+      "bounding box" : [ 41.102, 15.931, 554.176, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 9"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 211,
+    "page number" : 10,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 41,
+      "page number" : 10,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 702.08, 554.174, 734.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "negatives is also lower. This balance is particularly important in IIoT systems where the predictive maintenance systems should not frequently interrupt the process while at the same time should be able to identify critical failures."
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 672.08, 554.185, 704.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "These improvements in F1 score and AUC-ROC are not just statistical; they also result in real-world advantages including fewer false alarms, less unscheduled downtime, better maintenance scheduling, and overall operational deployment cost reductions."
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 652.08, 554.137, 674.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "False Positives (FP) and False Negatives (FN) were included in a cost function. Estimates from industrial benchmarks were utilized to model:"
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 622.08, 554.227, 654.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Labor costs for needless inspections and downtime costs for unplanned failures. According to the results, when compared to non-adaptive baselines, the Adaptive Ensemble lowers total expected maintenance expenditures by roughly 38–60%. The main factors driving cost savings are: Lower FN → less unscheduled downtime."
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 10,
+    "bounding box" : [ 167.906, 592.08, 554.153, 624.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Reduced FP results in fewer needless maintenance procedures. These measurable economic gains have been incorporated into the amended conclusion. We tested latency and scalability under various workloads and network simulations to confirm deployment"
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 552.08, 554.156, 594.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "viability. At high throughput, edge inference latency stays below 30 ms. Even with a high network latency, the retraining delay stays below 4 s. There is very little processing overhead associated with drift detection. Stable performance under several"
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 542.08, 366.429, 554.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "concurrent data streams is confirmed by scalability testing."
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 462.08, 554.233, 544.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Therefore, the findings of this study support the use of adaptive machine learning techniques in the development of predictive maintenance for IIoT systems. The fact that these models can learn from the new data distribution and can learn from the continuous stream of data from the sensors makes them ideal for use in industries. The future work should be directed towards the improvement of these models, to their application in conjunction with edge computing for real-time decision-making, and to the issues like noise in the sensors, variability in the data, and scalability of the systems. In this context, enhancing adaptive predictive maintenance systems make it possible for industries to increase productivity, cut costs apart from ascertaining the endurance of IIoT structures."
+  }, {
+    "type" : "heading",
+    "id" : 220,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 155.906, 440.5, 233.357, 451.5 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Data availability"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 420.08, 554.173, 442.221 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The datasets used and/or analysed during the current study available from the corresponding author on reasonable request."
+  }, {
+    "type" : "caption",
+    "id" : 222,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 400.481, 344.985, 409.895 ],
+    "linked content id" : 223,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 8.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Received: 7 January 2026; Accepted: 26 February 2026"
+  }, {
+    "type" : "image",
+    "id" : 223,
+    "page number" : 10,
+    "bounding box" : [ 155.906, 388.336, 287.906, 399.136 ],
+    "source" : "34_images/imageFile5.png"
+  }, {
+    "type" : "heading",
+    "id" : 224,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 155.906, 365.516, 208.248, 376.516 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 225,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 155.906, 54.836, 554.222, 367.451 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 18,
+    "next list id" : 231,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 348.836, 554.162, 367.451 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. Anandan, R., Gopalakrishnan, S., Pal, S. & Zaman, N. (eds) Industrial internet of things (IIoT): intelligent analytics for predictive maintenance (Wiley, 2022).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 332.036, 554.198, 350.553 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. Ong, K. S. H., Wang, W., Hieu, N. Q., Niyato, D. & Friedrichs, T. Predictive maintenance model for IIoT-based manufacturing: A transferable deep reinforcement learning approach. IEEE Internet Things J. 9 (17), 15725–15741 (2022).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 315.236, 554.158, 333.753 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Rieger, T., Regier, S., Stengel, I. & Clarke, N. Fast predictive maintenance in industrial internet of things (iiot) with deep learning (dl): A review. In CEUR workshop proceedings (Vol. 2348, p. 69). (2019).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 290.036, 554.171, 316.953 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. Hore, U. W. &amp; Wakde, D. G. Intelligent Predictive Maintenance for Industrial Internet of Things (IIoT) Using Machine Learning Approach. In International Conference on Intelligent Cyber Physical Systems and Internet of Things (pp. 897–913). Cham: Springer International Publishing. (2022), August.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 273.236, 554.189, 291.753 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. Wang, H., Zhang, W., Yang, D. & Xiang, Y. Deep-learning-enabled predictive maintenance in industrial internet of things: Methods, applications, and challenges. IEEE Syst. J. 17(2), 2602–2615 (2022).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 256.436, 554.184, 274.953 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. Alhuqayl, S. O., Alenazi, A. T., Alabduljabbar, H. A. & Haq, M. A. Improving predictive maintenance in industrial environments via IIoT and machine learning. International J. Adv. Comput. Sci. & Applications, 15(4). (2024).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 239.636, 554.173, 258.251 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. Zheng, H., Paiva, A. R. & Gurciullo, C. S. Advancing from predictive maintenance to intelligent maintenance with ai and iiot. arXiv preprint arXiv:2009.00351. (2020).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 222.836, 554.222, 241.353 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. Alabadi, M., Habbal, A. & Guizani, M. An innovative decentralized and distributed deep learning framework for predictive maintenance in the industrial Internet of Things. IEEE Internet Things Journal (2024).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 159.476, 206.036, 554.176, 224.816 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. Rajawat, A. S. et al. Cognitive adaptive systems for industrial internet of things using reinforcement algorithm. Electronics 12 (1), 217 (2023).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 189.236, 554.177, 207.851 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. Jia, Z. & Ren, L. A cloud-edge adaptive framework for equipment predictive maintenance in IIoT. In IECON 2024-50th Annual Conference of the IEEE Industrial Electronics Society (pp. 1–6). IEEE. (2024), November.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 172.436, 554.19, 190.953 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11. Bellavista, P., Della Penna, R., Foschini, L. & Scotece, D. Machine learning for predictive diagnostics at the edge: An IIoT practical example. In ICC 2020–2020 IEEE International Conference On Communications (ICC) (pp. 1–7). IEEE. (2020), June.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 155.636, 554.187, 174.153 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12. Hafez, L., Elakkad, E. & Gamil, M. A Study on the Impact of Logistics Service Quality on the Satisfaction and Loyalty of E-Shoppers in Egypt. Open J. Bus. Manag. 9, 2464–2478. https://doi.org/10.4236/ojbm.2021.95133 (2021).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 138.836, 554.178, 157.353 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13. Rosati, R. et al. From knowledge-based to big data analytic model: A novel IoT and machine learning based decision support system for predictive maintenance in Industry 4.0. J. Intell. Manuf. 34(1), 107–121 (2023).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 122.036, 554.137, 140.553 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14. Ong, K. S. H., Wang, W., Niyato, D. & Friedrichs, T. Deep-reinforcement-learning-based predictive maintenance model for effective resource management in industrial IoT. IEEE Internet Things J. 9 (7), 5173–5188 (2021).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 105.236, 554.172, 123.753 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15. Gomide, I. et al. Experimental Study on the Behavior of a Solar-Assisted Heat Pump Operating Under Different Water Demand Conditions. Proceedings of COBEM 2025 https://doi.org/10.26678/ABCM.COBEM2025.COB2025-0463 (2025).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 88.436, 554.16, 106.953 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16. Xiong, D. D. et al. Nitidine chloride inhibits the progression of hepatocellular carcinoma by suppressing IGF2BP3 and modulates metabolic pathways in an m6A-dependent manner. Mol. Med. 31, 4747 (2025).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 71.636, 554.147, 90.153 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17. Youssef, M. H. et al. Relationship Between Obesity, Stress, and Age of Menarche Among Adolescent Female Students in AlMadinah, Saudi Arabia. Cureus 17, e93739. https://doi.org/10.7759/cureus.93739 (2025).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 155.906, 54.836, 554.179, 73.451 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18. Al-Anzi, F. S., Al-Anzi, A. F. & Sarath, S. Predictive maintenance in industrial IoT (IIoT). In International Conference on Medical Imaging, Electronic Imaging, Information Technologies, and Sensors (MIEITS 2024) (Vol. 13188, pp. 96–105). SPIE. (2024), June.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 229,
+    "page number" : 10,
+    "bounding box" : [ 41.102, 15.931, 554.179, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 10,
+      "bounding box" : [ 41.102, 15.931, 554.179, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 10"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 230,
+    "page number" : 11,
+    "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 42,
+      "page number" : 11,
+      "bounding box" : [ 41.091, 757.97, 200.567, 767.97 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 10.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "www.nature.com/scientificreports/"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 231,
+    "level" : "3",
+    "page number" : 11,
+    "bounding box" : [ 155.906, 648.111, 554.198, 733.828 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 225,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 155.906, 715.311, 554.138, 733.828 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19. Manikandan, S., Elakiya, E., Rajheshwari, K. C. & Sivakumar, K. Efficient energy consumption in hybrid cloud environment using adaptive backtracking virtual machine consolidation. Sci. Rep. 14, 22869 (2024).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 155.906, 690.111, 554.198, 717.028 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20. Manivannan, R., Manikandan, S., Vadivel, R. & Sophana Jennifer, S. Location based access privileges and controlling the clustering in sustainable 5G challenges. Salud, Ciencia y Tecnología - Serie de Conferencias [Internet]. 3 [cited 2024 Mar. 21];3:402 (2024) Jan.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 155.906, 664.911, 554.197, 691.828 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21. El-kenawy, E.-S.M., Alhussan, A. A., Mattar, E. A. & Radwan, M. Feature selection and hyperparameter tuning in transformerbased deep learning models for photovoltaic power forecasting using the Swordfish Movement Optimization Algorithm (SMOA). Int. J. Electr. Power Energy Syst. https://doi.org/10.1016/j.ijepes.2025.111509 (2026).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 155.906, 648.111, 554.173, 666.726 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 7.5,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22. El-Sayed, M. et al. Smart City electricity load forecasting using greylag goose optimization-enhanced time series analysis (Arabian Journal for Science and Engineering, 2025).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 232,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 155.906, 625.991, 255.368, 636.991 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Author contributions"
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 11,
+    "bounding box" : [ 155.906, 595.571, 554.205, 627.712 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "S. Subashree: Problem Selection, Algorithm, Implementation, ResultsM.Rajakumaran: Implementation, Coding and TestingG.Pushpa: Formal Analysis, Design and ResultsR. Manivannan: Experimental Results, Algorithm part and Editing."
+  }, {
+    "type" : "heading",
+    "id" : 234,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 155.906, 551.991, 252.464, 584.991 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Declarations Competing interests"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 11,
+    "bounding box" : [ 155.906, 541.571, 312.17, 553.712 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The authors declare no competing interests."
+  }, {
+    "type" : "heading",
+    "id" : 236,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 155.906, 519.991, 264.498, 530.991 ],
+    "heading level" : 2,
+    "font" : "Corbel-Bold",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Additional information"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 11,
+    "bounding box" : [ 155.906, 453.479, 554.201, 522.027 ],
+    "font" : "MinionPro-Regular",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Correspondence and requests for materials should be addressed to S.S. Reprints and permissions information is available at www.nature.com/reprints. Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives"
+  }, {
+    "type" : "list",
+    "id" : 238,
+    "level" : "3",
+    "page number" : 11,
+    "bounding box" : [ 155.906, 342.679, 554.206, 455.62 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 206,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 155.906, 342.679, 554.206, 455.62 ],
+      "font" : "MinionPro-Regular",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo ns.org/licenses/by-nc-nd/4.0/ . © The Author(s) 2026",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 242,
+    "page number" : 11,
+    "bounding box" : [ 41.102, 15.931, 554.179, 25.931 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 11,
+      "bounding box" : [ 41.102, 15.931, 554.179, 25.931 ],
+      "heading level" : 4,
+      "font" : "Corbel",
+      "font size" : 8.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Scientific Reports| (2026) 16:12451 | https://doi.org/10.1038/s41598-026-42666-x 11"
+    } ]
+  } ]
+}

@@ -1,0 +1,2773 @@
+{
+  "file name" : "15.pdf",
+  "number of pages" : 21,
+  "author" : "Ullah, I.; Khan, N.; Memon, S.A.; Kim, W.-G.; Saleem, J.; Manzoor, S.",
+  "title" : "Vibration-Based Anomaly Detection for Induction Motors Using Machine Learning",
+  "creation date" : "D:20250205074224+07'00'",
+  "modification date" : "D:20250205014607+01'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 58,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 732.329, 63.213, 744.743 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 59,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 35.017, 688.187, 559.281, 731.244 ],
+    "heading level" : 1,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "Vibration-Based Anomaly Detection for Induction Motors Using Machine Learning"
+  }, {
+    "type" : "heading",
+    "id" : 60,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 664.703, 539.844, 678.398 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Ihsan Ullah 1 , Nabeel Khan 1, Sufyan Ali Memon 2,* , Wan-Gu Kim 3, Jawad Saleem 1 and Sajjad Manzoor 4"
+  }, {
+    "type" : "list",
+    "id" : 63,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 558.421, 542.993, 644.525 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 612.219, 508.689, 644.525 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "1 Department of Electrical Engineering, COMSATS University Islamabad Abbottabad Campus, Abbottabad 22060, Pakistan; ihsan@cuiatd.edu.pk (I.U.); nabeeltasir@gmail.com (N.K.); jawadsaleem@cuiatd.edu.pk (J.S.)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 601.459, 542.993, 612.246 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "2 Department of Defense Systems Engineering, Sejong University, Gwangjin-gu 05006, Republic of Korea",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 579.94, 522.318, 601.486 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3 Marine Domain & Security Research Department, Korea Institute of Ocean Science & Technology, Busan 49111, Republic of Korea; kimwangu@kiost.ac.kr",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 558.421, 476.139, 579.966 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "4 Department of Electrical Engineering, Mirpur University of Science and Technology, Mirpur AJK 10250, Pakistan; sajjad.ee@must.edu.pk",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 165.684, 547.518, 346.614, 557.433 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "* Correspondence: sufyanahmedali@sejong.ac.kr"
+  }, {
+    "type" : "paragraph",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 305.394, 144.291, 349.72 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editors: Jin Zhou, Rafael Morales, Steven Chatterton, Saleh Mobayen, Yongfeng Yang and Alexandre Presas"
+  }, {
+    "type" : "paragraph",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 253.708, 125.029, 298.034 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 21 November 2024 Revised: 17 January 2025 Accepted: 24 January 2025 Published: 27 January 2025"
+  }, {
+    "type" : "paragraph",
+    "id" : 53,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 166.246, 152.761, 246.348 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Citation: Ullah, I.; Khan, N.; Memon, S.A.; Kim, W.-G.; Saleem, J.; Manzoor, S. Vibration-Based Anomaly Detection for Induction Motors Using Machine Learning. Sensors 2025, 25, 773. https://doi.org/10.3390/ s25030773"
+  }, {
+    "type" : "paragraph",
+    "id" : 54,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 64.866, 148.747, 156.893 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Copyright: © 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/ licenses/by/4.0/)."
+  }, {
+    "type" : "paragraph",
+    "id" : 65,
+    "page number" : 1,
+    "bounding box" : [ 165.975, 326.4, 560.932, 533.602 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abstract: Predictive maintenance of induction motors continues to be a significant challenge in ensuring industrial reliability and minimizing downtime. In this study, machine learning techniques are utilized to enhance fault diagnosis through the use of the Machinery Fault Database (MAFAULDA). A detailed extraction of statistical features was performed on multivariate time-series data to capture essential patterns that could indicate potential faults. Three machine learning algorithms—deep neural networks (DNNs), support vector machines (SVMs), and K-nearest neighbors (KNNs)—were applied to the dataset. Optimization strategies were carefully implemented along with oversampling techniques to improve model performance and handle imbalanced data. The results achieved through these models are highly promising. The SVM model demonstrated an accuracy of 95.4%, while KNN achieved an accuracy of 92.8%. Notably, the combination of deep neural networks with fast Fourier transform (FFT)-based autocorrelation features produced the highest performance, reaching an impressive accuracy of 99.7%. These results provide a novel approach to machine learning techniques in enhancing operational health and predictive maintenance of induction motor systems."
+  }, {
+    "type" : "paragraph",
+    "id" : 66,
+    "page number" : 1,
+    "bounding box" : [ 166.115, 272.662, 560.521, 312.731 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Keywords: deep neural networks; fault detection; frequency domain analysis; K-nearest neighbors; statistical feature; support vector machines; time domain analysis; vibration monitoring"
+  }, {
+    "type" : "heading",
+    "id" : 68,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 219.074, 248.132, 233.851 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 1,
+    "bounding box" : [ 165.975, 91.516, 560.927, 215.152 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial systems across manufacturing, energy, and transportation sectors are powered by induction motors [1]. Operational efficiency is directly impacted by their reliability, where significant economic losses, production delays, and potential safety hazards can be caused by unexpected failures. While predictive maintenance has been established as a crucial strategy in mitigating these challenges, limitations have been found in traditional diagnostic methods that rely on manual inspection and periodic maintenance. Through recent advances in machine learning and signal processing, this landscape has been transformed and more accurate, proactive approaches to equipment monitoring have been enabled [2]."
+  }, {
+    "type" : "paragraph",
+    "id" : 70,
+    "page number" : 1,
+    "bounding box" : [ 166.095, 63.661, 561.019, 89.802 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Catastrophic failures can occur when faults in induction motors, arising from complex interactions between mechanical and electrical components, are left undetected [3,4]."
+  }, {
+    "type" : "paragraph",
+    "id" : 72,
+    "page number" : 1,
+    "bounding box" : [ 35.493, 28.183, 559.276, 38.13 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Sensors 2025, 25, 773 https://doi.org/10.3390/s25030773"
+  }, {
+    "type" : "header",
+    "id" : 73,
+    "page number" : 2,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 2,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 2 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 76,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 673.676, 559.471, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Vibration and acoustic emission signals have been identified as essential indicators for fault detection, through which statistical techniques and probabilistic models have been widely adopted over recent decades [5,6]. Intelligent solutions for predictive maintenance in rotating machinery have been implemented by manufacturers, particularly where remote monitoring applications are concerned [7]. Vibration-based condition monitoring has been established as a cornerstone, through which potential faults can be identified by tracking vibration pattern variations [8]."
+  }, {
+    "type" : "paragraph",
+    "id" : 77,
+    "page number" : 2,
+    "bounding box" : [ 166.005, 562.255, 561.019, 671.963 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Fault detection strategies have been fundamentally reshaped by data-driven methodologies, where artificial intelligence and advanced signal processing are incorporated [9]. Among the various failure modes by which motor performance can be compromised, imbalance has been identified as a uniquely complex challenge for which sophisticated diagnostic approaches are required. Unlike simpler mechanical failures, the imbalance can be manifested through multiple configurations—mass imbalance, geometric imbalance, and couple imbalance—by which distinct detection challenges are presented and motor reliability and operational efficiency are significantly impacted."
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 422.978, 561.019, 560.541 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Fault detection reliability is challenged by several obstacles: high-frequency signal noise, dynamic operating conditions, and complex signal propagation mechanisms. In variable industrial environments, where significant signal interference and operational variability are introduced, conventional approaches have been found particularly challenging [10]. By computational constraints, imbalance fault diagnosis is further complicated, especially in real-time processing scenarios where immediate results must be delivered without system performance being compromised. Advanced signal-processing techniques have been developed through recent research, by which precise fault indicators can be extracted under diverse operational conditions [11]. Traditional limitations have been overcome by combining fast Fourier transform (FFT), wavelet transforms, and machine learning algorithms."
+  }, {
+    "type" : "paragraph",
+    "id" : 79,
+    "page number" : 2,
+    "bounding box" : [ 166.085, 325.484, 561.023, 421.264 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Feature extraction has been identified as a critical challenge in imbalance fault analysis. Through hybrid methodologies developed by researchers, time-domain and frequencydomain transformations have been integrated to capture subtle mechanical irregularities [12]. Generalizable features have been emphasized, by which consistency can be maintained across different motor configurations and operating conditions. Detection precision has been enhanced through supervised learning algorithms, ensemble classification methods, and adaptive neural network architectures [13]."
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 241.918, 560.934, 323.77 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The imbalance fault detection field has been continuously advanced through machine learning applications. Particular promise in handling complex motor imbalance characteristics has been demonstrated by deep learning and ensemble methods [14]. By these approaches, fundamental limitations in existing diagnostic methods have been addressed and more robust, adaptable detection models have been developed through which generalization across varied motor configurations and operating conditions can be achieved."
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 130.496, 560.521, 240.204 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The potential of artificial intelligence in motor fault diagnosis has been highlighted by recent studies [15–17]. In our research, deep neural networks (DNNs), support vector machines (SVMs), and K-nearest neighbors (KNNs) have been explored to address the binary classification between “normal” and “imbalance” conditions. In previous work, SVM was combined with long short-term memory (LSTM) networks [18], although a deep understanding of fault-specific patterns was required. Statistical features from vibration and current signals have been employed with SVM in other studies [19], while KNN has demonstrated effectiveness in diagnosing faults in rotating machinery [20,21]."
+  }, {
+    "type" : "paragraph",
+    "id" : 82,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 74.786, 560.928, 128.783 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this work, a novel approach has been developed where traditional and advanced machine learning models are combined for imbalance fault detection. SVM with timedomain features has been employed for binary classification, by which its effectiveness with simpler feature sets can be leveraged, while DNN with FFT-based autocorrelation"
+  }, {
+    "type" : "header",
+    "id" : 83,
+    "page number" : 3,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 3,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 3 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 86,
+    "page number" : 3,
+    "bounding box" : [ 166.085, 631.893, 561.019, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "features has been applied to capture complex fault signatures in the frequency domain. The frequency domain analysis is performed using autocorrelation computed through FFT-based convolution, where the signal is convolved with its time-reversed version. This approach leverages FFT’s computational efficiency for calculating autocorrelation, enabling effective capture of periodic patterns and temporal dependencies in the vibration signals. Using the MAFAULDA dataset [22] and random oversampling techniques [23], the following significant improvements were achieved: SVM accuracy increased from 85.9% to 95.4%; KNN achieved 92.8% accuracy; and our DNN implementation with FFTbased features reached an accuracy of 99.7%. These results align with research where frequency-domain advantages in fault detection have been highlighted [24–26]."
+  }, {
+    "type" : "caption",
+    "id" : 87,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 562.255, 561.017, 630.18 ],
+    "linked content id" : 88,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this paper, existing research has been extended through the practical application of AI in predictive maintenance. The focus is on vibration-based datasets, preprocessing data/features, and specific fault conditions. Through the MAFAULDA dataset’s alignment with studied fault conditions, both relevance and accuracy in our findings are ensured. Figure 1 illustrates the flowchart of the proposed methods."
+  }, {
+    "type" : "image",
+    "id" : 88,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 165.314, 428.594, 549.314 ],
+    "source" : "15_images/imageFile1.png"
+  }, {
+    "type" : "list",
+    "id" : 89,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 122.18, 559.28, 158.816 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 99,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 122.18, 559.28, 158.816 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 1. The flowchart of the proposed work: red-dashed box implies the implementation of optimization and oversampling using SVM and KNN; blue-dashed box implies the FFT-based feature extraction applied on DNN.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 90,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 70.291, 560.929, 110.36 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The remainder of this paper is organized as follows: In Section 2, the experimental setup, dataset characteristics, and methods are presented, including details of the machinery fault simulator and data acquisition system. Section 3 describes the feature extraction"
+  }, {
+    "type" : "header",
+    "id" : 91,
+    "page number" : 4,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 4,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 4 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 94,
+    "page number" : 4,
+    "bounding box" : [ 166.095, 673.676, 560.931, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "process and the statistical parameters used for fault detection. The feature signal analysis approach and its implementation are detailed in Section 4. Section 5 presents the classification methodology, including the implementation of SVM, KNN, and DNN algorithms along with a discussion on practical considerations and performance evaluations of these algorithms. The experimental results and detailed analysis of each classifier’s performance are presented in Section 6. Section 7 concludes the paper with key findings and suggestions for future research."
+  }, {
+    "type" : "heading",
+    "id" : 95,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 647.013, 305.899, 661.79 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "2. Materials and Methods"
+  }, {
+    "type" : "list",
+    "id" : 96,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 631.286, 272.147, 643.7 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 126,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 631.286, 272.147, 643.7 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.1. Experimental Dataset",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 97,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 503.168, 560.932, 626.803 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The performances of the proposed prediction models were evaluated using the MAFAULDA dataset, which simulates undesirable failure scenarios in rotating machinery, including misalignment, unbalance, and bearing failures. This dataset was collected by the Signals, Multimedia, and Telecommunication Laboratory using the Machine Fault Simulator (MFS), also known as the SpectraQuest Alignment/Balance Vibration Trainer [27], as shown in Figure 2. Although an imbalanced dataset, the MAFAULDA database is specifically designed to assess the performance of diagnostic methods under various operating conditions and fault scenarios. Table 1 provides the default specifications of the MFS trainer [28], which was used to generate the data for this study."
+  }, {
+    "type" : "image",
+    "id" : 98,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 344.448, 364.82, 493.215 ],
+    "source" : "15_images/imageFile2.png"
+  }, {
+    "type" : "list",
+    "id" : 99,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 166.098, 307.001, 388.437, 337.951 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 89,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.098, 307.001, 388.437, 337.951 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 2. The SpectraQuest machine fault simulator. Table 1. Machinery fault simulator (MFS) specifications.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 101,
+    "page number" : 4,
+    "bounding box" : [ 224.01, 270.123, 472.765, 297.004 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Parameter Value Motor & 1/4 CV DC"
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 4,
+    "bounding box" : [ 230.224, 237.247, 488.537, 270.157 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Frequency Range 700–3600 rpm System Weight 22 kg Axis Diameter 16 mm"
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "page number" : 4,
+    "bounding box" : [ 229.161, 215.329, 478.216, 237.28 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Rotor 15.24 cm Bearings Distance 390 mm"
+  }, {
+    "type" : "heading",
+    "id" : 106,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 213.569, 199.207, 315.66, 210.29 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Data Acquisition System"
+  }, {
+    "type" : "paragraph",
+    "id" : 108,
+    "page number" : 4,
+    "bounding box" : [ 234.021, 183.41, 510.321, 194.402 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Accelerometers Three IMI 601A01 model"
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 4,
+    "bounding box" : [ 241.503, 161.492, 506.506, 183.443 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "One IMI 604B31 model Tachometer Monarch MT-190"
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 4,
+    "bounding box" : [ 212.448, 139.574, 486.031, 161.525 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Microphone sensor Shure SM81 Data Acquisition Modules Two NI 9234"
+  }, {
+    "type" : "paragraph",
+    "id" : 111,
+    "page number" : 4,
+    "bounding box" : [ 239.948, 128.615, 478.49, 139.607 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Sample Rate 51.2 kHz"
+  }, {
+    "type" : "header",
+    "id" : 113,
+    "page number" : 5,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 5,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 5 of 21"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 116,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 166.098, 758.314, 220.433, 769.486 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 144,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.098, 758.314, 220.433, 769.486 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 1. Cont.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 5,
+    "bounding box" : [ 222.898, 721.472, 472.765, 748.353 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Sampling Parameter Value Sequence Duration 5 s"
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 5,
+    "bounding box" : [ 220.549, 699.555, 475.625, 721.506 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Sampling Rate 50 kHz Samples per Sequence 250,000"
+  }, {
+    "type" : "heading",
+    "id" : 122,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 231.77, 683.433, 297.458, 694.516 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Sequence Types"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 5,
+    "bounding box" : [ 227.534, 656.676, 524.672, 678.627 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Normal Sequences Rotation speed: 737 to 3686 rpm Imbalance Faults Load values: 6 g to 35 g"
+  }, {
+    "type" : "list",
+    "id" : 126,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 474.913, 389.218, 639.227 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 96,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 626.813, 389.218, 639.227 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.2. Receiver Operating Characteristic (ROC) Analysis",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 49,
+        "page number" : 5,
+        "bounding box" : [ 166.095, 498.695, 560.931, 622.33 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The receiver operating characteristic (ROC) analysis is a graphical representation of classifier performances across different classification thresholds, enabling a comprehensive model assessment. In addition, the area under the curve (AUC) analysis is used to summarize overall classifier performance. It ranges from 0 to 1, with the following interpretations: 0.5 represents no discriminative capability, 0.5–0.7 represents poor discrimination, 0.7–0.8 represents good discrimination, 0.8–0.9 represents excellent discrimination and values greater than 0.9 indicate outstanding performance. The ROC illustrates the true positive rate (TPR) and false positive rate (FPR), which evaluate the model’s ability to correctly identify normal and faulty conditions."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 474.913, 378.199, 487.327 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3. Methodological Approach to Fault Classification",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 5,
+    "bounding box" : [ 166.394, 388.578, 560.928, 470.431 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The comprehensive fault classification methodology employed three advanced machine learning algorithms: SVM, KNN, and DNN. The random classifier, which serves as a baseline predictor by assigning data points to classes with equal probability, is assumed to be a reference model for SVM and KNN classifiers. Each algorithm is systematically evaluated using a robust set of performance metrics such as accuracy, precision, recall, and F1 score to ensure a comprehensive analysis of fault detection capabilities."
+  }, {
+    "type" : "list",
+    "id" : 128,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 365.017, 338.139, 377.231 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 159,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 365.017, 338.139, 377.231 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3.1. Support Vector Machines (SVMs)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 129,
+    "page number" : 5,
+    "bounding box" : [ 166.095, 292.17, 559.274, 360.314 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Support vector machines represent a powerful machine learning approach that is particularly effective for complex, high-dimensional datasets [29]. The SVM algorithm can handle both linear and non-linear classifications by optimizing the hyperplane separation between different classes. For normalizing the input features during preprocessing, the data are transformed to zero mean x¯ and unit variance σ using Equation (1):"
+  }, {
+    "type" : "paragraph",
+    "id" : 131,
+    "page number" : 5,
+    "bounding box" : [ 371.686, 257.759, 396.69, 283.637 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "X − x¯ σ"
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "level" : "6",
+    "page number" : 5,
+    "bounding box" : [ 548.655, 264.534, 560.271, 276.748 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(1)"
+  }, {
+    "type" : "paragraph",
+    "id" : 130,
+    "page number" : 5,
+    "bounding box" : [ 327.833, 263.159, 367.329, 276.728 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.572,
+    "text color" : "[0.0]",
+    "content" : "Xscaled ="
+  }, {
+    "type" : "paragraph",
+    "id" : 134,
+    "page number" : 5,
+    "bounding box" : [ 166.095, 158.871, 559.667, 254.651 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The SVM optimization process balances decision boundary smoothness with training point classification precision. The hyperparameters C and γ, detailed in Table 2, are carefully tuned to optimize model performance using Equation (2). The SVM implementation explored three key configurations: unoptimized linear SVM (Figure 3a), which represents the initial baseline performance; optimized SVM with RBF kernel (Figure 3b), which shows significant performance improvement; and oversampled optimized SVM (Figure 3c), which demonstrates the highest discriminative capability."
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 5,
+    "bounding box" : [ 243.462, 124.86, 475.512, 146.002 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "SVM(Xscaled,C, γ) = argminw,b,ξ C ∑in=1 ξi + 21∥w∥2"
+  }, {
+    "type" : "paragraph",
+    "id" : 138,
+    "level" : "6",
+    "page number" : 5,
+    "bounding box" : [ 548.655, 118.079, 560.271, 130.293 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 137,
+    "level" : "7",
+    "page number" : 5,
+    "bounding box" : [ 264.68, 94.712, 461.114, 115.854 ],
+    "font" : "CMR10",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "+ ∑in=1 βiξi + ∑in=1 αi(1 − yi(w · xi + b) + ξi),"
+  }, {
+    "type" : "paragraph",
+    "id" : 139,
+    "page number" : 5,
+    "bounding box" : [ 165.975, 63.943, 559.275, 90.084 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "where ξi denotes a slack variable that measures the degree of misclassification, C denotes the regularization parameter that controls the trade-off between achieving a low error on the"
+  }, {
+    "type" : "header",
+    "id" : 140,
+    "page number" : 6,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 25,
+      "page number" : 6,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 6 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 143,
+    "page number" : 6,
+    "bounding box" : [ 166.115, 673.456, 559.28, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "training data and minimizing the model complexity for better generalization, w is a weight vector of the hyperplane, b denotes a bias of the hyperplane, ∥w∥ represents the squared norm of w that controls the margin size (the distance between the separating a hyperplane and the support vectors), αi and βi are dual coefficients associated with the constraints that depend on the Lagrange multipliers in the optimization formulation, yi denotes the class label of the ith training sample, xi denotes an input feature of the ith training sample in the feature dataset X and n represents the total number of training samples."
+  }, {
+    "type" : "list",
+    "id" : 144,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 166.098, 649.06, 366.308, 660.214 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 116,
+    "next list id" : 162,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.098, 649.06, 366.308, 660.214 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 2. Hyperparameter grid for optimized SVM.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 6,
+    "bounding box" : [ 172.371, 601.224, 422.61, 639.064 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Hyperparameter Values C 0.1, 1, 10, 100 γ 0.01, 0.1, 1, 10"
+  }, {
+    "type" : "image",
+    "id" : 149,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 390.539, 529.922, 582.023 ],
+    "source" : "15_images/imageFile3.png"
+  }, {
+    "type" : "list",
+    "id" : 150,
+    "level" : "6",
+    "page number" : 6,
+    "bounding box" : [ 341.66, 155.955, 353.422, 386.033 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "next list id" : 156,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 341.66, 374.879, 352.115, 386.033 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(a)",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 48,
+        "page number" : 6,
+        "bounding box" : [ 166.394, 171.615, 531.542, 362.775 ],
+        "source" : "15_images/imageFile4.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 341.972, 155.955, 353.422, 167.109 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(b)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 151,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 137.12, 224.72, 148.31 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 3. Cont."
+  }, {
+    "type" : "header",
+    "id" : 152,
+    "page number" : 7,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 26,
+      "page number" : 7,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 7 of 21"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 155,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 579.838, 529.598, 770.026 ],
+    "source" : "15_images/imageFile5.png"
+  }, {
+    "type" : "list",
+    "id" : 156,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 341.749, 564.179, 351.702, 575.333 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 150,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 341.749, 564.179, 351.702, 575.333 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(c)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 157,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 532.557, 559.277, 556.533 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 176,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 532.557, 559.277, 556.533 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 3. Receiver operating characteristic (ROC) curves of SVM. (a) Linear SVM ROC. (b) Optimized SVM ROC. (c) Optimized SVM using oversampling ROC.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 7,
+    "bounding box" : [ 166.005, 397.264, 561.016, 520.899 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 3a shows that the area under the ROC is below the random classifier, which indicates that the classifier is not performing well. Figure 3b shows the ROC curve of optimized SVM, which improves the accuracy of both training and testing. Thus, the area under the ROC becomes AUC = 0.88 as compared to that of random classifier AUC = 0.50, which illustrates excellent discrimination. Figure 3c shows the ROC curve of an oversampled optimized SVM, which achieves an overall accuracy of 95.4% on testing (Table 5, see Section 5). This also demonstrates the model’s high predictive capability. The ROC curve of the classifier illustrates that the model achieved an AUC of 0.98, which indicates outstanding discriminative ability between the normal and imbalanced classes."
+  }, {
+    "type" : "list",
+    "id" : 159,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 373.702, 322.508, 385.916 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 128,
+    "next list id" : 180,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 373.702, 322.508, 385.916 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3.2. K-Nearest Neighbors (KNNs)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 160,
+    "page number" : 7,
+    "bounding box" : [ 166.065, 229.277, 561.022, 369.0 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The K-nearest neighbors algorithm represents an instance-based learning technique for classifying unknown data points [30,31]. The KNN algorithm determines class membership based on the majority vote of the k-nearest neighbors. We explored the following two primary distance metrics [32]: Manhattan distance (L1 norm), given by p1(x1, x2) = ∑in=1 |xi − yi|, and Euclidean distance (L2 norm), given by p2(x1, x2) = ∑in=1(xi − yi)2. The hyperparameters were systematically explored using grid search, as outlined in Table 3. The KNN approach was evaluated using multiple configurations, namely, unoptimized KNN (Figure 4a), which served as the initial performance assessment; optimized KNN (Figure 4b), which showed improved classification accuracy; and oversampled optimized KNN (Figure 4c), which provided enhanced discriminative power."
+  }, {
+    "type" : "list",
+    "id" : 162,
+    "level" : "4",
+    "page number" : 7,
+    "bounding box" : [ 166.098, 204.661, 370.63, 215.815 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 144,
+    "next list id" : 191,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.098, 204.661, 370.63, 215.815 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 3. Hyperparameters used in optimized KNN.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 164,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 227.254, 182.584, 476.269, 194.898 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Hyperparameter Values"
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 7,
+    "bounding box" : [ 238.582, 153.633, 523.76, 178.022 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "n_neighbors 3, 5, 7, 9 p 1 (Manhattan), 2 (Euclidean)"
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 7,
+    "bounding box" : [ 166.085, 80.088, 561.014, 134.085 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The ROC curve of unoptimized KNN is shown in Figure 4a, indicating a slightly low AUC of 0.78, which shows that the model is not good enough to predict good results. The ROC of optimized KNN shows AUC = 0.86, which is a good discrimination result, and better than the unoptimized KNN, as depicted in Figure 4b. The optimized KNN achieved"
+  }, {
+    "type" : "header",
+    "id" : 169,
+    "page number" : 8,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 8,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 8 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 743.315, 559.272, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "an accuracy of 89.8% on the test data and approximately 95% on the training data in the confusion matrix, as depicted in Figure 15b and discussed in Section 6."
+  }, {
+    "type" : "caption",
+    "id" : 173,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 687.604, 559.276, 741.601 ],
+    "linked content id" : 174,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The over-sampled optimized KNN has AUC = 0.96 as shown in Figure 4c, which indicates the outstanding performance of the model, and its overall accuracy is 92.8% on the testing data. This ROC-AUC score level implies that the model has a high level of accuracy in differentiating the normal and imbalanced (faulty) classes."
+  }, {
+    "type" : "image",
+    "id" : 174,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 505.033, 490.106, 674.665 ],
+    "source" : "15_images/imageFile6.png"
+  }, {
+    "type" : "list",
+    "id" : 175,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 321.751, 96.024, 333.567, 500.528 ],
+    "numbering style" : "english letters",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 321.751, 489.374, 332.206, 500.528 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(a)",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 41,
+        "page number" : 8,
+        "bounding box" : [ 166.394, 308.502, 491.834, 477.27 ],
+        "source" : "15_images/imageFile7.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 322.117, 292.843, 333.567, 303.997 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(b)",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 42,
+        "page number" : 8,
+        "bounding box" : [ 166.394, 111.684, 489.818, 280.74 ],
+        "source" : "15_images/imageFile8.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 321.858, 96.024, 331.81, 107.178 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "(c)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 176,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 166.098, 64.403, 560.396, 88.379 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 157,
+    "next list id" : 184,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.098, 64.403, 560.396, 88.379 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 4. Receiver operating characteristic (ROC) curves of KNN. (a) Unoptimized KNN ROC, (b) Optimized KNN ROC, (c) Oversampled Optimized KNN ROC.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 177,
+    "page number" : 9,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 28,
+      "page number" : 9,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 9 of 21"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 180,
+    "level" : "5",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 757.242, 332.361, 769.456 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 159,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 757.242, 332.361, 769.456 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3.3. Deep Neural Networks (DNNs)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 181,
+    "page number" : 9,
+    "bounding box" : [ 165.975, 517.483, 560.929, 752.54 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "We used the dense neural network algorithm [33] to develop the DNN architecture, as shown in Figure 5, for a novel fault classification. The network was fed with autocorrelation features computed through FFT-based convolution. The FFT-based autocorrelation choice for feature extraction offers several key advantages in fault detection. Through autocorrelation analysis, temporal patterns in vibration signals can be effectively captured even when these patterns are obscured by noise in the time domain. This approach is particularly powerful for machinery fault detection, as recurring patterns in the signal are emphasized, making fault signatures more distinguishable. By correlating the signal with itself at different time lags, this method helps isolate fault-specific patterns from the complex vibration signatures typical of induction motors, where multiple mechanical components operate simultaneously. The FFT-based implementation of autocorrelation provides computational efficiency while maintaining sensitivity to periodic patterns. Moreover, this approach demonstrates robustness to phase shifts and timing variations in the signal, a crucial advantage in real-world operating conditions where exact synchronization may not be guaranteed. These characteristics complement DNN’s deep feature learning capabilities particularly well, enabling the network to identify and learn from the most relevant temporal patterns for accurate fault classification."
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 336.423, 560.929, 515.769 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The input layer of the DNN has twenty-one nodes, matching the number of dimensions in the input data pertaining to faults. The hidden layers have five subsequent layers consisting of 32, 64, 128, 64, and 32 neurons, respectively. Each layer uses the rectified linear unit (ReLU) activation function as depicted in Figure 5. The output layer consists of two neurons corresponding to the normal and fault classes. In the output layer, we used the softmax activation function, which offers probability distributions for precise fault classification. Adam is an optimization technique that may be used to update dense neural network weights iteratively based on training data, replacing the traditional stochastic gradient descent approach [33]. We used cross-entropy as the loss function to evaluate the accuracy measure. We stopped training if the loss metric did not improve after two consecutive epochs, preventing an overfitting curve. Thus, the proposed DNN is specifically designed to improve fault classification skills and leverages the model principles to automatically identify complex patterns from the input data."
+  }, {
+    "type" : "image",
+    "id" : 183,
+    "page number" : 9,
+    "bounding box" : [ 61.772, 253.804, 533.216, 323.481 ],
+    "source" : "15_images/imageFile9.png"
+  }, {
+    "type" : "list",
+    "id" : 184,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 234.16, 340.198, 245.314 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 176,
+    "next list id" : 220,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 234.16, 340.198, 245.314 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 5. Deep neural network architecture.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 185,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 209.508, 277.685, 224.285 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "3. Feature Extraction"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 9,
+    "bounding box" : [ 165.895, 68.022, 561.016, 205.585 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This section presents our approach to statistical feature extraction for fault diagnosis. We employed eleven statistical features that effectively characterized the distribution and patterns in vibration data. The extracted features included mean, standard deviation, quartile medians (Q1, Q2, and Q3), minimum and maximum (peak-to-peak), kurtosis, skewness, root mean square (RMS), and energy. For parameter optimization, we utilized kurtosis as an advanced input feature, measuring signal sharpness to produce optimized features. The detailed optimization process using kurtosis is discussed in [34]. These optimization techniques enable comprehensive assessment of the data structure, particularly in identifying peaked, flat, or directionally biased distributions. Skewness quantifies distribution symmetry, with zero indicating normal or symmetric distributions, while kurtosis mea-"
+  }, {
+    "type" : "header",
+    "id" : 187,
+    "page number" : 10,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 10,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 10 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 10,
+    "bounding box" : [ 165.975, 631.893, 561.022, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "sures the relative heaviness of distribution tails compared to normal distributions. Both metrics provide crucial statistical characteristics for fault detection. The mean and standard deviation describe the central tendency and data spread, respectively, with variance and standard deviation being particularly useful for measuring data distribution during feature extraction [35]. Our methodology applies these statistical features to differentiate between expected (normal) and unusual (imbalance) patterns in time-domain data. The dataset comprises 2550 feature windows, with 70% allocated for training and 30% for testing. Each window spans 132 samples and is advanced with 25% overlap, generating multiple statistical features that characterize the vibration patterns under diverse operating conditions. The mathematical formulations for all statistical features are presented in Table 4."
+  }, {
+    "type" : "list",
+    "id" : 191,
+    "level" : "4",
+    "page number" : 10,
+    "bounding box" : [ 166.098, 585.2, 407.01, 618.431 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 162,
+    "next list id" : 243,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.098, 585.2, 407.01, 618.431 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "Table 4. Statistical formulas of features. Feature Formula",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 10,
+    "bounding box" : [ 172.371, 532.455, 471.038, 580.543 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Mean x¯ = N1 ∑iN=1(xi) Standard Deviation σ = N1 (∑iN=1(xi − x¯)2 Minimum min(xi)"
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 10,
+    "bounding box" : [ 172.371, 457.74, 462.332, 532.579 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "First Quartile (Q1) (Q1 = 14((N + 1)th)) Median (Q2) (Q2 = 12((N + 1)th)) Third Quartile (Q3) (Q3 = 34((N + 1)th)) Maximum max(xi) Kurtosis ∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "page number" : 10,
+    "bounding box" : [ 376.037, 457.86, 412.694, 474.052 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 5.978,
+    "text color" : "[0.0]",
+    "content" : "N i=1(xi−x¯)4"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 10,
+    "bounding box" : [ 172.371, 438.496, 406.682, 463.118 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(N−1)σ4 Skewness ∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 10,
+    "bounding box" : [ 376.037, 438.617, 412.694, 454.808 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 5.978,
+    "text color" : "[0.0]",
+    "content" : "N i=1(xi−x¯)3"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 10,
+    "bounding box" : [ 172.371, 392.986, 438.244, 443.964 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(N−1)σ3 Root Mean Square (RMS) N1 (∑iN=1(xi)2) Energy ∑iN=1 |xi|2"
+  }, {
+    "type" : "heading",
+    "id" : 212,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 365.546, 414.488, 380.323 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "4. Feature Signal Analysis for Fault Detection"
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 10,
+    "bounding box" : [ 166.065, 182.278, 560.928, 361.624 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The MAFAULDA dataset contains vibration data collected through industrial IMI sensors (601A01 and 604B31 accelerometers), which were positioned on the MFS to capture vibrations in radial, axial, and tangential directions. The data acquisition system included a Monarch Instrument MT-190 tachometer, Shure SM81 microphone, and National Instruments NI-9234 data acquisition modules operating at a 51.2 kHz sampling rate. The analysis extracted eleven fundamental features from the raw vibration data: mean, standard deviation, minimum, maximum, kurtosis, skewness, root mean square (RMS), energy, and median values (25%, 50%, 75%). The SVM and KNN methods applied these features to both raw and processed data, allowing the algorithms to learn and adapt to underlying patterns for effective classification. The DNN implementation uniquely incorporated autocorrelation analysis of accelerometer data, computed through FFT-based convolution, which captured temporal patterns and recurring signal characteristics crucial for fault detection."
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 70.856, 560.522, 180.564 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The dataset comprises vibration sequences at fixed rotation speeds from 254 to 3686 rpm, with approximately 60 rpm increments. These sequences were sampled at 50 kHz and analyzed using a sliding window approach. Windows of 132 samples were advanced with 25% overlap between consecutive windows, corresponding to a step size of 99 samples, resulting in 2550 feature windows spanning approximately five seconds of data. The 60 rpm increments were carefully chosen to provide comprehensive coverage of operational speeds while maintaining manageable data volume. The imbalance fault simulations were conducted using loads ranging from 6 g to 35 g. Under normal operation,"
+  }, {
+    "type" : "header",
+    "id" : 215,
+    "page number" : 11,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 11,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 11 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 673.676, 560.929, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "the rotational frequency was consistently maintained for each load value below 30 g. These operating conditions maintained a constant speed within each sequence, allowing for reliable fault signature identification. Figure 6 shows the analysis of extracted features under normal rotational speeds. Loads equal to or exceeding 30 g limited the system’s ability to achieve rotational frequencies above 3300 rpm , revealing important characteristics for fault detection. The progressive load conditions (6 g to 35 g) reveal important system dynamics that are crucial for practical fault detection implementations."
+  }, {
+    "type" : "image",
+    "id" : 219,
+    "page number" : 11,
+    "bounding box" : [ 81.433, 448.467, 513.581, 660.745 ],
+    "source" : "15_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "id" : 220,
+    "level" : "3",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 106.982, 510.488, 439.977 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 184,
+    "next list id" : 227,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 428.823, 510.488, 439.977 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 6. Analysis of 11 features in normal rotational sequences (737 rpm to 3686 rpm).",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 43,
+        "page number" : 11,
+        "bounding box" : [ 166.065, 349.24, 559.275, 417.165 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Different imbalance conditions show distinct behavioral patterns. At the 6 g imbalance (Figure 7), the mean, standard deviation, and kurtosis properties remained stable despite slight perturbations. The 10 g imbalance analysis (Figure 8) shows sustained rotational properties. Skewness and RMS features demonstrated characteristic changes in the system’s vibrational behavior under an increased imbalance load."
+      }, {
+        "type" : "image",
+        "id" : 44,
+        "page number" : 11,
+        "bounding box" : [ 81.433, 126.627, 513.581, 338.905 ],
+        "source" : "15_images/imageFile11.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 106.982, 490.851, 118.136 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 7. Feature analysis under 6 g imbalance: consistently maintained rotations.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 69.183, 560.928, 95.324 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "At the 15 g imbalance (Figure 9), variations in maximum, energy, and median parameters show how the system responded to the increased load. The 20 g load imbalance"
+  }, {
+    "type" : "header",
+    "id" : 222,
+    "page number" : 12,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 12,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 12 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 12,
+    "bounding box" : [ 166.065, 729.387, 560.929, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(Figure 10) created significant dynamical variations across all features, especially in skewness and kurtosis. The 25 g imbalance analysis (Figure 11) reveals the system’s response to substantial imbalances through standard deviation and minimum trends."
+  }, {
+    "type" : "image",
+    "id" : 226,
+    "page number" : 12,
+    "bounding box" : [ 81.433, 504.178, 513.581, 716.456 ],
+    "source" : "15_images/imageFile12.png"
+  }, {
+    "type" : "list",
+    "id" : 227,
+    "level" : "3",
+    "page number" : 12,
+    "bounding box" : [ 166.394, 244.48, 500.051, 495.688 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 220,
+    "next list id" : 236,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 484.534, 500.051, 495.688 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 8. Feature analysis under the 10 g imbalance: stable rotational characteristics.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 45,
+        "page number" : 12,
+        "bounding box" : [ 81.412, 264.125, 513.587, 476.416 ],
+        "source" : "15_images/imageFile13.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 244.48, 488.511, 255.634 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 9. Feature analysis under the 15 g imbalance: assessing rotational stability.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 12,
+    "bounding box" : [ 166.115, 95.259, 559.279, 232.822 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The analysis is expanded to a 15 g load imbalance as shown in Figure 9. Changes in important parameters, such as the maximum, energy, and median, provide a detailed analysis of how the system reacts to more extreme imbalance situations. The maximum value directly indicates peak vibration amplitudes, which typically increase under severe imbalance conditions. This parameter is crucial as it reveals potential threshold violations that could indicate severe mechanical stress on the system. The energy value, calculated as the sum of squared signal amplitudes provides a comprehensive measure of the overall vibrational intensity. Under extreme imbalance conditions, energy values show significant increases reflecting the higher vibrational content across the entire signal duration. This makes energy a sensitive indicator of severe imbalance conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 67.404, 559.28, 93.546 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 10 shows the effects of a 20 g load imbalance, resulting in dynamical variations in all features. Skewness and kurtosis are two characteristics that might show significant"
+  }, {
+    "type" : "header",
+    "id" : 230,
+    "page number" : 13,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 13,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 13 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 715.459, 561.019, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "fluctuations, suggesting that the system is sensitive to increasing imbalance levels. In Figure 11, variations in all extracted features are represented under a 25 g imbalance. Similarly, trends in standard deviation and minimum provide insight into the system’s capability to manage important imbalance issues."
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 13,
+    "bounding box" : [ 166.095, 590.11, 560.932, 713.746 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Figure 12 shows limitations to the feature performance by analyzing the effects of higher load imbalance. The 30 g load analysis reveals constrained rotational frequencies, limiting frequencies above 3300 rpm, and variations in maximum and energy features, indicating system stability issues when subjected to high loads. The dynamics of all extracted features under a severe load of a 35 g imbalance are examined in the last exploration as shown in Figure 13. At a 35 g load imbalance, significant changes appear across all features, particularly in mean, skewness, and RMS values, showing system behavior at operational limits. Each sequence spans five seconds at a 50 kHz sampling rate, providing detailed data for fault detection. In Figures 6–13, the time is taken in microseconds."
+  }, {
+    "type" : "image",
+    "id" : 235,
+    "page number" : 13,
+    "bounding box" : [ 81.433, 364.901, 513.581, 577.179 ],
+    "source" : "15_images/imageFile14.png"
+  }, {
+    "type" : "list",
+    "id" : 236,
+    "level" : "3",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 105.224, 503.413, 356.411 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 227,
+    "next list id" : 241,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 345.257, 466.023, 356.411 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 10. Feature analysis under the 20 g imbalance: dynamical variations.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 46,
+        "page number" : 13,
+        "bounding box" : [ 81.433, 124.868, 513.581, 337.146 ],
+        "source" : "15_images/imageFile15.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 166.394, 105.224, 503.413, 116.378 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 11. Feature analysis under the 25 g imbalance: investigating system resilience.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 237,
+    "page number" : 14,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 14,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 14 of 21"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 240,
+    "page number" : 14,
+    "bounding box" : [ 81.433, 557.757, 513.581, 770.035 ],
+    "source" : "15_images/imageFile16.png"
+  }, {
+    "type" : "list",
+    "id" : 241,
+    "level" : "3",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 299.688, 517.58, 549.267 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 236,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 538.113, 517.58, 549.267 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 12. Feature analysis under a 30 g imbalance: limitations on rotational frequencies.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 47,
+        "page number" : 14,
+        "bounding box" : [ 81.433, 319.332, 513.581, 531.61 ],
+        "source" : "15_images/imageFile17.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 299.688, 369.41, 310.842 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 13. Feature analysis under a 35 g imbalance.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 242,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 275.84, 512.103, 290.617 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "5. Practical Consideration of SVM, KNN, and DNN Algorithms"
+  }, {
+    "type" : "list",
+    "id" : 243,
+    "level" : "4",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 260.112, 295.948, 272.526 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 191,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 260.112, 295.948, 272.526 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.1. Implementation Framework",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 118.066, 560.925, 255.63 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our implementation leverages Python’s robust machine learning libraries. For classification tasks, we utilized scikit-learn’s support vector classifier (SVC) for the SVM implementation and KNeighborsClassifier for KNN. The framework incorporates GridSearchCV for hyperparameter optimization through a systematic grid search, enhancing both SVM and KNN algorithms. To address dataset imbalance, we employed RandomOverSampler from the imbalanced-learn library. The implementation also relies on essential Python libraries: matplotlib.pyplot for visualization, pandas for data manipulation, NumPy for numerical operations, and SciPy for statistical measures like kurtosis and skewness. Feature standardization was achieved using scikit-learn’s StandardScaler, ensuring zero mean and unit variance for input features."
+  }, {
+    "type" : "list",
+    "id" : 245,
+    "level" : "4",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 94.285, 268.64, 106.699 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 270,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 94.285, 268.64, 106.699 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.2. Performance Metrics",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 14,
+    "bounding box" : [ 166.085, 63.661, 561.019, 89.802 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our evaluation framework employs standard metrics to assess model performance. These metrics provide detailed insights into how well the models handle true positives"
+  }, {
+    "type" : "header",
+    "id" : 247,
+    "page number" : 15,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 15,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 15 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 15,
+    "bounding box" : [ 166.065, 715.459, 560.524, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(TPs), true negatives (TNs), false positives (FPs), and false negatives (FNs). The ROC curves, shown in Figures 3 and 4, illustrate the trade-off between sensitivity and specificity across classification thresholds. The key metrics include the following: Accuracy, which involves measuring overall classification performance as expressed in Equation (3),"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 15,
+    "bounding box" : [ 343.188, 679.359, 435.457, 705.352 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "TP + TN TP + FN + TN + FP"
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 15,
+    "bounding box" : [ 286.401, 686.413, 338.851, 698.627 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Accuracy ="
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 15,
+    "bounding box" : [ 436.777, 686.413, 560.273, 698.627 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (3)"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 658.912, 544.744, 671.126 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Precision is calculated by Equation (4), which is crucial when false positives are costly,"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 15,
+    "bounding box" : [ 369.831, 622.811, 407.558, 648.805 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "TP TP + FP"
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 15,
+    "bounding box" : [ 408.878, 629.866, 560.27, 642.08 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (4)"
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 15,
+    "bounding box" : [ 314.3, 629.866, 365.494, 642.08 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Precision ="
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 15,
+    "bounding box" : [ 166.399, 602.364, 560.516, 614.578 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Recall is obtained by Equation (5), which is essential when false negatives must be minimized,"
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 15,
+    "bounding box" : [ 361.971, 566.264, 401.511, 592.257 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "TP TP + FN"
+  }, {
+    "type" : "paragraph",
+    "id" : 261,
+    "page number" : 15,
+    "bounding box" : [ 320.038, 573.318, 357.634, 585.532 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Recall ="
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 15,
+    "bounding box" : [ 403.14, 573.318, 560.27, 585.532 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : ", (5)"
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 531.889, 559.664, 558.03 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "and F1 score, which provides a balanced measure of precision and recall is computed by using the following Equation:"
+  }, {
+    "type" : "paragraph",
+    "id" : 267,
+    "page number" : 15,
+    "bounding box" : [ 335.188, 495.107, 439.849, 520.9 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "2 × (Precision × Recall) Precision + Recall"
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 15,
+    "bounding box" : [ 284.513, 501.941, 331.105, 514.155 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "F1 score ="
+  }, {
+    "type" : "paragraph",
+    "id" : 269,
+    "level" : "5",
+    "page number" : 15,
+    "bounding box" : [ 548.655, 501.941, 560.271, 514.155 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "(6)"
+  }, {
+    "type" : "list",
+    "id" : 270,
+    "level" : "4",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 472.954, 273.811, 485.368 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 245,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 472.954, 273.811, 485.368 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.3. Comparative Analysis",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 15,
+    "bounding box" : [ 166.095, 330.909, 560.933, 468.472 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our experimental results demonstrate the effectiveness of optimization and oversampling strategies across all implemented algorithms. As shown in Table 5, the SVM implementation showed consistent improvement through optimization, with the baseline model achieving 87% in training and 85.9% in testing accuracy. The optimized version improved to 93% in training and 90.4% in testing accuracy, while the addition of oversampling further enhanced performance to 97.5% in training and 95.4% in testing accuracy. The KNN implementation followed a similar trajectory of improvement. The baseline model achieved 94% in training and 87.4% in testing accuracy; with optimization, it maintained 95% training accuracy and improved testing accuracy to 89.8%. The oversampled version demonstrated the best performance, reaching 95.7% in training and 92.8% in testing accuracy."
+  }, {
+    "type" : "list",
+    "id" : 272,
+    "level" : "5",
+    "page number" : 15,
+    "bounding box" : [ 166.098, 306.292, 306.959, 317.446 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 297,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.098, 306.292, 306.959, 317.446 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 5. Comparison of algorithms.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 15,
+    "bounding box" : [ 172.371, 272.26, 518.246, 296.529 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Algorithm Training Testing Accuracy Accuracy"
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 15,
+    "bounding box" : [ 172.371, 171.798, 510.392, 267.698 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Unoptimized SVM 87% 85.9% Optimized SVM 93% 90.4% Oversampled optimized SVM 97.5% 95.4% Unoptimized KNN 94% 87.4% Optimized KNN 95% 89.8% Oversampled optimized KNN 95.7% 92.8% Time-domain based DNN 97% 95% FFT based DNN 99.8% 99.7%"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 15,
+    "bounding box" : [ 166.394, 69.182, 561.019, 151.034 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Most notably, our DNN implementation with autocorrelation features, computed using FFT-based convolution, showed exceptional performance. While the direct timedomain analysis achieved respectable results (97% in training, 95% in testing accuracy), the FFT-based autocorrelation features approach significantly improved performance to 99.8% in training and 99.7% in testing accuracy. These results underscore the importance of both optimization strategies and appropriate data preprocessing in fault diagnostics."
+  }, {
+    "type" : "header",
+    "id" : 279,
+    "page number" : 16,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 16,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 16 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 16,
+    "bounding box" : [ 166.085, 729.387, 560.925, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The consistent improvement across all algorithms, particularly with oversampling and FFTbased autocorrelation feature analysis, suggests robust potential for real-world applications in predictive maintenance systems."
+  }, {
+    "type" : "heading",
+    "id" : 283,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 702.724, 374.618, 717.501 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "6. Illustration of Experimental Results"
+  }, {
+    "type" : "list",
+    "id" : 284,
+    "level" : "1",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 686.996, 206.563, 699.41 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 686.996, 206.563, 699.41 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "6.1. SVM",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 16,
+    "bounding box" : [ 166.095, 517.095, 560.926, 682.514 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our experimental validation employed the MAFAULDA dataset [22] to thoroughly evaluate model performance. The classification results are best understood through confusion matrices, presented in Figure 14, which provide a comprehensive view of how well our models distinguish between normal and fault conditions. The detailed performance metrics derived from Figure 14a–c are summarized in Table 6. Among our implementations, the oversampled optimized SVM demonstrated remarkable performance, correctly identifying 344 faulty cases and 385 normal cases, while minimizing misclassifications to just 33 false positives and 2 false negatives. This translated to an impressive 95.4% accuracy, with the model achieving 91.2% precision and 99.4% recall. While the optimized SVM also showed strong performance with 97.2% precision, the unoptimized linear SVM, despite perfect precision (1.00), fell short in overall effectiveness with an accuracy of 85.8%, correctly identifying 656 positive cases but also recording 108 false negatives."
+  }, {
+    "type" : "image",
+    "id" : 286,
+    "page number" : 16,
+    "bounding box" : [ 166.394, 329.254, 366.337, 504.154 ],
+    "source" : "15_images/imageFile18.png"
+  }, {
+    "type" : "caption",
+    "id" : 287,
+    "page number" : 16,
+    "bounding box" : [ 214.831, 313.595, 317.604, 324.749 ],
+    "linked content id" : 286,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) Before optimized SVM"
+  }, {
+    "type" : "image",
+    "id" : 288,
+    "page number" : 16,
+    "bounding box" : [ 166.394, 128.974, 368.324, 301.489 ],
+    "source" : "15_images/imageFile19.png"
+  }, {
+    "type" : "caption",
+    "id" : 289,
+    "page number" : 16,
+    "bounding box" : [ 228.036, 113.315, 306.385, 124.469 ],
+    "linked content id" : 288,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(b) Optimized SVM"
+  }, {
+    "type" : "heading",
+    "id" : 290,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 94.48, 229.203, 105.67 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 14. Cont."
+  }, {
+    "type" : "header",
+    "id" : 291,
+    "page number" : 17,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 17,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 17 of 21"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 294,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 590.138, 380.707, 770.026 ],
+    "source" : "15_images/imageFile20.png"
+  }, {
+    "type" : "caption",
+    "id" : 295,
+    "page number" : 17,
+    "bounding box" : [ 207.969, 574.479, 338.834, 585.633 ],
+    "linked content id" : 294,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(c) Oversampled optimized SVM"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 555.68, 384.222, 566.834 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 14. Faulty and normal classification using SVM."
+  }, {
+    "type" : "list",
+    "id" : 297,
+    "level" : "5",
+    "page number" : 17,
+    "bounding box" : [ 166.098, 535.884, 513.168, 547.038 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 272,
+    "next list id" : 315,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 166.098, 535.884, 513.168, 547.038 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 6. Calculation of accuracy, precision, recall, and F1 score of the model using SVM.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 299,
+    "level" : "Subtitle",
+    "page number" : 17,
+    "bounding box" : [ 41.836, 511.814, 553.156, 524.128 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Algorithm TP FP FN TN Accuracy Precision Recall F1 Score"
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 17,
+    "bounding box" : [ 41.836, 471.128, 542.915, 507.252 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Linear SVM 656 0 108 0 0.86 1.00 0.86 0.92 Optimized SVM 634 22 51 57 0.90 0.97 0.93 0.95 Oversampled optimized SVM 344 33 2 385 0.95 0.91 0.99 0.95"
+  }, {
+    "type" : "paragraph",
+    "id" : 303,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 439.255, 206.573, 451.669 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "6.2. KNN"
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 325.065, 561.018, 434.773 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Our KNN implementation underwent similar rigorous testing, with results visualized in Figure 15. The oversampled optimized variant proved most effective, successfully identifying 325 faulty and 384 normal cases, although it produced 52 false positives and 3 false negatives. Table 7 presents the complete performance metrics, calculated using Equations (3)–(6). The oversampled approach achieved 92.8% accuracy with an exceptional 99.1% recall, while the base-optimized KNN showed strong discrimination capabilities with 637 correct positive identifications. The unoptimized version, while achieving a respectable 87.4% accuracy, demonstrated room for improvement through our optimization strategies."
+  }, {
+    "type" : "image",
+    "id" : 305,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 114.571, 393.644, 312.121 ],
+    "source" : "15_images/imageFile21.png"
+  }, {
+    "type" : "caption",
+    "id" : 306,
+    "page number" : 17,
+    "bounding box" : [ 166.394, 80.077, 331.873, 110.066 ],
+    "linked content id" : 305,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(a) before optimized KNN Figure 15. Cont."
+  }, {
+    "type" : "header",
+    "id" : 307,
+    "page number" : 18,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 18,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 18 of 21"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 310,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 574.273, 394.544, 770.023 ],
+    "source" : "15_images/imageFile22.png"
+  }, {
+    "type" : "caption",
+    "id" : 311,
+    "page number" : 18,
+    "bounding box" : [ 240.274, 558.613, 320.371, 569.767 ],
+    "linked content id" : 310,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(b) Optimized KNN"
+  }, {
+    "type" : "image",
+    "id" : 312,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 355.705, 398.144, 546.505 ],
+    "source" : "15_images/imageFile23.png"
+  }, {
+    "type" : "caption",
+    "id" : 313,
+    "page number" : 18,
+    "bounding box" : [ 202.985, 340.046, 361.26, 351.2 ],
+    "linked content id" : 312,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "(c) Optimized KNN with Oversampling"
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 321.247, 385.971, 332.401 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 15. Faulty and normal classification using KNN."
+  }, {
+    "type" : "list",
+    "id" : 315,
+    "level" : "5",
+    "page number" : 18,
+    "bounding box" : [ 166.098, 302.04, 514.917, 313.194 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 297,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 166.098, 302.04, 514.917, 313.194 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Table 7. Calculation of accuracy, precision, recall, and F1 score of the model using KNN.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 317,
+    "level" : "Subtitle",
+    "page number" : 18,
+    "bounding box" : [ 41.836, 277.971, 553.156, 290.285 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Algorithm TP FP FN TN Accuracy Precision Recall F1 Score"
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 18,
+    "bounding box" : [ 41.836, 237.284, 542.915, 273.409 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Unoptimized KNN 617 39 57 51 0.87 0.94 0.92 0.93 Optimized KNN 637 25 53 49 0.90 0.96 0.92 0.94 Oversampled optimized KNN 325 52 3 384 0.93 0.86 0.99 0.92"
+  }, {
+    "type" : "list",
+    "id" : 321,
+    "level" : "1",
+    "page number" : 18,
+    "bounding box" : [ 166.394, 205.706, 207.679, 218.12 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 166.394, 205.706, 207.679, 218.12 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "6.3. DNN",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 18,
+    "bounding box" : [ 165.975, 91.516, 561.019, 201.224 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In developing DNN architecture using the dense NN method, we leveraged FFTbased autocorrelation features to enhance the model’s ability to recognize fault patterns. This approach processes raw vibration data through FFT-based autocorrelation analysis, where fault signatures become more distinguishable through the enhancement of temporal patterns and periodic relationships in the signal. As demonstrated in Figure 16, this transformation significantly improved classification performance. By effectively filtering noise and focusing on relevant frequency components, our DNN achieved an outstanding 99.7% accuracy, compared to 95% in time-domain analysis as shown in Table 5."
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 18,
+    "bounding box" : [ 166.394, 63.661, 560.928, 89.802 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Based on the FFT-based autocorrelation fed data, DNN successfully identified 655 faulty and 107 normal cases, producing 01 false positive and 01 false negative. The sig-"
+  }, {
+    "type" : "header",
+    "id" : 324,
+    "page number" : 19,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 19,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 19 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 19,
+    "bounding box" : [ 165.975, 715.459, 560.112, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "nificance of the performance becomes clear when considering that the dataset was not balanced through oversampling. This approach achieved a remarkable accuracy of 99.7% with an exceptional 99.9% precision and 99.8% recall. The confusion matrix is depicted in Figure 16."
+  }, {
+    "type" : "image",
+    "id" : 328,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 509.144, 392.744, 708.494 ],
+    "source" : "15_images/imageFile24.png"
+  }, {
+    "type" : "caption",
+    "id" : 329,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 491.492, 386.401, 502.646 ],
+    "linked content id" : 328,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 16. Faulty and normal classification using DNN."
+  }, {
+    "type" : "heading",
+    "id" : 330,
+    "level" : "Subtitle",
+    "page number" : 19,
+    "bounding box" : [ 166.394, 466.84, 246.793, 481.617 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "7. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 19,
+    "bounding box" : [ 166.085, 311.427, 561.265, 462.917 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This paper introduces effective methods for predicting induction motor faults, aiming to minimize losses and prevent disasters through advanced fault detection techniques. By leveraging SVM, KNN, and DNN, we precisely classify motor states as either “normal” or “imbalance”. Our findings demonstrate significant improvements over previous studies, notably with accuracy for optimized oversampled SVM reaching 95.4% and optimized oversampled KNN achieving an accuracy of 92.8%. These methods, enhanced by optimization and oversampling strategies, contribute significantly to fault detection in induction motors. The best-performing algorithm was DNN with FFT-based implementation of autocorrelation, achieving an impressive 99.7% accuracy. This aligns with trends in technology-driven fault identification and offers substantial benefits for industrial processes such as increased efficiency, reduced downtime, and enhanced safety"
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 19,
+    "bounding box" : [ 166.095, 255.716, 560.925, 309.713 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In future work, the model’s robustness will be enhanced by testing it on the testbed under varying load conditions and real-world noise. The training dataset will also be expanded with diverse fault scenarios, and adaptive learning techniques will be incorporated to improve the generalization and reliability of the model."
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 19,
+    "bounding box" : [ 166.044, 230.881, 561.072, 242.035 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Author Contributions: N.K.: programming and data curation; I.U.: methodology and writing—"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 19,
+    "bounding box" : [ 165.945, 192.046, 560.768, 229.036 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "original draft; J.S. and S.M.: resources, investigation, and validation of the research; S.A.M. and W.-G.K.: visualization, validation, data curation, writing—review and editing draft, project administration, and funding. All authors have read and agreed to the published version of the manuscript."
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 160.07, 559.628, 184.061 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This work was supported by the National Research Foundation of Korea (NRF) funded by the Korean Government Ministry of Science and ICT (MSIT) under Grant RS-2022-00166977."
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 19,
+    "bounding box" : [ 166.394, 102.978, 528.492, 152.085 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Institutional Review Board Statement: Not applicable. Informed Consent Statement: Not applicable. Data Availability Statement: Available on the public repository website: See reference [24]."
+  }, {
+    "type" : "header",
+    "id" : 337,
+    "page number" : 20,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 20,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 20 of 21"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 20,
+    "bounding box" : [ 166.044, 731.526, 560.762, 768.516 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Acknowledgments: This work was conducted in the Department of Electrical and Computer Engineering, COMSATS University Islamabad, Abbottabad Campus, and the Department of Defense Systems Engineering at Sejong University, Seoul, Republic Korea."
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 20,
+    "bounding box" : [ 166.394, 712.387, 421.89, 723.541 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Conflicts of Interest: The authors declare no conflicts of interest."
+  }, {
+    "type" : "heading",
+    "id" : 342,
+    "level" : "Subtitle",
+    "page number" : 20,
+    "bounding box" : [ 35.716, 685.605, 95.48, 700.382 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 343,
+    "level" : "3",
+    "page number" : 20,
+    "bounding box" : [ 35.716, 96.195, 560.846, 681.903 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 24,
+    "next list id" : 347,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 670.713, 506.03, 681.903 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Penrose, A. Industrial Electromechanical Systems: A Comprehensive Overview. Int. J. Ind. Eng. 2022, 45, 112–125.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 657.946, 547.473, 669.136 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Sharma, M.; Kumar, R. Machine Learning in Predictive Maintenance: A Systematic Review. J. Predict. Maint. 2021, 18, 45–67.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 632.412, 559.274, 656.369 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Mian, T.; Anurag, C.; Fatima, S.; Panigrahi, B.K. Artificial intelligence of things based approach for anomaly detection in rotating machines. Comput. Electr. Eng. 2023, 109, 108760. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 606.877, 559.276, 630.835 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Ameer, H.S.; Ungku, A.B.-U.A. A review on fault detection and diagnosis of industrial robots and multi-axis machines. Results Eng. 2024, 23, 102397.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 581.343, 560.397, 605.3 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Lin, S.L. Intelligent Fault Diagnosis and Forecast of Time-Varying Bearing Based on Deep Learning VMD-DenseNet. Sensors 2021, 21, 7467. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 555.809, 559.272, 579.766 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. He, J.; Wu, P.; Tong, Y.; Zhang, X.; Lei, M.; Gao, J. Bearing Fault Diagnosis via Improved One-Dimensional Multi-Scale Dilated CNN. Sensors 2021, 21, 7319. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 530.275, 560.845, 554.232 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Chi, Y.; Dong, Y.; Wang, Z.J.; Yu, F.R.; Leung, V.C.M. Knowledge-Based Fault Diagnosis in Industrial Internet of Things: A Survey. IEEE Internet Things J. 2022, 9, 12886–12900. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 504.741, 560.764, 528.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Almutairi, K.M.; Sinha, J.K. Experimental Vibration Data in Fault Diagnosis: A Machine Learning Approach to Robust Classification of Rotor and Bearing Defects in Rotating Machines. Machines 2023, 11, 943. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 479.207, 559.278, 503.164 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Sharma, D.K.; Brahmachari, S.; Singhal, K.; Gupta, D. Data driven predictive maintenance applications for industrial systems with temporal convolutional networks. Comput. Ind. Eng. 2022, 169, 108213. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 453.871, 560.396, 477.63 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Gao, Z. Ding, S. X.; Cecati, C. Real-time fault diagnosis and fault-tolerant control. IEEE Trans. Industrial Electron. 2015, 62, 3752-3756. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 428.337, 560.843, 452.096 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Jose, J.P.; Ananthan, T.; Prakash, N.K. Ensemble Learning Methods for Machine Fault Diagnosis. In 2022 Third International Conference on Intelligent Computing Instrumentation and Control Technologies, Kannur, India, 11–12 August 2022; pp. 1127–1134.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 402.605, 559.273, 426.562 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Hou, J.; Lu, X.; Zhong, Y.; He, W.; Zhao, D.; Zhou, F. A comprehensive review of mechanical fault diagnosis methods based on convolutional neural network. J. Vibroeng. 2023, 26, 44–65. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 377.071, 559.275, 401.028 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Wen, Y.; Rahman, M. F.; Xu, H.; Tseng, T.-L.B. Recent Advances and Trends of Predictive Maintenance from Data-Driven Machine Prognostics Perspective. Measurement 2022, 187, 110276. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 364.304, 501.485, 375.494 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Chen, L.; Li, X. IoT and Edge Computing in Predictive Maintenance. IEEE Internet Things J. 2022, 9, 13456–13470.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 338.769, 559.277, 362.726 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Zamudio-Ramírez, I.; Osornio-Ríos, R.A.; Antonino-Daviu, J.A.; Quijano-Lopez, A. Smart-sensor for the automatic detection of electromechanical faults in induction motors based on the transient stray flux analysis. Sensors 2020, 20, 1477. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 300.666, 560.846, 337.192 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. Misra, S.; Kumar, S.; Sayyad, S.; Bongale, A.; Jadhav, P.; Kotecha, K.; Abraham, A.; Gabralla, L.A. Fault detection in induction motor using time domain and spectral imaging-based transfer learning approach on vibration data. Sensors 2022, 22, 8210. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 274.934, 559.278, 298.891 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Lu, H.; Li, Y.; Mu, S.; Wang, D.; Kim, H.; Serikawa, S. Motor Anomaly Detection for Unmanned Aerial Vehicles Using Reinforcement Learning. IEEE Internet Things J. 2018, 5, 2315–2322 [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 249.4, 559.278, 273.357 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. Vos, K.; Peng, Z.; Jenkins, C.; Shahriar, M.R.; Borghesani, P.; Wang, W. Vibration-based anomaly detection using LSTM/SVM approaches. Mech. Syst. Signal Process. 2022, 169, 108752. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 223.866, 559.278, 247.823 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Purushottam, G.; Rajiv, T. A support vector machine based fault diagnostics of Induction motors for practical situation of multi-sensor limited data case. Measurement 2019, 135, 694–711.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 198.332, 560.392, 222.289 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Aguo, L.; Ming, J.Z. Gear crack level identification based on weighted K nearest neighbor classification algorithm. Mech. Syst. Signal Process. 2009, 23, 1535–1547.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 172.798, 560.399, 196.755 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Lu, J.; Qian, W.; Li, S.; Cui, R. Enhanced K-Nearest Neighbor for Intelligent Fault Diagnosis of Rotating Machinery. Appl. Sci. 2021, 11, 919. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 147.462, 560.27, 171.221 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Cu, V.X. “MAFAULDA Full”, Kaggle. 25 May 2022. Available online: https://www.kaggle.com/datasets/vuxuancu/mafauldafull/data (accessed on 25 October 2023).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 121.73, 559.278, 145.687 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Alzghoul, A.; Jarndal, A.; Alsyouf, I.; Bingamil, A.A.; Ali, M.A.; AlBaiti, S. On the Usefulness of Pre-processing Methods in Rotating Machines Faults Classification using Artificial Neural Network. J. Appl. Comput. Mech. 2021, 7, 254–261.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 35.716, 96.195, 559.272, 120.153 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Wang, Z.; Li, J.; Xu, Z.; Yang, S.; He, D.; Chan, S. Application of Deep Neural Network with Frequency Domain Filtering in the Field of Intrusion Detection. Int. J. Intell. Syst. 2023, 2023, 8825587. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 344,
+    "page number" : 21,
+    "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 21,
+      "bounding box" : [ 35.493, 796.114, 559.674, 807.878 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Sensors 2025, 25, 773 21 of 21"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 347,
+    "level" : "3",
+    "page number" : 21,
+    "bounding box" : [ 35.716, 476.451, 560.849, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 11,
+    "previous list id" : 343,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 731.99, 560.849, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Mayaki, M.Z.A.; Riveill, M. Machinery Anomaly Detection Using Artificial Neural Networks and Signature Feature Extraction. In Proceedings of the 2023 International Joint Conference on Neural Networks (IJCNN 2023), Gold Coast, Australia, 18–23 June 2023; pp. 1–10.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 706.258, 559.628, 730.215 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Perales Gomez, A.L.; Fernandez Maimo, L.; Huertas Celdran, A.; Garcia Clemente, F.J. SUSAN: A Deep Learning based anomaly detection framework for sustainable industry. Sustain. Comput. Informatics Syst. 2023, 37, 100842. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 693.689, 443.382, 704.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. SpectraQuest, Inc. Available online: http://www.spectraquest.com (accessed on 5 October 2023 ).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 667.957, 560.848, 691.914 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Nayak, C.; Pathak, V. K.; Kumar, S.; Athnekar, P. Design and development of machine fault simulator (MFS) for fault diagnosis. Int. J. Recent Adv. Mech. Eng. (IJMECH) 2015, 4, 77–84. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 642.423, 559.274, 666.38 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. Kumar, D.; Sanaullah, M.U.; Kapal, D.; Sunder, A.K.; Naveed, A. B.; Tanweer, H. Towards soft real-time fault diagnosis for edge devices in industrial IoT using deep domain adaptation training strategy. J. Parallel Distrib. Comput. 2022, 160, 90–99. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 617.087, 559.274, 640.846 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Anava, O.; Levy, K.Y. k*-Nearest Neighbors: From Global to Local. In Proceedings of the 30th Conference on Neural Information Processing Systems (NIPS) 2016, Barcelona, Spain, 5–10 December 2016.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 591.355, 559.273, 615.312 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Achraf, E.B.; Noura, J.; Omar, M.; Abdelkader, H. Adaptive K values and training subsets selection for optimal K-NN performance on FPGA. J. King Saud Univ.-Comput. Inf. Sci. 2024, 36, 102081.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 565.821, 559.273, 589.778 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. García-Pedrajas, N.; Castillo, J.D.; Cerruela-García, G. A proposal for local k values for k-nearest neighbor rule. IEEE Trans. Neural Netw. Learn. Syst. 2015, 28, 470–475. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 540.287, 559.278, 564.244 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Sandeep K.R.; Rajesh K.P. Accelerated Singular Value Decomposition (ASVD) using momentum based Gradient Descent Optimization. J. King Saud Univ. Comput. Inf. Sci. 2021, 33, 447–452.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 502.184, 559.278, 538.71 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Pestana-Viana, D.; Zambrano-López, R.; De Lima, A.A.; De Prego, M.T.; Netto, S.L.; Da Silva, E.A.B. The Influence of Feature Vector on the Classification of Mechanical Faults Using Neural Networks. In Proceedings of the 7th IEEE Latin American Symposium on Circuits and Systems (LASCAS) 2016, Florianopolis, Brazil, 28 February–2 March 2016.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 35.716, 476.451, 559.278, 500.408 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Altaf, M.; Akram, T.; Khan, M.A.; Iqbal, M.; Ch, M.M.I.; Hsu, C-H. A new statistical features based approach for bearing fault diagnosis using vibration signals. Sensors 2022, 22, 2012. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 21,
+    "bounding box" : [ 35.447, 424.421, 559.28, 460.947 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  } ]
+}

@@ -1,0 +1,2192 @@
+{
+  "file name" : "20.pdf",
+  "number of pages" : 9,
+  "author" : "Sabrina Milani",
+  "title" : "Real-time classification of tyre models in high-performance vehicles: Comparing model-based and learning-based approaches",
+  "creation date" : "D:20260410053213Z",
+  "modification date" : "D:20260410095758Z",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 77,
+    "page number" : 1,
+    "bounding box" : [ 219.43, 748.518, 375.091, 760.251 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.04706, 0.46275, 0.62353]",
+    "content" : "Control Engineering Practice 173 (2026) 107002"
+  }, {
+    "type" : "paragraph",
+    "id" : 49,
+    "page number" : 1,
+    "bounding box" : [ 229.977, 714.52, 370.372, 743.945 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Contents lists available at ScienceDirect"
+  }, {
+    "type" : "text block",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 503.582, 663.953, 557.932, 735.45 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 1,
+      "page number" : 1,
+      "bounding box" : [ 504.645, 664.644, 556.869, 734.759 ],
+      "source" : "20_images/imageFile1.png"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 47,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 665.173, 97.584, 730.592 ],
+    "source" : "20_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "id" : 50,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 211.253, 678.289, 389.096, 729.784 ],
+    "heading level" : 1,
+    "font" : "CharisSIL",
+    "font size" : 13.948,
+    "text color" : "[0.0]",
+    "content" : "Control Engineering Practice"
+  }, {
+    "type" : "paragraph",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 193.08, 665.312, 407.276, 674.853 ],
+    "font" : "UniversLTStd",
+    "font size" : 7.97,
+    "text color" : "[0.0, 0.502, 0.675]",
+    "content" : "journal homepage: www.elsevier.com/locate/conengprac"
+  }, {
+    "type" : "heading",
+    "id" : 54,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.882, 586.526, 446.311, 653.417 ],
+    "heading level" : 2,
+    "font" : "CharisSIL",
+    "font size" : 13.45,
+    "text color" : "[0.0]",
+    "content" : "Real-time classiﬁcation of tyre models in high-performance vehicles: Comparing model-based and learning-based approaches"
+  }, {
+    "type" : "paragraph",
+    "id" : 55,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 566.487, 456.301, 605.476 ],
+    "font" : "CharisSIL",
+    "font size" : 10.56,
+    "text color" : "[0.0]",
+    "content" : "Sabrina Milani a, Jessica Leoni a,∗, Matteo Corno a, Luca D’Avicob, Mara Tanelli a"
+  }, {
+    "type" : "image",
+    "id" : 56,
+    "page number" : 1,
+    "bounding box" : [ 107.552, 578.019, 118.352, 588.819 ],
+    "source" : "20_images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 57,
+    "page number" : 1,
+    "bounding box" : [ 191.893, 578.019, 202.693, 588.819 ],
+    "source" : "20_images/imageFile4.png"
+  }, {
+    "type" : "image",
+    "id" : 58,
+    "page number" : 1,
+    "bounding box" : [ 284.21, 578.019, 295.01, 588.819 ],
+    "source" : "20_images/imageFile5.png"
+  }, {
+    "type" : "image",
+    "id" : 59,
+    "page number" : 1,
+    "bounding box" : [ 440.508, 578.019, 451.308, 588.819 ],
+    "source" : "20_images/imageFile6.png"
+  }, {
+    "type" : "list",
+    "id" : 60,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 37.882, 549.607, 197.711, 581.212 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 37.882, 557.671, 171.463, 581.212 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "a DEIB, Politecnico di Milano, 20133, Milan, Italy",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 37.882, 549.607, 197.711, 573.148 ],
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "b Brembo N.V, Via Stezzano 87, 24126, Stezzano, BG, Italy",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 62,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 513.959, 136.443, 547.063 ],
+    "font" : "CharisSIL",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "a r t i c l e i n f o"
+  }, {
+    "type" : "paragraph",
+    "id" : 65,
+    "page number" : 1,
+    "bounding box" : [ 202.291, 513.959, 271.008, 547.063 ],
+    "font" : "CharisSIL",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "a b s t r a c t"
+  }, {
+    "type" : "paragraph",
+    "id" : 67,
+    "page number" : 1,
+    "bounding box" : [ 202.291, 372.275, 556.622, 523.091 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "In the automotive scenario, automatic real-time tyre identiﬁcation is paramount to optimize vehicle performance, enhance safety, and reduce consumption. On the one hand, this capability is valuable in racing applications. In fact, although tyre speciﬁcations are typically known a priori, recognition can provide consistency checks and strategic decisions. On the other hand, it becomes even more critical in urban scenarios, including aftermarket applications, where tyre information is often unavailable and vehicle control systems can beneﬁt from adapting their response in real time to improve stability and safety, especially during critical maneuvers. However, a clear gap has been identiﬁed in the literature on tyre classiﬁcation. In fact, most existing approaches focus on usage monitoring, such as tyre wear estimation while those explicitly addressing tyre type prediction are still lacking. Moreover, even among the existing wear estimation approaches, a trade-oﬀ emerges between practicality and interpretability; a challenge that tyre classiﬁcation methods are also expected to face. In fact, on the one hand, model-based techniques yield physically interpretable results, but typically depend on measurements that are rarely available in real-world settings, such as tyre pressure and temperature. On the other hand, machine learning approaches exploit easily accessible vehicle data and achieve high predictive performance at the expense of interpretability."
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 464.23, 89.088, 522.042 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Keywords: Tyre classiﬁcation Model-based Machine learning Data-driven"
+  }, {
+    "type" : "paragraph",
+    "id" : 68,
+    "page number" : 1,
+    "bounding box" : [ 202.291, 314.89, 556.622, 389.193 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "To address this challenge, two approaches for real-time tyre classiﬁcation are presented and compared: a model-based method tailored to use more accessible vehicle measurements, and a learning-based approach designed with a focus on interpretability. To evaluate their performance, both a simulation scenario and real-world data are considered. While both models achieve optimal performance in simulation, data variability and noise in real-world conditions reduce the accuracy of the model-based approach. In contrast, the learning-based approach maintains an F1-score of 96.5% proving to be a practical and interpretable solution for real-time tyre recognition."
+  }, {
+    "type" : "heading",
+    "id" : 70,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 37.882, 281.842, 97.425, 311.267 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1. Introduction"
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "page number" : 1,
+    "bounding box" : [ 306.873, 145.852, 557.932, 311.267 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "and Torque Vectoring (TV) (see Singh et al., 2018), to adjust their strategy. Consequently, Arrigoni et al. (2017) shows that the variability of tyre characteristics strongly inﬂuences the performance of commercial ABS. Furthermore, this information can support compliance with seasonal tyre regulations by alerting drivers when an inappropriate tyre type is detected. However, tyre identiﬁcation has not yet been implemented in commercial vehicles due to the fact that, although various model-based and data-driven approaches have been proposed in the literature, they primarily focus on tyre condition monitoring and defect detection, namely on estimating tyre condition parameters such as wear, tyre tread depth condition, temperature, or inﬂation pressure, rather than identifying the tyre model itself. Several model-based and data-driven approaches have been proposed in the literature to address tyre-related problems, with a primary focus on tyre condition"
+  }, {
+    "type" : "paragraph",
+    "id" : 71,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 145.852, 288.941, 290.345 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "In the automotive scenario, tyre selection is crucial in determining handling characteristics, safety, and eﬃciency during critical maneuvers. In fact, diﬀerences in the compound, pressure levels, and wear of the tyre can signiﬁcantly aﬀect grip, cornering, and steering performance. For instance, considering a racing scenario, real-time identiﬁcation of the mounted tyre can support consistency checks between the nominal tyre information and the actual on-track behaviour, ensuring that the installed tyre behaves as expected and enabling rapid strategy adjustments in case of deviations due to wear, temperature, or operational mismatches. On the other hand, considering urban scenarios, real-time knowledge of the mounted tyre allows vehicle control systems, such as anti-lock brake systems (ABS) and Electronic Stability Control (ESC),"
+  }, {
+    "type" : "paragraph",
+    "id" : 73,
+    "page number" : 1,
+    "bounding box" : [ 43.644, 116.151, 123.534, 143.443 ],
+    "font" : "CharisSIL",
+    "font size" : 7.392,
+    "text color" : "[0.0]",
+    "content" : "∗ Corresponding author."
+  }, {
+    "type" : "paragraph",
+    "id" : 74,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 97.331, 541.733, 133.378 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0, 0.502, 0.675]",
+    "content" : "E-mail addresses: sabrina.milani@polimi.it (S. Milani), jessica.leoni@polimi.it (J. Leoni), matteo.corno@polimi.it (M. Corno), luca.davico@brembo.com (L. D’Avico), mara.tanelli@polimi.it (M. Tanelli)."
+  }, {
+    "type" : "paragraph",
+    "id" : 76,
+    "page number" : 1,
+    "bounding box" : [ 37.882, 70.501, 323.32, 106.548 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "https://doi.org/10.1016/j.conengprac.2026.107002 Received 29 October 2025; Received in revised form 4 April 2026; Accepted 4 April 2026"
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "page number" : 1,
+    "bounding box" : [ 37.52, 57.728, 557.575, 79.001 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Available online 10 April 2026 0967-0661/© 2026 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+  }, {
+    "type" : "header",
+    "id" : 79,
+    "page number" : 2,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 25,
+      "page number" : 2,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 26,
+      "page number" : 2,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 80,
+    "page number" : 2,
+    "bounding box" : [ 37.882, 93.672, 288.941, 750.743 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "monitoring rather than tyre type identiﬁcation. Considering modelbased approaches, they provide physically meaningful results but typically rely on complex and costly experimental setups or on intelligent tyre systems embedding dedicated sensors (Bastiaan et al., 2024; Khaleghian et al., 2017; Morinaga & Hanatsuka, 2014), which limits their feasibility in real-world applications. For instance, the approach presented in Williams et al. (2010) relies on hard-to-access measurements obtained through advanced vehicle instrumentation. As a result, despite their eﬀectiveness in condition estimation tasks, the problem of real-time tyre type recognition using standard in-vehicle measurements remains largely unexplored. Conversely, machine learning and deep learning techniques have been investigated for their ability to exploit more accessible sensor data (Lampe et al., 2023; Tong et al., 2025). In this context, recent studies have explored deep learning and transfer learning techniques for estimating tyre wear, tread depth, load, or detecting defects, demonstrating strong predictive performance in controlled settings (Chen et al., 2024; Li et al., 2023; Rahman et al., 2024; Zhang et al., 2023). However, despite their eﬀectiveness, these approaches generally lack the interpretability of physics-based models, which hinders their adoption in safety-critical, racing, and industrial contexts. To bridge the gap in the existing literature, the present work addresses a diﬀerent but equally critical task and largely unexplored problem: the real-time recognition of the mounted tyre type. This problem is particularly relevant in high-performance or racing contexts as well as urban scenarios, where the installed tyre type directly aﬀects vehicle dynamics and control strategy. It enables strategic and control-level adaptations (e.g., optimizing braking balance or torque vectoring) according to the tyre characteristics, without requiring direct measurements of temperature, pressure, or wear. To this end this work presents and compares two novel methodologies for real-time tyre type classiﬁcation: a model-based and a machine learning-based approach. The two proposed classiﬁcation strategies are conceived with complementary roles. The model-based approach is designed as a simple, physically interpretable, and computationally eﬃcient reference method, providing a meaningful benchmark for tyre classiﬁcation based on lateral dynamics. The main methodological contribution of this work is instead represented by the learning-based strategy, which enables reliable tyre identiﬁcation when lateral tyre-related quantities are not directly available. The proposed model-based method improves on existing techniques by estimating hard-to-access variables using measurements more likely to be available, at least in high-performance vehicles. The machine learningbased method, on the other hand, has been ad-hoc designed to ensure interpretability and leverages standard in-vehicle signals. To the best of the authors’ knowledge, this is the ﬁrst study to present and compare approaches for real-time tyre classiﬁcation. Both strategies are evaluated on simulated and experimental data, to assess their feasibility and robustness in a controlled and a real-world condition, respectively. The results demonstrate both methods’ eﬀectiveness in real-time tyre classiﬁcation using simulated data. However, when applied to experimental data, the machine learning approach proves to be more robust, maintaining high performance, while the model-based one reduces its classiﬁcation capabilities. Overall, this preliminary analysis conﬁrms the validity of both approaches, yet highlights the machine learning method as more promising due to its robustness and reliance on more accessible vehicle data. The paper is structured as follows: in Section 2 the available datasets are presented, in Section 3 the fundamentals of longitudinal and lateral dynamics are provided. Then, in Section 4 model-based and machine learning approaches are described, while the classiﬁcation results are reported respectively in Sections 5 and 6. Eventually, Section 7 draws the conclusions of the work."
+  }, {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 2,
+    "bounding box" : [ 338.875, 713.97, 525.929, 750.017 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Table 1 Availability of signals in simulation and experimental data."
+  }, {
+    "type" : "paragraph",
+    "id" : 85,
+    "page number" : 2,
+    "bounding box" : [ 344.853, 700.624, 519.952, 724.165 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Signal Simulation Experimental"
+  }, {
+    "type" : "paragraph",
+    "id" : 87,
+    "page number" : 2,
+    "bounding box" : [ 344.853, 652.783, 487.217, 710.595 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Lateral Acceleration \uD835\uDC34\uD835\uDC66 ✓ ✓ Longitudinal Acceleration \uD835\uDC34\uD835\uDC65 ✓ ✓ Side Slip Angle \uD835\uDEFD ✓ ✓ Vehicle longitudinal speed \uD835\uDC63\uD835\uDC65 ✓ ✓ Chassis yaw rate \uD835\uDF14\uD835\uDC67 ✓ ✓"
+  }, {
+    "type" : "paragraph",
+    "id" : 88,
+    "page number" : 2,
+    "bounding box" : [ 344.853, 635.647, 487.217, 667.756 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "steering angle \uD835\uDEFF\uD835\uDC53 ✓ ✓ Wheel rotational speed \uD835\uDF14 ✓ ✓"
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "page number" : 2,
+    "bounding box" : [ 344.853, 618.511, 485.591, 650.62 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "forces \uD835\uDC39\uD835\uDC66 ✓ Lateral sideslip angles \uD835\uDEFC ✓ –"
+  }, {
+    "type" : "paragraph",
+    "id" : 91,
+    "page number" : 2,
+    "bounding box" : [ 306.873, 250.563, 557.932, 614.732 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "ferent datasets are exploited, one encompassing simulations data collected from a high-ﬁdelity simulation environment (CarRealTime) and the other acquired during an experimental campaign. Simulations have been performed with the same racing-type vehicle mounting three different tyres on diﬀerent tracks on dry asphalt. Due to conﬁdentiality constraints associated with the simulation environment, detailed vehicle model and tyre formulations cannot be disclosed. Yet, some general details are provided in the following. More in detail, tests were formed using three high-performance tyre models: the ultra high performance Pirelli P Zero and its latest evolution, the Pirelli P Zero PZ4 designed for enhanced grip and comfort, and a third model whose identity was intentionally concealed to emulate an unknown tyre and test the algorithm’s generalization capability. For each trial, all signals of interest for the vehicle lateral dynamics have been collected. The experimental dataset, instead, refers to a campaign conducted in collaboration with Brembo N.V. involving diﬀerent vehicles of class (Tesla Model 3), equipped with diﬀerent tyres. The experimental campaign was carried out using three high-performance tyre models: Pirelli P Zero, an ultrahigh-performance summer tyre designed for maximum grip on dry and wet surfaces; Michelin Pilot Sport 4 S, another ultra-high-performance summer tyre optimized for sports cars and supercars; and Pirelli Sottozero, a high-performance winter tyre engineered to ensure traction and handling in cold and snowy conditions. The speciﬁc tyre and vehicle data are omitted for conﬁdentiality reasons. The tests were performed on track, with vehicle speeds ranging from 20 to 220km/h. It is worth noting that, unlike many condition monitoring studies, no direct information on tyre wear, inﬂation pressure, or temperature was available. The proposed methods were therefore designed to rely exclusively on standard vehicle signals (accelerations, wheel speeds, and yaw rate), ensuring real-time applicability even in production or racing vehicles where such measurements are not accessible. Table 1 provides further details on the signals that are directly measured in simulation and experimental setups."
+  }, {
+    "type" : "heading",
+    "id" : 92,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 306.873, 229.402, 383.154, 258.827 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "3. System modeling"
+  }, {
+    "type" : "paragraph",
+    "id" : 93,
+    "page number" : 2,
+    "bounding box" : [ 306.873, 135.255, 557.932, 237.906 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Before diving into the details of the implemented approaches, a brief background is provided on the relevant tyre type information derived from longitudinal and lateral forces at the road contact point. particular, both lateral and longitudinal dynamics are considered. In fact, the lateral formulation will then be used to design the proposed modelbased approach, while the combination of lateral and longitudinal signatures motivates the choice of the signal selection adopted for the learning-based strategy."
+  }, {
+    "type" : "paragraph",
+    "id" : 94,
+    "page number" : 2,
+    "bounding box" : [ 306.873, 114.095, 381.49, 143.52 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "3.1. Lateral dynamics"
+  }, {
+    "type" : "paragraph",
+    "id" : 95,
+    "page number" : 2,
+    "bounding box" : [ 306.873, 40.87, 557.932, 122.599 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Considering lateral dynamics, tyre type recognition is here based on the analysis of the lateral tyre forces. Speciﬁcally, lateral forces are obtained through two complementary approaches: (i) vehicle-level equilibrium relations using a bicycle model, and (ii) from a tyre force characteristic relating slip angle to lateral force. These two estimates are introduced in the following sections and later compared to deﬁne"
+  }, {
+    "type" : "heading",
+    "id" : 81,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 37.882, 72.252, 193.213, 101.677 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "2. Simulation and experimental datasets"
+  }, {
+    "type" : "paragraph",
+    "id" : 82,
+    "page number" : 2,
+    "bounding box" : [ 37.882, 40.87, 288.941, 80.756 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "In this Section, the dataset used to evaluate and compare the performance of the disclosed approaches is presented. Speciﬁcally, two dif-"
+  }, {
+    "type" : "footer",
+    "id" : 96,
+    "page number" : 2,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 2,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 97,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 27,
+      "page number" : 3,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 28,
+      "page number" : 3,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 98,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 679.475, 288.941, 750.743 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "a tyre-dependent consistency metric used for tyre type recognition. Regarding the estimation procedure based on the vehicle-level equilibrium relations of the bicycle model, the lateral dynamics can be described terms of forces and moments using the bicycle model formulation in Carnier and Corno (2023), Pacejka (2005):"
+  }, {
+    "type" : "image",
+    "id" : 124,
+    "page number" : 3,
+    "bounding box" : [ 330.328, 649.246, 534.478, 736.696 ],
+    "source" : "20_images/imageFile7.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 100,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 278.46, 657.545, 288.941, 686.97 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(1)"
+  }, {
+    "type" : "paragraph",
+    "id" : 99,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 654.574, 145.601, 681.026 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC40 ⋅ \uD835\uDC34\uD835\uDC66 = \uD835\uDC39\uD835\uDC66,f cos(\uD835\uDEFFf) + \uD835\uDC39\uD835\uDC66,r, \uD835\uDC3D ⋅ \uD835\uDF14̇\uD835\uDC67 = \uD835\uDC39\uD835\uDC66,f\uD835\uDC3Ff cos(\uD835\uDEFFf) − \uD835\uDC39\uD835\uDC66,r\uD835\uDC3Fr"
+  }, {
+    "type" : "paragraph",
+    "id" : 101,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 562.299, 288.941, 664.949 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "where \uD835\uDC40 is the vehicle mass, \uD835\uDC3D the yaw moment of inertia of the vehicle, \uD835\uDC34\uD835\uDC66 denotes the lateral chassis acceleration, \uD835\uDEFF\uD835\uDC53 is the wheel steering angle, \uD835\uDF14\uD835\uDC67 is chassis yaw rate and \uD835\uDC3Ff and \uD835\uDC3Fr the front and rear half geometric lengths of the vehicle, respectively. The cosine term accounts for the projection of the front lateral tyre force, which acts along the wheel plane, onto the vehicle reference frame. More in detail, the front and rear lateral forces can be further expressed under the assumption of steady state turns maneuver (i.e., negligible \uD835\uDF14̇\uD835\uDC67 ≈ 0) as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 616.307, 557.931, 652.355 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 1. Schematic representation of the dynamic bicycle model with reference signals used in the study."
+  }, {
+    "type" : "paragraph",
+    "id" : 126,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 472.806, 557.932, 617.3 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "available sensors. In addition, longitudinal dynamics provides complementary tyre-dependent information through slip and friction phenomena, which can be directly inferred from standard signals (e.g., wheel speeds, vehicle speed, and longitudinal acceleration). However, in the proposed framework these signals are not used to estimate longitudinal tyre forces. Instead, they are only exploited as measurable vehicle signal that may contain indirect signatures tyre behaviour. For this reason, longitudinal relations are introduced here to motivate their combined use with lateral signatures in the learning-based approach. First, it must be noted that, within this context, the key signal to take into account for recognizing the tyre type is the longitudinal wheel slip, which can be deﬁned as follows:"
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 3,
+    "bounding box" : [ 157.499, 552.616, 188.86, 564.081 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC40 ⋅ \uD835\uDC34\uD835\uDC66\uD835\uDC3Fr"
+  }, {
+    "type" : "paragraph",
+    "id" : 108,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 278.46, 531.276, 288.941, 560.701 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 102,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 545.69, 154.09, 558.693 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC39\uD835\uDC66,f cos(\uD835\uDEFFf)\uD835\uDC3F = \uD835\uDC40 ⋅ \uD835\uDC34\uD835\uDC66\uD835\uDC3Fr → \uD835\uDC39\uD835\uDC66,f ="
+  }, {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 3,
+    "bounding box" : [ 56.336, 521.883, 187.784, 553.113 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "cos(\uD835\uDEFFf)\uD835\uDC3F \uD835\uDC39\uD835\uDC66,r ⋅ \uD835\uDC3F = \uD835\uDC40 ⋅ \uD835\uDC34\uD835\uDC66\uD835\uDC3Ff → \uD835\uDC39\uD835\uDC66,r ="
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 3,
+    "bounding box" : [ 157.499, 517.344, 188.86, 540.274 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC40 ⋅ \uD835\uDC34\uD835\uDC66\uD835\uDC3Ff \uD835\uDC3F"
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 479.471, 288.941, 529.817 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "where \uD835\uDC3F = \uD835\uDC3Ff + \uD835\uDC3Fr. Similarly, the lateral sideslip angles at the front and rear axle, under the assumption of low longitudinal slip, can be expressed as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 130,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 547.451, 457.455, 557.932, 486.88 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(6)"
+  }, {
+    "type" : "paragraph",
+    "id" : 111,
+    "page number" : 3,
+    "bounding box" : [ 38.121, 445.763, 127.879, 483.249 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDF14\uD835\uDC67 \uD835\uDC63\uD835\uDC65∕cos(\uD835\uDEFD) \uD835\uDEFCr = −\uD835\uDEFD + \uD835\uDC3Fr"
+  }, {
+    "type" : "paragraph",
+    "id" : 128,
+    "page number" : 3,
+    "bounding box" : [ 322.268, 456.769, 347.767, 480.2 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC63\uD835\uDC65 − \uD835\uDF14\uD835\uDC5F \uD835\uDF14\uD835\uDC5F"
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 278.46, 450.51, 288.941, 479.935 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(3)"
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 466.802, 91.893, 478.985 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDEFCf = \uD835\uDEFFf − \uD835\uDEFD − \uD835\uDC3Ff"
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 462.348, 318.859, 474.311 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDF06 ="
+  }, {
+    "type" : "paragraph",
+    "id" : 131,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 408.622, 557.932, 469.429 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "where \uD835\uDC63\uD835\uDC65 is the vehicle longitudinal speed, \uD835\uDF14 is the wheel rotational speed and \uD835\uDC5F is the wheel radius. In fact, longitudinal forces at the tyre road contact point can be described as a function of the longitudinal slip through the longitudinal friction coeﬃcient as follows:"
+  }, {
+    "type" : "paragraph",
+    "id" : 113,
+    "page number" : 3,
+    "bounding box" : [ 83.626, 439.365, 117.321, 462.21 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDF14\uD835\uDC67 \uD835\uDC63\uD835\uDC65∕cos(\uD835\uDEFD)"
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 306.329, 288.941, 450.822 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "where \uD835\uDEFD denotes the vehicle side-slip angle and \uD835\uDC63\uD835\uDC65 is the longitudinal velocity component expressed in the vehicle reference frame. Please note that this formulation explicitly accounts for the explicit magnitude of the velocity vector. However, for small sideslip angles, this term reduces to the standard approximation based on \uD835\uDC63\uD835\uDC65, as cos(\uD835\uDEFD) ≈ 1. As previously mentioned, another approach can also be followed to estimate the lateral forces. In fact, they can be expressed as a function of the lateral sideslip angles \uD835\uDEFC and longitudinal slip \uD835\uDF06. In the following, a quasi-static tyre model is assumed, in which lateral and longitudinal forces are expressed as functions of slip variables and vertical load, while neglecting tyre relaxation dynamics. Therefore, according to Savaresi and Tanelli (2010), lateral forces can expressed as:"
+  }, {
+    "type" : "paragraph",
+    "id" : 132,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 283.773, 557.932, 422.696 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC39\uD835\uDC65 = \uD835\uDF07\uD835\uDC65(\uD835\uDF06,\uD835\uDEFC)\uD835\uDC39\uD835\uDC67 (7) where again \uD835\uDC39\uD835\uDC67 is the vertical load and \uD835\uDF07\uD835\uDC65 is longitudinal tyre-road friction coeﬃcient that strongly depends on the tyre (temperature, inﬂation pressure, state of wear, compound etc.) and road characteristics. This relation proves that, diﬀerent tyres, e.g., all-purpose, highperformance, or winter tyre, show diﬀerent slip dynamics, proving the potential of this signal for type classiﬁcation. In addition, the typical choice when modeling the longitudinal wheel dynamics is the adoption of the single corner that, as explained in Savaresi and Tanelli (2010), treats each wheel independently. The wheel can be described by the following equations:"
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 233.243, 288.941, 320.133 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC39\uD835\uDC66 = \uD835\uDF07\uD835\uDC66(\uD835\uDF06,\uD835\uDEFC)\uD835\uDC39\uD835\uDC67 (4) where \uD835\uDF07\uD835\uDC66 is the lateral tyre-road friction coeﬃcient and depends on the tyre and road characteristics and \uD835\uDC39\uD835\uDC67 is the vertical load. This nonlinear relation can be described with diﬀerent models. Speciﬁcally, when neglecting the longitudinal dynamics, an approximation of the complex formulation known as magic formula (Pacejka, 2005) reads as follows:"
+  }, {
+    "type" : "paragraph",
+    "id" : 134,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 547.451, 262.113, 557.932, 291.538 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(8)"
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 259.142, 360.834, 285.594 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC3D\uD835\uDF14̇ = \uD835\uDC5F\uD835\uDC39\uD835\uDC65 − \uD835\uDC47\uD835\uDC4F\uD835\uDC5F \uD835\uDC5A\uD835\uDC63̇\uD835\uDC65 = −\uD835\uDC39\uD835\uDC65"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 198.52, 557.932, 269.788 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "where \uD835\uDC3D is the wheel rotational inertia, \uD835\uDC5A is the mass of the single corner, \uD835\uDC47\uD835\uDC4F\uD835\uDC5F is the applied braking torque. Friction coeﬃcients and slip dynamics change when considering diﬀerent tyres mounted on the same vehicles. Therefore, the dynamic of the slip also needs to be considered. So by substituting Eq. (7) into Eq. (8) one gets the following:"
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 197.677, 288.941, 244.739 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "tanh(\uD835\uDC3E ⋅ \uD835\uDEFC) (5) where \uD835\uDC36 is the lateral cornering stiﬀness expressing the maximum peak"
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 214.628, 63.426, 235.168 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC39\uD835\uDC66 = \uD835\uDC36 \uD835\uDC3E"
+  }, {
+    "type" : "paragraph",
+    "id" : 121,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 103.53, 288.941, 216.641 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "the lateral force and \uD835\uDC3E is the form factor that deﬁnes the initial slope of the curve. Thus, diﬀerent tyre types can be distinguished through their characteristic friction curves, since the parameters \uD835\uDC36 and \uD835\uDC3E are tyre-speciﬁc. These coeﬃcients are typically identiﬁed oﬄine from dedicated experimental tests and can be used as a reference force–slip relation. In the proposed model-based approach, as described in Section 5, this reference is then compared against lateral forces estimated online from measured vehicle signals via the bicycle-model equilibrium relations."
+  }, {
+    "type" : "paragraph",
+    "id" : 139,
+    "page number" : 3,
+    "bounding box" : [ 345.907, 175.003, 351.885, 206.628 ],
+    "font" : "STIXMathExtensions-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "("
+  }, {
+    "type" : "paragraph",
+    "id" : 144,
+    "page number" : 3,
+    "bounding box" : [ 389.706, 175.003, 428.96, 206.628 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : ")\uD835\uDC39\uD835\uDC67\uD835\uDF07\uD835\uDC65 + \uD835\uDC5F"
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 163.747, 449.023, 201.264 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(\uD835\uDC47br) \uD835\uDC5A\uD835\uDC63̇\uD835\uDC65 = −\uD835\uDF07\uD835\uDC39\uD835\uDC67"
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 373.346, 178.326, 388.013, 201.242 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "+ \uD835\uDC5F2 \uD835\uDC3D"
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 547.451, 171.789, 557.932, 201.214 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(9)"
+  }, {
+    "type" : "paragraph",
+    "id" : 137,
+    "page number" : 3,
+    "bounding box" : [ 336.893, 177.286, 344.214, 200.491 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1 \uD835\uDC63\uD835\uDC65"
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 3,
+    "bounding box" : [ 353.08, 178.326, 370.379, 200.491 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1 − \uD835\uDF06 \uD835\uDC5A"
+  }, {
+    "type" : "paragraph",
+    "id" : 136,
+    "page number" : 3,
+    "bounding box" : [ 316.039, 183.905, 335.691, 195.98 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDF06̇ = −"
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 3,
+    "bounding box" : [ 422.688, 178.326, 431.025, 188.664 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC63\uD835\uDC3D"
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 103.124, 557.932, 174.392 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "that proves how the longitudinal friction coeﬃcient, which encompasses information about tyre and road interaction, strongly aﬀects slip dynamics. In Fig. 1, the dynamic bicycle model of the vehicle is reported, where all the adopted conventions for the described signals are reported as well."
+  }, {
+    "type" : "list",
+    "id" : 122,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 37.882, 82.713, 130.522, 112.138 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 155,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 37.882, 82.713, 130.522, 112.138 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "3.2. Longitudinal dynamics",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 150,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 306.873, 82.713, 408.164, 112.138 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "4. Classiﬁcation strategies"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 3,
+    "bounding box" : [ 37.882, 40.87, 288.941, 91.216 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "While the model-based strategy is grounded on the lateral dynamics introduced above, several lateral quantities (e.g., \uD835\uDC39\uD835\uDC66 and \uD835\uDEFD) are not directly measured in standard vehicles and must be estimated from commonly"
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 3,
+    "bounding box" : [ 306.873, 40.87, 557.932, 91.216 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "As reported in Section 1, the key contribution of this work is to present and compare the performance of a model-based and learning-based approach in real-time tyre classiﬁcation. The proposed model-based"
+  }, {
+    "type" : "footer",
+    "id" : 152,
+    "page number" : 3,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 3,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 153,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 29,
+      "page number" : 4,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 30,
+      "page number" : 4,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 154,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 491.181, 288.941, 750.743 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "classiﬁer is explicitly tailored to operate only when the lateral vehicle dynamics is suﬃciently excited. In these conditions, the underlying model equations are valid and lateral tyre forces can be reliably estimated, enabling physics-based tyre classiﬁcation. Accordingly, the model-based approach is applied only within operating regimes that satisfy predeﬁned excitation and validity conditions, while outside these regimes the classiﬁer output is intentionally held constant to avoid unreliable or noisy decisions. In the simulation scenario, full-length track trials are available, allowing the behaviour of the model-based classiﬁer to be analysed over the entire manoeuvre while explicitly highlighting the time intervals that meet the excitation and model-validity requirements. In contrast, in the experimental scenario, the available dataset consists only of selected track segments. These segments inherently correspond to portions of the manoeuvre characterized by increasing lateral forces and suﬃcient excitation, and are therefore directly used for the analysis. Conversely, the learning-based approach is evaluated in a fully data-driven fashion. No explicit assumptions on excitation levels or model validity are imposed a priori, and the entire available dataset is provided as input to the classiﬁer. This choice reﬂects the objective of assessing whether a learning-based strategy can autonomously extract discriminative information from standard vehicle signals, without requiring explicit intervention or operating-condition supervision. This Section details the methodology presented for both cases."
+  }, {
+    "type" : "image",
+    "id" : 170,
+    "page number" : 4,
+    "bounding box" : [ 329.878, 681.196, 534.928, 736.696 ],
+    "source" : "20_images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 4,
+    "bounding box" : [ 377.496, 657.821, 487.309, 684.304 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 2. Classiﬁcation architecture."
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 4,
+    "bounding box" : [ 306.873, 146.993, 557.932, 657.614 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "explicit physical mapping is not directly exploitable for identiﬁcation. Importantly, they are readily measurable on virtually any production vehicle. Therefore, a learning-based solution is then proposed, speciﬁcally designed to preserve a level of interpretability comparable to that of the model-based counterpart. The methodology focuses on extracting physics-informed features, which enable an a-posteriori interpretation of the decision-making process of the classiﬁer. Based on the domain knowledge of the system, in both simulation and experimental data, the following signals are therefore considered: lateral and longitudinal chassis accelerations (\uD835\uDC34\uD835\uDC66, \uD835\uDC34\uD835\uDC65), vehicle longitudinal speed (\uD835\uDC63\uD835\uDC65), chassis yaw rate (\uD835\uDF14\uD835\uDC67), side slip angle (\uD835\uDEFD), longitudinal slip (\uD835\uDF06), wheel steering angle (\uD835\uDEFF\uD835\uDC53), and wheel rotational speed (\uD835\uDF14). As previously mentioned, lateral forces (\uD835\uDC39\uD835\uDC66) and lateral sideslip angles (\uD835\uDEFC) have not been considered, as available only in simulation and rarely measured in standard vehicles. Speciﬁcally for features extraction procedures, chassis accelerations (\uD835\uDC34\uD835\uDC66, \uD835\uDC34\uD835\uDC65) and longitudinal slip (\uD835\uDF06) for the front axis (front and right wheel) are considered. These signals correspond to measurements typically available in standard vehicle sensing architectures and do not require the estimation of tyre forces. Feature extraction on these signals subset was conducted by exploiting a moving window approach to ensure that the classiﬁcation algorithm predictions are generated in real-time. The window width is a critical parameter, which should be determined through a ﬁne-tuning process that balances the included signal dynamics and the time required for classiﬁcation. In this case, an optimal width of \uD835\uDC64 = 50\uD835\uDC5A\uD835\uDC60 was determined for both the simulated and the real-world scenarios. Thus, each window is an instance for the classiﬁer and contains a synchronous and ﬁxed portion of the signals of interest over which features are extracted. More in detail, a total of 12 features are computed, including the mean value, standard deviation, and mean of the ﬁrst derivative for \uD835\uDC34\uD835\uDC66, \uD835\uDC34\uD835\uDC65, and longitudinal slip \uD835\uDF06 for the front left wheel and front right wheel. These features were selected through a feature selection process, as they were found to be the most informative for separating the target classes while minimizing redundancy. The produced instances set is then used to train and evaluate a Random Forest Classiﬁer. This classiﬁer has been selected to further enhance interpretability (Breiman, 2001). To this end, ensemble size was also considered during hyperparameter tuning, along with prediction accuracy. This led to an optimal Random Forest model consisting of 5 estimators, with a maximum depth 10. Such a result enhances interpretability, as the decision rules of trees can be examined and also understood, as they are based on the extracted physics-based features. To train this model, the analysis relies on the dataset presented in Section 2, using 70% for training and the remainder for evaluating the performance. Once trained, the classiﬁer can be used online by ﬁlling a window with the required signals, extracting the corresponding features, and providing the derived instance to the model, which provides the tyre type prediction."
+  }, {
+    "type" : "list",
+    "id" : 155,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 37.882, 470.835, 130.59, 500.26 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 122,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 37.882, 470.835, 130.59, 500.26 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "4.1. Model-based approach",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 334.845, 288.941, 479.339 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The presented model-based approach aims to classify tyre types based on the physical equations of the system described above. As introduced in Section 3, this approach leverages the equations of the vehicle’s lateral dynamics. In more detail, the designed model-based classiﬁer relies on a maximum-likelihood approach based on the behavior of the lateral forces, estimated from the friction-based modeling, and on the vehicle dynamics one. To this end, as illustrated in Fig. 2, ﬁrst, the front lateral forces for each tyre type of interest are identiﬁed oﬄine, according to Eq. (5). Speciﬁcally, this means that, from ad-hoc collected data, the \uD835\uDC36 and \uD835\uDC3E coeﬃcients are estimated, which describe each speciﬁc tyre type of interest. Then, online, lateral forces, computed according to Eq. (2), are compared with of the previously estimated curves."
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 293.002, 288.941, 353.81 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Accordingly, for each candidate \uD835\uDC61\uD835\uDC66\uD835\uDC5F\uD835\uDC52\uD835\uDC56, a discrepancy metric is computed between two estimates (e.g. the estimated lateral forces and the diﬀerent identiﬁed models). In more detail, the following error can be computed:"
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 281.548, 59.255, 294.551 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC52\uD835\uDC56(\uD835\uDC61) ="
+  }, {
+    "type" : "paragraph",
+    "id" : 160,
+    "page number" : 4,
+    "bounding box" : [ 64.026, 281.548, 128.825, 294.551 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC39\uD835\uDC66,est(\uD835\uDC61) − \uD835\uDC39\uD835\uDC66,tyre,\uD835\uDC56(\uD835\uDC61)"
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 131.375, 282.588, 133.368, 292.926 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 229.986, 288.941, 290.793 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The errors are then analyzed, and the one that yields the lowest value is more likely to correspond to the tyre that represents the dynamics of the signals at that instant of time. Therefore, the predicted tyre type is selected as the one minimizing the error:"
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 4,
+    "bounding box" : [ 61.476, 257.833, 64.026, 289.458 ],
+    "font" : "STIXMathExtensions-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "|"
+  }, {
+    "type" : "paragraph",
+    "id" : 161,
+    "page number" : 4,
+    "bounding box" : [ 128.825, 257.833, 131.375, 289.458 ],
+    "font" : "STIXMathExtensions-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "|"
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 219.571, 82.307, 231.534 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC56̂(\uD835\uDC61) = argmin"
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 4,
+    "bounding box" : [ 84.966, 218.532, 100.665, 231.534 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC52\uD835\uDC56(\uD835\uDC61)."
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 123.98, 288.941, 226.631 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "To ensure a robust classiﬁcation and to prevent inconsistent decisions due to local variations, the error is computed with a moving window average approach, as this procedure acts as a low-pass ﬁltering action, smoothing abrupt variations in the error and ﬁltering highfrequency noise from data. Despite its simplicity and accuracy, this approach can be applied only under speciﬁc assumptions, and it is based on signals, i.e., lateral forces and side-slip angle, which, as explained in Section 3 are only available in a limited set of vehicles."
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 4,
+    "bounding box" : [ 75.179, 215.656, 77.038, 223.409 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 5.978,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC56"
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 4,
+    "bounding box" : [ 306.873, 124.556, 381.089, 153.981 ],
+    "font" : "CharisSIL-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "4.3. Models summary"
+  }, {
+    "type" : "list",
+    "id" : 168,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 37.882, 103.634, 213.238, 133.059 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 37.882, 103.634, 213.238, 133.059 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "4.2. Learning-based approach - Features engineering",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 4,
+    "bounding box" : [ 306.873, 40.87, 557.932, 133.059 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Therefore, the rationale behind the two proposed strategies is as follows. If lateral tyre-related variables (e.g., \uD835\uDC39\uD835\uDC66, \uD835\uDEFC, or reliable estimates thereof) are available as measured signals, tyre identiﬁcation can be naturally addressed within a model-based framework grounded on lateral vehicle dynamics. However, in standard vehicle setups such lateral quantities are typically not measured and may not be reliably estimated under all driving conditions. In these cases, the proposed learning-based"
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 4,
+    "bounding box" : [ 37.882, 40.87, 288.941, 112.138 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "To overcome the limitations of the model-based approach, an alternative approach is investigated to detect tyre type based only on signals available in standard vehicle setups, such as wheel speed sensors, vehicle speed, and acceleration measurements. In fact, as discussed in Section 3, these signals are inﬂuenced by the tyre type, even though an"
+  }, {
+    "type" : "footer",
+    "id" : 175,
+    "page number" : 4,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 4,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 176,
+    "page number" : 5,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 31,
+      "page number" : 5,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 32,
+      "page number" : 5,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 178,
+    "page number" : 5,
+    "bounding box" : [ 37.882, 574.442, 288.94, 610.489 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 3. Simulated and identiﬁed forces on the left and lateral side slip angles on the right."
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 5,
+    "bounding box" : [ 37.882, 525.48, 288.94, 575.827 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "strategy exploits readily available signals, including longitudinal ones (e.g., \uD835\uDC34\uD835\uDC65 and longitudinal slip), to extract physics-informed features that still capture tyre-dependent behaviour."
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 5,
+    "bounding box" : [ 37.882, 473.176, 288.941, 544.444 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Therefore, the two approaches address diﬀerent signal availability conditions: the model-based strategy relies on tyre-related lateral quantities, whereas the learning-based one investigates whether tyre classiﬁcation can be achieved using only signals commonly available in production vehicles."
+  }, {
+    "type" : "heading",
+    "id" : 181,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 37.882, 453.06, 162.935, 482.485 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "5. Model-based approach results"
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 5,
+    "bounding box" : [ 37.882, 66.485, 288.941, 461.563 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Simulation scenario. In the following, the classiﬁcation results obtained using the model-based approach applied to simulated and realworld data are presented. The simulation data performance allows for the evaluation of the method in an ideal scenario, where precise lateral signals measurements are available. These preliminary results not only demonstrate the potential of the proposed classiﬁcation approach in such conditions but also provide a reference benchmark for its validation in the experimental case. In detail, the simulated data described in Section 2 has ﬁrst been considered, which belongs to trials performed on dry asphalt tracks with diﬀerent tested tyres. As reported in Section 4 the estimate of the lateral forces from Eq. (2) and for the lateral slip angles from Eq. (3) can be validated using the measured steering angle \uD835\uDEFF\uD835\uDC53 and the sideslip angle \uD835\uDEFD. Fig. 3 shows the comparison between simulated and estimated forces and lateral side slip angles for a selected tyre conﬁguration. It can be noticed that the estimated signals closely match the simulated ones, proving that the model is capable of describing the lateral forces and sideslip angles dynamics. Then, based on the estimated forces and sideslip, the lateral friction curves can be obtained when considering the three diﬀerent tyres, which are reported in Fig. 4. As the aim of the work is the real-time classiﬁcation of the tyre type, and considering that in a real-world scenario lateral forces measurements lateral side slip angles may not be available, the estimated forces and sideslip angles have been used, even in the simulated scenario. This allows us to validate the approach given the subsequent application to the experimental data. Then, to classify diﬀerent tyres behavior, the idea is to compare the lateral forces predicted by each tyre model evaluated at the given sideslip angle (according to Eq. (5)) with the estimated one obtained from vehicle data (Eq. (2)), as explained in Section 4. To perform this comparison, a tailored model representing the speciﬁc tyre lateral forces must be identiﬁed for each type. To do so, a parameter identiﬁcation procedure that optimizes the model parameters to ﬁt the average force behavior observed in the data has to be applied. Speciﬁcally, parameters \uD835\uDC36 and \uD835\uDC3E for each tyre can be obtained by applying a least square approach that minimizes the error between the estimated force and the one from the tailored tyre model \uD835\uDC39\uD835\uDC66,\uD835\uDC61\uD835\uDC66\uD835\uDC5F\uD835\uDC52 = \uD835\uDC3E\uD835\uDC36\uD835\uDC61\uD835\uDC66\uD835\uDC5F\uD835\uDC52"
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 5,
+    "bounding box" : [ 37.882, 40.87, 288.941, 93.89 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "tanh(\uD835\uDC3E\uD835\uDC61\uD835\uDC66\uD835\uDC5F\uD835\uDC52 ⋅ \uD835\uDEFC\uD835\uDC52\uD835\uDC60\uD835\uDC61), both for the front and rear axle which results in the identiﬁed friction curves reported in Fig. 4 for the simulated data. Figs. 5 and 6 provide insights into the single front and rear models."
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 5,
+    "bounding box" : [ 73.337, 65.467, 81.616, 71.928 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 4.981,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC61\uD835\uDC66\uD835\uDC5F\uD835\uDC52"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 5,
+    "bounding box" : [ 306.873, 569.194, 557.932, 605.241 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 4. Tyre curves from simulated data: front axle on the left and rear axle on the right."
+  }, {
+    "type" : "footer",
+    "id" : 193,
+    "page number" : 5,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 5,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 189,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 349.858, 238.837, 514.947, 430.506 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 349.858, 404.023, 514.947, 430.506 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 5. Tyre curves from simulated data: front axle.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 351.245, 238.837, 513.56, 265.32 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 6. Tyre curves from simulated data: rear axle.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 5,
+    "bounding box" : [ 306.873, 187.321, 557.932, 237.667 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "For convenience and readability, in the following the tyres are referred to as A, B, (e.g.; Tyre A is the Pirelli Pzero Pz4, Tyre B is the Pirelli Pzero, Tyre C is the generic one)."
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 5,
+    "bounding box" : [ 306.873, 40.87, 557.932, 206.285 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "To take into account the hypothesis of validity and excitation conditions, a preliminary selection of input data is performed according to both quasi-static and excitation conditions. Speciﬁcally, to ensure validity of the equations, \uD835\uDF14̇\uD835\uDC67 is required to be lower than 5deg∕s2 while a suﬃcient amount of longitudinal speed is required to ensure enough separability, hence \uD835\uDC63\uD835\uDC65 > 30 km∕h. In addition, given the similar friction curves, lateral sideslip angles are required to be larger than a selected value: |\uD835\uDEFC| > 0.5deg to improve separability and guarantee a correct classiﬁcation. At this point, the estimated lateral force \uD835\uDC39\uD835\uDC66,f and the errors between the corresponding identiﬁed ones for each tyre model are then computed and ﬁltered at each time instant according to the moving average window approach. Accordingly, the tyre associated with the model that yields the lowest error within the window is then selected as the classiﬁed tyre type for that time interval. To further support the"
+  }, {
+    "type" : "header",
+    "id" : 194,
+    "page number" : 6,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 33,
+      "page number" : 6,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 34,
+      "page number" : 6,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 195,
+    "page number" : 6,
+    "bounding box" : [ 44.161, 605.746, 282.661, 736.696 ],
+    "source" : "20_images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 6,
+    "bounding box" : [ 49.137, 582.372, 277.686, 608.855 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 7. Model based classiﬁcation for tyre C front axle, simulation trial."
+  }, {
+    "type" : "paragraph",
+    "id" : 197,
+    "page number" : 6,
+    "bounding box" : [ 37.882, 510.162, 288.941, 581.43 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "interpretation of the classiﬁcation process, a probability-like conﬁdence metric is also deﬁned. Starting from the model-based discrepancy values, the inverse of the averaged errors associated with each candidate tyre model is normalized to obtain a relative conﬁdence measure as follows:"
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 273.973, 491.151, 288.941, 520.576 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "(10)"
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 6,
+    "bounding box" : [ 56.056, 475.497, 96.991, 513.896 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1∕mean(\uD835\uDC52\uD835\uDC56) ∑"
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 6,
+    "bounding box" : [ 37.882, 495.005, 52.647, 508.007 ],
+    "font" : "STIXMath-Italic",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "\uD835\uDC43\uD835\uDC56 ="
+  }, {
+    "type" : "paragraph",
+    "id" : 201,
+    "page number" : 6,
+    "bounding box" : [ 64.669, 489.077, 101.298, 502.079 ],
+    "font" : "STIXMath-Regular",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "1∕mean(\uD835\uDC52\uD835\uDC56)"
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 6,
+    "bounding box" : [ 37.882, 427.918, 288.941, 499.186 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "This metric does not aﬀect the ﬁnal classiﬁcation decision, which is solely based on the minimum-error criterion, but provides additional insight into the degree of separability among the candidate models under the current operating conditions and its reported in the following ﬁgures."
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 6,
+    "bounding box" : [ 37.882, 93.174, 288.941, 446.883 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "An example of real-time classiﬁcation given a generic tested tyre on a track is reported in Figs. 7 and 8 for the front axle, where the forces evolution, the error between the various models, the previous deﬁned probabilities and the corresponding classiﬁcation labeling are represented. As it can be seen, the lateral force identiﬁed for tyre \uD835\uDC36 and \uD835\uDC34 respectively are the one that closely follows the amplitude and dynamic behavior of the estimated force. This suggests that tyre \uD835\uDC36 and \uD835\uDC34 provide the best match among the other tyres, capturing eﬀectively the features of the considered trial and yielding the lowest error. The gray area in the plot represent the region where the classiﬁcation conditions are not met. In the corresponding time intervals, the classiﬁcation is kept constant at the last valid instant. In addition, the behavior of the probability-like metric directly reﬂects the evolution of the underlying error values. When one candidate tyre model yields a signiﬁcantly lower discrepancy than the others, its associated probability increases accordingly, indicating clear model dominance. Conversely, when the probabilities associated with diﬀerent models assume similar values, this reﬂects comparable error levels and reduced separability among the candidate models, a condition under which occasional misclassiﬁcations may occur. In fact, some misclassiﬁcations occur particularly when lateral excitation is low and the separation between tyre responses is not distinguishable, especially for similar tyre characteristics. Still, considering all tested trials and the three tyre models, the average F1-score is 92.4%. It is worth noting that the friction curves reported in Figs. 4–6 are obtained from a dataset used for parameter identiﬁcation, and therefore reﬂect the operating conditions explored during the parameter estimation phase. In contrast, the results shown in Fig. 3 refer to a separate validation dataset, characterized by diﬀerent experiments and operating conditions. As a result, the corresponding lateral force levels may diﬀer and can exceed those observed in the identiﬁcation data. This choice enables the robustness of the proposed algorithm to be evaluated under varying operating conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 6,
+    "bounding box" : [ 37.882, 40.87, 288.941, 112.138 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Experimental scenario. When moving to the experimental dataset, lateral forces are not available. This introduces the additional challenge of estimating them without access to a known ground truth. As done for the simulation data, friction curves must be analyzed ﬁrst. The geometrical parameters of the vehicle required in the equations of model-based"
+  }, {
+    "type" : "image",
+    "id" : 206,
+    "page number" : 6,
+    "bounding box" : [ 314.428, 605.596, 550.378, 736.696 ],
+    "source" : "20_images/imageFile10.png"
+  }, {
+    "type" : "caption",
+    "id" : 207,
+    "page number" : 6,
+    "bounding box" : [ 317.96, 582.222, 546.845, 608.705 ],
+    "linked content id" : 208,
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 8. Model based classiﬁcation for tyre A front axle, simulation trial."
+  }, {
+    "type" : "image",
+    "id" : 208,
+    "page number" : 6,
+    "bounding box" : [ 310.228, 439.766, 554.578, 573.566 ],
+    "source" : "20_images/imageFile11.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 6,
+    "bounding box" : [ 306.873, 406.827, 557.931, 442.874 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 9. Tyre curves estimation from experimental data: front axle on the left and rear axle on the right."
+  }, {
+    "type" : "footer",
+    "id" : 215,
+    "page number" : 6,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 6,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 6,
+    "bounding box" : [ 324.752, 240.246, 540.054, 266.729 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 10. Tyre curves estimation from experimental data: front axle."
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 6,
+    "bounding box" : [ 306.873, 197.781, 557.932, 237.667 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "equations as the vehicle’s mass and dimensions (\uD835\uDC40, \uD835\uDC3Ff, \uD835\uDC3Fr) are known. In addition, paramount signals as the sideslip angle \uD835\uDEFD and the steering"
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 6,
+    "bounding box" : [ 306.873, 93.174, 557.932, 216.746 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "wheel angle \uD835\uDEFFf are available measurements. Therefore, the estimate of the required signals (\uD835\uDC39\uD835\uDC66,f,r, \uD835\uDEFCf,r) can be performed according to Eqs. (2) and (3). The estimated lateral forces, represented as a function of the corresponding lateral sideslip angles, are depicted in Fig. 9. Figs. 10 and 11 instead depict some insight from the front and rear axle. In the Figure, the identiﬁed mean friction curves are represented as well, whose parameters were estimated following the same procedure used in the simulation case. Again, for simplicity and readability, in the following the tyres are referred to as A, B, C (e.g.; Tyre A is the Michelin Pilot Sport 4S, Tyre B is the Pirelli Sottozero, Tyre C is the Pirelli Pzero)."
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 6,
+    "bounding box" : [ 306.873, 40.87, 557.932, 112.138 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "It can be noticed that the front and rear friction curves show some diﬀerences and variability, which may be due to the diﬀerent conditions under which the data were collected (temperature, road conditions, tyre wear, tyre pressure, etc. ). Hysteresis is also visible in the curves, which might be due to the tyre relaxation dynamics. Notice that, as previously"
+  }, {
+    "type" : "header",
+    "id" : 216,
+    "page number" : 7,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 35,
+      "page number" : 7,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 36,
+      "page number" : 7,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 218,
+    "level" : "4",
+    "page number" : 7,
+    "bounding box" : [ 57.147, 415.269, 269.676, 605.241 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 57.147, 578.758, 269.676, 605.241 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 11. Tyre curves estimation from experimental data: rear axle.",
+      "kids" : [ {
+        "type" : "table",
+        "id" : 43,
+        "level" : "5",
+        "page number" : 7,
+        "bounding box" : [ 66.104, 457.124, 202.22, 568.123 ],
+        "number of rows" : 4,
+        "number of columns" : 5,
+        "rows" : [ {
+          "type" : "table row",
+          "row number" : 1,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 66.188, 531.455, 97.128, 568.01 ],
+            "row number" : 1,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 2,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 97.128, 531.455, 132.14, 568.01 ],
+            "row number" : 1,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 132.14, 531.455, 167.152, 568.01 ],
+            "row number" : 1,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 167.152, 531.455, 202.108, 568.01 ],
+            "row number" : 1,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 2,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 66.188, 494.844, 97.128, 531.455 ],
+            "row number" : 2,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 2,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 97.128, 494.844, 132.14, 531.455 ],
+            "row number" : 2,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 132.14, 494.844, 167.152, 531.455 ],
+            "row number" : 2,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 167.152, 494.844, 202.108, 531.455 ],
+            "row number" : 2,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 3,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 66.188, 458.31, 97.128, 494.844 ],
+            "row number" : 3,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 2,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 97.128, 458.31, 132.14, 494.844 ],
+            "row number" : 3,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 132.14, 458.31, 167.152, 494.844 ],
+            "row number" : 3,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 167.152, 458.31, 202.108, 494.844 ],
+            "row number" : 3,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "table row",
+          "row number" : 4,
+          "cells" : [ {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 66.188, 457.208, 69.382, 458.31 ],
+            "row number" : 4,
+            "column number" : 1,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 69.382, 457.208, 97.128, 458.31 ],
+            "row number" : 4,
+            "column number" : 2,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 97.128, 457.208, 132.14, 458.31 ],
+            "row number" : 4,
+            "column number" : 3,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 132.14, 457.208, 167.152, 458.31 ],
+            "row number" : 4,
+            "column number" : 4,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          }, {
+            "type" : "table cell",
+            "page number" : 7,
+            "bounding box" : [ 167.152, 457.208, 202.108, 458.31 ],
+            "row number" : 4,
+            "column number" : 5,
+            "row span" : 1,
+            "column span" : 1,
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 62.852, 415.269, 263.97, 441.752 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 12. Model based classiﬁcation, Tyre A. experimental trial.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 7,
+    "bounding box" : [ 37.882, 208.057, 288.941, 425.776 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "mentioned, tyre relaxation dynamics have not been included in the modeling part. In this scenario, due to increased signal variability, measurement noise, and the inﬂuence of diverse real-world conditions, the classiﬁcation task is expected to be more challenging. Despite that, the approach shows good performance, as reported in Fig. 12 for a tested case. However, some misclassiﬁcations are present, especially when the identiﬁed models are similar or fail to capture the estimated force accurately. This is mainly because the models were identiﬁed based on the mean behavior of the training data, making it challenging to recognize similar tyre behaviors. Also, it must be noticed that, diﬀerently from the simulation scenario, vehicle properties change as well as road conditions. This could lead to modeling errors and eventually misclassiﬁcation, due to the fact that the estimation process assumes ﬁxed geometry, despite the diﬀerent exploited vehicles and scenarios used for validation. In addition, tyre relaxation dynamics and level of wear or inﬂation pressure are not taken into account, which might lead to unexpected behaviors in the data. Additionally, estimations of relevant signals might not be precise enough, further contributing to a wrong classiﬁcation. In this scenario, the F1-score performance reaches 82.5 %."
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 7,
+    "bounding box" : [ 37.882, 92.988, 288.941, 227.021 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "To better characterize the operating conditions under which the model-based approach is applied, the excitation proﬁle of the experimental data has been analysed. In the considered experimental scenarios, the excitation is characterized by predominantly lateral dynamics. In particular, the longitudinal acceleration \uD835\uDC34\uD835\uDC65 remains within a limited range (approximately between −3 and 3.5 m∕s2), with no dominant braking or traction phases observed. This indicates that longitudinal eﬀects are secondary with respect to the lateral behaviour exploited by model-based estimator. Therefore, neglecting longitudinal inputs in the estimation framework is consistent with the underlying assumptions and does not aﬀect the validity of the results."
+  }, {
+    "type" : "heading",
+    "id" : 221,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 37.882, 72.252, 172.89, 101.677 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "6. Learning-based approach results"
+  }, {
+    "type" : "paragraph",
+    "id" : 222,
+    "page number" : 7,
+    "bounding box" : [ 37.882, 40.87, 288.941, 80.756 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Simulation scenario. The learning-based approach is tested on the same trials considered in the previous analysis. In the simulated sce-"
+  }, {
+    "type" : "footer",
+    "id" : 230,
+    "page number" : 7,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 7,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 223,
+    "page number" : 7,
+    "bounding box" : [ 309.778, 607.546, 555.028, 736.696 ],
+    "source" : "20_images/imageFile12.png"
+  }, {
+    "type" : "list",
+    "id" : 224,
+    "level" : "4",
+    "page number" : 7,
+    "bounding box" : [ 306.873, 397.318, 557.932, 610.655 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 306.873, 574.608, 557.932, 610.655 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 13. Learning-based classiﬁcation tyre A, simulation scenario. Time evolution of \uD835\uDC34\uD835\uDC66 and \uD835\uDF06 on the left and classiﬁcation on the right.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 306.873, 397.318, 557.932, 433.365 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.173,
+      "text color" : "[0.0]",
+      "content" : "Fig. 14. Classiﬁcation for Tyre C, time evolution on the left and classiﬁcation on the right.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 7,
+    "bounding box" : [ 306.873, 260.546, 557.932, 394.579 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "nario, following the feature extraction phase, the resulting dataset comprises 221 instances, distributed across the three tyre types as 82, 75, and 64 instances, respectively. A stratiﬁed hold-out validation approach was adopted, allocating 70% of the data for training. On the test set, the classiﬁer demonstrates high performance, with an F1-score of 98.7%. In particular, Fig. 13 illustrates an example of the classiﬁcation evolution for one of the trials where tyre A is tested. The ﬁgure reports the time evolution of the vehicle lateral acceleration (\uD835\uDC34\uD835\uDC66) and longitudinal slip (\uD835\uDF06), two of the main input signals used for feature extraction. The corresponding window labels conﬁrm that the classiﬁer consistently identiﬁes tyre \uD835\uDC34 throughout the entire test."
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 7,
+    "bounding box" : [ 306.873, 155.938, 557.932, 279.51 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Experimental scenario. When moving to the experimental data, the training and test sets were deﬁned at the trial level, with 17 out of 27 trials used for training and the remaining 10 for evaluation. On this set, the performance of the random forest classiﬁer, diﬀerent from the model-based, is still comparable to that achieved in the simulation scenario. No explicit minimum excitation thresholds are imposed in the learning-based approach. Instead, robustness with respect to poorly informative operating regimes is achieved through the combination of window-based feature extraction and the ensemble nature of the Random Forest classiﬁer."
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 7,
+    "bounding box" : [ 306.873, 114.095, 557.932, 174.902 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "When the vehicle operates under limited excitation, the extracted features become less discriminative across tyre classes. In these conditions, the classiﬁer naturally produces low-conﬁdence outputs rather than unstable or abrupt class changes. This behaviour allows ambiguous"
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 7,
+    "bounding box" : [ 306.873, 93.174, 557.932, 133.059 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "instants to be identiﬁed and, if required, rejected at a higher decision layer."
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 7,
+    "bounding box" : [ 306.873, 40.87, 557.932, 112.138 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "An example is reported in Fig. 14. In this scenario, only a small number of windows are misclassiﬁed at the start of the trial (type A), whereas the remainder of the experiment is classiﬁed correctly (type C). Considering all trials, the machine learning approach still has high performance, achieving an F1-score performance of 96.5 %."
+  }, {
+    "type" : "header",
+    "id" : 231,
+    "page number" : 8,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 37,
+      "page number" : 8,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 38,
+      "page number" : 8,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 616.71, 557.932, 750.743 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "the latter is more robust to data variability and noise, which impacted its eﬀectiveness in some of the tested trials. Unlike existing approaches requiring detailed tyre-state sensing, the proposed framework enables reliable real-time classiﬁcation of the mounted tyre model using only standard on-board signals. This makes the method particularly suited for high-performance or racing vehicles, where knowing the installed tyre type in real time can support strategic decisions and control adaptation. The learning-based approach showed high performance in capturing the signal behaviors, achieving an F1-score of 98.7%, showcasing its ability to adapt to experimental data, where it maintained high performance with an F1-score of 96.5%."
+  }, {
+    "type" : "image",
+    "id" : 232,
+    "page number" : 8,
+    "bounding box" : [ 38.086, 580.696, 288.736, 736.696 ],
+    "source" : "20_images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 543.485, 557.932, 635.675 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Although the machine learning-based approach demonstrates strong precision and robustness, the physics based one still is capable of describing accurately the systems dynamics in case of simulated less-noisy data. Future research might focus on integrating the strengths of both approaches into a hybrid system. This combined strategy could enhance the accuracy and robustness of tyre classiﬁcation, particularly in more complex or variable operating conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 8,
+    "bounding box" : [ 92.854, 557.322, 233.968, 583.805 ],
+    "font" : "CharisSIL",
+    "font size" : 7.173,
+    "text color" : "[0.0]",
+    "content" : "Fig. 15. Additional analysis of RF classiﬁer."
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 8,
+    "bounding box" : [ 37.882, 350.361, 288.941, 557.619 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The proximity of the classiﬁer to alternative tyre models is quantiﬁed through its probabilistic output. In particular, two indicators are considered: (i) maximum class probability, used as a conﬁdence measure, and (ii) the diﬀerence between the two most likely class probabilities, used as a separability metric. Low values of these indicators correspond to operating regimes in which multiple tyre models exhibit comparable likelihoods, typically due to insuﬃcient excitation or limited discriminative information in the data window. Fig. 15 provides additional insight into the behaviour of the learning-based classiﬁer in the experimental scenario. Each decision instant corresponds to a feature vector extracted from a ﬁxed-length sliding window, rather than to individual time samples.(Notice that, for readability reason 1,2 and 3 in the plot represent respectively Michelin Pilot Sport 4S, Pirelli Sottozero and PirelliPzero). Fig. 15 shows the temporal evolution of the class probabilities, highlighting operating regimes in which multiple tyre models are similarly likely. Fig. 15(b) and (c) report the conﬁdence and separability indicators, respectively, allowing the identiﬁcation of low-conﬁdence regions in which reliable classiﬁcation cannot be ensured."
+  }, {
+    "type" : "heading",
+    "id" : 240,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 306.873, 522.563, 467.828, 551.988 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "CRediT authorship contribution statement"
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 428.416, 557.932, 531.067 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Sabrina Milani: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Project administration, Methodology, Investigation, Formal analysis, Data curation, Conceptualization; Jessica Leoni: Writing – review & editing, Methodology, Conceptualization; Matteo Corno: Supervision, Methodology, Funding acquisition; Luca D’Avico: Resources, Funding acquisition, Data curation, Conceptualization; Mara Tanelli: Writing – review & editing, Supervision, Resources, Project administration."
+  }, {
+    "type" : "heading",
+    "id" : 242,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 306.873, 407.495, 434.466, 436.92 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Declaration of competing interest"
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 365.652, 557.932, 415.998 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "The authors declare that they have no known competing ﬁnancial interests or personal relationships that could have appeared to inﬂuence the work reported in this paper."
+  }, {
+    "type" : "heading",
+    "id" : 244,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 306.873, 344.73, 348.082, 374.155 ],
+    "heading level" : 3,
+    "font" : "CharisSIL-Bold",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 8,
+    "bounding box" : [ 37.882, 287.597, 288.94, 369.326 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Finally, Fig. 15 (d) compares the true and predicted tyre labels. Misclassiﬁcations are shown to occur predominantly in low-conﬁdence regimes, whereas predictions remain stable and accurate when informative dynamics are present. These results conﬁrm that the classiﬁer does not rely on marginal separations, but instead produces reliable decisions only when suﬃcient discriminative information is available."
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 312.099, 557.932, 351.58 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Arrigoni, S., Cheli, F., Gavardi, P., & Sabbioni, E. (2017). Inﬂuence of tire parameters on ABS performance. Tire Science and Technology, 45(2), 121–143. https://doi.org/10. 2346/tire.17.450203"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 280.219, 557.932, 327.67 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Bastiaan, J. et al. (2024). Intelligent tire prototype in longitudinal slip operating conditions. Sensors, 24(9), 2681. https://doi.org/10.3390/s24092681 Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5–32. https://doi.org/10. 1023/A:1010933404324"
+  }, {
+    "type" : "list",
+    "id" : 236,
+    "level" : "5",
+    "page number" : 8,
+    "bounding box" : [ 37.882, 109.764, 110.054, 296.1 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 37.882, 266.675, 110.054, 296.1 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "6.1. Results overview",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 41,
+        "page number" : 8,
+        "bounding box" : [ 37.882, 130.685, 288.941, 275.179 ],
+        "font" : "CharisSIL",
+        "font size" : 7.97,
+        "text color" : "[0.0]",
+        "content" : "Thus, it is possible to conclude that the presented results demonstrate that, while the model-based approach oﬀers high interpretability, it still depends on signals, e.g., lateral forces and side-slip angles, that are not commonly available in most production vehicles. Moreover, its performance in real-world scenarios is limited by sensitivity of estimated variables to measurement noise. In contrast, the machine learning-based approach, though inherently less interpretable than the model-based one, was speciﬁcally designed for explainability. In fact, it consists of a small forest built on physics-informed features. This conﬁguration not only ensures interpretability but also proves strong performance in both simulated and experimental scenarios, relying solely on readily available in-vehicle signals."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 37.882, 109.764, 95.105, 139.189 ],
+      "font" : "CharisSIL-Bold",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "7. Conclusions",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 256.308, 557.932, 295.79 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Carnier, S., & Corno, M. (2023). Hybrid kinematic-dynamic sideslip and friction estimation. Journal of Dynamic Systems, Measurement, and Control, 145, 1–15. https: //doi.org/10.1115/1.4062159"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 232.398, 557.932, 271.879 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Chen, J., Wang, R., & Xu, L. (2024). End-to-end tire defect detection model based on transfer learning techniques. Neural Computing and Applications in press, 36, 12483–12503. https://doi.org/10.1007/s00521-024-09664-4"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 216.458, 557.932, 247.969 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Khaleghian, M., Emami, A., & Taheri, S. (2017). A technical survey on tire-road friction estimation. Friction, 5, 123–146. https://doi.org/10.1007/s40544-017-0151-0"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 184.577, 557.932, 232.029 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Lampe, N., Kortmann, K.-P., & Westerkamp, C. (2023). Neural network based tire-road friction estimation using experimental data. IFAC-PapersOnLine, 56(3), 397–402. 3rd Modeling, Estimation and Control Conference MECC 2023. https://doi.org/10.1016/ j.ifacol.2023.12.056"
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 160.667, 557.932, 200.148 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Li, Q., Sun, B., & Zhao, Y. (2023). Research on the prediction of tire radial load based on 1D CNN and biGRU. Journal of Nondestructive Evaluation and Structural Health Monitoring, 6, 357. https://doi.org/10.1007/s44196-023-00357-9"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 136.757, 557.932, 176.238 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Morinaga, & Hanatsuka (2014). Estimation of tire–road friction coeﬃcient and its application in chassis control systems, Procedia Engineering, 3(1), 39–61. https://doi.org/ 10.1080/21642583.2014.985804"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 120.816, 557.932, 152.328 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Pacejka, H.B. (2005). Tire and Vehicle Dynamics. Elsevier. Rahman, M., Kamal, N., & Abdullah, N.F. (2024). EDT-stack: a stacking ensemble-based"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 8,
+    "bounding box" : [ 316.836, 104.876, 557.932, 136.387 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "decision trees algorithm for tire tread depth condition classiﬁcation. Results in Engineering, 22, 102218. https://doi.org/10.1016/j.rineng.2024.102218"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 88.936, 557.932, 120.447 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0, 0.502, 0.675]",
+    "content" : "Savaresi, S.M., & Tanelli, M. (2010). Active Braking Control Systems Design for Vehicles. Springer Science & Business Media."
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 8,
+    "bounding box" : [ 37.882, 67.921, 288.941, 118.267 ],
+    "font" : "CharisSIL",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "In this work, a model-based and learning-based approaches for real-time tyre classiﬁcation have been presented and compared. This preliminary analysis proves that, despite both achieve high predictive performance,"
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 8,
+    "bounding box" : [ 306.873, 65.026, 557.932, 104.507 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Singh, K.B., Arat, M.A., & Taheri, S. (2018). Literature review and fundamental approaches for vehicle and tire state estimation. Vehicle System Dynamics, 57(11), 1643–1665. https://doi.org/10.1080/00423114.2018.1544373"
+  }, {
+    "type" : "footer",
+    "id" : 257,
+    "page number" : 8,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 8,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 258,
+    "page number" : 9,
+    "bounding box" : [ 37.882, 744.677, 558.285, 768.218 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 39,
+      "page number" : 9,
+      "bounding box" : [ 37.882, 744.677, 77.346, 768.218 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0]",
+      "content" : "S. Milani et al."
+    }, {
+      "type" : "paragraph",
+      "id" : 40,
+      "page number" : 9,
+      "bounding box" : [ 425.83, 749.618, 558.285, 760.048 ],
+      "font" : "CharisSIL-Italic",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Control Engineering Practice 173 (2026) 107002"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 9,
+    "bounding box" : [ 37.882, 715.088, 288.941, 746.599 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Tong, Z., Cao, Y., Wang, R., Chen, Y., Li, Z., Lu, J., & Yang, S. (2025). Machine learning-driven intelligent tire wear detection system. Measurement, 242(Part A),"
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 9,
+    "bounding box" : [ 306.873, 707.118, 557.932, 746.599 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Zhang, Y., Liu, H., & Zhao, W. (2023). Tire condition monitoring using transfer learningbased deep neural network approach. Sensors, 23(4), 2177. https://doi.org/10.3390/ s23042177"
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "level" : "6",
+    "page number" : 9,
+    "bounding box" : [ 47.845, 707.118, 225.841, 730.659 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0, 0.502, 0.675]",
+    "content" : "115848. https://doi.org/10.1016/j.measurement.2024.115848"
+  }, {
+    "type" : "paragraph",
+    "id" : 261,
+    "page number" : 9,
+    "bounding box" : [ 37.882, 683.208, 288.941, 722.689 ],
+    "font" : "CharisSIL",
+    "font size" : 6.376,
+    "text color" : "[0.0]",
+    "content" : "Williams, R.A., Blundell, M.V., & Burnham, K.J. (2010). Real time tyre model parameter identiﬁcation. In UKACC international conference on control (pp. 1–4). Coventry. https: //doi.org/10.1049/ic.2010.0450"
+  }, {
+    "type" : "footer",
+    "id" : 263,
+    "page number" : 9,
+    "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 9,
+      "bounding box" : [ 296.21, 28.818, 299.8, 39.248 ],
+      "heading level" : 4,
+      "font" : "CharisSIL",
+      "font size" : 6.376,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9"
+    } ]
+  } ]
+}

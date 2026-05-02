@@ -1,0 +1,3095 @@
+{
+  "file name" : "41.pdf",
+  "number of pages" : 18,
+  "author" : "Luigi Gianpio Di Maggio",
+  "title" : "Predictive Maintenance MCP: An Open-Source Framework for Bridging Large Language Models and Industrial Condition Monitoring via the Model Context Protocol",
+  "creation date" : "D:20260315154544+08'00'",
+  "modification date" : "D:20260315084855+01'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 1,
+    "bounding box" : [ 35.358, 732.135, 63.213, 744.549 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Article"
+  }, {
+    "type" : "heading",
+    "id" : 128,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 667.101, 548.253, 731.05 ],
+    "heading level" : 1,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 17.933,
+    "text color" : "[0.0]",
+    "content" : "Predictive Maintenance MCP: An Open-Source Framework for Bridging Large Language Models and Industrial Condition Monitoring via the Model Context Protocol"
+  }, {
+    "type" : "heading",
+    "id" : 129,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 35.716, 643.618, 151.661, 655.932 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Luigi Gianpio Di Maggio"
+  }, {
+    "type" : "paragraph",
+    "id" : 131,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 166.083, 600.923, 537.992, 621.455 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.0]",
+    "content" : "Dipartimento di Ingegneria Meccanica e Aerospaziale (DIMEAS), Politecnico di Torino, Corso Duca Degli Abruzzi 24, 10129 Torino, Italy; luigi.dimaggio@polito.it"
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 1,
+    "bounding box" : [ 35.716, 190.008, 151.153, 210.483 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Academic Editors: Stefan Fischer and Mohamed Benbouzid"
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 1,
+    "bounding box" : [ 35.444, 64.777, 150.491, 182.648 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 6.974,
+    "text color" : "[0.0]",
+    "content" : "Received: 28 January 2026 Revised: 17 February 2026 Accepted: 13 March 2026 Published: 15 March 2026 Copyright: © 2026 by the author. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license."
+  }, {
+    "type" : "heading",
+    "id" : 132,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 573.5, 262.961, 585.814 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Featured Application"
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "page number" : 1,
+    "bounding box" : [ 166.085, 498.064, 560.928, 565.989 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The proposed MCP server can be deployed as an assistant layer in industrial condition monitoring systems to support vibration-based diagnostics, bearing fault detection, and ISO 20816-3 compliance checks. Maintenance teams can query signals and documentation in natural language while relying on audited analyses and automatically generated diagnostic reports."
+  }, {
+    "type" : "heading",
+    "id" : 134,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 166.005, 472.002, 204.182, 484.316 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Abstract"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 1,
+    "bounding box" : [ 166.085, 271.216, 560.932, 464.49 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This paper presents a Proof of Concept (PoC) for PredictiveMaintenance MCP, an opensource server based on the Model Context Protocol (MCP) that supports machine condition monitoring and predictive maintenance via natural language interaction with Large Language Models (LLMs). The server constrains the LLM within an explicit perimeter of deterministic resources and tools for vibration-based diagnostics, including FFT spectral analysis with peak identification, envelope analysis for rolling element bearing defects, time-domain indicators, vibration severity assessment consistent with ISO standards and semi-supervised anomaly detection on extracted features. Each tool invocation produces structured outputs and artifacts that record inputs, parameters, and results. The LLM acts as an orchestrator that selects resources, configures parameters, invokes tools, and synthesizes conclusions anchored to computed evidence, thereby improving traceability and repeatability compared to unconstrained text-only interaction. End-to-end workflows are demonstrated in a reproducible package with code, examples, and demo data to support community-driven validation and extension toward industrial requirements. The software"
+  }, {
+    "type" : "list",
+    "id" : 136,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 166.394, 64.188, 561.018, 269.503 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 257.289, 524.928, 269.503 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "is archived on Zenodo and the GitHub repository serves as the collaboration hub.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 117,
+        "page number" : 1,
+        "bounding box" : [ 166.394, 203.55, 559.275, 243.62 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Keywords: predictive maintenance; condition monitoring; model context protocol; large language models; LLMs; vibration analysis; rolling element bearing diagnostics; envelope analysis; ISO 20816-3; anomaly detection"
+      }, {
+        "type" : "paragraph",
+        "id" : 119,
+        "level" : "3",
+        "page number" : 1,
+        "bounding box" : [ 166.394, 149.963, 248.132, 164.74 ],
+        "font" : "URWPalladioL-Bold",
+        "font size" : 11.955,
+        "text color" : "[0.0]",
+        "content" : "1. Introduction"
+      }, {
+        "type" : "paragraph",
+        "id" : 120,
+        "page number" : 1,
+        "bounding box" : [ 187.653, 133.826, 559.272, 146.04 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Predictive maintenance (PdM) is a key element in modern industrial operations, as"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 166.394, 64.188, 561.018, 132.112 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "it enables planning interventions based on the actual condition of assets, reducing downtime and maintenance costs and increasing availability and production continuity [1,2]. In particular, for rotating machinery, such as electric motors, pumps, compressors, and transmissions, condition monitoring based on sensors such as vibration sensors [3] is an established practice for early detection of failures and degradation. The spread of the",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 138,
+    "page number" : 1,
+    "bounding box" : [ 35.429, 28.183, 559.276, 38.13 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 7.97,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "Appl. Sci. 2026, 16, 2812 https://doi.org/10.3390/app16062812"
+  }, {
+    "type" : "header",
+    "id" : 139,
+    "page number" : 2,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 52,
+      "page number" : 2,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 2 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 701.532, 560.927, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Industrial Internet of Things (IIoT) [4,5] has further amplified the availability of continuous and contextual data, enabling data-driven pipelines for diagnostics [6] and condition monitoring [7], anomaly detection and, ultimately, residual life estimation [2,8]. In this context, rolling bearings are often one of the most informative observation points in rotating machines [9–11]."
+  }, {
+    "type" : "paragraph",
+    "id" : 143,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 562.255, 560.52, 699.818 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Despite the effectiveness of many machine learning and deep learning methods [12–14] applied to PdM, obstacles remain that slow down large-scale industrial adoption. These include: a dependency on labeled and representative datasets, which are often difficult to obtain in real-world scenarios [15,16]; difficulty transferring data between different machines and operating conditions and domain shift [12]; the need for interpretability and traceability, especially when outputs influence operational and safety decisions; and the fragmentation of tools and formats, which makes integration into existing maintenance workflows complex. Consequently, even when advanced algorithms are available, their deployment requires an application orchestrator that connects data, procedures, standards, and domain knowledge while maintaining reproducibility and control."
+  }, {
+    "type" : "paragraph",
+    "id" : 144,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 395.123, 560.928, 560.541 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In recent years, Large Language Models (LLMs) have demonstrated remarkable capabilities for generalization and natural language interaction. In the PdM context, these models can enable practical functions [17–19] such as consulting technical documentation and standards, supporting the drafting of reports and procedures with Failure Mode and Effect Analysis [20,21], synthesizing evidence from different tools [4,22], and integrating with knowledge bases via Retrieval Augmented Generation (RAG) [15,20,23,24]. LLMbased assistants are being explored in several asset-intensive sectors such as oil and gas, power generation, and manufacturing to streamline maintenance decision-making and to support engineers in navigating heterogeneous data sources such as manuals, service logs, and monitoring data [22,25]. These early deployments highlight two requirements that are particularly critical for rotating machinery diagnostics. Namely, governance and traceability of the analytical chain, and privacy and controlled access to plant data."
+  }, {
+    "type" : "paragraph",
+    "id" : 145,
+    "page number" : 2,
+    "bounding box" : [ 165.975, 283.701, 559.668, 393.409 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Also, using an LLM as a stand-alone component for diagnostic tasks introduces significant criticalities. The textual output can be non-deterministic, potentially affected by hallucinations or unverifiable inferences, and generally lacks a reproducible chain of evidence. In industrial contexts, this makes an architectural layer essential that explicitly governs which data the model can use and which operations it can invoke, with traceable parameters and inspectable results [26]. Anyone who wanted to implement such a system would also need to produce Application Programming Interface (API) access points, which are application-specific, and each company would therefore have to have its own."
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 2,
+    "bounding box" : [ 166.085, 158.352, 561.015, 281.987 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this direction, the Model Context Protocol (MCP) [27] proposes a standardized approach for connecting LLM-based applications to documents, signals, databases and tools represented by invocable deterministic functions through a host–client–server architecture. The central idea is that the LLM should not invent analyses or calculations, but rather orchestrate explicit procedures [27,28], with structured and potentially auditable inputs and outputs. This paradigm is particularly suited to PdM since diagnosis must remain anchored to reproducible measures and transformations typically related to FFT, envelope analysis, and statistical indicators, and often must include compliance checks against industry standards."
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 2,
+    "bounding box" : [ 166.394, 74.786, 559.274, 156.638 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This work presents Predictive Maintenance MCP, an open-source MCP server in a Proof of Concept (PoC) that enables diagnostic workflows for rotating machinery focused on vibration analysis and rolling element bearing defects. The server exposes example resources for accessing signals and documentation, and deterministic tools for FFT spectral analysis with peak identification, envelope analysis to highlight typical bearing defect modulations, time-domain indicator extraction, vibration severity assessment consistent"
+  }, {
+    "type" : "footer",
+    "id" : 148,
+    "page number" : 2,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 2,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 149,
+    "page number" : 3,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 53,
+      "page number" : 3,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 3 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 715.459, 560.933, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "with ISO 20816-3 [29], and semi-supervised anomaly detection modules based on timedomain features [30]. An additional architectural element is the automatic generation of persistent artifacts in the form of interactive HTML reports and metadata, thus separating conversational interaction from the preservation of technical evidence."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 659.749, 560.928, 713.746 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This work contributes a governed reference architecture for LLM-assisted predictive maintenance by implementing consolidated diagnostic procedures as deterministic MCP tools within an explicit execution perimeter. The key innovations are reported in the following:"
+  }, {
+    "type" : "list",
+    "id" : 154,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 503.555, 561.021, 655.046 ],
+    "numbering style" : "unordered",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 614.977, 559.276, 655.046 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Governed perimeter for PdM. The LLM is constrained to explicit MCP resources and tool invocations, limiting unsupported inferences and enabling controlled access to plant data.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 587.121, 560.518, 613.263 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Deterministic tool chain. Established analyses are exposed as typed server-side tools, improving reproducibility compared to unconstrained text-only interaction.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 545.338, 560.932, 585.408 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Persistent artifacts for the chain of evidence. Each tool execution produces inspectable reports and metadata that record inputs, parameters, and results, supporting auditability and post hoc review.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 166.394, 503.555, 561.021, 543.625 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• MCP standardization as an integration mechanism. The PoC provides an open-source MCP reference implementation tailored to vibration-based condition monitoring, intended as a baseline for community-driven extensions toward industrial deployment.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 3,
+    "bounding box" : [ 166.394, 403.073, 560.521, 498.853 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Beyond the software description, this manuscript frames the PoC as a governed architecture for LLM-assisted diagnostics, and evaluates it through workflow properties rather than through fault-classification accuracy on a specific dataset. The software is archived and versioned on Zenodo (https://doi.org/10.5281/zenodo.17611542, accessed on 15 Febraury 2026) [31]. This paper introduces the version 0.4.1, however newest packages have been released. The GitHub repository serves as the collaboration hub for issues, discussions, and contributions."
+  }, {
+    "type" : "heading",
+    "id" : 156,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 166.394, 376.41, 245.49, 391.187 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "2. Background"
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 3,
+    "bounding box" : [ 165.975, 165.286, 560.524, 372.487 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Recent advances in Large Language Models (LLMs) have enabled the development of AI agents. Those systems extend beyond text generation by coordinating external tools and data sources to support multi-step tasks that involve perception, reasoning, planning, and action [26,32]. In Predictive Maintenance (PdM), agentic systems are particularly interesting because they can provide a unified natural language interface to heterogeneous assets, including sensor signals, knowledge repositories, and analytical procedures for signal processing, diagnostics and compliance checks. Potentially, this supports end-to-end workflows from inspection to reporting. However, increasing autonomy also amplifies governance requirements since, without explicit constraints on accessible data, permitted actions, and procedural boundaries, an agent may produce non-verifiable conclusions or execute unintended operations. Therefore, PdM-oriented agents benefit from a controlled execution perimeter in which tools, permissions, and evidence are explicitly defined and auditable. Figure 1 summarizes this paradigm. The LLM coordinates the workflow, while data, tools, and policies define the technical and procedural boundary within which the system can operate [32]."
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 3,
+    "bounding box" : [ 166.095, 67.792, 560.929, 163.572 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "LLMs are increasingly investigated as assistant layers for condition monitoring workflows, primarily because they provide a natural language interface to heterogeneous assets such as sensor signals, maintenance logs, and technical documentation [4]. In rotating machinery applications, this can support practical tasks such as retrieving and summarizing procedures from manuals and standards, guiding non-expert users through established analyses and synthesizing evidence from multiple analysis outputs into structured reports [22,25]. However, diagnostic use also exposes well-known limitations since textual"
+  }, {
+    "type" : "footer",
+    "id" : 159,
+    "page number" : 3,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 3,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 160,
+    "page number" : 4,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 54,
+      "page number" : 4,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 4 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 4,
+    "bounding box" : [ 166.085, 687.604, 561.018, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "outputs may be non-deterministic, may omit critical assumptions, and can include unsupported inferences if the model is not constrained to computed evidence. Therefore, rotating machinery diagnostics particularly benefit from architectures that enforce traceability and restrict the assistant to auditable data access and deterministic computations [26]. This motivates research artifacts that enable reproducible experimentation under explicit governance constraints, as pursued in this work."
+  }, {
+    "type" : "image",
+    "id" : 164,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 364.657, 478.215, 674.663 ],
+    "source" : "41_images/imageFile1.png"
+  }, {
+    "type" : "caption",
+    "id" : 165,
+    "page number" : 4,
+    "bounding box" : [ 166.017, 334.345, 559.648, 358.159 ],
+    "linked content id" : 164,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 1. Conceptual overview of a predictive maintenance agent: the LLM orchestrates the workflow while tools, data resources, and policies define an auditable execution perimeter [32]."
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 212.817, 560.933, 322.525 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 1 summarizes representative research branches on LLM-based assistants for PdM together with their main advantages and limitations. A broader consolidation of evidence and use cases is available in [32]. Moreover, while research on LLM assistants and agentic systems for PdM is rapidly growing, PdM implementations explicitly adopting the MCP for governed tools and resources invocation are still scarce. This PoC therefore contributes as an open-source MCP reference implementation tailored to vibration-based condition monitoring, with deterministic tools and persistent artifacts to support traceability and repeatability."
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 4,
+    "bounding box" : [ 166.394, 189.036, 311.42, 201.45 ],
+    "font" : "URWPalladioL-Ital",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "2.1. Model Context Protocol (MCP)"
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 4,
+    "bounding box" : [ 166.065, 102.701, 559.28, 184.553 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Deploying LLM-based agents in industrial contexts requires a reliable mechanism to connect the assistant to data sources and computational tools while reducing integration fragmentation and improving portability, control, and security. The Model Context Protocol (MCP) [27,28] addresses this need by standardizing how an AI application can access external context and invoke functions through a host–client–server architecture. MCP formalizes three primitives (Figure 2):"
+  }, {
+    "type" : "list",
+    "id" : 169,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 166.394, 71.857, 559.272, 97.998 ],
+    "numbering style" : "unordered",
+    "number of list items" : 1,
+    "next list id" : 174,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 166.394, 71.857, 559.272, 97.998 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Resources are endpoints for direct and structured access to data and context, including local files, databases, and technical documents;",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 170,
+    "page number" : 4,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 4,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 171,
+    "page number" : 5,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 55,
+      "page number" : 5,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 5 of 18"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 174,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 166.394, 715.459, 560.931, 769.456 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "previous list id" : 169,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 743.315, 560.931, 769.456 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Tools are server-side functions with typed inputs and outputs that perform deterministic operations such as signal analysis, normative calculations and database queries;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 166.394, 715.459, 559.274, 741.601 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Prompts are reusable templates that guide multi-step workflows and standardize recurring procedures [27,28].",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 5,
+    "bounding box" : [ 166.098, 675.195, 560.764, 699.009 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Representative research streams on LLM-based assistants and agentic systems for predictive maintenance."
+  }, {
+    "type" : "heading",
+    "id" : 177,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 41.836, 650.963, 553.156, 663.277 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Topic Key Points Representative Sources"
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 5,
+    "bounding box" : [ 244.211, 526.591, 435.227, 646.401 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Pros: Natural language access to procedures, maintenance records, and operational context; reported productivity gains in an internal study; conversational access can streamline dashboard workflows. Cons: Risk of incorrect and untrustworthy answers on uncontextualized industrial data; strong dependence on data quality and quantity and secure enterprise integration."
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 574.411, 230.069, 598.58 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Enterprise LLM assistants for maintenance decision support"
+  }, {
+    "type" : "paragraph",
+    "id" : 181,
+    "page number" : 5,
+    "bounding box" : [ 447.184, 580.389, 476.235, 592.603 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[22,25]"
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 5,
+    "bounding box" : [ 244.092, 461.814, 427.503, 521.849 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Pros: Agentic LLM for context-aware maintenance decision support via tool usage; case study shows fault detection without extra training or fine-tuning with performance comparable to baselines."
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 461.814, 211.479, 485.983 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Context-aware, tool-using prescriptive agents"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 5,
+    "bounding box" : [ 447.184, 467.791, 463.782, 480.005 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[33]"
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 5,
+    "bounding box" : [ 244.51, 425.948, 406.502, 462.073 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Cons: The prediction-to-prescription transition is still described as not yet mature."
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 5,
+    "bounding box" : [ 244.211, 277.486, 435.227, 421.206 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Pros: Foundation models and adaptation pipelines for rotating machinery show few-shot, cross-condition and cross-dataset potential; approaches include feature textualization or numeric encoding; a multimodal maintenance LLM reports improved accuracy vs generalist LLMs in curated tests. Cons: Requires domain data and dedicated signal-to-text or encoding pipelines; evaluation is often performed on constructed datasets and conditions."
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 343.239, 197.223, 355.453 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Domain-specialized LLMs for PdM"
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 5,
+    "bounding box" : [ 447.184, 343.239, 478.726, 355.453 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[34–37]"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 5,
+    "bounding box" : [ 244.51, 117.068, 432.185, 272.744 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Pros: Generative AI supports DT-based simulation and synthetic data generation; DT and LLM integration can enhance temporal feature learning and multimodal reasoning in industrial scenarios; DT and LLM pipelines are proposed for inspection tasks with good reported performance in case studies. Cons: Challenges highlighted include computational complexity and data security; DT maturity gaps and missing components for fully automated PdM remain."
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 5,
+    "bounding box" : [ 41.836, 182.821, 230.179, 206.99 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Digital Twins (DT) based on Generative AI for diagnosis and PdM"
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 5,
+    "bounding box" : [ 447.184, 188.799, 493.669, 201.013 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[4,5,38–40]"
+  }, {
+    "type" : "footer",
+    "id" : 196,
+    "page number" : 5,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 5,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 197,
+    "page number" : 6,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 56,
+      "page number" : 6,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 6 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 6,
+    "bounding box" : [ 166.098, 758.314, 220.433, 769.486 ],
+    "font" : "URWPalladioL-Bold",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Table 1. Cont."
+  }, {
+    "type" : "heading",
+    "id" : 202,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 41.836, 734.28, 553.156, 746.594 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Topic Key Points Representative Sources"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 6,
+    "bounding box" : [ 244.51, 717.324, 394.815, 729.718 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Pros: Expert-guided generation of"
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 6,
+    "bounding box" : [ 244.51, 681.639, 433.859, 717.763 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "structured maintenance artifacts; empirical analysis reports that models can generate a substantial portion of key FMEA content."
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 6,
+    "bounding box" : [ 41.836, 675.661, 194.603, 699.83 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "LLM-assisted documentation for maintenance (e.g., FMEA drafting)"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 6,
+    "bounding box" : [ 447.184, 681.639, 463.782, 693.853 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[20]"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 6,
+    "bounding box" : [ 244.51, 645.773, 394.577, 681.898 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Cons: Requires expert-in-the-loop supervision for correctness and completeness."
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 6,
+    "bounding box" : [ 244.121, 497.31, 435.23, 641.031 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Pros: Governing frameworks frame delegation, oversight and liability risks for AI agents; surveys and reference architectures discuss industrial deployment along edge–fog–cloud and trust aspects; edge constraints and challenges are explicitly discussed. Cons: Works emphasize governance gaps and the need for new technical infrastructure; recurring constraints include resource limits, security, and operational deployment complexity."
+  }, {
+    "type" : "paragraph",
+    "id" : 210,
+    "page number" : 6,
+    "bounding box" : [ 41.836, 557.086, 202.622, 581.255 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Governance, safety, and deployment architectures"
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 6,
+    "bounding box" : [ 447.184, 563.064, 491.179, 575.278 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.03137, 0.45882, 0.71765]",
+    "content" : "[26,41–44]"
+  }, {
+    "type" : "image",
+    "id" : 214,
+    "page number" : 6,
+    "bounding box" : [ 138.0, 167.276, 449.812, 479.088 ],
+    "source" : "41_images/imageFile2.png"
+  }, {
+    "type" : "list",
+    "id" : 215,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 166.394, 149.624, 478.926, 160.778 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 258,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 166.394, 149.624, 478.926, 160.778 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 2. Model Context Protocol (MCP) architecture and main primitives [32].",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 6,
+    "bounding box" : [ 166.394, 83.969, 560.274, 137.966 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Architecturally, the MCP separates the definition and exposure of capabilities (server) from their orchestration (client). This separation is particularly relevant for PdM, where trustworthy diagnostics depend on the ability to anchor conclusions to measured data and reproducible procedures. In practice, a workflow based on the MCP reduces reliance on"
+  }, {
+    "type" : "footer",
+    "id" : 217,
+    "page number" : 6,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 6,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 218,
+    "page number" : 7,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 57,
+      "page number" : 7,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 7 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 743.315, 559.271, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "implicit assumptions and constrains the LLM to explicitly permitted operations, improving traceability and supporting artifacts produced by deterministic tools."
+  }, {
+    "type" : "list",
+    "id" : 222,
+    "level" : "6",
+    "page number" : 7,
+    "bounding box" : [ 166.394, 164.265, 447.25, 731.947 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 229,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 719.533, 447.25, 731.947 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.2. Vibration and Envelope Analysis for Rolling Bearing Diagnostics",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 81,
+        "page number" : 7,
+        "bounding box" : [ 166.394, 577.488, 560.521, 715.051 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Vibration analysis is a well-established approach for diagnosing rotating machinery, as several mechanical phenomena manifest as characteristic patterns in the frequency domain and in time-domain indicators [3]. For rolling bearings, localized defects often generate impulsive excitations that activate structural resonances at higher frequencies [45]. These impulses are modulated by defect frequencies related to bearing kinematics and shaft speed, and may be partially masked in the spectrum of the raw signal. Envelope analysis [46,47] is a standard procedure to highlight such modulations [3]. In brief, a resonant frequency band is isolated via band-pass filtering, the signal envelope is extracted typically via the Hilbert transform, and the envelope spectrum is analyzed to identify defect-related components and harmonics."
+      }, {
+        "type" : "paragraph",
+        "id" : 82,
+        "page number" : 7,
+        "bounding box" : [ 166.085, 521.777, 561.019, 575.774 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Let x(t) be the measured vibration signal and xf(t) its band-pass filtered version in a selected resonance band. The operator H{·} denotes the Hilbert transform, and j denotes the imaginary unit. Given a vibration signal x(t), after band-pass filtering, we obtain xf(t). The envelope can be computed from the analytic signal:"
+      }, {
+        "type" : "paragraph",
+        "id" : 83,
+        "page number" : 7,
+        "bounding box" : [ 165.975, 465.883, 560.275, 506.135 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "z(t) = xf(t) + j H{xf(t)}, (1) where H{·} denotes the Hilbert transform. The envelope is:"
+      }, {
+        "type" : "paragraph",
+        "id" : 84,
+        "page number" : 7,
+        "bounding box" : [ 282.575, 438.756, 560.269, 459.335 ],
+        "font" : "CMR10",
+        "font size" : 10.381,
+        "text color" : "[0.0]",
+        "content" : "e(t) = |z(t)| = x2f(t) + H{xf(t)}2. (2)"
+      }, {
+        "type" : "paragraph",
+        "id" : 86,
+        "page number" : 7,
+        "bounding box" : [ 166.394, 364.658, 560.521, 432.583 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The envelope spectrum emphasizes the modulation components typical of bearing defects. Key theoretical defect frequencies include BPFO (outer race), BPFI (inner race), BSF (rolling element spin), and FTF (cage). Assuming shaft rotation frequency fr (Hz), the number of rolling elements n, rolling element diameter d, pitch diameter D, and contact angle ϕ, these frequencies can be expressed as [3]:"
+      }, {
+        "type" : "paragraph",
+        "id" : 87,
+        "page number" : 7,
+        "bounding box" : [ 287.979, 334.805, 324.419, 347.019 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "BPFO ="
+      }, {
+        "type" : "paragraph",
+        "id" : 88,
+        "page number" : 7,
+        "bounding box" : [ 328.627, 327.971, 334.166, 353.744 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "n 2"
+      }, {
+        "type" : "paragraph",
+        "id" : 90,
+        "page number" : 7,
+        "bounding box" : [ 336.905, 327.658, 366.38, 347.019 ],
+        "font" : "CMSY10",
+        "font size" : 10.381,
+        "text color" : "[0.0]",
+        "content" : "fr 1 −"
+      }, {
+        "type" : "paragraph",
+        "id" : 91,
+        "page number" : 7,
+        "bounding box" : [ 369.956, 327.751, 377.707, 353.744 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "d D"
+      }, {
+        "type" : "paragraph",
+        "id" : 93,
+        "page number" : 7,
+        "bounding box" : [ 380.787, 334.805, 560.27, 347.019 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "cos ϕ , (3)"
+      }, {
+        "type" : "paragraph",
+        "id" : 94,
+        "page number" : 7,
+        "bounding box" : [ 292.452, 306.92, 324.419, 319.134 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "BPFI ="
+      }, {
+        "type" : "paragraph",
+        "id" : 95,
+        "page number" : 7,
+        "bounding box" : [ 328.626, 300.086, 334.165, 325.859 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "n 2"
+      }, {
+        "type" : "paragraph",
+        "id" : 97,
+        "page number" : 7,
+        "bounding box" : [ 336.905, 305.936, 366.38, 319.134 ],
+        "font" : "CMR10",
+        "font size" : 10.381,
+        "text color" : "[0.0]",
+        "content" : "fr 1 +"
+      }, {
+        "type" : "paragraph",
+        "id" : 98,
+        "page number" : 7,
+        "bounding box" : [ 369.956, 299.866, 377.707, 325.859 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "d D"
+      }, {
+        "type" : "paragraph",
+        "id" : 100,
+        "page number" : 7,
+        "bounding box" : [ 380.787, 306.92, 560.27, 319.134 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "cos ϕ , (4)"
+      }, {
+        "type" : "paragraph",
+        "id" : 101,
+        "page number" : 7,
+        "bounding box" : [ 296.596, 276.046, 324.419, 288.26 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "BSF ="
+      }, {
+        "type" : "paragraph",
+        "id" : 102,
+        "page number" : 7,
+        "bounding box" : [ 328.502, 268.991, 338.589, 294.985 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "D 2d"
+      }, {
+        "type" : "paragraph",
+        "id" : 104,
+        "page number" : 7,
+        "bounding box" : [ 341.329, 268.899, 371.351, 288.26 ],
+        "font" : "CMSY10",
+        "font size" : 10.381,
+        "text color" : "[0.0]",
+        "content" : "fr 1 −"
+      }, {
+        "type" : "paragraph",
+        "id" : 105,
+        "page number" : 7,
+        "bounding box" : [ 382.509, 268.991, 390.26, 294.984 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "d D"
+      }, {
+        "type" : "paragraph",
+        "id" : 107,
+        "page number" : 7,
+        "bounding box" : [ 393.34, 276.046, 415.08, 288.26 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "cos ϕ"
+      }, {
+        "type" : "paragraph",
+        "id" : 108,
+        "page number" : 7,
+        "bounding box" : [ 422.786, 288.24, 426.572, 297.523 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 7.572,
+        "text color" : "[0.0]",
+        "content" : "2"
+      }, {
+        "type" : "paragraph",
+        "id" : 109,
+        "page number" : 7,
+        "bounding box" : [ 435.199, 276.046, 560.269, 288.26 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : ", (5)"
+      }, {
+        "type" : "paragraph",
+        "id" : 110,
+        "page number" : 7,
+        "bounding box" : [ 296.268, 245.172, 324.419, 257.386 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "FTF ="
+      }, {
+        "type" : "list",
+        "id" : 111,
+        "level" : "7",
+        "page number" : 7,
+        "bounding box" : [ 328.502, 238.337, 333.483, 264.13 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 7,
+          "bounding box" : [ 328.502, 251.916, 333.483, 264.13 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "1",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 7,
+          "bounding box" : [ 328.502, 238.337, 333.483, 250.551 ],
+          "font" : "URWPalladioL-Roma",
+          "font size" : 9.963,
+          "text color" : "[0.0]",
+          "content" : "2",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "paragraph",
+        "id" : 112,
+        "page number" : 7,
+        "bounding box" : [ 336.098, 238.025, 365.573, 257.386 ],
+        "font" : "CMSY10",
+        "font size" : 10.381,
+        "text color" : "[0.0]",
+        "content" : "fr 1 −"
+      }, {
+        "type" : "paragraph",
+        "id" : 113,
+        "page number" : 7,
+        "bounding box" : [ 369.149, 238.117, 376.9, 264.11 ],
+        "font" : "URWPalladioL-Ital",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "d D"
+      }, {
+        "type" : "paragraph",
+        "id" : 115,
+        "page number" : 7,
+        "bounding box" : [ 379.98, 245.172, 560.27, 257.386 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "cos ϕ . (6)"
+      }, {
+        "type" : "paragraph",
+        "id" : 116,
+        "page number" : 7,
+        "bounding box" : [ 166.394, 188.046, 560.525, 228.116 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Comparing observed peaks with these frequencies supports the diagnostic hypothesis, especially when components related to the fault are weak or masked by other excitations in the conventional FFT spectrum."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 166.394, 164.265, 307.863, 176.679 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.3. Vibration Severity Assessment",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 7,
+    "bounding box" : [ 166.394, 77.93, 560.928, 159.782 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Beyond fault type identification, PdM workflows often require estimating vibration severity in a manner consistent with industrial standards. ISO 20816-3 [29] provides guidelines for measuring and evaluating vibration on industrial machinery within defined power classes and operating speed ranges, introducing assessment criteria typically based on broadband indicators as the RMS velocity and severity zones associated with operational recommendations."
+  }, {
+    "type" : "footer",
+    "id" : 224,
+    "page number" : 7,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 7,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 225,
+    "page number" : 8,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 58,
+      "page number" : 8,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 8 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 701.532, 560.928, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In practice, ISO assessment requires selecting the appropriate machine group and support conditions and computing the normative indicator and mapping it to the corresponding severity zone [29]. Encapsulating this assessment as a deterministic tool on the MCP server supports procedural consistency and enables traceable reporting by making assumptions, parameters, and results explicit within the analysis artifacts."
+  }, {
+    "type" : "list",
+    "id" : 229,
+    "level" : "6",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 677.75, 385.531, 690.164 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 222,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 677.75, 385.531, 690.164 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "2.4. Anomaly Detection with Semi-Supervised Models",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 591.415, 561.022, 673.268 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In industrial settings, labeled fault data are often scarce since failures are relatively rare, operating conditions evolve over time, and annotation requires specialized expertise. Consequently, PdM pipelines commonly adopt anomaly detection strategies trained primarily on reference data under nominal conditions [30]. In such approaches, the model learns a representation of normal behavior and flags observations that deviate significantly from this reference."
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 8,
+    "bounding box" : [ 165.975, 507.849, 560.518, 589.702 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In the proposed server, anomalies are not estimated directly on raw waveforms but on a features extracted from time segments. A feature matrix X ∈ RM×p is constructed, where M is the number of segments and p is the number of indicators. To improve numerical stability and reduce redundancy, features are standardized and projected via Principal Component Analysis (PCA) [48], yielding Z ∈ RM×q with q ≪ p and configurable retained variance."
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 8,
+    "bounding box" : [ 187.653, 493.921, 560.522, 506.135 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "On this compact representation, the server includes two consolidated model families:"
+  }, {
+    "type" : "list",
+    "id" : 233,
+    "level" : "4",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 393.439, 559.276, 489.219 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 435.222, 559.276, 489.219 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• One-Class SVM (OC-SVM) which learns a decision boundary enclosing the normal region in feature space with radial basis function kernel and controlling the expected fraction of outliers through parameter ν. At inference, segments outside the learned boundary are flagged as anomalous [49].",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 393.439, 559.274, 433.508 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Local Outlier Factor (LOF): estimates anomalies by comparing the local density of each point with that of its neighbors, enabling detection of local deviations even when the global distribution is multimodal or nonlinearly separable [30,50].",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 8,
+    "bounding box" : [ 166.085, 362.595, 560.933, 388.736 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "These methods are widely available in standard implementations, facilitating reproducibility and software integration."
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 8,
+    "bounding box" : [ 166.095, 306.884, 559.664, 360.881 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this work, the term semi-supervised is used in an operational sense. Training is primarily performed on healthy data. When fault examples exist, they can support parameter selection and consistency checks. Otherwise, the system remains a novelty detection model."
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 8,
+    "bounding box" : [ 166.394, 237.245, 561.02, 305.17 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Within the MCP paradigm, the LLM does not autonomously estimate anomalies. It orchestrates a reproducible workflow by selecting reference signals, invoking feature extraction and model training, applying inference to new signals, and summarizing results in natural language anchored to the tool outputs. In this phase, the LLM primarily contributes by:"
+  }, {
+    "type" : "list",
+    "id" : 237,
+    "level" : "4",
+    "page number" : 8,
+    "bounding box" : [ 166.394, 150.69, 559.58, 232.543 ],
+    "numbering style" : "unordered",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 206.401, 559.274, 232.543 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• guiding the user in selecting the baseline and parameters while avoiding arbitrary assumptions;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 192.474, 450.816, 204.688 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• interpreting numerical outputs with conservative language;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 166.394, 150.69, 559.58, 190.76 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• linking novelty detection outcomes to subsequent physical verification such as FFT and envelope analysis and reporting, reducing the risk of conclusions not supported by evidence.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 8,
+    "bounding box" : [ 165.975, 78.063, 559.278, 145.988 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Sections 2.2–2.4 summarize consolidated diagnostic procedures that are widely used in industry. The contribution of this manuscript is not to introduce new fault-detection algorithms, but to implement these procedures as deterministic MCP tools to expose them within a controlled execution perimeter. Within this paradigm, the LLM interacts through natural language. The final textual synthesis is constrained to the structured outputs"
+  }, {
+    "type" : "footer",
+    "id" : 239,
+    "page number" : 8,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 41,
+      "page number" : 8,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 240,
+    "page number" : 9,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 59,
+      "page number" : 9,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 9 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 743.315, 559.277, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "and saved artifacts, improving traceability and repeatability compared to unconstrained conversational interaction."
+  }, {
+    "type" : "heading",
+    "id" : 244,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 716.652, 289.628, 731.429 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "3. System Architecture"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 9,
+    "bounding box" : [ 166.065, 603.022, 560.932, 712.729 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The system architecture is shown in Figure 3 and adopts a modular design in which the MCP server constitutes the controlled execution perimeter within which an LLM can orchestrate diagnostic workflows. The file system plays the role of persistence and a traceability layer. It includes directories dedicated to signals (data/signals/), textual resources (resources/), generated reports (reports/), and trained models (models/). The server exposes these contents as MCP resources with vibration signals and machine manuals, allowing the assistant to consult data and context in a structured and inspectable way, reducing reliance on implicit descriptions or conversational memory alone."
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 561.239, 559.275, 601.308 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "At the computational level, the server exposes MCP tools that encapsulate the main PdM and condition monitoring operations in deterministic functions with formalized inputs and outputs:"
+  }, {
+    "type" : "list",
+    "id" : 247,
+    "level" : "4",
+    "page number" : 9,
+    "bounding box" : [ 166.394, 488.611, 560.416, 556.536 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 544.322, 415.26, 556.536 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• FFT analysis and spectral component identification;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 530.394, 442.567, 542.608 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Envelope analysis for rolling element bearing diagnostics;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 516.467, 432.395, 528.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Vibration severity assessment according to ISO 20816-3;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 502.539, 560.416, 514.753 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Anomaly detection based on machine learning models trained on reference baselines;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 166.394, 488.611, 488.076, 500.825 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Generation of reports and persistent artifacts for auditing and reuse.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 9,
+    "bounding box" : [ 166.115, 388.129, 560.927, 483.909 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The implementation of the tools is primarily concentrated in the signal analysis module, which integrates: an FFT engine, filters and demodulation for envelope analysis, the extraction of statistical indicators in the time domain, an anomaly detection pipeline (feature extraction and models), and the generation of graphs and tables. This separation between orchestration (LLM) and computation (deterministic tools) aims to make the analyses reproducible, reduce the non-deterministic nature typical of purely textual interaction, and produce inspectable artifacts to support traceability."
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 290.635, 560.524, 386.415 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In parallel, a document reader module manages documentation-based workflows, supporting the extraction of information from manuals and technical resources, such as component identifiers and operating parameters useful for diagnosis. In the current PoC, PDF parsing capabilities and integration with databases and bearing catalogs are demonstrative and require further development to ensure robustness across heterogeneous formats and to enable complete chains that lead from manuals to technical specifications, characteristic frequencies, and spectral verification reliably."
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 220.996, 560.522, 288.921 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In this context, the LLM acts as an orchestrator. It selects resources, invokes tools, connects evidence, and returns a reasoned summary. However, diagnosis remains tied to the results produced by the tools and the saved artifacts, increasing auditability and control and reducing the risk of unsupported conclusions compared to an ungoverned conversational interaction [26–28]."
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 193.141, 559.273, 219.283 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Table 2 summarizes which capabilities are implemented in the current PoC and which ones are planned."
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 9,
+    "bounding box" : [ 166.394, 151.358, 559.274, 191.427 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In summary, Section 3 introduces the system design and the current implementation scope, Section 4 specifies the available MCP resources/tools and their outputs, and Section 5 illustrates how these components are combined into reproducible workflows."
+  }, {
+    "type" : "footer",
+    "id" : 253,
+    "page number" : 9,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 42,
+      "page number" : 9,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 254,
+    "page number" : 10,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 60,
+      "page number" : 10,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 10 of 18"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 257,
+    "page number" : 10,
+    "bounding box" : [ 169.88, 407.539, 481.696, 770.024 ],
+    "source" : "41_images/imageFile3.png"
+  }, {
+    "type" : "list",
+    "id" : 258,
+    "level" : "5",
+    "page number" : 10,
+    "bounding box" : [ 166.098, 369.075, 480.764, 401.042 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 215,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.098, 369.075, 480.764, 401.042 ],
+      "font" : "URWPalladioL-Bold",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "Figure 3. Architecture of the Predictive Maintenance MCP server. Table 2. Summary of implemented and planned capabilities in the current PoC.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 260,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 41.836, 345.006, 463.493, 357.32 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Capability Status Output"
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 10,
+    "bounding box" : [ 41.836, 268.454, 545.117, 340.444 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "FFT analysis with peak identification Implemented HTML report, peak tables Envelope analysis for bearings Implemented Envelope spectrum report ISO 20816-3 severity assessment Implemented Severity zone report Feature-based anomaly detection (OC-SVM/LOF) Implemented Scores, report Manual parsing and bearing catalog integration Prototype Demonstrative utilities Streaming and edge deployment and SCADA and CMMS integration Planned Not in current PoC"
+  }, {
+    "type" : "heading",
+    "id" : 264,
+    "level" : "Subtitle",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 234.686, 322.158, 249.463 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "4. Implemented Capabilities"
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 10,
+    "bounding box" : [ 166.394, 148.911, 560.903, 230.763 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This section details the capabilities summarized in Section 3 by describing the exposed MCP resources and deterministic tools, with emphasis on how they support reproducible and auditable workflows. In the MCP paradigm, resources provide structured access to data and documents, while tools encapsulate deterministic procedures with typed inputs and outputs. This allows for guided and reproducible workflows [27,28]. The capabilities are organized into data and context access, analysis and verification and report generation."
+  }, {
+    "type" : "list",
+    "id" : 266,
+    "level" : "5",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 108.433, 397.296, 137.543 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 273,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 108.433, 397.296, 137.543 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.1. Resources: Data and Context Access Resources allow you to enumerate and retrieve:",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 267,
+    "level" : "4",
+    "page number" : 10,
+    "bounding box" : [ 166.394, 63.661, 559.279, 103.73 ],
+    "numbering style" : "unordered",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 91.516, 461.377, 103.73 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Vibration signals in common formats, with optional metadata;",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 166.394, 63.661, 559.279, 89.802 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Technical documentation useful for extracting machine and component parameters to support diagnosis.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 268,
+    "page number" : 10,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 43,
+      "page number" : 10,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 269,
+    "page number" : 11,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 61,
+      "page number" : 11,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 11 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 743.315, 560.928, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Context recovery occurs by avoiding implicit assumptions and facilitating reproducibility of analyses across sessions."
+  }, {
+    "type" : "list",
+    "id" : 273,
+    "level" : "5",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 719.533, 204.899, 731.947 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 266,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 719.533, 204.899, 731.947 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "4.2. Tools",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 688.909, 559.275, 715.051 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "MCP tools implement server-side computations and return structured results, which can be combined in multi-step workflows. Current tools cover six families."
+  }, {
+    "type" : "list",
+    "id" : 275,
+    "level" : "4",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 391.446, 561.019, 682.214 ],
+    "numbering style" : "unordered",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 642.145, 560.929, 682.214 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Frequency Domain Analysis. Performs FFT with configurable options and automatically identifies dominant and harmonic components, producing peak and indicator tables useful for initial spectral characterization.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 600.362, 560.52, 640.431 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Envelope Analysis for Rolling Bearing Defects. Implements band-pass filtering, envelope extraction using the Hilbert transform, and an envelope spectrum, allowing comparison between observed peaks and characteristic frequencies.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 558.579, 561.019, 598.648 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Vibration Severity Assessment. Calculates the broadband normative indicator given by the RMS of the speed and determines the severity zone, making explicit the required assumptions such as the machine group and installation and support conditions [29].",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 502.868, 560.933, 556.865 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Anomaly Detection. Builds features through sliding windows, applies standardization and PCA, and trains classical models such as OC-SVM and LOF on healthy baselines. The output includes scores and anomaly labels by segment and aggregates that can be used as a screening module.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 447.157, 560.524, 501.154 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Documentation Utility. Supports the extraction of identifiers and parameters from manuals and the calculation of characteristic defect frequencies from catalog data, which can be used as a reference for spectral interpretation (e.g., overlay on the envelope spectrum).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 391.446, 559.278, 445.443 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Report Generation. For the main analyses, tools are available that generate interactive HTML reports (graphs, peak tables, markers) with execution metadata. The reports are designed as inspectable and reusable technical output, complementary to the textual summary produced by the assistant.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 344.682, 560.926, 384.751 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The LLM does not perform diagnostic calculations but composes workflows by selecting resources and invoking tools with explicit parameters, and produces a conservative summary constrained by the structured outputs of the tools [27,28]."
+  }, {
+    "type" : "heading",
+    "id" : 277,
+    "level" : "Subtitle",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 318.019, 319.301, 332.796 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "5. Use Cases and Workflows"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 11,
+    "bounding box" : [ 166.394, 176.533, 559.475, 314.097 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "This section describes end-to-end workflows that can be executed with the MCP server, derived from the operational examples in the repository (file EXAMPLES.md) and therefore reproducible by the [31] community. The use cases are presented as chains of steps consisting of the selection of a resource (signal or document), invocation of one or more deterministic tools, and production of persistent artifacts (reports and metadata) that document parameters and results. In these examples, the LLM acts as the coordinator of the interaction and composition of the steps, while the diagnostic evidence remains anchored to the structured outputs of the tools and the generated reports. The aim of this work is not to describe experimentation relating to a specific dataset; therefore, reference is made to commonly used data available among online resources for verification and reuse."
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 11,
+    "bounding box" : [ 166.095, 120.823, 560.93, 174.82 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The numerical outputs shown in the use cases are produced by conventional signalprocessing methods. Compared to running the same analyses as stand-alone scripts, the MCP-based workflow provides explicit parameterization for each step by using natural language."
+  }, {
+    "type" : "list",
+    "id" : 280,
+    "level" : "5",
+    "page number" : 11,
+    "bounding box" : [ 166.394, 97.041, 334.134, 109.455 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 287,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 166.394, 97.041, 334.134, 109.455 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.1. Demonstration Data and Provenance",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 11,
+    "bounding box" : [ 166.085, 66.197, 561.018, 92.558 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The examples use the signals included in the repository as a demonstration dataset. These signals are derived from the public dataset RollingElementBearingFaultDiagnosis-Data"
+  }, {
+    "type" : "footer",
+    "id" : 282,
+    "page number" : 11,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 44,
+      "page number" : 11,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 283,
+    "page number" : 12,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 62,
+      "page number" : 12,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 12 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 701.532, 559.662, 770.818 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "made available by MathWorks® on GitHub [51], which contains experimental vibration measurements under healthy conditions and in the presence of internal or external raceway defects. In the PoC, the signals are accompanied by metadata, including the sampling rate and operating conditions used by the tools to parameterize the analyses and make the results reproducible."
+  }, {
+    "type" : "list",
+    "id" : 287,
+    "level" : "5",
+    "page number" : 12,
+    "bounding box" : [ 166.394, 253.707, 474.019, 690.164 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 280,
+    "next list id" : 306,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 677.75, 373.965, 690.164 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.2. Use Case 1: FFT Analysis for Spectral Baseline",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 70,
+        "page number" : 12,
+        "bounding box" : [ 166.394, 605.343, 560.524, 673.268 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The objective is to build an initial baseline of the frequency content of a signal under healthy conditions. The workflow is based on: selecting the signal and reading metadata, including the sampling rate, duration, and rotation speed when available; invoking the analyze_fft tool; and generating the HTML report using generate_fft_report. An example of a conversational request is:"
+      }, {
+        "type" : "paragraph",
+        "id" : 71,
+        "page number" : 12,
+        "bounding box" : [ 168.96, 585.438, 487.205, 597.652 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "‘ ‘ Generate FFT report for real_train/baseline_1 . csv ’ ’ ."
+      }, {
+        "type" : "paragraph",
+        "id" : 72,
+        "page number" : 12,
+        "bounding box" : [ 165.975, 537.677, 559.277, 577.746 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The report explicitly specifies the frequency resolution, main peaks and harmonics, as well as the analysis parameters. This facilitates comparisons between acquisitions and the traceability of assumptions."
+      }, {
+        "type" : "paragraph",
+        "id" : 73,
+        "page number" : 12,
+        "bounding box" : [ 166.095, 495.894, 559.272, 535.963 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "In a stand-alone workflow, FFT analysis typically requires manual scripting. In the proposed MCP-based workflow, the same analysis becomes a deterministic tool invocation by means of natural language."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 472.112, 447.29, 484.526 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.3. Use Case 2: Envelope Analysis for BPFI and BPFO Identification",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 74,
+        "page number" : 12,
+        "bounding box" : [ 166.394, 399.705, 559.279, 467.63 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The objective is to highlight typical modulations of bearing defects using envelope demodulation. The workflow is based on: band-pass filtering on a resonant band; envelope extraction via Hilbert transform; envelope spectrum calculation; and comparison between observed peaks and expected characteristic frequencies. An example of a conversational request is the following. The output is reported in Figure 4."
+      }, {
+        "type" : "paragraph",
+        "id" : 75,
+        "page number" : 12,
+        "bounding box" : [ 168.703, 381.242, 541.544, 392.234 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 8.966,
+        "text color" : "[0.0]",
+        "content" : "‘ ‘ Generate envelope report for real_train/InnerRaceFault_vload_1 . csv ’ ’"
+      }, {
+        "type" : "paragraph",
+        "id" : 76,
+        "page number" : 12,
+        "bounding box" : [ 166.095, 333.2, 559.668, 373.269 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Parameters such as the filter bandwidth, use of random segments, and availability of characteristic frequencies are explicit in the tool inputs. The LLM guides the choice of parameters and formulates the synthesis exclusively based on the outputs produced."
+      }, {
+        "type" : "paragraph",
+        "id" : 77,
+        "page number" : 12,
+        "bounding box" : [ 166.095, 277.489, 559.28, 331.486 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "Envelope analysis is sensitive to parameter choices. Here, the MCP makes these choices explicit in the tool inputs and stores them alongside results in the generated report, reducing hidden assumptions and enabling engineers to verify that defect-frequency markers and peaks are consistent with the selected configuration."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 166.394, 253.707, 474.019, 266.121 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.4. Use Case 3: Evaluation of Vibration Severity According to ISO 20816-3",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 12,
+    "bounding box" : [ 166.394, 195.228, 559.279, 249.225 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The objective is to obtain a reproducible estimate of vibration severity consistent with ISO 20816-3. The LLM workflow operates with signal selection, the calculation of the required normative indicator, and the determination of the severity zone and classification thresholds. An example of a conversational request is the following."
+  }, {
+    "type" : "heading",
+    "id" : 289,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 187.653, 181.12, 353.959, 193.434 ],
+    "heading level" : 3,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Example of a conversational request."
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 12,
+    "bounding box" : [ 168.96, 161.395, 512.152, 173.609 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "‘ ‘ Evaluate real_train/baseline_1 . csv against ISO 20816 −3 ’ ’"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 12,
+    "bounding box" : [ 166.095, 113.634, 560.929, 153.704 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The tool returns the indicator, thresholds, and severity zone (Figure 5). The HTML report displays the position of the measurement relative to the limits, making the parameters and assumptions used transparent."
+  }, {
+    "type" : "footer",
+    "id" : 292,
+    "page number" : 12,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 45,
+      "page number" : 12,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 293,
+    "page number" : 13,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 63,
+      "page number" : 13,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 13 of 18"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 296,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 443.744, 500.341, 770.028 ],
+    "source" : "41_images/imageFile4.png"
+  }, {
+    "type" : "heading",
+    "id" : 297,
+    "level" : "Subtitle",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 413.432, 559.273, 437.246 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 4. Example of an envelope analysis report: the peaks are consistent with the BPFI and related harmonics, highlighted by markers in the spectrum."
+  }, {
+    "type" : "image",
+    "id" : 298,
+    "page number" : 13,
+    "bounding box" : [ 166.394, 91.981, 500.346, 397.181 ],
+    "source" : "41_images/imageFile5.png"
+  }, {
+    "type" : "heading",
+    "id" : 299,
+    "level" : "Subtitle",
+    "page number" : 13,
+    "bounding box" : [ 166.394, 74.33, 515.858, 85.484 ],
+    "heading level" : 4,
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Figure 5. Example of an ISO 20816-3 report with severity zones and calculated indicator."
+  }, {
+    "type" : "footer",
+    "id" : 300,
+    "page number" : 13,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 46,
+      "page number" : 13,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 301,
+    "page number" : 14,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 64,
+      "page number" : 14,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 14 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 14,
+    "bounding box" : [ 187.653, 757.242, 559.271, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "ISO 20816-3 assessment requires explicit assumptions. Encapsulating the procedure"
+  }, {
+    "type" : "list",
+    "id" : 305,
+    "level" : "6",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 715.459, 560.928, 755.529 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 329,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 715.459, 560.928, 755.529 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "as a deterministic tool forces these assumptions to be stated and recorded, and the resulting report provides an auditable severity classification that can be referenced in maintenance documentation.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 306,
+    "level" : "5",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 443.589, 481.621, 704.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 287,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 691.678, 402.787, 704.092 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.5. Use Case 4: Complete Diagnosis via Guided Workflow",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 78,
+        "page number" : 14,
+        "bounding box" : [ 166.394, 591.415, 559.279, 687.195 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The objective is to build a multi-indicator workflow to obtain a diagnostic synthesis based on consistent evidence. The LLM workflows is a combination of ISO assessment for global severity, FFT for spectral baseline and dominant components, envelope analysis to highlight characteristic modulations, and final synthesis that integrates the results of the tools and recalls the generated reports as evidence. This use case highlights LLMs as a glue between deterministic tools, while the conclusion is formulated only after collecting multiple and consistent indicators."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 567.634, 444.908, 580.048 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.6. Use Case 5: Anomaly Detection on Features in the Time Domain",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 79,
+        "page number" : 14,
+        "bounding box" : [ 166.095, 467.371, 559.273, 563.151 ],
+        "font" : "URWPalladioL-Roma",
+        "font size" : 9.963,
+        "text color" : "[0.0]",
+        "content" : "The objective is to build a semi-supervised quantitative screening module, trained on healthy baselines and applied to potentially degraded signals. The LLM workflow is based on: feature extraction on sliding windows; standardization and PCA; the training of OC-SVM or LOF on healthy baselines; inference on new signals; the calculation of segment and aggregate labels; and the possible generation of comparative reports. The output can be used to prioritize which acquisitions to subject to physical verification, avoiding premature conclusions."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 166.394, 443.589, 481.621, 456.003 ],
+      "font" : "URWPalladioL-Ital",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "5.7. Use Case 6: Reading Manuals and Calculating Characteristic Frequencies",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 343.327, 559.698, 439.107 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The objective is to enable documentation-based workflows in which information extracted from manuals and catalogs supports spectral diagnosis. The LLM workflow is based on: extracting bearing information from documents, such as the identification number, geometry, or parameters, and rotational speed; calculating defect characteristic frequencies; and using these frequencies as a reference for reading spectra. This use case illustrates the MCP advantage of integrating access to resources and extraction/calculation tools within a controlled and traceable perimeter."
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 14,
+    "bounding box" : [ 166.095, 245.833, 560.928, 341.613 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The numerical results shown in the use cases are produced by established signalprocessing procedures. The goal of this PoC is to demonstrate how these procedures can be reliably executed and documented through a natural language assistant under explicit governance constraints. In particular, the effectiveness of the proposed software should be evaluated at the workflow level, i.e., whether the assistant’s conclusions can be traced back to computed evidence and whether the full analytical chain can be reproduced with the same inputs and parameters."
+  }, {
+    "type" : "heading",
+    "id" : 309,
+    "level" : "Subtitle",
+    "page number" : 14,
+    "bounding box" : [ 166.394, 219.17, 239.476, 233.947 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "6. Discussion"
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 105.54, 560.932, 215.248 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The proposed system is a PoC whose evaluation is not oriented towards a performance comparison of the diagnosis, but rather towards workflow properties relevant to the adoption of agents in industrial contexts. The assessments include: the verifiability of the conclusions with respect to the tool outputs; the reproducibility of the analyses with the same inputs and parameters; and auditability, understood as the availability of persistent artifacts documenting parameters, transformations, and results. This framework is consistent with the MCP’s objective of constraining the LLM’s action to explicit resources and deterministic tools [27,28], and with the governance needs typical of agentic systems [26]."
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 14,
+    "bounding box" : [ 166.394, 63.757, 560.521, 103.826 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "In the workflows presented (Section 5), the server enforces a clear separation between orchestration (LLM) and computation (server-side tools). The LLM selects resources, configures parameters, and executes tool chains, while diagnostic evidence is produced"
+  }, {
+    "type" : "footer",
+    "id" : 312,
+    "page number" : 14,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 47,
+      "page number" : 14,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 313,
+    "page number" : 15,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 65,
+      "page number" : 15,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 15 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 15,
+    "bounding box" : [ 166.085, 701.532, 561.019, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "by deterministic functions and preserved in interactive HTML reports with metadata. This reduces the ambiguity typical of a text-only response and allows for post hoc review. Dominant frequencies, peaks, markers, normative assumptions, and computed indicators can be inspected independently of conversational interaction. However, the results must be interpreted in light of intrinsic PoC limitations and security considerations. In particular:"
+  }, {
+    "type" : "list",
+    "id" : 317,
+    "level" : "4",
+    "page number" : 15,
+    "bounding box" : [ 166.394, 431.924, 561.019, 694.837 ],
+    "numbering style" : "unordered",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 654.767, 560.927, 694.837 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• The demonstration package is limited and does not represent typical plant heterogeneity. Therefore, the workflows should be considered as reproducible examples and not as field-validated procedures.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 612.984, 559.28, 653.054 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Analyses such as envelope analysis, peak picking, and anomaly detection depend on parameterized choices. In the PoC, these choices are explicit and traceable, but not yet standardized for machine families and failure modes.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 585.129, 560.999, 611.271 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• Extraction from manuals and catalogs, and the automatic derivation of characteristic frequencies, requires consolidation to avoid propagation of errors in spectral readings.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 543.346, 561.019, 583.415 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• The current architecture is oriented towards offline analysis and report generation. Extensions to streaming, real-time constraints, edge deployment, and integration with SCADA and CMMS require additional components.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 166.394, 431.924, 560.928, 541.632 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 9.963,
+      "text color" : "[0.0]",
+      "content" : "• The use of LLMs in maintenance contexts requires caution because the outputs can influence operational decisions with impacts on people, assets, and production continuity. The system assumes that the LLM is solely for operator support. It coordinates deterministic tools and synthesizes computed results, while decision-making remains human [32]. In real-world deployments, additional checks and mitigations against prompt injection or untrusted input are necessary. Furthermore, ISO functions support computation and classification but are not a substitute for the correct selection of the machine class and measurement conditions [29].",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 15,
+    "bounding box" : [ 166.095, 259.811, 560.928, 425.229 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The open-source nature and MCP approach foster incremental development. Adding new resources and tools can extend capabilities without altering the orchestration paradigm [27,28]. Priorities include expanding and diversifying datasets, validating them on real-world industrial cases, extending them to additional faults and standards, improving the test suite, and defining evaluation protocols for PdM agents that include not only diagnostic metrics, but also traceability, robustness, and safety requirements [26]. A quantitative comparison against commercial condition monitoring platforms is outside the scope of this PoC, mainly due to differences in proprietary implementations and evaluation protocols. However, since the implemented analyses rely on consolidated procedures, outputs can be cross-validated with standard engineering tool chains. Benchmarking against selected commercial platforms is considered a relevant direction for future work once evaluation datasets and protocols are consolidated."
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 15,
+    "bounding box" : [ 165.975, 120.534, 561.022, 258.097 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "The proposed PoC is evaluated through workflow properties rather than faultclassification accuracy. Repeatability is ensured by design because the analytical chain is executed through deterministic and typed server-side tools within the MCP perimeter. However, client-side variations should be investigated. Traceability and auditability are supported by persistent artifacts produced at each tool invocation. Reports and associated metadata explicitly capture tool identity and input resource identifiers, enabling post hoc inspection and reproduction of the analytical chain. Future work will extend this evaluation with repeated-run statistical analyses across environments to quantify variability, and to explicitly characterize potential sources of non-determinism when optional randomness is enabled or when model-training pipelines are extended."
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 15,
+    "bounding box" : [ 166.095, 64.823, 559.471, 118.82 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "LLM-assisted PdM workflows are exposed to security and governance risks whenever the assistant consumes untrusted inputs and is connected to operational tools. In such settings, text sources may contain malicious instructions aimed at overriding the assistant’s policies by means of prompt injection, inducing tool misuse, or eliciting disclosure of"
+  }, {
+    "type" : "footer",
+    "id" : 321,
+    "page number" : 15,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 48,
+      "page number" : 15,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 322,
+    "page number" : 16,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 66,
+      "page number" : 16,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 16 of 18"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 16,
+    "bounding box" : [ 166.394, 673.676, 559.279, 769.456 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "sensitive information. Moreover, even benign content may cause unsafe recommendations if the assistant is allowed to act without grounding to verifiable evidence. The proposed PoC mitigates these risks by design through a governed perimeter enabled by the MCP. Only an explicit allowlist of deterministic and typed tools is exposed, resources can be configured as read-only and are treated as data rather than trusted instructions, tool calls are constrained by strict schemas, and parameter validation and the narrative output are grounded to computed results and persisted artifacts rather than to unverified textual content."
+  }, {
+    "type" : "heading",
+    "id" : 326,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 647.013, 246.793, 661.79 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "7. Conclusions"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 16,
+    "bounding box" : [ 165.975, 449.817, 560.931, 643.091 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 9.963,
+    "text color" : "[0.0]",
+    "content" : "Predictive Maintenance MCP was presented as an open-source Proof of Concept that connects LLM-based interaction to condition monitoring and predictive maintenance workflows through an MCP perimeter of deterministic resources and tools. Reproducible diagnostic workflows were enabled by tool-based analyses, including FFT, envelope analysis for rolling bearings, ISO 20816-3 severity assessment, and semi-supervised anomaly detection on time-domain features. Interactive HTML reports and execution metadata were generated to improve the traceability and repeatability of diagnostic statements by anchoring the final synthesis to computed evidence. The software was archived on Zenodo (https://doi.org/10.5281/zenodo.17611542) and released as an executable baseline to support community-driven validation and extension toward industrial requirements. Future work is expected to include validation on heterogeneous field datasets and operating conditions, extension to additional faults, sensors and standards, support for streaming and edge deployment, improved robustness and test coverage, and the definition of evaluation protocols that explicitly incorporate governance and chain of evidence constraints."
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 16,
+    "bounding box" : [ 166.394, 406.006, 559.278, 436.137 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Funding: This research received no external funding. Data Availability Statement: The original data presented in the study are openly available in GitHub"
+  }, {
+    "type" : "list",
+    "id" : 329,
+    "level" : "6",
+    "page number" : 16,
+    "bounding box" : [ 166.394, 361.031, 559.276, 404.161 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 305,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 166.394, 361.031, 559.276, 404.161 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "at https://github.com/mathworks/RollingElementBearingFaultDiagnosis-Data (accessed on 12 March 2026). Conflicts of Interest: The author declares no conflict of interest.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 330,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 35.716, 334.248, 95.48, 349.025 ],
+    "heading level" : 2,
+    "font" : "URWPalladioL-Bold",
+    "font size" : 11.955,
+    "text color" : "[0.0]",
+    "content" : "References"
+  }, {
+    "type" : "list",
+    "id" : 331,
+    "level" : "5",
+    "page number" : 16,
+    "bounding box" : [ 35.716, 76.782, 560.4, 330.546 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "next list id" : 336,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 306.589, 560.4, 330.546 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "1. Ali, M.I.; Lai, N.S.; Abdulla, R. Predictive maintenance of rotational machinery using deep learning. Int. J. Electr. Comput. Eng. (IJECE) 2024, 14, 1112. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 281.055, 559.277, 305.012 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "2. Zhou, J.; Yang, J.; Qian, Q.; Qin, Y. A comprehensive survey of machine remaining useful life prediction approaches based on pattern recognition: Taxonomy and challenges. Meas. Sci. Technol. 2024, 35, 062001. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 255.719, 560.4, 279.478 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "3. Randall, R.B. Vibration-Based Condition Monitoring: Industrial, Aerospace and Automotive Applications; John Wiley & Sons: Hoboken, NJ, USA, 2011. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 229.987, 559.278, 253.944 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "4. Mikołajewska, E.; Mikołajewski, D.; Mikołajczyk, T.; Paczkowski, T. Generative AI in AI-Based Digital Twins for Fault Diagnosis for Predictive Maintenance in Industry 4.0/5.0. Appl. Sci. 2025, 15, 3166. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 204.453, 559.274, 228.41 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "5. Ma, S.; Flanigan, K.A.; Bergés, M. State-of-the-Art Review: The Use of Digital Twins to Support Artificial Intelligence-Guided Predictive Maintenance. arXiv 2024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 178.919, 559.274, 202.876 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "6. Lei, Y.; Yang, B.; Jiang, X.; Jia, F.; Li, N.; Nandi, A.K. Applications of machine learning to machine fault diagnosis: A review and roadmap. Mech. Syst. Signal Process. 2020, 138, 106587. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 153.385, 559.273, 177.342 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "7. Surucu, O.; Gadsden, S.A.; Yawney, J. Condition Monitoring using Machine Learning: A Review of Theory, Applications, and Recent Advances. Expert Syst. Appl. 2023, 221, 119738. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 127.85, 559.553, 151.807 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "8. Lei, Y.; Li, N.; Guo, L.; Li, N.; Yan, T.; Lin, J. Machinery health prognostics: A systematic review from data acquisition to RUL prediction. Mech. Syst. Signal Process. 2018, 104, 799–834. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 102.316, 559.274, 126.273 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "9. Hendriks, J.; Dumond, P.; Knox, D. Towards better benchmarking using the CWRU bearing fault dataset. Mech. Syst. Signal Process. 2022, 169, 108732. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 35.716, 76.782, 559.278, 100.739 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "10. Farooq, U.; Ademola, M.; Shaalan, A. Comparative Analysis of Machine Learning Models for Predictive Maintenance of Ball Bearing Systems. Electronics 2024, 13, 438. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 332,
+    "page number" : 16,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 49,
+      "page number" : 16,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 333,
+    "page number" : 17,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 67,
+      "page number" : 17,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 17 of 18"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 336,
+    "level" : "5",
+    "page number" : 17,
+    "bounding box" : [ 35.716, 68.104, 560.845, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 26,
+    "previous list id" : 331,
+    "next list id" : 341,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 744.559, 559.279, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "11. Giraudo, L.; Di Maggio, L.G.; Giorio, L.; Delprete, C. Dynamic Multibody Modeling of Spherical Roller Bearings with Localized Defects for Large-Scale Rotating Machinery. Sensors 2025, 25, 2419. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 706.258, 560.396, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "12. Alzubaidi, L.; Zhang, J.; Humaidi, A.J.; Al-Dujaili, A.; Duan, Y.; Al-Shamma, O.; Santamaría, J.; Fadhel, M.A.; Al-Amidie, M.; Farhan, L. Review of deep learning: Concepts, CNN architectures, challenges, applications, future directions. J. Big Data 2021, 8, 53. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 680.724, 559.278, 704.681 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "13. Di Maggio, L.G. Intelligent Fault Diagnosis of Industrial Bearings Using Transfer Learning and CNNs Pre-Trained for Audio Classification. Sensors 2023, 23, 211. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 655.19, 559.278, 679.147 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "14. Eang, C.; Lee, S. Predictive Maintenance and Fault Detection for Motor Drive Control Systems in Industrial Robots Using CNN-RNN-Based Observers. Sensors 2024, 25, 25. [CrossRef] [PubMed]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 629.656, 559.275, 653.613 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "15. Yang, X.; Fang, C.; Liao, Y.; Yang, J.; Gryllias, K.; Chronopoulos, D. Deep Generative Models in Condition and Structural Health Monitoring: Opportunities, Limitations and Future Outlook. arXiv 2025. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 604.122, 559.626, 628.079 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "16. DI MAGGIO, L.G.; Brusa, E.; Delprete, C. Zero-Shot Generative AI for Rotating Machinery Fault Diagnosis: Synthesizing Highly Realistic Training Data via Cycle-Consistent Adversarial Networks. Appl. Sci. 2023, 13, 12458. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 578.588, 560.841, 602.545 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "17. Brown, T.B.; Mann, B.; Ryder, N.; Subbiah, M.; Kaplan, J.; Dhariwal, P.; Neelakantan, A.; Shyam, P.; Sastry, G.; Askell, A.; et al. Language Models are Few-Shot Learners. arXiv 2020, arXiv:2005.14165. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 565.821, 283.846, 577.011 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "18. OpenAI. GPT-4 Technical Report. arXiv 2023. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 540.485, 560.845, 564.244 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "19. Wu, J.; Gan, W.; Chen, Z.; Wan, S.; Yu, P.S. Multimodal Large Language Models: A Survey. arXiv 2023, arXiv:2311.13165. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 514.753, 559.278, 538.71 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "20. Lynch, K.; Lorenzi, F.; Sheehan, J.; Kabakci-Zorlu, D.; Eck, B. FMEA Builder: Expert Guided Text Generation for Equipment Maintenance. arXiv 2024, arXiv:2411.05054. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 489.218, 559.278, 513.176 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "21. Yigin, B.; Celik, M. A Prescriptive Model for Failure Analysis in Ship Machinery Monitoring Using Generative Adversarial Networks. J. Mar. Sci. Eng. 2024, 12, 493. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 451.115, 559.498, 487.641 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "22. Reddicharla, N.; Ali, M.S. Innovating Oil and Gas Field Operations - Harnessing the Power of Generative Ai for Supporting Workforce Towards Achieving Autonomous Operations. In Proceedings of the ADIPEC, Abu Dhabi, United Arab Emirates, 4–7 November 2024; p. D011S020R005. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 400.047, 560.842, 449.34 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "23. Lewis, P.; Perez, E.; Piktus, A.; Petroni, F.; Karpukhin, V.; Goyal, N.; Küttler, H.; Lewis, M.; Yih, W.t.; Rocktäschel, T.; et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. In Proceedings of the Advances in Neural Information Processing Systems; Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M.F., Lin, H., Eds.; Curran Associates, Inc.: Red Hook, NY, USA, 2020; Volume 33, pp. 9459–9474.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 374.513, 560.844, 398.272 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "24. Moran, G.E.; Aragam, B. Towards Interpretable Deep Generative Models via Causal Representation Learning. arXiv 2025. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 336.212, 560.4, 372.738 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "25. Nuti, L.; Veneri, G.; Porciani, D.; Catalano, L.; Iasparro, D.; Lauriola, M.; Capanni, M.; Vitale, M. Agentic AI on Customer Dashboards in Remote Monitoring and Diagnostic Services. In Proceedings of the ADIPEC, Abu Dhabi, United Arab Emirates, 3–6 November 2025; p. D021S080R004. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 323.247, 344.297, 334.437 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "26. Kolt, N. Governing AI Agents. arXiv 2025, arXiv:2501.07913. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 297.713, 559.278, 321.67 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "27. Hou, X.; Zhao, Y.; Wang, S.; Wang, H. Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions. arXiv 2025. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 272.377, 560.844, 296.136 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "28. Ray, P.P. A Survey on Model Context Protocol: Architecture, State-of-the-art, Challenges and Future Directions. TechRxiv 2025. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 246.843, 559.628, 270.602 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "29. ISO 20816-3:2022(en); Mechanical vibration—Measurement and Evaluation of Machine Vibration Part 3: Industrial Machinery with a Power Rating Above 15 kW and Operating Speeds Between 120 r/min and 30 000 r/min. ISO: London, UK, 2022.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 208.541, 559.278, 245.067 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "30. Di Maggio, L.G.; Brusa, E.; Delprete, C. Novelty Detection in Rotating Machinery: Assessment of Unsupervised Machine Learning Models for Medium-Sized Industrial Bearings. In Proceedings of the 2025 International Conference on Control, Automation and Diagnosis (ICCAD), Barcelona, Spain, 1–3 July 2025; pp. 1–7. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 182.809, 559.272, 206.766 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "31. Di Maggio, L.G. Predictive Maintenance MCP Server: An Open-Source Framework for Integrating Large Language Models with Predictive Maintenance and Fault Diagnosis Workflows; Zenodo: Geneva, Switzerland, 2025. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 157.275, 559.273, 181.232 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "32. Di Maggio, L.G. Toward Autonomous LLM-Based AI Agents for Predictive Maintenance: State of the Art, Challenges, and Future Perspectives. Appl. Sci. 2025, 15, 11515. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 131.741, 559.275, 155.698 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "33. Deng, H.; Namoano, B.; Zheng, B.; Khan, S.; Ahmet Erkoyuncu, J. From Prediction to Prescription: Large Language Model Agent for Context-Aware Maintenance Decision Support. PHM Soc. Eur. Conf. 2024, 8, 10. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 106.207, 559.278, 130.164 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "34. Wang, Y.; Yu, Y.; Sun, K.; Lei, P.; Zhang, Y.; Zio, E.; Xia, A.; Li, Y. RmGPT: A Foundation Model With Generative Pre-trained Transformer for Fault Diagnosis and Prognosis in Rotating Machinery. IEEE Internet Things J. 2025, 12, 41562–41573. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 93.44, 559.273, 104.63 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "35. Tao, L.; Liu, H.; Ning, G.; Cao, W.; Huang, B.; Lu, C. LLM-based Framework for Bearing Fault Diagnosis. arXiv 2024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 35.716, 68.104, 560.844, 91.863 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "36. Qaid, H.A.A.M.; Zhang, B.; Li, D.; Ng, S.K.; Li, W. FD-LLM: Large Language Model for Fault Diagnosis of Machines. arXiv 2024. [CrossRef]",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 337,
+    "page number" : 17,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 50,
+      "page number" : 17,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 338,
+    "page number" : 18,
+    "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 68,
+      "page number" : 18,
+      "bounding box" : [ 35.429, 795.883, 559.276, 807.647 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.0]",
+      "content" : "Appl. Sci. 2026, 16, 2812 18 of 18"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 341,
+    "level" : "5",
+    "page number" : 18,
+    "bounding box" : [ 35.716, 374.513, 560.849, 768.516 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 15,
+    "previous list id" : 336,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 744.559, 559.274, 768.516 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "37. He, H.; Huang, J.; Li, Q.; Wang, X.; Zhang, F.; Yang, K.; Meng, L.; Chu, F. MaintAGT:Sim2Real-Guided Multimodal Large Model for Intelligent Maintenance with Chain-of-Thought Reasoning. arXiv 2024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 719.025, 559.278, 742.982 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "38. Sun, Y.; Zhang, Q.; Bao, J.; Lu, Y.; Liu, S. Empowering digital twins with large language models for global temporal feature learning. J. Manuf. Syst. 2024, 74, 83–99. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 693.491, 559.276, 717.448 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "39. Zhang, X.; Sun, W.; Chen, K.; Jiang, R. A multimodal expert system for the intelligent monitoring and maintenance of transformers enhanced by multimodal language large model fine-tuning and digital twins. IET Collab. Intell. Manuf. 2024, 6, e70007. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 667.957, 560.849, 691.914 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "40. Ferdousi, R.; Hossain, M.A.; Yang, C.; Saddik, A.E. DefectTwin: When LLM Meets Digital Twin for Railway Defect Inspection. arXiv 2024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 655.19, 489.112, 666.38 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "41. Kok, I.; Demirci, O.; Ozdemir, S. When IoT Meet LLMs: Applications and Challenges. arXiv 2024. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 617.087, 559.278, 653.613 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "42. Mahr, F.; Angeli, G.; Sindel, T.; Schmidt, K.; Franke, J. A Reference Architecture for Deploying Large Language Model Applications in Industrial Environments. In Proceedings of the 2024 IEEE 30th International Symposium for Design and Technology in Electronic Packaging (SIITME), Sibiu, Romania, 16–18 October 2024; pp. 19–23. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 578.588, 560.396, 615.312 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "43. Friha, O.; Amine Ferrag, M.; Kantarci, B.; Cakmak, B.; Ozgun, A.; Ghoualmi-Zine, N. LLM-Based Edge Intelligence: A Comprehensive Survey on Architectures, Applications, Security and Trustworthiness. IEEE Open J. Commun. Soc. 2024, 5, 5799–5856. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 553.054, 560.842, 577.011 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "44. Dashdamirli, N. Integration of Large Language Models with microcontrollers to optimize industrial automation processes. InterConf 2024, 46, 500–507. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 527.52, 559.531, 551.477 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "45. Smith, W.A.; Randall, R.B. Rolling element bearing diagnostics using the Case Western Reserve University data: A benchmark study. Mech. Syst. Signal Process. 2015, 64–65, 100–131. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 501.986, 559.273, 525.943 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "46. Brusa, E.; Bruzzone, F.; Delprete, C.; Di Maggio, L.G.; Rosso, C. Health indicators construction for damage level assessment in bearing diagnostics: A proposal of an energetic approach based on envelope analysis. Appl. Sci. 2020, 10, 8131. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 476.451, 560.397, 500.408 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "47. Abboud, D.; Antoni, J.; Sieg-Zieba, S.; Eltabach, M. Envelope analysis of rotating machine vibrations in variable speed conditions: A comprehensive treatment. Mech. Syst. Signal Process. 2017, 84, 200–226. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 450.917, 559.278, 474.874 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "48. Brusa, E.; Delprete, C.; DI MAGGIO, L.G. Eigen-spectrograms: An interpretable feature space for bearing fault diagnosis based on artificial intelligence and image processing. Mech. Adv. Mater. Struct. 2022, 33, 4639–4651. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 438.15, 414.835, 449.34 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "49. Cortes, C.; Vapnik, V. Support-vector networks. Mach. Learn. 1995, 20, 273–297. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 400.047, 560.842, 436.573 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "50. Breunig, M.M.; Kriegel, H.P.; Ng, R.T.; Sander, J. LOF: Identifying density-based local outliers. In Proceedings of the Proceedings of the 2000 ACM SIGMOD international conference on Management of data, Dallas TX, USA, 16–18 May 2000; pp. 93–104. [CrossRef]",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 35.716, 374.513, 560.393, 398.272 ],
+      "font" : "URWPalladioL-Roma",
+      "font size" : 8.966,
+      "text color" : "[0.0]",
+      "content" : "51. The Mathworks Inc. Rolling Element Bearing Fault Diagnosis Dataset. GitHub Repository. 2023. Available online: https: //github.com/mathworks/RollingElementBearingFaultDiagnosis-Data (accessed on 28 January 2026).",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 18,
+    "bounding box" : [ 35.447, 322.284, 559.28, 358.81 ],
+    "font" : "URWPalladioL-Roma",
+    "font size" : 8.966,
+    "text color" : "[0.0]",
+    "content" : "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+  }, {
+    "type" : "footer",
+    "id" : 343,
+    "page number" : 18,
+    "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 51,
+      "page number" : 18,
+      "bounding box" : [ 423.147, 28.358, 559.276, 38.13 ],
+      "heading level" : 5,
+      "font" : "URWPalladioL-Roma",
+      "font size" : 7.97,
+      "text color" : "[0.03137, 0.45882, 0.71765]",
+      "content" : "https://doi.org/10.3390/app16062812"
+    } ]
+  } ]
+}
